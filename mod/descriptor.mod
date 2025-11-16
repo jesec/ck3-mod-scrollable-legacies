@@ -1,7 +1,7 @@
-version="0.0.1"
-supported_version="1.18.0.*"
-name="My CK3 Mod"
+version="1.0"
 tags={
-	"Gameplay"
-	"Fixes"
+	"Graphics"
+	"Utilities"
 }
+name="Scrollable Legacies"
+supported_version="1.18.*"

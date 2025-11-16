@@ -1190,6 +1190,7 @@ types DynastyView
 			vbox = {
 				datacontext = "[DynastyHouse.GetDynasty]"
 				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
 				spacing = 5
 				margin_top = 5
 
@@ -1220,264 +1221,280 @@ types DynastyView
 					}
 				}
 
-				#This gridbox should display 5 empty spaces if you don't have any legacies yet. New legacies are added on top of those. If you have over 5 legacies, the icons become smaller.
-				dynamicgridbox = {
-					datamodel = "[DynastyHouseView.GetLegacies]"
-					visible = "[Not(LessThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)10'))]"
-					datamodel_wrap = 6
-					flipdirection = yes
-
-					item = {
-						widget = {
-							size = { 95 95 }
-							tooltip = "[DynastyLegacyItem.GetTooltip]"
-
-							widget_legacy_icon = {}
-
-							widget = {
-								parentanchor = bottom|hcenter
-								position = { 0 -15 }
-								allow_outside = yes
-
-								flowcontainer = {
-									name = "progress_none"
-									spacing = 2
-									parentanchor = center
-
-									legacy_progress_none = {}
-									legacy_progress_none = {}
-									legacy_progress_none = {}
-									legacy_progress_none = {}
-									legacy_progress_none = {}
-								}
-
-								flowcontainer = {
-									name = "progress"
-									spacing = 2
-									parentanchor = center
-
-									legacy_progress = {
-										visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
-									}
-
-									legacy_progress = {
-										visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
-									}
-
-									legacy_progress = {
-										visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
-									}
-
-									legacy_progress = {
-										visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
-									}
-
-									legacy_progress = {
-										visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
-									}
-								}
-							}
-						}
-					}
-				}
-
-				vbox = {
-					visible = "[LessThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)10')]"
+				scrollbox = {
+					name = "scrollbox"
 					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					min_height = 300
 
-					widget = {
-						layoutpolicy_horizontal = expanding
-						size = { 0 100 }
-						scissor = yes
+					blockoverride "scrollbox_content"
+					{
+						vbox = {
+							name = "scrollContent"
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
 
-						dynamicgridbox = {
-							datamodel = "[DynastyHouseView.GetLegacies]"
-							datamodel_wrap = 4
-							flipdirection = yes
-							parentanchor = top|hcenter
-							size = { 0 154 }
+							#This gridbox should display 5 empty spaces if you don't have any legacies yet. New legacies are added on top of those. If you have over 5 legacies, the icons become smaller.
+							dynamicgridbox = {
+								datamodel = "[DynastyHouseView.GetLegacies]"
+								visible = "[Not(LessThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)10'))]"
+								datamodel_wrap = 6
+								flipdirection = yes
 
-							item = {
-								widget = {
-									size = { 120 100 }
-									tooltip = "[DynastyLegacyItem.GetTooltip]"
-
-									widget_legacy_icon = {}
-
+								item = {
 									widget = {
-										parentanchor = bottom|hcenter
-										position = { 0 -15 }
-										allow_outside = yes
+										size = { 95 95 }
+										tooltip = "[DynastyLegacyItem.GetTooltip]"
 
-										flowcontainer = {
-											name = "progress_none"
-											spacing = 2
-											parentanchor = center
+										widget_legacy_icon = {}
 
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-										}
+										widget = {
+											parentanchor = bottom|hcenter
+											position = { 0 -15 }
+											allow_outside = yes
 
-										flowcontainer = {
-											name = "progress"
-											spacing = 2
-											parentanchor = center
+											flowcontainer = {
+												name = "progress_none"
+												spacing = 2
+												parentanchor = center
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+												legacy_progress_none = {}
+												legacy_progress_none = {}
+												legacy_progress_none = {}
+												legacy_progress_none = {}
+												legacy_progress_none = {}
 											}
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
-											}
+											flowcontainer = {
+												name = "progress"
+												spacing = 2
+												parentanchor = center
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
-											}
+												legacy_progress = {
+													visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+												}
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
-											}
+												legacy_progress = {
+													visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
+												}
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+												legacy_progress = {
+													visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
+												}
+
+												legacy_progress = {
+													visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
+												}
+
+												legacy_progress = {
+													visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+												}
 											}
 										}
 									}
 								}
 							}
-						}
-					}
 
-					widget = {
-						visible = "[Not(GreaterThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)7'))]"
-						size = { 360 100 }
-						scissor = yes
+							vbox = {
+								visible = "[LessThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)10')]"
+								layoutpolicy_horizontal = expanding
 
-						dynamicgridbox = {
-							datamodel = "[DynastyHouseView.GetLegacies]"
-							flipdirection = yes
-							parentanchor = bottom
-							position = { -480 0 }
-							size = { 0 154 }
-
-							item = {
 								widget = {
-									size = { 120 100 }
-									tooltip = "[DynastyLegacyItem.GetTooltip]"
+									layoutpolicy_horizontal = expanding
+									size = { 0 100 }
+									scissor = yes
 
-									widget_legacy_icon = {}
+									dynamicgridbox = {
+										datamodel = "[DynastyHouseView.GetLegacies]"
+										datamodel_wrap = 4
+										flipdirection = yes
+										parentanchor = top|hcenter
+										size = { 0 154 }
 
-									widget = {
-										parentanchor = bottom|hcenter
-										position = { 0 -15 }
-										allow_outside = yes
+										item = {
+											widget = {
+												size = { 120 100 }
+												tooltip = "[DynastyLegacyItem.GetTooltip]"
 
-										flowcontainer = {
-											name = "progress_none"
-											spacing = 2
-											parentanchor = center
+												widget_legacy_icon = {}
 
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-										}
+												widget = {
+													parentanchor = bottom|hcenter
+													position = { 0 -15 }
+													allow_outside = yes
 
-										flowcontainer = {
-											name = "progress"
-											spacing = 2
-											parentanchor = center
+													flowcontainer = {
+														name = "progress_none"
+														spacing = 2
+														parentanchor = center
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
-											}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+													}
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
-											}
+													flowcontainer = {
+														name = "progress"
+														spacing = 2
+														parentanchor = center
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
-											}
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+														}
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
-											}
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
+														}
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+														}
+													}
+												}
 											}
 										}
 									}
 								}
-							}
-						}
-					}
 
-					widget = {
-						visible = "[GreaterThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)7')]"
-						size = { 550 100 }
-						scissor = yes
-
-						dynamicgridbox = {
-							datamodel = "[DynastyHouseView.GetLegacies]"
-							flipdirection = yes
-							parentanchor = bottom
-							position = { -440 0 }
-							size = { 0 154 }
-
-							item = {
 								widget = {
-									size = { 110 100 }
-									tooltip = "[DynastyLegacyItem.GetTooltip]"
+									visible = "[Not(GreaterThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)7'))]"
+									size = { 360 100 }
+									scissor = yes
 
-									widget_legacy_icon = {}
+									dynamicgridbox = {
+										datamodel = "[DynastyHouseView.GetLegacies]"
+										flipdirection = yes
+										parentanchor = bottom
+										position = { -480 0 }
+										size = { 0 154 }
 
-									widget = {
-										parentanchor = bottom|hcenter
-										position = { 0 -15 }
-										allow_outside = yes
+										item = {
+											widget = {
+												size = { 120 100 }
+												tooltip = "[DynastyLegacyItem.GetTooltip]"
 
-										flowcontainer = {
-											name = "progress_none"
-											spacing = 2
-											parentanchor = center
+												widget_legacy_icon = {}
 
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
-											legacy_progress_none = {}
+												widget = {
+													parentanchor = bottom|hcenter
+													position = { 0 -15 }
+													allow_outside = yes
+
+													flowcontainer = {
+														name = "progress_none"
+														spacing = 2
+														parentanchor = center
+
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+													}
+
+													flowcontainer = {
+														name = "progress"
+														spacing = 2
+														parentanchor = center
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+														}
+													}
+												}
+											}
 										}
+									}
+								}
 
-										flowcontainer = {
-											name = "progress"
-											spacing = 2
-											parentanchor = center
+								widget = {
+									visible = "[GreaterThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)7')]"
+									size = { 550 100 }
+									scissor = yes
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
-											}
+									dynamicgridbox = {
+										datamodel = "[DynastyHouseView.GetLegacies]"
+										flipdirection = yes
+										parentanchor = bottom
+										position = { -440 0 }
+										size = { 0 154 }
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
-											}
+										item = {
+											widget = {
+												size = { 110 100 }
+												tooltip = "[DynastyLegacyItem.GetTooltip]"
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
-											}
+												widget_legacy_icon = {}
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
-											}
+												widget = {
+													parentanchor = bottom|hcenter
+													position = { 0 -15 }
+													allow_outside = yes
 
-											legacy_progress = {
-												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+													flowcontainer = {
+														name = "progress_none"
+														spacing = 2
+														parentanchor = center
+
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+														legacy_progress_none = {}
+													}
+
+													flowcontainer = {
+														name = "progress"
+														spacing = 2
+														parentanchor = center
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
+														}
+
+														legacy_progress = {
+															visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+														}
+													}
+												}
 											}
 										}
 									}

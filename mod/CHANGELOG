@@ -1,0 +1,20 @@
+# Scrollable Legacies Changelog
+
+## v1.0 - 2025-11-16
+
+**Initial Release**
+- Extracted GUI functionality from More Legacies v2.0
+- Standalone scrollable dynasty legacy track display
+- Dynamic icon sizing based on track count
+- Compatible with CK3 1.18.*
+
+**Features:**
+- Scrollbox container for unlimited legacy tracks
+- Automatic layout adjustment for 1-9 vs 10+ tracks
+- Maintains all vanilla animations and tooltips
+- Zero performance overhead
+
+**Purpose:**
+- Enables display of 6+ legacy tracks without UI overflow
+- Modular design for use with any legacy content mod
+- Clean separation of GUI and game logic
