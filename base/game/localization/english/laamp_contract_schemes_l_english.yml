@@ -1742,7 +1742,7 @@
  laamp_base_contract_schemes.2312.t.success: "$laamp_base_contract_schemes.2004.t$: Success!"
  laamp_base_contract_schemes.2312.t.failure: "$laamp_base_contract_schemes.2004.t$: Failure!"
  laamp_base_contract_schemes.2312.t.ignored: "$laamp_base_contract_schemes.2004.t$: Task Ignored"
- laamp_base_contract_schemes.2312.desc.method.stewardship: "We pour over [char_current.GetTitledFirstNamePossessive] notes, receipts, and what witnesses [char_current.GetSheHe] can scrounge up on short notice relating to [char_current.GetHerHis] dealings at great length."
+ laamp_base_contract_schemes.2312.desc.method.stewardship: "We pore over [char_current.GetTitledFirstNamePossessive] notes, receipts, and what witnesses [char_current.GetSheHe] can scrounge up on short notice relating to [char_current.GetHerHis] dealings at great length."
  laamp_base_contract_schemes.2312.desc.method.diplomacy: "Our conversation lasts for well over an hour, going over and over and over every last little remote detail of [char_current.GetTitledFirstNamePossessive] dealings in [destination_1.GetBaseNameNoTier], where they happened, who they were with, how much was earnt, and so on."
  laamp_base_contract_schemes.2312.desc.method.intrigue: "I lead the conversation down all the usual avenues, making sure to leave enough pauses and trailing trains of thought to give [char_current.GetTitledFirstName] plenty to slip up on."
  laamp_base_contract_schemes.2312.desc.method.learning: "We talk for what #EMP feels#! like the better part of the day, discussing every conceivable aspect of [char_current.GetTitledFirstNamePossessive] businesses in [destination_1.GetBaseNameNoTier]. No stone left unturned, no question unasked."

@@ -234,6 +234,7 @@
  attempt_to_force_surrender_opinion:0 "Attempted to Force Surrender"
  theft_opinion:0 "Theft"
  siphoned_treasury_crime:0 "Siphoned Treasury"
+ tax_avoidance_crime: "Avoided Tax"
  embezzled_opinion:0 "Embezzled From Me"
  elopement_opinion:0 "Elopement"
  attempted_elopement_opinion:0 "Attempted Elopement"

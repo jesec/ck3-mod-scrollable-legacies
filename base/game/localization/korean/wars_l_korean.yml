@@ -199,7 +199,7 @@
  nomadic_war_white_peace_desc: "반란을 일으킨 [Concept( 'counties', '영지' )|E]들과 [vassals|E]들이 봉역의 일부로 남습니다."
  nomadic_war_defeat_desc: "반란을 일으킨 [Concept( 'counties', '영지' )|E]들과 [vassals|E]들이 봉역의 일부로 남습니다. [attacker.GetShortUIName](은)는 투옥됩니다. 반란을 일으킨 모든 [Concept( 'counties', '영지' )|E]의 [county_opinion|E]이 강제로 증가합니다."
  populist_war: "반란"
- populist_war_victory_desc: "반란을 일으킨 [Concept( 'counties', '영지' )|E]들이 [attacker.GetShortUIName](을)를 영주로 옹립하며 독립합니다."
+ populist_war_victory_desc: "반란을 일으킨 [Concept( 'counties', '영지' )|E]들이 [de_jure|E] [duchies|E]을 차지하고 각 공격자를 영주로 삼은 독립 봉역이 됩니다."
  populist_war_white_peace_desc: "반란을 일으킨 [Concept( 'counties', '영지' )|E]들과 [vassals|E]들이 봉역의 일부로 남습니다."
  populist_war_defeat_desc: "반란을 일으킨 [Concept( 'counties', '영지' )|E]들과 [vassals|E]들이 봉역의 일부로 남습니다. 모든 반란 $game_concept_vassals$들은 [defender.GetShortUIName]에 의해 [imprisoned|E]됩니다."
  claimant_faction_war_victory_desc: "[claimant|E]가 분쟁의 대상인 [title|E]를 차지합니다."

@@ -65,7 +65,7 @@
  will_found_noble_family_tt: "Ihr werdet Oberhaupt einer neuen [noble_family|E] werden"
  # tgp_japan_emperor_restoration_decision
  tgp_japan_decision.9301.t: "Der geöffnete Käfig"
- tgp_japan_decision.9301.desc: "Als Kaiser gewann ich meinen rechtmäßigen Platz als wahrer Anführer dieses Großreichs zurück. Meine Macht wird nicht mehr von jenen ausgübt, die ihre eigenen Ambitionen nähren wollen, sondern alles wurde dem Chrysanthementhron zurückgegeben."
+ tgp_japan_decision.9301.desc: "Als Kaiser gewann ich meinen rechtmäßigen Platz als wahrer Anführer dieses Großreichs zurück.\n\nMeine Macht wird nicht mehr von jenen ausgübt, die ihre eigenen Ambitionen nähren wollen, sondern alles wurde dem Chrysanthementhron zurückgegeben."
  tgp_japan_decision.9301.a: "Eine Sonne, um das Land zu führen."
  tgp_japan_decision.9302.t: "Der [tenno.GetTitleAsNameNoTooltip] triumphiert"
  tgp_japan_decision.9302.desc: "Gerüchte über die Rückkehr $game_concept_tenno_possessive$ verbreiten sich wie ein Lauffeuer. [tenno.GetName|U] hat [tenno.Custom('DE_PRO_POS_S_3P')]e kaiserliche Präsenz wiederhergestellt und wird hoffentlich die Macht nutz- und willenlosen Händen entreißen.\n\n[tenno.Custom('DE_PRO_PER_S_3P_N')|U] will nun unmittelbarer vom Chrysanthementhron über das Volk dieses Landes herrschen, und [tenno.Custom('DE_PRO_POS_S_3P')]e Herrschaft soll nicht länger als eine reine Zeremonie gesehen werden."

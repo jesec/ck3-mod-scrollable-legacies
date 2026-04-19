@@ -159,3 +159,5 @@
  grant_court_position: "Даровать придворную должность"
  grant_court_position_desc: "[recipient.GetShortUINameNoTooltip] получит от вас [Concept('court_position', 'положение при дворе')|E]"
  request_court_position_extra_icon: "$hook_extra_icon$"
+ celestial_extinguish_noble_family_interaction: "Уничтожить благородное семейство"
+ celestial_extinguish_noble_family_interaction_desc: "[recipient.GetShortUIName] и [Select_CString(recipient.IsFemale, 'ее', 'его')] взрослые наследники будут [Concept('execute', 'казнены')|E], а остальных родичей ждет [Concept('banish', 'изгнание')|E] из [Concept('realm', 'державы')|E]"

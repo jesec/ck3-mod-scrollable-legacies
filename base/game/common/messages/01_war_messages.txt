@@ -399,6 +399,13 @@ msg_siege_piety = {
 	style = good
 	message_filter_type = siege_won
 }
+msg_siege_effect = {
+	icon = "siege"
+	title = event_message_title
+	desc = event_message_effect
+	style = good
+	message_filter_type = siege_won
+}
 
 ######################
 ### EVENT

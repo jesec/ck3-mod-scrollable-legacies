@@ -322,6 +322,9 @@ window = {
 						text = "CULTURE_CREATION_TRADITIONS_COUNT"
 						default_format = "#I"
 						margin_bottom = 15
+						layoutpolicy_horizontal = expanding
+						autoresize = no
+						align = hcenter
 					}
 
 					scrollbox = {

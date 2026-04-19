@@ -159,7 +159,7 @@
  tour_general.1001.a: "Ich hoffe, [tour_general_3001_target_courtier.GetFirstNameNoTooltip] wird [visiting_liege.Custom('DE_PRO_PER_S_3P_D')] gut dienen."
  tour_general.1001.a_theft_liege: "[tour_general_3001_target_courtier.GetFirstNameNoTooltip] hat mir eh noch nie viel genützt."
  tour_general.1001.b: "Quid pro quo, [visiting_liege.GetTitledFirstNameNoTooltip]."
- tour_general.1001.b.tt: "Ihr verlangt im Austausch dafür, dass [tour_general_3001_target_courtier.GetFirstName] sich dem Hof von [visiting_liege.GetTitledFirstName] anschließt, einen [favor|E]"
+ tour_general.1001.b.tt: "Ihr verlangt im Austausch dafür, dass [tour_general_3001_target_courtier.GetFirstName] sich dem Hof von [visiting_liege.GetTitledFirstName] anschließt, einen Gefallen"
  tour_general.1001.c: "Ich bin mir sicher, [visiting_liege.GetTitleAsNameNoTooltip] kann dafür sorgen, dass es sich für mich lohnt …"
  tour_general.1001.c.tt: "Ihr verlangt im Austausch dafür, dass [tour_general_3001_target_courtier.GetFirstName] sich dem Hof von [visiting_liege.GetTitledFirstName] anschließt, etwas Gold"
  tour_general.1001.d: "Es kann nur #EMP einen#! Grund geben, dass [visiting_liege.Custom('DE_PRO_PER_S_3P_N')] [tour_general_3001_target_courtier.GetFirstNameNoTooltip] haben will …"

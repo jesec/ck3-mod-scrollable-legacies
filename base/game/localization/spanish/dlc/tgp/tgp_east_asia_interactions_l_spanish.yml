@@ -5,6 +5,7 @@
  offer_tributary_status_interaction_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip] sigue contrariad[recipient.Custom('ES_OA')] por la última vez que solicitaste que se convirtiese en tu $game_concept_tributary$"
  offer_tributary_status_interaction_tributary_was_recently_subjugated: "[recipient.GetShortUINameNoTooltip] fue subyugad[recipient.Custom('ES_OA')] por su [suzerain|El] recientemente"
  offer_tributary_status_interaction_warred_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip] sigue intimidad[recipient.Custom('ES_OA')] desde la última vez que intentó unirse a ti como $game_concept_tributary$"
+ offer_tributary_status_interaction_cant_use_tributaries_tt: "El [government|El] de [Select_CString( actor.IsLocalPlayer, 'tu personaje', actor.GetShortUIName )] no permite [tributaries|El]"
  offer_tributary_status_interaction_suzerain_intervene.t: "El [suzerain|lE] de [Select_CString(recipient.IsLocalPlayer,'tu personaje', recipient.GetShortUIName)] interviene"
  offer_tributary_status_interaction_suzerain_starts_war_tt: "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUIName|U] empieza una guerra contra [Select_CString(recipient.IsLocalPlayer,'ti', recipient.GetShortUIName)] con el [casus_belli|lE] [GetCasusBelliType('make_tributary_cb').GetName]#!"
  offer_tributary_status_interaction_suzerain_nothing.t: "El [suzerain|lE] de [Select_CString(recipient.IsLocalPlayer,'tu personaje', recipient.GetShortUIName)] no hace nada"

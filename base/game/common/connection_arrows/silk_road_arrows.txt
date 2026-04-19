@@ -243,7 +243,6 @@ seventh = {
 		10027
 		10024
 		10021
-		10453
 		9761
 		9763
 		9755
@@ -496,11 +495,11 @@ twentieth = {
 twentyfirst = {
 	arrow_type = "silkRoadArrow"
 	provinces = {
-		9310 # Gonjo
-		9314
-		9316
-		10875
 		10869 # Dali
+		10875
+		9316
+		9314
+		9310 # Gonjo
 	}
 }
 

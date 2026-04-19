@@ -82,6 +82,9 @@
 
  tribute_mission_notification.title: "Tribute Paid by [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  tribute_mission_notification.desc: "[tributary_scope.GetShortUIName|U] went on a [tribute_mission|E] and paid Tribute at your [court|E]"
+
+ tribute_mission.new_tributary.title: "[tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] Pledged Tribute"
+ tribute_mission.new_tributary.desc: "[tributary_scope.GetShortUIName|U] pledged to become your [tributary|E] while paying [tribute|E] to you"
  
  qualifies_for_tribute_mission_trigger: "You do not have any valid [tribute|E]"
  qualifies_for_tribute_mission_gold_trigger: "You do not have @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0]"
@@ -90,7 +93,7 @@
  suzerain_is_china: "[GetTitleByKey('h_china').GetHolder.GetShortUIName|U] is [ROOT.Char.GetShortUINamePossessive] [suzerain|E]"
  neighbor_is_china: "[ROOT.Char.GetShortUIName|U] [CharAreIs(ROOT.Char)] an [independent|E] [ruler|E] neighboring [GetTitleByKey('h_china').GetDefinitiveName]"
  null: ""
- neighbor_is_hegemony: "[ROOT.Char.GetShortUIName|U] [CharAreIs(ROOT.Char)] an [independent|E] [ruler|E] neighboring a [hegemony]"
+ neighbor_is_hegemony: "[ROOT.Char.GetShortUIName|U] [CharAreIs(ROOT.Char)] an [independent|E] [ruler|E] neighboring a [hegemony|E]"
  #tribute_mission_decision.tribute_mission_grace: "You have paid [tribute|E] recently, [GetPlayer.Custom('TributeMissionDecision')] will be available again on [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'tribute_mission_grace') )]"
  
  tribute_mission_gold: "$petition_liege_gold$"

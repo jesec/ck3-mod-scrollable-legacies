@@ -365,7 +365,11 @@
  message_filter_provincial_army_assignment: "@titles_icon! 州軍の割り当て"
  message_filter_provincial_army_assignment_desc: "[provincial|E][army|E]が割り当てられる"
  message_filter_admin_provincial_army_requests: "@soldier_icon! 州軍を要請"
- message_filter_admin_provincial_army_requests_desc: "州軍の要請が承認されるか、却下される"
+ message_filter_admin_provincial_army_requests_desc: "[provincial_army|E]の要請が承認されるか、却下される"
+ message_filter_admin_new_powerful_family: "@dynasty_icon! 新たな有力一族"
+ message_filter_admin_new_powerful_family_desc: "領国内の[noble_family|E]が[powerful|E]一族または[dominant|E]一族になる"
+ message_filter_admin_new_noble_family: "@dynasty_icon! 新たな貴族"
+ message_filter_admin_new_noble_family_desc: "新しい[noble_family|E]が領国内に設立される"
  #SITUATIONS
  message_filter_great_steppe: "@county_fertility_icon! グレート・ステップ"
  message_filter_great_steppe_desc: "[the_great_steppe|E]に関連する変化と発展"
@@ -395,3 +399,4 @@
  message_filter_custom_message_desc: "自分宛てのメッセージ"
  #TRIBUTARY
  message_filter_tributary: "@tributary_icon! $CONTRACT_VASSAL_SIGNATURE_TRIBUTARY_TYPE$"
+ message_filter_tributary_desc: "あなたの[tributaries|E]に関連する変化と発展"

@@ -87,10 +87,10 @@
  court.3030.d:0 ""There's no need for adjustments.""
  
  court.3031.t:0 "Smoothing Things Over"
- court.3031.desc:0 "As I'm spending a brief moment of calm at my court, silently people-watching, my [liw.Custom('GetTargetCourtPosition')], [liw.GetFirstName], approaches me.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], a moment of your time, please?"\n\n[liw.GetSheHe|U] [liw.Custom('quirk_pos_present')] while awaiting my permission. I nod to [liw.GetHerHim] to continue.\n\n"In my work, I have a good impression on what people think and what makes them tick. With this knowledge I can try to smooth things over with a group of your interest, what do you say?""
+ court.3031.desc:0 "As I'm spending a brief moment of calm at my court, silently people-watching, my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('liw'))] [liw.GetFirstName] approaches me.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], a moment of your time, please?"\n\n[liw.GetSheHe|U] [liw.Custom('quirk_pos_present')] while awaiting my permission. I nod to [liw.GetHerHim] to continue.\n\n"In my work, I have a good impression on what people think and what makes them tick. With this knowledge I can try to smooth things over with a group of your interest, what do you say?""
  court.3031.a:0 "Improve my standing with my vassals from minorities."
  court.3031.b:0 "Put in a good word for me among the Barons."
- court.3031.c:0 "I wish to establish a better relationship with the [reference_county.GetCulture.GetCollectiveNounNoTooltip]."
+ court.3031.c:0 "I wish to establish a better relationship with the [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]."
  court.3031.d:0 "I care not what others think."
 
  #Homesickness

@@ -4,7 +4,7 @@
  church_holding: "寺院"
  tribal_holding: "部族"
  nomad_holding: "遊牧民の居住区"
- herder_holding: "小群遊牧民の野営地"
+ herder_holding: "遊牧集団の野営地"
  temple_citadel_holding: "寺院要塞"
  city_holding_concept_key: "[city|E]"
  church_holding_concept_key: "[temple|E]"

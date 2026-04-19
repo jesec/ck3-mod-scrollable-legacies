@@ -48,6 +48,18 @@ innovation_zweihanders = {
 
 	flag = global_regional
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_late_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_adaptive_militia = {
@@ -63,6 +75,18 @@ innovation_adaptive_militia = {
 	unlock_maa = goedendag
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_late_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_valets = {
@@ -78,6 +102,18 @@ innovation_valets = {
 	unlock_maa = gendarme
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_late_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_pike_columns = {
@@ -93,6 +129,18 @@ innovation_pike_columns = {
 	unlock_maa = picchieri
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_high_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_legionnaires = {
@@ -113,6 +161,18 @@ innovation_legionnaires = {
 	unlock_maa = praetorian
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_late_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_desert_tactics = {
@@ -130,6 +190,18 @@ innovation_desert_tactics = {
 	unlock_maa = chasseur
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_high_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_caballeros = {
@@ -143,6 +215,10 @@ innovation_caballeros = {
 
 	flag = global_regional
 	flag = tribal_era_regional
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_hobbies = {
@@ -156,6 +232,18 @@ innovation_hobbies = {
 
 	flag = global_regional
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_high_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_rectilinear_schiltron = {
@@ -171,6 +259,18 @@ innovation_rectilinear_schiltron = {
 	unlock_maa = schiltron
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_late_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_bamboo_bows = {
@@ -184,6 +284,10 @@ innovation_bamboo_bows = {
 
 	flag = global_regional
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 
@@ -198,6 +302,10 @@ innovation_sahel_horsemen = {
 
 	flag = global_regional
 	flag = tribal_era_regional
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_sarawit = {
@@ -213,6 +321,18 @@ innovation_sarawit = {
 	unlock_maa = sarawit
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_high_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
 }
 
 innovation_repeating_crossbow = {
@@ -250,6 +370,10 @@ innovation_repeating_crossbow = {
 	unlock_maa = shenbigong
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_pole_vault = {
@@ -270,4 +394,8 @@ innovation_pole_vault = {
 	unlock_maa = guanch_vaulter
 
 	flag = global_maa
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }

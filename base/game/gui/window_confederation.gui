@@ -163,7 +163,6 @@ types ConfederationWindow
 			}
 
 			button = {
-
 				visible = "[Not(Confederation.GetType.IsHouseBasedConfederation)]"
 				parentanchor = top|left
 				alwaystransparent = yes
@@ -186,6 +185,8 @@ types ConfederationWindow
 				visible = "[Confederation.GetType.IsHouseBasedConfederation]"
 				parentanchor = left|top
 				position = { 10 10 }
+
+				blockoverride "glow" {}
 			}
 		}
 
@@ -295,7 +296,7 @@ types ConfederationWindow
 			flipdirection = yes
 
 			item = {
-				hbox_confederation_house_item = {}
+				widget_confederation_house_item = {}
 			}
 		}
 
@@ -392,9 +393,9 @@ types ConfederationWindow
 	}
 
 	type hbox_confederation_bloc_leader = hbox {
-		layoutpolicy_horizontal = expanding
 		datacontext = "[Confederation.GetLeadingHouse]"
 		datacontext = "[Confederation.GetLeadingHouse.GetHeadOfHouse]"
+		layoutpolicy_horizontal = expanding
 
 		margin_left = 15
 		spacing = 16
@@ -417,7 +418,6 @@ types ConfederationWindow
 
 		# Head of leading house
 		widget = {
-
 			size = { 195 225 }
 
 			portrait_torso = {
@@ -559,79 +559,12 @@ types ConfederationWindow
 	}
 
 	# Single member of the select confederation.
-	type hbox_confederation_house_item = widget {
+	type widget_confederation_house_item = widget {
 		size = { 120 202 }
+		allow_outside = yes
 
 		onmousehierarchyenter = "[ConfederationWindow.SetHoveredHouse( DynastyHouse.Self )]"
 		onmousehierarchyleave = "[ConfederationWindow.ClearHoveredHouse]"
-
-		coa_house_big = {
-			parentanchor = hcenter
-
-			widget = {
-				parentanchor = bottom|right
-				widgetanchor = bottom|right
-				size = { 20 20 }
-				position = { -7 -20 }
-				icon_house_relation = {
-					parentanchor = bottom|right
-					size = { 20 20 }
-
-					datacontext = "[DynastyHouse.GetHouseRelationWith( GetPlayer.GetHouse )]"
-					tooltipwidget = {
-						house_relation_item_tooltip_no_progressbar = {
-							blockoverride "description_prefix" {
-								text_single = {
-									layoutpolicy_horizontal = expanding
-									text = "house_relation_your_relation_with"
-									default_format = "#weak"
-									align = left
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-
-		button_round = {
-			visible = "[And( And( ConfederationWindow.IsHouseHovered( DynastyHouse.Self ), Character.IsPlayerInteractionShown( 'kick_from_house_bloc_interaction' ) ), ConfederationWindow.IsPlayerHouseHeadOfConfederation )]"
-			datacontext = "[DynastyHouse.GetHeadOfHouse]"
-			position = { 90 0 }
-			size = { 40 40 }
-
-			enabled = "[Character.IsPlayerInteractionValid( 'kick_from_house_bloc_interaction' )]"
-			onclick = "[Character.OpenPlayerInteraction( 'kick_from_house_bloc_interaction' )]"
-
-			tooltip = "[Character.GetPlayerInteractionTooltip( 'kick_from_house_bloc_interaction' )]"
-			using = tooltip_es
-
-			button_kick_player = {
-				alwaystransparent = yes
-				parentanchor = center
-				size = { 20 20 }
-			}
-		}
-
-		button_round = {
-			datacontext = "[DynastyHouse.GetHeadOfHouse]"
-			visible = "[And( And( ConfederationWindow.IsHouseHovered( DynastyHouse.Self ), Character.IsPlayerInteractionShown( 'grant_house_bloc_leadership_interaction' ) ), ConfederationWindow.IsPlayerHouseHeadOfConfederation )]"
-			position = { 90 40 }
-			size = { 40 40 }
-
-			enabled = "[Character.IsPlayerInteractionValid( 'grant_house_bloc_leadership_interaction' )]"
-			onclick = "[Character.OpenPlayerInteraction( 'grant_house_bloc_leadership_interaction' )]"
-
-			tooltip = "[Character.GetPlayerInteractionTooltip( 'grant_house_bloc_leadership_interaction' )]"
-			using = tooltip_es
-
-			button_icon = {
-				parentanchor = center
-				alwaystransparent = yes
-				size = { 20 20 }
-				texture = "gfx/interface/icons/flat_icons/grant_house_bloc_leadership.dds"
-			}
-		}
 
 		vbox = {
 			layoutpolicy_vertical = expanding
@@ -639,15 +572,12 @@ types ConfederationWindow
 			allow_outside = yes
 			spacing = 2
 
-			onmousehierarchyenter = "[ConfederationWindow.SetHoveredHouse( DynastyHouse.Self )]"
-			onmousehierarchyleave = "[ConfederationWindow.ClearHoveredHouse]"
-
 			coa_house_big = {
+				allow_outside = yes
 
 				onmousehierarchyenter = "[GetVariableSystem.Set( 'bloc_house_hovered', 'true' )]"
 				onmousehierarchyleave = "[GetVariableSystem.Clear( 'bloc_house_hovered' )]"
 
-				
 				# just adjust the tooltip positioning
 				blockoverride "coa_tooltip"
 				{
@@ -657,13 +587,10 @@ types ConfederationWindow
 					using = tooltip_se
 				}
 
-
 				powerful_family_bonus_icon_with_frame = {
 					name = "house_aspiration_mismatch_warning"
 					visible = "[Not( ObjectsEqual( DynastyHouse.GetHouseAspiration.Self, Confederation.GetLeadingHouse.GetHouseAspiration.Self ) )]"
 					datacontext = "[DynastyHouse.GetHouseAspiration]"
-
-					
 					parentanchor = bottom|left
 					size = { 36 36 }
 
@@ -682,8 +609,8 @@ types ConfederationWindow
 				}
 
 				button_round = {
-					visible = "[And( And( ConfederationWindow.IsHouseHovered( DynastyHouse.Self ), Character.IsPlayerInteractionShown( 'kick_from_house_bloc_interaction' ) ), And( ConfederationWindow.IsPlayerHouseHeadOfConfederation , GetVariableSystem.Exists( 'bloc_house_hovered' ) ) )]"
 					datacontext = "[DynastyHouse.GetHeadOfHouse]"
+					visible = "[And( And( ConfederationWindow.IsHouseHovered( DynastyHouse.Self ), Character.IsPlayerInteractionShown( 'kick_from_house_bloc_interaction' ) ), And( ConfederationWindow.IsPlayerHouseHeadOfConfederation , GetVariableSystem.Exists( 'bloc_house_hovered' ) ) )]"
 					allow_outside = yes
 					position = { 90 0 }
 					size = { 40 40 }
@@ -695,8 +622,8 @@ types ConfederationWindow
 					using = tooltip_es
 
 					button_kick_player = {
-						alwaystransparent = yes
 						parentanchor = center
+						alwaystransparent = yes
 						size = { 20 20 }
 					}
 				}
@@ -707,7 +634,6 @@ types ConfederationWindow
 					allow_outside = yes
 					position = { 90 40 }
 					size = { 40 40 }
-
 
 					enabled = "[Character.IsPlayerInteractionValid( 'grant_house_bloc_leadership_interaction' )]"
 					onclick = "[Character.OpenPlayerInteraction( 'grant_house_bloc_leadership_interaction' )]"
@@ -720,6 +646,44 @@ types ConfederationWindow
 						alwaystransparent = yes
 						size = { 20 20 }
 						texture = "gfx/interface/icons/flat_icons/grant_house_bloc_leadership.dds"
+					}
+				}
+
+				widget = {
+					parentanchor = bottom|right
+					widgetanchor = bottom|right
+					size = { 20 20 }
+					position = { -5 -5 }
+
+					icon_house_relation = {
+						parentanchor = bottom|right
+						size = { 20 20 }
+
+						datacontext = "[DynastyHouse.GetHouseRelationWith( GetPlayer.GetHouse )]"
+
+						tooltipwidget = {
+							house_relation_item_tooltip_no_progressbar = {
+								blockoverride "description_prefix" {
+									text_single = {
+										layoutpolicy_horizontal = expanding
+										text = "house_relation_your_relation_with"
+										default_format = "#weak"
+										align = left
+									}
+								}
+							}
+						}
+
+						background = {
+							using = Background_Area_Dark
+							alpha = 0.8
+							margin = { 5 5 }
+
+							modify_texture = {
+								texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+								blend_mode = alphamultiply
+							}
+						}
 					}
 				}
 			}

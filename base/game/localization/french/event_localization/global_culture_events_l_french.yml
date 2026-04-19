@@ -43,3 +43,5 @@
  global_culture.3011.desc: "Le mélange éclectique des peuples du sud de l’Italie et de la Sicile a donné naissance à une culture unique, marquée par une myriade d’influences. Il est maintenant clair que les habitants du [county_to_change.GetName] ne se considèrent plus comme des [old_culture.GetCollectiveNoun], mais comme des [sicilian.GetCollectiveNoun] !"
  global_culture.3011.a: "Une évolution intéressante..."
  global_culture.3012.a: "Formidable !"
+ global_culture.4011.t: "Propagation de la culture [goryeo.GetNameNoTooltip]"
+ global_culture.4011.desc: "Les peuples des trois royaumes en sont venus à partager une identité plus large à la suite de leur unification, donnant naissance à une culture unique reflétant une multitude d’influences.\n\nLes habitants du [county_to_change.GetName] ne se considèrent plus comme des [old_culture.GetCollectiveNoun], mais comme des [goryeo.GetCollectiveNoun] !"

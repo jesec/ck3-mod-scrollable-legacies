@@ -446,9 +446,9 @@
  task_accept_culture_increased_development_growth: "\n$EFFECT_LIST_BULLET$#P Erhöhter Entwicklungs-Zuwachs#!"
  task_accept_culture_increased_opinion: "\n$EFFECT_LIST_BULLET$#P Erhöhte Meinung#!"
  task_accept_culture_acceptance_boost: "\n$EFFECT_LIST_BULLET$#P Kulturakzeptanz-Steigerung#!"
- task_accept_culture_reduced_tax_income: "\n$EFFECT_LIST_BULLET$#N Verringerte [tax|E]-Einnahmen#!"
+ task_accept_culture_reduced_tax_income: "\n$EFFECT_LIST_BULLET$#N Verringerte Steuer-Einnahmen#!"
  task_accept_culture_loss_of_control: "$task_develop_county_loss_of_control$"
- task_accept_culture_reduced_development_growth: "\n$EFFECT_LIST_BULLET$#N Verringerter [development|E]-Zuwachs#!"
+ task_accept_culture_reduced_development_growth: "\n$EFFECT_LIST_BULLET$#N Verringerter Entwickungs-Zuwachs#!"
  SPYMASTER_FIND_SECRETS_CHARACTER_MODIFIERS: "[character|E]-[modifier|E]"
  #Vizier Councillor
  task_vizier_default: "Herrscher unterstützen"
@@ -468,7 +468,7 @@
  liege_stopped_converting_county_title: "Lehnsherrbekehrung angehalten"
  liege_stopped_converting_county_desc: "Der [councillor.GetCouncilTitle] von [councillor_liege.GetShortUIName] hat aufgehört, [county.GetName] zu „[councillor_liege.GetFaith.GetName]“ zu [Concept('converting', 'bekehren')|E] #weak ([old_faith.GetAdjective])#!"
  liege_converted_county_title: "Lehnsherr bekehrte „[county.GetNameNoTierNoTooltip|V]“"
- liege_converted_county_desc: "Der [councillor.GetCouncilTitle] von [councillor_liege.GetShortUIName] hat [county.GetName] zu „[councillor_liege.GetFaith.GetName]“ [Concept('converting', 'bekehrt')|E] #weak ([old_faith.GetAdjective])#!"
+ liege_converted_county_desc: "Der [councillor.GetCouncilTitle] von [councillor_liege.GetShortUIName] hat [county.GetName] zu „[councillor_liege.GetFaith.GetName]“ [Concept('converted', 'bekehrt')|E] #weak ([old_faith.GetAdjective])#!"
  #Kurultai
  task_kurultai_default_1: "Hirten unterstützen"
  task_kurultai_default_2: "$task_kurultai_default_1$"

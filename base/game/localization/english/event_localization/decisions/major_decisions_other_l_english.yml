@@ -92,3 +92,20 @@
  major_decisions.7001.desc: "Deep in the wilderness, known to some as the Golden Land, [founder.GetNameNoTierNoTooltip] ascended to power as the [founder.GetTitleAsNameNoTooltip] of [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] and challenged the fate of [founder.GetHerHis] people.\n\nThe Tai people spent years searching for a homeland, roaming with pride as the region's nomads and gradually making their way south.\n\nWill their influence endure the passage of time?"
  major_decisions.7001.a: "Another one thrown into the hurricane."
  major_decisions.7001.b: "Are they a threat us? We will see."
+
+ #Brunei Kingdom
+ major_decisions.8000.t: "The Abode of Peace"
+ major_decisions.8000.desc: "[imam.GetTitledFirstName], who will be leading the next obligatory Friday prayer reminds me of the tradition of preparing a khutbah in the name of his [founder.GetTitleAsNameNoTooltip]. Other than the obligatory prayers and verses, [imam.GetSheHe] asks me about the part that shall be read to the believers to declare my sovereignty and guardianship over them."
+ major_decisions.8000.a: "Let them know the deeds of their [founder.GetTitleAsNameNoTooltip]."
+ major_decisions.8000.b: "All praise is due to Allah only."
+ brunei_kingdom_khutbah_prestige_option_modifier: "Protector of the Ummah"
+ brunei_kingdom_khutbah_piety_option_modifier: "Light of the Ummah"
+
+ #Brunei Empire
+ major_decisions.9000.t: "The Emperor's Gift of Accession"
+ major_decisions.9000.desc: "Rooted in our Islamic tradition, it is expected of a [founder.GetTitleAsNameNoTooltip] to give back to my blessed warriors, travelers of my land, and those in need with the freshly minted coins to my name."
+ major_decisions.9000.desc_steward: "\n\nMy [ROOT.Char.GetCouncillorPosition('councillor_steward').GetPositionName] [steward.GetTitledFirstName] is asking for the level of generosity I am willing to offer to my loyal subjects, as their protector."
+ major_decisions.9000.a: "Let the believers know the generosity of their [founder.GetTitleAsNameNoTooltip]!"
+ major_decisions.9000.b: "May Allah accept our sadaqah."
+ brunei_empire_high_sadaqah_modifier: "Generously Distributed Sadaqah"
+ brunei_empire_low_sadaqah_modifier: "Distributed Sadaqah"

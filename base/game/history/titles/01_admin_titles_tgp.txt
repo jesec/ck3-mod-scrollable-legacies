@@ -2580,9 +2580,9 @@ c_nf_gao_9ad8_40 = {
 c_nf_gao_9ad8_5 = {
 	867.1.1 = {
 		holder = han_2652
-		government = celestial_government
+		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = h_china
+		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -8123,9 +8123,9 @@ c_nf_sun_5b6b_20 = {
 c_nf_sun_5b6b_26 = {
 	867.1.1 = {
 		holder = han_2685
-		government = celestial_government
+		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = h_china
+		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -10576,9 +10576,9 @@ c_nf_yang_694a_13 = {
 c_nf_yang_694a_24 = {
 	867.1.1 = {
 		holder = han_2669
-		government = celestial_government
+		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = h_china
+		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -10967,6 +10967,23 @@ c_nf_you_6e38_7 = {
 c_nf_yu_4e8e_4 = {
 	867.1.1 = {
 		holder = han_3191
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		liege = h_china
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_yu_4E8E_11 = {
+	867.1.1 = {
+		holder = han_90074
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 		liege = h_china

@@ -351,6 +351,7 @@
  FREEZE_REASON_TRAVELING: "你正在旅行。"
  FREEZE_REASON_TARGET_TRAVELING: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip]正在旅行。"
  BEFRIENDING_AT_FEAST: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip]正和你参加同一场宴会。"
+ ALLOWING_TO_MOURN: "我们允许[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip]哀悼。"
  overthrow_regent: "推翻摄政"
  overthrow_regent_action: "推翻"
  overthrow_regent_desc: "我将绑架并[imprison|E][SCHEME.GetTargetCharacter.GetShortUINameNoTooltip]，强迫[SCHEME.GetTargetCharacter.GetHerHis]将[SCHEME.GetTargetCharacter.GetDiarchTitle]职位让给我！"

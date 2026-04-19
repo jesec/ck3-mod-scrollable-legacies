@@ -2,6 +2,7 @@
  GOVERNMENT_HAS_FLAG_TRIGGER: "[government|E] $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Twój [government|El] $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "[government|E] osoby znanej jako [CHARACTER.GetShortUINameNotMe] $FLAG$"
+ NONE_GOVERNMENT_HAS_FLAG_TRIGGER: "Ich [government|El] $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER: "Wymaga, by dany [government|El] $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Wymaga, by twój [government|El] $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "Wymaga, by [government|El] osoby znanej jako [CHARACTER.GetShortUINameNotMe] $FLAG$"

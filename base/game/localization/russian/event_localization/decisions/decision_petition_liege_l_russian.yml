@@ -150,7 +150,7 @@
  petition_ceremonial_liege_appointment_tooltip: "$petition_liege_decision_second_tooltip$"
  #Wedding
  petition_ceremonial_liege_wedding_desc: "Попросить, чтобы [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUIName] [Select_CString(ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.IsFemale, 'поддержала', 'поддержал' )] [Concept('marriage', 'брак')|E] между вашим [Concept('house', 'домом')|E] и [Concept('ceremonial_house', 'церемониальной династией')|E]"
- petition_ceremonial_liege_decision_option_wedding: "Монарший брак\n#low [Concept('marry', 'Вступить в брак')|E] с [Concept('ceremonial_house', 'церемониальной династией')|E]"
+ petition_ceremonial_liege_decision_option_wedding: "Монарший брак\n#low [Concept('marry', 'Вступить в брак')|E] с [Concept('ceremonial_house', 'церемониальной династией')|E]#!"
  petition_ceremonial_liege_wedding_tooltip: "$petition_liege_decision_second_tooltip$"
  #Privilege
  petition_ceremonial_liege_privilege_desc: "Попросить, чтобы [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUIName] [Select_CString(ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.IsFemale, 'признала', 'признал' )] достоинство [Concept('house', 'дома')|E] [ROOT.Char.GetHouse.GetName]"

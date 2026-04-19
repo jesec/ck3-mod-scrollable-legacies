@@ -102,7 +102,7 @@
  pledge_loyalty_to_liege.0601.a_liege: "烦死了……"
  pledge_loyalty_to_liege.0601.a: "是时候重新思考一下了……"
  pledge_loyalty_to_liege_overdue.1000.t: "可耻的封臣"
- pledge_loyalty_to_liege_overdue.1000.desc.1: "在我翻阅那些向我——他们的[ROOT.Char.GetTitleAsName]宣誓效忠的人员名册时，我发现一个名字赫然缺席：[SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName]宗族的[SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName]。已经持续超过[SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue]年了，"
+ pledge_loyalty_to_liege_overdue.1000.desc.1: "在我翻阅那些向我——他们的[ROOT.Char.GetTitleAsName]宣誓效忠的人员名册时，我发现一个名字赫然缺席：[SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName]宗族的[SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName]。已经持续超过[SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue|0]年了，"
  pledge_loyalty_to_liege_overdue.1000.desc.new_liege: "自我即位以来便是如此，"
  pledge_loyalty_to_liege_overdue.1000.desc.new_title: "自[SCOPE.sC('pledge_loyalty_to_liege_offender').GetSheHe]成为我的封臣以来便是如此，"
  pledge_loyalty_to_liege_overdue.1000.desc.2: "[SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis]的土地上从未送来过消息与贡品。\n\n我的廷臣们彼此交换着不安的眼神。窃窃私语声在大厅里此起彼伏——这仅仅只是疏忽大意，还是公然蔑视我的统治权？空气中的反抗意味有些沉重。"

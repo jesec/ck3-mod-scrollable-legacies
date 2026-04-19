@@ -21,3 +21,7 @@
  MERITOCRATIC_CEREMONIAL_LIEGE_TITLE: "[founder.GetPrimaryTitle.GetAdjectiveNoTooltip|U]er Thhron"
  tgp_korea_decision.9202.desc: "Da der Ruhm der Herrschaft von [founder.GetTitledFirstName] immer heller strahlt, suchen viele Trost in [founder.Custom('DE_PRO_POS_S_3P')]em Schatten. [Select_CString(founder.IsFemale, 'Keine', 'Kein')] [founder.GetTitleAsNameNoTooltip] kann allein herrschen, und die Grenzen wahrer Macht verschieben sich ständig.\n\n[founder.Custom('DE_PRO_PER_S_3P_N')|U] muss wachsam sein, wenn [founder.Custom('DE_PRO_POS_S_3P')]e Nachkommen nicht nur dem Namen nach weiter über das Reich ([founder.GetPrimaryTitle.GetNameNoTooltip]) herrschen sollen …"
  tgp_korea_decision.9202.a: "Macht kennt vielerlei Gestalt."
+ tgp_create_meritocratic_ruling_regent_title_effect: "Als [ruler|E] es [GetGovernment('meritocratic_government').GetName]en [Concept('empire', 'Großreichs')|E]:"
+ tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "Ihr erhaltet einen Titular-[kingdom|E]-[title|E] durch das [GetLaw('single_heir_succession_law').GetName]-[law|E]"
+ tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "[vassals|E] können #V $replace_ceremonial_regent_faction_name$#!s-[factions|E] schaffen"
+ tgp_create_meritocratic_ruling_regent_title_message_title: "Monarchie von [founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] herausgefordert"

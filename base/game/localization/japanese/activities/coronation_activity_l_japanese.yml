@@ -392,7 +392,7 @@
  # Provide for the Poor
  provide_for_the_poor_oath_tooltip: "#V 貧民を支援する#![oath|E]をする：\n\t$EFFECT_LIST_BULLET$#V 3つ#!以上の[GetBuilding('oath_poor_building_02').GetName]を建設する必要がある。この[oath|E]が有効なあいだは、この系統の[buildings|E]が利用できるようになる\n\t$EFFECT_LIST_BULLET$#V 20年#!以内に完了する必要がある\n\t$EFFECT_LIST_BULLET$報酬：[legitimacy_i] [legitimacy|E]、[prestige_i] [prestige|E]、[GetModifier('oath_provide_for_the_poor').GetNameWithTooltip]、最終アップグレードである[GetBuilding('oath_poor_building_04').GetName]をアンロック"
  # Repent
- repent_oath_tooltip: "#V 懺悔をする#![oath|E]をする：\n\t$EFFECT_LIST_BULLET$[pilgrimages|E]を#V 4回#!以上完了し、[GetModifier( 'piety_level_3' ).GetNameWithTooltip|L]を得る必要がある\n\t$EFFECT_LIST_BULLET$#V 20年#!以内に完了する必要がある\n\t$EFFECT_LIST_BULLET$報酬：[legitimacy_i] [legitimacy|E]、[prestige_i] [prestige|E]、[GetModifier('oath_of_repent').GetNameWithTooltip]、すべての[sinful|E]の[traits|E]が除去され、[virtuous|E]の[traits|E]と入れ替わる"
+ repent_oath_tooltip: "#V 懺悔をする#![oath|E]をする：\n\t$EFFECT_LIST_BULLET$[pilgrimages|E]を#V 4回#!以上完了し、[GetModifier( 'piety_level_3' ).GetNameWithTooltip|L]を得る必要がある\n\t$EFFECT_LIST_BULLET$#V 20年#!以内に完了する必要がある\n\t$EFFECT_LIST_BULLET$報酬：[legitimacy_i] [legitimacy|E]、[prestige_i] [prestige|E]、[GetModifier('oath_repent').GetNameWithTooltip]、すべての[sinful|E]の[traits|E]が除去され、[virtuous|E]の[traits|E]と入れ替わる"
  coronation_events.0200.t: "序章"
  coronation_events.0200.desc.host: "客人たちがやってきた。近隣から、遠方から。忠誠心から、あるいは好奇心から。辺りには期待と思惑に満ちた顔が並んでいるが、少しばかりの好意をたたえた表情の者もなかにはいる。\n\n私は少し大きな声で参加者たちを落ち着かせ、我が戴冠式に迎える。"
  coronation_events.0200.desc.guest: "集まりは期待通りに壮観なものとなった。見慣れた顔ぶれと異国の客人たちが言葉を交わし、礼を失しない程度の暖かみを持った挨拶をするのが聞こえる。主催者が語りだすと、部屋はおのずと静まり返った。\n\n「友よ、我が封臣よ、親族よ、皆の存在は私にとっていかなる冠よりも光栄なものだ。儀式が始まるまで、飲み、食べ、自由に語り合ってくれ…そして、今日共にある一人一人に私が目を向け、心に留め置くことを忘れないでくれ」\n\nそれは優しい約束かもしれない。あるいは静かな警告かもしれない。どう受け取るかは聞き手次第だ。"

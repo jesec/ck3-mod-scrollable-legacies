@@ -1080,7 +1080,7 @@ viet_ngo_10 = {
 	dynasty = viet_ngo
 	culture = "viet"
 	religion = "dhyana"
-	father = viet_ngo_6 # Nhat Khanh ?
+	father = viet_ngo_2 # Xuong Xi
 	986.1.1 = {
 		birth = yes
 	}

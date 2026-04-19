@@ -16,6 +16,9 @@
  # CHAE - 채
  c_nf_chae_pyeonggang: "$c_nf_korea_suffix$ Pyeonggang $dynn_Chae_8521$"
  c_nf_chae_pyeonggang_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ # CHEOK - 척
+ c_nf_cheok_goksan: "$c_nf_korea_suffix$ Gokju $dynn_Cheok_62D3$"
+ c_nf_cheok_goksan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # CHOE - 최
  c_nf_choe_dongju: "$c_nf_korea_suffix$ Dongju $dynn_Choe_5D14$"
  c_nf_choe_dongju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
@@ -25,7 +28,7 @@
  c_nf_choe_haeju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_choe_jiksan: "$c_nf_korea_suffix$ Jiksan $dynn_Choe_5D14$"
  c_nf_choe_jiksan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
- c_nf_choe_suwon: "$c_nf_korea_suffix$ Suwon $dynn_Choe_5D14$"
+ c_nf_choe_suwon: "$c_nf_korea_suffix$ Suju $dynn_Choe_5D14$"
  c_nf_choe_suwon_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_choe_ubong: "$c_nf_korea_suffix$ Ubong $dynn_Choe_5D14$"
  c_nf_choe_ubong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
@@ -63,13 +66,19 @@
  c_nf_gim_yeonggwang: "$c_nf_korea_suffix$ Yeonggwang $dynn_Gim_91D1$"
  c_nf_gim_yeonggwang_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # GO - 경
- c_nf_go_jeju: "$c_nf_korea_suffix$ Jeju $dynn_Go_ACE0$"
+ c_nf_go_jeju: "$c_nf_korea_suffix$ Jeju $dynn_Go_9AD8$"
  c_nf_go_jeju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ # GWAK - 곽
+ c_nf_gwak_cheongju: "$c_nf_korea_suffix$ Cheongju $dynn_Gwak_90ED$"
+ c_nf_gwak_cheongju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ # GWON - 권
+ c_nf_gwon_andong: "$c_nf_korea_suffix$ Andong $dynn_Gwon_6B0A$"
+ c_nf_gwon_andong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # GYEON - 견
- c_nf_gyeon_gaeunhyeon: "$c_nf_korea_suffix$ Gaeunhyeon $dynn_Gyeon_7504$"
+ c_nf_gyeon_gaeunhyeon: "$c_nf_korea_suffix$ Sangju $dynn_Gyeon_7504$"
  c_nf_gyeon_gaeunhyeon_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # GYEONG - 경
- c_nf_gyeong_cheongju: "$c_nf_korea_suffix$ Cheongju $dynn_Gyeong_ACBD$"
+ c_nf_gyeong_cheongju: "$c_nf_korea_suffix$ Cheongju $dynn_Gyeong_6176$"
  c_nf_gyeong_cheongju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # HAN - 한
  c_nf_han_daeheung: "$c_nf_korea_suffix$ Daeheung $dynn_Han_97D3$"
@@ -122,11 +131,16 @@
  # WANG - 왕
  c_nf_wang_goryeo: "$c_nf_korea_suffix$ Gaeseong $dynn_Wang_738B_KO$"
  c_nf_wang_goryeo_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_wang_seohae: "$c_nf_korea_suffix$ Seohae $dynn_Wang_738B_KO$"
+ c_nf_wang_seohae_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # YANG - 양
  c_nf_yang_anak: "$c_nf_korea_suffix$ Anak $dynn_Yang_694A_KO$"
  c_nf_yang_anak_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_yang_wonju: "$c_nf_korea_suffix$ Wonju $dynn_Yang_6881$"
  c_nf_yang_wonju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ # YEOM - 염
+ c_nf_yeom_paju: "$c_nf_korea_suffix$ Papyeong $dynn_Yeom_5EC9$"
+ c_nf_yeom_paju_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  # YU - 윤
  c_nf_yu_pyeongsan: "$c_nf_korea_suffix$ Pyeongsan $dynn_Yu_5EBE$"
  c_nf_yu_pyeongsan_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

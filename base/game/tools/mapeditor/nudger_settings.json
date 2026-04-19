@@ -1311,6 +1311,8 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -27523,7 +27525,7 @@
 				"key":	"buildings"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"locator",
 					"key":	"buildings"

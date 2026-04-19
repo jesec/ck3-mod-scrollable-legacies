@@ -39,7 +39,12 @@ tgp_chinese_legacy_2 = {
 
 	can_be_picked = {
 		has_tgp_dlc_trigger = yes
-		government_has_flag = government_has_merit
+		OR = {
+			government_has_flag = government_has_merit
+			dynasty = {
+				has_dynasty_perk = tgp_chinese_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
+		}
 	}
 
 	effect = {
@@ -62,7 +67,12 @@ tgp_chinese_legacy_3 = {
 
 	can_be_picked = {
 		has_tgp_dlc_trigger = yes
-		government_has_flag = government_has_merit
+		OR = {
+			government_has_flag = government_has_merit
+			dynasty = {
+				has_dynasty_perk = tgp_chinese_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
+		}
 	}
 
 	effect = {
@@ -80,7 +90,12 @@ tgp_chinese_legacy_4 = {
 
 	can_be_picked = {
 		has_tgp_dlc_trigger = yes
-		government_has_flag = government_has_merit
+		OR = {
+			government_has_flag = government_has_merit
+			dynasty = {
+				has_dynasty_perk = tgp_chinese_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
+		}
 	}
 
 	effect = {
@@ -119,7 +134,12 @@ tgp_chinese_legacy_5 = {
 
 	can_be_picked = {
 		has_tgp_dlc_trigger = yes
-		government_has_flag = government_has_merit
+		OR = {
+			government_has_flag = government_has_merit
+			dynasty = {
+				has_dynasty_perk = tgp_chinese_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
+		}
 	}
 
 	effect = {
@@ -179,7 +199,12 @@ tgp_japan_legacy_2 = {
 
 	can_be_picked = {
 		has_tgp_dlc_trigger = yes
-		government_is_japanese_trigger = yes
+		OR = {
+			government_is_japanese_trigger = yes
+			dynasty = {
+				has_dynasty_perk = tgp_japan_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
+		}
 	}
 
 	effect = {
@@ -199,7 +224,12 @@ tgp_japan_legacy_3 = {
 
 	can_be_picked = {
 		has_tgp_dlc_trigger = yes
-		government_is_japanese_trigger = yes
+		OR = {
+			government_is_japanese_trigger = yes
+			dynasty = {
+				has_dynasty_perk = tgp_japan_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
+		}
 	}
 
 	effect = {
@@ -218,7 +248,12 @@ tgp_japan_legacy_4 = {
 
 	can_be_picked = {
 		has_tgp_dlc_trigger = yes
-		government_is_japanese_trigger = yes
+		OR = {
+			government_is_japanese_trigger = yes
+			dynasty = {
+				has_dynasty_perk = tgp_japan_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
+		}
 	}
 
 	effect = {
@@ -237,7 +272,12 @@ tgp_japan_legacy_5 = { #gunki monogatari
 
 	can_be_picked = {
 		has_tgp_dlc_trigger = yes
-		government_is_japanese_trigger = yes
+		OR = {
+			government_is_japanese_trigger = yes
+			dynasty = {
+				has_dynasty_perk = tgp_japan_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
+		}
 	}
 
 	effect = {
@@ -306,6 +346,9 @@ tgp_sea_legacy_2 = {
 		OR = {
 			government_has_flag = government_is_mandala
 			government_has_flag = government_is_wanua
+			dynasty = {
+				has_dynasty_perk = tgp_sea_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
 		}
 	}
 
@@ -330,6 +373,9 @@ tgp_sea_legacy_3 = {
 		OR = {
 			government_has_flag = government_is_mandala
 			government_has_flag = government_is_wanua
+			dynasty = {
+				has_dynasty_perk = tgp_sea_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
 		}
 	}
 
@@ -359,6 +405,9 @@ tgp_sea_legacy_4 = {
 		OR = {
 			government_has_flag = government_is_mandala
 			government_has_flag = government_is_wanua
+			dynasty = {
+				has_dynasty_perk = tgp_sea_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
 		}
 	}
 
@@ -381,6 +430,9 @@ tgp_sea_legacy_5 = {
 		OR = {
 			government_has_flag = government_is_mandala
 			government_has_flag = government_is_wanua
+			dynasty = {
+				has_dynasty_perk = tgp_sea_legacy_1 #If you unlocked the first step you still have access to the rest.
+			}
 		}
 	}
 

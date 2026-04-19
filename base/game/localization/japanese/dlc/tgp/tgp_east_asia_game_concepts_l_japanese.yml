@@ -1,7 +1,7 @@
 ﻿l_japanese:
  #Mandala
  game_concept_mandala: "マンダラ"
- game_concept_mandala_desc: "$game_concept_mandala$制の[government_form|E]では、[domain_limit|E]と[direct_vassals|E]の数が制限されます。[liege|E]と[suzerain|E]は領土拡大のため、[tributaries|E]の力に頼ることになります。\n\nマンダラの統治者は神の王、すなわちデーヴァラージャとして崇められることを目指すことができます。その際、諸侯を獲得し、維持するために[mandala_radiance|E]を頼りにします。\n\nまた、[opinion|E]を保ち、諸侯との絆を深めて長期的な関係を築けるかどうかも統治者の力量にかかっています。継承時、統治者が[mandala_succesor|E]に相応しいことを示せなければ、諸侯がいなくなる可能性があります。"
+ game_concept_mandala_desc: "$game_concept_mandala$制の[government_form|E]では、[domain_limit|E]と[direct_vassals|E]の数が制限されます。[liege|E]と[suzerain|E]は領土拡大のため、[tributaries|E]の力に頼ることになります。\n\nマンダラ制の[ruler|E]は神の王、すなわちデーヴァラージャとして崇められることを目指すことができます。その際、$game_concept_tributaries$を獲得し、維持するために[mandala_radiance|E]を頼りにします。\n\n$game_concept_tributaries$と長期的な関係を築くには、[opinion|E]を保ち、$game_concept_tributaries$との絆を深める必要があります。継承時、$game_concept_ruler$が[mandala_succesor|E]に相応しくない場合、$game_concept_tributaries$がいなくなる可能性があります。"
  game_concept_mandalas: "マンダラ"
  game_concept_mandala_government: "マンダラ制政府"
  game_concept_mandala_i: "@government_type_mandala!"

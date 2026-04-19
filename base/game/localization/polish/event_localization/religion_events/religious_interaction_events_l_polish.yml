@@ -75,7 +75,7 @@
  religious_interaction.2011.b: "Nie zapłacę za twoje wieczne zbawienie!"
  religious_interaction.2011.c: "Zrobisz to dla czegoś o wiele cenniejszego niż złoto."
  religious_interaction.2012.desc: "Dostrzegam mądrość Twojej wiary, ale mam nadzieję, że rozumiesz, jak długa i kręta jest droga z ciemności do światła.\n\nByć może, jeśli obiecasz wspierać mnie w jakikolwiek sposób, jakiego potrzebuję, podróż byłaby łatwiejsza."
- religious_interaction.2012.a: "Wesprę cię, niech [ROOT.Char.GetFaith.GetNameNoTooltip|l] kwitnie wszędzie."
+ religious_interaction.2012.a: "Zrobię to, dla dobra wiernych na całym świecie."
  religious_interaction.2012.b: "Nie będę się targować się o twoją duszę!"
  religious_interaction.2012.c: "Najpierw musisz spłacić mi inne długi."
  religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

@@ -18,7 +18,7 @@
  SCHEME_COOLDOWN_INFO: "No puedes iniciar otra [SCHEME.GetSchemeType.GetTypeName|l] contra [SCHEME.GetTarget.GetName] durante $TIME|V$."
  SCHEME_WINDOW_PROGRESS_TOOLTIP: "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
  SCHEME_WINDOW_PROGRESS_INFO: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))|V] hasta la [scheme_phase_phase|lE] siguiente"
- SCHEME_WINDOW_PROGRESS_FROZEN: "#weak La conjura se pone en pausa porque estás viajando"
+ SCHEME_WINDOW_PROGRESS_FROZEN: "#weak La conjura se pone en pausa por este motivo: [Scheme.GetFrozenReason]"
  SCHEME_WINDOW_PROGRESS_INFO_BASIC: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))] hasta su finalización"
  SCHEME_WINDOW_PROGRESS_INFO_BREAKDOWN: "[Scheme.GetSpeedDescription]"
  SCHEME_WINDOW_OPPORTUNITIES_INFO_BREAKDOWN: "Ganada 1 [scheme_opportunity_opportunity|lE] por [Scheme.GetPhasesPerOpportunity] [scheme_phase_phases|lE]\n[Scheme.GetPhasesRemainingUntilOpportunity] [scheme_phase_phases|lE] hasta la [scheme_opportunity_opportunity|lE] siguiente\nSe precisa un #EMP mínimo#! de [Scheme.MakeScope.ScriptValue('scheme_charge_to_advance_threshold_value')] [scheme_opportunity_opportunities|lE] para ponerla en marcha#!"

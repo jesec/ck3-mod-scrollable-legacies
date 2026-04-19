@@ -63,6 +63,7 @@
  forbidden_runaway_laamp_opinion: "禁止冒险"
  ep3_laamps.0100.t: "一切都有价码"
  ep3_laamps.0100.desc: "当我得知[recipient.GetTitledFirstNamePossessive]同意我的提议时，我几乎不敢相信；我终于将拥有自己的[ROOT.Char.Custom('FortifiedBuilding')]，有屋顶，有四面牢固的墙！\n\n我将成为[ROOT.Char.GetPrimaryTitle.GetNameNoTier]的新[ROOT.Char.GetTitleAsNameNoTooltip]，"
+ ep3_laamps.0100.desc_nomadic: "当我收到[recipient.GetTitledFirstNamePossessive]对我提议的同意时，我几乎不敢相信；我终于将拥有自己的土地，一处可以放牧牛群的地方！\n\n我即将成为[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTier]的新[ROOT.Char.GetTitleAsNameNoTooltip]，"
  ep3_laamps.0100.fellow_vassal: "作为[new_liege.GetName]的封臣同僚统治这片地区，同样依赖并受制于我的新领主。"
  ep3_laamps.0100.liege: "作为[recipient.GetPrimaryTitle.GetAdjectiveNoTooltip]的封臣统治这片地区，同样依赖并受制于我的新领主。"
  ep3_laamps.0100.independent: "统治这片曾经的[recipient.GetPrimaryTitle.GetAdjectiveNoTooltip]领地！"

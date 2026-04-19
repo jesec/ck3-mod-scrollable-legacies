@@ -75,7 +75,7 @@
  religious_interaction.2011.b: "Je ne paierai pas pour votre salut éternel !"
  religious_interaction.2011.c: "Vous le ferez pour quelque chose de beaucoup plus précieux que l’or."
  religious_interaction.2012.desc: "Je vois le bien-fondé de votre foi, mais j’espère que vous comprenez à quel point le chemin des ténèbres à la lumière est long et sinueux.\n\nPeut-être que si vous promettiez de me soutenir de quelque manière que ce soit, le trajet serait plus facile."
- religious_interaction.2012.a: "J’accepte, pour le bien de la foi [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]."
+ religious_interaction.2012.a: "J’accepte, pour le bien des croyants."
  religious_interaction.2012.b: "Je ne vais pas négocier pour votre âme !"
  religious_interaction.2012.c: "Vous avez des dettes à me rembourser, d’abord."
  religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

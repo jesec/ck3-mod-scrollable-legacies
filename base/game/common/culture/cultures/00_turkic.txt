@@ -32,7 +32,7 @@
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic_west
+		100 = turkic_west
 	}
 }
 
@@ -65,7 +65,7 @@ pecheneg = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic_west
+		100 = turkic_west
 	}
 }
 
@@ -104,7 +104,7 @@ cuman = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic_west
+		100 = turkic_west
 	}
 }
 
@@ -138,7 +138,7 @@ khazar = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic_west
+		100 = turkic_west
 	}
 }
 
@@ -175,8 +175,8 @@ bolghar = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic_west
-		10 = mediterranean_byzantine
+		50 = turkic_west
+		50 = mediterranean_byzantine
 	}
 }
 
@@ -215,7 +215,7 @@ bashkir = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -252,7 +252,7 @@ avar = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic_west
+		100 = turkic_west
 	}
 }
 
@@ -287,7 +287,7 @@ karluk = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -320,7 +320,7 @@ kimek = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -353,7 +353,7 @@ kipchak = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -386,7 +386,7 @@ laktan = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -423,7 +423,7 @@ kirghiz = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -448,12 +448,12 @@ uyghur = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { uyghur_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -489,12 +489,12 @@ yughur = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = {uyghur_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -527,7 +527,7 @@ uriankhai = {	#these are western "Uriankhai", in this case specifically the Khak
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -562,7 +562,7 @@ chuvash = {		# Burtas
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -595,7 +595,7 @@ shatuo = { #Sinicized turks of northern China
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -626,7 +626,7 @@ ongud = { #Mongolicized turks of the Ordos region
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }
 
@@ -666,6 +666,6 @@ turkmen = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = turkic
+		100 = turkic
 	}
 }

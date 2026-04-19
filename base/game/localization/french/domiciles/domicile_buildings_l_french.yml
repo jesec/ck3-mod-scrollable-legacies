@@ -516,7 +516,7 @@
  proving_grounds_nightly_barding_drills_domicile_building_desc: "#weak (Nécessite les [GetDomicileBuilding('proving_grounds_01').GetName|l])#!\nLes maillons se tordent, le cuir craque, les plaques se rouillent et l’entraînement s’estompe autant pour la cavalerie lourde d’élite que pour toute autre."
  proving_grounds_life_in_the_saddle_domicile_building: "La vie à cheval"
  proving_grounds_life_in_the_saddle_domicile_building_desc: "#weak (Nécessite les [GetDomicileBuilding('proving_grounds_01').GetName|l])#!\nCertains sont faits pour ça dès la naissance, d’autres ont besoin de s’entraîner plus tard dans leur vie."
- proving_grounds_life_in_the_saddle_horse_archers_tt: "Vous devez avoir un [regiment|El] d’[GetMaA('heavy_horse_archers').GetName|l] ou d’[GetMaA('horse_archers').GetName|l]"
+ proving_grounds_life_in_the_saddle_horse_archers_tt: "Vous devez avoir au moins un [regiment|El] d’[archer_cavalry|El]"
  #TIT-53191
  proving_grounds_the_stump_domicile_building: "Souche"
  #proving_grounds_the_stump_domicile_building: "The [GetPlayer.Custom('GetStumpName')|U]"

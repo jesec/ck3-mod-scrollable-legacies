@@ -78,3 +78,18 @@
  major_decisions.7001.desc: "Głęboko w dziczy, znanej niektórym jako Złota Kraina, [founder.GetNameNoTierNoTooltip] zyskuje władzę. [founder.GetTitleAsNameNoTooltip] miejsca znanego jako [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] – tak się mianując, rzuca wyzwanie losowi, który czeka jego lud.\n\nLudy Tai spędziły lata na poszukiwaniu miejsca, które byłoby ich ojczyzną, wędrując dumnie niczym regionalni koczownicy i stopniowo kierując się na południe.\n\nCzy ich wpływy przetrwają próbę czasu?"
  major_decisions.7001.a: "Kolejna osoba wpadła w oko cyklonu."
  major_decisions.7001.b: "Czy są dla nas zagrożeniem? Zobaczymy."
+ #Brunei Kingdom
+ major_decisions.8000.t: "Miejsce pokoju"
+ major_decisions.8000.desc: "Osoba znana jako [imam.GetTitledFirstName], która poprowadzi następne kazanie piątkowe, przypomina mi o obowiązku przygotowania chutby w imieniu osobistości, którą jest [founder.GetTitleAsNameNoTooltip]. Pomijając kwestię koniecznych modlitw i wersetów, pyta mnie o część, która zostanie odczytana wiernym w celu ogłoszenia mojego zwierzchnictwa i opieki nad nimi."
+ major_decisions.8000.a: "Niech poznają uczynki osoby, którą jest ich [founder.GetTitleAsNameNoTooltip]."
+ major_decisions.8000.b: "Cześć należy oddawać wyłącznie Allahowi."
+ brunei_kingdom_khutbah_prestige_option_modifier: "Obrońca ummy"
+ brunei_kingdom_khutbah_piety_option_modifier: "Światło ummy"
+ #Brunei Empire
+ major_decisions.9000.t: "Cesarski podarunek z okazji wstąpienia na tron"
+ major_decisions.9000.desc: "Zgodnie z muzułmańską tradycją oczekuje się, że jako [founder.GetTitleAsNameNoTooltip] obdaruję moich błogosławionych wojowników, podróżnych przemierzających moje ziemie oraz ludzi w potrzebie monetami świeżo wybitymi z mojego rozkazu."
+ major_decisions.9000.desc_steward: "\n\n[ROOT.Char.GetCouncillorPosition('councillor_steward').GetPositionName] [steward.GetTitledFirstName] pyta mnie o skalę szczodrości, jaką wykażę się wobec moich wiernych poddanych jako ich obrońca."
+ major_decisions.9000.a: "Niech [founder.GetTitleAsNameNoTooltip] zasłynie wśród wiernych szczodrością!"
+ major_decisions.9000.b: "Niech Allah przyjmie naszą sadakę."
+ brunei_empire_high_sadaqah_modifier: "Szczodrze rozdana sadaka"
+ brunei_empire_low_sadaqah_modifier: "Rozdana sadaka"

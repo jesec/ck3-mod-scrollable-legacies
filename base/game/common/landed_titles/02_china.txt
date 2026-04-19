@@ -8525,41 +8525,6 @@ h_china = {
 					name_list_han = cn_jiaozhi
 				}
 
-				c_long_hung = {
-					color = { 12 52 235 }
-
-					cultural_names = {
-						name_list_han = cn_junzhou
-					}
-
-					b_long_hung = {
-						province = 10844
-
-						cultural_names = {
-							name_list_han = cn_junkou
-						}
-
-						color = { 9 53 233 }
-					}
-					b_kien_xuong = {
-						province = 10845
-
-						cultural_names = {
-							name_list_han = cn_anle
-						}
-
-						color = { 8 44 160 }
-					}
-					b_tan_hung = {
-						province = 10846
-
-						cultural_names = {
-							name_list_han = cn_wuan
-						}
-
-						color = { 13 68 192 }
-					}
-				}
 				c_thang_long = {
 					color = { 11 100 178 }
 
@@ -8593,6 +8558,41 @@ h_china = {
 						}
 
 						color = { 11 70 153 }
+					}
+				}
+				c_long_hung = {
+					color = { 12 52 235 }
+
+					cultural_names = {
+						name_list_han = cn_junzhou
+					}
+
+					b_long_hung = {
+						province = 10844
+
+						cultural_names = {
+							name_list_han = cn_junkou
+						}
+
+						color = { 9 53 233 }
+					}
+					b_kien_xuong = {
+						province = 10845
+
+						cultural_names = {
+							name_list_han = cn_anle
+						}
+
+						color = { 8 44 160 }
+					}
+					b_tan_hung = {
+						province = 10846
+
+						cultural_names = {
+							name_list_han = cn_wuan
+						}
+
+						color = { 13 68 192 }
 					}
 				}
 			}
@@ -8782,7 +8782,7 @@ d_laamp_zhu_quanzhong = { # Zhu Quanzhong, Zhu's Iron Host
 
 d_laamp_liangshan_band = { # Song Jiang, Liangshan Band
 	color = { 100 100 100 }
-	capital = c_zhongzhou
+	capital = c_yunzhou
 
 	definite_form = yes
 	landless = yes

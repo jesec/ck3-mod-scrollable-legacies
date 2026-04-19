@@ -175,3 +175,6 @@
  grant_court_position: "Grant Court Position"
  grant_court_position_desc: "Grant [recipient.GetShortUINameNoTooltip] a [court_position|E]"
  request_court_position_extra_icon: "$hook_extra_icon$"
+
+ celestial_extinguish_noble_family_interaction: "Extinguish Noble Family"
+ celestial_extinguish_noble_family_interaction_desc: "[execute|E] [recipient.GetShortUIName] and [recipient.GetHerHis] adult heirs, and [banish|E] the rest of [recipient.GetHerHis] kin from the [realm|E]"

@@ -865,20 +865,26 @@ plague_recovery_event_effect = {
 			target = root.county
 			years = 10
 		}
-		if = {
+	}
+	scope:epidemic = {
+		add_to_variable_list = {
+			name = lieges_to_notify
+			target = root.county.holder.liege
+		}		
+		every_in_list = {
+			variable = lieges_to_notify
 			limit = {
-				any_sub_realm_county = {
-					any_county_province = {
-						count = 1
-						any_province_epidemic = {
-							count = 1
-						}
-					}
+				NOT = {
+					has_character_flag = notified_of_plague_recovery
 				}
 			}
 			trigger_event = {
 				id = epidemic_events.0110
 				days = 1
+			}
+			add_character_flag = {
+				flag = notified_of_plague_recovery
+				days = 10
 			}
 		}
 	}

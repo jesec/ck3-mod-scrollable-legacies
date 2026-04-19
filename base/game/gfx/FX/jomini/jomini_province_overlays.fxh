@@ -44,8 +44,8 @@ PixelShader =
 		 */
 
 
-		//#define BORDER_DISTANCE_FIELD_SAMPLES_MEDIUM
-		#define BORDER_DISTANCE_FIELD_SAMPLES_HIGH
+		#define BORDER_DISTANCE_FIELD_SAMPLES_MEDIUM
+		//#define BORDER_DISTANCE_FIELD_SAMPLES_HIGH
 		float CalcDistanceFieldValue( in float2 NormalizedCoordinate )
 		{
 			float Distance = PdxTex2D( BorderDistanceFieldTexture, NormalizedCoordinate ).r;

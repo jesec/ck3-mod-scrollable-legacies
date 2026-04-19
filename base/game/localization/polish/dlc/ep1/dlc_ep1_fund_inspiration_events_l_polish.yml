@@ -783,7 +783,7 @@
  fund_inspiration.6508.introduction: "Otrzymuję list od [Select_CString( inspiration_owner.IsFemale, 'mojej poszukiwaczki przygód, która', 'mojego poszukiwacza przygód, który' )] przebywa w rześkich lasach tajgi.\n\n"
  fund_inspiration.6508.desc: "„Udało mi się spędzić trochę czasu w najlepszym towarzystwie dla [Select_CString( inspiration_owner.IsFemale, 'każdej podróżniczki', 'każdego podróżnika' )]: w środku kolonii bobrów! Wraz z posłańcem wysyłam Ci książkę ze schematami konstrukcji, których używają do łapania ryb w swoich wodach! Och, być wodnolądowym gryzoniem!”\n\n"
  fund_inspiration.6508.architect_desc: "„Jestem [Select_CString( inspiration_owner.IsFemale, 'przekonana', 'przekonany' )], że przynajmniej [court_architect.GetTitledFirstName] [Select_CString( court_architect.IsFemale, 'mogłaby', 'mógłby' )] nauczyć się jednej rzeczy lub dwóch od zwierząt mądrzejszych nich [Select_CString( court_architect.IsFemale, 'ona sama', 'on sam' )]”."
- fund_inspiration.6508.a: "Zastanowię się nad tym wnikliwie."
+ fund_inspiration.6508.a: "Zastanowię się nad tym dokładnie."
  fund_inspiration.6508.b: "Istotnie, [court_architect.GetTitledFirstNameNoTooltip] [Select_CString( court_architect.IsFemale, 'mogłaby', 'mógłby' )] się czegoś nauczyć."
  fund_inspiration.6508.b.tt: "[court_architect.GetTitledFirstName] jest nieznacznie [Select_CString( court_architect.IsFemale, 'kompetentniejsza jako architektka', 'kompetentniejszy jako architekt' )]"
  fund_inspiration.6508.c: "Co za #EMP przeurocze#! zwierzęta! [child.GetFirstNameNoTooltip] musi dostać tę książkę!"

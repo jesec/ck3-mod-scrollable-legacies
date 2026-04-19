@@ -6,12 +6,12 @@
  china_seize_county_cb: "$CHINA_SEIZE_COUNTY_CB_NAME$"
  CHINA_SEIZE_COUNTY_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective]의 [TITLE.GetBaseName] 점령"
  CHINA_SEIZE_COUNTY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- CHINA_SEIZE_COUNTY_CB_NAME: "패권 백작령 점령 ([GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName])"
+ CHINA_SEIZE_COUNTY_CB_NAME: "패권 백작령 점령"
  ## duchy conquest variant
  china_seize_duchy_cb: "$CHINA_SEIZE_DUCHY_CB_NAME$"
  CHINA_SEIZE_DUCHY_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective]의 [TITLE.GetBaseName] 점령"
  CHINA_SEIZE_DUCHY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- CHINA_SEIZE_DUCHY_CB_NAME: "패권 공작령 점령 ([GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName])"
+ CHINA_SEIZE_DUCHY_CB_NAME: "패권 공작령 점령"
  ## Great Project Conquest
  grand_campaign_kingdom_invasion_cb: "[GetTitleByKey('h_china').Custom('OrdinalChineseConquest')] [GetTitleByKey('h_china').GetNameNoTierPossessiveNoTooltip] 대규모 작전"
  GP_KINGDOM_INVASION_WAR_NAME: "$grand_campaign_kingdom_invasion_cb$"

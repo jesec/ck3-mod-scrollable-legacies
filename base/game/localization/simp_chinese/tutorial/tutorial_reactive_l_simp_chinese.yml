@@ -671,8 +671,8 @@
  ra_dynastic_cycle_era_open_groups_desc: "帝国的状态无法自己改变，而是受到中华境内强大[characters|E]群体的影响。现在让我们看看这些$game_concept_characters$。"
  ra_dynastic_cycle_era_open_groups_trigger: "打开“$dynastic_cycle_tab_movements$”标签页"
  ra_dynastic_cycle_era_groups_desc: "中华内部及周边的许多[characters|E]会对其未来产生影响。这些$game_concept_characters$属于[movements|e]，每个都想将中华引向不同的方向。\n\n例如，$dynastic_cycle_participant_group_advancement_movement|V$希望推动政通人和[dynastic_cycle_era_short|e]以内部发展改善帝国，而$dynastic_cycle_participant_group_expansion_movement|V$希望进入开疆拓土时代，让帝国通过武力扩张。"
- ra_dynastic_cycle_era_group_leader_desc: "每个[movement|E]都有一个[movement_leader|E]，可以进行请愿以推进其$game_concept_movement$的事业。\n\n只有中国最有权势的$game_concept_characters$可以成为$game_concept_movement_leader$，因为你需要在$game_concept_movement$拥有最高的[movement_power|E]。"
- ra_dynastic_cycle_era_actions_desc: "你也可以采取行动影响[dynastic_cycle|e]，无论是独自行动，还是通过[movement|e]。\n\n你可以在窗口下方找到这些行动。\n\n如果你仍保持$dynastic_cycle_participant_group_undecided_movement|V$，你应该加入一个$game_concept_movement$。每个朋党都会给予不同的增益或惩罚。"
+ ra_dynastic_cycle_era_group_leader_desc: "每个[movement|E]都有一个[movement_leader|E]，可以进行请愿以推进其$game_concept_movement$的事业。\n\n要成为$game_concept_movement_leader$，你需要拥有$game_concept_movement$内最高的[movement_power|E]。"
+ ra_dynastic_cycle_era_actions_desc: "你也可以采取行动影响[dynastic_cycle|e]，无论是独自行动，还是通过[movement|e]。\n\n你可以在窗口下方找到这些行动。\n\n如果你仍保持$dynastic_cycle_participant_group_undecided_movement|V$，你应该加入一个$game_concept_movement$。"
  #merit candidacy
  reactive_advice_merit_candidacy: "总督候选人"
  action_reactive_advice_merit_candidacy: "建议：$reactive_advice_merit_candidacy$"

@@ -75,7 +75,7 @@
  religious_interaction.2011.b: "Я не собираюсь оплачивать ваше спасение!"
  religious_interaction.2011.c: "Вы будете делать это не ради золота: есть нечто куда более ценное."
  religious_interaction.2012.desc: "Я вижу мудрость вашей веры, но надеюсь, что вы понимаете: путь из тьмы к свету долог и извилист.\n\nВозможно, обещание поддерживать меня всеми средствами сделало бы этот путь немного легче."
- religious_interaction.2012.a: "Я поддержу вас, и пусть [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l] процветает всюду."
+ religious_interaction.2012.a: "Я поддержу вас ради блага верующих."
  religious_interaction.2012.b: "Я не буду торговаться ради вашей души!"
  religious_interaction.2012.c: "Сперва расплатитесь со мной по другим долгам."
  religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

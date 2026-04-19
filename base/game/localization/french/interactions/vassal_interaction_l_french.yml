@@ -159,3 +159,5 @@
  grant_court_position: "Accorder un poste de la Cour"
  grant_court_position_desc: "Accorder un [court_position|El] [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUINameNoTooltip]"
  request_court_position_extra_icon: "$hook_extra_icon$"
+ celestial_extinguish_noble_family_interaction: "Éliminer la famille noble"
+ celestial_extinguish_noble_family_interaction_desc: "[execute|E] [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUIName] et ses héritiers adultes, et [banish|El] le reste de sa famille du [realm|El]"

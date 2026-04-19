@@ -21,6 +21,32 @@ locale_valid_for_legendary_buildings = {
 
 }
 
+valid_for_legendary_integration_e = {
+	save_temporary_scope_as = title_to_check
+	OR = {
+		custom_tooltip = {
+			text = control_the_entirity_of_title_tt
+			AND = {
+				de_jure_drift_progress = {
+					target = root.primary_title
+					value > 0
+				}
+				root = { completely_controls = scope:title_to_check }
+			}
+		}
+		holder = root
+	}
+	custom_tooltip = {
+		text = not_already_de_jure_your_title_tt
+		NOR = {
+			this = root.primary_title
+			root.primary_title = {
+				is_de_jure_liege_or_above_target = scope:title_to_check
+			}
+		}
+	}
+}
+
 valid_for_legendary_integration_k = {
 	save_temporary_scope_as = title_to_check
 	OR = {
@@ -48,6 +74,11 @@ valid_for_legendary_integration_k = {
 }
 
 valid_for_legendary_integration_d = {
+	NOR = {
+		kingdom ?= root.primary_title
+		empire ?= root.primary_title
+		hegemony ?= root.primary_title
+	}
 	OR = {
 		de_jure_drift_progress = {
 			target = root.primary_title
@@ -59,11 +90,13 @@ valid_for_legendary_integration_d = {
 				value > 0
 			}
 		}
+		empire ?= {
+			de_jure_drift_progress = {
+				target = root.primary_title
+				value > 0
+			}
+		}
 		holder = root
-	}
-	NOR = {
-		kingdom ?= root.primary_title
-		empire ?= root.primary_title
 	}
 }
 

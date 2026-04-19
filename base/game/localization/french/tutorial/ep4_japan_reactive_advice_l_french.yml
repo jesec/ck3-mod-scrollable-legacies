@@ -91,4 +91,4 @@
  ra_become_shogun_subjects: "$reactive_advice_soryo_regent_become_shogun_NAME$"
  ra_become_shogun_subjects_desc: "Vous ne pouvez pas devenir [shogun|El] sans effacer les vestiges du [government|El] [GetGovernment('japan_administrative_government').GetNameWithIcon|l].\n\nSi l’un de vos [vassals|El] est $japan_administrative_government|l$, vous pouvez le trouver ici et prendre ses [titles|El] via l’[character_interaction|El] $revoke_title_interaction|V$."
  ra_become_shogun_end: "$reactive_advice_soryo_regent_become_shogun_NAME$"
- ra_become_shogun_end_desc: "Les rênes du pouvoir reposent déjà entre vos mains, vous n’avez qu’à les saisir fermement pour devenir [shogun|El].\n\nÉvincez les faibles [rulers|El] [GetGovernment('japan_administrative_government').GetName|l] et établissez les [GetLaw('japanese_bureaucracy_2').GetName|l] : le pays vous appartiendra alors !"
+ ra_become_shogun_end_desc: "Les rênes du pouvoir reposent déjà entre vos mains, vous n’avez qu’à les saisir fermement pour devenir [shogun|El].\n\nÉtablissez les [GetLaw('japanese_bureaucracy_2').GetName|l] : le pays vous appartiendra alors !"

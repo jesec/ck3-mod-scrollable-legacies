@@ -32,7 +32,7 @@
  imperial_examination_jay.0120.c: "「試験官、私がどれだけ誇りに思っているか[child.GetHerHim]にお伝えてください」"
  imperial_examination_jay.0120.d: "[child.GetTitledFirstNamePossessiveNoTooltip]の武勇が皆の知るところになるだろう！"
  imperial_examination_jay.0170.t: "蜜のような賛辞"
- imperial_examination_jay.0170.desc: "「[ROOT.Char.GetHouse.GetName]家は、実に徳高き一門です」と、[examiner.GetFirstName]試験官が手を落ち着きなく動かし、周囲をきょろきょろと見回しながら私に近づくと、こう言った。「あなたの[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child'))]なら、少し指導を受けるだけで必ず合格できるでしょう。私がその役目をお引き受けしますが、代わりにお願いがあります」\n\n[examiner.GetFirstNamePossessiveNoTooltip]は周りに気を付けていたが、他の保護者や長老たちが私たちに好奇の目を向けはじめた。"
+ imperial_examination_jay.0170.desc: "「[ROOT.Char.GetHouse.GetName]家は、実に徳高き一門です」と、[examiner.GetFirstName]試験官が手を落ち着きなく動かし、周囲をきょろきょろと見回しながら私に近づくと、こう言った。「あなたの[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child'))]なら、少し指導を受けるだけで必ず合格できるでしょう。私がその役目をお引き受けしますが、代わりにお願いがあります」\n\n[examiner.GetFirstNamePossessiveNoTooltip]は周りに気を付けていたが、他の保護者や導師たちが私たちに好奇の目を向けはじめた。"
  imperial_examination_jay.0170.a: "公の場で注意する必要がある。"
  imperial_examination_jay.0170.b: "[child.GetFirstNameNoTooltip]は助けを借りずとも合格できる！"
  imperial_examination_jay.0170.b.tt: "[child.GetShortUIName]は試験結果に応じて、[prestige|E]と[merit|E]を獲得するか、あるいは失うことになる。"

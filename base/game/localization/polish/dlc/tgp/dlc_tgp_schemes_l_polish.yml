@@ -181,3 +181,4 @@
  scheme_critical_moments.2925.a: "#EMP Zapłacisz#! mi za to."
  scheme_critical_moments.2925.b: "Teraz już wie, co czeka niedoszłych uzurpatorów!"
  scheme_critical_moments.2925.c: "Co za [owner.Custom2('InsultNoun', ROOT.Char)]! Niech idzie do diabła!"
+ OWNER_IS_MY_MOVEMENT_MEMBER: "Należy do tego samego [Concept('movement', 'ruchu')|E], co [owner.GetShortUINameNotMe]: $VALUE|+0=$"

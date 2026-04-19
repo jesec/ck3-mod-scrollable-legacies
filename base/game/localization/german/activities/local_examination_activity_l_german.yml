@@ -7,7 +7,7 @@
  activity_local_examination_desc: "Es ist uns Ehre wie Pflicht zugleich, die Ordnung zu bewahren und diese Prüfungen abzuhalten. Durch sie können wir die passendsten Personen einschätzen, ermitteln und ihnen [merit|E] zusprechen – um den zukünftigen Wohlstand des Reichs zu sichern."
  activity_local_examination_host_desc: "$activity_local_examination_host_rewards$$activity_local_examination_guest_rewards$"
  activity_local_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
- activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$ Eine Gelegenheit, die @provincial_exam_icon! #V Provinzprüfung#! abzulegen\n$BULLET_WITH_TAB$ Kann Eure [trait_level_track_xp|E] in Bezug auf [GetTrait('confucian_education').GetName(GetNullCharacter)] erhöhen\n$BULLET_WITH_TAB$ Kann Euren [merit|E] erhöhen"
+ activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$Eine Gelegenheit, die @provincial_exam_icon!#V Provinzprüfung#! abzulegen\n$BULLET_WITH_TAB$Kann Eure „[GetTrait('confucian_education').GetName(GetNullCharacter)]“-[trait_level_track_xp|E] erhöhen\n$BULLET_WITH_TAB$Kann Euren [merit|E] erhöhen\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial Wenn Ihr die [host.GetCulture.GetLanguage.GetName|l]e [language|E] nicht sprecht, wird Eure Erfolgswahrscheinlichkeit drastisch verringert!"
  activity_local_examination_guest_rewards: "\n$BULLET_WITH_TAB$Kann sehr geübte Charaktere rekrutieren\n$BULLET_WITH_TAB$Teilnehmer können „[GetTrait('confucian_education').GetName(GetNullCharacter)]“-[trait_level_track_xp|E] erhalten\n$BULLET_WITH_TAB$Teilnehmer können [merit|E] erhalten"
  local_examination_base_cost: "Grundkosten"
  activity_local_examination_host_an_a: "eine"

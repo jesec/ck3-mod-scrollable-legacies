@@ -29,6 +29,8 @@
  people:0 "people"
  mistress:0 "mistress"
  master:0 "master"
+ mistress_possessive: "mistress'"
+ master_possessive: "master's"
  witch_spirit:0 "spirit"
  witch_spirits:0 "spirits"
  witch_source:0 "source"

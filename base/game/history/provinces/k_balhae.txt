@@ -5,7 +5,7 @@
 	culture = balhae
 	religion = vinaya
 	holding = castle_holding
-	1178.1.1 = {
+	1066.1.1 = {
 		culture = jurchen
 		religion = shamanism
 		holding = nomad_holding
@@ -70,7 +70,7 @@
 	culture = balhae
 	religion = vinaya
 	holding = castle_holding
-	1178.1.1 = {
+	1066.1.1 = {
 		culture = jurchen
 		religion = shamanism
 		holding = nomad_holding
@@ -344,11 +344,12 @@
 
 ###c_BAL_southyongwon
 11848 = {	#Dongjing
-	culture = mohe
-	religion = shamanism
+	culture = balhae
+	religion = vinaya
 	holding = castle_holding
 	1066.1.1 = {
 		culture = jurchen
+		religion = shamanism
 		holding = nomad_holding
 	}
 }
@@ -361,11 +362,12 @@
 
 ###c_BAL_northyongwon
 11849 = {	#Lungyuanfu
-	culture = mohe
-	religion = shamanism
+	culture = balhae
+	religion = vinaya
 	holding = castle_holding
 	1066.1.1 = {
 		culture = jurchen
+		religion = shamanism
 		holding = nomad_holding
 	}
 }

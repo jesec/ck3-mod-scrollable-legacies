@@ -26,7 +26,7 @@
  greed_neg_adj: "慎み深い"
  greed_strong_noun: "略奪者"
  greed_strong_adj: "強欲な"
- greed_strong_neg_noun: "おべっか使い"
+ greed_strong_neg_noun: "腰巾着"
  greed_strong_neg_adj: "無欲なる"
  greed_explanation: "この人物は#Bold それなりに欲深い#!人物で、短期的な利益を選択し、[raids|E]を行い、[regent|E]の立場で[gold|E]を横領し、$task_collect_taxes$ [councillor_task|E]を利用し、金と[titles|E]のために[friends|E]や[family|E]を裏切る可能性が高い。[prisoners|E]の身代金を払い、[gifts|E]を送り、[revocations|E]、[hostages|E]の提供や返還、[retractions|E]および[white_peace|E]を受け入れる可能性は低い。"
  greed_neg_explanation: "この人物は#Bold それなりに寛大#!で、支払える金額を超える金を使い、[gifts|E]を送り、[prisoners|E]の身代金を払い、[revocations|E]および[retractions|E]を受け入れ、[activities|E]を主催する傾向にある。賄賂や[gold|E]の贈り物に影響される可能性は低く、[hostages|E]の交換をする可能性は高い。"

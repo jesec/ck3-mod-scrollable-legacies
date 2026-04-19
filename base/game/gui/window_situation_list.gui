@@ -298,6 +298,7 @@ types SituationList
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
+					autoresize = no
 
 
 					text = "SITUATION_LIST_SITUATION_PHASE"

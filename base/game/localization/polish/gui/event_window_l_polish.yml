@@ -123,7 +123,7 @@
  EVENT_WINDOW_OPTION_SEA_LEGACY_OVERRIDE: "Ta opcja jest dostępna ze względu na [GetDynastyPerk( 'tgp_sea_legacy_5' ).GetName|l]"
  EVENT_WINDOW_OPTION_AVAILABLE_CELESTIAL_MILITARY_APPOINTMENT: "Ta opcja jest dostępna ze względu na twoją @celestial_military_administration! administrację militarną"
  EVENT_WINDOW_OPTION_AVAILABLE_MOVEMENT: "Ta opcja jest dostępna ze względu na twoją przynależność do ruchu o nazwie [GetPlayer.Custom('GetMyMovement')]"
- EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "Ta opcja jest dostępna, ponieważ [situation_phase|El] [Concept('dynastic_cycle', 'cyklu dynastii')|E] jest następująca: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').|l]"
+ EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "Ta opcja jest dostępna, ponieważ [situation_dynastic_cycle_phase|El] to [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName|l]"
  EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "Ta opcja jest dostępna, ponieważ twój [powerful_family_attribute|El] to uczeni filozofowie"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE_FOCUS: "Ta opcja jest dostępna ze względu na twój priorytet: [GetPlayer.GetFocus.GetName|l]"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE: "Ta opcja jest dostępna ze względu na twój [lifestyle|El]"

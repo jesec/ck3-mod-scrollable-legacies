@@ -2526,6 +2526,21 @@ c_nf_nakahara_kiso = { # Kiso Nakahara
 	}
 }
 
+c_nf_nakatomi = { # Nakatomi
+	867.1.1 = {
+		liege = e_japan
+		holder = japanese_nakatomi_20 # Ujihiro
+		government = japan_administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1066.1.1 = { holder = 0 }
+}
+
 c_nf_ochi = { # Ochi
 	867.1.1 = {
 		liege = e_japan

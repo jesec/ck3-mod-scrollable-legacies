@@ -65,7 +65,7 @@
  will_found_noble_family_tt: "你会成为新[noble_family|E]的首领"
  # tgp_japan_emperor_restoration_decision
  tgp_japan_decision.9301.t: "挣脱樊笼"
- tgp_japan_decision.9301.desc: "作为天皇，我已重新夺回作为这片国度真正领袖的正当地位。我的权力不再被那些只为满足自身野心的人所操控，一切复归高御座。"
+ tgp_japan_decision.9301.desc: "作为天皇，我已重新夺回作为这片国度真正领袖的正当地位。\n\n我的权力不再被那些只为满足自身野心的人所操控，一切复归高御座。"
  tgp_japan_decision.9301.a: "指引大地的太阳。"
  tgp_japan_decision.9302.t: "[tenno.GetTitleAsNameNoTooltip]获胜"
  tgp_japan_decision.9302.desc: "有关$game_concept_tenno_possessive$归来的消息如野火般迅速传播。[tenno.GetName]恢复了[tenno.GetHerHis]的皇权威仪，希望能将权力从那些懒惰且心怀不轨之人手中收回。\n\n[tenno.GetSheHe|U]如今意图在高御座上更直接地统治这片土地上的人民，[tenno.GetHerHis]的统治将不再被视为仅仅是礼节性的象征。"

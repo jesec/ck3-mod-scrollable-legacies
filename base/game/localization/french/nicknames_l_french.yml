@@ -1330,3 +1330,5 @@
  nick_tenjin_desc: "On dit que [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltipNoFormat] est devenu[CHARACTER.Custom('FR_E')] un esprit vengeur en raison du traitement injuste dont [CHARACTER.Custom('FR_IlElle')] a fait l’objet et qu’[CHARACTER.Custom('FR_IlElle')] est maintenant vénéré[CHARACTER.Custom('FR_E')] en tant qu’être céleste."
  nick_ushiwakamaru: "Ushiwakamaru"
  nick_ushiwakamaru_desc: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUINameNoTooltipNoFormat] est réputé[CHARACTER.Custom('FR_E')] pour avoir la force et la ténacité d’un jeune taureau, et tout le monde autour d[CHARACTER.Custom('FR_EluiElle')] [CHARACTER.Custom('FR_LeLa')] craint."
+ nick_ho_seung: "Ho-seung"
+ nick_ho_seung_desc: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString(CHARACTER.IsLocalPlayer,'êtes','est')] entouré[CHARACTER.Custom('FR_E')] d’une vague légende selon laquelle un tigre mort après être tombé dans un piège renaît sous forme humaine et devient moine. Selon cette légende, ce moine n’est autre qu[CHARACTER.Custom('FR_EluiElle')]-même."

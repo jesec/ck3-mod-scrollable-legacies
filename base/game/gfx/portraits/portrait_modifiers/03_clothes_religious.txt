@@ -310,6 +310,26 @@
         }
     }
 
+    ## CCP7 Emishi Ainu Kamuy ##
+    religious_kamuyist_high_clothes = { # Kamuyist priests wear fancy Ainu clothes
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = ccp7_emishi_hi_nob_clothes
+                range = { 0 1 }
+            }
+        }
+        outfit_tags = { priest_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 105 #higher than steppe
+                portrait_religious_high_trigger = yes
+                portrait_religious_emishi_trigger = yes
+            }
+        }
+    }
 
 ## Steppe ##
 
@@ -331,15 +351,20 @@
                 portrait_religious_high_trigger = yes
                 portrait_religious_steppe_trigger = yes
             }
-			modifier = {
+            modifier = {
                 add = 100
                 has_court_position = court_astrologer_court_position
-				exists = situation:the_great_steppe
-				liege ?= {
-					any_character_situation = {
-						this = situation:the_great_steppe
-					}
-				}
+                exists = situation:the_great_steppe
+                liege ?= {
+                    any_character_situation = {
+                        this = situation:the_great_steppe
+                    }
+                }
+            }
+            modifier = { ## CCP7 addition
+                add = 110
+                portrait_religious_high_trigger = yes
+                portrait_religious_shamanism_trigger = yes
             }
         }
     }
@@ -363,9 +388,9 @@
                 portrait_religious_high_trigger = yes
                 portrait_religious_buddhist_trigger = yes
                 OR = {
-					culture_has_east_asian_heritage_pillar_trigger = no
-					has_tgp_dlc_trigger = no
-				}
+                    culture_has_east_asian_heritage_pillar_trigger = no
+                    has_tgp_dlc_trigger = no
+                }
             }
             modifier = {
                 factor = 0
@@ -615,7 +640,7 @@
                 add = 110
                 exists = this
                 portrait_religious_high_trigger = yes
-				religion = religion:jainism_religion
+                religion = religion:jainism_religion
             }
         }
     }

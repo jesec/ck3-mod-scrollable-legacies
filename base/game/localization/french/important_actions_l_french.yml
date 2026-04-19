@@ -636,7 +636,7 @@
  action_find_accolade_successor_label: "@acclaimed_knight_icon! #high [recipient.GetNameNoTooltip]#! a besoin d’un digne successeur"
  action_find_accolade_successor_combined_label: "@acclaimed_knight_icon! #high [recipient.GetNameNoTooltip]#!"
  action_find_accolade_successor_desc: "Pensez à utiliser l’interaction #high $find_suitable_accolade_successor_interaction$#! (dans l’onglet Changer de successeur de distinction) pour éviter qu’elle ne devienne une [inactive_accolade|El] lors de la [accolade_succession|El].$action_find_accolade_successor_HELP$"
- action_find_accolade_successor_HELP: "\n\n#help Un successeur doit remplir les conditions de l’[accolade_type|El] primaire de la [accolade|El] et cela cause moins de perte de [glory|El] s’il remplit également celles de l’[accolade_type|l] secondaire.\n\nUn [knight|El] peut aussi se trouver en recrutant des [guests|El], par [marriage|El], par l’[interaction|El] Inviter à la Cour ou la [decision|El] Inviter des chevaliers.#!"
+ action_find_accolade_successor_HELP: "\n\n#help Un successeur doit remplir les conditions de l’[accolade_type|El] primaire de la [accolade|El] et cela cause moins de perte de [glory|El] s’il remplit également celles de l’[accolade_type|El] secondaire.\n\nUn [knight|El] peut aussi se trouver en recrutant des [guests|El], par [marriage|El], par l’[interaction|El] Inviter à la Cour ou la [decision|El] Inviter des chevaliers.#!"
  action_find_accolade_successor_click: "#I Cliquez pour voir vos chevaliers#!"
  action_find_accolade_successor_unimportant: "@warning_icon! #X $find_suitable_accolade_successor_interaction$ est actuellement indisponible#!"
  action_find_accolade_successor_combined_group_name: "@acclaimed_knight_icon! Les distinctions n’ont aucun successeur"
@@ -1136,7 +1136,7 @@
  action_active_learning_oath_1: "$action_active_diplomacy_oath_1$"
  action_active_learning_oath_1_label: "[coronation_i] Serment : $GetUniversityOathText|l$ [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
  action_active_learning_oath_1_desc: "Durant votre [coronation|El], vous avez fait le [oath|El] de #V $GetUniversityOathText|l$#!. Il vous reste [RemainingTime('learning_oath_1_timer')] ans pour le faire."
- action_active_learning_oath_1_click: "$action_active_learning_oath_1_click$"
+ action_active_learning_oath_1_click: "$action_active_diplomacy_oath_1_click$"
  action_active_purge_pretenders_oath: "$action_active_diplomacy_oath_1$"
  action_active_purge_pretenders_oath_label: "[coronation_i] Serment : $GetPurgePretendersOathText|l$ [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
  action_active_purge_pretenders_oath_desc: "Durant votre [coronation|El], vous avez fait le [oath|El] de #V $GetPurgePretendersOathText|l$#!. Il vous reste [RemainingTime('purge_pretenders_oath_timer')] ans pour le faire."
@@ -1205,3 +1205,46 @@
  action_landless_admin_escape_to_realm: "S’échapper vers un autre pays"
  action_landless_admin_escape_to_realm_desc: "Vous êtes un [holder|El] de [title|El] de [noble_family|El] avec un [liege|El] qui a un [government|El] différent.\n\n#help Vous pouvez demander à un [independent_ruler|El] qui a votre [government|El] de devenir votre nouveau seigneur lige et déplacer votre [domicile|El] vers sa [capital|El]#!"
  action_landless_admin_escape_to_realm_click: "#I Cliquez pour ouvrir une interaction $landless_admin_switch_non_admin_top_liege_interaction$#!"
+ action_minister_can_imprison_label: "@minister! [recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] peut être emprisonné[recipient.Custom('FR_E')]"
+ action_minister_can_imprison_combined_group_label: "@minister! Des gouverneurs peuvent être emprisonnés"
+ action_minister_can_imprison_combined_label: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] peut être emprisonné[recipient.Custom('FR_E')]"
+ #tooltip heading
+ action_minister_can_imprison: "@minister! Un gouverneur peut être emprisonné"
+ action_minister_can_imprison_combined_group_name: "$action_minister_can_imprison_combined_group_label$"
+ #tooltip contents
+ action_minister_can_imprison_desc: "Vous pouvez [imprison|El] [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUIName], puisqu’[recipient.GetSheHe] est un[recipient.Custom('FR_E')] [Concept('criminal', Select_CString(recipient.IsFemale,'criminelle','criminel'))|E] avéré[recipient.Custom('FR_E')] #weak ([recipient.GetImprisonmentReasons( recipient.GetLiege )|l])#!."
+ action_minister_can_imprison_combined_group_description: "Vous pouvez [imprison|El] des [governors|El] qui sont des [criminals|El] avérés"
+ action_minister_can_imprison_click: "#I Cliquez pour ouvrir l’interaction $imprison_interaction$#!"
+ action_minister_can_pardon_label: "@minister! [recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] peut être gracié[recipient.Custom('FR_E')]"
+ action_minister_can_pardon_combined_group_label: "@minister! Des gouverneurs peuvent être graciés"
+ action_minister_can_pardon_combined_label: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUINameNoTooltip] peut être gracié[recipient.Custom('FR_E')]"
+ #tooltip heading
+ action_minister_can_pardon: "@minister! Un gouverneur peut être gracié"
+ action_minister_can_pardon_combined_group_name: "$action_minister_can_pardon_combined_group_label$"
+ #tooltip contents
+ action_minister_can_pardon_desc: "Vous pouvez forcer [recipient.GetLiege.Custom('FR_le_Char_U_Pi')][recipient.GetLiege.GetShortUIName] à concéder un [imprisonment_reason|El] #weak ([recipient.GetImprisonmentReasons( recipient.GetLiege )|l])#! à l’égard [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName], puisqu’[recipient.GetSheHe] est un[recipient.Custom('FR_E')] [Concept('criminal', Select_CString(recipient.IsFemale,'criminelle','criminel'))|E] avéré[recipient.Custom('FR_E')]."
+ action_minister_can_pardon_combined_group_description: "Vous pouvez forcer le [liege|El] des [governors|El] qui sont des [criminals|El] avérés à concéder un [imprisonment_reason|El] contre eux."
+ action_minister_can_pardon_click: "#I Cliquez pour ouvrir l’interaction $pardon_interaction$#!"
+ action_can_be_pardoned_by_minister_label: "@minister! Vous pouvez demander [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUINameNoTooltip] de vous gracier"
+ #tooltip heading
+ action_can_be_pardoned_by_minister: "@minister! Vous pouvez être gracié"
+ #tooltip contents
+ action_can_be_pardoned_by_minister_desc: "Vous pouvez demander [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUIName] de forcer votre [liege|El], [actor.GetLiege.Custom('FR_le_Char_U_Pi')][actor.GetLiege.GetShortUIName], à concéder un [imprisonment_reason|El] #weak ([actor.GetImprisonmentReasons( actor.GetLiege )|l])#! à #V votre#! égard."
+ action_can_be_pardoned_by_minister_unimportant: "@warning_icon! #X [recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] n’est pas prêt[recipient.Custom('FR_E')] à accepter.#!"
+ action_can_be_pardoned_by_minister_click: "#I Cliquez pour ouvrir l’interaction $ask_for_pardon_interaction$#!"
+ action_pay_governors_treasury_debt_label: "@minister! La dette du Trésor [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUINameNoTooltip] peut être remboursée"
+ action_pay_governors_treasury_debt_combined_group_label: "@minister! La dette du Trésor des gouverneurs peut être remboursée"
+ action_pay_governors_treasury_debt_combined_label: "La [treasury_debt|El] totale [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUINameNoTooltip] est de #X [recipient.GetTreasury|0]#![treasury_i]"
+ #tooltip heading
+ action_pay_governors_treasury_debt: "@minister! La dette du Trésor du gouverneur peut être remboursée"
+ action_pay_governors_treasury_debt_combined_group_name: "$action_pay_governors_treasury_debt_combined_group_label$"
+ #tooltip contents
+ action_pay_governors_treasury_debt_desc: "Vous pouvez envoyer du [treasury|E][treasury_i] [recipient.Custom('FR_au_Char_U_Pi')][recipient.GetShortUIName] afin d’effacer sa dette."
+ action_pay_governors_treasury_debt_combined_group_description: "Vous pouvez envoyer du [treasury|E][treasury_i] à des [governors|El] afin de payer leur [treasury_debt|El]."
+ action_pay_governors_treasury_debt_click: "#I Cliquez pour ouvrir l’interaction $action_pay_governors_treasury_debt$#!"
+ action_minister_can_pay_treasury_debt_label: "@minister! Votre dette du Trésor peut être effacée par [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUIName]"
+ #tooltip heading
+ action_minister_can_pay_treasury_debt: "@minister! [recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName] peut effacer votre dette du Trésor"
+ #tooltip contents
+ action_minister_can_pay_treasury_debt_desc: "Vous pouvez recevoir du [treasury|E][treasury_i] du [minister_of_revenue|El], [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUIName], ou du [son_of_heaven|E] afin d’effacer votre dette."
+ action_minister_can_pay_treasury_debt_click: "#I Cliquez pour ouvrir l’interaction $action_pay_governors_treasury_debt$#!"

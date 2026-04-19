@@ -2586,10 +2586,6 @@ c_roma = {
 	1227.3.18 = {
 		holder = 71821
 	}
-	1228.1.1 = {
-		#REMOVE BEFORE RELEASE
-		#liege = d_spoleto
-	}
 	1241.8.22 = {
 		holder = 71822
 	}
@@ -3197,10 +3193,6 @@ c_viterbo = {
 	}
 	1227.3.18 = {
 		holder = 71821
-	}
-	1228.1.1 = {
-		#REMOVE BEFORE RELEASE
-		#liege = d_spoleto
 	}
 	1241.8.22 = {
 		holder = 71822
@@ -3812,10 +3804,6 @@ c_tivoli = {
 	}
 	1227.3.18 = {
 		holder = 71821
-	}
-	1228.1.1 = {
-		#REMOVE BEFORE RELEASE
-		#liege = d_spoleto
 	}
 	1241.8.22 = {
 		holder = 71822

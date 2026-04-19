@@ -1624,7 +1624,38 @@ on_action_mandala_realm_contract_0033 = {
 # Game of Wit
 on_action_mandala_realm_contract_0034 = {
 	trigger = {
-		there_is_any_valid_mandala_contract_spot_trigger = yes
+		OR = {
+			any_sub_realm_county = {
+				any_county_province = {
+					has_holding = yes
+					is_occupied = no
+					barony = { 
+						holder ?= { is_available_adult = yes }
+					}
+					NOR = {
+						this = scope:mandala_ruler.capital_province
+						has_variable = requested_mandala_ritual
+						has_variable = mandala_ritual_cooldown
+					}
+				}
+			}
+			any_tributary = {
+				any_sub_realm_county = {
+					any_county_province = {
+						has_holding = yes
+						is_occupied = no
+						barony = { 
+							holder ?= { is_available_adult = yes }
+						}
+						NOR = {
+							this = scope:mandala_ruler.capital_province
+							has_variable = requested_mandala_ritual
+							has_variable = mandala_ritual_cooldown
+						}
+					}
+				}
+			}
+		}
 	}
 	
 	weight_multiplier = {

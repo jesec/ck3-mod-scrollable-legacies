@@ -1952,6 +1952,18 @@ warrior_lodges_01 = {
 	}
 	can_construct_potential = {
 		building_warrior_lodges_requirement_terrain = yes
+		trigger_if = {
+			limit = {
+				scope:holder = {
+					NOT = {
+						government_has_flag = government_is_tribal
+					}
+				}
+			}
+			NOT = {
+				has_holding_type = tribal_holding
+			}
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -2042,6 +2054,18 @@ warrior_lodges_02 = {
 		scope:holder.culture = {
 			has_innovation = innovation_barracks
 		}
+		trigger_if = {
+			limit = {
+				scope:holder = {
+					NOT = {
+						government_has_flag = government_is_tribal
+					}
+				}
+			}
+			NOT = {
+				has_holding_type = tribal_holding
+			}
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -2096,6 +2120,18 @@ warrior_lodges_03 = {
 		scope:holder.culture = {
 			has_innovation = innovation_burhs
 		}
+		trigger_if = {
+			limit = {
+				scope:holder = {
+					NOT = {
+						government_has_flag = government_is_tribal
+					}
+				}
+			}
+			NOT = {
+				has_holding_type = tribal_holding
+			}
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -2147,6 +2183,18 @@ warrior_lodges_04 = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
 		scope:holder.culture = {
 			has_innovation = innovation_burhs
+		}
+		trigger_if = {
+			limit = {
+				scope:holder = {
+					NOT = {
+						government_has_flag = government_is_tribal
+					}
+				}
+			}
+			NOT = {
+				has_holding_type = tribal_holding
+			}
 		}
 	}
 

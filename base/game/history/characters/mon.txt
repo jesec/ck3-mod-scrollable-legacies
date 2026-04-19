@@ -710,6 +710,7 @@ haripunjaya_ruler_2 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	mother = haripunjaya_ruler_1
 	700.1.1 = {
 		birth = yes
 	}
@@ -723,6 +724,7 @@ haripunjaya_ruler_3 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_2
 	741.1.1 = {
 		birth = yes
 	}
@@ -736,6 +738,7 @@ haripunjaya_ruler_4 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_3
 	757.1.1 = {
 		birth = yes
 	}
@@ -749,6 +752,7 @@ haripunjaya_ruler_5 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_4
 	795.1.1 = {
 		birth = yes
 	}
@@ -762,6 +766,7 @@ haripunjaya_ruler_6 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_4
 	801.1.1 = {
 		birth = yes
 	}
@@ -774,6 +779,7 @@ haripunjaya_ruler_7 = {
 	dna = bookmark_dna_padumaraj
 	name = "Padumaraja"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_6
 	culture = "mon"
 	religion = "mahayana"
 	diplomacy = 2
@@ -799,6 +805,7 @@ haripunjaya_ruler_8 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_6
 	836.1.1 = {
 		birth = yes
 	}
@@ -812,6 +819,7 @@ haripunjaya_ruler_9 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_6
 	850.1.1 = {
 		birth = yes
 	}
@@ -825,6 +833,7 @@ haripunjaya_ruler_10 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_6
 	854.1.1 = {
 		birth = yes
 	}
@@ -838,6 +847,7 @@ haripunjaya_ruler_11 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_7
 	863.1.1 = {
 		birth = yes
 	}
@@ -851,6 +861,7 @@ haripunjaya_ruler_12 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_10
 	871.1.1 = {
 		birth = yes
 	}
@@ -864,6 +875,7 @@ haripunjaya_ruler_13 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_10
 	881.1.1 = {
 		birth = yes
 	}
@@ -877,6 +889,7 @@ haripunjaya_ruler_14 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_10
 	890.1.1 = {
 		birth = yes
 	}
@@ -890,6 +903,7 @@ haripunjaya_ruler_15 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_10
 	895.1.1 = {
 		birth = yes
 	}
@@ -903,6 +917,7 @@ haripunjaya_ruler_16 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_15
 	918.1.1 = {
 		birth = yes
 	}
@@ -916,6 +931,7 @@ haripunjaya_ruler_17 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_15
 	920.1.1 = {
 		birth = yes
 	}
@@ -929,6 +945,7 @@ haripunjaya_ruler_18 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_15
 	934.1.1 = {
 		birth = yes
 	}
@@ -942,6 +959,7 @@ haripunjaya_ruler_19 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_15
 	930.1.1 = {
 		birth = yes
 	}
@@ -955,6 +973,7 @@ haripunjaya_ruler_20 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_15
 	944.1.1 = {
 		birth = yes
 	}
@@ -968,6 +987,7 @@ haripunjaya_ruler_21 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_15
 	952.1.1 = {
 		birth = yes
 	}
@@ -981,6 +1001,7 @@ haripunjaya_ruler_22 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_16
 	963.1.1 = {
 		birth = yes
 	}
@@ -994,6 +1015,7 @@ haripunjaya_ruler_23 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_17
 	971.1.1 = {
 		birth = yes
 	}
@@ -1007,6 +1029,7 @@ haripunjaya_ruler_24 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_19
 	979.1.1 = {
 		birth = yes
 	}
@@ -1020,6 +1043,7 @@ haripunjaya_ruler_25 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_19
 	983.1.1 = {
 		birth = yes
 	}
@@ -1033,6 +1057,7 @@ haripunjaya_ruler_26 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_22
 	999.1.1 = {
 		birth = yes
 	}
@@ -1046,6 +1071,7 @@ haripunjaya_ruler_27 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_24
 	1006.1.1 = {
 		birth = yes
 	}
@@ -1059,6 +1085,7 @@ haripunjaya_ruler_28 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_27
 	1020.1.1 = {
 		birth = yes
 	}
@@ -1072,6 +1099,7 @@ haripunjaya_ruler_29 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_27
 	1033.1.1 = {
 		birth = yes
 	}
@@ -1085,6 +1113,7 @@ haripunjaya_ruler_30 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_27
 	1030.1.1 = {
 		birth = yes
 	}
@@ -1098,6 +1127,7 @@ haripunjaya_ruler_31 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_28
 	1042.1.1 = {
 		birth = yes
 	}
@@ -1111,6 +1141,7 @@ haripunjaya_ruler_32 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_28
 	1058.1.1 = {
 		birth = yes
 	}
@@ -1124,6 +1155,7 @@ haripunjaya_ruler_33 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_28
 	1059.1.1 = {
 		birth = yes
 	}
@@ -1137,6 +1169,7 @@ haripunjaya_ruler_34 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_28
 	1068.1.1 = {
 		birth = yes
 	}
@@ -1150,6 +1183,7 @@ haripunjaya_ruler_35 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_32
 	1085.1.1 = {
 		birth = yes
 	}
@@ -1163,6 +1197,7 @@ haripunjaya_ruler_36 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_32
 	1094.1.1 = {
 		birth = yes
 	}
@@ -1176,6 +1211,7 @@ haripunjaya_ruler_37 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_32
 	1094.1.1 = {
 		birth = yes
 	}
@@ -1189,6 +1225,7 @@ haripunjaya_ruler_38 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_35
 	1109.1.1 = {
 		birth = yes
 	}
@@ -1202,6 +1239,7 @@ haripunjaya_ruler_39 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_35
 	1110.1.1 = {
 		birth = yes
 	}
@@ -1215,6 +1253,7 @@ haripunjaya_ruler_40 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_37
 	1126.1.1 = {
 		birth = yes
 	}
@@ -1228,6 +1267,7 @@ haripunjaya_ruler_41 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_37
 	1128.1.1 = {
 		birth = yes
 	}
@@ -1241,6 +1281,7 @@ haripunjaya_ruler_42 = {
 	culture = "mon"
 	dynasty = mon_camadevi_haripunjaya
 	religion = "mahayana"
+	father = haripunjaya_ruler_37
 	1137.1.1 = {
 		birth = yes
 	}
@@ -1254,6 +1295,7 @@ haripunjaya_ruler_43 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_39
 	1141.1.1 = {
 		birth = yes
 	}
@@ -1267,6 +1309,7 @@ haripunjaya_ruler_44 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_43
 	1210.1.1 = {
 		birth = yes
 	}
@@ -1280,6 +1323,7 @@ haripunjaya_ruler_45 = {
 	culture = "mon"
 	religion = "mahayana"
 	dynasty = mon_camadevi_haripunjaya
+	father = haripunjaya_ruler_44
 	1240.1.1 = {
 		birth = yes
 	}

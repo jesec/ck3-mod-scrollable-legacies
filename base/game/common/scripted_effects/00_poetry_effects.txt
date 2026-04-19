@@ -157,11 +157,19 @@ send_poem_romance_duel_actor_victory_effect = {
 }
 send_poem_romance_duel_actor_failure_effect = {
 	# reduce their opinion of scope:recipient.
-	hidden_effect = {
-		scope:actor = {
+	scope:actor = {
+		if = {
+			limit = { is_ai = yes }
 			add_opinion = {
 				target = scope:recipient
 				modifier = sent_poem_humiliated_opinion
+			}
+		}
+		if = {
+			limit = { has_trait = lifestyle_poet }
+			add_trait_xp = {
+				trait = lifestyle_poet
+				value = { 1 2 }
 			}
 		}
 	}
@@ -217,11 +225,19 @@ send_poem_mourning_duel_actor_victory_effect = {
 }
 send_poem_mourning_duel_actor_failure_effect = {
 	# reduce their opinion of scope:recipient.
-	hidden_effect = {
-		scope:actor = {
+	scope:actor = {
+		if = {
+			limit = { is_ai = yes }
 			add_opinion = {
 				target = scope:recipient
 				modifier = sent_poem_humiliated_opinion
+			}
+		}
+		if = {
+			limit = { has_trait = lifestyle_poet }
+			add_trait_xp = {
+				trait = lifestyle_poet
+				value = { 1 2 }
 			}
 		}
 	}
@@ -276,11 +292,19 @@ send_poem_legacy_duel_actor_victory_effect = {
 }
 send_poem_legacy_duel_actor_failure_effect = {
 	# reduce their opinion of scope:recipient.
-	hidden_effect = {
-		scope:actor = {
+	scope:actor = {
+		if = {
+			limit = { is_ai = yes }
 			add_opinion = {
 				target = scope:recipient
 				modifier = sent_poem_humiliated_opinion
+			}
+		}
+		if = {
+			limit = { has_trait = lifestyle_poet }
+			add_trait_xp = {
+				trait = lifestyle_poet
+				value = { 1 2 }
 			}
 		}
 	}
@@ -336,11 +360,19 @@ send_poem_strife_duel_actor_victory_effect = {
 }
 send_poem_strife_duel_actor_failure_effect = {
 	# reduce their opinion of scope:recipient.
-	hidden_effect = {
-		scope:actor = {
+	scope:actor = {
+		if = {
+			limit = { is_ai = yes }
 			add_opinion = {
 				target = scope:recipient
 				modifier = sent_poem_humiliated_opinion
+			}
+		}
+		if = {
+			limit = { has_trait = lifestyle_poet }
+			add_trait_xp = {
+				trait = lifestyle_poet
+				value = { 1 2 }
 			}
 		}
 	}
@@ -396,11 +428,19 @@ send_poem_incompetence_duel_actor_victory_effect = {
 }
 send_poem_incompetence_duel_actor_failure_effect = {
 	# reduce their opinion of scope:recipient.
-	hidden_effect = {
-		scope:actor = {
+	scope:actor = {
+		if = {
+			limit = { is_ai = yes }
 			add_opinion = {
 				target = scope:recipient
 				modifier = sent_poem_humiliated_opinion
+			}
+		}
+		if = {
+			limit = { has_trait = lifestyle_poet }
+			add_trait_xp = {
+				trait = lifestyle_poet
+				value = { 1 2 }
 			}
 		}
 	}

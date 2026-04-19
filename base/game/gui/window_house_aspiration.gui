@@ -377,6 +377,7 @@ types HouseAspirations
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
 			size = { 300 -1 }
+			maximumsize = { 315 -1 }
 
 			blockoverride "scrollbox_content"
 			{
@@ -437,7 +438,7 @@ types HouseAspirations
 
 			hbox = {
 				layoutpolicy_horizontal = expanding
-				minimumsize = { 0 110 }
+				minimumsize = { 0 160 }
 				
 				background = {
 					texture = "[HouseAspiration.GetIllustration]"
@@ -480,7 +481,7 @@ types HouseAspirations
 						button_icon = {
 							down = "[HouseAspirationWindow.IsSelectedLevelIndex(PdxGuiWidget.GetIndexInDataModel)]"
 							alwaystransparent = "[HouseAspirationWindow.IsSelectedLevelIndex(PdxGuiWidget.GetIndexInDataModel)]"
-							size = { 45 45 }
+							size = { 40 40 }
 							texture = "gfx/interface/buttons/button_round_big.dds"
 
 							onclick = "[HouseAspirationWindow.SetSelectedLevelIndex( PdxGuiWidget.GetIndexInDataModel )]"
@@ -488,7 +489,7 @@ types HouseAspirations
 							button_icon_highlight = {
 								name = "level_icon"
 								parentanchor = center
-								size = { 41 24 }
+								size = { 36 19 }
 								down = "[HouseAspirationWindow.IsSelectedLevelIndex(PdxGuiWidget.GetIndexInDataModel)]"
 								alwaystransparent = yes
 								texture = "[HouseAspirationWindow.GetLevelIconForHouseAspirationLevel(PdxGuiWidget.GetIndexInDataModel)]"

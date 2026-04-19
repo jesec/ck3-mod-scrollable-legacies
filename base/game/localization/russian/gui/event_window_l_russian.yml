@@ -123,7 +123,7 @@
  EVENT_WINDOW_OPTION_SEA_LEGACY_OVERRIDE: "Этот вариант доступен, так как у вас есть достоинство «[GetDynastyPerk( 'tgp_sea_legacy_5' ).GetName]»"
  EVENT_WINDOW_OPTION_AVAILABLE_CELESTIAL_MILITARY_APPOINTMENT: "Этот вариант доступен из-за вашей @celestial_military_administration! военной администрации"
  EVENT_WINDOW_OPTION_AVAILABLE_MOVEMENT: "Этот вариант доступен из-за вашего участия в движении «[GetPlayer.Custom('GetMyMovement')]»"
- EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "Этот вариант доступен из-за [Concept('situation_phase', 'фазы')|E] «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]» [Concept('dynastic_cycle', 'династического цикла')|E]"
+ EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "Этот вариант доступен из-за [Concept('situation_dynastic_cycle_phase', 'эры династического цикла')|E] «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]»"
  EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "Этот вариант доступен из-за вашего [Concept('powerful_family_attribute', 'атрибута могущественного семейства')|E] «$learned_philosophers_house_power$»"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE_FOCUS: "Этот вариант доступен из-за вашего фокуса «[GetPlayer.GetFocus.GetName]»"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE: "Этот вариант доступен из-за вашего [Concept('lifestyle', 'жизненного пути')|E]"

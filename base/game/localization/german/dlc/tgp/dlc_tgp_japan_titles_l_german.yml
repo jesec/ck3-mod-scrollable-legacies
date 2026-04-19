@@ -297,6 +297,8 @@
  c_nf_nakahara_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_nakahara_kiso: "$dynn_Nakahara$-$c_nf_japan_suffix$"
  c_nf_nakahara_kiso_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_nakatomi: "$dynn_Nakatomi$-$c_nf_japan_suffix$"
+ c_nf_nakatomi_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_ochi: "$dynn_Ochi$-$c_nf_japan_suffix$"
  c_nf_ochi_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_oe: "$dynn_O_e$-$c_nf_japan_suffix$"

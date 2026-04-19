@@ -475,7 +475,7 @@
  action_can_propose_alliance_to_family_member_combined_group_name: "$action_can_propose_alliance_to_family_member_combined_group_label$"
  action_can_propose_alliance_to_family_member_desc: "[Select_CString(recipient.IsFemale, 'Eure', 'Eure')] [actor.Custom2('RelationToMe', recipient)] [recipient.GetUIName] und Ihr könnt ein [alliance|E] miteinander aushandeln, da Ihr bereits Blutsbande zueinander habt.\n\n[actor.Custom2('GetInOrOutsideRealmAllianceInfo', recipient)]#help \n\nSeid jedoch gewarnt! Solche [alliances|E] können mehr Ärger machen, als sie Euch ersparen …\n\nAchtet darauf, dass Ihr dieses [alliance|E] wirklich wollt und Euch nicht in sinnlose Konflikte hineinziehen lasst.#!"
  action_can_propose_alliance_to_family_member_combined_group_description: "Ihr könnt [alliances|E] mit einigen Mitgliedern Eurer [family|E] oder Personen, mit denen Eure Angehörigen verheiratet sind, aushandeln. Dazu braucht Ihr keine neue [marriage|E], da Ihr bereits Blutsbande zueinander habt.#help \n\nSeid jedoch gewarnt! Solche [alliances|E] können mehr Ärger machen, als sie Euch ersparen …\n\nAchtet darauf, dass Ihr dieses [alliance|E] wirklich wollt und Euch nicht in sinnlose Konflikte hineinziehen lasst.#!"
- action_can_propose_alliance_to_family_member_label: "@alliance_icon! [Select_CString(recipient.IsFemale, 'Eure', 'Eure')] [actor.Custom2('RelationToMe', recipient)] [recipient.GetPrimaryTitle.Custom('GetTierIcon')][recipient.GetShortUINameNoTooltip] und Ihr könnt ein [alliance|E] miteinander aushandeln, #low @soldier_icon![recipient.GetMilitaryStrengthText]#! [actor.Custom2('GetInOrOutsideRealm', recipient)]"
+ action_can_propose_alliance_to_family_member_label: "@alliance_icon! [Select_CString(recipient.IsFemale, 'Eure', 'Eure')] [actor.Custom2('RelationToMe', recipient)] [recipient.GetPrimaryTitle.Custom('GetTierIcon')][recipient.GetShortUINameNoTooltip] und Ihr könnt ein Bündnis miteinander aushandeln, #low @soldier_icon![recipient.GetMilitaryStrengthText]#! [actor.Custom2('GetInOrOutsideRealm', recipient)]"
  action_can_propose_alliance_to_family_member_combined_label: "[recipient.Custom('DE_PRO_POS_P_2P_N')|U] [actor.Custom2('RelationToMe', recipient)] [recipient.GetPrimaryTitle.Custom('GetTierIcon')][recipient.GetUINameNoTooltip], #low @soldier_icon![recipient.GetMilitaryStrengthText]#! [actor.Custom2('GetInOrOutsideRealm', recipient)]"
  action_can_propose_alliance_to_family_member_click: "#I Klicken, um das Bündnis auszuhandeln#!"
  action_can_propose_alliance_to_family_member_combined_unimportant: "@warning_icon! #X Ihr werdet sie nicht in den Krieg rufen können#!"
@@ -778,7 +778,7 @@
  action_promote_legend_label: "Es gibt eine Legende, die Ihr beginnen könnt"
  action_promote_legend_desc: "Ihr könnt eine [legend|E] beginnen.\n\n#help [legends|E] sind nützlich, um [legitimacy|E], [dynasty_prestige|E], [prestige|E], [piety|E], [traits|E] und [claims|E] zu erlangen.#!"
  action_promote_legend_click: "#I Zum Anzeigen klicken#!"
- action_promote_foreign_legend: "Eine [legend|E] fördern"
+ action_promote_foreign_legend: "Eine Legende fördern"
  action_promote_foreign_legend_label: "Es gibt eine Legende, die Ihr unterstützen könnt"
  action_promote_foreign_legend_desc: "Ihr könnt die [legend|E] von jemand anderem fördern.\n\n#help [legends|E] sind nützlich, um [legitimacy|E], [dynasty_prestige|E], [prestige|E], [piety|E], [traits|E] und [claims|E] zu erlangen. Eine [legend|E] hat sich in Euer Reich ausgebreitet; wenn sie unterstützt wird, winken Belohnungen."
  action_promote_foreign_legend_click: "#I Zum Anzeigen klicken#!"
@@ -1136,7 +1136,7 @@
  action_active_learning_oath_1: "$action_active_diplomacy_oath_1$"
  action_active_learning_oath_1_label: "[coronation_i] Eid: $GetUniversityOathText$ [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
  action_active_learning_oath_1_desc: "Während Eurer [coronation|E] habt Ihr den #V $GetUniversityOathText$#!-[oath|E] geschworen. Ihr habt noch [RemainingTime('learning_oath_1_timer')] Jahre, um ihn zu erfüllen."
- action_active_learning_oath_1_click: "$action_active_learning_oath_1_click$"
+ action_active_learning_oath_1_click: "$action_active_diplomacy_oath_1_click$"
  action_active_purge_pretenders_oath: "$action_active_diplomacy_oath_1$"
  action_active_purge_pretenders_oath_label: "[coronation_i] Eid: $GetPurgePretendersOathText$ [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
  action_active_purge_pretenders_oath_desc: "Während Eurer [coronation|E] habt Ihr den #V $GetPurgePretendersOathText$#!-[oath|E] geschworen. Ihr habt noch [RemainingTime('purge_pretenders_oath_timer')] Jahre, um ihn zu erfüllen."
@@ -1205,3 +1205,46 @@
  action_landless_admin_escape_to_realm: "In anderes Reich entkommen"
  action_landless_admin_escape_to_realm_desc: "Ihr seid ein landloser [Concept('noble_family', 'Adelsfamilien')|E]-[title|E]-[holder|E] unter einem [Concept('liege', 'Lehnsherrn')|E] mit einer anderen [government|E]\n\n#help Ihr könnt andere [independent_rulers|El] mit Eurer [government|E] bitten, Euer neuer Lehnsherr zu werden, und Euren [domicile|E] in ihren [capital|E] verlegen#!"
  action_landless_admin_escape_to_realm_click: "#I Klicken, um die Interaktion „$landless_admin_switch_non_admin_top_liege_interaction$“ zu öffnen#!"
+ action_minister_can_imprison_label: "@minister![recipient.GetShortUINameNoTooltip|U] kann eingekerkert werden"
+ action_minister_can_imprison_combined_group_label: "@minister!Statthalter können eingekerkert werden"
+ action_minister_can_imprison_combined_label: "[recipient.GetShortUINameNoTooltip|U] kann eingekerkert werden"
+ #tooltip heading
+ action_minister_can_imprison: "@minister!Statthalter kann eingekerkert werden"
+ action_minister_can_imprison_combined_group_name: "$action_minister_can_imprison_combined_group_label$"
+ #tooltip contents
+ action_minister_can_imprison_desc: "Ihr könnt [recipient.GetShortUINameNoTooltip] rechtmäßig [imprison|El], da [recipient.Custom('DE_PRO_PER_S_3P_N')] als [criminal|E] bekannt ist #weak ([recipient.GetImprisonmentReasons(recipient.GetLiege)])#!."
+ action_minister_can_imprison_combined_group_description: "Ihr könnt [governors|E] [imprison|El], die [criminals|E] sind"
+ action_minister_can_imprison_click: "#I Klicken, um die Interaktion „$imprison_interaction$“ zu öffnen#!"
+ action_minister_can_pardon_label: "@minister![recipient.GetShortUINameNoTooltip|U] kann begnadigt werden"
+ action_minister_can_pardon_combined_group_label: "@minister!Statthalter können begnadigt werden"
+ action_minister_can_pardon_combined_label: "[recipient.GetShortUINameNoTooltip|U] kann begnadigt werden"
+ #tooltip heading
+ action_minister_can_pardon: "@minister!Statthalter kann begnadigt werden"
+ action_minister_can_pardon_combined_group_name: "$action_minister_can_pardon_combined_group_label$"
+ #tooltip contents
+ action_minister_can_pardon_desc: "Ihr könnt [recipient.GetLiege.GetShortUINameNoTooltip] zwingen, einen [imprisonment_reason|E] #weak ([recipient.GetImprisonmentReasons(recipient.GetLiege)])#! für [recipient.GetShortUIName] aufzuheben, da [recipient.Custom('DE_PRO_PER_S_3P_N')] als [criminal|E] bekannt ist."
+ action_minister_can_pardon_combined_group_description: "Ihr könnt die [Concept('liege', 'Lehnsherrn')|E] von [Concept('governors', 'Statthaltern')|E], die als [criminals|E] bekannt sind, zwingen, einen [imprisonment_reason|E] aufzuheben."
+ action_minister_can_pardon_click: "#I Klicken, um die Interaktion „$pardon_interaction$“ zu öffnen#!"
+ action_can_be_pardoned_by_minister_label: "@minister!Ihr könnt [recipient.GetShortUINameNoTooltip] bitten, Euch zu begnadigen"
+ #tooltip heading
+ action_can_be_pardoned_by_minister: "@minister!Ihr könnt begnadigt werden"
+ #tooltip contents
+ action_can_be_pardoned_by_minister_desc: "Ihr könnt [recipient.GetShortUIName] bitten, Euren [Concept('liege', 'Lehnsherrn')|E] [actor.GetLiege.GetShortUIName] zu zwingen, einen [imprisonment_reason|E] #weak ([actor.GetImprisonmentReasons(actor.GetLiege)])#! gegen #V Euch#! aufzuheben."
+ action_can_be_pardoned_by_minister_unimportant: "@warning_icon! #X [recipient.GetShortUIName|U] ist nicht bereit anzunehmen.#!"
+ action_can_be_pardoned_by_minister_click: "#I Klicken, um die Interaktion „$ask_for_pardon_interaction$“ zu öffnen#!"
+ action_pay_governors_treasury_debt_label: "@minister!Schatzschulden von [recipient.GetShortUINameNoTooltip] können abbezahlt werden"
+ action_pay_governors_treasury_debt_combined_group_label: "@minister!Schatzschulden von Statthaltern können abbezahlt werden"
+ action_pay_governors_treasury_debt_combined_label: "Angesammelte [treasury_debt|E] von [recipient.GetShortUINameNoTooltip] belaufen sich auf [treasury_i]#X [recipient.GetTreasury|0]#!"
+ #tooltip heading
+ action_pay_governors_treasury_debt: "@minister!Schatzschulden eines Statthalters können abbezahlt werden"
+ action_pay_governors_treasury_debt_combined_group_name: "$action_pay_governors_treasury_debt_combined_group_label$"
+ #tooltip contents
+ action_pay_governors_treasury_debt_desc: "Ihr könnt [recipient.GetShortUIName] [treasury_i][treasury|E] schicken, um [recipient.Custom('DE_PRO_POS_S_3P')]e Bücher zu bereinigen."
+ action_pay_governors_treasury_debt_combined_group_description: "Ihr könnt [Concept('governors', 'Statthaltern')|E] [treasury_i][treasury|E] schicken, um deren Bücher zu bereinigen."
+ action_pay_governors_treasury_debt_click: "#I Klicken, um die Interaktion „$action_pay_governors_treasury_debt$“ zu öffnen#!"
+ action_minister_can_pay_treasury_debt_label: "@minister!Eure Schatzschulden können von [recipient.GetShortUIName] begleichen werden"
+ #tooltip heading
+ action_minister_can_pay_treasury_debt: "@minister![recipient.GetShortUIName|U] kann Eure Schatzschulden begleichen"
+ #tooltip contents
+ action_minister_can_pay_treasury_debt_desc: "Ihr könnt [treasury_i][treasury|E] von [recipient.GetShortUIName], dem [minister_of_revenue|E] oder dem [son_of_heaven|E] erhalten, um Eure Bücher zu bereinigen."
+ action_minister_can_pay_treasury_debt_click: "#I Klicken, um die Interaktion „$action_pay_governors_treasury_debt$“ zu öffnen#!"

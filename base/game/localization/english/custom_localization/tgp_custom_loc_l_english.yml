@@ -62,6 +62,7 @@
  BlocReasonPlayer: "due to unpredictable human nature"
  BlocReasonWar: "as a result of a [house_bloc|E] War"
  BlocReasonEvents: "as a result of an event"
+ BlocReasonIntent: "as a result of an [activity|E] intent"
  BlocReasonPrestige: "due to difference in [house_bloc|E] Leaders [prestige_levels|E]"
  BlocReasonInfluence: "due to difference in [house_bloc|E] Leaders [influence_levels|E]"
  BlocReasonMilitaryStrength: "due to difference in [house_bloc|E] Leaders military strength"
@@ -74,3 +75,5 @@
  BlocReasonBribePrestige: "because of a generous [prestige_i][prestige|E] bribe"
  BlocReasonBribeInfluence: "because of a generous [influence_i][influence|E] bribe"
  BlocReasonBribeHook: "because of a [hook_i][hook|E] was used"
+ BlocReasonKicked: "due to being forced out by the [leading_house|E]"
+ BlocReasonFollowedLiege: "in order to join the [bloc|E] of their [house_heads_possessive] [liege|E]"

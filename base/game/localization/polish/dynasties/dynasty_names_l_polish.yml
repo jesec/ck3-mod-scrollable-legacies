@@ -10673,6 +10673,7 @@
  dynn_Kopparvall: "Kopparvallów"
  dynn_freddi: "Freddich"
  dynn_collinder: "Collinderów"
+ dynn_tosunyan: "Tosunyanów"
  #TGP
  dynn_Tang: "Tangów"
  dynn_Kediri: "Kedirich"
@@ -10745,6 +10746,7 @@
  dynn_Asari: "Asarich" #浅利
  dynn_Ashida: "Ashidów" #芦田
  dynn_Ashikaga: "Ashikagów" #足利
+ dynn_Ashina_JP: "Ashinów" #蘆名
  dynn_Aso: "Aso" #阿蘇
  dynn_Asukabe: "Asukabe" #飛鳥部
  dynn_Asuke: "Asuke" #足助
@@ -10888,6 +10890,7 @@
  dynn_IntO_: "Intō" #印東
  dynn_Irie: "Irie" #入江
  dynn_Irobe: "Irobe" #色部
+ dynn_Iruma: "Irumów" #入間
  dynn_Isa: "Isów" #伊佐
  dynn_Isawa: "Isawów" #胆沢
  dynn_Ishibashi: "Ishibashich" #石橋
@@ -11811,6 +11814,7 @@
  dynn_I_5DF2: "Yi" #已 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_I_674E: "Yi" #李 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_Il_58F9: "Ilów" #壹 (일)
+ dynn_Ho_seung_864E_50E7: "Ho-seungów" #(虎僧)
  dynn_Im_4EFB: "Imów" #任 (임)
  dynn_Jae_C7AC: "Jae" #재
  dynn_Jang_5F35: "Jangów" #張 (장)

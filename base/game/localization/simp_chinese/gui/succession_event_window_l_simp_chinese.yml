@@ -239,6 +239,8 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_MAJAPAHIT_DESC: "你的名字将作为$e_majapahit$帝国的创建者而被永远刻在塞梅鲁山的山峰之上"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RYUKYU_DESC: "你将被铭记为统一列岛部族之人，以及$e_ruucuu_adj$帝国的缔造者"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SIAM_DESC: "你已作为$k_siam$王国的缔造者，将名字永远刻在人类的历史上"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC: "你已作为$k_brunei$王国的缔造者鼓舞了你的人民，并将他们统一在安拉的天空下"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC: "婆罗洲的信徒会铭记是你作为他们的牧羊人，抵御邪恶，并成为$e_brunei$帝国的建立者"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC: " 正是由于你的辛勤劳苦，$k_israel$王国才得以建立。"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC: " 没人觉得这是可能办到的，而你却用$e_outremer$帝国支配着世界上最为纷乱的圣地。"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC: " 在你建立$k_switzerland$王国后，人们即使登上阿尔卑斯山也依然望不尽你的全部疆域。"

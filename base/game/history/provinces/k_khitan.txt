@@ -351,6 +351,9 @@
 	religion = vinaya
 	holding = castle_holding
 	1066.1.1 = {
+		culture = balhae
+	}
+	1178.1.1 = {
 		culture = khitan
 		religion = dhyana
 	}
@@ -371,6 +374,9 @@
 	religion = vinaya
 	holding = castle_holding
 	1066.1.1 = {
+		culture = balhae
+	}
+	1178.1.1 = {
 		culture = khitan
 		religion = dhyana
 	}
@@ -396,7 +402,7 @@
 	culture = balhae
 	religion = vinaya
 	holding = castle_holding
-	1066.1.1 = {
+	1178.1.1 = {
 		culture = khitan
 		religion = dhyana
 	}

@@ -43,3 +43,5 @@
  global_culture.3011.desc: "Durch die vielseitige Mischung der Völker in Süditalien und auf Sizilien ist eine einzigartige Kultur entstanden, die von unzähligen Einflüssen profitiert.\n\nMittlerweile ist es klar, dass das Volk in [county_to_change.GetName] sich nicht länger als [old_culture.GetName|l] betrachtet, sondern als [sicilian.GetCollectiveNoun]!"
  global_culture.3011.a: "Eine interessante Entwicklung …"
  global_culture.3012.a: "Wunderbar!"
+ global_culture.4011.t: "Die Ausbreitung der [goryeo.GetNameNoTooltip|l]en Kultur"
+ global_culture.4011.desc: "Die Völker der drei Königreiche teilen im Zuge ihrer Vereinigung eine umfassendere Identität, was zu einer einzigartigen Kultur führt, die eine Vielzahl von Einflüssen widerspiegelt.\n\nEs ist klar geworden, dass [county_to_change.GetName] sich nicht mehr als [old_culture.GetName|l], sondern als wahrhaftige [goryeo.GetCollectiveNoun] sieht!"

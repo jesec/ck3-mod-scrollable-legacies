@@ -33,7 +33,7 @@
  ra_rc_amenities: "Commodités de la Cour"
  ra_rc_amenities_desc: "Les [amenities|El] sont divers services et agréments que vous offrez à tous ceux qui sont à votre [royal_court|E]. Chacune offre ses propres avantages, et toutes contribuent à la [grandeur|El].\n\nElles coûtent toutes de l’[gold|El] chaque mois, alors faites attention à ne pas trop dépenser !"
  ra_rc_court_types_and_language: "Types de Cour et langue de la Cour"
- ra_rc_court_types_and_language_desc: "Si vous voulez approfondir la [grandeur|El], vous pouvez explorer les [court_types|El] et la [court_language|El].\n\nLes types de Cour affectent ce que certains [grandeur_levels|El] vous donnent, tandis que changer votre langue de Cour peut augmenter votre [grandeur|l] totale."
+ ra_rc_court_types_and_language_desc: "Si vous voulez approfondir la [grandeur|El], vous pouvez explorer les [court_types|El] et la [court_language|El].\n\nLes types de Cour affectent ce que certains [grandeur_levels|El] vous donnent, tandis que changer votre langue de Cour peut augmenter votre [grandeur|El] totale."
  ra_rc_artifacts_open: "$ra_rc_artifacts$"
  ra_rc_artifacts_open_desc: "Enfin, penchons-nous sur les artefacts de Cour, une autre source de [grandeur|El], ainsi que d’autres avantages."
  ra_rc_artifacts_open_prompt: "Ouvrir l’onglet des artefacts de la Cour (mis en évidence)"

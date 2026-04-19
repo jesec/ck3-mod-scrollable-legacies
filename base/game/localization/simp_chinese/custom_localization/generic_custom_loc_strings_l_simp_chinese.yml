@@ -29,6 +29,8 @@
  people: "群众"
  mistress: "大师"
  master: "大师"
+ mistress_possessive: "女大师"
+ master_possessive: "大师"
  witch_spirit: "灵魂"
  witch_spirits: "灵魂"
  witch_source: "本源"

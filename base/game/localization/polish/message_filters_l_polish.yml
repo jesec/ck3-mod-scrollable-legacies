@@ -215,7 +215,7 @@
  message_filter_raid_lost_desc: "[Concept('raided', 'Najechano')|E] jedną z twoich [holdings|El]"
  #BARTER
  message_filter_barter_completed: "@barter_icon! Zakończenie wymiany handlowej"
- message_filter_barter_completed_desc: "Twoja [army|El] pomyślnie dokonuje [Concept('barter', 'wymiany handlowej')|E] [Concept('holding', 'posiadłości')|E]"
+ message_filter_barter_completed_desc: "Twoja [army|El] pomyślnie dokonuje [Concept('barters', 'wymiany handlowej')|E] [Concept('holding', 'posiadłości')|E]"
  message_filter_barter_loot_delivered: "@barter_icon! Dostarczono łup z wymiany"
  message_filter_barter_loot_delivered_desc: "[loot|E] zostaje przywieziony przez [Concept('barterers', 'handlarzy wymiennych')|E]"
  message_filter_barter_aborted: "@barter_icon! Przerwana misja wymiany handlowej"
@@ -365,7 +365,11 @@
  message_filter_provincial_army_assignment: "@titles_icon! Delegowanie do armii prowincjonalnej"
  message_filter_provincial_army_assignment_desc: "Delegowania do [Concept('army', 'armii')|E] [Concept('provincial', 'prowincjonalnej')|E]"
  message_filter_admin_provincial_army_requests: "@soldier_icon! Prośba o armię prowincjonalną"
- message_filter_admin_provincial_army_requests_desc: "Prośba o armię prowincjonalną zostaje przyjęta lub odrzucona"
+ message_filter_admin_provincial_army_requests_desc: "Prośba o [Concept('provincial_army', 'armię prowincjonalną')|E] zostaje przyjęta lub odrzucona"
+ message_filter_admin_new_powerful_family: "@dynasty_icon! Nowa wpływowa rodzina"
+ message_filter_admin_new_powerful_family_desc: "[noble_family|E] w państwie staje się [Concept('powerful', 'wpływowa')|E] lub [Concept('dominant', 'dominująca')|E]"
+ message_filter_admin_new_noble_family: "@dynasty_icon! Nowa rodzina szlachecka"
+ message_filter_admin_new_noble_family_desc: "W państwie pojawia się nowa [noble_family|El]"
  #SITUATIONS
  message_filter_great_steppe: "@county_fertility_icon! Wielki Step"
  message_filter_great_steppe_desc: "Zmiany i rozwój w odniesieniu do [Concept('the_great_steppe', 'Wielkiego Stepu')|E]"
@@ -395,3 +399,4 @@
  message_filter_custom_message_desc: "Wiadomości, które piszesz do siebie"
  #TRIBUTARY
  message_filter_tributary: "@tributary_icon! $CONTRACT_VASSAL_SIGNATURE_TRIBUTARY_TYPE$"
+ message_filter_tributary_desc: "Zmiany i rozwój w odniesieniu do twoich [Concept('tributaries', 'trybutariuszy')|E]"

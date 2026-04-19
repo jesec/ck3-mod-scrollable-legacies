@@ -12064,6 +12064,7 @@
  Liaftet: "リアフテト"
  Liam: "リアム"
  Lian: "外怜"
+ Liana: "リャナ"
  Liang: "リャン"
  Liangsi: "良嗣"
  Liangzuo: "リャンズオ"
@@ -34376,6 +34377,7 @@
  Arimune: "有棟" #有宗
  Arimune_2: "有宗" #有統
  Arinaga: "有永" #有永
+ Arinaga_2: "有長" #有長
  Arinao: "有直" #有直
  Arinari: "有成" #有成
  Arinobu: "有信" #有信
@@ -35005,6 +35007,7 @@
  Ieyuki: "家之" #家行
  Iezane: "家実" #家実
  Iimaro: "飯麻呂" #飯麻呂
+ Ikamaro: "伊賀麻呂" #伊加麻呂
  Ikemori: "池森" #池守
  Ikenobe: "池延" #池辺
  Ikenushi: "池主" #池主
@@ -35039,6 +35042,7 @@
  Itaji: "伊田寺" #伊多智
  Itaru: "伊樽" #至
  Itohira: "糸平" #糸平
+ Itohito: "伊度人" #伊度人
  Itsuki: "樹" #斉
  Iwakura: "岩倉" #岩倉
  Iwami: "岩見" #石見
@@ -35179,6 +35183,7 @@
  Kanehira: "金平" #兼衡
  Kanehira_2: "兼平" #兼平
  Kanehira_3: "金比良" #懐平
+ Kanehira_4: "懐平" #兼衡
  Kanehiro: "金廣" #兼広
  Kanehiro_2: "金広" #兼寛
  Kaneie: "金家" #兼家
@@ -35190,6 +35195,7 @@
  Kanemasa: "兼正" #兼雅
  Kanemasu: "兼増" #兼益
  Kanemi_JP: "兼美" #兼三
+ Kanemi_JP_2: "兼覧" #兼覧
  Kanemichi: "兼道" #兼通
  Kanemitsu: "兼光" #兼光
  Kanemori: "金森" #兼盛
@@ -35219,6 +35225,7 @@
  Kanetaka_3: "兼高" #兼高
  KanetO_: "兼藤" #兼任
  KanetO__2: "兼遠" #兼遠
+ Kanetoki: "兼時" #兼時
  Kanetomo: "金友" #兼朝
  Kanetoshi: "兼俊" #兼俊
  Kanetsuna: "兼綱" #兼綱
@@ -35355,6 +35362,7 @@
  Kin_nari_2: "欽鳴" #公業
  Kin_nob: "欽信" #公信
  Kin_nobu: "欽伸" #公信
+ Kin_nobu_2: "公信" #公宣
  Kin_nori: "欽則" #公則
  Kin_nori_2: "欽規" #公教
  Kin_sada: "欽貞" #公貞
@@ -35396,6 +35404,7 @@
  Kiyoaki: "清明" #清鑑
  Kiyoakira: "清彬" #清章
  Kiyoakira_2: "喜代彬" #清明
+ Kiyochika: "清親" #清親
  Kiyofusa: "清房" #清房
  Kiyohara: "清原" #清原
  Kiyoharu: "清春" #清治
@@ -35440,6 +35449,7 @@
  Kiyono: "清野" #清野
  Kiyono_2: "喜代野" #浄野
  Kiyonobu: "清信" #清信
+ Kiyonobu_2: "清宣" #清宣
  Kiyonori: "清則" #清則
  Kiyonori_2: "清典" #潔矩
  Kiyonushi: "清主" #清主
@@ -35467,7 +35477,7 @@
  Kiyotsune_2: "清常" #清常
  Kiyotsune_3: "喜代常" #清恒
  Kiyotsura: "清面" #清貫
- Kiyotsura_2: "清連" #清行
+ Kiyotsura_2: "清行" #清行
  Kiyoyasu: "清康" #清康
  Kiyoyo: "清代" #潔世
  Kiyoyoshi: "清吉" #清能
@@ -36199,6 +36209,7 @@
  Morihisa: "森久" #盛久
  Morihito: "森人" #守仁
  Morikage: "森影" #盛景
+ Morikane: "盛兼" #盛兼
  Morikata: "森方" #盛方
  Morikata_2: "盛方" #盛賢
  Morikiyo: "森清" #盛清
@@ -36757,6 +36768,7 @@
  Nariyoshi_4: "成好" #成良
  Nariyuki: "成行" #成行
  Narutaki: "鳴滝" #鳴滝
+ Nashiro: "名代" #名代
  Natari: "奈足" #名足
  Natomaro: "奈止麻呂" #奈止麻呂
  Natora: "名虎" #名虎
@@ -36800,12 +36812,14 @@
  Nobufusa_2: "伸房" #宣房
  Nobuharu: "信治" #信春
  Nobuhira: "信平" #信平
+ Nobuhira_2: "宣平" #信衡
  Nobuhiro: "信弘" #信広
  Nobuhiro_2: "伸弘" #信弘
  Nobuhito: "信仁" #順仁
  Nobuie: "信家" #信家
  Nobukage: "信影" #信景
  Nobukage_2: "伸影" #信蔭
+ Nobukane: "信兼" #信兼
  Nobukata: "信方" #信賢
  Nobukata_2: "伸方" #宣方
  Nobukiko: "信貴子" #宣来子
@@ -36978,6 +36992,7 @@
  Noto: "能登" #能登
  Nozomu: "望" #希
  Nukade: "奴佳提" #糠手
+ Nukadeko: "糠手古" #糠手子
  Nukamushi: "粳蟲" #粳蟲
  Nukatabe: "額田部" #額田部
  Nyogen: "如幻" #如源
@@ -37310,6 +37325,7 @@
  Saneshige: "実重" #実重
  Sanesue: "実末" #実季
  Sanesuke: "実助" #実資
+ Sanesuke_2: "実資" #真助
  Sanetada_2: "志忠" #実忠
  Sanetaka: "実高" #実隆
  Sanetaka_2: "実孝" #実高
@@ -37852,6 +37868,7 @@
  Taima: "當間" #当麻
  TaiO_: "泰央" #大応
  Taireki: "泰暦" #大暦
+ Tajima: "タジマ" #但馬
  Taka_akira: "高彬" #高明
  Taka_akira_2: "孝彬" #高星
  Taka_akira_3: "貴彬" #隆暁
@@ -38137,6 +38154,7 @@
  TenkyU_: "天久" #天久
  Tenmu: "天武" #天武
  Tensei: "天生" #天政
+ Tentari: "天足" #天足
  Teruhiro: "照弘" #照衡
  Teruko: "樽子" #媓子
  Teruyo: "樽代" #照夜
@@ -38339,6 +38357,7 @@
  Toshiko: "俊子" #俊子
  Toshiko_2: "利子" #叡子
  Toshiko_4: "敏子" #敏子
+ Toshiko_5: "寿子" #利子
  Toshimasa: "俊正" #敏政
  Toshimasa_2: "利正" #俊雅
  Toshimichi: "俊道" #俊通
@@ -38572,6 +38591,7 @@
  Uji: "氏" #菟道
  Ujie: "宇治江" #氏江
  Ujihira: "氏平" #氏平
+ Ujihiro: "氏廣" #氏尋
  Ujihito: "氏人" #氏人
  Ujikage: "氏影" #氏影
  Ujikatsu: "氏勝" #氏勝
@@ -38719,7 +38739,7 @@
  Yasusuke_2: "安介" #康資
  Yasusuke_3: "泰輔" #保相
  Yasutada: "安忠" #泰忠
- Yasutada_2: "康忠" #保忠
+ Yasutada_2: "和忠" #保忠
  Yasutada_3: "靖忠" #安忠
  Yasutada_4: "保忠" #寧内
  Yasutada_5: "夜須忠" #康忠
@@ -39853,7 +39873,7 @@
  Baek_eun: "ベクウン" #白欣 (백흔)
  Baek_go: "ベクゴ" #伯固 (백고)
  Baek_gye: "ベクギ" #伯計 (백계)
- Baek_ho: "ベクホ" #白虎 (백호)
+ Baek_ho: "白虎" #白虎 (백호)
  Baek_seon: "ベクソン" #伯仙 (백선)
  Bag_wi_geo: "バッグウィゲオ" #駮位居 (박위거)
  Bal_gi: "バルギ" #發岐 (발기)
@@ -39896,17 +39916,18 @@
  Bo_yeon: "ボヨン" #寶延 (보연)
  Bo_yeong: "ボヨング" #寶英 (보영)
  Bo_yuk: "ボヤク" #寶育 (보육)
+ Bog_ya: "ボグヤ" #복야
+ Bog_yeon: "ボグヨン" #福延 (복연)
  Bok_chang: "ボクチャン" #福昌 (복창)
  Bok_ja: "ボクジャ" #福子 (복자)
+ Bok_jong: "ボクジョン" #扑琮 (복종)
  Bok_mo: "ボクモ" #福暮 (복모)
  Bok_mo_2: "ボクモ" #福謨 (복모)
  Bok_nam: "ボクナム" #福男 (복남)
  Bok_o: "ボクオー" #卜好 (복호) - O localized as Oh despite RR for clarity
  Bok_san: "ボクサン" #福山 (복산)
  Bok_won: "ボクウォン" #復元 (복원)
- Bog_ya: "ボグヤ" #복야
  Bok_ye: "ボクイェ" #福譽 (복예)
- Bog_yeon: "ボグヨン" #福延 (복연)
  Bong_sang: "ボンサング" #烽上 (봉상)
  Bong_ye: "ボンイェ" #封裔 (봉예)
  Bu_5085: "ブー" #傅 (부)
@@ -39928,6 +39949,7 @@
  Chaek_518A: "チェク" #冊 (책)
  Chaek_7B56: "チェク" #策 (책)
  Chaek_gye: "チェクギ" #責稽 (책계)
+ Chan_haeng: "チャンヘン" #讚行 (찬행)
  Chang_660C: "チャン" #昌 (창)
  Chang_bal_ga: "チャンバルガ" #昌勃價 (창발가)
  Chang_hwi: "チャンフイ" #昌輝 (창휘)
@@ -39962,6 +39984,7 @@
  Chong_53E2: "チョン" #叢 (총)
  Chong_6460: "チョン" #摠 (총)
  Chong_8070: "チョン" #聰 (총)
+ Chong_seo: "チョンソ" #聰諝 (총서)
  Chong_ye: "チョンイ" #聰叡 (총예)
  Chu_an: "チュアン" #鄒安 (추안)
  Chung_51B2: "チュング" #冲 (충)
@@ -39972,6 +39995,7 @@
  Chung_gyeong: "チョンギョン" #忠敬 (충경)
  Chung_gyeong_2: "チョンギョン" #充慶 (충경)
  Chung_heon: "チョンヘオン" #忠獻 (충헌)
+ Chung_hu: "チョンフ" #忠 (충후)
  Chung_hui: "チョンヒ" #冲曦 (충희)
  Chung_hyeon: "チョンヒョン" #忠顯 (충현)
  Chung_ja: "チュンジャ" #忠子 (충자)
@@ -39983,6 +40007,7 @@
  Chung_su: "チュンス" #忠粹 (충수)
  Chung_sun: "チュンスン" #忠順 (충순)
  Chung_yak: "チュンヤク" #忠諾 (충약)
+ Chung_yak_2: "チョンヤク" #忠若 (충약)
  Chung_yeong: "チュンヨン" #崔忠永 (최충영)
  Chwi_hui: "チウィフィ" #吹希 (취희)
  Chwi_rim: "チュリム" #就林 (취림)
@@ -39996,6 +40021,7 @@
  Dae_chun: "デチュン" #帶春 (대춘)
  Dae_chung: "デチュング" #大忠 (대충)
  Dae_gyun: "デギュン" #大鈞 (대균)
+ Dae_hwa: "デファ" #大和 (대화)
  Dae_jong: "デジョン" #戴宗 (대종)
  Dae_mok: "デモク" #大穆 (대목)
  Dae_mu_sin: "デムシン" #大武神 (대무신)
@@ -40029,12 +40055,13 @@
  Deok_nam: "ドクナム" #德男 (덕남)
  Deok_nyeong: "ドクニョン" #德寧 (덕녕)
  Deok_saeng: "ドクソン" #德生 (덕생)
+ Deok_yeo: "ドクヨ" #德輿 (덕여)
  Do_71FE: "ド" #燾 (도)
  Do_hyu: "ドヒュ" #道休 (도휴)
  Do_jeol: "ドジェル" #都切 (도절)
  Do_mong: "ドモン" #都蒙 (도몽)
  Do_ri_haeng: "ドリヘン" #都利行 (도리행)
- Do_seon: "ドセオン" #道詵 (도선)
+ Do_seon: "道詵" #道詵 (도선)
  Do_su: "ドス" #道秀 (도수)
  Dol_go: "ドルゴ" #咄固 (돌고)
  Don_jung: "ドンジュン" #敦中 (돈중)
@@ -40053,6 +40080,7 @@
  Eo_ing: "エオイン" #(어잉)
  Eok_5104: "エオク" #億 (억)
  Eok_ryeom: "エオクリョム" #億廉 (억렴)
+ Eon_bu: "オンブ" #彦孚 (언부)
  Eon_chang: "オンチャン" #彦昌 (언창)
  Eon_chim: "オンチム" #彦忱 (언침)
  Eon_hwa: "オンファ" #彦華 (언화)
@@ -40105,6 +40133,7 @@
  Gae_won: "ゲウォン" #愷元 (개원)
  Gak_6164: "ガク" #慤 (각)
  Gam_chan: "ガムチャン" #邯贊 (감찬)
+ Gan_5E79_KO: "ガン" #幹 (간)
  Gan_AC04: "ガン" #簡 (간), posthumous name
  Gan_su: "ガンス" #看秀 (간수)
  Gang_7DB1: "ガン" #綱 (강)
@@ -40112,6 +40141,7 @@
  Gang_gyun: "ガンギュン" #康鈞 (강균)
  Gang_jong: "ガンジョン" #康宗 (강종)
  Gang_neung_gong: "ガンヌンゴン" #江陵公 (강능공)
+ Gang_rye: "カンレ" #康禮 (강례)
  Geo_741A: "ジオ" #琚 (거)
  Geo_deung: "ジオデング" #居登 (거등)
  Geo_jeong: "ゲオジョン" #居正 (거정)
@@ -40127,10 +40157,12 @@
  Geon_un: "ゴンウン" #乾運 (건운)
  Geuk_chung: "ゲゥクチュン" #克忠 (극충)
  Geuk_geom: "グクゲム" #克儉 (극검)
+ Geuk_gwon: "グクォン" #克權 (극권)
  Geuk_gyeom: "グクギョム" #克謙 (극겸)
  Geuk_gyeong: "ゲゥクギョン" #克卿 (극경)
  Geuk_i: "ゲクイ" #克易 (극이) - I localized as Yi despite RR for clarity
  Geuk_jeong: "ゲゥクジョン" #克正 (극정)
+ Geuk_mo: "グクモ" #克髦 (극모)
  Geuk_sun: "ゲゥクスン" #克純 (극순)
  Geuk_ui: "ゲゥクウィ" #克儀 (극의)
  Geum_gang: "グムガン" #金剛 (금강)
@@ -40146,12 +40178,14 @@
  Geung_sun: "グングスン" #矜順 (긍순)
  Gi_57FA: "ギ" #基 (기)
  Gi_675E: "ギ" #杞 (기)
+ Gi_7426: "ギ" #琦 (기)
  Gi_74A3: "ギ" #璣 (기)
  Gi_7948: "ギ" #祈 (기)
  Gi_7D00: "ギ" #紀 (기)
  Gi_8006: "ギ" #耆 (기)
  Gi_rim: "ギリム" #基臨 (기림)
  Gi_ru: "ジルー" #己婁 (기루)
+ Gi_se: "ギセ" #基世 (기세)
  Gil_4F76: "ギル" #佶 (길)
  Gil_5409: "ギル" #吉 (길)
  Gil_bok: "ギルボク" #吉福 (길복)
@@ -40167,6 +40201,7 @@
  Gong_chik: "ゴンチク" #公則 (공칙)
  Gong_gyu: "ゴンギュ" #公珪 (공규)
  Gong_in: "ゴンイン" #公仁 (공인)
+ Gong_pil: "コンピル" #公弼 (공필)
  Gong_seung: "ゴンソン" #公升 (공승)
  Gong_su: "ゴンス" #公壽 (공수)
  Gong_ui: "ゴンイ" #公義 (공의)
@@ -40184,6 +40219,7 @@
  Gu_mo: "グモ" #龜謀 (구모)
  Gu_ryun: "グリュン" #仇輪 (구륜)
  Gu_su: "グス" #仇首 (구수)
+ Guk_570B: "国" #國 (국)
  Guk_ban: "グクバン" #國飯 (국반)
  Guk_mo: "グクモ" #國髦 (국모)
  Gun_seung: "グンセウン" #軍勝 (군승)
@@ -40243,12 +40279,14 @@
  Gyeong_66BB: "ギョング" #暻 (경)
  Gyeong_74A5: "ギョング" #璥 (경)
  Gyeong_ae: "ギョンエ" #景哀 (경애)
+ Gyeong_baek: "キョンベク" #景伯 (경백)
  Gyeong_chun_won_gun: "ギョンチュンウォングン" #慶春院君 (경춘원군)
  Gyeong_deok: "ギョンドク" #景德 (경덕)
  Gyeong_eung: "ギョンウン" #慶膺 (경응)
  Gyeong_gil: "ギョンギル" #景吉 (경길)
  Gyeong_gyeom: "ギョンギョム" #景謙 (경겸)
  Gyeong_hwi: "ギョンフウィ" #景暉 (경휘)
+ Gyeong_in: "キョンイン" #景仁 (경인)
  Gyeong_jik: "ギョンジク" #敬直 (경직)
  Gyeong_jong: "ギョンジョン" #景宗 (경종)
  Gyeong_ju: "慶州" #擎柱 (경주)
@@ -40275,6 +40313,7 @@
  Gyu_seon: "ギュソン" #珪宣 (규선)
  Gyun_7B60: "ギュン" #筠 (균)
  Gyun_921E: "ギュン" #鈞 (균)
+ Gyun_han: "ギュンハン" #均漢 (균한)
  Gyun_jeong: "ギョンジョン" #均貞 (균정)
  Gyun_ro: "ギュンロ" #均老 (균로)
  Hae_744E: "ヘー" #瑎 (해)
@@ -40289,6 +40328,7 @@
  Haeng_gyeong: "ヘンギョン" #行瓊 (행경)
  Haeng_gyeong_2: "ヘンギョン" #行經 (행경)
  Haeng_jong: "ヘンジョン" #行宗 (행종)
+ Haeng_yak: "ヘンヤク" #行若 (행약)
  Hak_rin: "ハクリン" #學麟 (학린)
  Hak_sa: "ハクサ" #學士 (학사)
  Hak_yu: "ハクユウ" #學儒 (학유)
@@ -40371,8 +40411,8 @@
  Hye_jong: "ヒェジョン" #惠宗 (혜종)
  Hyeon_5107: "ヒョン" #儇 (현)
  Hyeon_665B: "ヒョン" #晛 (현)
- Hyeon_73B9: "ヒョン" #玹 (현)
  Hyeon_7384: "ヒョン" #玄 (현)
+ Hyeon_73B9: "ヒョン" #玹 (현)
  Hyeon_986F: "ヒョン" #顯 (현)
  Hyeon_bang: "ヒョンバン" #賢方 (현방)
  Hyeon_bo: "ヒョンボ" #玄甫 (현보)
@@ -40385,6 +40425,7 @@
  Hyeong_4EA8: "ヒョング" #亨 (형)
  Hyeong_9008: "ヒョング" #逈 (형)
  Hyeong_in: "ヒョングイン" #亨仁 (형인)
+ Hyeong_myeong: "ヒョンミョン" #邢明 (형명)
  Hyeong_yu: "ヒョングユ" #亨柔 (형유)
  Hyo_5B5D: "ヒョ" #孝 (효)
  Hyo_bang: "ヒョバン" #孝芳 (효방)
@@ -40393,7 +40434,9 @@
  Hyo_hwa: "ヒョファ" #孝和 (효화)
  Hyo_jeong: "ヒョジョン" #孝靖 (효정)
  Hyo_jeong_2: "ヒョジョン" #孝靜 (효정)
+ Hyo_ji: "ヒョジ" #孝至 (효지)
  Hyo_jin: "ヒョジン" #孝眞 (효진)
+ Hyo_jin_2: "ヒョジン" #孝晉 (효진)
  Hyo_jong: "ヒョジョン" #孝宗 (효종)
  Hyo_min: "ヒョミン" #孝敏 (효민)
  Hyo_mok: "ヒョモク" #孝穆 (효목)
@@ -40401,8 +40444,10 @@
  Hyo_ryeom: "ヒョリョム" #孝廉 (효렴)
  Hyo_ryeong: "ヒョリョン" #孝靈 (효령)
  Hyo_sa: "ヒョサ" #孝思 (효사)
+ Hyo_seon: "ヒョソン" #孝先 (효선)
  Hyo_seong: "ヒョソン" #孝成 (효성)
  Hyo_sin: "ヒョシン" #孝愼 (효신)
+ Hyo_sin_2: "ヒョシン" #孝臣 (효신)
  Hyo_so: "ヒョソ" #孝昭 (효소)
  Hyo_sun: "ヒョスン" #孝順 (효순)
  Hyo_ui: "ヒョウィ" #孝義 (효의)
@@ -40415,11 +40460,13 @@
  I_seop: "イーソプ" #利涉 (이섭)
  I_si_pum: "イーシプム" #伊尸品 (이시품)
  I_sik: "イーシク" #以式 (이식)
+ I_yeo: "イヨ" #利輿 (이여)
  I_yeong: "イーヨン" #貽永 (이영)
  Ik_7FCA: "イク" #翊 (익)
  Ik_7FFC: "イク" #翼 (익)
  Ik_gwang: "イクグァン" #益光 (익광)
  Il_93B0: "イル" #鎰 (일)
+ Il_eom: "イルイオン" #日嚴 (일엄)
  Il_ha: "イルハ" #壹夏 (일하)
  Il_seo: "イルソ" #一曙 (일서)
  Il_seong: "イルソン" #逸聖 (일성)
@@ -40428,6 +40475,7 @@
  Im_mu: "イム" #任武 (임무)
  In_8AF2: "イン" #諲 (인)
  In_beom: "インボム" #仁範 (인범)
+ In_bi: "インビ" #仁庇 (인비)
  In_cheom: "インチョム" #鱗瞻 (인첨)
  In_gwang: "イングァン" #仁匡 (인광)
  In_gyeom: "インギョン" #仁謙 (인겸)
@@ -40435,6 +40483,7 @@
  In_gyeong_2: "インギョング" #仁敬 (인경)
  In_gyu: "インギュ" #仁揆 (인규)
  In_gyun: "インギュン" #仁鈞 (인균)
+ In_haeng: "インヘン" #仁幸 (인행)
  In_jeo: "インジェオ" #仁著 (인저)
  In_jeol: "インジョル" #仁節 (인절)
  In_jeong: "インジョン" #仁正 (인정)
@@ -40444,6 +40493,7 @@
  In_mun_2: "インムン" #仁問 (인문)
  In_pyeong: "インピョン" #仁平 (인평)
  In_ro: "インロ" #仁老 (인로)
+ In_ryang: "インリャン" #寅亮 (인량)
  In_seok: "インソク" #仁碩 (인석)
  In_seon: "インソン" #諲譔 (인선)
  In_seon_2: "インソン" #仁宣 (인선)
@@ -40473,6 +40523,7 @@
  Ja_jo: "ジャジョ" #資早 (자조)
  Ja_mi: "ジャミ" #子美 (자미)
  Ja_myeong: "ジョミョン" #自明 (자명)
+ Ja_paeng: "ジャペン" #子彭 (자팽)
  Ja_rim: "ジャリム" #子琳 (자림)
  Ja_ryang: "ジャリャン" #資諒 (자량)
  Ja_rye: "ジャリェ" #資禮 (자례)
@@ -40560,6 +40611,7 @@
  Jeong_tae: "ジョンテ" #貞泰 (정태)
  Jeong_yeo: "ジョンイェオ" #貞茹 (정여)
  Jeong_yu: "ジョンユ" #挺蕤 (정유)
+ Jeung_62EF: "ジュン" #拯 (증)
  Ji_7949: "ジ" #祉 (지)
  Ji_7957: "ジ" #祗 (지)
  Ji_7994: "ジ" #禔 (지)
@@ -40666,14 +40718,16 @@
  Jung_cheon: "ジョンチョン" #中川 (중천)
  Jung_hui: "ジュンフィ" #重熙 (중희)
  Jung_myeong: "ジュンミョン" #仲明 (중명)
+ Jung_si: "チョンシ" #仲時 (중시)
  Jung_won: "ジュンウォン" #中遠 (중원)
  Jwa_ji: "ジュワジ" #坐知 (좌지)
+ Jwa_seom: "ジャソム" #佐暹 (좌섬)
  Ma_cha: "マチャ" #摩次 (마차)
  Ma_deuk: "マドク" #馬得 (마득)
  Ma_jil_cha: "マジチャ" #摩叱次 (마질차)
  Ma_pum: "マプム" #麻品 (마품)
- Maeng_ra: "メングラ" #孟羅 (맹라)
  Maeng_mun: "マングムン" #孟文 (맹문)
+ Maeng_ra: "メングラ" #孟羅 (맹라)
  Mak_deok: "マックドク" #莫德 (막덕)
  Mak_geun: "マックン" #莫勤 (막근)
  Mal_gu: "マルグ" #末仇 (말구)
@@ -40701,7 +40755,7 @@
  Mong_go: "モンゴ" #蒙固 (몽고)
  Mong_ju: "モンジュー" #夢周 (몽주)
  Mu_6B66: "ムー" #武 (무)
- Mu_che: "ムチェ" #無滯 (무체)
+ Mu_che: "無滞" #無滯 (무체)
  Mu_deok: "ムードク" #武德 (무덕)
  Mu_hyul: "ムヒュル" #無恤 (무휼)
  Mu_ryeok: "ムリョク" #武力 (무력)
@@ -40762,6 +40816,7 @@
  Nae_mul: "ネムル" #奈勿(내물)
  Nak_6A02: "ナク" #樂 (낙)
  Nak_rang: "ナンナン" #樂浪 (낙랑)
+ Nal_57D2: "ナル" #埒 (날)
  Nam_geon: "ナムジョン" #男建 (남건)
  Nam_mu: "ナムム" #男武 (남무)
  Nam_saeng: "ナムセン" #男生 (남생)
@@ -40838,6 +40893,7 @@
  Sam_guen: "サムグエン" #三斤 (삼근)
  Sam_gwang: "セグォン" #三光 (삼광)
  San_sang: "サンサング" #山上 (산상)
+ Sang_5C19: "サン" #尙 (상)
  Sang_6E58: "サン" #湘 (상)
  Sang_7FD4: "サン" #翔 (상)
  Sang_bu: "サンブ" #相夫 (상부)
@@ -40857,8 +40913,8 @@
  Se_jae: "セジェ" #世才 (세재)
  Se_jo: "セジョ" #世祖 (세조)
  Se_jong: "セジョン" #世宗 (세종)
- Se_nong: "セノン" #世農 (세농)
  Se_mun: "セムン" #世文 (세문)
+ Se_nong: "セノン" #世農 (세농)
  Se_yeon: "セヨン" #世延 (세연)
  Seo_654D: "セオ" #敍 (서)
  Seo_66F8: "セオ" #書 (서)
@@ -40878,6 +40934,7 @@
  Seon_8A75: "セオン" #詵 (선)
  Seon_9425: "セオン" #鐥 (선)
  Seon_deok: "ソンドク" #宣德 (선덕)
+ Seon_gae: "ソンゲ" #先蓋 (선개)
  Seon_gang: "ソンガン" #선강
  Seon_gwang: "ソングァン" #善光 (선광)
  Seon_hui: "ソンフィ" #善希 (선희)
@@ -40928,6 +40985,7 @@
  Seup_bo: "スップボ" #習寶 (습보)
  Seup_myeong: "スーミョン" #襲明 (습명)
  Si_eon: "シヨン" #時彦 (시언)
+ Si_ju: "シジュ" #施做 (시주)
  Si_mong: "シモン" #施蒙 (시몽)
  Sik_6E5C: "シク" #湜 (식)
  Sik_8EFE: "シク" #軾 (식)
@@ -40990,6 +41048,7 @@
  Su_mun: "スムン" #守文 (수문)
  Su_myeong: "スーミョン" #壽命 (수명)
  Su_nyeong: "スーニョン" #守寧 (수녕)
+ Su_pyeong: "スピョン" #守平 (수평)
  Su_ro: "スーロ" #首露 (수로)
  Su_seong: "スソン" #洙聖 (수성)
  Su_seong_2: "スソン" #遂成 (수성)
@@ -41021,6 +41080,7 @@
  Sun_ta: "スンタ" #純陀 (순타)
  Sun_ung: "スンウン" #順雄 (순웅)
  Sun_won: "スンウォン" #順元 (순원)
+ Sun_yak: "ソンヤク" #純若 (순약)
  Sung_bin: "スンビン" #崇斌 (숭빈)
  Sung_gyeom: "スンギョム" #崇謙 (숭겸)
  Sung_rin: "スンリン" #嵩璘 (숭린)
@@ -41031,12 +41091,12 @@
  Tae_won: "テウォン" #太元 (태원)
  Tae_yong: "テヨン" #台用 (태용)
  Taek_6FA4: "テク" #澤 (택)
+ Taeng_7AC0: "テング" #竀 (탱)
  Tak_666B: "タク" #晫 (탁)
  Tal_dae: "タルデ" #脫大 (탈대)
  Tal_hae: "タルヘ" #脫解 (탈해)
  Tal_ji: "タルジ" #脫知 (탈지)
  Tan_8A95: "タン" #誕 (탄)
- Taeng_7AC0: "テング" #竀 (탱)
  To_du: "トドゥ" #土豆 (토두)
  U_4FC1: "ウー" #俁 (우)
  U_7440: "ウー" #瑀 (우)
@@ -41079,12 +41139,13 @@
  Ung_seong: "ウンソン" #雄成 (웅성)
  Ung_won: "ウンウォン" #雄元 (웅원)
  Ung_yun: "ウンユン" #雄允 (웅윤)
+ Wi_4F4D: "ウィ" #位 (위)
  Wi_744B: "ウィ" #瑋 (위)
  Wi_deok: "ウィドク" #威德 (위덕)
  Wi_eung: "ウィウン" #魏膺 (위응)
- Wi_hong: "ウィホン" #魏弘 (위홍)
  Wi_gong: "ウィゴン" #謂恭 (위공)
  Wi_hae: "ウィヘ" #瑋瑎 (위해)
+ Wi_hong: "ウィホン" #魏弘 (위홍)
  Wi_mun: "ウィムン" #魏文 (위문)
  Wi_suk: "ウィスク" #威肅 (위숙)
  Wi_yeong: "ウィヨン" #魏英 (위영)
@@ -41130,6 +41191,7 @@
  Won_yu: "ウォンユ" #元瑜 (원유)
  Ya_bal: "ヤバル" #野勃 (야발)
  Yak_7039: "ヤク" #瀹 (약)
+ Yak_dong: "ヤクドン" #若東 (약동)
  Yak_on: "ヤクオン" #若溫 (약온)
  Yak_ro: "ヤクロ" #藥盧 (약로)
  Yang_8B93: "ヤン" #讓 (양)
@@ -41154,6 +41216,7 @@
  Ye_jong: "イェジョン" #睿宗 (예종)
  Ye_mul: "イェムル" #預物 (예물)
  Ye_yeong: "イェヨン" #禮英 (예영)
+ Yeo_8F3F: "ヨ" #輿 (여)
  Yeo_gyeong: "ヨギョン" #呂慶 (여경)
  Yeo_jin: "ヨジン" #如津 (여진)
  Yeo_ju: "ヨジュ" #驪州 (여주)
@@ -41168,7 +41231,6 @@
  Yeon_bul: "ヨンブル" #然弗 (연불)
  Yeon_chang: "ヨンチャン" #延昌 (연창)
  Yeon_deok: "ヨンドク" #延德 (연덕)
- Yeon_geon: "イェオンゴン" #令言 (영언)
  Yeon_gwang: "ヨンガン" #延廣 (연광)
  Yeon_hui: "ヨンフィ" #延禧 (연희)
  Yeon_hwa: "ヨンファ" #蓮花 (연화)
@@ -41184,6 +41246,7 @@
  Yeong_97FA: "ヨング" #韺 (영)
  Yeong_chang: "ヨンチャン" #永昌 (영창)
  Yeong_cheom: "ヨンチョム" #英瞻 (영첨)
+ Yeong_eon: "ヨンオン" #令言 (영언)
  Yeong_gi: "ヨンギ" #英璣 (영기)
  Yeong_gi_2: "ヨンギ" #永基 (영기)
  Yeong_gil: "ヨンギル" #英吉(영길)
@@ -41194,6 +41257,7 @@
  Yeong_gwang_2: "ヨングァン" #英光 (영광)
  Yeong_gyeon: "ヨンギョン" #英堅 (영견)
  Yeong_gyu: "ヨンギュ" #英規 (영규)
+ Yeong_gyun: "ヨンギュン" #永均 (영균)
  Yeong_hui: "ヨンフィ" #永禧 (영희)
  Yeong_hwa: "ヨンファ" #永和 (영화)
  Yeong_hwan: "ヨンファン" #英喚 (영환)
@@ -41255,6 +41319,7 @@
  Yu_wi: "ユウィ" #惟偉 (유위)
  Yu_yang: "ユヤン" #惟諒 (유양)
  Yuk_80B2: "ユク" #育 (육)
+ Yuk_gyeong: "ユッキョン" #育慶 (육경)
  Yuk_hwa: "ユクワ" #育和 (육화)
  Yul_hwi: "ユルフィ" #律熙 (율희)
  Yun_in: "ユンジュン" #允仁 (윤인)
@@ -43746,7 +43811,7 @@
  Fuwen: "フウェン"
  Qianyi: "チェンイ"
  Upali: "ウパリ"
- Do_Doc: "ド・ドク"
+ Do_Doc: "由独"
  Jojin: "ジョジン"
  Saburo: "サブロウ"
  Lo: "ロー"
@@ -43754,7 +43819,6 @@
  Mpu_Bharada: "ムプ・バラダ"
  Lembong: "レンボン"
  Boc: "ボック"
- Tajima: "タジマ"
  #Senoi
  Andak_Jameah: "アンダク・ジャメア"
  Atok_Balu: "アトック・バル"
@@ -43815,4 +43879,3 @@
  Tkooy: "トゥクーイ"
  Wa_Rhii: "ワ・リー"
  Yam: "ヤム"
- Jinul: "ジンル"

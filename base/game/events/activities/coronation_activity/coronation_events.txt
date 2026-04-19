@@ -2086,6 +2086,7 @@ coronation_events.0205 = {
 					geographical_region = graphical_india
 					culture ?= { has_building_gfx = iranian_building_gfx }
 					culture ?= { has_building_gfx = indian_building_gfx }
+					culture ?= { has_building_gfx = tibetan_building_gfx }
 					AND = {
 				 		geographical_region = world_europe_west_iberia
 				 		faith ?= { religion = religion:islam_religion }
@@ -2151,6 +2152,7 @@ coronation_events.0205 = {
 				save_scope_as = value_target
 			}
 			activity_location = { save_scope_as = location }
+			activity_host = { save_scope_as = bg_override_char }
 			#Guards for orderly east asian ceremonies in the palace
 			if = {
 				limit = {

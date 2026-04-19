@@ -33,7 +33,7 @@
  MY_REALM_WINDOW_SUCCESSION_LAW_AND_DESC: "[Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName]"
  MY_REALM_WINDOW_SUCCESSION_TITLES_INHERITED: "Tytuły dziedziczone na mocy prawa [Concept('realm', 'państwowego')|E]: [Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName|l]"
  MY_REALM_WINDOW_SUCCESSION_TITLE_LOST_TO: "Tytuł utracony na rzecz osoby znanej jako [Character.GetShortUINameNotMe]"
- MY_REALM_WINDOW_SUCCESSION_TITLES_LOST_TO: "Tytuły utracone na rzecz osoby znanej jako [Character.GetShortUINameNotMe]: $VALUE$"
+ MY_REALM_WINDOW_SUCCESSION_TITLES_LOST_TO: "Tytuły utracone na rzecz osoby [Character.GetShortUINameNotMe]: $VALUE$"
  MY_REALM_WINDOW_MY_LIEGE: "Mój [liege|El]"
  MY_REALM_WINDOW_MY_SUZERAIN: "Mój [suzerain|El]"
  MY_REALM_WINDOW_MY_OBLIGATIONS: "$SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"

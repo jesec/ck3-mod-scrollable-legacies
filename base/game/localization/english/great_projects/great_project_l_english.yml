@@ -8,7 +8,7 @@
  GREAT_PROJECT_FUND_CONTRIBUTIONS_START: "Fund and start the Great Project"
  ONGOING_GREAT_PROJECT: "Ongoing Project"
  COMPLETED_GREAT_PROJECT: "Completed Project"
- CANCEL_GREAT_PROJECT_TT: "Cancel Project"
+ CANCEL_GREAT_PROJECT_TT: "Abandon Project"
  TOTAL_CONTRIBUTIONS_COST: "Total Contributions cost: $COST$"
  GP_TITLE_COST_FOUND: "Starting Cost"
  GP_TITLE_COST_COMPLETE: "Mandatory [great_project_contributions|E] Cost"
@@ -58,8 +58,7 @@
  GREAT_PROJECT_CONSTRUCTION_NOT_STARTED: "This [great_project|E] is still being planned"
  GREAT_PROJECT_UNAVAILABLE_HEADER: "#bold You cannot plan this [great_project|E] #!"
  GREAT_PROJECT_CAN_CONTRIBUTE: "#color_green Can contribute #!"
- GREAT_PROJECT_CANCEL_LABEL: "Cancel Project"
- GREAT_PROJECT_CANCEL_LABEL_TT: "$GREAT_PROJECT_CANCEL_LABEL$"
+ GREAT_PROJECT_CANCEL_LABEL: "Abandon Project"
  GREAT_PROJECT_OWNER_LABEL: "Owner:"
  GREAT_PROJECT_ITEM_PREVIEW_TT: "#bold [GreatProjectType.GetNameNoTooltip]#!\n\n[GreatProjectType.GetDescription]\n\n #color_green Click to select#!"
  GREAT_PROJECT_CONTRIBUTION_BY_ME_TT: "Contribution provided by me"
@@ -87,8 +86,8 @@
 
  great_project_multipin_number: "There are $ProjectCount$ [great_projects|E] in [Province.GetName]"
 
- cancel_great_project_dialog_title: "Cancel [GreatProject.GetName]"
- cancel_great_project_dialog_desc: "Are you sure you want to cancel the planning of \"[GreatProject.GetName]\"? All [great_project_contributions|E] will be lost."
- cancel_great_project_dialog_confirm: "$CONFIRM$"
+ cancel_great_project_dialog_title: "Abandon [GreatProject.GetName]"
+ cancel_great_project_dialog_desc: "Are you sure you want to abandon the planning of \"[GreatProject.GetName]\"? All [great_project_contributions|E] will be lost."
+ cancel_great_project_dialog_confirm: "Abandon"
 
  great_project_cooltip_desc: "Owner: [GreatProject.GetOwner.GetShortUIName|U]\nLocation: [GreatProject.GetLocation.GetName]\n\n[GreatProject.GetType.GetDescription]"

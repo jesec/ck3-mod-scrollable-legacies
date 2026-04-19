@@ -123,7 +123,7 @@
  EVENT_WINDOW_OPTION_SEA_LEGACY_OVERRIDE: "この選択肢は[GetDynastyPerk( 'tgp_sea_legacy_5' ).GetName]が理由で選択可能"
  EVENT_WINDOW_OPTION_AVAILABLE_CELESTIAL_MILITARY_APPOINTMENT: "この選択肢はあなたの@celestial_military_administration!軍事行政が理由で選択可能"
  EVENT_WINDOW_OPTION_AVAILABLE_MOVEMENT: "この選択肢はあなたが[GetPlayer.Custom('GetMyMovement')]に参加しているために選択可能"
- EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "この選択肢は[dynastic_cycle|E]の[situation_phase|E]「[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]」が理由で選択可能"
+ EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "この選択肢は[situation_dynastic_cycle_phase|E]「[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]」が理由で選択可能"
  EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "この選択肢はあなたの[powerful_family_attribute|E]「$learned_philosophers_house_power$」が理由で選択可能"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE_FOCUS: "この選択肢はあなたの[GetPlayer.GetFocus.GetName]が理由で選択可能"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE: "この選択肢はあなたの[lifestyle|E]が理由で選択可能"

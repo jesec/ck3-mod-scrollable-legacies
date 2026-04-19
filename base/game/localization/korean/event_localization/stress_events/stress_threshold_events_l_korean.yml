@@ -174,7 +174,7 @@
  stress_threshold.2202.desc: "최근 많은 스트레스를 받은 것은 맞지만,"
  stress_threshold.2202.desc.rival: "자기가 한 행동에 대해 설명하라고 요청하자 더 완강하게 나를 모욕했을 뿐이다."
  stress_threshold.2202.desc.other: "이렇게 행동하다니..."
- stress_threshold.2202.a: "그대로 갚아주지, \"[stress_character.Custom2('InsultNoun'), ROOT.Char|U]!\""
+ stress_threshold.2202.a: "그대로 갚아주지, [stress_character.Custom2('InsultNoun', ROOT.Char)]!"
  stress_threshold.2202.b: "그런 사람도 그런 행동을 하다니... 마음이 편안해지는군."
  #Level 3 Stress Events
  stress_threshold.3001.t: "정신 붕괴: 목소리"

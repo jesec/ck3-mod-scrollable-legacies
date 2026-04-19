@@ -8,6 +8,7 @@
  manipulation_hook: "傀儡"
  house_head_hook: "家長"
  indebted_hook: "負債"
+ strong_indebted_hook: "破産からの救済"
  loyalty_hook: "忠誠"
  predecessor_loyalty_hook: "前任者への忠誠"
  fabrication_hook: "捏造"

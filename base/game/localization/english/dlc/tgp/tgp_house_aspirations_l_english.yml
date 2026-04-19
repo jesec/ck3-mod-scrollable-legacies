@@ -77,7 +77,7 @@
  #House Aspiration - Prosperity
  house_power_parameter_improved_stewardship_court_position_efficiency: "Improved [aptitude|E] for [stewardship|E] [court_positions|E]"
  
- ceremony_house_power_tt: "Requires the #V $ceremony_house_power$#! [house_aspiration|E]"
+ ceremony_house_power_tt: "Requires the #V $ceremony_house_power$ $ceremony_house_power_level_02$#!  [house_aspiration|E]"
  determination_house_power_tt: "Requires the #V $determination_house_power$#! [house_aspiration|E]"
  humility_house_power_tt: "Requires the #V $humility_house_power$#! [house_aspiration|E]"
  prosperity_house_power_tt: "Requires the #V $prosperity_house_power$#! [house_aspiration|E]"

@@ -95,7 +95,7 @@
  scandinavian_elective_electors_tooltip: "Aby być ważnym [Concept( 'elector', 'elektorem' )|E] w systemie Tingu, wasal musi spełniać wszystkie poniższe warunki:\n$EFFECT_LIST_BULLET$Być wasalem bezpośrednim tytułu\n$EFFECT_LIST_BULLET$NIE być baronem"
  succession_laws_must_have_organised_government_tooltip: "[SelectLocalization( HasDlcFeature( 'all_under_heaven' ), 'succession_laws_must_have_organised_government_tooltip_auh_tooltip', 'succession_laws_must_have_organised_government_tooltip_base_game_tooltip' )]"
  succession_laws_must_have_organised_government_tooltip_auh_tooltip: "Mój [government|El] nie ma formy [Concept('feudal', 'feudalnej')|E], [Concept('clan', 'klanowej')|E] ani [japan_feudal|El]"
- succession_laws_must_have_organised_government_tooltip_base_game_tooltip: "Nie mam [Concept( 'feudal', 'feudalnej' )|E] lub [Concept( 'clan', 'klanowej' )|E] [Concept( 'government', 'formy rządów' )|E]"
+ succession_laws_must_have_organised_government_tooltip_base_game_tooltip: "Mój [government|El] nie ma formy [Concept('feudal', 'feudalnej')|E] ani [Concept('clan', 'klanowej')|E]"
  succession_laws_must_not_be_forced_partition: "[vassal_contract|E] nie narzuca mi [Concept('succession', 'sukcesji')|E] opartej na podziale"
  succession_laws_must_have_valid_tanistry_culture: "#bold Nie#! masz goidelskiej ani brytańskiej [Concept('heritage', 'spuścizny')|E]."
  number_of_election_votes: "Liczba głosów wyborczych"
@@ -273,4 +273,4 @@
  #Meritocratic Acclamation Succession Law (Korea, TGP)
  meritocratic_regency_succession_law: "Merytokratyczna sukcesja regencji"
  meritocratic_regency_succession_law_subname: "$appointment_succession_law_subname$"
- meritocratic_regency_succession_law_effects: "Zgodnie z prawem „$meritocratic_regency_succession_law$” [title|El] i przysługujące posiadającej go osobie [holdings|El] są dziedziczone przez kandydata o najwyższym wyniku. Pula kandydatów obejmuje ograniczoną grupę mieszkańców państwa: należą do niej [noble_families|El], [governors|El] i członkowie ich rodzin.\n\nJeżeli kolejnym [Concept('ceremonial_regent', 'regentem panującym')|E] zostanie [ceremonial_liege|El], będzie mógł abdykować lub podjąć próbę przywrócenia bezpośrednich rządów."
+ meritocratic_regency_succession_law_effects: "Zgodnie z prawem „$meritocratic_regency_succession_law$” [title|El] i przysługujące posiadającej go osobie [holdings|El] są dziedziczone przez kandydata o najwyższym wyniku. Pula kandydatów obejmuje ograniczoną grupę mieszkańców państwa: należą do niej [noble_families|El], [governors|El] i członkowie ich rodzin."

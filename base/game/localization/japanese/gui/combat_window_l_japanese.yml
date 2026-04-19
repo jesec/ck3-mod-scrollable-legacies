@@ -59,7 +59,7 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY: "@warning_icon! カウンター攻撃により[CombatMaaItem.GetCountered|0-%]ダメージ"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD: "#I +有利な地形で戦闘中#!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD: "#X -不利な地形で戦闘中#!"
- COMBAT_WINDOW_MAA_TT_SCREEN: "満員の連隊１つあたりの[screen|E]効果：[MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN: "連隊1つあたりの[screen|E]効果：[CombatMaaItem.GetStat( 'screen' )|0+=]"
  COMBAT_WINDOW_MAA_TT_PURSUIT: "満員の連隊１つあたりの[pursuit|E]効果：[MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA: "[men_at_arms|E]なし"
  CV_TT_RELATIVE_SOLDIERS: "#T 相対的な軍事力#!\n[CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString]対[CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString][soldiers|E]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"

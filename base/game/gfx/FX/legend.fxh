@@ -46,10 +46,39 @@ PixelShader =
 			const float X2 = lerp(C12, C22, FracCoord.x);
 			return lerp( X1, X2, FracCoord.y );
 		}
-		
+
+		float LegendColorSample( in float2 Coordinate )
+		{
+			float2 Pixel = Coordinate * IndirectionMapSize;
+			Pixel = floor( Pixel ) / IndirectionMapSize - InvIndirectionMapSize / 2.0f;
+			int ProvinceId = SampleProvinceId( Pixel, ProvinceColorIndirectionTexture );
+			return float( HasLegendIn( ProvinceId ) );
+		}
+
 		void ApplyLegendDiffuse( inout float3 DiffuseColor, in float2 Coordinate)
 		{
+			#ifdef LOW_SPEC_SHADERS
+				return;
+			#endif
 			const float LegendIntensity = LegendBilinearColorSample( Coordinate );
+			if( LegendIntensity < 0.00001f )
+			{
+				return;
+			}
+			const float ZoomBlendOut = clamp( 1.0f - _WaterZoomedInZoomedOutFactor * 2.5f, 0.0f, 1.0f );
+			DiffuseColor = lerp( DiffuseColor, DiffuseColor * 1.8f, LegendIntensity * ZoomBlendOut);
+		}
+
+		void ApplyTreeLegendDiffuse( inout float3 DiffuseColor, in float2 Coordinate)
+		{
+			#ifdef LOW_SPEC_SHADERS
+				return;
+			#endif
+			const float LegendIntensity = LegendColorSample( Coordinate );
+			if( LegendIntensity < 0.00001f )
+			{
+				return;
+			}
 			const float ZoomBlendOut = clamp( 1.0f - _WaterZoomedInZoomedOutFactor * 2.5f, 0.0f, 1.0f );
 			DiffuseColor = lerp( DiffuseColor, DiffuseColor * 1.8f, LegendIntensity * ZoomBlendOut);
 		}

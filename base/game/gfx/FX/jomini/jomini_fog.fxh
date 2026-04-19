@@ -103,7 +103,12 @@ Code
 	{
 		float FogFactor = CalculateDistanceFogFactor( WorldSpacePos );
 		float ZoomFadeFactor = CalculateZoomFogFactor();
-		return CalculateFogColor( Color, WorldSpacePos, FogFactor * ZoomFadeFactor );
+		FogFactor *= ZoomFadeFactor;
+		if ( FogFactor < 0.00001f)
+		{
+			return Color;
+		}
+		return CalculateFogColor( Color, WorldSpacePos, FogFactor );
 	}
 
 	float3 ApplyMapDistanceFog( float3 Color, float3 WorldSpacePos, 
@@ -111,6 +116,11 @@ Code
 	{
 		float FogFactor = CalculateMapDistanceFogFactor( WorldSpacePos, FogOfWarAlphaSampler );
 		float ZoomFadeFactor = CalculateZoomFogFactor();
-		return CalculateFogColor( Color, WorldSpacePos, FogFactor * ZoomFadeFactor );
+		FogFactor *= ZoomFadeFactor;
+		if ( FogFactor < 0.00001f)
+		{
+			return Color;
+		}
+		return CalculateFogColor( Color, WorldSpacePos, FogFactor );
 	}
 ]]

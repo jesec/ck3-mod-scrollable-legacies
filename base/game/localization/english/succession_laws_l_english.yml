@@ -146,7 +146,7 @@
  clan_harmonious_partition_succession_law_subname: "All Children Inherit"
  clan_harmonious_partition_succession_law_effects: "\n#V Under $clan_harmonious_partition_succession_law$, your [player_heir] is guaranteed to receive a certain portion of your [titles] – the rest will be divided between your remaining children.#!\n\n#weak $partition_base_desc$\n#!The Player Heir will #emp always#! inherit at least three quarters of the late Ruler's Titles.\n#!"
 
- SUCCESSION_TITLE_LAW_WARNING: "@alert_icon! Any title with special [title_succession|E] will take precedence over your realm [succession_law|E]"
+ SUCCESSION_TITLE_LAW_WARNING: "@alert_icon! Any Title with special [title_succession|E] will take precedence over your Realm [succession_law|E]"
 
  #EP3:
  noble_family_succession_law: "Noble Family Succession"
@@ -304,4 +304,4 @@
  # Meritocratic Acclamation Succession Law (Korea, TGP)
  meritocratic_regency_succession_law: "Meritocratic Regency Succession"
  meritocratic_regency_succession_law_subname: "$appointment_succession_law_subname$"
- meritocratic_regency_succession_law_effects: "Under $meritocratic_regency_succession_law$, the [title|E] and its associated [holdings|E] will be inherited by the candidate with the highest score. The pool of candidates includes the realm's [noble_families|E], [governors|E], and their family members.\n\nIf the [ceremonial_liege|E] is chosen as the next [ceremonial_regent|E], they will be given the choice of either abdicating, or attempting to re-establish direct rule."
+ meritocratic_regency_succession_law_effects: "Under $meritocratic_regency_succession_law$, the [title|E] and its associated [holdings|E] will be inherited by the candidate with the highest score. The pool of candidates includes the realm's [noble_families|E], [governors|E], and their family members."

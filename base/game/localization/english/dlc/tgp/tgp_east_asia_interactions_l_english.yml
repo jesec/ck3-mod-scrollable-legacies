@@ -5,6 +5,7 @@
  offer_tributary_status_interaction_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip] is still disgruntled from the last time you requested [recipient.GetSheHe] become your $game_concept_tributary$"
  offer_tributary_status_interaction_tributary_was_recently_subjugated: "[recipient.GetShortUINameNoTooltip] was recently subjugated by [recipient.GetHerHis] [suzerain|E]"
  offer_tributary_status_interaction_warred_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip] is still intimidated from last time they tried to join you as a $game_concept_tributary$"
+ offer_tributary_status_interaction_cant_use_tributaries_tt: "[actor.GetShortUINamePossessive|U] [government|E] type does not allow [tributaries|E]"
  offer_tributary_status_interaction_suzerain_intervene.t: "[recipient.GetShortUINamePossessive|U] [suzerain|E] intervenes"
  offer_tributary_status_interaction_suzerain_starts_war_tt: "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUIName|U] starts a war against [recipient.GetShortUIName] with the [GetCasusBelliType('make_tributary_cb').GetName] [casus_belli|E]#!"
  offer_tributary_status_interaction_suzerain_nothing.t: "[recipient.GetShortUINamePossessive|U] [suzerain|E] does nothing"

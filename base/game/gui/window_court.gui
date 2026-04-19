@@ -91,7 +91,7 @@
 							text = "INTRIGUE_WINDOW_PRISONERS"
 							parentanchor = center
 
-							maximumsize = { 400 -1 }
+							max_width = 100
 							default_format = "#low"
 
 							alpha = "[Select_float( GreaterThan_int32(CourtWindow.GetPrisoners.GetTotalNumber, '(int32)0'), '(float)1.0', '(float)0.5' )]"
@@ -251,10 +251,12 @@
 						alpha = 0
 					}
 
-					text_single = {
+					text_multi = {
 						visible = "[LessThanOrEqualTo_int32( CharacterSelectionList.GetTotalNumber, '(int32)0' )]"
 						text = "PRISON_EMPTY"
 						default_format = "#weak"
+						autoresize = yes
+						max_width = 400
 					}
 
 					background = {

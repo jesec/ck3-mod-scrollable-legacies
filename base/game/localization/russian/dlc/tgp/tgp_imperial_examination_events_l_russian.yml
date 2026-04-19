@@ -4,7 +4,7 @@
  imperial_examination.1000.t: "Прибытие соискателей"
  imperial_examination.1000.desc: "К нашему приезду улицы города [ROOT.Char.GetCurrentLocation.GetName] подмели и пышно украсили. Люди кланяются и шепчут молитвы об удаче, пока мы проходим мимо; на каждом углу игроки делают ставки на результаты экзаменов. \n\nКуда ни глянь, повсюду я вижу других соискателей. Облачившись в лучшие шелковые одежды, они направляются в местные таверны в компании своих куртизанок. Сегодня я пойму, как далеко я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )] зайти."
  imperial_examination.1000.a: "Чего бы это ни стоило, я добьюсь успеха!"
- imperial_examination.1000.a.tt: "У вас будет больше возможностей сжульничать.\n@alert_icon! #alert_trial Вас могут поймать!#!"
+ imperial_examination.1000.a.tt: "У вас будет больше возможностей сжульничать.\n@alert_icon! #alert_trial Вас могут поймать!#! #weak (Если вас не поймают, у вас появится [Concept('secret', 'секрет')|E] #V «$secret_exam_cheater$»#!.)#!"
  imperial_examination.1000.b: "Я хочу честно доказать, чего я стою."
  #Host
  imperial_examination.1001.t: "$imperial_examination.1000.t$"
@@ -14,7 +14,7 @@
  imperial_examination.1002.t: "$imperial_examination.1000.t$"
  imperial_examination.1002.desc: "[Select_CString(candidate.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', candidate )] [candidate.GetTitledFirstName] и я въезжаем в город [ROOT.Char.GetCurrentLocation.GetName]. К нашему приезду улицы подмели и пышно украсили.\n\nКогда [candidate.GetFirstNameNoTooltip] займет выделенное [Select_CString(candidate.IsFemale, 'ей', 'ему' )] место в покоях для соискателей, у меня не останется возможностей влиять на [Select_CString(candidate.IsFemale, 'ее', 'его' )] результаты. Наверное, надо дать напоследок какой-нибудь совет."
  imperial_examination.1002.a: "«Добивайся успеха любой ценой, [ROOT.Char.Custom2('RelationToMe', candidate )]»."
- imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip|U] получит больше возможностей сжульничать.\n@alert_icon! #alert_trial [Select_CString(candidate.IsFemale, 'Ее', 'Его' )] могут поймать!#!"
+ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip|U] получит больше возможностей сжульничать.\n@alert_icon! #alert_trial [Select_CString(candidate.IsFemale, 'Ее', 'Его' )] могут поймать!#! #weak (Если [Select_CString(candidate.IsFemale, 'ее', 'его' )] не поймают, у [Select_CString(candidate.IsFemale, 'нее', 'него' )] появится [Concept('secret', 'секрет')|E] #V «$secret_exam_cheater$»#!.)#!"
  imperial_examination.1002.b: "«Не навлеки позор на дом [ROOT.Char.GetHouse.GetNameNoTooltip]»."
  imperial_examination.1003.t: "$imperial_examination.1000.t$"
  imperial_examination.1003.desc: "Я вхожу в город [ROOT.Char.GetCurrentLocation.GetName] с руками, полными свитков и учебных материалов.\n\n"

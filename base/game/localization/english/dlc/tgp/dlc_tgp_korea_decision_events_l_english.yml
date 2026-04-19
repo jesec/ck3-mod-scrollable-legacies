@@ -23,3 +23,8 @@
 
  tgp_korea_decision.9202.desc: "As the glory of [founder.GetTitledFirstNamePossessive] rule shines brighter, many seek solace in [founder.GetHerHis] shadow. No [founder.GetTitleAsNameNoTooltip] can rule alone, and the line where true power lies is always shifting.\n\n[founder.GetSheHe|U] must be wary if [founder.GetHerHis] descendants are to continue to rule [founder.GetPrimaryTitle.GetDefinitiveNameNoTooltip] in more than name alone..."
  tgp_korea_decision.9202.a: "Power comes in many forms."
+ 
+ tgp_create_meritocratic_ruling_regent_title_effect: "Due to being [ruler|E] of a [GetGovernment('meritocratic_government').GetName] [empire|E]:"
+ tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "You gain a titular [kingdom|E] [title|E] with the [GetLaw('single_heir_succession_law').GetName] [law|E]"
+ tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "[vassals|E] may create #V $replace_ceremonial_regent_faction$#! [factions|E]"
+ tgp_create_meritocratic_ruling_regent_title_message_title: "[founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] Monarchy Challenged"

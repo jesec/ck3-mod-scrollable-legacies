@@ -564,16 +564,6 @@ heritage_ainuic = {
 	audio_parameter = sea
 }
 
-heritage_malayic = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_malayic
-		}
-	}
-	audio_parameter = sea
-}
-
 heritage_mon_khmer = {
 	type = heritage
 	is_shown = {

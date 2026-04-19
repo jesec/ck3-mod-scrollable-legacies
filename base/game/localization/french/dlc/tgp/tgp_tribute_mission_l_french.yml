@@ -71,6 +71,8 @@
  tribute_mission_costs_refunded: "Coûts de tribut remboursés"
  tribute_mission_notification.title: "Tribut versé par [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  tribute_mission_notification.desc: "[tributary_scope.Custom('FR_le_Char_U_Pi')|U][tributary_scope.GetShortUIName] est parti[tributary_scope.Custom('FR_E')] en [tribute_mission|El] et a versé un tribut à votre [court|E]"
+ tribute_mission.new_tributary.title: "Tribut promis de [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ tribute_mission.new_tributary.desc: "[tributary_scope.Custom('FR_le_Char_U_Pi')|U][tributary_scope.GetShortUIName] s’est engagé[tributary_scope.Custom('FR_E')] à devenir votre [tributary|El] tout en vous versant un [tribute|El]"
  qualifies_for_tribute_mission_trigger: "Vous n’avez pas de [tribute|El] valide"
  qualifies_for_tribute_mission_gold_trigger: "Vous n’avez pas [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0] @gold_icon!"
  qualifies_for_tribute_mission_gold_or_herd_trigger: "Vous n’avez pas le [tribute|El] attendu. Il vous faut [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0] @gold_icon! ou [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_herd_value')|0] @herd_icon!."

@@ -26,3 +26,16 @@
 
  embraced_my_tributary_opinion: "Embraced My Tributary"
  attempted_to_embrace_my_tributary_opinion: "Attempted to Embrace My Tributary"
+
+ tgp_east_asia_interaction_events.2000.t: "Root, Stem, and Branch"
+ tgp_east_asia_interaction_events.2000.desc: "It is my heavenly duty to promote good and eliminate evil; and of the latter, there are few sources of wickedness within my grasp greater than [recipient.GetTitledFirstName]! [recipient.GetHerHis|U] crimes #EMP defile#! his lineage, and for the guilty there can be no pardon; the eradication of this evil must reach deep into its roots.\n\nThose who oppose our will shall tremble at [recipient.GetHerHis] unmaking; let [recipient.GetHerHis] head be cleaved from [recipient.GetHerHis] body and left to rot in the marketplace, [recipient.GetHerHis] bones unburied and [recipient.GetHerHis] spirit restless, and any who share [recipient.GetHerHis] poisonous blood will be put to death or banished to the four corners of the world."
+ tgp_east_asia_interaction_events.2000.a: "By my will and by my right, #EMP I will #bold end#! [recipient.GetHerHis] name#!."
+ tgp_east_asia_interaction_events.2000.a.title: "Collective Punishment"
+ tgp_east_asia_interaction_events.2000.a.tt: "[recipient.GetShortUIName] and [recipient.GetHerHis] family have been purged by [purger.GetShortUIName]"
+ auto_accept_interaction_huangdi: "The power of the state is absolute"
+ celestial_extinguish_noble_family_interaction_death_explanation: "Any parents and adult children – younger than the [retirement_age|E] and of your [faithpossessive|E] dominant gender – will be put to death"
+ celestial_extinguish_noble_family_interaction_banish_explanation: "Any [spouses|E] or [concubines|E], and [close_family|E] and [extended_family|E] of the same [house|E], will be [banished|E] from the [realm|E]"
+ celestial_extinguish_noble_family_interaction_exemption_explanation: "Any [spouse|E] or [concubines|E], [close_family|E], or [extended_family|E] [married|E] to or a child of a member of the ruling [house|E] of [actor.GetHouse.GetName] will be spared"
+ is_currently_being_purged_tt: "[recipient.GetShortUIName] is currently being purged"
+ purged_banishment_opinion: "Banished Criminal"
+ purged_execution_opinion: "Sentenced to Death"

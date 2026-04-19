@@ -63,6 +63,7 @@
  forbidden_runaway_laamp_opinion: "Zakaz poszukiwania przygód"
  ep3_laamps.0100.t: "Wszystko ma swoją cenę"
  ep3_laamps.0100.desc: "Nie wierzę! [recipient.GetTitledFirstName] zgadza się na moją propozycję! Moje marzenie wreszcie się spełni: [ROOT.Char.Custom('FortifiedBuilding')] z dachem i czterema solidnymi ścianami będzie moją własnością!\n\n[ROOT.Char.GetTitleAsNameNoTooltip] miejsca znanego jako [ROOT.Char.GetPrimaryTitle.GetNameNoTier] – od teraz tak się będą do mnie zwracać."
+ ep3_laamps.0100.desc_nomadic: "Nie wierzę! [recipient.GetTitledFirstName] zgadza się na moją propozycję! Moje marzenie wreszcie się spełni: w końcu będę mieć własne ziemie, miejsce, gdzie będę wypasać stado!\n\n[ROOT.Char.GetTitleAsNameNoTooltip] miejsca znanego jako [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTier] – od teraz tak się będą do mnie zwracać,"
  ep3_laamps.0100.fellow_vassal: "Będę rządzić tymi ziemiami jako wasal osoby, którą jest [new_liege.GetName], w równym stopniu polegając na moim nowym seniorze, jak i mając wobec niego zobowiązania."
  ep3_laamps.0100.liege: "Będę rządzić tymi ziemiami jako wasal [recipient.GetPrimaryTitle.GetAdjectiveNoTooltip], w równym stopniu polegając na moim nowym seniorze, jak i mając wobec niego zobowiązania."
  ep3_laamps.0100.independent: "Będę rządzić tymi ziemiami, które niegdyś należały do [recipient.GetPrimaryTitle.GetAdjectiveNoTooltip] – od teraz będą one mym lennem!"

@@ -610,7 +610,7 @@
 			holy_site = luoyang
 			holy_site = sarasvati
 			holy_site = heiankyo
-			holy_site = chang_an
+			holy_site = putuo
 			holy_site = mount_lu
 
 			#Main Group

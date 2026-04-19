@@ -1,6 +1,6 @@
 ﻿hellenism_religion = {
 	family = rf_pagan
-
+	graphical_faith = "catholic_gfx"
 	pagan_roots = yes
 
 	doctrine = pagan_hostility_doctrine

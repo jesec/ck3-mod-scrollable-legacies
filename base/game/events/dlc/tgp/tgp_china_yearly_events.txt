@@ -885,10 +885,18 @@ tgp_china_yearly.0020 = {
 		government_has_flag = government_is_celestial
 		highest_held_title_tier <= tier_kingdom
 		is_independent_ruler = no
+		any_held_county = {
+			is_landless_type_title = no
+		}
 	}
 
 	immediate = {
-		random_held_county = { save_scope_as = taxless_county }
+		random_held_county = {
+			limit = {
+				is_landless_type_title = no
+			}
+			save_scope_as = taxless_county
+		}
 		root.liege = {
 			random_councillor = {
 				limit = {

@@ -1,7 +1,8 @@
 ﻿l_spanish:
- # the silky silk road
+ # the Silk Road
  silk_road_situation: "La Ruta de la Seda"
  silk_road_situation_desc: "$game_concept_silk_road_situation_desc$"
+ situation_silk_road_situation_desc: "$silk_road_situation_desc$"
  game_concept_silk_road_situation: "Ruta de la Seda"
  game_concept_silk_road: "$game_concept_silk_road_situation$"
  game_concept_silk_road_situation_desc: "La $game_concept_silk_road_situation$ no es una sola carretera, sino toda una red de rutas que conectan los rincones más lejanos de la civilización para intercambiar oro, bienes e ideas. Tener acceso a la Ruta de la Seda significa tener acceso a todas las riquezas del mundo.\n\nLos diferentes niveles de acceso a la ruta proporcionan distintas bonificaciones de oro y pueden proporcionar oportunidades únicas para desbloquear [innovations|lE] exóticas. La cantidad de oro y conocimientos que recorran la Ruta de la Seda cambiará según su prosperidad, que se ve influida por muchos factores, entre ellos guerras, eventos y el [dynastic_cycle|lE] de China."
@@ -117,7 +118,8 @@
  SILK_ROAD_WINDOW_CATALYSTS_LIST: "Catalizadores de la Ruta de la Seda"
  FUTURE_PHASE_PROGRESSING_TEXT: "En progreso: faltan $YEARS|V$"
  SILK_ROAD_REGION_EFEFCTS: "Efectos de la región:"
- FUTURE_PHASE_HEADER: "Progreso hacia:\n [SituationPhaseType.GetName]: [SituationPhase.GetPhaseRelativeProgressPercent|%]"
+ FUTURE_PHASE_HEADER: "Progreso hacia la [dynastic_cycle_era_short|El] siguiente:"
+ FUTURE_PHASE_VALUE: "[SituationPhaseType.GetName]: [SituationPhase.GetPhaseRelativeProgressPercent|V%]"
  SILK_ROAD_HEADER_DESC: "Con una red de mercados, estaciones de parada y caminos trillados en paisajes solitarios, la Ruta de la Seda ofrece oportunidades para crear fortunas y descubrir nuevas ideas a aquellos lo suficientemente atrevidos como para recorrer sus caminos legendarios."
  dlc_tgp_silk_road_route_region: "Ruta de la Seda"
  tgp_silk_road_region: "Ruta de la Seda"

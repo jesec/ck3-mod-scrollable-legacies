@@ -52,9 +52,9 @@
  learning_medicine.2010.c: "[ROOT.Char.GetFaith.ReligiousText]の導きを求めるといい。"
  #Fertility treatment, by Mathilda Bjarnehed
  learning_medicine.2021.t: "[ROOT.Char.Custom('FormalComplimentAdjective')][ROOT.Char.GetTitledFirstNameNoTooltip]へ"
- learning_medicine.2021.desc: "私は[physician.GetTitledFirstNameNoTooltip]、不妊治療を専門とする、訓練を受けた医師です。内密にご相談いただければ、我が[ROOT.Char.GetLadyLord]のお役に立てることと存じます。喜んであなたにお仕えします――それもごくわずかな料金で。"
+ learning_medicine.2021.desc: "私は[physician.GetTitledFirstNameNoTooltip]、不妊治療を専門とする、訓練を受けた医師です。\n\n内密にご相談いただければ、我が[ROOT.Char.GetLadyLord]のお役に立てることと存じます。喜んであなたにお仕えします――それもごくわずかな料金で。"
  learning_medicine.2021.a: "ぜひ力を貸してほしい…"
- learning_medicine.2021.a.tt: "[physician.GetFirstName|V]は不妊治療を提案する"
+ learning_medicine.2021.a.tt: "不妊治療を受け入れる"
  learning_medicine.2021.b: "訓練を受けた医師ならばいつでも歓迎だ。"
  learning_medicine.2021.b.tt: "不妊治療を拒否する"
  learning_medicine.2021.c: "そのような#EMP 問題#!などない！"

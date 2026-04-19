@@ -36,6 +36,7 @@
  FACTION_JAPANESE_RESTORE_EMPEROR: "$restore_ceremonial_liege_faction_name$ 요구"
  FACTION_JAPANESE_RESTORE_EMPEROR_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n[ROOT.Char.Custom('GetTitleTierAdjective')] 궁정과 왕실, [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] 전역에 걸친 그대의 폭정은 끝나야만 하오.\n\n진정한 통치자인 [faction.GetSpecialCharacter.GetTitledFirstName] 앞에서 비켜나시오!"
  tgp_faction_events.0201.b: "[faction.GetSpecialCharacter.GetTitleAsNamePossessiveNoTooltip] 명예에 먹칠한 대가를 치르게 해 주마!"
+ tgp_faction_events.0201.b.cm: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip](을)를 찢어발길 위험을 무릅쓴단 말인가?!"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED: "$restore_ceremonial_liege_faction_name$ 요구 승인"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED_DESC: "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n나는 오직 진심으로 [ROOT.Char.Custom('GetTitleTierAdjective')] 궁정과 왕실, [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] 전역을 섬겼을 뿐이오!\n\n그대의 동기는 의심스러우나, [faction.GetSpecialCharacter.GetTitledFirstName]의 앞길을 막아서지는 않겠소."
  FACTION_JAPANESE_RESTORE_EMPEROR_REFUSED: "$restore_ceremonial_liege_faction_name$ 요구 거부"

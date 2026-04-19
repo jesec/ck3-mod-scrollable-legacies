@@ -34,7 +34,7 @@
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = asian_mongol
+		100 = asian_mongol
 	}
 }
 
@@ -70,7 +70,7 @@ buryat = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = asian_mongol
+		100 = asian_mongol
 	}
 }
 
@@ -105,7 +105,7 @@ oirat = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = asian_mongol
+		100 = asian_mongol
 	}
 }
 
@@ -136,7 +136,7 @@ naiman = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = asian_mongol
+		100 = asian_mongol
 	}
 }
 
@@ -171,7 +171,7 @@ kerait = {
 	house_coa_frame = house_frame_16
 
 	ethnicities = {
-		10 = asian_mongol
+		100 = asian_mongol
 	}
 }
 
@@ -208,12 +208,12 @@ khitan = {
 
 	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { khitan_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	house_coa_frame = house_frame_16
 
 	ethnicities = {
-		10 = asian_mongol
+		100 = asian_mongol
 	}
 }
 
@@ -246,7 +246,7 @@ shiwei = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = asian_mongol
+		100 = asian_mongol
 	}
 }
 
@@ -256,7 +256,7 @@ tuyuhun = {
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bellicose
 	heritage = heritage_mongolic
-	language = language_mongolic
+	language = language_khitan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
 
@@ -281,6 +281,6 @@ tuyuhun = {
 	house_coa_frame = house_frame_14
 
 	ethnicities = {
-		10 = asian_mongol
+		100 = asian_mongol
 	}
 }

@@ -100,7 +100,7 @@
  tgp_restore_japanese_monarchy_yamato_scion_kampaku_tt: "[kampaku.GetShortUIName|U] wird den [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] besteigen"
  tgp_restore_japanese_monarchy_yamato_scion_last_tt: "[last_tenno.GetShortUIName|U] wird den [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] besteigen"
  tgp_restore_japanese_monarchy_yamato_scion_last_child_tt: "Ein Kind von [last_tenno.GetShortUIName|U] wird den [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] besteigen"
- tgp_restore_japanese_monarchy_yamato_scion_last_close_family_tt: "Ein enger Verwandter von [last_tenno.GetShortUIName|U] wird den [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] besteigen"
+ tgp_restore_japanese_monarchy_yamato_scion_last_close_family_tt: "Ein naher Verwandter von [last_tenno.GetShortUIName|U] wird den [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] besteigen"
  # Restore Japanese Government
  tgp_japan_restore_japanese_government_decision: "Ritsuryō-Bürokratie wiederherstellen"
  tgp_japan_restore_japanese_government_decision_desc: "Die Traditionen unserer Ahnen wurden durch Aufruhr und Berechnung in Fetzen gerissen. Es wird Zeit, zu ihrem erprobten Vorbild guter Regierungskunst zurückzukehren."

@@ -123,7 +123,7 @@
  EVENT_WINDOW_OPTION_SEA_LEGACY_OVERRIDE: "[GetDynastyPerk( 'tgp_sea_legacy_5' ).GetName] 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_CELESTIAL_MILITARY_APPOINTMENT: "당신의 @celestial_military_administration! 군사 행정 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_MOVEMENT: "당신이 [GetPlayer.Custom('GetMyMovement')]에 속한 덕분에 이 선택지를 사용할 수 있음"
- EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "[dynastic_cycle|E]의 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] [situation_phase|E] 덕분에 이 선택지를 사용할 수 있음"
+ EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] [situation_dynastic_cycle_phase|E] 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "당신의 $learned_philosophers_house_power$ [powerful_family_attribute|E] 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE_FOCUS: "당신의 [GetPlayer.GetFocus.GetName] 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE: "당신의 [lifestyle|E] 덕분에 이 선택지를 사용할 수 있음"

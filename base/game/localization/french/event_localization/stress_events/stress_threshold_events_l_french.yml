@@ -174,7 +174,7 @@
  stress_threshold.2202.desc: "[stress_character.GetSheHe|U] a été très stressé[stress_character.Custom('FR_E')] ces derniers temps, mais"
  stress_threshold.2202.desc.rival: "lorsqu’on lui a demandé de s’expliquer, [stress_character.GetSheHe] a simplement redoublé d’insultes."
  stress_threshold.2202.desc.other: "se comporter ainsi..."
- stress_threshold.2202.a: "Je donnerai autant que je recevrai. « [stress_character.Custom2('InsultNoun', ROOT.Char)|U] ! »"
+ stress_threshold.2202.a: "Je donnerai autant que je recevrai, [stress_character.Custom2('InsultNoun', ROOT.Char)] !"
  stress_threshold.2202.b: "Que même [stress_character.Custom('FR_LuiElle')] lutte... C’est apaisant."
  #Level 3 Stress Events
  stress_threshold.3001.t: "Effondrement mental : les voix"

@@ -181,3 +181,4 @@
  scheme_critical_moments.2925.a: "#EMP 대가를#! 치르게 해 주마."
  scheme_critical_moments.2925.b: "찬탈자가 어떤 꼴이 되는지 배웠을 것이다!"
  scheme_critical_moments.2925.c: "빌어먹을 [owner.Custom2('InsultNoun', ROOT.Char)]!"
+ OWNER_IS_MY_MOVEMENT_MEMBER: "[owner.GetShortUIName](와)과 같은 [movement|E] 소속임: $VALUE|+0=$"

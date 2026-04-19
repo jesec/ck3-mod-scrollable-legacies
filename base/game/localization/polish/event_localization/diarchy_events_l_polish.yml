@@ -248,7 +248,7 @@
  diarchy.1741.desc: "– Nie sprzeciwiamy się woli, jaką prezentuje [liege.GetTitledFirstName] – cedzi [councillor_1.GetTitledFirstName] z szydzącym uśmieszkiem. – Nie jesteśmy jednak niewolnikami. To nie takie trudne do zrozumienia.\n\nWiększa część popołudnia zeszła mi na próbach poprawy relacji pomiędzy moim seniorem a doradcami. Niestety, nie idzie mi najlepiej, a to za sprawą tępoty, jaką przejawia [councillor_1.GetTitledFirstName].\n\nWzdycham w duchu. Jako [liege.GetDiarchTitle] mam w końcu swoje obowiązki."
  diarchy.1741.a: "Chyba zapominasz, jak wiele robi dla ciebie [liege.GetTitleAsNameNoTooltip]…"
  diarchy.1741.a.t: "$diarchies.0000.diarch_fulfills_mandate.t$"
- diarchy.1741.custom.several_councillors: "Każdy członek rady obecny\t"
+ diarchy.1741.custom.several_councillors: "Każdy [councillor|El] obecny\t"
  diarchy.1741.b: "I nie powinniście się sprzeciwiać, ale pamiętajcie, że lepsza służba niesie ze sobą większe korzyści…"
  diarchy.1741.b.tt.success: "Twoi towarzysze doznają dzięki tobie oświecenia"
  diarchy.1741.b.tt.failure: "Rada pozostaje nieustępliwa"

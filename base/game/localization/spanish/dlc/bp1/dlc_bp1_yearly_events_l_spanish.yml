@@ -395,7 +395,7 @@
  bp1_yearly.8040.a.temperate: "Todo con moderación."
  bp1_yearly.8040.a.greedy: "¿Cómo? ¿Y que otros se lleven #EMP mi#! dinero?"
  bp1_yearly.8040.a.generous: "Hay bastante para todos."
- bp1_yearly.8040.a.arrogant: "¡Soy [ROOT.CHAR.Custom('ES_ElLa')] [ROOT.Char.GetTitleAsNameNoTooltip|l]!"
+ bp1_yearly.8040.a.arrogant: "¡Soy [ROOT.Char.Custom('ES_ElLa')] [ROOT.Char.GetTitleAsNameNoTooltip|l]!"
  bp1_yearly.8040.a.humble: "Solo soy un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan], como cualquier otr[ROOT.Char.Custom('ES_OA')]."
  bp1_yearly.8040.a.deceitful: "La verdad no os hará libre."
  bp1_yearly.8040.a.honest: "La verdad es que mentís."

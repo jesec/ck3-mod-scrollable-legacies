@@ -21,7 +21,7 @@
  yearly.0002.d: "Es wäre eine Schande, wenn das ans Licht käme …"
  yearly.0003.t: "Verbotene Liebe"
  yearly.0003.start.desc: "Zuerst hielt ich es nur für einen Scherz: Wie sollten denn mein[child.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName] und [relative.Custom2('HerHisCharacterIntroductionNoComma', SCOPE.sC('child'))] eine Affäre haben können?! Und doch beschreibt der Brief, den meine Spione abgefangen haben,"
- yearly.0003.dislikes_incest.desc: "Begegnungen, wie sie kein Kind mit einem seiner engen Verwandten haben sollte …"
+ yearly.0003.dislikes_incest.desc: "Begegnungen, wie sie kein Kind mit einem seiner nahen Verwandten haben sollte …"
  yearly.0003.likes_incest.desc: "in #EMP faszinierenden#! Einzelheiten die fleischliche Beziehung, die sie pflegen …"
  yearly.0003.b: "Versucht, ihre Liebschaft zu vertuschen."
  yearly.0003.a: "Die Welt wird von ihren Verbrechen wider [ROOT.Char.GetFaith.PantheonTerm] erfahren!"

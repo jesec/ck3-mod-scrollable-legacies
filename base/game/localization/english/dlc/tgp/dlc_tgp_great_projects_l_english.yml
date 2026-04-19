@@ -168,11 +168,11 @@
  rite_of_worthiness_trickery_gold_ransomed_t4: "You have ransomed at least [gold_i]#V [EmptyScope.ScriptValue('trickster_mandala_gold_ransomed_t4')]#! #weak (Currently [GetPlayer.MakeScope.Var('amount_of_gold_ransomed').GetValue]/[EmptyScope.ScriptValue('trickster_mandala_gold_ransomed_t4')])#!"
  rite_of_worthiness_trickery_gold_ransomed_t5: "You have ransomed at least [gold_i]#V [EmptyScope.ScriptValue('trickster_mandala_gold_ransomed_t5')]#! #weak (Currently [GetPlayer.MakeScope.Var('amount_of_gold_ransomed').GetValue]/[EmptyScope.ScriptValue('trickster_mandala_gold_ransomed_t5')])#!"
 
- rite_of_worthiness_trickery_house_married_to_rulers_t1: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t1')]#! [house|E] members are #high married#! to [duke|E]-tier [rulers|E] or above"
- rite_of_worthiness_trickery_house_married_to_rulers_t2: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t2')]#! [house|E] members are #high married#! to [duke|E]-tier [rulers|E] or above"
- rite_of_worthiness_trickery_house_married_to_rulers_t3: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t3')]#! [house|E] members are #high married#! to [duke|E]-tier [rulers|E] or above"
- rite_of_worthiness_trickery_house_married_to_rulers_t4: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t4')]#! [house|E] members are #high married#! to [duke|E]-tier [rulers|E] or above"
- rite_of_worthiness_trickery_house_married_to_rulers_t5: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t5')]#! [house|E] members are #high married#! to [duke|E]-tier [rulers|E] or above"
+ rite_of_worthiness_trickery_house_married_to_rulers_t1: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t1')]#! [house|E] members are #high married#! to foreign [duke|E]-tier [rulers|E] or above #weak (Currently [GetPlayer.MakeScope.ScriptValue('trickster_mandala_house_married_to_rulers')]/[EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t1')])#!"
+ rite_of_worthiness_trickery_house_married_to_rulers_t2: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t2')]#! [house|E] members are #high married#! to foreign [duke|E]-tier [rulers|E] or above #weak (Currently [GetPlayer.MakeScope.ScriptValue('trickster_mandala_house_married_to_rulers')]/[EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t2')])#!"
+ rite_of_worthiness_trickery_house_married_to_rulers_t3: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t3')]#! [house|E] members are #high married#! to foreign [duke|E]-tier [rulers|E] or above #weak (Currently [GetPlayer.MakeScope.ScriptValue('trickster_mandala_house_married_to_rulers')]/[EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t3')])#!"
+ rite_of_worthiness_trickery_house_married_to_rulers_t4: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t4')]#! [house|E] members are #high married#! to foreign [duke|E]-tier [rulers|E] or above #weak (Currently [GetPlayer.MakeScope.ScriptValue('trickster_mandala_house_married_to_rulers')]/[EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t4')])#!"
+ rite_of_worthiness_trickery_house_married_to_rulers_t5: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t5')]#! [house|E] members are #high married#! to foreign [duke|E]-tier [rulers|E] or above #weak (Currently [GetPlayer.MakeScope.ScriptValue('trickster_mandala_house_married_to_rulers')]/[EmptyScope.ScriptValue('num_trickster_mandala_house_married_to_rulers_t5')])#!"
 
  rite_of_worthiness_trickery_house_rulers_t4: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_rulers_t4')]#! [house|E] members are [duke|E]-tier [independent|E] [rulers|E] or above"
  rite_of_worthiness_trickery_house_rulers_t5: "At least #V [EmptyScope.ScriptValue('num_trickster_mandala_house_rulers_t5')]#! [house|E] members are [duke|E]-tier [independent|E] [rulers|E] or above"
@@ -196,3 +196,18 @@
  capital_holding_building_temple_citadel_02: "[GetBuilding('temple_citadel_02').GetName]"
  capital_holding_building_temple_citadel_03: "[GetBuilding('temple_citadel_03').GetName]"
  capital_holding_building_temple_citadel_04: "[GetBuilding('temple_citadel_04').GetName]"
+
+ minister_compel_religious_uniformity_name: "Compel Religious Uniformity"
+ great_project_type_minister_compel_religious_uniformity: "$minister_compel_religious_uniformity_name$"
+ great_project_type_minister_compel_religious_uniformity_desc: "For the realm to truly be harmonious, the masses should live according to the same principles as those to whom Heaven has entrusted the land. They may retain whatever rites they wish at home, but they must comport themselves according to the standards decreed by the state."
+
+ minister_compel_religious_uniformity_effect_desc: "[counties|E] within the target [duchy|E]:\n#indent_newline:6 $BULLET_WITH_TAB$[faiths|E] different than the [top_liege_possessive|E] will change to the Top Liege's Faith#!\n#indent_newline:6 $BULLET_WITH_TAB$[faiths|E] that are the same as the [top_liege_possessive|E] will gain a small amount of [control|E] and [county_opinion|E]#!"
+ not_same_faith_as_top_liege_desc: "[county|E] [faith|E] is different from the [top_liege_possessive|E] Faith"
+ great_project_type_minister_compel_religious_uniformity_contribution_religious_liason: "Provide a Religious Liaison"
+
+ tgp_compelled_religious_uniformity_county_modifier: "Faithful Invigoration"
+ tgp_compelled_religious_uniformity_county_modifier_desc: "This county has experienced the benefits of an organized drive to convert its neighbors to its faith."
+
+ great_project_type_minister_compel_religious_uniformity_contribution_construct_new_shrines: "Construct New Shrines"
+ great_project_type_minister_compel_religious_uniformity_contribution_investigate_improper_rites: "Investigate Improper Rites"
+ great_project_type_minister_compel_religious_uniformity_contribution_promote_faithful_relocation: "Promote Faithful Relocation"

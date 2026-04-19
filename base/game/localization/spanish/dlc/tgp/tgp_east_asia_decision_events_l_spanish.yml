@@ -3,7 +3,7 @@
  tgp_east_asia_decision_events.0010.desc: "A veces la iluminación proviene de las fuentes más inesperadas.\n\nEl estilo mandala para el gobierno de un señorío resuena dentro de mí en un… plano superior. No cabe duda de que mi existencia sirve a un propósito mayor, el de unir el señorío bajo mi gobierno divino y benevolente.\n\n#EMP «Salve, devaraja [ROOT.Char.GetFirstNameNoTooltip]»#! suena bonito…"
  tgp_east_asia_decision_events.0010.a: "Que #EMP ese#! sea mi primer decreto."
  tgp_east_asia_decision_events.0010.b: "La posesión de [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] #EMP todavía#! no es digna de un templo…"
- warning_mandala_capital_building_only_built_in_citadels_tt: "\n@alert_icon! #alert_trial El [great_building|lE] [mandala|lE] [GetBuilding('mandala_capital_01').GetName] solo se puede construir si tu [capital|lE] es una [holding|lE] [temple_citadel|lE]#!"
+ tgp_east_asia_decision_events.0010.b_temple_citadel: "¡Mi templo ya se alza imponente en [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]!"
  all_tribal_holdings_will_change_to_citadels: "Todas las [tribal_holdings|lE] del señorío se convertirán en [temple_citadel_holdings|lE]"
  realm_capital_will_change_to_citadel: "La [holding|lE] de la [realm_capital|lE] se convertirá en una [temple_citadel_holding|lE]"
  tgp_east_asia_decision_events.0015.opening: "[overlord.Custom2('AppropriateGreeting', ROOT.Char)]"

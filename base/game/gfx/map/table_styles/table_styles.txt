@@ -18,9 +18,7 @@ map_table_style_ep3 = {
 	priority = 2
 	is_shown = {
 		exists = this # When no character has been selected yet, this needs to be checked so it doesn't ping errors
-		culture ?= {
-			has_cultural_pillar = heritage_byzantine
-		}
+		culture ?= { has_cultural_pillar = heritage_byzantine }
 	}
 }
 
@@ -29,4 +27,10 @@ map_table_style_tgp = {
 	environment = "gfx/map/environment/environment_tgp_table.txt"
 	audio_parameter = asian
 	priority = 3
+	is_shown = {
+		trigger_if = {
+			limit = { exists = this.culture } # When no character has been selected yet, this needs to be checked so it doesn't ping errors
+			culture_has_asian_heritage_pillar_trigger = yes
+		}
+	}
 }

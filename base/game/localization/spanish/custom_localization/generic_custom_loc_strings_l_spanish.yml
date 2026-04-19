@@ -29,6 +29,8 @@
  people: "gentes"
  mistress: "patrona"
  master: "patrón"
+ mistress_possessive: "de la señora"
+ master_possessive: "del señor"
  witch_spirit: "espíritu"
  witch_spirits: "espíritus"
  witch_source: "fuente"

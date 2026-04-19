@@ -839,3 +839,55 @@ started_planning_mandala_capital_memory = {
 	participants = { founder }
 	duration = { years = memory_default_duration }
 }
+
+completed_creation_aspect_memory = {
+	categories = { positive mandala aspect }
+	icon = "mandala_creation_memory.dds"
+
+	description = { desc = completed_creation_aspect_memory_desc }
+
+	second_perspective_description = { desc = completed_creation_aspect_memory_desc_second_perspective }
+
+	third_perspective_description = { desc = completed_creation_aspect_memory_desc_third_perspective }
+
+	duration = { years = memory_default_duration }
+}
+
+completed_serenity_aspect_memory = {
+	categories = { positive mandala aspect }
+	icon = "mandala_serenity_memory.dds"
+
+	description = { desc = completed_serenity_aspect_memory_desc }
+
+	second_perspective_description = { desc = completed_serenity_aspect_memory_desc_second_perspective }
+
+	third_perspective_description = { desc = completed_serenity_aspect_memory_desc_third_perspective }
+
+	duration = { years = memory_default_duration }
+}
+
+completed_destruction_aspect_memory = {
+	categories = { positive mandala aspect }
+	icon = "mandala_destruction_memory.dds"
+
+	description = { desc = completed_destruction_aspect_memory_desc }
+
+	second_perspective_description = { desc = completed_destruction_aspect_memory_desc_second_perspective }
+
+	third_perspective_description = { desc = completed_destruction_aspect_memory_desc_third_perspective }
+
+	duration = { years = memory_default_duration }
+}
+
+completed_trickery_aspect_memory = {
+	categories = { positive mandala aspect }
+	icon = "mandala_trickery_memory.dds"
+
+	description = { desc = completed_trickery_aspect_memory_desc }
+
+	second_perspective_description = { desc = completed_trickery_aspect_memory_desc_second_perspective }
+
+	third_perspective_description = { desc = completed_trickery_aspect_memory_desc_third_perspective }
+
+	duration = { years = memory_default_duration }
+}

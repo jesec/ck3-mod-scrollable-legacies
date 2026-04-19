@@ -160,7 +160,7 @@
  pet_animal.1113.a: "Dejar que me acompañe."
  pet_animal.1113.a_success: "[ROOT.Char.Custom('DogStoryName')] se porta muy bien"
  pet_animal.1113.a_success.tt: "No ocurre nada malo"
- every_councillor: "Todos los consejeros"
+ every_councillor: "Todo [councillor|lE]"
  pet_animal.1113.a_failure: "[ROOT.Char.Custom('DogStoryName')] no se porta bien."
  pet_animal.1113.a_failure.tt: "Pasa algo... malo."
  pet_animal.1113.b: "La reunión del consejo no es lugar para un perro."

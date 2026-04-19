@@ -57,3 +57,7 @@
  DYNASTY_SPLENDOR: "Splendor dynastii:"
  DYNASTY_LEGACIES: "Dziedzictwa dynastii"
  DYNASTY_HOUSE_VIEW_LEGACY_COST: "Następne dziedzictwo: [dynasty_prestige_i] [Dynasty.GetNextPerkCost|V0]"
+ DYNASTY_HOUSE_FROM_MEMBERS: "Za [Concept('dynasty_members', 'członków dynastii')|E]:"
+ DYNASTY_HOUSE_FROM_MEMBERS_EXCESS: "Za innych [Concept('dynasty_members', 'członków dynastii')|E]:"
+ DYNASTY_HOUSE_FROM_RULERS: "Za władców:"
+ DYNASTY_HOUSE_PRESTIGE_MULTIPLIERS: "Mnożniki:"

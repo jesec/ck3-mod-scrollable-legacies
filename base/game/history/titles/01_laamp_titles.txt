@@ -1099,10 +1099,10 @@ d_laamp_stormbringers = { # Stormbringers
 	}
 }
 
-d_laamp_samadhi_and_prajna_society = { # Samadhi and Prajñā Society 
+d_laamp_samadhi_and_prajna_society = { # Roving Remedy
 	1178.1.1 = {
 		liege = 0
-		holder = bojo_jinul_1 # Bojo Jinul
+		holder = il_eom_1 # Il-eom
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {

@@ -160,7 +160,7 @@
  pet_animal.1113.a: "[ROOT.Char.Custom('DogStorySheHe')|U] пойдет со мной."
  pet_animal.1113.a_success: "[ROOT.Char.Custom('DogStoryName')] хорошо себя ведет"
  pet_animal.1113.a_success.tt: "Ничего плохого не случается"
- every_councillor: "Все советники"
+ every_councillor: "Каждый [Concept('councillor', 'советник')|E]"
  pet_animal.1113.a_failure: "[ROOT.Char.Custom('DogStoryName')] не слушается"
  pet_animal.1113.a_failure.tt: "Происходит... что-то плохое"
  pet_animal.1113.b: "Собаке не место на собраниях совета."

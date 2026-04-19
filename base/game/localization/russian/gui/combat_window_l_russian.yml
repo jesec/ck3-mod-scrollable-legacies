@@ -59,7 +59,7 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY: "@warning_icon!Наносит на [CombatMaaItem.GetCountered|0-%] меньше урона из-за противодействия"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD: "#I + Удобный тип местности #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD: "#X - Неудобный тип местности #!"
- COMBAT_WINDOW_MAA_TT_SCREEN: "Эффект [Concept('screen', 'скрытности')|E] каждого полного полка: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'screen')|0+=] ед."
+ COMBAT_WINDOW_MAA_TT_SCREEN: "Эффект [Concept('screen', 'скрытности')|E] каждого полного полка: [CombatMaaItem.GetStat( 'screen' )|0+=]"
  COMBAT_WINDOW_MAA_TT_PURSUIT: "Эффект [Concept('pursuit', 'преследования')|E] каждого полного полка: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'pursuit')|0+=] ед."
  COMBAT_WINDOW_NO_MAA: "Нет [Concept( 'men_at_arms', 'профессиональных полков' )|E]"
  CV_TT_RELATIVE_SOLDIERS: "#T Относительная сила#!\n[soldiers|E]: [CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString] против [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"

@@ -181,3 +181,4 @@
  scheme_critical_moments.2925.a: "Dafür werdet Ihr #EMP büßen#!."
  scheme_critical_moments.2925.b: "[owner.Custom('DE_PRO_PER_S_3P_N')|U] hat erfahren, wie es Thronräubern ergeht!"
  scheme_critical_moments.2925.c: "Vermaledeit sei dieses Scheusal!"
+ OWNER_IS_MY_MOVEMENT_MEMBER: "Ist in derselben [movement|E] wie [owner.GetShortUIName]: $VALUE|+0=$"

@@ -133,17 +133,20 @@
                         margin_right = 30
                     }
 
-					text_single = {
+					text_multi = {
                         text = "PROMOTED_LEGEND_EMPTY"
                         default_format = "#low;italic"
+                        autoresize = yes
+                        max_width = 500
                     }
 
-                    text_single = {
-                        margin_top = 5
+                    text_multi = {
+                    	margin_top = 10
                         text = "PROMOTED_LEGEND_EMPTY_INSTRUCTION"
-                        max_width = 550
-                        default_format = "#P"
-                        align = center
+                        autoresize = yes
+                        max_width = 500
+                        default_format = "#I"
+                        align = hcenter
                     }
                 }
 			}
@@ -969,11 +972,13 @@ types LegendTypes
 
             visible = "[PdxGuiFoldOut.IsUnfolded]"
 
-            text_single = {
+            text_multi = {
                 block "empty_text"
                 {
                 }
                 default_format = "#low;italic"
+                autoresize = yes
+                max_width = 500
             }
 
             margin_left = 6
@@ -1023,11 +1028,13 @@ types LegendTypes
 
 			visible = "[PdxGuiFoldOut.IsUnfolded]"
 
-			text_single = {
+			text_multi= {
 				block "empty_text"
 				{
 				}
 				default_format = "#low;italic"
+				autoresize = yes
+				max_width = 500
 			}
 
 			margin_left = 6
@@ -1221,7 +1228,7 @@ types LegendSeedTypes
 					text = "[LegendSeed.GetName( Character.Self )]"
 				}
 				default_format = "#high"
-				max_width = 380
+				max_width = 320
 
 				using = Font_Size_Medium
 				align = nobaseline
@@ -1235,6 +1242,7 @@ types LegendSeedTypes
 			text_single = {
 				text = "[LegendSeed.GetType.GetName]"
 				default_format = "#weak"
+				max_width = 320
 
 				using = Font_Size_Small
 				align = nobaseline
@@ -1251,6 +1259,7 @@ types LegendSeedTypes
 				text = "[LegendSeed.GetQualityLevel]"
 				default_format = "#weak"
 				align = nobaseline
+				max_width = 80
 			}
 
 			hbox = {
@@ -1362,6 +1371,7 @@ types LegendSeedTypes
 						text = AFFECTING_MODIFIERS_LABEL
 						fontsize = 14
 						align = nobaseline|left
+						max_width = 160
 					}
 
 					legend_seed_modifiers_hbox = {

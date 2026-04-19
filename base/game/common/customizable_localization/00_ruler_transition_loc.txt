@@ -2100,6 +2100,22 @@ GameOverMessageNotableAchievements = {
 	}
 
 	text = {
+		localization_key = SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC
+		trigger = {
+			exists = global_var:flag_created_brunei_kingdom
+			dynasty = global_var:flag_created_brunei_kingdom.dynasty
+		}
+	}
+
+	text = {
+		localization_key = SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC
+		trigger = {
+			exists = global_var:flag_created_brunei_empire
+			dynasty = global_var:flag_created_brunei_empire.dynasty
+		}
+	}
+
+	text = {
 		localization_key = SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RUM_DESC
 		trigger = {
 			exists = global_var:flag_formed_rum_sultanate

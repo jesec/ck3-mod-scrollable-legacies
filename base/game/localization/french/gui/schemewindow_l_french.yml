@@ -18,7 +18,7 @@
  SCHEME_COOLDOWN_INFO: "Vous ne pouvez pas commencer un autre [SCHEME.GetSchemeType.GetTypeName|l] contre [SCHEME.GetTarget.GetName] pendant $TIME|V$."
  SCHEME_WINDOW_PROGRESS_TOOLTIP: "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
  SCHEME_WINDOW_PROGRESS_INFO: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))|V] jusqu’à la prochaine [scheme_phase_phase|El]"
- SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Le complot est suspendu parce que vous voyagez#!"
+ SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Le complot est suspendu car [Scheme.GetFrozenReason|l]#!"
  SCHEME_WINDOW_PROGRESS_INFO_BASIC: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))] jusqu’à l’achèvement"
  SCHEME_WINDOW_PROGRESS_INFO_BREAKDOWN: "[Scheme.GetSpeedDescription]"
  SCHEME_WINDOW_OPPORTUNITIES_INFO_BREAKDOWN: "1 [scheme_opportunity_opportunity|El] obtenue toutes les [Scheme.GetPhasesPerOpportunity] [scheme_phase_phases|El]\n[Scheme.GetPhasesRemainingUntilOpportunity] [scheme_phase_phases|El] jusqu’à la prochaine [scheme_opportunity_opportunity|El]\n#EMP Au moins#! [Scheme.MakeScope.ScriptValue('scheme_charge_to_advance_threshold_value')] [scheme_opportunity_opportunities|El] requises pour exécuter#!"

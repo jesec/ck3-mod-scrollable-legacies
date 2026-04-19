@@ -648,7 +648,7 @@
  hold_court.8280.b: "我一直都需要熟练的骑手。"
  hold_court.8280.c: "你显然有些夸大了，[feudal_vassal.GetFirstNameNoTooltip]。"
  hold_court.8290.t: "[city_province.GetTitle.GetAdjectiveNoTooltip]宪章"
- hold_court.8290.desc: "在我面前站着一个陌生[city_vassal.GetWomanMan]：据说[city_mayor.GetSheHe]是[city_mayor.GetFirstName]，我的[ROOT.Char.Custom2('RelationToMeShort', city_vassal)][city_vassal.GetTitledFirstNamePossessive]的直辖领地内的一个[city_mayor.GetTitleAsNameNoTooltip]。\n\n“[ROOT.Char.GetTitleAsNameNoTooltip]，我未经我的[ROOT.Char.GetLadyLord]许可来到这里，请求你授予我的城市[city_province.GetTitle.GetNameNoTier]自治。”\n\n“我们可以管理自己的事务，并为[ROOT.Char.GetPrimaryTitle.Custom('GetTierBase')]带来巨大的繁荣，前提是我们摆脱了[city_vassal.GetPrimaryTitle.GetNameNoTierNoTooltip][city_vassal.GetTitleAsNameNoTooltip]强加的令人窒息的赋税和责任。”"
+ hold_court.8290.desc: "在我面前站着一个陌生[city_mayor.GetWomanMan]：据说[city_mayor.GetSheHe]是[city_mayor.GetFirstName]，我的[ROOT.Char.Custom2('RelationToMeShort', city_vassal)][city_vassal.GetTitledFirstNamePossessive]的直辖领地内的一个[city_mayor.GetTitleAsNameNoTooltip]。\n\n“[ROOT.Char.GetTitleAsNameNoTooltip]，我未经我的[ROOT.Char.GetLadyLord]许可来到这里，请求你授予我的城市[city_province.GetTitle.GetNameNoTier]自治。”\n\n“我们可以管理自己的事务，并为[ROOT.Char.GetPrimaryTitle.Custom('GetTierBase')]带来巨大的繁荣，前提是我们摆脱了[city_vassal.GetPrimaryTitle.GetNameNoTierNoTooltip][city_vassal.GetTitleAsNameNoTooltip]强加的令人窒息的赋税和责任。”"
  hold_court.8290.a: "我相信你的城市会记住我的恩宠。"
  hold_court.8290.b: "让我品尝一下未来的果实也许能打动我。"
  hold_court.8290.c: "你越界了。"

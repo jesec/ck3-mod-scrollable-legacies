@@ -7,7 +7,7 @@
  activity_local_examination_desc: "このような試験の仕組みを守り、手配することは、我々の名誉であり義務でもある。試験によって最もふさわしい人物の評価と決定を行い、[merit|E]を与え、国の繁栄に繋げることができるのだ。"
  activity_local_examination_host_desc: "$activity_local_examination_host_rewards$$activity_local_examination_guest_rewards$"
  activity_local_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
- activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$@provincial_exam_icon! #V 郷試#!を完了する機会が得られる\n$BULLET_WITH_TAB$[GetTrait('confucian_education').GetName( GetNullCharacter )]の[trait_level_track_xp|E]が増加する可能性がある\n$BULLET_WITH_TAB$[merit|E]が上昇する可能性がある"
+ activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$@provincial_exam_icon! #V 郷試#!を完了する機会が得られる\n$BULLET_WITH_TAB$あなたの[GetTrait('confucian_education').GetName( GetNullCharacter )]の[trait_level_track_xp|E]が増加する可能性がある\n$BULLET_WITH_TAB$[merit|E]が上昇する可能性がある\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial [host.GetCulture.GetLanguage.GetName]の[language|E]を知らない場合、成功率が大幅に下がります！"
  activity_local_examination_guest_rewards: "\n$BULLET_WITH_TAB$優秀な人物を雇用できる可能性\n$BULLET_WITH_TAB$参加者は[GetTrait('confucian_education').GetName( GetNullCharacter )]の[trait_level_track_xp|E]を獲得する可能性がある\n$BULLET_WITH_TAB$参加者は[merit|E]を獲得する可能性がある"
  local_examination_base_cost: "基本コスト"
  activity_local_examination_host_an_a: "$articleblank_blank$"

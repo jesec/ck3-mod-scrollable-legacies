@@ -69,6 +69,7 @@
 
  ep3_laamps.0100.t: "A Price for Everything"
  ep3_laamps.0100.desc: "I could scarcely believe it when I received [recipient.GetTitledFirstNamePossessive] assent to my offer; I will at last have a [ROOT.Char.Custom('FortifiedBuilding')] of my own, with a roof, and four solid walls!\n\nI am to be the new [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTier],"
+ ep3_laamps.0100.desc_nomadic: "I could scarcely believe it when I received [recipient.GetTitledFirstNamePossessive] assent to my offer; I will at last have lands of my own, a place to graze a herd!\n\nI am to be the new [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTier],"
  ep3_laamps.0100.fellow_vassal: "ruling over the area as a fellow vassal of [new_liege.GetName], reliant on and beholden to my new liege in equal measure."
  ep3_laamps.0100.liege: "ruling over the area as a [recipient.GetPrimaryTitle.GetAdjectiveNoTooltip] vassal, reliant on and beholden to my new liege in equal measure."
  ep3_laamps.0100.independent: "ruling over this erstwhile [recipient.GetPrimaryTitle.GetAdjectiveNoTooltip] land as my own fiefdom!"

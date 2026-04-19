@@ -88,14 +88,14 @@
  #If they are using "solitary" in the group section, then just use the singular for them
  DistantLandsEurope1_plural: "bizonów" #Bison
  DistantLandsEurope2_plural: "$DistantLandsEurope2$" #Karakulak
- DistantLandsAfrica1_plural: "słoni afrykańskich" #Elephant
+ DistantLandsAfrica1_plural: "słoni indyjskich" #Elephant
  DistantLandsAfrica2_plural: "antylop" #Antelope
  DistantLandsAfrica3_plural: "$DistantLandsAfrica3$" #Fennec Fox
  DistantLandsAsia1_plural: "oryksów" #Oryx
  DistantLandsAsia2_plural: "$DistantLandsAsia2$" #Leopard
  DistantLandsAsia3_plural: "$DistantLandsAsia3$" #Caracal
  DistantLandsIndia1_plural: "$DistantLandsIndia1$" #Tiger
- DistantLandsIndia2_plural: "słoni indyjskich" #Elephant
+ DistantLandsIndia2_plural: "Słonie indyjskie" #Elephant
  DistantLandsIndia3_plural: "gaurów" #Gaur
  DistantLandsTibet1_plural: "$DistantLandsTibet1$" #Leopard
  DistantLandsTibet2_plural: "szczekuszek" #Pika
@@ -189,7 +189,7 @@
  designated_terrain_plains_decision: "Niziny"
  designated_terrain_drylands_decision: "Tereny suche"
  forest_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@forest! lasy,\n$EFFECT_LIST_BULLET$@jungle! dżungle,\n$EFFECT_LIST_BULLET$@taiga! tajga,\n$EFFECT_LIST_BULLET$@wetlands! mokradła."
- mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! góry,\n$EFFECT_LIST_BULLET$@hills! wzgórza,\n$EFFECT_LIST_BULLET$@desert_mountains! pustynne góry."
+ mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! góry,\n$EFFECT_LIST_BULLET$@hills! wzgórza,\n$EFFECT_LIST_BULLET$@desert_mountains! góry pustynne,\n$EFFECT_LIST_BULLET$@desert_mountains! wzgórza tarasowe."
  plains_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@plains! równiny,\n$EFFECT_LIST_BULLET$@steppe! step,\n$EFFECT_LIST_BULLET$@farmlands! pola uprawne,\n$EFFECT_LIST_BULLET$@floodplains! tereny zalewowe."
  drylands_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@desert! pustynie,\n$EFFECT_LIST_BULLET$@drylands! tereny suche,\n$EFFECT_LIST_BULLET$@oasis! oaza."
  terrain_tooltip_desc: "Priorytet:"

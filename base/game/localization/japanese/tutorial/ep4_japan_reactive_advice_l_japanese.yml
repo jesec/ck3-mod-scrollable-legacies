@@ -91,4 +91,4 @@
  ra_become_shogun_subjects: "$reactive_advice_soryo_regent_become_shogun_NAME$"
  ra_become_shogun_subjects_desc: "時代遅れの[GetGovernment('japan_administrative_government').GetNameWithIcon][government|E]を完全に排除しなければ、[shogun|E]にはなれません。\n\n$japan_administrative_government$の[vassals|E]がいれば、ここから探し出し、[character_interaction|E]「$revoke_title_interaction|V$」を使用して[titles|E]を剥奪することができます。"
  ra_become_shogun_end: "$reactive_advice_soryo_regent_become_shogun_NAME$"
- ra_become_shogun_end_desc: "権力の手綱はすでにあなたの手中にあります。[shogun|E]になるには、あとはその手綱を強く握るだけです。\n\n[GetGovernment('japan_administrative_government').GetName]の弱小[rulers|E]を排除し、[GetLaw('japanese_bureaucracy_2').GetName]を制定すれば、国はあなたのものです！"
+ ra_become_shogun_end_desc: "権力の手綱はすでにあなたの手中にあります。[shogun|E]になるには、あとはその手綱を強く握るだけです。\n\n[GetLaw('japanese_bureaucracy_2').GetName]を制定すれば、国はあなたのものです！"

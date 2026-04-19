@@ -262,7 +262,7 @@
  doomsday: "dzień sądu ostatecznego"
  third_impact: "trzecie uderzenie"
  epidemic_events.2001.t: "Plaga wojny"
- epidemic_events.2001.desc: "[pleading_vassal.GetName] pada przede mną na kolana i drży.\n\n– Racz mnie wysłuchać! Dręczą mnie dwie zarazy. [epidemic_scope.GetName|U]… ta epidemia dziesiątkuje moich ludzi. A teraz jeszcze [attacking_vassal.GetName] wdziera się na moje ziemie. Nie mogę odpierać dwóch zagrożeń naraz.\n\nKładzie przede mną niewielki kufer złota – to wszystko, co może mi podarować.\n\n– Błagam cię, pomóż mi zakończyć tę wojnę, zanim obydwa państwa upadną."
+ epidemic_events.2001.desc: "[pleading_vassal.GetName] pada przede mną na kolana i drży.\n\n– Racz mnie wysłuchać! Dręczą mnie dwie zarazy. [epidemic_scope.GetName]… ta epidemia dziesiątkuje moich ludzi. A teraz jeszcze [attacking_vassal.GetName] wdziera się na moje ziemie. Nie mogę odpierać dwóch zagrożeń naraz.\n\nKładzie przede mną niewielki kufer złota – to wszystko, co może mi podarować.\n\n– Błagam cię, pomóż mi zakończyć tę wojnę, zanim obydwa państwa upadną."
  epidemic_events.2001.a: "Z przyjemnością zapłacę, aby zakończyć tę błazenadę."
  epidemic_events.2001.b: "[epidemic_scope.GetNameNoTooltip|U]?! Jak śmiesz przynosić tę zarazę w #EMP moje#! progi?"
  epidemic_events.2001.b.desc: "Straże! Niech [pleading_vassal.GetFirstNameNoTooltip] trafi do aresztu – tylko bądźcie #EMP ostrożni#!. A następnie #EMP jeszcze ostrożniej#! umyjcie wszystko, na czym spoczęły [pleading_vassal.Custom('PL_jego_jej')] palce!"

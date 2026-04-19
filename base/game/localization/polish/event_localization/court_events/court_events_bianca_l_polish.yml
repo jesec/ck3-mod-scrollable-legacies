@@ -81,10 +81,10 @@
  court.3030.c: "Nic nie mów. Wykonuje tylko to, co do [Select_CString( fussy_liw.IsFemale, 'niej', 'niego' )] należy."
  court.3030.d: "„Nie trzeba niczego poprawiać”."
  court.3031.t: "Łagodzenie spraw"
- court.3031.desc: "Rozkoszuję się spokojem, w milczeniu obserwując dworzan, gdy podchodzi do mnie [liw.Custom('GetTargetCourtPosition')|l], [liw.GetFirstName].\n\n– Wasza czcigodność, mogę prosić o chwilę uwagi?\n\n[liw.Custom('quirk_pos_present')|U], czekając na moją odpowiedź. Skinieniem głowy pozwalam [liw.Custom('PL_mu_jej')] kontynuować.\n\n– Podczas mojej pracy mam wiele okazji obserwować, co myślą ludzie i co ich motywuje. Dysponując tą wiedzą, mogę spróbować poprawić relacje waszej czcigodności z wybraną grupą. Co [ROOT.Char.Custom('FormOfAddressForLiege')] na to?"
+ court.3031.desc: "Rozkoszuję się spokojem, w milczeniu obserwując dworzan, gdy podchodzi do mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('liw'))|l] [liw.GetFirstName].\n\n– Czy mogę prosić waszą czcigodność o chwilę uwagi?\n\n[liw.Custom('quirk_pos_present')|U], czekając na moją odpowiedź. Skinieniem głowy pozwalam [liw.Custom('PL_mu_jej')] kontynuować.\n\n– W pracy mam wiele okazji, by przekonać się, co myślą ludzie i co ich motywuje. Dysponując tą wiedzą, mogę spróbować poprawić relacje waszej czcigodności z wybraną grupą. Co [ROOT.Char.Custom('FormOfAddressForLiege')] na to?"
  court.3031.a: "Polepsz moje stosunki z moimi wasalami należącymi do mniejszości."
  court.3031.b: "Szepnij dobre słówko w moim imieniu baronom."
- court.3031.c: "Pragnę, żeby [reference_county.GetCulture.GetCollectiveNounNoTooltip] mieli o mnie lepsze zdanie."
+ court.3031.c: "Pragnę, żeby [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip] mieli o mnie lepsze zdanie."
  court.3031.d: "Nie obchodzi mnie, co myślą inni."
  #Homesickness
  court.3040.t: "[Select_CString( homesick_parent.IsFemale, 'Matczyna', 'Ojcowska' )] tęsknota za domem"

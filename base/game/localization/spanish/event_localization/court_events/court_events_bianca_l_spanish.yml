@@ -81,10 +81,10 @@
  court.3030.c: "No digo nada porque [fussy_liw.GetSheHe] solo está haciendo su trabajo."
  court.3030.d: "«No necesito que me arregles nada.»"
  court.3031.t: "Calmando las cosas"
- court.3031.desc: "Mientras observo en silencio a la gente en un breve momento de calma en la corte, mi [liw.Custom('GetTargetCourtPosition')], [liw.GetFirstName], se me acerca.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], ¿me concedéis un momento?».\n\n[liw.Custom('quirk_pos_present')|U], mientras espera el permiso. Hago un gesto para que continúe.\n\n«Con mi trabajo me he hecho una buena idea de lo que la gente piensa de vos y de lo que les motiva. Con ese conocimiento puedo intentar suavizar las cosas con un grupo que os interese, ¿qué me decís?»."
+ court.3031.desc: "Mientras observo en silencio a la gente en un breve momento de calma en la corte, mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('liw'))] [liw.GetFirstName] se me acerca.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], ¿me concedéis un momento?».\n\n[liw.Custom('quirk_pos_present')|U], mientras espera el permiso. Hago un gesto para que continúe.\n\n«En el trabajo me he hecho una buena idea de lo que la gente piensa de vos y de lo que les motiva. Con ese conocimiento puedo intentar suavizar las cosas con un grupo que os interese, ¿qué me decís?»."
  court.3031.a: "Mejorad mi posición con mis vasallos de las minorías."
  court.3031.b: "Hablad bien de mí entre los barones."
- court.3031.c: "Deseo mejorar mi relación con los [reference_county.GetCulture.GetCollectiveNounNoTooltip]."
+ court.3031.c: "Deseo mejorar mi relación con los [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]."
  court.3031.d: "No me importa qué piensen los demás."
  #Homesickness
  court.3040.t: "La morriña de mi [homesick_parent.GetMotherFather]"

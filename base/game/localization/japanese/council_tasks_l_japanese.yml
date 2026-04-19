@@ -470,7 +470,7 @@
  liege_converted_county_title: "[county.GetNameNoTierNoTooltip|V]を改宗した主君"
  liege_converted_county_desc: "[councillor_liege.GetShortUINamePossessive]の[councillor.GetCouncilTitle]は[county.GetName]を[councillor_liege.GetFaith.GetName]#weak （[old_faith.GetAdjective]）#!に改宗しました"
  #Kurultai
- task_kurultai_default_1: "小群遊牧民の援助"
+ task_kurultai_default_1: "遊牧集団の援助"
  task_kurultai_default_2: "$task_kurultai_default_1$"
  task_kurultai_default_3: "$task_kurultai_default_1$"
  task_kurultai_default_4: "$task_kurultai_default_1$"

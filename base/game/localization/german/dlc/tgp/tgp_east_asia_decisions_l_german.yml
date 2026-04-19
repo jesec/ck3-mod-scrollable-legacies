@@ -91,4 +91,4 @@
  create_bunga_mas_decision_confirm: "Bunga-Mas anfordern"
  create_bunga_mas_decision_effect: "Ein [Glossary('Bunga-Mas', 'BUNGA_MAS_GLOSS')]-[artifact|E] schaffen\n$BULLET_WITH_TAB$Bei der Übergabe an den Suzerän:\n$TAB$$BULLET_WITH_TAB$Erhält [GetModifier('bunga_mas_tribute_modifier').GetNameWithTooltip]-Stapel #WEAK (max. 3)#!"
  create_bunga_mas_decision_effect_message: ""
- BUNGA_MAS_GLOSS: "Die Bunga-Mas (Thailändisch für „Gold- und Silberblüten“) waren eine Art des Tributs, die auf der Malaysischen Halbinsel gebräuchlich war. Sie bestanden aus zwei Bäumchen, die man aus edelstem Gold und Silber anfertigte."
+ BUNGA_MAS_GLOSS: "Die Bunga-Mas (Thailändisch für „Gold- und Silberblüten“) waren eine Art des Tributs, die auf der Malaiischen Halbinsel gebräuchlich war. Sie bestanden aus zwei Bäumchen, die man aus edelstem Gold und Silber anfertigte."

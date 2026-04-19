@@ -248,7 +248,7 @@
  diarchy.1741.desc: "„Wir stehen den Wünschen von [liege.GetTitledFirstName] nicht entgegen“, sagt [councillor_1.GetTitledFirstName] träge, die ganze Zeit eine verächtliche Miene zeigend. „Wir wollen nur nicht zu [liege.Custom('DE_PRO_POS_S_3P')]en Sklaven werden. Das ist doch nicht so schwer zu verstehen.“\n\nIch habe mehr als die Hälfte meines Nachmittags mit dem Versuch verbracht, die Beziehungen zwischen [Select_CString(liege.IsFemale, 'meiner Lehnsherrin', 'meinem Lehnsherrn')] und [liege.Custom('DE_PRO_POS_S_3P')]en Ratsmitgliedern zu verbessern – vergebens, und daran hat die Sturköpfigkeit [Select_CString(councillor_1.IsFemale, 'dieser ignoranten Frau', 'dieses ignoranten Mannes')] keinen geringen Anteil.\n\nIch seufze innerlich. Ich bin [liege.GetDiarchTitle], und mein Mandat macht diese Pflichten erforderlich."
  diarchy.1741.a: "Ich glaube, Ihr verkennt, wie viel [liege.Custom('DE_ART_DEF_S_N')] [liege.GetTitleAsNameNoTooltip] für Euch tut …"
  diarchy.1741.a.t: "$diarchies.0000.diarch_fulfills_mandate.t$"
- diarchy.1741.custom.several_councillors: "Jedes anwesende Ratsmitglied"
+ diarchy.1741.custom.several_councillors: "Jedes anwesende [Concept('councillor', 'Ratsmitglied')|E]"
  diarchy.1741.b: "Das solltet Ihr auch gar nicht sein, doch ein besserer Dienst bringt einem Wohltaten ein …"
  diarchy.1741.b.tt.success: "Ihr erleuchtet Eure Kollegen"
  diarchy.1741.b.tt.failure: "Der Rat bleibt widerspenstig"

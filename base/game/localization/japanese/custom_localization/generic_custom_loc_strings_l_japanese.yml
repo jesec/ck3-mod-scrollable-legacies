@@ -29,6 +29,8 @@
  people: "人々"
  mistress: "女主人"
  master: "主人"
+ mistress_possessive: "女主人"
+ master_possessive: "主人"
  witch_spirit: "霊"
  witch_spirits: "霊"
  witch_source: "根源"

@@ -18,7 +18,7 @@
  bookmark_japan_morofusa_subheading: "$c_iyo$$game_concept_governor$"
  bookmark_japan_morofusa_toshifusa: "$Toshifusa$"
  bookmark_japan_morofusa_akifusa: "$Akifusa$"
- bookmark_japan_morofusa_desc: "$Morofusa$作为$Murakami$天皇之孙，是一位[Glossary( '源', 'MINAMOTO_GLOSS' )]氏官僚中罕见的杰出人才，在养父$Fujiwara$$Yorimichi$[Glossary( '关白', 'KAMPAKU_GLOSS' )]的卵翼下迅速攀上高位。\n\n虽然[Glossary( '藤原', 'FUJIWARA_GLOSS' )]氏与村上源氏交情甚笃，但其他公卿家族与皇室期待$Morofusa$成为能制衡藤原氏权势的一方力量。\n\n#BOLD 你能否从藤原氏手中夺得摄关之位，将权力重归天皇的直系后裔？#!"
+ bookmark_japan_morofusa_desc: "$Morofusa$作为$Murakami$天皇之孙，是一位[Glossary( '源', 'MINAMOTO_GLOSS' )]氏官僚中罕见的杰出人才，在养父$dynn_Fujiwara$$Yorimichi$[Glossary( '关白', 'KAMPAKU_GLOSS' )]的卵翼下迅速攀上高位。\n\n虽然[Glossary( '藤原', 'FUJIWARA_GLOSS' )]氏与村上源氏交情甚笃，但其他公卿家族与皇室期待$Morofusa$成为能制衡藤原氏权势的一方力量。\n\n#BOLD 你能否从藤原氏手中夺得摄关之位，将权力重归天皇的直系后裔？#!"
  bookmark_japan_takenori: "$dynn_Kiyohara$$Takenori$"
  bookmark_japan_takenori_subheading: "陆奥领主"
  bookmark_japan_takenori_takehira: "$Takehira$"

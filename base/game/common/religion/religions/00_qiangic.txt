@@ -1,7 +1,7 @@
 ﻿qiangic_religion = { # Qiang/Tangut/Pumi/Nakhi Folk Religion
 	family = rf_pagan
 	doctrine = pagan_hostility_doctrine
-
+	graphical_faith = "sinitic_gfx"
 	pagan_roots = yes
 
 	#Main Group

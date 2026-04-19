@@ -272,6 +272,6 @@
  REBUILD_GREAT_BUILDING_TOOLTIP: "#T [Building.GetNameNoTooltip] wiederaufbauen#!\nWiederaufbau des „[Building.GetName]“-[Concept('great_building', 'Großgebäudes')|E] in [Province.GetName].\n\n"
  REBUILD_GREAT_BUILDING_CONFIRMATION_TITLE: "[great_building|E] wiederaufbauen"
  REBUILD_GREAT_BUILDING_CONFIRMATION_TEXT: "Ressourcen einsetzen, um ein [great_building|E] wiederaufzubauen und seine Pracht wiederherzustellen.\n\n"
- REBUILD_GREAT_BUILDING_EFFECT: "$GREAT_BUILDING$„[BUILDING.GetName|U]“ in [PROVINCE.GetName] wurde [rebuilt|El]"
+ REBUILD_GREAT_BUILDING_EFFECT: "$GREAT_BUILDING$„[BUILDING.GetName|U]“ in [PROVINCE.GetName] wurde wiederaufgebaut"
  REBUILD_GREAT_BUILDING_CONFIRMATION_ACCEPT: "Wiederaufbau"
  REBUILD_GREAT_BUILDING_CANNOT_AFFORD: "@warning_icon! #X Kann sich nicht leisten: #! $COST$"

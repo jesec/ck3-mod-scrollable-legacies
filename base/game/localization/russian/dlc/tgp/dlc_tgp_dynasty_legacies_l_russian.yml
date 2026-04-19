@@ -11,7 +11,7 @@
  tgp_dynasty_legacy_celestial_minister_aidee_discount: "[GetCourtPositionType('minister_bureaucrat_court_position').GetName()] требует меньшую оплату"
  tgp_dynasty_legacy_influence_career_bonus: "Затраты на [Concept('interaction', 'взаимодействие')|E] #high $influence_meritorious_career_interaction$#!: [EmptyScope.ScriptValue('dynasty_legacy_influence_career_discount_value')|P0%]"
  tgp_dynasty_legacy_unlock_east_asian_estate_archive: "Открывает здание [Concept('estate', 'поместья')|E] «[GetDomicileBuilding('east_asian_estate_archive_01').GetName]»"
- tgp_dynasty_legacy_unlock_east_asian_estate_gate: "Открывает здание [Concept('estate', 'поместья')|E] [«GetDomicileBuilding('east_asian_estate_gate_01').GetName]»"
+ tgp_dynasty_legacy_unlock_east_asian_estate_gate: "Открывает здание [Concept('estate', 'поместья')|E] «[GetDomicileBuilding('east_asian_estate_gate_01').GetName]»"
  tgp_dynasty_legacy_pick_career: "Все члены семьи получают [Concept('interaction', 'взаимодействие')|E] #high $change_career_path_for_family_member_interaction$#!"
  tgp_legacy_powerfuL_family: "[Concept( 'powerful_family_rating', 'Ранг могущественного семейства' )|E]: #P +15#!"
  tgp_china_legacy_track_name: "Добродетели"

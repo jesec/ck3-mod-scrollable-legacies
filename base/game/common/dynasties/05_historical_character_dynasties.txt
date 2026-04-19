@@ -570,13 +570,13 @@ hchar_quach = {
 	culture = "viet"
 }
 
-hchar_bojo = {
-	name = "dynn_Jeong_912D"
+hchar_chong = {
+	name = "dynn_Chong_8471"
 	culture = "goryeo"
 }
 
 hchar_gochi_in = {
-	name = "dynn_Gochi_In"
+	name = "dynn_Kanazu" # fictional
 	culture = "japanese"
 }
 

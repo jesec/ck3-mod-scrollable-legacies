@@ -1,4 +1,788 @@
-﻿$HEADER_CRUSADER_KINGS_3_ALL_UNDER_HEAVEN$
+﻿$HEADER_CRUSADER_KINGS_3_NORTH_PACIFIC_ATTIRE$
+$TITLE_CCP_CREATOR$
+Adrian 'AJ' Kamil
+
+
+$HEADER_PROJECT_LEADS$
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_ART_DIRECTOR$
+Petter Lundh
+
+$TITLE_PRODUCTION_LEAD$
+Martin Tosta
+
+$TITLE_PROJECT_LEAD_TECH_LEAD$
+Joel Hansson
+
+$TITLE_PROJECT_LEAD_DESIGN_LEAD$
+Henrik Lohmander
+
+$TITLE_PROJECT_LEAD_ART_LEAD$
+Akash Garg
+Elisabeth Jönsson
+Nicolas Lennman
+
+
+
+$HEADER_CRUSADER_KINGS_3_EAST_ASIAN_WONDERS$
+$TITLE_CCP_CREATOR$
+Pietro Cavalli
+
+
+$HEADER_PROJECT_LEADS$
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_ART_DIRECTOR$
+Petter Lundh
+
+$TITLE_PRODUCTION_LEAD$
+Martin Tosta
+
+$TITLE_PROJECT_LEAD_TECH_LEAD$
+Joel Hansson
+
+$TITLE_PROJECT_LEAD_DESIGN_LEAD$
+Henrik Lohmander
+
+$TITLE_PROJECT_LEAD_ART_LEAD$
+Elisabeth Jönsson
+Nicolas Lennman
+
+
+
+
+$HEADER_CRUSADER_KINGS_3_CELESTIAL_COURT_ATTIRE$
+$TITLE_CCP_CREATOR$
+TAMA
+
+
+$HEADER_PROJECT_LEADS$
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_ART_DIRECTOR$
+Petter Lundh
+
+$TITLE_PRODUCTION_LEAD$
+Martin Tosta
+
+$TITLE_PROJECT_LEAD_TECH_LEAD$
+Joel Hansson
+
+$TITLE_PROJECT_LEAD_ART_LEAD$
+Akash Garg
+Nicolas Lennman
+
+	
+
+$HEADER_QA$
+$TITLE_QA_TEAM_LEAD$
+Lucia Dzediti
+
+$TITLE_EMBEDDED_QA_ANALYST$
+Joanna Janiak
+Paweł Kucal
+
+$TITLE_EMBEDDED_QA_TESTERS$
+Fabian Franzén
+
+
+
+$HEADER_PRODUCT_AND_MARKETING$
+$TITLE_BUSINESS_OWNER$
+Jakob Jorstedt
+
+$TITLE_PRODUCT_MARKETING_MANAGER$
+Francesca Passoni
+
+$TITLE_MARKETING_CREATIVE_PRODUCTION$
+Max Collin
+Felicia Holmgren Fondelius
+Benjamin Magnus Kajfasz
+Alex Eliasson
+Victoria Säwströn
+Marcus Paulsson
+
+$TITLE_COMMUNITY_MANAGER$
+Jacob Blakey
+
+$TITLE_COMMUNITY_AMBASSADOR$
+Miaosen Teng
+Emily Schumacher
+Joshua Smith
+
+$TITLE_MANAGER_PARTNER_RELATIONS$
+Jackson Downing
+
+$TITLE_PARTNER_ACCOUNT_MANAGER$
+Leon Loughran
+Alexander Mellström
+
+$TITLE_PARTNER_MARKETING_MANAGER$
+Kimberley Trapnell
+
+$TITLE_PAID_MEDIA$
+Sofia Lundstedt Radetzki
+Henrik Bonnichsen
+
+$TITLE_PRODUCT_LAUNCH$
+Louise Mutel
+
+$TITLE_PR_MANAGER$
+Troy Goodfellow
+
+$TITLE_DATA_SCIENTISTS$
+Fatemeh Seifan
+
+$TITLE_CRM_SPECIALIST$
+Karola Kiessling
+
+$TITLE_INFLUENCER_RELATIONS$
+Jonathan Whitley
+Dennis Johnni
+
+$TITLE_PROJECT_LOCALIZATION_PRODUCER$
+Nick Tsitkou
+Marcus Westerlund
+
+
+
+$HEADER_EXTERNAL_TECHNOLOGY_PARTNERS$
+Heroic Labs - Nakama
+
+
+
+$HEADER_EXTERNAL_QA_PARTNERS$
+$TITLE_QLOC_SA$
+
+$TITLE_FQA_PROJECT_MANAGER$
+Kacper Bugaj
+
+$TITLE_QA_TEAM_LEAD$
+Michał Staniszewski
+Krystian Bas
+Marcin Oprządek
+
+$TITLE_QA_TESTERS_DEDICATED$
+Piotr Szmil
+Wojciech Krukowski
+Kacper Banachowicz
+Maksymilian Nowakowski
+Shehabulddin Alessawey
+Michał Świtalski
+Damian Głogowski
+
+
+
+$HEADER_LOCALIZATION_VENDORS_FREELANCERS$
+$TITLE_GENERAL_ADMIN_MANAGEMENT$
+Native Prime SAS
+
+$TITLE_SENIOR_PROJECT_MANAGER$
+Julia Othlinghaus-Wulhorst
+Friedrich Klemme
+
+$TITLE_PROJECT_MANAGER$
+Dieter Pfeil
+
+$TITLE_LOCALIZATION_TOOLS$
+Friedrich Klemme
+Julia Othlinghaus-Wulhorst
+Xavier Zimmerman
+Dieter Pfeil
+Michael Waaler
+
+$TITLE_FRENCH$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Carine Mathey
+
+$TITLE_TRANSLATOR$
+Xavier Zimmermann
+
+$TITLE_PROOFREADERS_EDITORS$
+Morgane Le Boucher
+
+$TITLE_SIMPLIFIED_CHINESE$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+LangLink Localization Solutions 
+
+$TITLE_PROJECT_MANAGEMENT$
+Troy Ye
+
+$TITLE_TEAM$
+Shaoyang
+失忆的黄鲁斯
+52-hironobu
+ol123489
+机智的布鲁斯
+
+$TITLE_RUSSIAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+The Most Games
+
+$TITLE_PROJECT_MANAGEMENT$
+Alexander Loktionov 
+
+$TITLE_LEAD_EDITOR$
+Irina Shobukhova
+
+$TITLE_SENIOR_TRANSLATORS$
+Maxim Onishenko
+
+$TITLE_PROOFREADERS_EDITORS$
+Izmailova Yulia
+
+$TITLE_SPECIAL_THANKS$
+Shogin Nikita (Sshready)
+
+$TITLE_KOREAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+LOGOS GLOBAL
+
+$TITLE_PROJECT_MANAGEMENT$
+Sun Dong Hwang
+Sang Won Lee (H2Interactive)
+
+$TITLE_TRANSLATOR$
+Lee Jae Hun
+Song Hye Su
+Ji Seung Hyuk
+Kim Dong Woo
+
+$TITLE_REVIEWER$
+Runo Lee
+Harriet Kim
+Derek Kim
+
+$TITLE_PROOFREADERS_EDITORS$
+Thomas Oh
+
+$TITLE_GERMAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Julia Othlinghaus-Wulhorst
+
+$TITLE_LEAD_TRANSLATOR$
+Ole Johan Christiansen
+
+$TITLE_PROOFREADERS_EDITORS$
+Thomas Christiansen
+
+$TITLE_SPANISH$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Andrés Sánchez Cubero
+
+$TITLE_LEAD_TRANSLATOR$
+Jaime Ortega
+
+$TITLE_PROOFREADERS_EDITORS$
+Pedro Peláez Cornejo
+
+
+
+$HEADER_PARADOX_DEVELOPMENT_STUDIO_BLACK$
+
+$TITLE_CHIEF_STUDIO_OFFICER$
+Noelia Almanza
+
+$TITLE_CREATIVE_DIRECTOR$
+Henrik Fåhraeus
+
+$TITLE_STUDIO_MANAGER$
+Johanna Uddståhl
+
+$TITLE_PRODUCERS$
+Martin Tosta
+Lucia Dzediti
+Alexander Windahl
+Jolanta Barkauskaitė
+
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_DESIGN_MANAGERS$
+Mikael Andersson
+Riad Deneche
+
+$TITLE_GAME_DESIGN$
+Joachim Holmsen
+Henrik Lohmander
+Jason Cantalini
+Anna Johansson
+Filippa Gannholm Kirsten
+Arkadiusz Majewski
+Axel Näslund
+Joe Parkin
+Verónica Pazos
+Emil Tisander
+Johan Husén
+Krzysztof Łankowski
+
+$TITLE_UX_DESIGNERS$
+Ellinor Zetterman
+Jonas Wickerström
+Matias Laborde
+
+$TITLE_TECHNICAL_DIRECTOR$
+Jimmy Selling
+
+$TITLE_PROJECT_LEAD_TECH_LEAD$
+Joel Hansson
+
+$TITLE_PROGRAMMERS$
+Oscar Andersson
+Daan Broekhof
+Jakob Eklund
+Jens Hedenskog
+Johan Lerström
+Anton Sorokin
+Liana Tosunyan
+Max Villing
+Jonathan Lidberg Collinder
+Chad Uhl
+
+$TITLE_ART_DIRECTOR$
+Petter Lundh
+
+$TITLE_ART_MANAGERS$
+Petter Lundh
+Lucas Ribeiro
+
+$TITLE_2D_ARTISTS$
+Alva Granholm
+Anton Holmqvist
+Celine Jensen
+Nicolas Lennman
+
+$TITLE_CONCEPT_ARTISTS$
+Alessandro Bragalini
+Pavel Golovii
+Jon Astrup Hällkvist
+
+$TITLE_3D_ARTISTS$
+Akash Garg
+Joakim Hammarslätt	
+Andrey Zaykov
+Elisabeth Jönsson
+Anton Leirnes
+Lova Carlsson
+		
+$TITLE_TECH_ART$
+Lova Carlsson
+Wei-Lune Tang
+
+$TITLE_ANIMATORS$
+Emelie Verdugo
+
+$TITLE_QA_MANAGER$
+Lucia Dzediti
+
+$TITLE_QA_TEAM_LEAD$
+Lucia Dzediti
+
+$TITLE_EMBEDDED_QA_ANALYST$
+Joanna Janiak
+Pawel Kucal
+
+$TITLE_EMBEDDED_QA_TESTERS$
+Fabian Franzén
+
+$TITLE_COMMUNITY_MANAGER$
+Jacob Blakey
+
+
+
+$HEADER_CRUSADER_KINGS_3_HIGH_MEDIEVAL_WARFARE_ATTIRE$
+$TITLE_CCP_CREATOR$
+Nick Salvi
+
+
+$HEADER_PROJECT_LEADS$
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_ART_DIRECTOR$
+Petter Lundh
+
+$TITLE_PRODUCTION_LEAD$
+Martin Tosta
+
+$TITLE_PROJECT_LEAD_TECH_LEAD$
+Joel Hansson
+
+$TITLE_PROJECT_LEAD_ART_LEAD$
+Akash Garg
+Nicolas Lennman
+
+
+
+
+
+
+
+$HEADER_CRUSADER_KINGS_3_HOLY_BUILDINGS$
+$TITLE_CCP_CREATOR$
+Árvay-Vass "Kefir úr" Iván
+
+
+$HEADER_PROJECT_LEADS$
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_ART_DIRECTOR$
+Petter Lundh
+
+$TITLE_PRODUCTION_LEAD$
+Martin Tosta
+
+$TITLE_PROJECT_LEAD_TECH_LEAD$
+Joel Hansson
+
+$TITLE_PROJECT_LEAD_DESIGN_LEAD$
+Henrik Lohmander
+
+$TITLE_PROJECT_LEAD_ART_LEAD$
+Elisabeth Jönsson
+Nicolas Lennman
+
+	
+
+$HEADER_QA$
+$TITLE_QA_TEAM_LEAD$
+Lucia Dzediti
+
+$TITLE_EMBEDDED_QA_ANALYST$
+Joanna Janiak
+Paweł Kucal
+
+$TITLE_EMBEDDED_QA_TESTERS$
+Fabian Franzén
+
+
+
+$HEADER_PRODUCT_AND_MARKETING$
+$TITLE_BUSINESS_OWNER$
+Jakob Jorstedt
+
+$TITLE_PRODUCT_MARKETING_MANAGER$
+Francesca Passoni
+
+$TITLE_MARKETING_CREATIVE_PRODUCTION$
+Max Collin
+Felicia Holmgren Fondelius
+Benjamin Magnus Kajfasz
+Alex Eliasson
+Victoria Säwströn
+Marcus Paulsson
+
+$TITLE_COMMUNITY_MANAGER$
+Jacob Blakey
+
+$TITLE_COMMUNITY_AMBASSADOR$
+Miaosen Teng
+Emily Schumacher
+Joshua Smith
+
+$TITLE_MANAGER_PARTNER_RELATIONS$
+Jackson Downing
+
+$TITLE_PARTNER_ACCOUNT_MANAGER$
+Leon Loughran
+Alexander Mellström
+
+$TITLE_PARTNER_MARKETING_MANAGER$
+Kimberley Trapnell
+
+$TITLE_PAID_MEDIA$
+Sofia Lundstedt Radetzki
+Henrik Bonnichsen
+
+$TITLE_PRODUCT_LAUNCH$
+Louise Mutel
+
+$TITLE_PR_MANAGER$
+Troy Goodfellow
+
+$TITLE_DATA_SCIENTISTS$
+Fatemeh Seifan
+
+$TITLE_CRM_SPECIALIST$
+Karola Kiessling
+
+$TITLE_INFLUENCER_RELATIONS$
+Jonathan Whitley
+Dennis Johnni
+
+$TITLE_PROJECT_LOCALIZATION_PRODUCER$
+Nick Tsitkou
+Marcus Westerlund
+
+
+
+$HEADER_EXTERNAL_TECHNOLOGY_PARTNERS$
+Heroic Labs - Nakama
+
+
+
+$HEADER_EXTERNAL_QA_PARTNERS$
+$TITLE_QLOC_SA$
+
+$TITLE_FQA_PROJECT_MANAGER$
+Kacper Bugaj
+
+$TITLE_QA_TEAM_LEAD$
+Michał Staniszewski
+Krystian Bas
+Marcin Oprządek
+
+$TITLE_QA_TESTERS_DEDICATED$
+Piotr Szmil
+Wojciech Krukowski
+Kacper Banachowicz
+Maksymilian Nowakowski
+Shehabulddin Alessawey
+Michał Świtalski
+Damian Głogowski
+
+
+
+$HEADER_LOCALIZATION_VENDORS_FREELANCERS$
+$TITLE_GENERAL_ADMIN_MANAGEMENT$
+Native Prime SAS
+
+$TITLE_SENIOR_PROJECT_MANAGER$
+Julia Othlinghaus-Wulhorst
+Friedrich Klemme
+
+$TITLE_PROJECT_MANAGER$
+Dieter Pfeil
+
+$TITLE_LOCALIZATION_TOOLS$
+Friedrich Klemme
+Julia Othlinghaus-Wulhorst
+Xavier Zimmerman
+Dieter Pfeil
+Michael Waaler
+
+$TITLE_FRENCH$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Carine Mathey
+
+$TITLE_TRANSLATOR$
+Xavier Zimmermann
+
+$TITLE_PROOFREADERS_EDITORS$
+Morgane Le Boucher
+
+$TITLE_SIMPLIFIED_CHINESE$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+LangLink Localization Solutions 
+
+$TITLE_PROJECT_MANAGEMENT$
+Troy Ye
+
+$TITLE_TEAM$
+Shaoyang
+失忆的黄鲁斯
+52-hironobu
+ol123489
+机智的布鲁斯
+
+$TITLE_RUSSIAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+The Most Games
+
+$TITLE_PROJECT_MANAGEMENT$
+Alexander Loktionov 
+
+$TITLE_LEAD_EDITOR$
+Irina Shobukhova
+
+$TITLE_SENIOR_TRANSLATORS$
+Maxim Onishenko
+
+$TITLE_PROOFREADERS_EDITORS$
+Izmailova Yulia
+
+$TITLE_SPECIAL_THANKS$
+Shogin Nikita (Sshready)
+
+$TITLE_KOREAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+LOGOS GLOBAL
+
+$TITLE_PROJECT_MANAGEMENT$
+Sun Dong Hwang
+Sang Won Lee (H2Interactive)
+
+$TITLE_TRANSLATOR$
+Lee Jae Hun
+Song Hye Su
+Ji Seung Hyuk
+Kim Dong Woo
+
+$TITLE_REVIEWER$
+Runo Lee
+Harriet Kim
+Derek Kim
+
+$TITLE_PROOFREADERS_EDITORS$
+Thomas Oh
+
+$TITLE_GERMAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Julia Othlinghaus-Wulhorst
+
+$TITLE_LEAD_TRANSLATOR$
+Ole Johan Christiansen
+
+$TITLE_PROOFREADERS_EDITORS$
+Thomas Christiansen
+
+$TITLE_SPANISH$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Andrés Sánchez Cubero
+
+$TITLE_LEAD_TRANSLATOR$
+Jaime Ortega
+
+$TITLE_PROOFREADERS_EDITORS$
+Pedro Peláez Cornejo
+
+
+
+$HEADER_PARADOX_DEVELOPMENT_STUDIO_BLACK$
+
+$TITLE_COO$
+Charlotta Nilsson
+
+$TITLE_CREATIVE_DIRECTOR$
+Henrik Fåhraeus
+
+$TITLE_STUDIO_MANAGER$
+Johanna Uddståhl
+
+$TITLE_PRODUCERS$
+Martin Tosta
+Lucia Dzediti
+Alexander Windahl
+Jolanta Barkauskaitė
+
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_DESIGN_MANAGERS$
+Mikael Andersson
+Riad Deneche
+
+$TITLE_GAME_DESIGN$
+Joachim Holmsen
+Henrik Lohmander
+Jason Cantalini
+Anna Johansson
+Filippa Gannholm Kirsten
+Arkadiusz Majewski
+Axel Näslund
+Joe Parkin
+Verónica Pazos
+Emil Tisander
+Johan Husén
+Krzysztof Łankowski
+
+$TITLE_UX_DESIGNERS$
+Ellinor Zetterman
+Jonas Wickerström
+
+$TITLE_TECHNICAL_DIRECTOR$
+Jimmy Selling
+
+$TITLE_PROJECT_LEAD_TECH_LEAD$
+Joel Hansson
+
+$TITLE_PROGRAMMERS$
+Oscar Andersson
+Daan Broekhof
+Jakob Eklund
+Jens Hedenskog
+Johan Lerström
+Anton Sorokin
+Liana Tosunyan
+Max Villing
+Jonathan Lidberg Collinder
+Chad Uhl
+
+$TITLE_ART_DIRECTOR$
+Petter Lundh
+
+$TITLE_ART_MANAGERS$
+Petter Lundh
+Lucas Ribeiro
+
+$TITLE_2D_ARTISTS$
+Alva Granholm
+Anton Holmqvist
+Celine Jensen
+Nicolas Lennman
+
+$TITLE_CONCEPT_ARTISTS$
+Alessandro Bragalini
+Pavel Golovii
+Jon Astrup Hällkvist
+
+$TITLE_3D_ARTISTS$
+Akash Garg
+Joakim Hammarslätt	
+Andrey Zaykov
+Elisabeth Jönsson
+Anton Leirnes
+Lova Carlsson
+		
+$TITLE_TECH_ART$
+Lova Carlsson
+Wei-Lune Tang
+
+$TITLE_ANIMATORS$
+Emelie Verdugo
+
+$TITLE_QA_MANAGER$
+Lucia Dzediti
+
+$TITLE_QA_TEAM_LEAD$
+Lucia Dzediti
+
+$TITLE_EMBEDDED_QA_ANALYST$
+Joanna Janiak
+Pawel Kucal
+
+$TITLE_EMBEDDED_QA_TESTERS$
+Fabian Franzén
+
+$TITLE_COMMUNITY_MANAGER$
+Jacob Blakey
+
+
+
+$HEADER_CRUSADER_KINGS_3_ALL_UNDER_HEAVEN$
 
 $HEADER_PROJECT_LEADS$
 $TITLE_PROJECT_LEAD_GAME_DIRECTOR$
@@ -424,7 +1208,7 @@ Xavier Zimmermann
 
 $TITLE_PROOFREADERS_EDITORS$
 Morgane Le Boucher
-Amadine Pineda
+Amandine Pineda
 
 $TITLE_SIMPLIFIED_CHINESE$
 $TITLE_LOCALIZATION_SERVICE_PROVIDER$
@@ -936,7 +1720,7 @@ Xavier Zimmermann
 
 $TITLE_PROOFREADERS_EDITORS$
 Morgane Le Boucher
-Amadine Pineda
+Amandine Pineda
 
 
 $TITLE_SIMPLIFIED_CHINESE$
@@ -1459,7 +2243,7 @@ Xavier Zimmermann
 
 $TITLE_PROOFREADERS_EDITORS$
 Morgane Le Boucher
-Amadine Pineda
+Amandine Pineda
 
 
 $TITLE_SIMPLIFIED_CHINESE$

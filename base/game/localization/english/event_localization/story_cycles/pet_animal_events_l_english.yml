@@ -192,7 +192,7 @@
  pet_animal.1113.a:1 "[ROOT.Char.Custom('DogStorySheHe')|U] will join me."
  pet_animal.1113.a_success:1 "[ROOT.Char.Custom('DogStoryName')] behaves"
  pet_animal.1113.a_success.tt:0 "Nothing bad happens"
- every_councillor:0 "Every councillor"
+ every_councillor:0 "Every [councillor|E]"
  pet_animal.1113.a_failure:1 "[ROOT.Char.Custom('DogStoryName')] does anything but"
  pet_animal.1113.a_failure.tt:0 "Something... bad happens"
  pet_animal.1113.b:1 "A dog has no place in a council meeting."

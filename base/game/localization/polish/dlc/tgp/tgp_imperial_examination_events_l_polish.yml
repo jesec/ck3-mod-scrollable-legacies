@@ -4,7 +4,7 @@
  imperial_examination.1000.t: "Zebranie kandydatów"
  imperial_examination.1000.desc: "Przybywam do miasta znanego jako [ROOT.Char.GetCurrentLocation.GetName], którego ulice zostały wysprzątane i bogato udekorowane na nasz przyjazd. Ludzie kłaniają się i wypowiadają ciche modlitwy o pomyślność, gdy przechodzimy obok, a na rogach ulic lawiranci obstawiają zakłady.\n\nGdziekolwiek się obrócę, widzę innych kandydatów do egzaminu ubranych w najlepsze jedwabne szaty, odchodzących ze swoimi kurtyzanami do lokalnych karczm. Dziś zrozumiem, jak daleko mogę zajść."
  imperial_examination.1000.a: "Nie może być inaczej – odniosę sukces!"
- imperial_examination.1000.a.tt: "Będziesz mieć więcej możliwości na oszukiwanie.\n@alert_icon! #alert_trial Ktoś może cię przyłapać!#!"
+ imperial_examination.1000.a.tt: "Będziesz mieć więcej możliwości na oszukiwanie\n@alert_icon! #alert_trial Ktoś może cię przyłapać!#! #weak (jeśli nikt cię nie wykryje, zyskasz [secret|El] „#V $secret_exam_cheater$#!”)#!"
  imperial_examination.1000.b: "Pokażę, na co mnie stać, nie plamiąc swojego honoru."
  #Host
  imperial_examination.1001.t: "$imperial_examination.1000.t$"
@@ -14,7 +14,7 @@
  imperial_examination.1002.t: "$imperial_examination.1000.t$"
  imperial_examination.1002.desc: "Przybywam do miasta o nazwie [ROOT.Char.GetCurrentLocation.GetName], towarzyszy mi [ROOT.Char.Custom2('RelationToMe', candidate )], [candidate.GetTitledFirstName]. Ulice zostały wysprzątane i bogato udekorowane na nasz przyjazd.\n\nGdy zaprowadzą [candidate.Custom('PL_go_ja')] do kwater kandydatów, będę mieć ograniczone możliwości wpływu na [candidate.Custom('PL_jego_jej')] postępy. Być może warto dać [candidate.Custom('PL_mu_jej')] kilka porad."
  imperial_examination.1002.a: "– Odnieś sukces za wszelką cenę."
- imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip] będzie mieć więcej możliwości na oszukiwanie.\n@alert_icon! Ktoś może #alert_trial [candidate.Custom('PL_go_ja')] przyłapać!#!"
+ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip] będzie mieć więcej możliwości na oszukiwanie\n@alert_icon! #alert_trial Ktoś może [candidate.Custom('PL_go_ja')] przyłapać!#! #weak (jeśli nikt [candidate.Custom('PL_go_jej')] nie wykryje, zyska [secret|El] „#V $secret_exam_cheater$#!”)#!"
  imperial_examination.1002.b: "– Nie splam imienia rodu [ROOT.Char.GetHouse.GetNameNoTooltip]."
  imperial_examination.1003.t: "$imperial_examination.1000.t$"
  imperial_examination.1003.desc: "Przybywam do miasta o nazwie [ROOT.Char.GetCurrentLocation.GetName] z rękami pełnymi zwojów do nauki i materiałów edukacyjnych.\n\n"

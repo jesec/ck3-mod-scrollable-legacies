@@ -30,6 +30,7 @@ has_law_allowing_succession_law_change = {
 
 is_not_wandering_child = {
 	third = is_not_wandering_child
+	third_not = is_not_wandering_child
 }
 
 basic_claimant_found = {

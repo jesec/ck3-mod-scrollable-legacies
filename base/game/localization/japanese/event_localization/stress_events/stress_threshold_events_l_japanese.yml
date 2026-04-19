@@ -174,7 +174,7 @@
  stress_threshold.2202.desc: "[stress_character.GetSheHe|U]は最近ストレスが多かったようだが、"
  stress_threshold.2202.desc.rival: "説明を求められても、[stress_character.GetSheHe]はさらに侮辱の言葉を吐くだけだった"
  stress_threshold.2202.desc.other: "こんな振る舞いをするとは…"
- stress_threshold.2202.a: "やられたらやり返すだけだ、「[stress_character.Custom2('InsultNoun'), ROOT.Char|U]！」"
+ stress_threshold.2202.a: "やられたらやり返すだけだ、[stress_character.Custom2('InsultNoun'), ROOT.Char|U]！"
  stress_threshold.2202.b: "[stress_character.GetSheHe]でさえ苦労するとは… ある意味安心する"
  #Level 3 Stress Events
  stress_threshold.3001.t: "精神崩壊：声"

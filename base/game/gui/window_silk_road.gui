@@ -107,8 +107,6 @@
 					name = "sub_region_scrollarea"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
-					maximumsize = { -1 660 }
-					autoresizescrollarea = yes
 
 					blockoverride "scrollbox_content"
 					{
@@ -130,11 +128,8 @@
 					}
 				}
 
-				expand = {}
-
 				vbox = {
 					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
 					datacontext = "[GetSituation('dynastic_cycle')]"
 
 					margin = { 15 0 }
@@ -193,14 +188,14 @@
 							vbox = {
 								text_label_left = {
 									layoutpolicy_horizontal = expanding
-									max_width = 220
+									max_width = 210
 									fontsize_min = 10
 									text = "DYNASTIC_CYCLE_EVENT_CURRENT_ERA"
 								}
 
 								text_single = {
 									layoutpolicy_horizontal = expanding
-									max_width = 220
+									max_width = 210
 									fontsize_min = 10
 									text = "SITUATION_PHASE_START_DATE"
 								}
@@ -224,13 +219,21 @@
 							margin_right = 12
 							spacing = 12
 
-							text_multi = {
-								layoutpolicy_horizontal = expanding
-								max_width = 1750
-								autoresize = yes
-								text = "FUTURE_PHASE_HEADER"
-								align = nobaseline
+							vbox = {
+								text_single = {
+									text = "FUTURE_PHASE_HEADER"
+									max_width = 120
+									align = nobaseline
+								}
+
+								text_single = {
+									text = "FUTURE_PHASE_VALUE"
+									max_width = 120
+									align = nobaseline
+								}
 							}
+
+							
 
 							icon = {
 								size = { 42 42 }
@@ -283,6 +286,7 @@ types SilkRoad
 		text_single = {
 			layoutpolicy_horizontal = expanding
 			text = "CURRENT_INNOVATION_HEADER"
+			autoresize = no
 		}
 
 		hbox = {
@@ -670,6 +674,7 @@ types SilkRoad
 									blockoverride "button_text"
 									{
 										text = "DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS"
+										max_width = 160
 									}
 
 									tooltip = "SITUATION_SUBREGION_CATALYSTS_BUTTON_TOOLIP"
@@ -683,6 +688,7 @@ types SilkRoad
 									align = nobaseline
 
 									margin_left = 5
+									max_width = 220
 								}
 							}
 

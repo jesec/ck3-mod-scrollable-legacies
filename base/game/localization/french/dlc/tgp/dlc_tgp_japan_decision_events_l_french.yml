@@ -65,7 +65,7 @@
  will_found_noble_family_tt: "Vous deviendrez chef d’une nouvelle [noble_family|El]"
  # tgp_japan_emperor_restoration_decision
  tgp_japan_decision.9301.t: "La cage ouverte"
- tgp_japan_decision.9301.desc: "En tant qu’[Select_CString(ROOT.Char.IsFemale,'impératrice','empereur')], j’ai retrouvé ma place légitime de véritable chef de ce pays. Mon pouvoir n’est plus exercé par ceux qui cherchent à nourrir leurs propres ambitions, et tout a été rendu au Trône du Chrysanthème."
+ tgp_japan_decision.9301.desc: "En tant qu’[Select_CString(ROOT.Char.IsFemale,'impératrice','empereur')], j’ai retrouvé ma place légitime de véritable chef de ce pays.\n\nMon pouvoir n’est plus exercé par ceux qui cherchent à nourrir leurs propres ambitions, et tout a été rendu au Trône du Chrysanthème."
  tgp_japan_decision.9301.a: "Un soleil pour guider le pays."
  tgp_japan_decision.9302.t: "[tenno.Custom('FR_le_Char_L')|U][tenno.GetTitleAsNameNoTooltip|l] [Select_CString(tenno.IsFemale,'victorieuse','victorieux')]"
  tgp_japan_decision.9302.desc: "La nouvelle du retour du $game_concept_tenno|l$ se répand rapidement. [tenno.Custom('FR_le_Char_Pi')|U][tenno.GetTitledFirstName] a rétabli sa présence impériale dans l’espoir d’arracher le pouvoir des mains oisives et malveillantes.\n\n[tenno.Custom('FR_IlElle')|U] entend désormais régner plus directement sur le peuple de son pays depuis le Trône du Chrysanthème, et son règne ne sera plus considéré comme purement cérémoniel."

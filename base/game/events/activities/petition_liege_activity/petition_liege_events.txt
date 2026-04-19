@@ -122,11 +122,8 @@ petition_liege.9000 = {
 				}
 				trigger_else_if = { # Vassal Title
 					limit = { var:petition_type = flag:title_vassal }
-					NOR = { # Only relevant if revocation is possible
-						liege = { has_realm_law = crown_authority_0 }
-						liege = { has_realm_law = tribal_authority_0 }
-						liege = { has_realm_law = tribal_authority_1 }
-					}
+					# Only relevant if revocation is possible
+					liege = { has_realm_law_flag = title_revocation_allowed }
 					any_claim = { petition_liege_title_vassal_trigger = yes }
 				}
 				trigger_else_if = { # Construct City
@@ -171,14 +168,9 @@ petition_liege.9000 = {
 					petition_liege_save_council_seat_effect = { JOB_TAKER = scope:petition_char LIEGE = scope:petition_liege }
 				}
 				flag:court_position = {
-					court_position_generator_effect = {
-						VAR = target
-						EMPLOYER = scope:petition_liege
-					}
-					court_position_generator_effect = {
-						VAR = second
-						EMPLOYER = scope:petition_liege
-					}
+					court_position_generator_effect = { VAR = target EMPLOYER = scope:petition_liege ONLY_EMPTY = no }
+					# SECONDARY OPTIONS SHOULD BE EMPTY
+					court_position_generator_effect = { VAR = second EMPLOYER = scope:petition_liege ONLY_EMPTY = yes }
 				}
 				flag:court_position_family = {
 					random_courtier = {
@@ -187,14 +179,9 @@ petition_liege.9000 = {
 							petition_liege_court_position_trigger = { HOUSE = scope:petition_vassal.house }
 						}
 						save_scope_as = petition_char
-						court_position_generator_effect = {
-							VAR = target
-							EMPLOYER = scope:petition_liege
-						}
-						court_position_generator_effect = {
-							VAR = second
-							EMPLOYER = scope:petition_liege
-						}
+						court_position_generator_effect = { VAR = target EMPLOYER = scope:petition_liege ONLY_EMPTY = no }
+						# SECONDARY OPTIONS SHOULD BE EMPTY
+						court_position_generator_effect = { VAR = second EMPLOYER = scope:petition_liege ONLY_EMPTY = yes }
 					}
 				}
 				flag:governorship_family = { # Family Governorship
@@ -617,11 +604,8 @@ petition_liege.9001 = {
 			limit = {
 				petition_liege_admin_valid_trigger = no
 				NOT = { var:petition_type = flag:title_vassal }
-				NOR = { # Only relevant if revocation is possible
-					liege = { has_realm_law = crown_authority_0 }
-					liege = { has_realm_law = tribal_authority_0 }
-					liege = { has_realm_law = tribal_authority_1 }
-				}
+				# Only relevant if revocation is possible
+				liege = { has_realm_law_flag = title_revocation_allowed }
 				any_claim = { petition_liege_title_vassal_trigger = yes }
 			}
 			add_to_variable_list = {
@@ -875,12 +859,9 @@ petition_liege.9001 = {
 				variable = petitions_to_show
 				this = flag:title_vassal
 			}
+			# Only relevant if revocation is possible
+			liege = { has_realm_law_flag = title_revocation_allowed }
 			NOT = { var:petition_type = flag:title_vassal }
-			NOR = { # Only relevant if revocation is possible
-				liege = { has_realm_law = crown_authority_0 }
-				liege = { has_realm_law = tribal_authority_0 }
-				liege = { has_realm_law = tribal_authority_1 }
-			}
 			any_claim = { petition_liege_title_vassal_trigger = yes }
 		}
 		set_variable = {

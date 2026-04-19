@@ -5,7 +5,7 @@
  imperial_examination.1000.t: "Entrants Gather"
  imperial_examination.1000.desc: "I enter the city of [ROOT.Char.GetCurrentLocation.GetName] to find its streets swept and lavishly decorated for our arrival. People bow and utter hushed prayers of good fortune as we walk past, while gamblers lay their wagers in street corners.\n\nEverywhere I turn, I see other exam entrants dressed in their finest silk gowns, departing with their courtesans to the local taverns. Today, I find out how far I am willing to go."
  imperial_examination.1000.a: "I will be successful, no matter what!"
- imperial_examination.1000.a.tt: "You will get more opportunities to cheat.\n@alert_icon! #alert_trial You might get caught!#!"
+ imperial_examination.1000.a.tt: "You will get more opportunities to cheat\n@alert_icon! #alert_trial You might get caught!#! #weak (if you remain undetected you will gain an #V $secret_exam_cheater$#! [secret|E])#!"
  imperial_examination.1000.b: "I wish to prove myself the honorable way."
 
  #Host
@@ -17,7 +17,7 @@
  imperial_examination.1002.t: "$imperial_examination.1000.t$"
  imperial_examination.1002.desc: "I enter the city of [ROOT.Char.GetCurrentLocation.GetName] with my [ROOT.Char.Custom2('RelationToMe', candidate )] [candidate.GetTitledFirstName] at my side. The streets are swept and lavishly decorated for our arrival.\n\nOnce [candidate.GetSheHe] is sequestered away inside the entrant lodgings, my ability to influence [candidate.GetHerHis] progress will be slim. Perhaps I should offer some words of advice."
  imperial_examination.1002.a: ""Succeed at any cost, [ROOT.Char.Custom2('RelationToMe', candidate )].""
- imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip] will get more opportunities to cheat.\n@alert_icon! #alert_trial [candidate.GetSheHe|U] might get caught!#!"
+ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip] will get more opportunities to cheat\n@alert_icon! #alert_trial [candidate.GetSheHe|U] might get caught!#! #weak (if [candidate.GetSheHe] remains undetected [candidate.GetSheHe] will gain an #V $secret_exam_cheater$#! [secret|E])#!"
  imperial_examination.1002.b: ""Do not put house [ROOT.Char.GetHouse.GetNameNoTooltip] to shame.""
 
  imperial_examination.1003.t: "$imperial_examination.1000.t$"
@@ -506,7 +506,7 @@
  # Intro event
  imperial_examination.7100.t: "Family Represented at Examination"
  imperial_examination.7100.desc: "By the glory our benign [host.GetTitleAsNameNoTooltip], we have a fresh batch of prospective governors following the Capital Examination in [location.GetName]."
- imperial_examination.7100.desc.intro_nr_of_relatives_singular: "Only my [ROOT.Char.Custom2('RelationToMeShort', house_member)|U] [house_member.GetTitledFirstName] attended as entrant."
+ imperial_examination.7100.desc.intro_nr_of_relatives_singular: "Only my [ROOT.Char.Custom2('RelationToMeShort', house_member)] [house_member.GetTitledFirstName] attended as entrant."
  imperial_examination.7100.desc.intro_nr_of_relatives: "\n\n[ROOT.Char.MakeScope.Var('num_exam_family_entrants').GetValue] members of house [ROOT.Char.GetHouse.GetNameNoTooltip] attended as entrants."
  imperial_examination.7100.desc.all_failed: "[ROOT.Char.Custom('ActivityGetFaileesBothAll')] of them failed."
  imperial_examination.7100.desc.all_passed_provincial: "[ROOT.Char.Custom('ActivityGetSuccessfulBothAll')] of them honored our good name and passed their Examination."

@@ -18,7 +18,7 @@
  SCHEME_COOLDOWN_INFO: "Вы не можете начать новые поиски «[SCHEME.GetSchemeType.GetTypeName]» против персонажа [SCHEME.GetTarget.GetName] в течение $TIME|V$."
  SCHEME_WINDOW_PROGRESS_TOOLTIP: "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
  SCHEME_WINDOW_PROGRESS_INFO: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))|V] до следующей [Concept('scheme_phase_phase', 'фазы')|E]"
- SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Происки приостановлены, поскольку вы путешествуете"
+ SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Происки приостановлены. Причина: [Scheme.GetFrozenReason]"
  SCHEME_WINDOW_PROGRESS_INFO_BASIC: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))] до завершения"
  SCHEME_WINDOW_PROGRESS_INFO_BREAKDOWN: "[Scheme.GetSpeedDescription]"
  SCHEME_WINDOW_OPPORTUNITIES_INFO_BREAKDOWN: "1 [Concept( 'scheme_opportunity_opportunity', 'Очки преимущества' )|E] прибавляются каждые [Scheme.GetPhasesPerOpportunity] [Concept( 'scheme_phase_phases', 'фазы' )|E]\n[Scheme.GetPhasesRemainingUntilOpportunity] [Concept( 'scheme_phase_phases', 'фазы' )|E] до получения [Concept( 'scheme_opportunity_opportunity', 'очка преимущества' )|E]\nЧтобы привести происки в исполнение, требуется #EMP как минимум#! [Scheme.MakeScope.ScriptValue('scheme_charge_to_advance_threshold_value')] [Concept( 'scheme_opportunity_opportunities', 'очк. преимущества' )|E]#!"

@@ -68,6 +68,7 @@
 
 	ai_potential = {
 		is_playable_character = yes
+		piety >= cancel_holy_order_piety_cost #Prevent AI to go into negative piety
 	}
 
 	ai_will_do = {

@@ -229,6 +229,7 @@
  attempt_to_force_surrender_opinion: "降伏の強制しようとした"
  theft_opinion: "盗み"
  siphoned_treasury_crime: "国庫を窃取した"
+ tax_avoidance_crime: "脱税"
  embezzled_opinion: "私から横領した"
  elopement_opinion: "駆け落ち"
  attempted_elopement_opinion: "駆け落ちを試みた"

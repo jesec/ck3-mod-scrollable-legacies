@@ -83,7 +83,7 @@
  lesson_china_STUDY_SCHEME_SEGMENT: "勉強"
  TUTORIAL_OPEN_DECISION_PANEL_PROMPT: "「$DECISIONS_VIEW_TITLE$」パネルを開く"
  lesson_china_decisions_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
- lesson_china_decisions_open_desc: "[imperial_examinations|E]への参加を決めたら、十分な準備をすることが大切です。\n\n儒教の古典を学ぶことで、$game_concept_examinations$への準備を整えることができます。"
+ lesson_china_decisions_open_desc: "[imperial_examination|E]への参加を決めたら、十分な準備をすることが大切です。\n\n儒教の古典を学ぶことで、$game_concept_examinations$への準備を整えることができます。"
  lesson_china_decisions_open_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
  lesson_china_decisions: "$lesson_china_STUDY_SCHEME_SEGMENT$"
  lesson_china_decisions_desc: "これらは決断、すなわちあなたが取ることのできるさまざまな個人的行動です。\n\n今のところは、$tgp_china_study_confucian_classics_decision|V$を選びましょう。"

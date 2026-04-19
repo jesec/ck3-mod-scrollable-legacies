@@ -196,7 +196,7 @@
  laamp_base_learning_contract_events.4025.tt.current_total.sub_t1: "$laamp_base_learning_contract_events.4015.tt.current_total.sub_t1$"
  laamp_base_learning_contract_events.4025.tt.current_total.sub_t2: "$laamp_base_learning_contract_events.4015.tt.current_total.sub_t2$"
  laamp_base_learning_contract_events.4025.tt.current_total.sub_t3: "$laamp_base_learning_contract_events.4015.tt.current_total.sub_t3$"
- laamp_base_learning_contract_events.4025.tt.chapters_left: "Вам осталось написать #V [task_contract.MakeScope.Var('chapters_left').GetValue]#! из #V [task_contract.MakeScope.Var('win_t3_threshold').GetValue]#! глав#!"
+ laamp_base_learning_contract_events.4025.tt.chapters_left: "Вам осталось написать #V [task_contract.MakeScope.Var('chapters_left').GetValue]#! из #V [task_contract.MakeScope.Var('win_t3_threshold').GetValue]#! глав"
  laamp_base_learning_contract_events.4025.tt.progress_towards_success: "$laamp_base_contract_schemes.2781.tt.progress_towards_success$"
  laamp_base_learning_contract_events.4025.tt.guaranteed_success: "#P +2#! очка для успешного выполнения [Concept( 'task_contract', 'контракта' )|E]"
  laamp_base_learning_contract_events.4025.tt.no_progress: "$laamp_base_learning_contract_events.4001.tt.no_progress$"

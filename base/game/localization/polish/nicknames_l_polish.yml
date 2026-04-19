@@ -1330,3 +1330,5 @@
  nick_tenjin_desc: "Krążą legendy, że po doznanej niesprawiedliwości [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] wędruje teraz po świecie w formie mściwego ducha, czczonego jako boska istota."
  nick_ushiwakamaru: "Ushiwakamaru"
  nick_ushiwakamaru_desc: "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] słynie z siły i zawziętości młodego byka, budząc trwogę w swoim otoczeniu."
+ nick_ho_seung: "Ho-seung"
+ nick_ho_seung_desc: "Wokół osoby znanej jako [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] krąży legenda opowiadająca o tygrysie, który zginął po wpadnięciu do pułapki, odrodził się jako człowiek i został mnichem. Według tej historii mnich to nie kto inny, tylko [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] we własnej osobie."

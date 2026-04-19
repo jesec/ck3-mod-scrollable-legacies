@@ -68,10 +68,10 @@
 
  # tgp_japan_emperor_restoration_decision
  tgp_japan_decision.9301.t: "The Cage Unlocked"
- tgp_japan_decision.9301.desc: "As Emperor, I've reclaimed my rightful place as the true leader of this realm. My power is no longer wielded by those who wish to fuel their own ambitions, and all is restored to the Chrysanthemum Throne."
+ tgp_japan_decision.9301.desc: "As Emperor, I've reclaimed my rightful place as the true leader of this realm.\n\nMy power is no longer wielded by those who wish to fuel their own ambitions, and all is restored to the Chrysanthemum Throne."
  tgp_japan_decision.9301.a: "A sun to guide the land."
  tgp_japan_decision.9302.t: "The [tenno.GetTitleAsNameNoTooltip] Victorious"
- tgp_japan_decision.9302.desc: "Words spread like wildfire of the $game_concept_tenno_possessive$ return. [tenno.GetName] has restored [tenno.GetHerHis] imperial presence, hopefully revoking power from idle and ill-willed hands.\n\n[tenno.GetSheHe|U] now intends to rule more directly over the people of this land from the Chrysanthemum Throne, and [tenno.GetHerHis] reign will no longer be seen as mere ceremony."
+ tgp_japan_decision.9302.desc: "Words spread like wildfire of the $game_concept_tenno_possessive$ return. [tenno.GetName] has restored [tenno.GetHerHis] imperial presence, in the name of revoking power from idle and ill-willed hands.\n\n[tenno.GetSheHe|U] now intends to rule more directly over the people of this land from the Chrysanthemum Throne, and [tenno.GetHerHis] reign will no longer be seen as mere ceremony."
  tgp_japan_decision.9302.a: "Let this be a return to order."
 
  # tgp_japan_become_a_poet_decision

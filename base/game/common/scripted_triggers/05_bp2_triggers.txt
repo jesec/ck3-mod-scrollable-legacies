@@ -60,6 +60,12 @@ is_religious_studies_location = {
 		has_building_or_higher = jizu_shan_temples_01
 		has_building_or_higher = nanhua_temple_01
 		has_building_or_higher = borobudur_01
+		has_building_or_higher = holy_site_st_peters_basilica_01
+		has_building_or_higher = mont_st_michel_01
+		has_building_or_higher = sanchi_stupa_01
+		has_building_or_higher = boudhanath_01
+		has_building_or_higher = yazd_mosque_01
+		has_building_or_higher = qutb_minar_03
 	}
 }
 

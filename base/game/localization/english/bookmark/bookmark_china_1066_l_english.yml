@@ -36,3 +36,11 @@
  bookmark.0400.c.tt: "[emperor.GetTitledFirstName] will #EMP tragically#! pass away from [emperor.GetHerHis] injuries and you shall assume the role of [regent|E] for your [child.Custom('GetDaughterSon')] [child.GetTitledFirstName] with your [brother.Custom('SisterBrother')] [brother.GetTitledFirstName] as [child.GetHerHis] [emperor.GetCouncillor('councillor_chancellor').GetCouncilTitle]."
 
  EMPRESS_WU_GLOSS: "Wǔ Zétiān (624–705) departed from tradition and deposed her own sons after her husband's death, instead declaring #EMP herself#! as the founder of a new Zhao dynasty."
+
+ bookmark.0500.t: "The Withering of Righteousness"
+ bookmark.0500.desc: "Failure #EMP again#!. How many times must I abase myself in these wretched exams, reciting vapid verses beneath the glares of sneering proctors? Who are #EMP they#! to measure #EMP my#! worth? They preach virtue, but I see them for what they truly are – pigs gorging themselves at the trough called bureaucracy.\n\nTheir pampered spawn stroll into the exams knowing the answers before they are written, coddled by tutors bought with coin wrought from those so poor they can barely keep a roof over their heads.\n\nThe [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier] have been forsaken by Heaven; when one knows what is right, to remain idle is cowardice. So be it. Let the gods bear witness and the powerful tremble, #EMP for now I am the one who judges#!."
+ bookmark.0500.a: "The surest way to enact change is from within."
+ bookmark.0500.b: "My time is now; the age of the [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] is #EMP over#!!"
+ bookmark.0500.c: "Rich opportunities await those bold enough to seize them."
+ bookmark.0500.d: "The people long for a savior, and that savior is #EMP me#!."
+ faithful_followers: "Faithful Followers"

@@ -50,6 +50,14 @@ demanded_my_conversion_opinion = {
 	stacking = yes
 }
 
+compelled_me_to_convert_opinion = {
+	opinion = -20
+	monthly_change = 0.1
+	decaying = yes
+	stacking = yes
+	imprisonment_reason = yes
+}
+
 unwanted_religious_conversion_opinion = {
 	opinion = -40
 	monthly_change = 0.1

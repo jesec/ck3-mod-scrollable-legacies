@@ -18,7 +18,7 @@ d_LIAO_linhuang = {
 	#1178
 	1178.1.1 = {
 		holder = jurchen_nalan_fic_1
-		liege = e_andong
+		liege = e_jin
 		government = nomad_government
 	}
 }
@@ -334,7 +334,7 @@ d_LIAO_shangjing = {
 	#1178
 	1178.1.1 = {
 		holder = jurchen_guangjila_fic_1
-		liege = e_andong
+		liege = e_jin
 		government = nomad_government
 	}
 }
@@ -452,11 +452,15 @@ d_LIAO_dongjing = {
 		liege = k_balhae
 	}
 	1066.1.1 = {
-		holder = 0
+		effect = {
+			set_de_jure_liege_title = title:k_raole
+		}
+		holder = balhae_go_8 # Gwan_74D8
+		liege = 0
 	}
 	1178.1.1 = {
 		holder = jurchen_hesujia_fic_1
-		liege = e_andong
+		liege = e_jin
 		government = steppe_admin_government
 	}
 }
@@ -507,9 +511,7 @@ c_LIAO_zhenzhou = {
 		holder = balhae_ye_2	#fic ruler
 	}
 	1066.1.1 = {
-		government = nomad_government
-		holder = khitan_liaoningzhenzhou_10_fic
-		liege = k_balhae	#Liao eastern circuit
+		holder = balhae_go_8 # Gwan_74D8
 	}
 	1178.1.1 = {
 		holder = jurchen_hesujia_fic_1
@@ -527,11 +529,10 @@ c_LIAO_diezhou = {
 		holder = balhae_nan_1	#fic ruler
 	}
 	1066.1.1 = {
-		government = nomad_government
-		holder = khitan_liaoningzhenzhou_10_fic
-		liege = k_balhae	#Liao eastern circuit
+		holder = balhae_go_8 # Gwan_74D8
 	}
 	1178.1.1 = {
+		government = nomad_government
 		holder = jurchen_hesujia_fic_1
 	}
 }

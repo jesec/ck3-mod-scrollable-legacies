@@ -1,5 +1,5 @@
 ﻿l_japanese:
- ce1_heroic_track_name: "英雄の血統"
+ ce1_heroic_track_name: "英雄系統"
  ce1_heroic_track_desc: "我々の体が曲がろうとも折れようとも、伝説は決して死なない"
  ce1_heroic_legacy_1_name: "古の英雄たち"
  ce1_heroic_legacy_2_name: "神話の先祖"
@@ -13,7 +13,7 @@
  has_legitimizing_access_tt: "[GetPlayer.GetDynasty.GetName]は$ce1_heroic_legacy_1_name$の[perk|E]を持っていなければならない"
  has_legit_intent_access_tt: "[GetPlayer.GetDynasty.GetName]は$ce1_legitimacy_legacy_3_name$ [perk|E]を持っていなければならない"
  ce1_heroic_legacy_1_useable_once: "この伝説の種は一つの[dynasty|E]につき一つのみ使用可能で、[dynasty|E]の一員なら誰でも使用できる"
- ce1_legitimacy_legacy_track_name: "正統性"
+ ce1_legitimacy_legacy_track_name: "正統"
  ce1_legitimacy_legacy_track_desc: "統治する権利と力"
  ce1_legitimacy_legacy_track: "正統性の[dynasty_perk|E]"
  ce1_legitimacy_legacy_1_name: "正当な統治者たち"

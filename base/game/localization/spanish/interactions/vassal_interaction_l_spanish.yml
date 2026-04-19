@@ -159,3 +159,5 @@
  grant_court_position: "Conceder puesto en la corte"
  grant_court_position_desc: "Conceder a [Select_CString( recipient.IsLocalPlayer, 'tu persona', recipient.GetShortUIName )] un [court_position|E]"
  request_court_position_extra_icon: "$hook_extra_icon$"
+ celestial_extinguish_noble_family_interaction: "Extinguir a una familia noble"
+ celestial_extinguish_noble_family_interaction_desc: "[Concept('execute', 'Ejecutar')|E] a [recipient.GetShortUIName] y a sus herederos adultos y [banish|El] del [realm|El] al resto de su familia"

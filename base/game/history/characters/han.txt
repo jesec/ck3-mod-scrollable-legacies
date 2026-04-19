@@ -8035,7 +8035,6 @@ han_9878 = {
 	religion = "daoxue"
 	culture = "han"
 	father = han_7969
-	mother = han_8915
 	1070.1.1 = { birth = yes } # hypothetical
 	1126.1.1 = { death = yes } # hypothetical
 }
@@ -18027,7 +18026,7 @@ han_4622 = {
 	945.1.1 = { add_spouse = han_4655 }
 	958.1.1 = { add_spouse = han_4849 }
 	968.1.1 = { add_spouse = han_5052 }
-	976.1.1 = { death = yes }
+	976.11.14 = { death = yes }
 }
 
 han_4801 = {
@@ -18042,7 +18041,7 @@ han_4801 = {
 	958.1.1 = { add_spouse = han_4850 }
 	960.1.1 = { add_spouse = han_4885 }
 	976.1.1 = { add_spouse = han_5219 }
-	997.1.1 = { death = yes }
+	997.5.8 = { death = yes }
 }
 
 han_5428 = {
@@ -18058,7 +18057,7 @@ han_5428 = {
 	1000.1.1 = { add_spouse = han_5868 }
 	1003.1.1 = { add_spouse = han_5968 }
 	1010.1.1 = { add_spouse = han_6245 }
-	1022.1.1 = { death = yes }
+	1022.3.23 = { death = yes }
 }
 
 han_6917 = {
@@ -18075,7 +18074,7 @@ han_6917 = {
 	1035.1.1 = { add_spouse = han_7354 }
 	1039.1.1 = { add_spouse = han_7549 }
 	1040.1.1 = { add_spouse = han_7590 }
-	1063.1.1 = { death = yes }
+	1063.4.30 = { death = yes }
 }
 
 han_8052 = {
@@ -18115,7 +18114,7 @@ han_8910 = {
 	1064.1.1 = { add_spouse = han_7352 }
 	1064.1.1 = { add_spouse = han_7409 }
 	1068.1.1 = { add_spouse = han_9087 }
-	1085.1.1 = { death = yes }
+	1085.4.1 = { death = yes }
 }
 
 han_10092 = {
@@ -18128,7 +18127,7 @@ han_10092 = {
 	1076.1.1 = { birth = yes }
 	1093.1.1 = { add_spouse = han_10111 }
 	1095.1.1 = { add_spouse = han_10187 }
-	1100.1.1 = { death = yes }
+	1100.2.23 = { death = yes }
 }
 
 han_10298 = {
@@ -128081,7 +128080,7 @@ han_4057 = {
 	father = han_3641
 	mother = han_3559
 	862.1.1 = { birth = yes }
-	888.1.1 = { death = yes }
+	888.4.20 = { death = yes }
 }
 
 han_4097 = {
@@ -128101,7 +128100,7 @@ han_4097 = {
 	trait = stubborn
 	867.1.1 = { birth = yes }
 	883.1.1 = { add_spouse = han_3681 }
-	904.1.1 = { death = yes }
+	904.9.22 = { death = yes }
 }
 
 han_4228 = {
@@ -141919,6 +141918,30 @@ bookmark_huang_chao = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
+	857.1.1 = {
+		effect = {
+			create_character_memory = {
+				type = failed_provincial_exam_memory
+			}
+		}
+	}
+	862.1.1 = {
+		effect = {
+			create_character_memory = {
+				type = failed_provincial_exam_memory
+			}
+		}
+	}
+	867.1.1 = {
+		effect = {
+			create_character_memory = {
+				type = failed_provincial_exam_memory
+			}
+			every_memory = {
+				set_variable = { name = location value = memory_owner.location }
+			}
+		}
+	}
 	884.6.15 = { death = yes }
 }
 
@@ -145396,7 +145419,6 @@ ding_hui_1 = {
 	dynasty = hchar_hui
 	religion = "jingxue"
 	culture = "han"
-	trait = education_martial_3
 	trait = ambitious
 	trait = wrathful
 	trait = brave
@@ -145406,6 +145428,10 @@ ding_hui_1 = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
+	846.1.1 = {
+		trait = education_martial_3
+	}
+
 	910.1.1 = {
 		death = yes
 	}
@@ -145414,11 +145440,11 @@ zhu_quanzhong_1 = {
 	name = "Quanzhong_5168_5FE0"
 	dynasty = hchar_zhu
 	religion = "jingxue"
-	culture = "han"
+	culture = "han" 
 	trait = lustful
 	trait = deceitful
 	trait = ambitious
-	trait = education_martial_3
+	trait = rowdy
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	852.12.5 = {
@@ -145427,6 +145453,7 @@ zhu_quanzhong_1 = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
+
 	912.7.18 = {
 		death = yes
 	}
@@ -147021,4 +147048,791 @@ imperial_jin_27_2_4 = {
 	father = imperial_jin_27_2
 	265.1.1 = { birth = yes } # hypothetical
 	311.1.1 = { death = yes }
+}
+
+
+han_90025 = {
+	name = "Jin_8B39" # 謹
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	493.1.1 = {
+		birth = yes
+	}
+	568.5.5 = {
+		death = yes
+	}
+}
+
+han_90026 = {
+	name = "Yi_4E49" # 义
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	534.1.1 = {
+		birth = yes
+	}
+	583.1.1 = {
+		death = yes
+	}
+}
+
+han_90027 = {
+	name = "Shi_5BD4" # 寔
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	535.1.1 = {
+		birth = yes
+	}
+	585.1.1 = {
+		death = yes
+	}
+}
+
+han_90028 = {
+	name = "Yi_7FFC" # 翼
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	536.1.1 = {
+		birth = yes
+	}
+	586.1.1 = {
+		death = yes
+	}
+}
+
+han_90029 = {
+	name = "Yi_4EEA" # 仪
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	537.1.1 = {
+		birth = yes
+	}
+	587.1.1 = {
+		death = yes
+	}
+}
+
+han_90030 = {
+	name = "Zhi_667A" # 智
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	538.1.1 = {
+		birth = yes
+	}
+	588.1.1 = {
+		death = yes
+	}
+}
+
+han_90031 = {
+	name = "Shao_7ECD" # 绍
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	539.1.1 = {
+		birth = yes
+	}
+	589.1.1 = {
+		death = yes
+	}
+}
+
+han_90032 = {
+	name = "Bi_5F3C" # 弼
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	540.1.1 = {
+		birth = yes
+	}
+	590.1.1 = {
+		death = yes
+	}
+}
+
+han_90033 = {
+	name = "Lan_5170" # 兰
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	541.1.1 = {
+		birth = yes
+	}
+	591.1.1 = {
+		death = yes
+	}
+}
+
+han_90034 = {
+	name = "Kuang_65F7" # 旷
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	542.1.1 = {
+		birth = yes
+	}
+	592.1.1 = {
+		death = yes
+	}
+}
+
+han_90035 = {
+	name = "Shande_5584_5FB7"
+	female = yes
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	543.1.1 = {
+		birth = yes
+	}
+	593.1.1 = {
+		death = yes
+	}
+}
+
+han_90036 = {
+	name = "Xuanling_7384_7075"
+	female = yes
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90025
+	544.1.1 = {
+		birth = yes
+	}
+	594.1.1 = {
+		death = yes
+	}
+}
+
+han_90037 = {
+	name = "Xuandao_5BA3_9053" # 宣道
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90026
+	547.1.1 = {
+		birth = yes
+	}
+	588.1.1 = {
+		death = yes
+	}
+}
+
+han_90038 = {
+	name = "Xuanmin_5BA3_654F" # 宣敏
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90026
+	548.1.1 = {
+		birth = yes
+	}
+	598.1.1 = {
+		death = yes
+	}
+}
+
+han_90039 = {
+	name = "Xuanliang_5BA3_4EAE" # 宣亮
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90026
+	549.1.1 = {
+		birth = yes
+	}
+	599.1.1 = {
+		death = yes
+	}
+}
+
+han_90040 = {
+	name = "Zhining_5FD7_5BE7" # 志寧
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90037
+	588.1.1 = {
+		birth = yes
+	}
+	665.1.1 = {
+		death = yes
+	}
+}
+
+han_90041 = {
+	name = "Yongning_6C38_5B81" # 永宁
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90037
+	589.1.1 = {
+		birth = yes
+	}
+	639.1.1 = {
+		death = yes
+	}
+}
+
+han_90042 = {
+	name = "Baoning_4FDD_5B81" # 保宁
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90037
+	590.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+han_90043 = {
+	name = "Lizheng_7ACB_653F" # 立政
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90040
+	618.1.1 = {
+		birth = yes
+	}
+	668.1.1 = {
+		death = yes
+	}
+}
+
+han_90044 = {
+	name = "Shenyan_614E_8A00" # 慎言
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90040
+	619.1.1 = {
+		birth = yes
+	}
+	669.1.1 = {
+		death = yes
+	}
+}
+
+han_90045 = {
+	name = "Shangfan_5C1A_8303" # 尚范
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90042
+	620.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+han_90046 = {
+	name = "Chengqing_627F_5E86" # 承庆
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90042
+	621.1.1 = {
+		birth = yes
+	}
+	671.1.1 = {
+		death = yes
+	}
+}
+
+han_90047 = {
+	name = "Suigu_9042_53E4" # 遂古
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90041
+	624.1.1 = {
+		birth = yes
+	}
+	698.1.1 = {
+		death = yes
+	}
+}
+
+han_90048 = {
+	name = "Yuanzuo_5143_795A" # 元祚
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90041
+	625.1.1 = {
+		birth = yes
+	}
+	675.1.1 = {
+		death = yes
+	}
+}
+
+han_90049 = {
+	name = "Anzhen_5B89_8D1E" # 安贞
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90044
+	640.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+
+han_90050 = {
+	name = "Dayou_5927_7337" # 大猷
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90043
+	643.1.1 = {
+		birth = yes
+	}
+	699.1.1 = {
+		death = yes
+	}
+}
+
+han_90051 = {
+	name = "Youyi_6E38_827A" # 游艺
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90043
+	644.1.1 = {
+		birth = yes
+	}
+	694.1.1 = {
+		death = yes
+	}
+}
+
+han_90052 = {
+	name = "Zhiwei_77E5_5FAE" # 知微
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90043
+	645.1.1 = {
+		birth = yes
+	}
+	695.1.1 = {
+		death = yes
+	}
+}
+
+han_90053 = {
+	name = "Guangyuan_5149_8FDC" # 光远
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90043
+	646.1.1 = {
+		birth = yes
+	}
+	696.1.1 = {
+		death = yes
+	}
+}
+
+han_90054 = {
+	name = "Yanzhong_5F66_5FE0" # 彦忠
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90047
+	650.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+
+han_90055 = {
+	name = "Luyi_5C65_63D6" # 履揖
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90048
+	661.1.1 = {
+		birth = yes
+	}
+	726.1.1 = {
+		death = yes
+	}
+}
+
+han_90056 = {
+	name = "Xian_8D24" # 贤
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90049
+	664.1.1 = {
+		birth = yes
+	}
+	686.1.1 = {
+		death = yes
+	}
+}
+
+han_90057 = {
+	name = "Xianding_4ED9_9F0E" # 仙鼎
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90049
+	665.1.1 = {
+		birth = yes
+	}
+	715.1.1 = {
+		death = yes
+	}
+}
+
+han_90058 = {
+	name = "Mocheng_9ED8_6210" # 默成
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90049
+	666.1.1 = {
+		birth = yes
+	}
+	716.1.1 = {
+		death = yes
+	}
+}
+
+han_90059 = {
+	name = "Zunxiao_9075_5B5D" # 遵孝
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90051
+	670.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
+han_90060 = {
+	name = "Keqin_514B_52E4" # 克勤
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90052
+	670.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
+han_90061 = {
+	name = "Boxian_4F2F_732E" # 伯献
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90051
+	671.1.1 = {
+		birth = yes
+	}
+	721.1.1 = {
+		death = yes
+	}
+}
+
+han_90062 = {
+	name = "Kegou_514B_6784" # 克构
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90052
+	671.1.1 = {
+		birth = yes
+	}
+	721.1.1 = {
+		death = yes
+	}
+}
+
+han_90063 = {
+	name = "Kemao_514B_61CB" # 克懋
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90052
+	672.1.1 = {
+		birth = yes
+	}
+	722.1.1 = {
+		death = yes
+	}
+}
+
+han_90064 = {
+	name = "Xiulie_4F11_70C8" # 休烈
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90058
+	690.1.1 = {
+		birth = yes
+	}
+	772.1.1 = {
+		death = yes
+	}
+}
+
+han_90065 = {
+	name = "Jiaxiang_5609_7965" # 嘉祥
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90058
+	691.1.1 = {
+		birth = yes
+	}
+	741.1.1 = {
+		death = yes
+	}
+}
+
+han_90066 = {
+	name = "Xiuzheng_4F11_5F81" # 休征
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90058
+	692.1.1 = {
+		birth = yes
+	}
+	742.1.1 = {
+		death = yes
+	}
+}
+
+han_90067 = {
+	name = "Yi_76CA" # 益
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90064
+	734.1.1 = {
+		birth = yes
+	}
+	784.1.1 = {
+		death = yes
+	}
+}
+
+han_90068 = {
+	name = "Su_8083" # 肃
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90064
+	735.1.1 = {
+		birth = yes
+	}
+	785.1.1 = {
+		death = yes
+	}
+}
+
+han_90069 = {
+	name = "Ao_6556" # 敖
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90068
+	765.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+han_90070 = {
+	name = "Qiu_7403" # 球
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90069
+	807.1.1 = {
+		birth = yes
+	}
+	862.1.1 = {
+		death = yes
+	}
+}
+
+han_90071 = {
+	name = "Gui_73EA" # 珪
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90069
+	812.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		death = yes
+	}
+}
+
+han_90072 = {
+	name = "Gui_7470" # 瑰
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90069
+	817.1.1 = {
+		birth = yes
+	}
+	872.1.1 = {
+		death = yes
+	}
+}
+
+han_90073 = {
+	name = "Xuan_7404" # 琄
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90069
+	823.1.1 = {
+		birth = yes
+	}
+	877.1.1 = {
+		death = yes
+	}
+}
+
+han_90074 = {
+	name = "Cong_742E" # 琮
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90069
+	diplomacy = 9
+	martial = 6
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	trait = education_stewardship_4
+	trait = brave
+	trait = just
+	trait = diligent
+	828.1.1 = {
+		birth = yes
+	}
+	858.1.1 = {
+		add_spouse = han_90079
+	}
+	881.1.1 = {
+		death = yes
+	}
+}
+
+han_90075 = {
+	name = "Yiren_4EEA_4EC1"
+	female = yes
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90069
+	829.1.1 = {
+		birth = yes
+	}
+	879.1.1 = {
+		death = yes
+	}
+}
+
+han_90076 = {
+	name = "Zhuo_68B2" # 梲
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90070
+	830.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+
+han_90077 = {
+	name = "Jing_5162" # 兢
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90071
+	831.1.1 = {
+		birth = yes
+	}
+	881.1.1 = {
+		death = yes
+	}
+}
+
+han_90078 = {
+	name = "Huiji_60E0_79EF"
+	female = yes
+	dynasty = yu_4E8E_11
+	faith = jingxue
+	culture = han
+	father = han_90071
+	832.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+
+han_90079 = {
+	name = "Lirong_4E3D_5BB9"
+	female = yes
+	dynasty = li_674E_87
+	faith = "dhyana"
+	culture = han
+	father = han_3026
+	840.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
 }

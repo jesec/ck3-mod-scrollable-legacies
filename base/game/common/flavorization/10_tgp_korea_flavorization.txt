@@ -5,13 +5,35 @@ king_male_korean = {
 	special = holder
 	gender = male
 	tier = kingdom
-	priority = 46
+	priority = 47
 	name_lists = { name_list_korean }
+	flavourization_rules = {
+		spouse_takes_title = no
+	}
 }
 king_female_korean = {
 	type = character
 	special = holder
 	gender = female
+	tier = kingdom
+	priority = 47
+	name_lists = { name_list_korean name_list_balhae }
+	flavourization_rules = {
+		spouse_takes_title = no
+	}
+}
+spouse_king_male_korean = {
+	type = character
+	special = holder
+	gender = male
+	tier = kingdom
+	priority = 46
+	name_lists = { name_list_korean name_list_balhae }
+}
+spouse_king_female_korean = {
+	type = character
+	gender = female
+	special = holder
 	tier = kingdom
 	priority = 46
 	name_lists = { name_list_korean }
@@ -31,12 +53,34 @@ king_yongson_throne_male_korean = {
 	priority = 2000
 	heritages = { heritage_korean }
 	titles = { k_yongson_throne }
+	flavourization_rules = {
+		spouse_takes_title = no
+	}
 }
 king_yongson_throne_female_korean = {
 	type = character
 	special = holder
 	gender = female
 	priority = 2000
+	heritages = { heritage_korean }
+	titles = { k_yongson_throne }
+	flavourization_rules = {
+		spouse_takes_title = no
+	}
+}
+spouse_king_yongson_throne_male_korean = {
+	type = character
+	special = holder
+	gender = male
+	priority = 1999
+	heritages = { heritage_korean }
+	titles = { k_yongson_throne }
+}
+spouse_king_yongson_throne_female_korean = {
+	type = character
+	special = holder
+	gender = female
+	priority = 1999
 	heritages = { heritage_korean }
 	titles = { k_yongson_throne }
 }
@@ -46,7 +90,7 @@ emperor_dictator_male_korean = {
 	special = holder
 	gender = male
 	tier = empire
-	priority = 201
+	priority = 300
 	heritages = { heritage_korean }
 	titles = { e_goryeo }
 	flavourization_rules = { 
@@ -59,7 +103,7 @@ emperor_dictator_female_korean = {
 	special = holder
 	gender = female
 	tier = empire
-	priority = 201
+	priority = 300
 	heritages = { heritage_korean }
 	titles = { e_goryeo }
 	flavourization_rules = { 
@@ -77,6 +121,7 @@ emperor_male_korean = {
 	heritages = { heritage_korean }
 	flavourization_rules = { 
 		only_independent = yes
+		spouse_takes_title = no
 	}
 }
 emperor_female_korean = {
@@ -85,6 +130,29 @@ emperor_female_korean = {
 	gender = female
 	tier = empire
 	priority = 199
+	heritages = { heritage_korean }
+	flavourization_rules = { 
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+spouse_emperor_male_korean = {
+	type = character
+	special = holder
+	gender = male
+	tier = empire
+	priority = 198
+	heritages = { heritage_korean }
+	flavourization_rules = { 
+		only_independent = yes
+	}
+}
+spouse_emperor_female_korean = {
+	type = character
+	special = holder
+	gender = female
+	tier = empire
+	priority = 198
 	heritages = { heritage_korean }
 	flavourization_rules = { 
 		only_independent = yes
@@ -97,7 +165,6 @@ hegemon_male_korean = {
 	tier = hegemony
 	priority = 283
 	heritages = { heritage_korean }
-	governments = { meritocratic_government steppe_admin_government }
 }
 hegemon_female_korean = {
 	type = character
@@ -106,7 +173,22 @@ hegemon_female_korean = {
 	tier = hegemony
 	priority = 283
 	heritages = { heritage_korean }
-	governments = { meritocratic_government steppe_admin_government }
+}
+spouse_hegemon_male_korean = {
+	type = character
+	gender = female
+	special = holder
+	tier = hegemony
+	priority = 282
+	heritages = { heritage_korean }
+}
+spouse_hegemon_female_korean = {
+	type = character
+	gender = female
+	special = holder
+	tier = hegemony
+	priority = 282
+	heritages = { heritage_korean }
 }
 
 estate_holder_male_korean = {
@@ -138,7 +220,7 @@ spouse_administrative_female_korean = { # Lady
 	type = character
 	gender = female
 	special = holder
-	priority = 500
+	priority = 40
 	governments = { meritocratic_government administrative_government }
 	heritages = { heritage_korean }
 }
@@ -486,14 +568,62 @@ king_male_balhae = {
 	special = holder
 	gender = male
 	tier = kingdom
-	priority = 46
+	priority = 47
 	name_lists = { name_list_balhae }
+	flavourization_rules = {
+		spouse_takes_title = no
+	}
 }
-king_female_balhae = {
+spouse_king_female_balhae = {
 	type = character
-	special = holder
 	gender = female
+	special = holder
 	tier = kingdom
 	priority = 46
 	name_lists = { name_list_balhae }
+}
+
+emperor_goryeo_male_korean = {
+	type = character
+	special = holder
+	gender = male
+	tier = empire
+	priority = 250
+	heritages = { heritage_korean }
+	titles = { e_goryeo }
+	flavourization_rules = { 
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+emperor_goryeo_female_korean = {
+	type = character
+	special = holder
+	gender = female
+	tier = empire
+	priority = 250
+	heritages = { heritage_korean }
+	titles = { e_goryeo }
+	flavourization_rules = { 
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+spouse_goryeo_emperor_male_korean = {
+	type = character
+	special = holder
+	gender = male
+	tier = empire
+	priority = 249
+	heritages = { heritage_korean }
+	titles = { e_goryeo }
+}
+spouse_goryeo_emperor_female_korean = {
+	type = character
+	special = holder
+	gender = female
+	tier = empire
+	priority = 249
+	heritages = { heritage_korean }
+	titles = { e_goryeo }
 }

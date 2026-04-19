@@ -1,7 +1,8 @@
 ﻿l_polish:
- # the silky silk road
+ # the Silk Road
  silk_road_situation: "Jedwabny Szlak"
  silk_road_situation_desc: "$game_concept_silk_road_situation_desc$"
+ situation_silk_road_situation_desc: "$silk_road_situation_desc$"
  game_concept_silk_road_situation: "Jedwabny Szlak"
  game_concept_silk_road: "$game_concept_silk_road_situation$"
  game_concept_silk_road_situation_desc: "$game_concept_silk_road_situation$ to nie jedna droga, ale cała sieć szlaków, które łączą najdalsze zakątki cywilizacji, umożliwiając wymianę złota, towarów i pomysłów. Dostęp do Jedwabnego Szlaku oznacza dostęp do wszystkich bogactw świata.\n\nRóżne poziomy dostępu do Jedwabnego Szlaku zapewniają różne premie w złocie i mogą zapewnić wyjątkowe możliwości odblokowania egzotycznych [Concept('innovations', 'innowacji')|E]. Ilość złota i wiedzy dostępnych na Jedwabnym Szlaku będzie się zmieniać w zależności od jego dobrobytu, na który wpływa wiele czynników, w tym wojny, wydarzenia i [dynastic_cycle|El] Chin."
@@ -82,7 +83,7 @@
  no_available_innovation_at_silk_road_market_desc: "Na tym rynku nie są rozpowszechniane żadne [silk_road_innovations|El], które są nieznane twojej [Concept('culture', 'kulturze')|E]"
  travel_silk_road_market_desc: "Wyruszysz w [travel|El] do miejsca znanego jako [destination_province.GetName]"
  travel_silk_road_market_long_tt: "@warning_icon! #X Podróż do miejsca znanego jako [destination_province.GetName] będzie droższa i zajmie więcej czasu, ponieważ leży ono daleko#!"
- travel_silk_road_market_innovation_warning_tt: "@alert_icon! #alert_trial [destination_province.GetName] – #!#alert_trial jeśli podróż do tego miejsca zajmie więcej niż następująca liczba lat:#! #italic #V [GetSituation('silk_road_situation').MakeScope.Var('innovation_travel_countdown').GetValue|V0]#!#!, tamtejsza innowacja zmieni się przed twoim przybyciem#!"
+ travel_silk_road_market_innovation_warning_tt: "@alert_icon! #alert_trial [destination_province.GetName] – jeśli podróż do tego miejsca zajmie więcej niż#! #italic #V [GetSituation('silk_road_situation').MakeScope.Var('innovation_travel_countdown').GetValue|V0] l.#!#!#alert_trial , tamtejsza innowacja zmieni się przed twoim przybyciem#!"
  potential_innovation_at_silk_road_market_desc: "[sub_region_temp.MakeScope.Var('innovation').CultureInnovationType.GetName|V] – ta [silk_road_innovation|El] może stać się dostępna dla [Concept('culture', 'kultury')|E], która jest [THIS.Char.GetCulture.GetName|l]"
  tgp_silk_road_events.0010.t.market: "Rynek miejsca znanego jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"
  tgp_silk_road_events.0010.t.khrom: "Khromy miejsca znanego jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"
@@ -117,7 +118,8 @@
  SILK_ROAD_WINDOW_CATALYSTS_LIST: "Katalizatory Jedwabnego Szlaku"
  FUTURE_PHASE_PROGRESSING_TEXT: "Liczba lat do zakończenia: $YEARS|V$"
  SILK_ROAD_REGION_EFEFCTS: "Efekty regionu:"
- FUTURE_PHASE_HEADER: "Postęp w kierunku nowej fazy:\n[SituationPhaseType.GetName]: [SituationPhase.GetPhaseRelativeProgressPercent|%]"
+ FUTURE_PHASE_HEADER: "Postęp do kolejnej [Concept('dynastic_cycle_era_short', 'epoki')|E]:"
+ FUTURE_PHASE_VALUE: "[SituationPhaseType.GetName]: [SituationPhase.GetPhaseRelativeProgressPercent|V%]"
  SILK_ROAD_HEADER_DESC: "Sieć targowisk, przystanków i wydeptanych ścieżek wśród odludnych krajobrazów sprawia, że Jedwabny Szlak daje szansę na zbicie fortuny i odkrycie nowych idei tym, którzy odważą się przebyć jego legendarne trasy."
  dlc_tgp_silk_road_route_region: "Jedwabny Szlak"
  tgp_silk_road_region: "Jedwabny Szlak"

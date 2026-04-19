@@ -2776,6 +2776,10 @@ emperor_feudal_male_roman = {
 	priority = 102
 	governments = { feudal_government administrative_government }
 	name_lists = { name_list_roman }
+
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }
 emperor_feudal_female_roman = {
 	type = character
@@ -2785,6 +2789,10 @@ emperor_feudal_female_roman = {
 	priority = 102
 	governments = { feudal_government administrative_government }
 	name_lists = { name_list_roman }
+
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }
 
 # Republic
@@ -2999,6 +3007,7 @@ emperor_feudal_male_greek = {
 	name_lists = { name_list_greek }
 	flavourization_rules = {
 		top_liege = no
+		only_independent = yes
 	}
 }
 emperor_feudal_female_greek = {
@@ -6745,6 +6754,193 @@ empire_feudal_muslim_dravidian_group = {
 	}
 }
 
+ ###Muslim Austronesian###
+ baron_feudal_male_austronesian_muslim_group = {
+ 	type = character
+ 	gender = male
+ 	special = holder
+ 	tier = barony
+ 	priority = 8
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ baron_feudal_female_austronesian_muslim_group = {
+ 	type = character
+ 	gender = female
+ 	special = holder
+ 	tier = barony
+ 	priority = 8
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ barony_feudal_austronesian_muslim_group = {
+ 	type = title
+ 	tier = barony
+ 	priority = 8
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ count_feudal_male_austronesian_muslim_group = {
+ 	type = character
+ 	gender = male
+ 	special = holder
+ 	tier = county
+ 	priority = 19
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ count_feudal_female_austronesian_muslim_group = {
+ 	type = character
+ 	gender = female
+ 	special = holder
+ 	tier = county
+ 	priority = 19
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ county_feudal_austronesian_muslim_group = {
+ 	type = title
+ 	tier = county
+ 	priority = 19
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ duke_feudal_male_austronesian_muslim_group = {
+ 	type = character
+ 	gender = male
+ 	special = holder
+ 	tier = duchy
+ 	priority = 28
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ duke_feudal_female_austronesian_muslim_group = {
+ 	type = character
+ 	gender = female
+ 	special = holder
+ 	tier = duchy
+ 	priority = 28
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ duchy_feudal_austronesian_muslim_group = {
+ 	type = title
+ 	tier = duchy
+ 	priority = 28
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ king_feudal_male_austronesian_muslim_group = {
+ 	type = character
+ 	gender = male
+ 	special = holder
+ 	tier = kingdom
+ 	priority = 48
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ king_feudal_female_austronesian_muslim_group = {
+ 	type = character
+ 	gender = female
+ 	special = holder
+ 	tier = kingdom
+ 	priority = 48
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ kingdom_feudal_austronesian_muslim_group = {
+ 	type = title
+ 	tier = kingdom
+ 	priority = 48
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ emperor_feudal_male_austronesian_muslim_group = {
+ 	type = character
+ 	gender = male
+ 	special = holder
+ 	tier = empire
+ 	priority = 103
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ emperor_feudal_female_austronesian_muslim_group = {
+ 	type = character
+ 	gender = female
+ 	special = holder
+ 	tier = empire
+ 	priority = 103
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+ empire_feudal_austronesian_muslim_group = {
+ 	type = title
+ 	tier = empire
+ 	priority = 103
+ 	governments = { feudal_government clan_government tribal_government administrative_government republic_government mandala_government }
+ 	heritages = { heritage_austronesian }
+ 	religions = { islam_religion }
+ 	flavourization_rules = { 
+ 		top_liege = no
+ 	}
+ }
+
 ## Tai Group ###
 baron_feudal_male_tai_group = {
 	type = character
@@ -9561,6 +9757,66 @@ king_administrative_independent_female_roman = {
 	}
 }
 
+emperor_administrative_vassal_male_byzantine_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { administrative_government }
+	heritages = { heritage_byzantine }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+		only_vassals = yes
+	}
+}
+emperor_administrative_vassal_female_byzantine_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { administrative_government }
+	heritages = { heritage_byzantine }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+		only_vassals = yes
+	}
+}
+emperor_administrative_vassal_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { administrative_government }
+	name_lists = { name_list_roman }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+		only_vassals = yes
+	}
+}
+emperor_administrative_vassal_female_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { administrative_government }
+	name_lists = { name_list_roman }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+		only_vassals = yes
+	}
+}
 emperor_administrative_male_greek = {
 	type = character
 	gender = male
@@ -9570,6 +9826,10 @@ emperor_administrative_male_greek = {
 	governments = { administrative_government }
 	name_lists = { name_list_greek }
 	titles = { e_byzantium }
+
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }
 emperor_administrative_female_greek = {
 	type = character
@@ -9580,6 +9840,10 @@ emperor_administrative_female_greek = {
 	governments = { administrative_government }
 	name_lists = { name_list_greek }
 	titles = { e_byzantium }
+
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }
 emperor_administrative_male_roman = {
 	type = character
@@ -9589,6 +9853,10 @@ emperor_administrative_male_roman = {
 	priority = 108
 	governments = { administrative_government }
 	name_lists = { name_list_roman }
+
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }
 emperor_administrative_female_roman = {
 	type = character
@@ -9598,6 +9866,10 @@ emperor_administrative_female_roman = {
 	priority = 108
 	governments = { administrative_government }
 	name_lists = { name_list_roman }
+
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }
 hegemon_administrative_male_roman = {
 	type = character
@@ -9608,6 +9880,10 @@ hegemon_administrative_male_roman = {
 	governments = { administrative_government }
 	#name_lists = { name_list_roman }
 	titles = { h_roman_empire h_eastern_roman_empire }
+
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }
 hegemon_administrative_female_roman = {
 	type = character
@@ -9618,6 +9894,10 @@ hegemon_administrative_female_roman = {
 	governments = { administrative_government }
 	#name_lists = { name_list_roman }
 	titles = { h_roman_empire h_eastern_roman_empire }
+
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }
 
 hegemon_male_indic = {

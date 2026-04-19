@@ -268,7 +268,7 @@
  diarchy.1741.desc:1 ""We are not opposed to [liege.GetTitledFirstNamePossessive] wishes", drawls [councillor_1.GetTitledFirstName], sneering all the while, "merely not enslaved to them. It's not so hard to understand".\n\nI've spent the better part of my afternoon trying to improve relations between my liege and [liege.GetHerHis] councillors, to no avail, thanks in no small part to this ignorant [councillor_1.GetWomanMan]'s bullheadedness.\n\nI sigh internally. I am the [liege.GetDiarchTitle], and my mandate necessitates these duties."
  diarchy.1741.a:0 "I think you're missing how much the [liege.GetTitleAsNameNoTooltip] does for you..."
  diarchy.1741.a.t:0 "$diarchies.0000.diarch_fulfills_mandate.t$"
- diarchy.1741.custom.several_councillors:0 "Every councillor present\t"
+ diarchy.1741.custom.several_councillors:0 "Every [councillor|E] present\t"
  diarchy.1741.b:0 "Nor should you be, but better service encourages beneficence..."
  diarchy.1741.b.tt.success:0 "You illuminate your colleagues"
  diarchy.1741.b.tt.failure:0 "The council remains thorny"

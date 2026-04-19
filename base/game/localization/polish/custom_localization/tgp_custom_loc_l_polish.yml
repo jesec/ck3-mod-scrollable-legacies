@@ -58,6 +58,7 @@
  BlocReasonPlayer: "z powodu nieprzewidywalności ludzkiej natury"
  BlocReasonWar: "w wyniku wojny [Concept('house_bloc', 'koalicji rodów')|E]"
  BlocReasonEvents: "w wyniku wydarzenia"
+ BlocReasonIntent: "w wyniku zamiaru przeprowadzenia [Concept('activity', 'aktywności')|E]"
  BlocReasonPrestige: "z powodu różnicy w [Concept('prestige_levels', 'poziomach sławy')|E] przywódców [Concept('house_bloc', 'koalicji rodów')|E]"
  BlocReasonInfluence: "z powodu różnicy w [Concept('influence_levels', 'poziomach wpływu')|E] przywódców [Concept('house_bloc', 'koalicji rodów')|E]"
  BlocReasonMilitaryStrength: "z powodu różnicy w sile militarnej przywódców [Concept('house_bloc', 'koalicji rodów')|E]"
@@ -70,3 +71,5 @@
  BlocReasonBribePrestige: "z powodu szczodrej łapówki w [prestige_i] [Concept('prestige', 'prestiżu')|E]"
  BlocReasonBribeInfluence: "z powodu szczodrej łapówki we [influence_i] [Concept('influence', 'wpływie')|E]"
  BlocReasonBribeHook: "z powodu użycia [hook_i] [Concept('hook', 'haka')|E]"
+ BlocReasonKicked: "z powodu usunięcia przez [leading_house|El]"
+ BlocReasonFollowedLiege: "w celu dołączenia do [Concept('bloc', 'koalicji')|E] [Concept('liege', 'seniora')|E] [house_heads_possessive|El]"

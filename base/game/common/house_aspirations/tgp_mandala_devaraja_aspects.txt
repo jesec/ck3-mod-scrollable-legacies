@@ -72,6 +72,7 @@ aspect_of_creation = {
 			aspect_of_creation_ways_to_die = yes
 			creator_10_year_modifier = yes
 			creator_builder_01 = yes
+			can_build_in_tributaries = yes
 			unlock_coerce_contribution_scheme = yes
 		}
 
@@ -138,6 +139,7 @@ aspect_of_creation = {
 			aspect_of_creation_ways_to_die = yes
 			creator_10_year_interim_modifier = yes
 			creator_builder_02 = yes
+			can_build_in_tributaries = yes
 			unlock_coerce_contribution_scheme = yes
 		}
 
@@ -176,6 +178,7 @@ aspect_of_creation = {
 			aspect_of_creation_ways_to_die = yes
 			creator_20_year_modifier = yes
 			creator_builder_03 = yes
+			can_build_in_tributaries = yes
 			unlock_coerce_contribution_scheme = yes
 		}
 
@@ -214,6 +217,7 @@ aspect_of_creation = {
 			aspect_of_creation_ways_to_die = yes
 			creator_20_year_interim_modifier = yes
 			creator_builder_04 = yes
+			can_build_in_tributaries = yes
 			unlock_coerce_contribution_scheme = yes
 		}
 
@@ -249,6 +253,7 @@ aspect_of_creation = {
 			aspect_of_creation_ways_to_die = yes
 			creator_30_year_modifier = yes
 			creator_builder_05 = yes
+			can_build_in_tributaries = yes
 			unlock_coerce_contribution_scheme = yes
 			may_override_stewardship_succession_trial = yes
 		}
@@ -773,7 +778,7 @@ aspect_of_destruction = {
 			aspect_of_destruction_ways_to_die = yes
 			can_use_plunder_for_contribution_cb = yes
 			can_make_mandala_tributaries_via_war = yes
-			has_unlimited_invasion_cb = yes
+			has_mandala_invasion_cb = yes
 			may_override_martial_succession_trial = yes
 		}
 

@@ -516,7 +516,7 @@
  proving_grounds_nightly_barding_drills_domicile_building_desc: "#weak (Requiere [GetDomicileBuilding('proving_grounds_01').GetName|l])#!\nLos eslabones se retuercen, el cuero salta, las placas se oxidan y la instrucción se desvanece igual para la caballería pesada de élite como para cualquier otra."
  proving_grounds_life_in_the_saddle_domicile_building: "La vida sobre la silla"
  proving_grounds_life_in_the_saddle_domicile_building_desc: "#weak (Requiere [GetDomicileBuilding('proving_grounds_01').GetName|l])#!\nAlgunos nacen en ella, otros son criados en ella más tarde en la vida."
- proving_grounds_life_in_the_saddle_horse_archers_tt: "Debes tener un [regiment|lE] de [GetMaA('heavy_horse_archers').GetName|l] o de [GetMaA('horse_archers').GetName|l]"
+ proving_grounds_life_in_the_saddle_horse_archers_tt: "Debes tener al menos un [regiment|El] de [archer_cavalry|El]"
  #TIT-53191
  proving_grounds_the_stump_domicile_building: "El tocón"
  #proving_grounds_the_stump_domicile_building: "The [GetPlayer.Custom('GetStumpName')|U]"

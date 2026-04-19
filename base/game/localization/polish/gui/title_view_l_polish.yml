@@ -119,7 +119,7 @@
  SORT_BY_STEWARDSHIP: "Sortuj według umiejętności [Concept( 'stewardship', 'zarządzania' )|E]: [Select_CString( And( CharacterSelectionList.IsSortingBySkill( '(int32)2' ), Not( CharacterSelectionList.GetSortOrder ) ), 'Rosnąco', 'Malejąco' )|V]"
  SORT_BY_INTRIGUE: "Sortuj według umiejętności [Concept( 'intrigue', 'intrygii' )|E]: [Select_CString( And( CharacterSelectionList.IsSortingBySkill( '(int32)3' ), Not( CharacterSelectionList.GetSortOrder ) ), 'Rosnąco', 'Malejąco' )|V]"
  SORT_BY_LEARNING: "Sortuj według umiejętności [Concept( 'learning', 'nauki' )|E]: [Select_CString( And( CharacterSelectionList.IsSortingBySkill( '(int32)4' ), Not( CharacterSelectionList.GetSortOrder ) ), 'Rosnąco', 'Malejąco' )|V]"
- CLAIMANT_NOT_A_THREAT: "#T Nie można wysunąć [claims|el]#!\n[GuiClaimant.IsAllyDesc]"
+ CLAIMANT_NOT_A_THREAT: "#T Nie można wysunąć [Concept('claim', 'roszczenia')|E]#!\n[GuiClaimant.IsAllyDesc]"
  CAN_ATTACK_IS_SUBJECT_OF: "[CHARACTER.GetShortUINameNotMe|U] jest [Concept( 'vassal', 'wasalem' )|E][TARGET_CHARACTER.GetShortUINameNotMe]"
  CAN_ATTACK_NOT_LANDED: "[CHARACTER.GetShortUINameNotMe|U] nie posiada ziem"
  STRONG_CLAIM: "[pressed_claim_i] [pressed_claim|E]"

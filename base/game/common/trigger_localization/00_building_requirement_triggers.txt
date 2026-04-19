@@ -16,6 +16,9 @@ building_requirement_herder_holding_in_county = {
 building_requirement_castle_city_church_failed = {
 	third = BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED
 }
+building_requirement_castle_city_church_tribe_failed = {
+	third = BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_TRIBE_FAILED
+}
 
 building_requirement_hall_of_heroes_failed = {
 	third_not = NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED

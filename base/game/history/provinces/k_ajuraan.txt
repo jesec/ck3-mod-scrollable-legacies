@@ -1,4 +1,4 @@
-#k_ajuraan
+﻿#k_ajuraan
 ##d_hafun ###################################
 ###c_ras_hafun
 8432 = {	#RAS_HAFUN
@@ -62,10 +62,6 @@
 			cereal_fields_01
 		}
 	}
-}
-8461 = {	#MARKA
-	holding = city_holding
-	#Inhabited since VIth century
 }
 8462 = {	#AFGOOYE
 	holding = none
@@ -137,13 +133,16 @@
 
 ##d_west_ajuraan ###################################
 ###c_jubba
-8457 = {	#JUBBA-AJURAAN
+8459 = {	#BARDHERE
 	culture = somali
 	religion = waaqism_pagan
 	holding = tribal_holding
 	1030.1.1 = {
 		religion = ashari
 	}
+}
+8457 = {	#JUBBA-AJURAAN
+	holding = none
 }
 8491 = {	#JUBBA-NORTH
 	holding = none
@@ -184,19 +183,25 @@
 }
 
 ###c_jilib
-8473 = {	#JILIB
+8461 = {	#QORYOLEY
 	culture = somali
 	religion = waaqism_pagan
 	holding = tribal_holding
+	#Inhabited since VIth century
 	1030.1.1 = {
 		religion = ashari
 	}
-}
-8459 = {	#BARDHERE
-	holding = none
-	#holding = city_holding
+	1059.1.1 = {
+		holding = castle_holding
+	}
 }
 8460 = {	#BARAAWE
+	holding = none
+	1064.1.1 = {
+		holding = city_holding
+	}
+}
+8473 = {	#JILIB
 	holding = none
 }
 

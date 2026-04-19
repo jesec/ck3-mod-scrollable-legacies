@@ -57,3 +57,7 @@
  DYNASTY_SPLENDOR: "宗族威望等级："
  DYNASTY_LEGACIES: "宗族传承"
  DYNASTY_HOUSE_VIEW_LEGACY_COST: "下一传承：[dynasty_prestige_i][Dynasty.GetNextPerkCost|V0]"
+ DYNASTY_HOUSE_FROM_MEMBERS: "来自[dynasty_members|E]："
+ DYNASTY_HOUSE_FROM_MEMBERS_EXCESS: "来自其他[dynasty_members|E]："
+ DYNASTY_HOUSE_FROM_RULERS: "来自统治者："
+ DYNASTY_HOUSE_PRESTIGE_MULTIPLIERS: "乘数："

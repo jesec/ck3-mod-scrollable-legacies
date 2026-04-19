@@ -11,8 +11,8 @@ top_participant_group_equal = {
 	global_not = top_participant_group_equal_global_not	
 }
 tgp_is_hegemon_or_below_in_dynastic_cycle_trigger_tt = {
-	global = tgp_is_hegemon_or_below_in_dynastic_cycle_trigger_tt_global
-	global_not = tgp_is_hegemon_or_below_in_dynastic_cycle_trigger_tt_global_not
+	global = tgp_is_hegemon_or_below_in_dynastic_cycle_trigger_global
+	global_not = tgp_is_hegemon_or_below_in_dynastic_cycle_trigger_global_not
 }
 grand_campaign_target_border_tt = {
 	global = grand_campaign_target_border_tt_global

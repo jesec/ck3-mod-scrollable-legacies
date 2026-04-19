@@ -36,6 +36,7 @@
  FACTION_JAPANESE_RESTORE_EMPEROR: "$restore_ceremonial_liege_faction_name$要求"
  FACTION_JAPANESE_RESTORE_EMPEROR_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n你对于[ROOT.Char.Custom('GetTitleTierAdjective')]朝廷、皇室和全体[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]人的暴政，必须终结！\n\n为我等真正的统治者[faction.GetSpecialCharacter.GetTitledFirstName]让路！"
  tgp_faction_events.0201.b: "你会为玷污[faction.GetSpecialCharacter.GetTitleAsNamePossessiveNoTooltip]的荣誉而付出代价！"
+ tgp_faction_events.0201.b.cm: "你这是想把[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]撕裂开！？"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED: "$restore_ceremonial_liege_faction_name$的要求被接受了"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED_DESC: "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n我仅仅是一心为了[ROOT.Char.Custom('GetTitleTierAdjective')]朝廷、皇室和全体[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]人考虑！\n\n尽管我质疑你的动机，我不会挡住[faction.GetSpecialCharacter.GetTitledFirstName]的前路。"
  FACTION_JAPANESE_RESTORE_EMPEROR_REFUSED: "$restore_ceremonial_liege_faction_name$的要求被拒绝了"

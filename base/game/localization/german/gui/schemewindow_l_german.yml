@@ -18,7 +18,7 @@
  SCHEME_COOLDOWN_INFO: "Ihr könnt für $TIME|V$ kein weiteres [SCHEME.GetSchemeType.GetTypeName] gegen [SCHEME.GetTarget.GetName] schmieden."
  SCHEME_WINDOW_PROGRESS_TOOLTIP: "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
  SCHEME_WINDOW_PROGRESS_INFO: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))|V] bis zur nächsten [scheme_phase_phase|E]"
- SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Komplott ist pausiert, weil Ihr auf Reisen seid"
+ SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Komplott pausiert ([Scheme.GetFrozenReason])#!"
  SCHEME_WINDOW_PROGRESS_INFO_BASIC: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))] bis zum Abschluss"
  SCHEME_WINDOW_PROGRESS_INFO_BREAKDOWN: "[Scheme.GetSpeedDescription]"
  SCHEME_WINDOW_OPPORTUNITIES_INFO_BREAKDOWN: "1 [scheme_opportunity_opportunity|E] für je [Scheme.GetPhasesPerOpportunity] [scheme_phase_phases|E] erhalten\n[Scheme.GetPhasesRemainingUntilOpportunity] [scheme_phase_phases|E] bis zum nächsten [scheme_opportunity_opportunity|E]\n#EMP Mindestens#! [Scheme.MakeScope.ScriptValue('scheme_charge_to_advance_threshold_value')] [scheme_opportunity_opportunities|E] zur Ausführung erforderlich#!"

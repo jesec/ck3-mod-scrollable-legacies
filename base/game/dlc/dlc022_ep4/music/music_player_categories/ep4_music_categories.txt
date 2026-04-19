@@ -27,5 +27,8 @@
 		"mx_mood_bisho"
 		"mx_mood_cloud_feather_dance"
 		"mx_mood_peace_with_the_dawn"
+		"mx_mood_the_way_of_the_dragon"
+		"mx_mood_green_valley"
+		"mx_mood_a_venerable_dynasty"
 	}
 }

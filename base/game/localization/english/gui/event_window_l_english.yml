@@ -125,7 +125,7 @@
  EVENT_WINDOW_OPTION_SEA_LEGACY_OVERRIDE: "This option is available because of the [GetDynastyPerk( 'tgp_sea_legacy_5' ).GetName]"
  EVENT_WINDOW_OPTION_AVAILABLE_CELESTIAL_MILITARY_APPOINTMENT: "This option is available because of your @celestial_military_administration! Military Administration"
  EVENT_WINDOW_OPTION_AVAILABLE_MOVEMENT: "This option is available because of your belonging to the [GetPlayer.Custom('GetMyMovement')]"
- EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "This option is available because of the [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] [situation_phase|E] of the [dynastic_cycle|E]"
+ EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "This option is available because of the [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] [situation_dynastic_cycle_phase|E]"
  EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "This option is available because of your $learned_philosophers_house_power$ [powerful_family_attribute|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE_FOCUS: "This option is available because of your [GetPlayer.GetFocus.GetName]"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE: "This option is available because of your [lifestyle|E]"

@@ -83,7 +83,7 @@
  lesson_china_STUDY_SCHEME_SEGMENT: "学习"
  TUTORIAL_OPEN_DECISION_PANEL_PROMPT: "打开“$DECISIONS_VIEW_TITLE$”面板"
  lesson_china_decisions_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
- lesson_china_decisions_open_desc: "一旦你决定参加[imperial_examinations|E]，做好充分准备会有所帮助。\n\n你可以通过学习儒家经典准备$game_concept_examinations$。"
+ lesson_china_decisions_open_desc: "一旦你决定参加[imperial_examination|E]，做好充分准备会有所帮助。\n\n你可以通过学习儒家经典准备$game_concept_examinations$。"
  lesson_china_decisions_open_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
  lesson_china_decisions: "$lesson_china_STUDY_SCHEME_SEGMENT$"
  lesson_china_decisions_desc: "这些是决议，你可以采取的各种私人行动。\n\n目前让我们选择$tgp_china_study_confucian_classics_decision|V$。"

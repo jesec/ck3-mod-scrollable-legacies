@@ -52,6 +52,7 @@
  death_management.liege_councillor.desc: "Euer [councillor|E] [dead_character.GetFullName] [dead_character.GetDeathReason]."
  death_management.liege.desc: "Euer [vassal|E] [dead_character.GetFullName] [dead_character.GetDeathReason]."
  death_management.pinned.desc: "Ein Mensch, der für Euch von Interesse ist, [dead_character.GetNameNoTooltip], [dead_character.GetDeathReason]."
+ death_management.elder.desc: "Euer [elder|E], [deceased_elder.GetFullName], verstarb ([deceased_elder.GetDeathReason|U])."
  death_management.1008.desc: "[dead_character.GetTitledFirstName], [dead_character.Custom('DE_ART_DEF_S_N')] mein[spouse_of_dead_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))] [spouse_of_dead_character.GetFirstName] als Ehepartner[dead_character.Custom('DE_END_NOU_S_GS_N')] um sich hatte, ist verstorben. All diese sorgfältig geschmiedeten Pläne, zerteilt von des Todes launischer Sense, obgleich solcherlei Beschwerden wohl gering erscheinen verglichen mit dem Schmerz [dead_character.Custom('DE_PRO_POS_S_3P')]er Familie …"
  death_management.1008.a: "Ruhet in Frieden."
  death_management.1008.a.tt: "[dead_character.Custom('DE_ART_DEF_S_N')|U] Ehepartner[dead_character.Custom('DE_END_NOU_S_GS_N')] von [spouse_of_dead_character.GetFirstName], [dead_character.GetTitledFirstName], [dead_character.GetDeathReason]."

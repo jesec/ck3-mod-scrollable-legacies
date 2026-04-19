@@ -1244,7 +1244,7 @@ destiny_child.1025 = {
 		}
 	}
 	after = {
-		scope:soldier = {
+		scope:famous_knight = {
 			silent_disappearance_ai_effect = yes
 		}
 	}

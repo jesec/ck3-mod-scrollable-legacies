@@ -159,3 +159,5 @@
  grant_court_position: "王宮役職に任命"
  grant_court_position_desc: "[recipient.GetShortUINameNoTooltip]に[court_position|E]を与える"
  request_court_position_extra_icon: "$hook_extra_icon$"
+ celestial_extinguish_noble_family_interaction: "貴族の一族を滅ぼす"
+ celestial_extinguish_noble_family_interaction_desc: "[recipient.GetShortUIName]とその成人の後継者を[execute|E]し、残りの親族を[realm|E]から[banish|E]する"

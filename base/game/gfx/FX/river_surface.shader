@@ -1,5 +1,5 @@
 {
-  "size": 1910,
-  "sha256": "ad4b59f8e76b183132802897a35ed2b3d6f529bafe9834e7c424840f89d8cc62",
+  "size": 1876,
+  "sha256": "dc52d0f16972559ab68d0776b2b828d40ea6a61609addbc59e61b7f8910c84d0",
   "note": "Binary file excluded from repository. Metadata only."
 }

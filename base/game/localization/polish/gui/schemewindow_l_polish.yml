@@ -18,7 +18,7 @@
  SCHEME_COOLDOWN_INFO: "Nie możesz rozpocząć kolejnego spisku „[SCHEME.GetSchemeType.GetTypeName]” przeciwko osobie, którą jest [SCHEME.GetTarget.GetName], przez $TIME|V$."
  SCHEME_WINDOW_PROGRESS_TOOLTIP: "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
  SCHEME_WINDOW_PROGRESS_INFO: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))|V] do kolejnej [Concept('scheme_phase_phase', 'fazy')|E]"
- SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Spisek został wstrzymany, ponieważ odbywasz podróż"
+ SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Spisek został wstrzymany. Powód: [Scheme.GetFrozenReason]"
  SCHEME_WINDOW_PROGRESS_INFO_BASIC: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))] do ukończenia"
  SCHEME_WINDOW_PROGRESS_INFO_BREAKDOWN: "[Scheme.GetSpeedDescription]"
  SCHEME_WINDOW_OPPORTUNITIES_INFO_BREAKDOWN: "Po [Scheme.GetPhasesPerOpportunity] [Concept('scheme_phase_phases', 'fazach spisku')|E] uzyskiwana jest 1 [scheme_opportunity_opportunity|El]\nLiczba [Concept('scheme_phase_phases', 'faz spisku')|E] pozostała do uzyskania kolejnej [Concept('scheme_opportunity_opportunity', 'przewagi')|E]: [Scheme.GetPhasesRemainingUntilOpportunity]\n#EMP Minimalna#! liczba [Concept('scheme_opportunity_opportunities', 'przewag')|E] wymagana do zrealizowania spisku: [Scheme.MakeScope.ScriptValue('scheme_charge_to_advance_threshold_value')]#!"

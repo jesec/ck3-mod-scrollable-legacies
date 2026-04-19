@@ -43,3 +43,5 @@
  global_culture.3011.desc: "남부 이탈리아와 시칠리아 사람들의 다방면에 걸친 교류는 특이한 문화의 탄생을 불러왔다. 아주 많은 요인들이 그 문화의 탄생에 영향을 주었다.\n\n이제 [county_to_change.GetName] 사람들은 자신을 [old_culture.GetName] 사람으로 여기지 않고 [sicilian.GetCollectiveNoun]사람으로 여긴다!"
  global_culture.3011.a: "이 얼마나 흥미로운 발전인가..."
  global_culture.3012.a: "멋지군!"
+ global_culture.4011.t: "[goryeo.GetNameNoTooltip] 문화의 전파"
+ global_culture.4011.desc: "삼국의 백성들은 통일 이후 더 넓은 정체성을 공유하게 되었고, 수많은 영향력이 반영된 독자적인 문화를 낳았다.\n\n이제 [county_to_change.GetName] 백성들은 더 이상 자신을 [old_culture.GetName] 사람으로 여기지 않는다. 오히려 토착 [goryeo.GetCollectiveNoun]인으로 여긴다는 것이 분명해졌다."

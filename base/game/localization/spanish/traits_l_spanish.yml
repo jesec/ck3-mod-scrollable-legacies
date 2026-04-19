@@ -1171,7 +1171,7 @@
  trait_track_bandit: "Bandido"
  trait_track_bandit_desc: "La luz de la ley no se extiende mucho más allá de las murallas de la ciudad; ahí fuera, la fuerza da la razón."
  trait_track_trickster: "Embaucador"
- trait_track_trickster_desc: "Una mente poco despierta no es solo una tragedia; para el inteligente, es una #!oportunidad#EMP ."
+ trait_track_trickster_desc: "Una mente poco despierta no es solo una tragedia; para el inteligente, es una #EMP oportunidad#!."
  trait_track_thief: "Ladrón"
  trait_track_thief_desc: "La posesión son nueve décimos de la ley, después de todo."
  trait_track_poacher: "Furtivo"

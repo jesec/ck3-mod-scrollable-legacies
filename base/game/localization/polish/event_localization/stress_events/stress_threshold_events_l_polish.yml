@@ -174,7 +174,7 @@
  stress_threshold.2202.desc: "Ostatnio był[Select_CString(stress_character.IsFemale, 'a', '' )] bardzo zestresowan[Select_CString(stress_character.IsFemale, 'a', 'y' )], ale"
  stress_threshold.2202.desc.rival: "kiedy poprosił[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], aby wytłumaczył[Select_CString(stress_character.IsFemale, 'a', '' )] się, rzucił[Select_CString(stress_character.IsFemale, 'a', '' )] we mnie tylko kolejnymi obelgami."
  stress_threshold.2202.desc.other: "żeby zachowywać się w ten sposób…"
- stress_threshold.2202.a: "Odpłacę pięknym za nadobne. – [stress_character.Custom2('InsultNoun'), ROOT.Char|U]!"
+ stress_threshold.2202.a: "[stress_character.Custom2('InsultNoun', ROOT.Char)|U] z ciebie! Odpłacę ci pięknym za nadobne."
  stress_threshold.2202.b: "Że nawet [stress_character.GetSheHe] ma problemy… To mnie uspokaja."
  #Level 3 Stress Events
  stress_threshold.3001.t: "Załamanie psychiczne: głosy"

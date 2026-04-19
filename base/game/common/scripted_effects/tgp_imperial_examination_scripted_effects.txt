@@ -434,6 +434,19 @@ imperial_examination_disburse_activity_entrant_rewards = {
 			}
 			remove_character_flag = failed_imperial_examination
 		}
+        if = {
+        	limit = {
+        		has_character_flag = exam_cheat_intent
+        		NOR = {
+        			has_variable = been_caught_cheating
+        			has_variable = been_caught_cheating_longterm
+        		}
+        	}
+			add_secret = {
+				target = scope:host
+				type = secret_exam_cheater
+			}
+        }
 	}
 	#Failees
 	else = {
@@ -575,6 +588,19 @@ local_examination_disburse_activity_entrant_rewards = {
 				desc = msg_provincial_exam_close_family_passed_desc
 			}
 		}
+        if = {
+        	limit = {
+        		has_character_flag = exam_cheat_intent
+        		NOR = {
+        			has_variable = been_caught_cheating
+        			has_variable = been_caught_cheating_longterm
+        		}
+        	}
+			add_secret = {
+				target = scope:host
+				type = secret_exam_cheater
+			}
+        }
 	}
 	#Failees
 	else = {
@@ -1284,15 +1310,11 @@ imperial_examination_gather_entrants_effect = {
 				NOR = { 
 					this = scope:host
 					is_in_guest_subset = { name = imperial_examiners }
-					has_court_position = travel_leader_court_position
-					has_court_position = bodyguard_court_position
 					# If you are a player, you should get as many shots at the Palace Exam as you want.
 					has_character_flag = passed_palace_exam
 					has_trait = devoted
 					has_trait = eunuch
 				}
-				# Remove diarchs from the list.
-				bannable_serving_diarch_trigger = no
 				is_adult = yes
 			}
 			save_temporary_scope_as = temp_character
@@ -1355,8 +1377,6 @@ local_examination_gather_entrants_effect = {
 				NOR = { 
 					this = scope:host
 					is_in_guest_subset = { name = imperial_examiners }
-					has_court_position = travel_leader_court_position
-					has_court_position = bodyguard_court_position
 					# You have passed the any of the higher level exams
 					has_character_flag = passed_metropolitan_exam
 					# You have already passed the Provincial
@@ -1364,8 +1384,6 @@ local_examination_gather_entrants_effect = {
 					has_trait = devoted
 					has_trait = eunuch
 				}
-				# Remove diarchs from the list.
-				bannable_serving_diarch_trigger = no
 				is_adult = yes
 			}
 			save_temporary_scope_as = temp_character
@@ -1474,8 +1492,6 @@ imperial_examination_gather_stray_entrants_effect = {
 						is_holy_order = no
 					}
 				}
-				# Remove diarchs from the list.
-				bannable_serving_diarch_trigger = no
 				tgp_gender_can_be_exam_entrant_trigger = yes
 			}
 			add_to_list = entourage_entrants
@@ -1513,8 +1529,6 @@ imperial_examination_gather_stray_entrants_effect = {
 							is_holy_order = no
 						}
 					}
-					# Remove diarchs from the list.
-					bannable_serving_diarch_trigger = no
 					tgp_gender_can_be_exam_entrant_trigger = yes
 				}
 				add_to_list = entourage_entrants

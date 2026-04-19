@@ -783,7 +783,7 @@
  fund_inspiration.6508.introduction: "Recibo una misiva de mi aventurer[inspiration_owner.Custom('ES_OA')], que ha estado en las gélidas tierras de los bosques de la taiga.\n\n"
  fund_inspiration.6508.desc: "He pasado un tiempo rodeado de la mejor compañía que puede pedir un[inspiration_owner.Custom('ES_XA')] viajer[inspiration_owner.Custom('ES_OA')]: ¡una colonia de castores! ¡Con este mensajero os envío un libro de bocetos de las estructuras que utilizan para pescar en las aguas! ¡Oh, ser un roedor semiacuático!\n\n"
  fund_inspiration.6508.architect_desc: "Sé que [court_architect.GetTitledFirstName|l] podría aprender al menos una cosa o dos de un animal más inteligente que [court_architect.GetSheHe]»."
- fund_inspiration.6508.a: "Investigaré esto a fondo."
+ fund_inspiration.6508.a: "Leeré esto a fondo."
  fund_inspiration.6508.b: "Ciertamente, a [court_architect.GetTitledFirstNameNoTooltip|l] le vendría bien una lección."
  fund_inspiration.6508.b.tt: "La aptitud arquitectónica de [court_architect.GetTitledFirstName|l] mejora ligeramente"
  fund_inspiration.6508.c: "¡Qué animales más #EMP adorables#!! ¡[child.GetFirstNameNoTooltip] tiene que tener este libro!"

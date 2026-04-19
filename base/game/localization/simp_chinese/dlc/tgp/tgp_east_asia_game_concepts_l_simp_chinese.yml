@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  #Mandala
  game_concept_mandala: "曼荼罗制"
- game_concept_mandala_desc: "在$game_concept_mandala$[government_form|E]下，[domain_limit|E]和[direct_vassals|E]数量受到限制。[liege|E]和[suzerain|E]依靠[tributaries|E]扩大疆土。\n\n曼荼罗制统治者有望被视为神王——或称提婆罗阇，依赖于[mandala_radiance|E]来获取并维持朝贡者。\n\n统治者也需要维持与朝贡者的[opinion|E]并发展关系，以长期保有朝贡关系。朝贡者在继承时可能会脱离，除非新统治者能证明自己是合格的[mandala_succesor|E]。"
+ game_concept_mandala_desc: "在$game_concept_mandala$[government_form|E]下，[domain_limit|E]和[direct_vassals|E]数量受到限制。[liege|E]和[suzerain|E]依靠[tributaries|E]扩大疆土。\n\n曼荼罗制[ruler|E]有望被视为神王——或称提婆罗阇，依赖于[mandala_radiance|E]来获取并维持$game_concept_tributaries$。\n\n$game_concept_ruler$必须维持与朝贡者的[opinion|E]并发展关系，以长期保有$game_concept_tributaries$关系。在继承时，$game_concept_tributaries$可能会脱离，除非新$game_concept_ruler$能证明自己是合格的[mandala_succesor|E]。"
  game_concept_mandalas: "曼荼罗制"
  game_concept_mandala_government: "曼荼罗制政体"
  game_concept_mandala_i: "@government_type_mandala!"

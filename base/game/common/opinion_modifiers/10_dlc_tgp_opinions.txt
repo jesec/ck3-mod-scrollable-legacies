@@ -95,3 +95,19 @@ actor_moved_to_other_realm = {
 	decaying = yes
 	imprisonment_reason = yes
 }
+
+requested_incursion_opinion = {
+	opinion = -50
+	monthly_change = 0.05
+	decaying = yes
+	imprisonment_reason = yes
+	revoke_title_reason = yes
+	banish_reason = yes
+	execute_reason = yes
+}
+
+tgp_hegemon_picked_different_era_opinion = {
+	opinion = -50
+	monthly_change = 0.05
+	decaying = yes
+}

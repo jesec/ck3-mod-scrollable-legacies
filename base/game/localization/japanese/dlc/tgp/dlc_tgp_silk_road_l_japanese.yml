@@ -1,7 +1,8 @@
 ﻿l_japanese:
- # the silky silk road
+ # the Silk Road
  silk_road_situation: "シルクロード"
  silk_road_situation_desc: "$game_concept_silk_road_situation_desc$"
+ situation_silk_road_situation_desc: "$silk_road_situation_desc$"
  game_concept_silk_road_situation: "シルクロード"
  game_concept_silk_road: "$game_concept_silk_road_situation$"
  game_concept_silk_road_situation_desc: "$game_concept_silk_road_situation$は一本の道ではなく、金、商品、アイデアを交換するために文明の最果てを結ぶ交通網全体を意味します。シルクロードを利用すれば、世界のあらゆる富を手にすることができます。\n\nシルクロードへの利用レベルによって、金のボーナスが変化し、さらに異国の[innovations|E]をアンロックする特別な機会が得られるかもしれません。シルクロードを移動する金と知識の量はその繁栄度によって変化し、これは戦争、イベント、中国の[dynastic_cycle|E]など、多くの要因から影響を受けます。"
@@ -117,7 +118,8 @@
  SILK_ROAD_WINDOW_CATALYSTS_LIST: "シルクロードの触媒"
  FUTURE_PHASE_PROGRESSING_TEXT: "進行中：あと$YEARS|V$"
  SILK_ROAD_REGION_EFEFCTS: "地域の効果："
- FUTURE_PHASE_HEADER: "進捗：\n [SituationPhaseType.GetName]：[SituationPhase.GetPhaseRelativeProgressPercent|%]"
+ FUTURE_PHASE_HEADER: "次の[dynastic_cycle_era_short|E]に進む："
+ FUTURE_PHASE_VALUE: "[SituationPhaseType.GetName]：[SituationPhase.GetPhaseRelativeProgressPercent|V%]"
  SILK_ROAD_HEADER_DESC: "孤立した地形に点在する市場や中継地、使い古された街道のネットワークであるシルクロードは、果敢にもその伝説的な道を旅する者に、財を築き、新たな知識を得る機会を提供する。"
  dlc_tgp_silk_road_route_region: "シルクロード"
  tgp_silk_road_region: "シルクロード"

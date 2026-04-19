@@ -516,7 +516,7 @@
  proving_grounds_nightly_barding_drills_domicile_building_desc: "#weak (Erfordert „[GetDomicileBuilding('proving_grounds_01').GetName]“)#!\nKettenglieder verdrehen sich, Leder reißt, Platten rosten und auch bei der schweren Elitereiterei verblasst irgendwann der Drill."
  proving_grounds_life_in_the_saddle_domicile_building: "Leben im Sattel"
  proving_grounds_life_in_the_saddle_domicile_building_desc: "#weak (Erfordert „[GetDomicileBuilding('proving_grounds_01').GetName]“)#!\nManche werden dazu geboren, andere später im Leben dazu erzogen."
- proving_grounds_life_in_the_saddle_horse_archers_tt: "Ihr müsst ein [regiment|E] „[GetMaA('heavy_horse_archers').GetName]“ oder „[GetMaA('horse_archers').GetName]“ haben"
+ proving_grounds_life_in_the_saddle_horse_archers_tt: "Ihr müsst mindestens ein [regiment|E] [archer_cavalry|E] haben"
  #TIT-53191
  proving_grounds_the_stump_domicile_building: "Der Stumpf"
  #proving_grounds_the_stump_domicile_building: "The [GetPlayer.Custom('GetStumpName')|U]"

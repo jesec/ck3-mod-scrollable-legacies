@@ -9,3 +9,9 @@ macro = {
 	definition = "IsHerder(TargetCharacter)"
 	replace_with = "TargetCharacter.GetGovernment.IsType( 'herder_government' )"
 }
+
+macro = {
+	description = "Can the character Raze holdings?"
+	definition = "CanRazeHoldings(TargetCharacter)"
+	replace_with = "TargetCharacter.GetGovernment.HasGovernmentFlag( 'can_raze_holdings' )"
+}

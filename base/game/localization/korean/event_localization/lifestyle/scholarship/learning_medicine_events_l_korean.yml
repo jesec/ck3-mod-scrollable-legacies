@@ -52,9 +52,9 @@
  learning_medicine.2010.c: "[ROOT.Char.GetFaith.ReligiousText](을)를 길잡이로 삼도록 하시오."
  #Fertility treatment, by Mathilda Bjarnehed
  learning_medicine.2021.t: "[ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip]께"
- learning_medicine.2021.desc: "제 이름은 [physician.GetTitledFirstNameNoTooltip]입니다. 불임 문제를 전문적으로 다루는 숙련된 의사지요. 분별력 있는 조언을 해줄 사람이 필요하진 않으신지요, 영주님? 절 등용해주신다면 각골이 난망할 겁니다. 봉급을 많이 받지도 않겠습니다."
+ learning_medicine.2021.desc: "제 이름은 [physician.GetTitledFirstNameNoTooltip]입니다. 불임 문제를 전문적으로 다루는 숙련된 의사지요.\n\n분별력 있는 조언을 해줄 사람이 필요하진 않으신지요, 영주님? 절 등용해주신다면 각골이 난망할 겁니다. 봉급을 많이 받지도 않겠습니다."
  learning_medicine.2021.a: "이런 인재라면 도움이 될지도 모르겠군."
- learning_medicine.2021.a.tt: "[physician.GetFirstName|V](이)가 불임 치료를 시도함"
+ learning_medicine.2021.a.tt: "불임 치료를 승낙함"
  learning_medicine.2021.b: "숙련된 의사라면 언제든 환영이오."
  learning_medicine.2021.b.tt: "불임 치료를 거부함"
  learning_medicine.2021.c: "#EMP 그런 문제#!는 겪고 있지도 않소!"

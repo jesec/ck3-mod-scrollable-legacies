@@ -58,6 +58,7 @@
  BlocReasonPlayer: "예측할 수 없는 인간의 본성으로 인해"
  BlocReasonWar: "[house_bloc|E] 전쟁으로 인해"
  BlocReasonEvents: "사건의 결과로 인해"
+ BlocReasonIntent: "[activity|E] 의도의 결과로 인해"
  BlocReasonPrestige: "[house_bloc|E] 지도자들의 [prestige_levels|E] 차이로 인해"
  BlocReasonInfluence: "[house_bloc|E] 지도자들의 [influence_levels|E] 차이로 인해"
  BlocReasonMilitaryStrength: "[house_bloc|E] 지도자들의 군사력 차이로 인해"
@@ -70,3 +71,5 @@
  BlocReasonBribePrestige: "넉넉한 [prestige_i][prestige|E] 뇌물로 인해"
  BlocReasonBribeInfluence: "넉넉한 [influence_i][influence|E] 뇌물로 인해"
  BlocReasonBribeHook: "[hook_i][hook|E]의 사용으로 인해"
+ BlocReasonKicked: "[leading_house|E]에 의해 밀려난 결과"
+ BlocReasonFollowedLiege: "본인의 [house_heads_possessive] [liege|E]의 [bloc|E]에 가입하기 위해"

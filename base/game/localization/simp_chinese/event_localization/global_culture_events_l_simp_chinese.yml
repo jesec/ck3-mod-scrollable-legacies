@@ -43,3 +43,5 @@
  global_culture.3011.desc: "南意大利和西西里岛的居民兼收并蓄，形成了一种独特的文化，这种文化受到了各种民族的影响。\n\n很明显，现在[county_to_change.GetName]的居民不再认为自己是[old_culture.GetName]人，而是当地的[sicilian.GetCollectiveNoun]人！"
  global_culture.3011.a: "有趣的进展……"
  global_culture.3012.a: "好极了！"
+ global_culture.4011.t: "[goryeo.GetNameNoTooltip]文化的传播"
+ global_culture.4011.desc: "三国一统后，在原来各国文化的影响下，诞生了一种更广泛的文化认同。\n\n很明显，现在[county_to_change.GetName]的居民不再认为自己是[old_culture.GetName]人，而是当地的[goryeo.GetCollectiveNoun]人！"

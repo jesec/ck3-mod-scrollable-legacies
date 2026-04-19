@@ -351,6 +351,7 @@
  FREEZE_REASON_TRAVELING: "vous être en train de voyager."
  FREEZE_REASON_TARGET_TRAVELING: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] est en train de voyager."
  BEFRIENDING_AT_FEAST: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] est présent[SCHEME.GetTargetCharacter.Custom('FR_E')] à la même fête que vous."
+ ALLOWING_TO_MOURN: "nous laissons [SCHEME.GetTargetCharacter.Custom('FR_le_Char_U_Pi')][SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] faire son deuil."
  overthrow_regent: "Destitution du régent"
  overthrow_regent_action: "Déposer"
  overthrow_regent_desc: "Je vais [Select_CString(SCHEME.GetTargetCharacter.IsLocalPlayer,'vous ','')]enlever et [Select_CString(SCHEME.GetTargetCharacter.IsLocalPlayer,'vous ','')][imprison|El][SCHEME.GetTargetCharacter.LocalPlayerString('', 'Loc_FR_le_GetShortUINameNoTooltip')], afin de [Select_CString(SCHEME.GetTargetCharacter.IsLocalPlayer,'vous',SCHEME.GetTargetCharacter.Custom('FR_LeLa'))] forcer à me céder [Select_CString(SCHEME.GetTargetCharacter.IsLocalPlayer,'votre','sa')] fonction de [SCHEME.GetTargetCharacter.GetDiarchTitle|l] !"

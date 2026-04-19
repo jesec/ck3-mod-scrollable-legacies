@@ -783,7 +783,7 @@
  fund_inspiration.6508.introduction: "タイガの森林が広がる寒冷地に向かった冒険家から書状が届いた。\n\n"
  fund_inspiration.6508.desc: "「私はここしばらく、職人にとって最高の仲間ともいえる者たちと一緒に過ごしていました。その仲間とは、ビーバーの群れです！彼らが水の中で魚を捕らえるために使っている構造物を何枚か描き留めましたので、使いの者に持たせて送ります！ああ、私も半水生のげっ歯類に憧れますよ！」\n\n"
  fund_inspiration.6508.architect_desc: "「少なくとも、[court_architect.GetTitledFirstName]よりは利口な動物ですし、[court_architect.GetHerHim]もいくつか学ぶところがあるはずですよ」"
- fund_inspiration.6508.a: "この書状はすっかり水に流してしまおう。"
+ fund_inspiration.6508.a: "この件について熟考しよう。"
  fund_inspiration.6508.b: "確かに、[court_architect.GetTitledFirstNameNoTooltip]にとってはいい勉強になりそうだ。"
  fund_inspiration.6508.b.tt: "[court_architect.GetTitledFirstNamePossessive]の建築家としての適性が少し向上します"
  fund_inspiration.6508.c: "なんと#EMP 愛らしい#!生き物だろうか！この写生画は[child.GetFirstNameNoTooltip]に与えよう！"

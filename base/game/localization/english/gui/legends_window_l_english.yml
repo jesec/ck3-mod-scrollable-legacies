@@ -20,7 +20,7 @@
  PROMOTED_LEGEND: "Promoting Legend"
  PROMOTED_OWNED_LEGEND: "Promoting Own Legend"
  PROMOTED_LEGEND_EMPTY: "You are not [promoting_legend|El] a [legend|E]"
- PROMOTED_LEGEND_EMPTY_INSTRUCTION: "Start forming a legend from the [legend_seeds|E] list below,\nor find an existing forming [legend|E] in that you want to promote.\n\nPromoting a [legend|E] will help it spread and will grant you benefits."
+ PROMOTED_LEGEND_EMPTY_INSTRUCTION: "Start forming a legend from the [legend_seeds|E] list below, or find an existing forming [legend|E] in that you want to promote.\n\nPromoting a [legend|E] will help it spread and will grant you benefits."
  RETURN_TO_PROMOTED_LEGEND_TT: "Go back to [promoted_legend|E]"
 
  FOCUSED_LEGEND: "Selected Legend"

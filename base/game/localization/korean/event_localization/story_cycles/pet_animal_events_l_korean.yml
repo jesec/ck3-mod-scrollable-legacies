@@ -160,7 +160,7 @@
  pet_animal.1113.a: "녀석과 같이 회의를 하겠다."
  pet_animal.1113.a_success: "[ROOT.Char.Custom('DogStoryName')](이)가 얌전하게 행동함"
  pet_animal.1113.a_success.tt: "나쁜 일은 일어나지 않음"
- every_councillor: "모든 자문위원"
+ every_councillor: "모든 [councillor|E]"
  pet_animal.1113.a_failure: "[ROOT.Char.Custom('DogStoryName')]은 아무것도 하지 않았으나"
  pet_animal.1113.a_failure.tt: "뭔가... 나쁜 일이 일어남"
  pet_animal.1113.b: "자문회 회의에 개를 위한 자리는 없다네."

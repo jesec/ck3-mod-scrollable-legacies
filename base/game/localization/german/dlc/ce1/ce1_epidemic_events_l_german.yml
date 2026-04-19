@@ -262,7 +262,7 @@
  doomsday: "der jüngste Tag"
  third_impact: "der dritte Einschlag"
  epidemic_events.2001.t: "Die Seuche des Krieges"
- epidemic_events.2001.desc: "[pleading_vassal.GetName|U] fällt zitternd auf die Knie.\n\n„Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], ich bin geschlagen von zwei Plagen. Die Seuche ([epidemic_scope.GetName]) verschlingt meine Leute. Und nun greift [attacking_vassal.GetName] nach meinen Landen. Ich kann nicht beide bekämpfen.“\n\n[pleading_vassal.GetName|U] legt eine kleine Schatulle mit Gold auf den Boden – alles, was [pleading_vassal.Custom('DE_PRO_PER_S_3P_N')] bringen konnte.\n\n„Ich bitte Euch. Helft mir dabei, diesen Krieg zu beenden, bevor keines der Reiche überlebt.“"
+ epidemic_events.2001.desc: "[pleading_vassal.GetName|U] fällt zitternd auf die Knie.\n\n„Lehnsherr[ROOT.Char.Custom('DE_END_NOU_S_GS_N')], ich bin geschlagen von zwei Plagen. Die Seuche ([epidemic_scope.GetName]) verschlingt meine Leute. Und nun greift [attacking_vassal.GetName] nach meinen Landen. Ich kann nicht beide bekämpfen.“\n\n[pleading_vassal.Custom('DE_PRO_PER_S_3P_N')|U] legt eine kleine Schatulle mit Gold auf den Boden – alles, was [pleading_vassal.Custom('DE_PRO_PER_S_3P_N')] bringen konnte.\n\n„Ich bitte Euch. Helft mir dabei, diesen Krieg zu beenden, bevor keines der Reiche überlebt.“"
  epidemic_events.2001.a: "Ich werde gern bezahlen, solange dieser Unsinn aufhört."
  epidemic_events.2001.b: "Wie könnt Ihr es wagen, diese Seuche ([epidemic_scope.GetNameNoTooltip]) an #EMP meine#! Türschwelle zu bringen!"
  epidemic_events.2001.b.desc: "Wachen! Ergreift [pleading_vassal.GetFirstNameNoTooltip] #EMP vorsichtig#! und wascht alles, was [pleading_vassal.Custom('DE_PRO_PER_S_3P_N')] berührt hat, #EMP gründlichst#!!"

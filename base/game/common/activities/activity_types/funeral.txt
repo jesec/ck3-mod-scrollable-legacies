@@ -715,6 +715,12 @@ activity_funeral = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					has_title = title:e_minister_of_revenue
+				}
+				multiply = 0.85
+			}
 		}
 	}
 
@@ -767,6 +773,12 @@ activity_funeral = {
 			divide = 5
 			ceiling = yes 
 			multiply = 5
+			if = {
+				limit = {
+					has_title = title:e_minister_of_revenue
+				}
+				multiply = 0.85
+			}
 		}
 	}
 

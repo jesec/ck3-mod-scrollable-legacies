@@ -19,6 +19,12 @@
 # 7000 - The decision is made, choose a reward.
 # 7001 - Inform any players.
 
+# form_brunei_kingdom_decision, by Ali Kara
+# 8000 - The decision is made, choose a reward.
+
+# form_brunei_empire_decision, by Ali Kara
+# 9000 - The decision is made, choose a reward.
+
 #form_dai_viet_empire_decision
 #The decision is made, choose a reward.
 major_decisions.4000 = { #by Ali Kara
@@ -702,6 +708,187 @@ major_decisions.7001 = { #by Ali Kara
 				highest_held_title_tier >= tier_kingdom
 			}
 			text = major_decisions.7001.b
+		}
+	}
+}
+
+#form_brunei_kingdom_decision
+#The decision is made, choose a reward
+major_decisions.8000 = { #by Ali Kara
+	type = character_event
+	title = major_decisions.8000.t
+	desc = major_decisions.8000.desc
+	window = big_event_window
+	theme = faith
+	right_portrait = {
+		character = scope:founder
+		animation = personality_bold
+		camera = camera_event_very_right
+	}
+	left_portrait = {
+		character = scope:imam
+		animation = storyteller
+		camera = camera_event_very_left
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				exists = root.cp:councillor_court_chaplain
+			}
+			cp:councillor_court_chaplain = {
+				save_scope_as = imam
+			}
+		}
+		else = {
+			random_vassal_or_below = {
+				limit = {
+					exists = this.cp:councillor_court_chaplain
+				}
+				cp:councillor_court_chaplain = {
+					save_scope_as = imam
+				}
+			}
+		}
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		form_brunei_kingdom_decision_scripted_effect = yes
+		legend_seed_new_title_effect = yes
+		primary_title = { save_scope_as = new_primary_title }
+		save_scope_as = flavor
+		create_character_memory = {
+			type = ascended_throne_memory
+
+			participants = {
+				flavor_character = scope:flavor
+			}	
+		}
+		scope:new_memory = {
+			set_variable = {
+				name = landed_title
+				value = scope:new_primary_title
+			}
+		}
+		capital_county = {
+			save_scope_as = kingdom_capital
+		}
+	}
+
+	#Also praise myself
+	option = {
+		trigger = {
+			NOT = {
+				prestige_level = max_prestige_level
+			}
+		}
+		name = major_decisions.8000.a
+		add_character_modifier = { 
+			modifier = brunei_kingdom_khutbah_prestige_option_modifier
+			years = 25
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			arrogant = medium_stress_impact_loss
+		}
+	}
+	#Praise Allah only
+	option = {
+		trigger = {
+			NOT = {
+				piety_level = max_piety_level
+			}
+		}
+		name = major_decisions.8000.b
+		add_character_modifier = { 
+			modifier = brunei_kingdom_khutbah_piety_option_modifier
+			years = 25
+		}
+		stress_impact = {
+			humble = medium_stress_impact_loss
+			arrogant = medium_stress_impact_gain
+		}
+	}
+}
+
+#form_darussalam_empire_decision
+#The decision is made, choose a reward
+major_decisions.9000 = { #by Ali Kara
+	type = character_event
+	title = major_decisions.9000.t
+	desc = {
+		desc = major_decisions.9000.desc
+		triggered_desc = {
+			trigger = { exists = root.cp:councillor_steward }
+			desc = major_decisions.9000.desc_steward
+		}
+	}
+	window = big_event_window
+	theme = realm
+	right_portrait = {
+		character = scope:founder
+		animation = personality_bold
+		camera = camera_event_very_right
+	}
+	left_portrait = {
+		trigger = { exists = root.cp:councillor_steward }
+		character = scope:steward
+		animation = storyteller
+		camera = camera_event_very_left
+	}
+	immediate = {
+		if = {
+			limit = {
+				exists = root.cp:councillor_steward
+			}
+			cp:councillor_steward = {
+				save_scope_as = steward
+			}
+		}
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		form_brunei_empire_decision_scripted_effect = yes
+		legend_seed_new_title_effect = yes
+		primary_title = { save_scope_as = new_primary_title }
+		save_scope_as = flavor
+		create_character_memory = {
+			type = ascended_throne_memory
+
+			participants = {
+				flavor_character = scope:flavor
+			}	
+		}
+		scope:new_memory = {
+			set_variable = {
+				name = landed_title
+				value = scope:new_primary_title
+			}
+		}
+		capital_county = {
+			save_scope_as = empire_capital
+		}
+	}
+
+	#
+	option = {
+		name = major_decisions.9000.a
+		remove_short_term_gold = massive_gold_value
+		add_character_modifier = {
+			modifier = brunei_empire_high_sadaqah_modifier
+			years = 25
+		}
+		stress_impact = {
+			generous = major_stress_impact_loss
+			greedy = major_stress_impact_gain
+		}
+	}
+	#
+	option = {
+		name = major_decisions.9000.b
+		add_character_modifier = {
+			modifier = brunei_empire_low_sadaqah_modifier
+			years = 20
+		}
+		stress_impact = {
+			generous = medium_stress_impact_loss
+			greedy = medium_stress_impact_gain
 		}
 	}
 }

@@ -174,7 +174,7 @@
  stress_threshold.2202.desc: "[stress_character.GetSheHe|U]近来饱受压力，但是"
  stress_threshold.2202.desc.rival: "当[stress_character.GetHerselfHimself]被要求解释时，[stress_character.GetSheHe]只是加倍辱骂。"
  stress_threshold.2202.desc.other: "举止至此……"
- stress_threshold.2202.a: "我会如数奉还。“[stress_character.Custom2('InsultNoun'), ROOT.Char|U]！”"
+ stress_threshold.2202.a: "我会如数奉还，[stress_character.Custom2('InsultNoun', ROOT.Char)]！"
  stress_threshold.2202.b: "[stress_character.GetSheHe]也有力不从心的时候……反倒让人安心。"
  #Level 3 Stress Events
  stress_threshold.3001.t: "精神崩溃：暗暗细语"

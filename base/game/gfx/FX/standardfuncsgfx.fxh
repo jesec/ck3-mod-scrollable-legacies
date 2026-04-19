@@ -55,5 +55,13 @@ ConstantBuffer( GameSharedConstants )
 
 	int _HasCloudShadowEnabled;
 	int _HasTreeDitheringEnabled;
-	float Alignment_1; // Alignment
+
+	float _EnabledTerrainCulling;
+	float _StartColorOverlayHeightBlend;
+	float _FullyColorOverlayHeightBlend;
+	float _RefractionCullHeight;
+	float _Alignment_1; // Alignment
+
+	float3 _UnderwaterTerrainColor;
+	float _Alignment_2; // Alignment
 };

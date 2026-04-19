@@ -86,6 +86,7 @@
  minister_of_revenue_desc: "[minister_of_revenue|E]"
  minister_of_revenue_desc_with_value: "[minister_of_revenue|E] : $VALUE|+0=$"
  is_a_minister_desc: "Est un [minister|El]"
+ is_not_a_minister_desc: "N’est pas [minister|El]"
  recipient_is_a_minister_desc: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName|U] est un[recipient.Custom('FR_E')] [minister|El]"
  target_is_a_minister_desc: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer,'êtes','est')] [minister|El]"
  you_are_not_a_minister_desc: "Vous n’êtes pas un [minister|El]"

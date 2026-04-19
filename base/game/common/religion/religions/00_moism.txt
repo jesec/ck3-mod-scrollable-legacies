@@ -1,5 +1,6 @@
 ﻿moism_religion = {
 	family = rf_pagan
+	graphical_faith = sinitic_gfx
 
 	pagan_roots = yes
 

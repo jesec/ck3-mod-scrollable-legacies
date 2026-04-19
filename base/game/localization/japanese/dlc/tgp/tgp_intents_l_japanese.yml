@@ -24,5 +24,5 @@
  debate_increase_movement_power_intent_desc: "ほかの運動を貶めるか、自らの[movement_power|E]を高めることで、自派の[movement|E]の地位をさらに強化しようとしている。"
  debate_gain_disciples_intent: "弟子を獲得する"
  debate_gain_disciples_intent_desc: "学問の才のある者を見つけ出し、新たな[disciples|E]として採用することを目指す。"
- debate_gain_elder_intent: "長老を獲得する"
- debate_gain_elder_intent_desc: "[elder|E]を探すか、現在の長老をより優れた知恵を持つ学識者と交代させることを目指す。"
+ debate_gain_elder_intent: "導師を獲得する"
+ debate_gain_elder_intent_desc: "[elder|E]を探すか、現在の導師をより優れた知恵を持つ学識者と交代させることを目指す。"

@@ -128,7 +128,7 @@
  tournament_qualify_race_desc: "당신의 말이 [host.GetShortUINamePossessive] [activity.GetCurrentPhase.GetPhase.GetName] 경연 대회에 참가함"
  tournament_qualify_fail_race_desc: "당신의 말이 [host.GetShortUINamePossessive] [activity.GetCurrentPhase.GetPhase.GetName] 경연 대회 본선 진출에 실패함"
  ### LOCALES
- locale_window_knights_button_tooltip: "# 아직 구현되지 않음#!"
+ locale_window_knights_button_tooltip: "#D 아직 구현되지 않음#!"
  locale_window_my_knights_header: "내 $knight_culture_player_plural$"
  locale_window_button_my_knights: "당신의 $knight_culture_player_plural_no_tooltip$"
  locale_window_button_my_knights_tooltip: "#T 참가 $knight_culture_player_plural$ 보기 및 관리#!"

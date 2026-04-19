@@ -181,3 +181,4 @@
  scheme_critical_moments.2925.a: "Vous le paierez."
  scheme_critical_moments.2925.b: "[owner.GetSheHe|U] a appris le sort réservé aux usurpateurs !"
  scheme_critical_moments.2925.c: "Maudit[owner.Custom('FR_E')] [owner.Custom2('InsultNoun', ROOT.Char)] !"
+ OWNER_IS_MY_MOVEMENT_MEMBER: "Est du même [movement|El] que [owner.Custom('FR_le_Char_U_Pi')][owner.GetShortUIName] : $VALUE|+0=$"

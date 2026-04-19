@@ -127,3 +127,6 @@
  dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName]は[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]に入った"
  dynastic_cycle_entered_stability_expansion_tt: "[GetSituation('dynastic_cycle').GetName]は[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]に入った"
  dynastic_cycle_entered_instability_tt: "[GetSituation('dynastic_cycle').GetName]は[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]に入った"
+ tgp_hegemon_picked_different_era_opinion: "予想と異なる[dynastic_cycle_era_type_stable|E]が選ばれた"
+ tgp_hegemon_picked_different_era_opinion_expansion_tt: "すべての[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]および[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]の一員"
+ tgp_hegemon_picked_different_era_opinion_advancement_tt: "すべての[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]および[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]の一員"

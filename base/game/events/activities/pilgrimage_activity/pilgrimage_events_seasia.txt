@@ -533,6 +533,12 @@ pilgrimage_seasia.400 = {
 			faith != scope:local_character.faith
 		}
 		set_character_faith = scope:local_character.faith
+		if = {
+			limit = { 
+				scope:local_character.faith = { has_doctrine = doctrine_monotheist }
+			}
+			custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+		}
 		add_piety_level = 1
 		add_to_entourage_court_and_activity_effect = { 
 			CHAR_TO_ADD = scope:local_character 
@@ -1650,6 +1656,12 @@ pilgrimage_seasia.1000 = {
 		add_gold = { major_gold_value monumental_gold_value }
 		
 		set_character_faith = scope:local_character.faith
+		if = {
+			limit = { 
+				scope:local_character.faith = { has_doctrine = doctrine_monotheist }
+			}
+			custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+		}
 		current_travel_plan = {
 			every_entourage_character = {
 				limit = {
@@ -2170,6 +2182,12 @@ pilgrimage_seasia.1200 = {
 			faith != scope:local_character.faith
 		}
 		set_character_faith = scope:local_character.faith
+		if = {
+			limit = { 
+				scope:local_character.faith = { has_doctrine = doctrine_monotheist }
+			}
+			custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+		}
 		add_piety_level = 1
 		add_to_entourage_court_and_activity_effect = { 
 			CHAR_TO_ADD = scope:local_character 

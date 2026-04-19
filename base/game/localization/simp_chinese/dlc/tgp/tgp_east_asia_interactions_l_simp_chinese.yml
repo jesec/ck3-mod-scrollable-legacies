@@ -5,6 +5,7 @@
  offer_tributary_status_interaction_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip]仍不满于你上次要求[recipient.GetSheHe]成为$game_concept_tributary$"
  offer_tributary_status_interaction_tributary_was_recently_subjugated: "[recipient.GetShortUINameNoTooltip]最近被[recipient.GetHerHis]的[suzerain|E]降服了"
  offer_tributary_status_interaction_warred_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip]仍因上次试图成为你$game_concept_tributary$时所受的惊吓而后怕"
+ offer_tributary_status_interaction_cant_use_tributaries_tt: "[actor.GetShortUINamePossessive|U]的[government|E]不允许[tributaries|E]"
  offer_tributary_status_interaction_suzerain_intervene.t: "[recipient.GetShortUINamePossessive|U]的[suzerain|E]介入"
  offer_tributary_status_interaction_suzerain_starts_war_tt: "@alert_icon!#alert_trial [recipient.GetSuzerain.GetShortUIName|U]以[GetCasusBelliType('make_tributary_cb').GetName][casus_belli|E]向[recipient.GetShortUIName]宣战#!"
  offer_tributary_status_interaction_suzerain_nothing.t: "[recipient.GetShortUINamePossessive|U]的[suzerain|E]什么都没做"

@@ -149,6 +149,7 @@
 				scope:situation.situation_participant_group:affected_ruler = {
 					every_situation_group_participant = { trigger_event = natural_disaster.6901 }
 				}
+				natural_disaster_insurance_effect = yes
 				every_situation_participant = {
 					spawn_natural_disaster_contract_effect = yes
 				}
@@ -329,6 +330,7 @@ natural_disaster_flood = { # Flood (River)
 				scope:situation.situation_participant_group:affected_ruler = {
 					every_situation_group_participant = { trigger_event = natural_disaster.6901 }
 				}
+				natural_disaster_insurance_effect = yes
 				every_situation_participant = {
 					spawn_natural_disaster_contract_effect = yes
 				}

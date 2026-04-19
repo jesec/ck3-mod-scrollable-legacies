@@ -111,7 +111,7 @@
  pledge_loyalty_to_liege.0601.a: "Time to rethink things..."
 
  pledge_loyalty_to_liege_overdue.1000.t: "Dishonorable Vassal"
- pledge_loyalty_to_liege_overdue.1000.desc.1: "As I peruse the records of those who have come to pledge their fealty to me as their [ROOT.Char.GetTitleAsName], one name remains notably absent: [SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] of the [SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName] dynasty. More than [SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue] years have passed "
+ pledge_loyalty_to_liege_overdue.1000.desc.1: "As I peruse the records of those who have come to pledge their fealty to me as their [ROOT.Char.GetTitleAsName], one name remains notably absent: [SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] of the [SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName] dynasty. More than [SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue|0] years have passed "
  pledge_loyalty_to_liege_overdue.1000.desc.new_liege: "since I ascended the throne, "
  pledge_loyalty_to_liege_overdue.1000.desc.new_title: "since [SCOPE.sC('pledge_loyalty_to_liege_offender').GetSheHe] became my vassal, "
  pledge_loyalty_to_liege_overdue.1000.desc.2: "and neither word nor tribute has arrived from [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis] lands.\n\nMy courtiers exchange uneasy glances. Murmurs ripple through the halls — could this be a mere oversight, or a deliberate slight against my right to rule? The weight of unspoken defiance hangs heavy in the air."

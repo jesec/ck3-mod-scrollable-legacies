@@ -52,6 +52,7 @@
  death_management.liege_councillor.desc: "你的[councillor|E][dead_character.GetFullName]，[dead_character.GetDeathReason]。"
  death_management.liege.desc: "你的[vassal|E][dead_character.GetFullName]，[dead_character.GetDeathReason]。"
  death_management.pinned.desc: "你感兴趣的人，[dead_character.GetFullName]，[dead_character.GetDeathReason]。"
+ death_management.elder.desc: "你的[elder|E][deceased_elder.GetFullName][deceased_elder.GetDeathReason]。"
  death_management.1008.desc: "[dead_character.GetTitledFirstName]，我[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))][spouse_of_dead_character.GetFirstName]的配偶，已经过世。所有那些精心设计的计划都在[ROOT.Char.GetFaith.DeathDeityNamePossessive]变幻莫测的一击下随风而去，不过这些抱怨跟[dead_character.GetHerHis]的家庭承受的痛苦相比，根本不值一提……"
  death_management.1008.a: "安息吧。"
  death_management.1008.a.tt: "[spouse_of_dead_character.GetFirstName]的配偶[dead_character.GetTitledFirstName]，[dead_character.GetDeathReason]。"

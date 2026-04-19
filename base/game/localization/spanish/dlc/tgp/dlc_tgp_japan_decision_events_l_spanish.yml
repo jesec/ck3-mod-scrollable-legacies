@@ -65,7 +65,7 @@
  will_found_noble_family_tt: "Te convertirás en jefe de una [noble_family|lE] nueva"
  # tgp_japan_emperor_restoration_decision
  tgp_japan_decision.9301.t: "La jaula abierta"
- tgp_japan_decision.9301.desc: "Como emperador, he reclamado el lugar que me pertenecía como auténtico líder de este señorío. Ya no detentan mi poder aquellos que buscaban alimentar sus propias ambiciones; se ha restaurado todo al Trono del Crisantemo"
+ tgp_japan_decision.9301.desc: "Como emperador, he reclamado el lugar que me pertenecía como auténtico líder de este señorío.\n\nYa no detentan mi poder aquellos que buscaban alimentar sus propias ambiciones; se ha restaurado todo al Trono del Crisantemo"
  tgp_japan_decision.9301.a: "Un sol que guíe a la tierra."
  tgp_japan_decision.9302.t: "[tenno.Custom('ES_ElLa')|U] [tenno.GetTitleAsNameNoTooltip] victorios[tenno.Custom('ES_OA')]"
  tgp_japan_decision.9302.desc: "Las palabras sobre el regreso $game_concept_tenno_possessive$ corren como la pólvora. [tenno.GetName] ha restaurado su presencia imperial con la esperanza de arrebatar el poder de manos ociosas y malintencionadas.\n\nAhora pretende gobernar más directamente sobre el pueblo de sus tierras desde el Trono del Crisantemo, y su reinado ya no se verá como meramente ceremonial."

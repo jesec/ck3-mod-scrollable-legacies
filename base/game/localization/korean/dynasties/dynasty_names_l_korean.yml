@@ -10673,6 +10673,7 @@
  dynn_Kopparvall: "코파르발"
  dynn_freddi: "프레디"
  dynn_collinder: "콜린더"
+ dynn_tosunyan: "토스니안"
  #TGP
  dynn_Tang: "당"
  dynn_Kediri: "케디리"
@@ -10703,7 +10704,7 @@
  dynn_Gochi_In: "고치인"
  dynn_Capata: "카파타"
  dynn_Xixing_897F_884C: "시싱"
- dynn_Furong_8299_84C9: "푸롱"
+ dynn_Furong_8299_84C9: "부용"
  ### JAPANESE
  dynn_Abe: "아베" #安倍
  dynn_Abe_Noto: "아베" #安倍
@@ -10745,6 +10746,7 @@
  dynn_Asari: "아사리" #浅利
  dynn_Ashida: "아시다" #芦田
  dynn_Ashikaga: "아시카가" #足利
+ dynn_Ashina_JP: "아시나" #蘆名
  dynn_Aso: "아소" #阿蘇
  dynn_Asukabe: "아스카베" #飛鳥部
  dynn_Asuke: "아스케" #足助
@@ -10888,6 +10890,7 @@
  dynn_IntO_: "인토" #印東
  dynn_Irie: "이리에" #入江
  dynn_Irobe: "이로베" #色部
+ dynn_Iruma: "이루마" #入間
  dynn_Isa: "이사" #伊佐
  dynn_Isawa: "이사와" #胆沢
  dynn_Ishibashi: "이시바시" #石橋
@@ -11811,6 +11814,7 @@
  dynn_I_5DF2: "이" #已 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_I_674E: "이" #李 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_Il_58F9: "일" #壹 (일)
+ dynn_Ho_seung_864E_50E7: "호승" #(虎僧)
  dynn_Im_4EFB: "임" #任 (임)
  dynn_Jae_C7AC: "재" #재
  dynn_Jang_5F35: "장" #張 (장)

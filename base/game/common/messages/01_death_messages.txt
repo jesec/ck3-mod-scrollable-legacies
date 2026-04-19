@@ -36,6 +36,13 @@ friend_has_died = {
 	style = bad
 	message_filter_type = death_relation
 }
+elder_has_died = {
+	icon = "death_murder"
+	title = elder_death_notification_title
+	desc = event_message_text_and_effect
+	style = bad
+	message_filter_type = death_relation
+}
 lover_has_died = {
 	icon = "death_murder"
 	title = lover_death_notification_title

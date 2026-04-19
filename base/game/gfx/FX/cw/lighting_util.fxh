@@ -80,6 +80,10 @@ PixelShader =
 		// Darkens color while preserving hue and saturation, with a floor to prevent clipping to black
 		float3 ApplyOvercastContrast( float3 Color, float BlendAmount )
 		{
+			if ( BlendAmount < 0.0001f )
+			{
+				return Color;
+			}
 			float CurrentLuminance = dot( Color, float3( 0.299f, 0.587f, 0.114f ) );
 			float MinLuminance = 0.008f; // Minimum brightness floor to prevent clipping
 

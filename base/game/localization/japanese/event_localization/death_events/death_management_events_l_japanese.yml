@@ -52,6 +52,7 @@
  death_management.liege_councillor.desc: "あなたの[councillor|E]、[dead_character.GetFullName]は[dead_character.GetDeathReason]。"
  death_management.liege.desc: "あなたの[vassal|E]、[dead_character.GetFullName]は[dead_character.GetDeathReason]。"
  death_management.pinned.desc: "あなたにとって重要な人物、[dead_character.GetFullName]は[dead_character.GetDeathReason]。"
+ death_management.elder.desc: "あなたの[elder|E]、[deceased_elder.GetFullName]は [deceased_elder.GetDeathReason]である。"
  death_management.1008.desc: "私の[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))]、[spouse_of_dead_character.GetFirstName]の配偶者、[dead_character.GetTitledFirstName]が亡くなった。[ROOT.Char.GetFaith.DeathDeityNamePossessive]の気まぐれのせいで、慎重に練った計画がすべて水の泡になった。このような不満も、[dead_character.GetHerHis]の家族の苦痛に比べれば取るに足らぬことかもしれないが…"
  death_management.1008.a: "安らかに眠れ。"
  death_management.1008.a.tt: "[spouse_of_dead_character.GetFirstName]の配偶者、[dead_character.GetTitledFirstName]が[dead_character.GetDeathReason]。"

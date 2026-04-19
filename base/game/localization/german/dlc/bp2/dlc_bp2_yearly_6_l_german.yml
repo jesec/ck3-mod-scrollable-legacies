@@ -471,7 +471,7 @@
  bp2_yearly.6170.b.tt: "Das Opfer von [hostage.GetFirstNameNoTooltip] sollte nur eines von vielen im Dienste von Haus [ROOT.Char.GetDynastyHouseNameNoTooltip] sein."
  bp2_yearly.6170.c: "[hostage.Custom('DE_PRO_PER_S_3P_N')|U] soll wissen, wie andere Menschen leben."
  bp2_yearly.6170.c.tt: "Mein[hostage.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] wird durch ein ungeschliffenes Leben lernen, auf Feinheiten zu verzichten und ebenso hart wie einfallsreich zu sein …"
- bp2_yearly.6170.scheme_bonus: "[Concept('close_family', 'Enge Verwandtschaft')|E] und [spouses|E] sind für #high 10 Jahre#! eher bereit, sich Euren [Concept('hostile_schemes', 'Feindseligen Komplotten')|E] anzuschließen"
+ bp2_yearly.6170.scheme_bonus: "[Concept('close_family', 'Nahe Verwandtschaft')|E] und [spouses|E] sind für #high 10 Jahre#! eher bereit, sich Euren [Concept('hostile_schemes', 'Feindseligen Komplotten')|E] anzuschließen"
  bp2_yearly.6170.leave_court_bonus: "[courtiers|E] aus der [Concept('close_family', 'nahen Verwandtschaft')|E] gehen die nächsten #high 10 Jahre#! seltener fort"
  lavish_care_modifier: "Aufwendige Pflege"
  lavish_care_modifier_desc: "Dieser Charakter wird von Dutzenden kultivierter Diener verwöhnt und führt ein Leben in Prunk und Bequemlichkeit."

@@ -351,6 +351,7 @@
  FREEZE_REASON_TRAVELING: "podróżujesz."
  FREEZE_REASON_TARGET_TRAVELING: "[SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip] podróżuje."
  BEFRIENDING_AT_FEAST: "[SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip] bierze udział w tej samej uczcie co ty."
+ ALLOWING_TO_MOURN: "pozwalamy osobie znanej jako [SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip] na żałobę."
  overthrow_regent: "Obalenie regenta"
  overthrow_regent_action: "Obalenie"
  overthrow_regent_desc: "Porwę i [Concept('imprison', 'uwiężę')|E] osobę, która zwie się [SCHEME.GetTarget.GetShortUINameNotMeNoTooltip]. Następnie zmuszę tego człowieka do oddania mi stanowiska o nazwie [SCHEME.GetTargetCharacter.GetDiarchTitle|l]!"

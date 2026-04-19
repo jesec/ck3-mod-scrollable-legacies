@@ -98,7 +98,7 @@
  az_examination.0014.c: "「私は弟子としてふさわしいでしょうか？」"
  az_examination.0014.d: "「お心遣いを嬉しく思います」"
  tgp_examiner_promise_modifier: "大きな期待"
- tgp_examiner_promise_modifier_desc: "この人物は長老たちの称賛の声、そしてそこから生まれたあらゆる期待に応える約束をした。"
+ tgp_examiner_promise_modifier_desc: "この人物は導師たちの称賛の声、そしてそこから生まれたあらゆる期待に応える約束をした。"
  az_examination.0015.t: "自慢する[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('proud_family_member'))|U]"
  az_examination.0015.desc: "[proud_family_member.Custom2('MyCharacterIntroduction', ROOT.Char)|U]は集まった人の群れの端の方に立ち、誇りで目を輝かせている。\n\n「いた！あれが私の[ROOT.Char.Custom('ComplimentAdjective')][proud_family_member.Custom2('RelationToMeShort', ROOT.Char)]だ！」[proud_family_member.GetHerHis]の声が響き渡り、近くにいた受験者たちを驚かせ、迷惑そうな視線を集める。"
  az_examination.0015.a: "[proud_family_member.GetHerHim]に優雅に感謝のお辞儀をする。"

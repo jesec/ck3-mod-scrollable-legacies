@@ -58,6 +58,7 @@
  BlocReasonPlayer: "из-за непредсказуемой людской природы"
  BlocReasonWar: "в результате войны между [Concept('house_bloc', 'блоками домов')|E]"
  BlocReasonEvents: "в результате события"
+ BlocReasonIntent: "как результат намерения во время [Concept('activity', 'занятия')|E]"
  BlocReasonPrestige: "из-за разницы в [Concept('prestige_levels', 'уровнях репутации')|E] лидеров [Concept('house_bloc', 'блоков домов')|E]"
  BlocReasonInfluence: "из-за разницы в [Concept('influence_levels', 'уровнях влияния')|E] лидеров [Concept('house_bloc', 'блоков домов')|E]"
  BlocReasonMilitaryStrength: "из-за разницы в военной силе лидеров [Concept('house_bloc', 'блоков домов')|E]"
@@ -70,3 +71,5 @@
  BlocReasonBribePrestige: "из-за щедрого подкупа [prestige_i][Concept('prestige', 'престижем')|E]"
  BlocReasonBribeInfluence: "из-за щедрого подкупа [influence_i][Concept('influence', 'влиянием')|E]"
  BlocReasonBribeHook: "из-за использованного [hook_i][Concept('hook', 'рычага влияния')|E]"
+ BlocReasonKicked: "был исключен [Concept('leading_house', 'основным домом')|E]"
+ BlocReasonFollowedLiege: "чтобы вступить в [Concept('bloc', 'блок')|E] [Concept('liege', 'сюзерена')|E] [Concept('house_heads_possessive', 'главы дома')]"

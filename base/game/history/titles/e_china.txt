@@ -202,10 +202,10 @@
 	873.8.15 = {
 		holder = han_4057 # Xizong of Tang
 	}
-	888.4.25 = {
+	888.4.20 = {
 		holder = han_4097 # Zhaozong of Tang
 	}
-	904.8.26 = {
+	904.9.22 = {
 		holder = han_4263 # Ai of Tang
 	}
 	907.5.12 = {
@@ -242,7 +242,7 @@
 	1085.4.1 = {
 		holder = han_10092 # Zhezong of Song
 	}
-	1100.1.23 = {
+	1100.2.23 = {
 		holder = han_10298 # Huizong of Song
 	}
 	1126.1.18 = {
@@ -615,7 +615,7 @@ k_hedong = {
 	1178.1.1 = {
 		holder = jurchen_administrator_9
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 
@@ -841,7 +841,7 @@ k_daibei = {
 	1178.1.1 = {
 		holder = jurchen_administrator_3
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 
@@ -950,7 +950,8 @@ k_qingxu = {
 	}
 	1178.1.1 = {
 		holder = pucha_84B2_5BDF_1
-		liege = e_andong
+		government = steppe_admin_government
+		liege = e_jin
 	}
 }
 
@@ -972,7 +973,7 @@ k_hebei = {
 	1178.1.1 = {
 		holder = jurchen_administrator_1
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 
@@ -994,7 +995,7 @@ k_guannei = {
 	1178.1.1 = {
 		holder = jurchen_administrator_5
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 
@@ -1003,13 +1004,15 @@ k_hexi = {
 	1066.1.1 = { change_development_level = 8 }
 	1178.1.1 = { change_development_level = 10 }
 
-	867.1.1 = {
-		holder = 244004
+	851.1.1 = {
+		holder = 206811 # Yichao_8B70_6F6E
 		government = meritocratic_government
+	}
+	867.1.1 = {
+		holder = 244004 # Huaishen
 	}
 	1066.1.1 = {
 		holder = 206651
-		government = meritocratic_government
 	}
 	1178.1.1 = {
 		holder = 206657
@@ -1029,7 +1032,7 @@ k_raole = {
 	1178.1.1 = {
 		holder = jurchen_administrator_4
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 
@@ -1073,7 +1076,7 @@ k_henan = {
 	}
 	1178.1.1 = {
 		holder = jurchen_tudan_1
-		liege = e_andong
+		liege = e_jin
 		government = steppe_admin_government
 	}
 }
@@ -1129,6 +1132,7 @@ c_ruzhou = {
 	}
 	1178.1.1 = {
 		holder = jurchen_magistrate_fic_1
+		government = steppe_admin_government
 	}
 
 }
@@ -1908,7 +1912,7 @@ d_weibo = {
 	1178.1.1 = {
 		holder = jurchen_administrator_1
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 
@@ -1930,7 +1934,7 @@ c_weizhou = {
 	1178.1.1 = {
 		holder = jurchen_administrator_1
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 
@@ -2379,7 +2383,7 @@ d_hedong = {
 	1178.1.1 = {
 		holder = jurchen_administrator_9
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 
 }
@@ -2400,7 +2404,7 @@ c_taiyuan = {
 	1178.1.1 = {
 		holder = jurchen_administrator_9
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 
 }
@@ -3916,7 +3920,7 @@ c_jiankang = {
 	867.1.1 = {
 		holder = han_2685
 		liege = d_gansu
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1066.1.1 = {
 		holder = tangut0038
@@ -3932,7 +3936,7 @@ c_zhenwu_1 = {
 	867.1.1 = {
 		holder = han_2669
 		liege = d_gansu
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1066.1.1 = {
 		holder = tangut0038
@@ -3948,7 +3952,7 @@ c_jiuquan = {
 	867.1.1 = {
 		holder = guiyi_character_9
 		liege = d_gansu
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1066.1.1 = {
 		holder = tangut0038
@@ -3964,7 +3968,7 @@ c_yumen = {
 	867.1.1 = {
 		holder = han_2652
 		liege = d_gansu
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1066.1.1 = {
 		holder = tangut0038
@@ -3980,7 +3984,7 @@ d_guasha = {
 	867.1.1 = {
 		holder = 304191
 		liege = k_hexi
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1066.1.1 = {
 		holder = 206725
@@ -8817,7 +8821,7 @@ d_yunshuo = {
 	1178.1.1 = {
 		holder = jurchen_administrator_3
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 
@@ -8836,7 +8840,7 @@ c_datong_2 = {
 	1178.1.1 = {
 		holder = jurchen_administrator_3
 		government = steppe_admin_government
-		liege = e_andong
+		liege = e_jin
 	}
 }
 

@@ -46,7 +46,7 @@
  steal_herd_outcome.1003.b_desc: "あなたは[target.GetFirstNameNoTooltip]から金を盗もうとする"
  steal_herd_outcome.1003.c: "[target.GetPrimarySpouse.GetFirstName]も[target.GetFirstNameNoTooltip]のものだ。今のところは。"
  steal_herd_outcome.1003.c_tt: "#V 成功率#!が#p 増加#!した状態で、[target.GetPrimarySpouse.GetFirstName]に対して[GetScheme('seduce').GetTypeName][scheme|E]を開始する。"
- mpo_steal_herd_seduce_modifier: "小群遊牧民の接触"
+ mpo_steal_herd_seduce_modifier: "遊牧集団の接触"
  mpo_steal_herd_murder_modifier: "草原の工作員"
  steal_herd_outcome.1003.d: "[target.GetHerHis|U]の命はどうだ？"
  steal_herd_outcome.1003.d_tt: "#V 成功率#!が#p 増加#!した状態で、[target.GetFirstName]に対して[GetScheme('murder').GetTypeName][scheme|E]を開始する。"

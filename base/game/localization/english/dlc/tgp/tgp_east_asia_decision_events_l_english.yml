@@ -3,7 +3,7 @@
  tgp_east_asia_decision_events.0010.desc: "Sometimes enlightenment can come from the most unsuspecting sources.\n\nThe Mandala way of ruling a realm resonates with me on a... higher plane. Surely my existence serves a grander purpose, to unite the realm under my divine and benevolent rule.\n\n#EMP 'All hail Devaraja [ROOT.Char.GetFirstNameNoTooltip]'#! has a nice ring to it..."
  tgp_east_asia_decision_events.0010.a: "Let #EMP this#! be my first decree."
  tgp_east_asia_decision_events.0010.b: "The holding at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] is not worthy of a temple, #EMP yet#!..."
- warning_mandala_capital_building_only_built_in_citadels_tt: "\n@alert_icon! #alert_trial The [mandala|E] [GetBuilding('mandala_capital_01').GetName] [great_building|E] can only be constructed if your [capital|E] is a [temple_citadel|E] [holding|E]#!"
+ tgp_east_asia_decision_events.0010.b_temple_citadel: "My temple stands mighty fine in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] already!"
  all_tribal_holdings_will_change_to_citadels: "All [tribal_holdings|E] in the realm will become [temple_citadel_holdings|E]"
  realm_capital_will_change_to_citadel: "The [realm_capital|E] [holding|E] will become a [temple_citadel_holding|E]"
 

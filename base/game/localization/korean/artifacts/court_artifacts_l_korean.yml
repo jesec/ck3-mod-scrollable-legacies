@@ -758,3 +758,5 @@
  artifact_nukemaru_sword_desc: "아마테라스가 이세의 사냥꾼에게 내렸다고 전해지는 검입니다. 이후 $dynn_Taira$ $Tadamori$가 구매했으며, 그가 잠에 빠진 사이에 뱀이 다가오자 스스로 칼집에서 빠져나와 주인을 지켰다고 전해집니다."
  artifact_kogarasumaru_sword_name: "코가라스마루" #小烏丸
  artifact_kogarasumaru_sword_desc: "도공 아마쿠니가 황실을 위해 단조한 검으로, 그 이름은 '작은 까마귀'를 뜻합니다. 이후 $Suzaku$ $king_tenno_male_japanese$이 죠헤이 덴교의 난에서 공을 세운 $dynn_Taira$ $Sadamori$에게 하사했습니다."
+ artifact_statue_green_amitabha_buddha_name: "녹석 아미타불상"
+ artifact_statue_green_amitabha_buddha_descripton: "하나로 된 녹색 석재를 깎아 만든 것으로 보이는 아름다운 아미타불상입니다. 받침에는 연꽃잎과 물결무늬 장식이 새겨져 있습니다.\n\n이 불상은 막 세워진 탑이 곧 무너진 뒤, 그 잔해 속에서 기적적으로 모습을 드러냈다고 전해집니다."

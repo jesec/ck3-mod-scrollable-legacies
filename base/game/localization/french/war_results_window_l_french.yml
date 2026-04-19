@@ -8,6 +8,7 @@
  WAR_RESULTS_GOLD: "$VALUE|+0$[gold_i]"
  WAR_RESULTS_PRESTIGE: "$VALUE|+0$[prestige_i]"
  WAR_RESULTS_PIETY: "$VALUE|+0$[piety_i]"
+ WAR_RESULTS_MERIT: "$VALUE|+0$[merit_i]"
  WAR_RESULTS_OPINION: "\nOpinion avec [CHARACTER.Custom('FR_le_Char_P')][CHARACTER.GetFullName] : $VALUE|+0$"
  WAR_RESULTS_CONTRIBUTION_SCORE: "Score : $VALUE|0V$ ($PERCENT|%0V$)\n"
  WAR_RESULTS_GHW_SCORE: "Score : $VALUE|0V$ ($PERCENT|%/0V$)\n"

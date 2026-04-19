@@ -127,3 +127,6 @@
  dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]에 진입했음"
  dynastic_cycle_entered_stability_expansion_tt: "[GetSituation('dynastic_cycle').GetName]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]에 진입함"
  dynastic_cycle_entered_instability_tt: "[GetSituation('dynastic_cycle').GetName]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]에 진입했음"
+ tgp_hegemon_picked_different_era_opinion: "예상과 다른 [dynastic_cycle_era_type_stable|E] 선택"
+ tgp_hegemon_picked_different_era_opinion_expansion_tt: "모든 [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] 및 [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName] 구성원"
+ tgp_hegemon_picked_different_era_opinion_advancement_tt: "모든 [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName] 및 [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName] 구성원"

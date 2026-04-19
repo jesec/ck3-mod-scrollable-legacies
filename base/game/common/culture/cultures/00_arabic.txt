@@ -25,7 +25,7 @@
 	house_coa_mask_scale = { 0.95 0.95 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
 
@@ -58,7 +58,7 @@ levantine = {
 	house_coa_mask_scale = { 0.95 0.95 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
 
@@ -88,7 +88,7 @@ egyptian = {
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
 
@@ -121,8 +121,8 @@ maghrebi = {
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = arab
-		1 = african
+		91 = arab
+		9 = african
 	}
 }
 
@@ -152,7 +152,7 @@ yemeni = {
 	house_coa_mask_scale = { 0.95 0.95 }
 
 	ethnicities = {
-		10 = arab
-		6 = east_african
+		62 = arab
+		38 = east_african
 	}
 }

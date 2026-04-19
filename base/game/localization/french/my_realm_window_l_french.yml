@@ -268,5 +268,5 @@
  is_kurultai_succession_chaotic_empty_kurultai_none: "Il y a des postes vacants dans votre [kurultai|E]"
  MY_REALM_WINDOW_SUZERAIN_NAME: "[suzerain|E] : [Character.GetSuzerain.GetShortUIName]"
  MY_REALM_WINDOW_LIEGE_NAME: "[liege|E] : [Character.GetLiege.GetShortUIName]"
- SUBJECT_CONTRACT_OBLIGATIONS_TITLE_BARTER_GOODS: "Biens troqués"
+ SUBJECT_CONTRACT_OBLIGATIONS_TITLE_BARTER_GOODS: "Biens de troc"
  CANT_CHANGE_LAW_TOOLTIP: "Pas de [succession_laws|El] supplémentaires disponibles"

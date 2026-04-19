@@ -1,12 +1,12 @@
 {
-  "version": "1.18.1.1",
+  "version": "1.18.4",
   "version_name": "Crane",
-  "updated": "2025-11-13T11:53:18.000Z",
+  "updated": "2026-03-04T11:44:16.000Z",
   "release_notes": {
-    "title": "1.18.1.1",
-    "date": "2025-11-13",
-    "file": "release-notes/1_18_1_1_2025-11-13.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/806834747866087608"
+    "title": "Out Now: North Pacific Attire, East Asian Wonders, & Celestial Court Attire",
+    "date": "2026-03-11",
+    "file": "release-notes/1_18_4_0_2026-03-11.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/534377648529342527"
   },
   "depots": {
     "228981": {
@@ -18,16 +18,16 @@
       "updated": "2022-05-04T21:41:13.000Z"
     },
     "1158311": {
-      "manifest": "7580183108365571279",
-      "updated": "2025-11-13T11:51:22.000Z"
+      "manifest": "898637053609717566",
+      "updated": "2026-03-04T11:42:57.000Z"
     },
     "1158312": {
-      "manifest": "1699475769964482037",
-      "updated": "2025-11-13T11:52:38.000Z"
+      "manifest": "6187909801574663713",
+      "updated": "2026-03-04T11:44:16.000Z"
     },
     "1158315": {
-      "manifest": "7898429710867915558",
-      "updated": "2025-11-13T11:53:18.000Z"
+      "manifest": "3944603068272440229",
+      "updated": "2026-02-18T18:05:24.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",
@@ -79,13 +79,13 @@
       "name": "Wards & Wardens"
     },
     "2671030": {
-      "manifest": "5278886681444747695",
-      "updated": "2024-01-16T18:26:41.000Z",
-      "name": "Content Creator Pack: North African Attire"
+      "manifest": "2257513862370412160",
+      "updated": "2023-12-07T12:07:58.000Z",
+      "name": "Creator Pack: North African Attire"
     },
     "2671040": {
-      "manifest": "6943932038941728839",
-      "updated": "2024-01-30T14:45:37.000Z",
+      "manifest": "836968934287748787",
+      "updated": "2024-01-16T18:26:44.000Z",
       "name": "Couture of the Capets"
     },
     "2671060": {
@@ -111,7 +111,7 @@
     "3275760": {
       "manifest": "4288366890699939411",
       "updated": "2024-11-07T13:13:38.000Z",
-      "name": "Content Creator Pack: West Slavic Attire"
+      "name": "Creator Pack: West Slavic Attire"
     },
     "3315500": {
       "manifest": "4503344207642007609",
@@ -124,24 +124,49 @@
       "name": "Khans of the Steppe"
     },
     "3315520": {
-      "manifest": "8449070805625557237",
-      "updated": "2025-09-02T19:18:44.000Z",
+      "manifest": "7521553339934362737",
+      "updated": "2025-09-02T12:19:31.000Z",
       "name": "Coronations"
     },
     "3315530": {
-      "manifest": "1354419142085528436",
-      "updated": "2025-10-20T16:19:56.000Z",
+      "manifest": "6421997741920874889",
+      "updated": "2025-11-12T15:16:33.000Z",
       "name": "All Under Heaven"
     },
     "3315540": {
-      "manifest": "4626049522195732303",
-      "updated": "2025-02-20T12:27:55.000Z",
-      "name": "Content Creator Pack: Medieval Monuments"
+      "manifest": "1359283799129796893",
+      "updated": "2025-02-15T09:57:06.000Z",
+      "name": "Creator Pack: Medieval Monuments"
     },
     "3315550": {
       "manifest": "3811676699583608116",
       "updated": "2025-10-06T19:14:19.000Z",
-      "name": "Content Creator Pack: Arctic Attire"
+      "name": "Creator Pack: Arctic Attire"
+    },
+    "3315560": {
+      "manifest": "5111920289037265676",
+      "updated": "2026-01-13T19:44:43.000Z",
+      "name": "Creator Pack: High Medieval Warfare Attire"
+    },
+    "3315570": {
+      "manifest": "409066589632915157",
+      "updated": "2026-02-18T22:50:04.000Z",
+      "name": "Creator Pack: Holy Buildings"
+    },
+    "3315580": {
+      "manifest": "6705959764445437481",
+      "updated": "2026-02-18T22:50:07.000Z",
+      "name": "Creator Pack: North Pacific Attire"
+    },
+    "4232860": {
+      "manifest": "2743333143025069241",
+      "updated": "2026-02-18T22:50:11.000Z",
+      "name": "Creator Pack: East Asian Wonders"
+    },
+    "4232870": {
+      "manifest": "6970199339967430673",
+      "updated": "2026-02-18T22:50:14.000Z",
+      "name": "Creator Pack: Celestial Court Attire"
     }
   }
 }

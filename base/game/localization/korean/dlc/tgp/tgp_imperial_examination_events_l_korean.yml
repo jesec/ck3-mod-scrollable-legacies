@@ -4,7 +4,7 @@
  imperial_examination.1000.t: "모여드는 응시자"
  imperial_examination.1000.desc: "나는 [ROOT.Char.GetCurrentLocation.GetName]의 도시에 들어섰다. 우리의 도착을 맞이해 정리된 거리가 화려하게 장식되어 있었다. 사람들은 우리가 지나갈 때마다 인사하며 조용히 행운을 비는 기도를 올렸고, 도박꾼들은 길모퉁이에서 내기를 걸고 있었다.\n\n돌아보는 곳마다 과거 응시자들이 가장 좋은 비단옷을 입고, 곁에 있던 기생들과 함께 현지 술집으로 떠나고 있었다. 오늘, 내가 어디까지 나아갈 의지가 있는지 시험받게 될 것이다."
  imperial_examination.1000.a: "무슨 수를 써서라도 반드시 성공하리라!"
- imperial_examination.1000.a.tt: "부정행위를 저지를 기회가 많아지게 됩니다.\n@alert_icon! #alert_trial 발각당할 수도 있습니다!#!"
+ imperial_examination.1000.a.tt: "부정행위를 저지를 기회가 많아지게 됩니다.\n@alert_icon! #alert_trial 발각당할 수도 있습니다!#! #weak (발각당하지 않을 경우 #V $secret_exam_cheater$#! [secret|E]을 획득하게 됨)#!"
  imperial_examination.1000.b: "나는 명예로운 길로 나 자신을 증명하고 싶다."
  #Host
  imperial_examination.1001.t: "$imperial_examination.1000.t$"
@@ -14,7 +14,7 @@
  imperial_examination.1002.t: "$imperial_examination.1000.t$"
  imperial_examination.1002.desc: "나는 내 [ROOT.Char.Custom2('RelationToMe', candidate )] [candidate.GetTitledFirstName](와)과 함께 [ROOT.Char.GetCurrentLocation.GetName]의 도시에 들어섰다. 우리의 도착을 맞이해 정리된 거리가 화려하게 장식되어 있었다.\n\n[candidate.GetSheHe]가 응시자 숙소에 머물게 되면, [candidate.GetHerHis] 과거 시험의 성과에 내가 영향을 줄 수 있는 여지는 거의 없을 것이다. 지금이라도 몇 마디 조언을 건네는 편이 좋을까."
  imperial_examination.1002.a: "\"무슨 수를 써서라도 성공하거라, [ROOT.Char.Custom2('RelationToMe', candidate )].\""
- imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip](이)가 부정행위를 저지를 기회가 많아지게 됩니다.\n@alert_icon! #alert_trial [candidate.GetSheHe|U]가 발각당할 수도 있습니다!#!"
+ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip](이)가 부정행위를 저지를 기회가 많아지게 됩니다.\n@alert_icon! #alert_trial [candidate.GetSheHe|U]가 발각당할 수도 있습니다!#! #weak ([candidate.GetSheHe]가 발각당하지 않을 경우 #V $secret_exam_cheater$#! [secret|E]을 획득하게 됨)#!"
  imperial_examination.1002.b: "\"[ROOT.Char.GetHouse.GetNameNoTooltip] 가문의 명예를 더럽히지 말거라.\""
  imperial_examination.1003.t: "$imperial_examination.1000.t$"
  imperial_examination.1003.desc: "[ROOT.Char.GetCurrentLocation.GetName]의 도시에 들어서는데, 각종 서적과 학습 자료들을 가득 안은 팔이 무겁기만 하다.\n\n"
@@ -445,7 +445,7 @@
  # Intro event
  imperial_examination.7100.t: "시험을 치른 가족"
  imperial_examination.7100.desc: "어진 [host.GetTitleAsNameNoTooltip]의 영광에 힘입어, 새로운 총독 지망생들이 [location.GetName]에서 열리는 수도 과거 시험을 치렀다."
- imperial_examination.7100.desc.intro_nr_of_relatives_singular: "내 [ROOT.Char.Custom2('RelationToMeShort', house_member)|U] [house_member.GetTitledFirstName]만이 응시자로 참가했다."
+ imperial_examination.7100.desc.intro_nr_of_relatives_singular: "내 [ROOT.Char.Custom2('RelationToMeShort', house_member)] [house_member.GetTitledFirstName]만이 응시자로 참가했다."
  imperial_examination.7100.desc.intro_nr_of_relatives: "\n\n[ROOT.Char.GetHouse.GetNameNoTooltip] 집안에서는 [ROOT.Char.MakeScope.Var('num_exam_family_entrants').GetValue]명이 응시자로 참가했다."
  imperial_examination.7100.desc.all_failed: "[ROOT.Char.Custom('ActivityGetFaileesBothAll')] 시험에서 낙방했다."
  imperial_examination.7100.desc.all_passed_provincial: "[ROOT.Char.Custom('ActivityGetSuccessfulBothAll')] 우리 집안에 명예를 안기고 과거 시험에 합격했다."

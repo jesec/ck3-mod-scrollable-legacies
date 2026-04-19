@@ -8,7 +8,7 @@
  activity_imperial_examination_desc: "このような試験の仕組みを守り、手配することは、我々の名誉であり義務でもある。試験によって最もふさわしい人物の評価と決定を行い、[merit|E]を与え、国の繁栄に繋げることができるのだ。"
  activity_imperial_examination_host_desc: "$activity_imperial_examination_host_rewards$$activity_imperial_examination_guest_rewards$"
  activity_imperial_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
- activity_imperial_examination_guest_desc: "\n$BULLET_WITH_TAB$@metropolitan_exam_icon! #V 会試#!を完了する機会が得られる\n$BULLET_WITH_TAB$@palace_exam_icon! #V 殿試#!を完了する機会が得られる\n$BULLET_WITH_TAB$[GetTrait('confucian_education').GetName( GetNullCharacter )]の[trait_level_track_xp|E]が増加する可能性がある\n$BULLET_WITH_TAB$[merit|E]が上昇する可能性がある[SelectLocalization( Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning' )]"
+ activity_imperial_examination_guest_desc: "\n$BULLET_WITH_TAB$@metropolitan_exam_icon! #V 会試#!を完了する機会が得られる\n$BULLET_WITH_TAB$@palace_exam_icon! #V 殿試#!を完了する機会が得られる\n$BULLET_WITH_TAB$[GetTrait('confucian_education').GetName( GetNullCharacter )]の[trait_level_track_xp|E]が増加する可能性がある\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial [host.GetCulture.GetLanguage.GetName]の[language|E]を知らない場合、成功率が大幅に下がります！#![SelectLocalization( Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning' )]"
  activity_imperial_examination_warning: "\n#indent_newline:8 $BULLET_WITH_TAB$ @warning_icon! #color_red @provincial_exam_icon! [provincial_examination|E]に合格していないので、高い確率で不合格になります！#!"
  activity_imperial_examination_guest_rewards: "\n$BULLET_WITH_TAB$優秀な人物を雇用できる可能性\n$BULLET_WITH_TAB$参加者は[GetTrait('confucian_education').GetName( GetNullCharacter )]の[trait_level_track_xp|E]を獲得する可能性がある\n$BULLET_WITH_TAB$参加者は[merit|E]を獲得する可能性がある"
  imperial_examination_base_cost: "基本コスト"
@@ -17,8 +17,8 @@
  activity_imperial_examination_expected_frequency: "#V 5#!年ごとに開催予定"
  activity_imperial_examination_not_available_tt: "#T [GetActivityType( 'activity_imperial_examination' ).GetNameNoTooltip]#!\nこの[activity|E]では、受験者は以下を完了できる：\n@metropolitan_exam_icon! 会試\n@palace_exam_icon! 殿試\n\n$activity_imperial_examination_expected_frequency$"
  # Province Selection
- activity_imperial_examination_province_kaifeng_palace_desc: "#P ++ $building_type_kaifeng_palace_01$#!"
- activity_imperial_examination_province_examination_hall_desc: "#P ++ $building_type_examination_hall_01$#!"
+ activity_imperial_examination_province_kaifeng_palace_desc: "\n#P ++ $building_type_kaifeng_palace_01$#!"
+ activity_imperial_examination_province_examination_hall_desc: "\n#P ++ $building_type_examination_hall_01$#!"
  #Activity Window Characters
  activity_window_character_player_entrant_traveling: "$activity_window_character_player_entrant$"
  activity_window_character_player_entrant: "$activity_window_character_entrant$"
@@ -103,8 +103,8 @@
  imperial_examination_ace_poetry_log: "[CHARACTER.GetShortUIName|U]は[PROVINCE.GetBaronyNameExplicitly]の詩作で群を抜く成績を収めた。"
  imperial_examination_ace_archery_log_title: "見事な一矢"
  imperial_examination_ace_archery_log: "[CHARACTER.GetShortUIName|U]は[PROVINCE.GetBaronyNameExplicitly]の弓術大会で最高の射手であることが証明された"
- imperial_examination_ace_polearm_log_title: "ポールアームの達人"
- imperial_examination_ace_polearm_log: "[CHARACTER.GetShortUIName|U]は[PROVINCE.GetBaronyNameExplicitly]のポールアーム演武で見事な腕前を披露した"
+ imperial_examination_ace_polearm_log_title: "長柄の達人"
+ imperial_examination_ace_polearm_log: "[CHARACTER.GetShortUIName|U]は[PROVINCE.GetBaronyNameExplicitly]の長柄演武で見事な腕前を披露した"
  imperial_examination_ace_riding_log_title: "騎射の天才"
  imperial_examination_ace_riding_log: "[CHARACTER.GetShortUIName|U]は試験で優れた騎射の腕を披露した"
  #Rewards

@@ -78,6 +78,12 @@ desert_mountains_travel_danger = {
 	color = bad
 }
 
+terraced_hills_travel_danger = {
+	prefix = MOD_TRAVEL_DANGER_PREFIX
+	decimals = 0
+	color = bad
+}
+
 jungle_travel_danger = {
 	prefix = MOD_TRAVEL_DANGER_PREFIX
 	decimals = 0

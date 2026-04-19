@@ -6723,12 +6723,11 @@ gok_spawn_subjugated_quality_army_effect = {
 			100 = {
 				trigger = {
 					scope:army_giver = {
-						valid_for_maa_trigger = { PARAMETER = unlock_maa_tiefutu }
 						NOT = {
 							culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
 						}
 						culture = {
-							has_innovation = innovation_arched_saddle
+							has_innovation = innovation_tiefutu
 						}
 						highest_held_title_tier >= tier_kingdom
 					}
@@ -6736,7 +6735,6 @@ gok_spawn_subjugated_quality_army_effect = {
 				if = {
 					limit = {
 						scope:army_giver = {
-							valid_for_maa_trigger = { PARAMETER = unlock_maa_tiefutu }
 							NOT = {
 								culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
 							}

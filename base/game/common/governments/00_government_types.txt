@@ -92,9 +92,17 @@ theocracy_government = {
 
 	can_get_government = {
 		NOT = {
-			faith = {
-				has_doctrine = doctrine_theocracy_lay_clergy
+			faith = { has_doctrine = doctrine_theocracy_lay_clergy }
+		}
+		#The LAAMP Construct Holding decision
+		trigger_if = {
+			limit = {
+				OR = {
+					has_variable = city_construction_is_temple_citadel
+					has_variable = city_construction_is_castle
+				}
 			}
+			always = no
 		}
 	}
 
@@ -298,6 +306,7 @@ wanua_government = { # "Wanua"
 	flags = {
 		government_is_tribal
 		government_is_wanua
+		government_is_settled
 		government_can_raid_rule
 		government_enables_naval_raiding
 		government_enables_river_travel
@@ -425,6 +434,19 @@ administrative_government = {
 	required_county_holdings = { castle_holding city_holding church_holding }
 
 	vassal_contract_group = admin_vassal
+
+	can_get_government = {
+		#The LAAMP Construct Holding decision
+		trigger_if = {
+			limit = {
+				OR = {
+					has_variable = city_construction_is_temple_citadel
+					has_variable = city_construction_is_castle
+				}
+			}
+			always = no
+		}
+	}
 
 	character_modifier = {
 		levy_size = -0.5
@@ -581,6 +603,10 @@ nomad_government = {
 	max_dread = 150
 
 	vassal_contract_group = nomad_vassal
+
+	can_get_government = {
+		has_mpo_dlc_trigger = yes
+	}
 
 	character_modifier = {
 		steppe_travel_danger = steppe_high_danger_reduction
@@ -791,7 +817,12 @@ celestial_government = {
 
 	# The hegemon cannot reassign ministers
 	ai_can_reassign_council_positions = {
-		primary_title != title:h_china
+		trigger_if = {
+			limit = {
+				NOT = { exists = var:can_fire_minister }
+			}
+			primary_title != title:h_china
+		}
 	}
 
 	currency_levels_cap = {
@@ -834,6 +865,16 @@ mandala_government = {
 		OR = {
 			liege ?= { has_government = mandala_government }
 			is_independent_ruler = yes
+		}
+		#The LAAMP Construct Holding decision
+		trigger_if = {
+			limit = {
+				OR = {
+					has_variable = city_construction_is_temple_citadel
+					has_variable = city_construction_is_castle
+				}
+			}
+			capital_province = { has_holding_type = temple_citadel_holding }
 		}
 	}
 

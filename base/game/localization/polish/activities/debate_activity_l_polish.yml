@@ -60,6 +60,7 @@
  ### CONCLUSION
  activity_debate_conclusion_desc_leadership_winner: "Debata o przywództwo w ruchu o nazwie [GetPlayer.Custom('GetMyMovement')] dobiegła końca i to mnie ogłoszono zwycięzcą!"
  activity_debate_conclusion_desc_leadership_loser: "Moje plany zostały udaremnione, a [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] wciąż zajmuje pozycję przywódcy ruchu o nazwie [GetPlayer.Custom('GetMyMovement')]."
+ activity_debate_conclusion_desc_leadership_challenged_loser: "Pomimo moich starań to [Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] zostaje przywódcą ruchu znanego jako [GetPlayer.Custom('GetMyMovement')]."
  activity_debate_conclusion_desc_favor_winner: "Debata o przychylność osoby, którą jest [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] dobiegła końca, a ruch o nazwie [GetPlayer.Custom('GetMyMovement')] odniósł zwycięstwo!"
  activity_debate_conclusion_desc_favor_loser: "Nie udało mi się zapewnić ruchowi o nazwie [GetPlayer.Custom('GetMyMovement')] przychylności osoby, którą jest [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]. Następnym razem muszę się bardziej postarać."
  debate_conclusion_fallback: "Aktywność, którą jest [GetActivityType( 'activity_debate' ).GetName] dobiegła końca."

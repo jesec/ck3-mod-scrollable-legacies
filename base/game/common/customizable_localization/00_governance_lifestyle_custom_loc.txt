@@ -63,7 +63,7 @@ Governance_1062_Client = {
 	}
 }
 
-# We have a special All Capitalized version of this custom key for feed messages, since |U can only capitalize the fist word in a string (and nautral philosopher is 2 words).
+# We have a special All Capitalized version of this custom key for feed messages, since |U can only capitalize the fist word in a string (and natural philosopher is 2 words).
 Governance_1062_Client_U = {
 	type = character
 

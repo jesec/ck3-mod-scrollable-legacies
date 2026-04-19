@@ -47,6 +47,7 @@
  house_power_parameter_unlock_coerce_contribution_scheme: "Débloque le [scheme|El] #high [GetScheme('coerce_contribution').GetTypeName]#!"
  house_power_parameter_births_give_piety: "Les mères et les pères gagnent de la [piety|El] à la naissance de leur enfant de cette [house|E]"
  house_power_parameter_may_override_stewardship_succession_trial: "Votre [heir|El] peut achever instantanément la partie en [stewardship|El] des épreuves de la [mandala_succession_succession|El]"
+ house_power_parameter_can_build_in_tributaries: "Peut construire des [buildings|El] et des [holdings|El] chez les [tributaries|El] #weak (seulement si vous n’êtes pas vous-même un tributaire)#!"
  mandala_creator_child_born: "Lignée de l’enfant du Créateur"
  mandala_creator_children_born: "Lignée des enfants du Créateur"
  mandala_creator_modifier: "Aspect de la création"
@@ -82,7 +83,7 @@
  house_power_parameter_aspect_of_destruction_ways_to_die: "Les [death_natural_causes|El], la [death_religion|El] ou le [death_combat|El] sont les façons acceptables de [character_death_die|El] en raison de l’#high aspect de la destruction#!"
  house_power_parameter_can_use_plunder_for_contribution_cb: "Débloque le [casus_belli|El] #high [GetCasusBelliType('mandala_plunder_cb').GetName]#!"
  house_power_parameter_can_make_mandala_tributaries_via_war: "Peut gagner des [tributaries|El] (#high [GetSubjectContractGroup( 'tributary_mandala' ).GetName|l]#! ou #high [GetSubjectContractGroup( 'tributary_mandala_tribal' ).GetName|l]#!) via la [war|El] visant à #high [GetCasusBelliType('make_tributary_cb').GetName|l]#!"
- house_power_parameter_has_unlimited_invasion_cb: "A un accès illimité au [casus_belli|El] #high [GetCasusBelliType('invasion_war').GetName]#!"
+ house_power_parameter_has_mandala_invasion_cb: "Accède au [casus_belli|El] #high [GetCasusBelliType('invasion_war').GetName]#!"
  house_power_parameter_may_override_martial_succession_trial: "Votre [heir|El] peut achever instantanément la partie en [martial|El] des épreuves de la [mandala_succession_succession|El]"
  #Aspect of Trickery
  house_power_parameter_unlock_leverage_contribution_scheme: "Débloque le [scheme|El] #high [GetScheme('leverage_contribution').GetTypeName]#!"

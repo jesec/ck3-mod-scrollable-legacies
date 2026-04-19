@@ -59,8 +59,8 @@ ancient_egyptian = {
 	house_coa_frame = house_frame_16
 
 	ethnicities = {
-		10 = mediterranean
-		10 = arab
+		50 = mediterranean
+		50 = arab
 	}
 }
 
@@ -88,7 +88,7 @@ hebrew = {
 	house_coa_frame = house_frame_16
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
 
@@ -118,7 +118,7 @@ hunnic = {
 	house_coa_frame = house_frame_16
 
 	ethnicities = {
-		10 = asian
+		100 = asian
 	}
 }
 
@@ -146,7 +146,7 @@ trojan = {
 	house_coa_frame = house_frame_16
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		100 = mediterranean_byzantine
 	}
 }
 
@@ -173,6 +173,6 @@ macedonian = {
 	house_coa_frame = house_frame_16
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		100 = mediterranean_byzantine
 	}
 }

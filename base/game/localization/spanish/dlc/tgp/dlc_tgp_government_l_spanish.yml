@@ -39,6 +39,8 @@
  steppe_admin_government_adjective: "$steppe_admin_government$"
  steppe_admin_government_with_icon: "@government_type_steppe_admin! $steppe_admin_government$"
  steppe_admin_icon_concept: "@government_type_steppe_admin!"
+ steppe_admin_government_vassals_label: "Las [obligations|El] de tipo $steppe_admin_government$ se basan en la [GetPlayer.Custom('GetProvinceAdministrationConcept')|l]"
  steppe_admin_government_desc: "\n$game_concept_steppe_admin_desc$\n\n#F El sistema $steppe_admin_government$ hace referencia a una fusión del estilo de vida nómada con la burocracia confuciana del gobierno administrativo chino centralizado.#!"
  steppe_admin_government_house_attribute_flavor_name: "[powerful_family_attribute|E]"
  steppe_admin_government_house_attribute_flavor_name_no_tooltip: "$game_concept_powerful_family_attribute$"
+ can_raze_own_holding_meritocratic_khanate_tt: "Para arrasar una [holding|El], un [steppe_admin|El] debe tener una [castle_holding|El] en la capital del [county|El] #weak ([province.GetCountyCapitalProvince.GetBaronyNameExplicitly])#!"

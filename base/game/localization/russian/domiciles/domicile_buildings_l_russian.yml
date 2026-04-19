@@ -516,7 +516,7 @@
  proving_grounds_nightly_barding_drills_domicile_building_desc: "#weak (Требуется здание [GetDomicileBuilding('proving_grounds_01').GetName])#!\nЗвенья скручиваются, кожа рвется, пластины ржавеют, и выучка снижается независимо от того, идет ли речь об элитной тяжелой коннице или иных войсках."
  proving_grounds_life_in_the_saddle_domicile_building: "Жизнь в седле"
  proving_grounds_life_in_the_saddle_domicile_building_desc: "#weak (Требуется здание [GetDomicileBuilding('proving_grounds_01').GetName])#!\nКому-то это дается от рождения, кто-то учится в зрелом возрасте."
- proving_grounds_life_in_the_saddle_horse_archers_tt: "У вас должен быть [Concept( 'regiment', 'полк' )|E] [Concept( 'men_at_arms', 'профессиональных' )|E] #TOOLTIP:MEN_AT_ARMS_TYPE,heavy_horse_archers #L тяжелых конных лучников#!#! или #TOOLTIP:MEN_AT_ARMS_TYPE,horse_archers #L конных лучников#!#!"
+ proving_grounds_life_in_the_saddle_horse_archers_tt: "У вас должен быть хотя бы один [Concept('regiment', 'полк')|E] [Concept('archer_cavalry', 'конных лучников')|E]"
  #TIT-53191
  proving_grounds_the_stump_domicile_building: "Пень"
  #proving_grounds_the_stump_domicile_building: "The [GetPlayer.Custom('GetStumpName')|U]"

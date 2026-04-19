@@ -483,7 +483,7 @@ balhae_dae_35 = {
 	1066.1.1 = {
 		birth = yes
 	}
-	1198.1.1 = {
+	1129.1.1 = {
 		death = yes
 	}
 }
@@ -2106,10 +2106,24 @@ balhae_go_7 = {
 	dynasty = balhae_go
 	religion = vinaya
 	culture = balhae
+	father = balhae_go_8 # Gwan_74D8
 	1066.1.1 = {
 		birth = yes
 	}
 	1116.5.1 = {
+		death = yes
+	}
+}
+
+balhae_go_8 = {
+	name = "Gwan_74D8" # fictional
+	dynasty = balhae_go
+	religion = vinaya
+	culture = balhae
+	1031.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = {
 		death = yes
 	}
 }

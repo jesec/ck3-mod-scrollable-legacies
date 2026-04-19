@@ -73,4 +73,4 @@
  # House Relations
  game_concept_house_relation: "家同士の関係"
  game_concept_house_relations: "家同士の関係"
- game_concept_house_relation_desc: "2つの[houses|E]が交流すると、有益または有害な$game_concept_house_relation$が生まれることがあります。過去の世代が行ったことは記憶され、良くも悪くも子孫たちの考え方に影響を与えます。\n\n$game_concept_house_relation$のレベルが変化するごとに$game_concept_house$の全員の[opinion|E]が影響を受け、さらなる行動がアンロックされる可能性があります。\n\nたとえば、親善関係にある家同士は自由に[alliances|E]を締結でき、確執関係にある家同士は低コストで宣戦布告できます。"
+ game_concept_house_relation_desc: "2つの[houses|E]が交流すると、$game_concept_house_relation$が構築されます。この関係は良好なものであれ険悪なものであれ、世代を超えて持続します。\n\n$game_concept_house_relation$の各レベルは、すべての$game_concept_house$の成員の[opinion|E]に影響を与えるだけでなく、[alliances|E]や[wars|E]の成立を容易にしたり困難にしたりするなど、追加の効果をもたらす場合があります。\n\n$game_concept_house_relation$は、すべての行動の合計が#P +100%#!または#N -100%#!に達するまで、同じレベルで維持されます。その後、$game_concept_house_relation$は次のレベルに上下します。"

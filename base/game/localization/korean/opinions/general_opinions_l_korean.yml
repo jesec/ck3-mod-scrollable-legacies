@@ -229,6 +229,7 @@
  attempt_to_force_surrender_opinion: "항복을 강요하려 함"
  theft_opinion: "도둑"
  siphoned_treasury_crime: "국고 착복"
+ tax_avoidance_crime: "탈세"
  embezzled_opinion: "나의 자금을 횡령함"
  elopement_opinion: "도피"
  attempted_elopement_opinion: "도피를 시도함"

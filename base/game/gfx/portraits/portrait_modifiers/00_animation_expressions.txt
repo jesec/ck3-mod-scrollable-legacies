@@ -300,13 +300,6 @@ animations = {
 				# template = forehead_wrinkles
 				range = { 0.6 0.7 }
 			}
-			accessory = {
-				mode = replace
-
-				gene = eye_accessory
-				template = normal_eyes_no_shadow
-				range = { 1.0 1.0 }
-			}
 		}
 	}
 

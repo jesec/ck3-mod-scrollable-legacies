@@ -2380,6 +2380,26 @@ e_great_liao = {
 	}
 }
 
+e_jin = {
+	#JIN dynasty = Jurchen Jin
+	1115.1.1 = {
+		holder = jurchen_wanyan_8	#TAIZU aka Wanyan Aguda
+	}
+	1123.9.19 = {
+		holder = jurchen_wanyan_33	#TAIZONG aka Wanyan Wuqimai
+	}
+	1135.2.9 = {
+		holder = jurchen_wanyan_12	#XIZONG aka Wanyan Hela
+	}
+	1150.1.9 = {
+		holder = jurchen_wanyan_13	#Wanyan Digunai
+	}
+	1161.12.15 = {
+		holder = jurchen_wanyan_14	#SHIZONG aka Wanyan Wulu
+		government = steppe_admin_government
+	}
+}
+
 e_kara_khitai = {
 	1124.1.1 = {
 		holder = 188905	#Yelü Dashi = Emperor Dezong

@@ -648,7 +648,7 @@
  hold_court.8280.b: "私は常に腕利きの馬乗りを必要としている。"
  hold_court.8280.c: "[feudal_vassal.GetFirstNameNoTooltip]、貴公は大げさすぎる。"
  hold_court.8290.t: "[city_province.GetTitle.GetAdjectiveNoTooltip]の勅許"
- hold_court.8290.desc: "私の前に見慣れぬ[city_vassal.GetWomanMan]が立っている。どうやら[city_mayor.GetSheHe]は、私の[ROOT.Char.Custom2('RelationToMeShort', city_vassal)]、[city_vassal.GetTitledFirstNamePossessive]の領土の[city_mayor.GetTitleAsNameNoTooltip]、[city_mayor.GetFirstName]のようだ。\n\n「[ROOT.Char.GetTitleAsNameNoTooltip]様、私は自分の都市である[city_province.GetTitle.GetNameNoTier]を適切に統治するため、周辺の土地を授けていただけないかと我が[ROOT.Char.GetLadyLord]には無断でここまでやって参りました」\n\n「[city_vassal.GetPrimaryTitle.GetNameNoTierNoTooltip]の[city_vassal.GetTitleAsNameNoTooltip]に課されている重い税金と責任さえなければ、我々は自分たちで問題を管理し、[ROOT.Char.GetPrimaryTitle.Custom('GetTierBase')]に大きな繁栄をもたらすことができます」"
+ hold_court.8290.desc: "私の前に見慣れぬ[city_mayor.GetWomanMan]が立っている。どうやら[city_mayor.GetSheHe]は、私の[ROOT.Char.Custom2('RelationToMeShort', city_vassal)]、[city_vassal.GetTitledFirstNamePossessive]の領土の[city_mayor.GetTitleAsNameNoTooltip]、[city_mayor.GetFirstName]のようだ。\n\n「[ROOT.Char.GetTitleAsNameNoTooltip]様、私は自分の都市である[city_province.GetTitle.GetNameNoTier]を適切に統治するため、周辺の土地を授けていただけないかと我が[ROOT.Char.GetLadyLord]には無断でここまでやって参りました」\n\n「[city_vassal.GetPrimaryTitle.GetNameNoTierNoTooltip]の[city_vassal.GetTitleAsNameNoTooltip]に課されている重い税金と責任さえなければ、我々は自分たちで問題を管理し、[ROOT.Char.GetPrimaryTitle.Custom('GetTierBase')]に大きな繁栄をもたらすことができます」"
  hold_court.8290.a: "君の都市が私への恩を忘れないと信じているぞ。"
  hold_court.8290.b: "将来得られる富を少し前払いするなら、検討してやってもいい。"
  hold_court.8290.c: "君の頼みは常軌を逸している。"

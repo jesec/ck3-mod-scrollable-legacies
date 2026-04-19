@@ -1136,7 +1136,7 @@
  action_active_learning_oath_1: "$action_active_diplomacy_oath_1$"
  action_active_learning_oath_1_label: "[coronation_i] 宣誓：$GetUniversityOathText$ [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
  action_active_learning_oath_1_desc: "[coronation|E]で、あなたは#V $GetUniversityOathText$#![oath|E]を行った。宣誓の達成期限まで残り[RemainingTime('learning_oath_1_timer')]年。"
- action_active_learning_oath_1_click: "$action_active_learning_oath_1_click$"
+ action_active_learning_oath_1_click: "$action_active_diplomacy_oath_1_click$"
  action_active_purge_pretenders_oath: "$action_active_diplomacy_oath_1$"
  action_active_purge_pretenders_oath_label: "[coronation_i] 宣誓：$GetPurgePretendersOathText$ [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
  action_active_purge_pretenders_oath_desc: "[coronation|E]で、あなたは#V $GetPurgePretendersOathText$#![oath|E]を行った。宣誓の達成期限まで残り[RemainingTime('purge_pretenders_oath_timer')]年。"
@@ -1205,3 +1205,46 @@
  action_landless_admin_escape_to_realm: "他の領国に逃避する"
  action_landless_admin_escape_to_realm_desc: "あなたは、[government|E]が異なる[liege|E]に仕える、所領無しの[noble_family|E]の[title|E][holder|E]である\n\n#help [government|E]を同じくする他の[independent_rulers|E]に対し、新しい主君となってくれるよう要請し、その人物の[capital|E]にあなたの[domicile|E]を移転することができます#!"
  action_landless_admin_escape_to_realm_click: "#I クリックして行動「$landless_admin_switch_non_admin_top_liege_interaction$」を開く#!"
+ action_minister_can_imprison_label: "@minister! [recipient.GetShortUINameNoTooltip]は投獄可能"
+ action_minister_can_imprison_combined_group_label: "@minister! 総督は投獄可能"
+ action_minister_can_imprison_combined_label: "[recipient.GetShortUINameNoTooltip]は投獄可能"
+ #tooltip heading
+ action_minister_can_imprison: "@minister! 総督は投獄可能"
+ action_minister_can_imprison_combined_group_name: "$action_minister_can_imprison_combined_group_label$"
+ #tooltip contents
+ action_minister_can_imprison_desc: "[recipient.GetShortUIName]は既知の[criminal|E]であるため[imprison|E]できます#weak （[recipient.GetImprisonmentReasons( recipient.GetLiege )]）#!。"
+ action_minister_can_imprison_combined_group_description: "既知の[criminals|E]である[governors|E]を[imprison|E]できます"
+ action_minister_can_imprison_click: "#I クリックして行動「$imprison_interaction$」を開く#!"
+ action_minister_can_pardon_label: "@minister! [recipient.GetShortUINameNoTooltip]を恩赦可能"
+ action_minister_can_pardon_combined_group_label: "@minister! 総督を恩赦可能"
+ action_minister_can_pardon_combined_label: "[recipient.GetShortUINameNoTooltip]を恩赦可能"
+ #tooltip heading
+ action_minister_can_pardon: "@minister! 総督を恩赦可能"
+ action_minister_can_pardon_combined_group_name: "$action_minister_can_pardon_combined_group_label$"
+ #tooltip contents
+ action_minister_can_pardon_desc: "[recipient.GetShortUIName]は既知の[criminal|E]であるため、あなたは[recipient.GetLiege.GetShortUIName]に、[recipient.GetSheHe]の[imprisonment_reason|E]#weak （[recipient.GetImprisonmentReasons( recipient.GetLiege )]）#!を認めさせることができます。"
+ action_minister_can_pardon_combined_group_description: "あなたは既知の[criminals|E]である[liege_possessive|E]の[governors|E]に、強制的に[imprisonment_reason|E]を認めさせることができます。"
+ action_minister_can_pardon_click: "#I クリックして行動「$pardon_interaction$」を開く#!"
+ action_can_be_pardoned_by_minister_label: "@minister! [recipient.GetShortUINameNoTooltip]に恩赦を頼むことが可能"
+ #tooltip heading
+ action_can_be_pardoned_by_minister: "@minister! あなたを恩赦可能"
+ #tooltip contents
+ action_can_be_pardoned_by_minister_desc: "あなたは[recipient.GetShortUIName]に対し、あなたの[liege|E]である[actor.GetLiege.GetShortUIName]に、#V あなた#!の[imprisonment_reason|E] #weak （[actor.GetImprisonmentReasons( actor.GetLiege )]）を認めさせるよう頼むことができます。"
+ action_can_be_pardoned_by_minister_unimportant: "@warning_icon! #X [recipient.GetShortUIName]は受け入れるつもりはありません#!"
+ action_can_be_pardoned_by_minister_click: "#I クリックして行動「$ask_for_pardon_interaction$」を開く#!"
+ action_pay_governors_treasury_debt_label: "@minister! [recipient.GetShortUINamePossessiveNoTooltip]の国庫債務は清算可能"
+ action_pay_governors_treasury_debt_combined_group_label: "@minister! 総督の国庫債務は清算可能"
+ action_pay_governors_treasury_debt_combined_label: "[recipient.GetShortUINamePossessiveNoTooltip]の累積[treasury_debt|E]は[treasury_i]#X [recipient.GetTreasury|0]#!"
+ #tooltip heading
+ action_pay_governors_treasury_debt: "@minister! 総督の国庫債務は清算可能"
+ action_pay_governors_treasury_debt_combined_group_name: "$action_pay_governors_treasury_debt_combined_group_label$"
+ #tooltip contents
+ action_pay_governors_treasury_debt_desc: "あなたは[treasury_i] [treasury|E]を[recipient.GetShortUIName]に送り、[recipient.GetHerHis]の帳簿を清算できます。"
+ action_pay_governors_treasury_debt_combined_group_description: "あなたは[treasury_i] [treasury|E]を[governors|E]に送り、すべての[treasury_debt|E]を清算できます。"
+ action_pay_governors_treasury_debt_click: "#I クリックして行動「$action_pay_governors_treasury_debt$」を開く#!"
+ action_minister_can_pay_treasury_debt_label: "@minister! あなたの国庫債務は[recipient.GetShortUIName]によって清算可能"
+ #tooltip heading
+ action_minister_can_pay_treasury_debt: "@minister! [recipient.GetShortUIName]はあなたの国庫債務を清算可能"
+ #tooltip contents
+ action_minister_can_pay_treasury_debt_desc: "あなたは[minister_of_revenue|E]、[recipient.GetShortUIName]、または[son_of_heaven|E]から[treasury_i] [treasury|E]を受け取り、あなたの帳簿を清算できます。"
+ action_minister_can_pay_treasury_debt_click: "#I クリックして行動「$action_pay_governors_treasury_debt$」を開く#!"

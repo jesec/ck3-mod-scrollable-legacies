@@ -75,7 +75,7 @@
  religious_interaction.2011.b: "그쪽이 구원받는 데 돈을 치를 생각은 없소!"
  religious_interaction.2011.c: "금화보다 더 값어치 있는 것들을 위한 일이잖소."
  religious_interaction.2012.desc: "당신의 신앙에 어떤 지혜가 깃들어 있는지 깨달았습니다. 하지만 어둠에서 빛으로 향하는 여정은 길고 고되기 마련이지요.\n\n필요한 물자를 지원해 주겠노라 약조한다면, 그 여정이 수월해지지 않을까 싶은데..."
- religious_interaction.2012.a: "받아들이리다. 어디까지나 [ROOT.Char.GetFaith.GetNameNoTooltip](을)를 위하여."
+ religious_interaction.2012.a: "받아들이리다. 어디까지나 신자들을 위하여."
  religious_interaction.2012.b: "귀의하니 마니 흥정할 생각은 없소!"
  religious_interaction.2012.c: "우선 다른 빚부터 갚은 뒤에 얘기합시다."
  religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

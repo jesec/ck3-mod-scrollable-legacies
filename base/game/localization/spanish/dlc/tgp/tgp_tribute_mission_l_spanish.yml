@@ -71,6 +71,8 @@
  tribute_mission_costs_refunded: "Costes de tributo reembolsados"
  tribute_mission_notification.title: "Tributo pagado por [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  tribute_mission_notification.desc: "[tributary_scope.GetShortUIName|U] partió en una [tribute_mission|lE] y pagó un tributo en tu [court|lE]"
+ tribute_mission.new_tributary.title: "Tributo comprometido de [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ tribute_mission.new_tributary.desc: "[tributary_scope.GetShortUIName|U] se comprometió a convertirse en tu [tributary|El] mientras te pague [tribute|El]"
  qualifies_for_tribute_mission_trigger: "No tienes ningún [tribute|lE] válido"
  qualifies_for_tribute_mission_gold_trigger: "No tienes [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0] @gold_icon!"
  qualifies_for_tribute_mission_gold_or_herd_trigger: "No tienes el [tribute|lE] que se espera. Precisas de [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0] @gold_icon! o de [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_herd_value')|0] @herd_icon!."

@@ -1330,3 +1330,5 @@
  nick_tenjin_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] soll nach [CHARACTER.Custom('DE_PRO_POS_S_3P')]er ungerechten Behandlung ein rachsüchtiger Geist geworden sein und wird nun als himmlisches Wesen verehrt."
  nick_ushiwakamaru: "Ushiwakamaru"
  nick_ushiwakamaru_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ist bekannt dafür, die Stärke und Hartnäckigkeit eines jungen Bullen zu haben, sodass alle in seiner Umgebung ihn fürchten."
+ nick_ho_seung: "Ho-seung"
+ nick_ho_seung_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ist von einer Legende umrankt: Ein Tiger starb nach dem Sturz in eine Grubenfalle und wurde als Mensch wiedergeboren, um danach ein Mönch zu werden. Dieser Sage zufolge ist niemand anders als [CHARACTER.GetShortUINameNoTooltipNoFormat] selbst dieser Mönch."

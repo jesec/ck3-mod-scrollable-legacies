@@ -29,6 +29,8 @@
  people: "люди"
  mistress: "хозяйка"
  master: "хозяин"
+ mistress_possessive: "госпожи"
+ master_possessive: "господина"
  witch_spirit: "дух"
  witch_spirits: "духи"
  witch_source: "источник"

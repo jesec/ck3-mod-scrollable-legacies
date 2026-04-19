@@ -42,6 +42,51 @@
 					desc = merit_career_score_bonus_desc
 				}
 			}
+
+			if = {
+				limit = {
+					domicile ?= {
+						has_domicile_parameter = meritocratic_civilian_score_bonus_1
+					}
+				}
+				add = {
+					value = celestial_civilian_score_bonus_1_value
+					desc = "[GetDomicileBuilding('east_asian_estate_office_01').GetName]"
+				}
+			}
+			else_if = {
+				limit = {
+					domicile ?= {
+						has_domicile_parameter = meritocratic_civilian_score_bonus_2
+					}
+				}
+				add = {
+					value = celestial_civilian_score_bonus_2_value
+					desc = "[GetDomicileBuilding('east_asian_estate_office_02').GetName]"
+				}
+			}
+			else_if = {
+				limit = {
+					domicile ?= {
+						has_domicile_parameter = meritocratic_civilian_score_bonus_3
+					}
+				}
+				add = {
+					value = celestial_civilian_score_bonus_3_value
+					desc = "[GetDomicileBuilding('east_asian_estate_office_03').GetName]"
+				}
+			}
+			else_if = {
+				limit = {
+					domicile ?= {
+						has_domicile_parameter = meritocratic_civilian_score_bonus_4
+					}
+				}
+				add = {
+					value = celestial_civilian_score_bonus_4_value
+					desc = "[GetDomicileBuilding('east_asian_estate_office_04').GetName]"
+				}
+			}
 			
 			# Age - With age comes experience. We provide a rather small bonus for the elderly, to exist as a potential tie-breaker.
 			add = {
@@ -702,6 +747,51 @@ meritocratic_military_governor = {
 				add = {
 					value = var:merit_military_career_score_bonus
 					desc = merit_career_score_bonus_desc
+				}
+			}
+
+			if = {
+				limit = {
+					domicile ?= {
+						has_domicile_parameter = meritocratic_military_score_bonus_1
+					}
+				}
+				add = {
+					value = celestial_military_score_bonus_1_value
+					desc = "[GetDomicileBuilding('east_asian_estate_office_01').GetName]"
+				}
+			}
+			else_if = {
+				limit = {
+					domicile ?= {
+						has_domicile_parameter = meritocratic_military_score_bonus_2
+					}
+				}
+				add = {
+					value = celestial_military_score_bonus_2_value
+					desc = "[GetDomicileBuilding('east_asian_estate_office_02').GetName]"
+				}
+			}
+			else_if = {
+				limit = {
+					domicile ?= {
+						has_domicile_parameter = meritocratic_military_score_bonus_3
+					}
+				}
+				add = {
+					value = celestial_military_score_bonus_3_value
+					desc = "[GetDomicileBuilding('east_asian_estate_office_03').GetName]"
+				}
+			}
+			else_if = {
+				limit = {
+					domicile ?= {
+						has_domicile_parameter = meritocratic_military_score_bonus_4
+					}
+				}
+				add = {
+					value = celestial_military_score_bonus_4_value
+					desc = "[GetDomicileBuilding('east_asian_estate_office_04').GetName]"
 				}
 			}
 			

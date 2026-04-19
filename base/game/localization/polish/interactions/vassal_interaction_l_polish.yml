@@ -159,3 +159,5 @@
  grant_court_position: "Przyznaj urząd dworski"
  grant_court_position_desc: "Przyznaj osobie znanej jako [recipient.GetShortUINameNotMeNoTooltip] [court_position|El]"
  request_court_position_extra_icon: "$hook_extra_icon$"
+ celestial_extinguish_noble_family_interaction: "Pozbądź się rodziny szlacheckiej"
+ celestial_extinguish_noble_family_interaction_desc: "[Concept('execute', 'Strać')|E] osobę znaną jako [recipient.GetShortUINameNotMe] i jej dorosłych dziedziców, a następnie [Concept('banish', 'wygnaj')|E] z [Concept('realm', 'państwa')|E] jej krewnych"

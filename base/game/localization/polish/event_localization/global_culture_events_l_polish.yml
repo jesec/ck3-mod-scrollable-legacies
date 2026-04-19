@@ -43,3 +43,5 @@
  global_culture.3011.desc: "Eklektyczna mieszanka ludów w południowych Włoszech i na Sycylii dała początek wyjątkowej kulturze, na którą oddziaływały niezliczone wpływy.\n\nTeraz jasne jest, że mieszkańcy [county_to_change.GetName] nie postrzegają się już jako [old_culture.GetCollectiveNoun], ale jako rodowici [sicilian.GetCollectiveNoun]!"
  global_culture.3011.a: "Ciekawy rozwój wydarzeń…"
  global_culture.3012.a: "Wspaniale!"
+ global_culture.4011.t: "Kultura [goryeo.GetNameNoTooltip|l] rozprzestrzenia się"
+ global_culture.4011.desc: "Ludność trzech królestw połączyła szersza tożsamość w wyniku zjednoczenia, co zaowocowało powstaniem unikalnej kultury, odzwierciedlającej liczne wpływy.\n\nTeraz widać wyraźnie, że mieszkańcy miejsca o nazwie [county_to_change.GetName] nie postrzegają się już jako [old_culture.GetCollectiveNoun], lecz jako rodowici [goryeo.GetCollectiveNoun]!"

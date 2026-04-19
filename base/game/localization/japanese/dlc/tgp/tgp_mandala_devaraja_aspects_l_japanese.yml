@@ -47,6 +47,7 @@
  house_power_parameter_unlock_coerce_contribution_scheme: "[scheme|E]「#high [GetScheme('coerce_contribution').GetTypeName]#!」をアンロック"
  house_power_parameter_births_give_piety: "この[house|E]に子供が生まれると、母親と父親は[piety|E]を獲得する。"
  house_power_parameter_may_override_stewardship_succession_trial: "あなたの[heir|E]は[mandala_succession_succession|E]の試練の[stewardship|E]の部分を即座に完了できる"
+ house_power_parameter_can_build_in_tributaries: "[buildings|E]と[holdings|E]を[tributaries|E]に建設できる#weak （あなたが諸侯でない場合）#!"
  mandala_creator_child_born: "創造者の血統の子供"
  mandala_creator_children_born: "創造者の血統の子供たち"
  mandala_creator_modifier: "創造性"
@@ -82,7 +83,7 @@
  house_power_parameter_aspect_of_destruction_ways_to_die: "[death_natural_causes|E]、[death_religion|E]、[death_combat|E]は、#high 破壊性#!を持つ者に許容される[character_death_death|E]方法である"
  house_power_parameter_can_use_plunder_for_contribution_cb: "[casus_belli|E]「#high [GetCasusBelliType('mandala_plunder_cb').GetName]#!」をアンロックする"
  house_power_parameter_can_make_mandala_tributaries_via_war: "#high [GetCasusBelliType('make_tributary_cb').GetName]#![war|E]を通じて、#high [GetSubjectContractGroup( 'tributary_mandala' ).GetName]#!および#high [GetSubjectContractGroup( 'tributary_mandala_tribal' ).GetName]#!の[tributaries|E]を獲得する可能性がある"
- house_power_parameter_has_unlimited_invasion_cb: "#high [GetCasusBelliType('invasion_war').GetName]#!の[casus_belli|E]を無制限に利用できる"
+ house_power_parameter_has_mandala_invasion_cb: "[casus_belli|E]「#high [GetCasusBelliType('invasion_war').GetName]#!」を1回利用できる"
  house_power_parameter_may_override_martial_succession_trial: "あなたの[heir|E]は[mandala_succession_succession|E]の試練の[martial|E]の部分を即座に完了できる"
  #Aspect of Trickery
  house_power_parameter_unlock_leverage_contribution_scheme: "[scheme|E]「#high [GetScheme('leverage_contribution').GetTypeName]#!」をアンロック"

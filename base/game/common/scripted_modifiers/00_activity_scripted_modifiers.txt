@@ -2177,6 +2177,10 @@ hunt_activity_game_building_modifier = {
 	}
 	modifier = {
 		add = 4
+		$PROVINCE$ = { has_building = chocolate_hills_01 }
+	}
+	modifier = {
+		add = 4
 		$PROVINCE$ = { has_building = visegrad_castle_01 }
 	}
 }

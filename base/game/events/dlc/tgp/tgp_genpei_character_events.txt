@@ -348,10 +348,6 @@ scripted_effect tgp_yoshinaka_new_house_bloc_effect = {
 			tgp_create_house_bloc_effect = { TYPE = none }
 		}
 	}
-	custom_description = {
-		text = create_house_bloc_effect
-		subject = root
-	}
 	#Then steal members from the Yoritomo's bloc (only if they like him, and order by opinion)
 	scope:yoritomo_minamoto.house.house_confederation = {
 		save_scope_value_as = {
@@ -583,11 +579,11 @@ tgp_genpei_character.1100 = {
 		}
 		house = {
 			change_house_relation_effect = {
-				HOUSE = dynasty.dynast.house
+				HOUSE = root.dynasty.dynast.house
 				VALUE = house_relation_improve_medium_value
 				REASON = friend
 				CHAR = root
-				TARGET_CHAR = dynasty.dynast
+				TARGET_CHAR = root.dynasty.dynast
 				TITLE = scope:dummy_gender
 			}
 		}
@@ -745,6 +741,14 @@ tgp_genpei_character.2000 = {
 	option = { 
 		name = tgp_genpei_character.2000.c
 		flavor = tgp_genpei_character.2000.c.flavor
+		trigger = {
+			scope:wet_nurse = {
+				would_be_valid_for_court_position = {
+					employer = scope:norihito_tenno
+					court_position = court_physician_court_position
+				}
+			}
+		}
 		remove_short_term_gold = minor_gold_value	 
 		#give wetnurse
 		court_position_grant_effect = { 
@@ -1131,31 +1135,6 @@ tgp_genpei_character.3000 = {
 					target = scope:motofusa_fujiwara
 					opinion = 30
 				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					any_scheme = { 
-						scheme_type = slander
-						scheme_target_character = scope:kiyomori_taira  
-					}
-				}	
-			}
-			#If we don't have a scheme, let's scheme with a boost
-			start_scheme = {
-				type = slander
-				target_character = scope:kiyomori_taira
-			}		
-		}		
-		custom_tooltip = {
-			text = tgp_japan_yearly_events.1200.b.tt
-			random_scheme = {
-				limit = { 
-					scheme_type = slander
-					scheme_target_character = scope:kiyomori_taira
-				}
-				add_scheme_modifier = { type = bided_my_time }
 			}
 		}
 		stress_impact = {

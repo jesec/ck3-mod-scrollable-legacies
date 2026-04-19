@@ -8,7 +8,7 @@
  activity_imperial_examination_desc: "Es ist uns Ehre wie Pflicht zugleich, die Ordnung zu bewahren und diese Prüfungen abzuhalten. Durch sie können wir die passendsten Personen einschätzen, ermitteln und ihnen [merit|E] zusprechen – um den zukünftigen Wohlstand des Reichs zu sichern."
  activity_imperial_examination_host_desc: "$activity_imperial_examination_host_rewards$$activity_imperial_examination_guest_rewards$"
  activity_imperial_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
- activity_imperial_examination_guest_desc: "\n$BULLET_WITH_TAB$ Eine Gelegenheit, die @metropolitan_exam_icon! #V Metropolenprüfung#! abzulegen\n$BULLET_WITH_TAB$ Eine Gelegenheit, die @palace_exam_icon! #V Palastprüfung#! abzulegen\n$BULLET_WITH_TAB$ Kann Eure [trait_level_track_xp|E] in Bezug auf [GetTrait('confucian_education').GetName(GetNullCharacter)] erhöhen\n$BULLET_WITH_TAB$ Kann Euren [merit|E] erhöhen[SelectLocalization(Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning')]"
+ activity_imperial_examination_guest_desc: "\n$BULLET_WITH_TAB$Eine Gelegenheit, die @metropolitan_exam_icon! #V Metropolenprüfung#! abzulegen\n$BULLET_WITH_TAB$Eine Gelegenheit, die @palace_exam_icon! #V Palastprüfung#! abzulegen\n$BULLET_WITH_TAB$Kann Eure „[GetTrait('confucian_education').GetName(GetNullCharacter)]“[trait_level_track_xp|E] erhöhen\n$BULLET_WITH_TAB$Kann Euren [merit|E] erhöhen\n$BULLET_WITH_TAB$@alert_icon! #alert_trial Wenn Ihr die [host.GetCulture.GetLanguage.GetName|l]e [language|E] nicht sprecht, wird Eure Erfolgswahrscheinlichkeit drastisch verringert!#![SelectLocalization(Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning')]"
  activity_imperial_examination_warning: "\n#indent_newline:8 $BULLET_WITH_TAB$ @warning_icon! #color_red Da Ihr die @provincial_exam_icon! [provincial_examination|E] nicht bestanden habt, werdet Ihr wahrscheinlich scheitern!#!"
  activity_imperial_examination_guest_rewards: "\n$BULLET_WITH_TAB$Kann sehr geübte Charaktere rekrutieren\n$BULLET_WITH_TAB$Teilnehmer können „[GetTrait('confucian_education').GetName(GetNullCharacter)]“-[trait_level_track_xp|E] erhalten\n$BULLET_WITH_TAB$Teilnehmer können [merit|E] erhalten"
  imperial_examination_base_cost: "Grundkosten"
@@ -17,8 +17,8 @@
  activity_imperial_examination_expected_frequency: "Wird alle #V 5#! Jahre erwartet"
  activity_imperial_examination_not_available_tt: "#T [GetActivityType('activity_imperial_examination').GetNameNoTooltip]#!\nBei dieser [activity|E] können Prüflinge Folgendes abschließen:\n@metropolitan_exam_icon! Metropolenprüfung\n@palace_exam_icon! Palastprüfung\n\n$activity_imperial_examination_expected_frequency$"
  # Province Selection
- activity_imperial_examination_province_kaifeng_palace_desc: "#P ++ $building_type_kaifeng_palace_01$#!"
- activity_imperial_examination_province_examination_hall_desc: "#P ++ $building_type_examination_hall_01$#!"
+ activity_imperial_examination_province_kaifeng_palace_desc: "\n#P ++ $building_type_kaifeng_palace_01$#!"
+ activity_imperial_examination_province_examination_hall_desc: "\n#P ++ $building_type_examination_hall_01$#!"
  #Activity Window Characters
  activity_window_character_player_entrant_traveling: "$activity_window_character_player_entrant$"
  activity_window_character_player_entrant: "$activity_window_character_entrant$"

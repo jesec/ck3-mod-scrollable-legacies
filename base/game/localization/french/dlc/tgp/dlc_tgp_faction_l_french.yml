@@ -36,6 +36,7 @@
  FACTION_JAPANESE_RESTORE_EMPEROR: "Demande de $restore_ceremonial_liege_faction_name|l$"
  FACTION_JAPANESE_RESTORE_EMPEROR_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nVotre tyrannie à la Cour, sur la famille royale et tout le pays doit prendre fin.\n\nLaissez la place à notre véritable chef : [faction.GetSpecialCharacter.Custom('FR_le_Char_Pi')][faction.GetSpecialCharacter.GetTitledFirstName] !"
  tgp_faction_events.0201.b: "Vous paierez pour avoir souillé l’honneur [faction.GetSpecialCharacter.Custom('FR_du_Char_L')][faction.GetSpecialCharacter.GetTitleAsNameNoTooltip|l] !"
+ tgp_faction_events.0201.b.cm: "Vous prendriez le risque de diviser notre [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip] ?!"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED: "Demande de $restore_ceremonial_liege_faction_name|l$ acceptée"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED_DESC: "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nJe ne me soucie que du bien de la Cour, de la famille royale et de tout le pays !\n\nMême si je doute de vos motivations, je ne m’opposerai pas [faction.GetSpecialCharacter.Custom('FR_au_Char_Pi')][faction.GetSpecialCharacter.GetTitledFirstName]."
  FACTION_JAPANESE_RESTORE_EMPEROR_REFUSED: "Demande de $restore_ceremonial_liege_faction_name|l$ rejetée"

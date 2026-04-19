@@ -588,7 +588,7 @@
  FRAME_RELATION_POWERFUL_FAMILY: "#T Oberhaupt einer mächtigen Familie#!\nDieser [character|E] ist das [house_head|E] einer [Concept('powerful_family', 'mächtigen Familie')|E]: [house|E] [Character.GetHouse.GetName]"
  FRAME_RELATION_DOMINANT_FAMILY: "#T Oberhaupt einer vorherrschenden Familie#!\nDieser [character|E] ist das [house_head|E] einer [Concept('dominant_family', 'vorherrschenden Familie')|E]: [house|E] [Character.GetHouse.GetName]"
  FRAME_RELATION_TRIBUTARY: "#T [SubjectContract.GetContractGroup.GetNameNoTooltip]#!\nDieser [ruler|E] ist Euer [tributary|E]"
- FRAME_RELATION_OBEDIENT: "[CHARACTER.GetShortUIName|U] ist gehorsam gegenüber [TARGET_CHARACTER.GetShortUIName]"
+ FRAME_RELATION_OBEDIENT: "[Character.GetShortUIName|U] ist gehorsam gegenüber [TARGET_CHARACTER.GetShortUIName]"
  FRAME_RELATION_NO_OBEDIENCE: "[Character.GetShortUIName|U] gehorcht niemandem."
  #Dynastic Cycle
  FRAME_MOVEMENT_COMMON: "#T Mitglieder der [Character.Custom('GetMyMovement')]#!\n[personal_movement_power|E]: [movement_power_i][Character.MakeScope.Var('movement_power_individual').GetValue|V0] (+[Character.MakeScope.Var('movement_power_disciples').GetValue|0])\n[movement_power|E]: [movement_power_i][GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(Character.Self).MakeScope.Var('movement_power').GetValue|V0]"

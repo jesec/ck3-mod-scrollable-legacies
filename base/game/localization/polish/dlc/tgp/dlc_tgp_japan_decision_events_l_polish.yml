@@ -65,7 +65,7 @@
  will_found_noble_family_tt: "Zostaniesz głową nowej [Concept('noble_family', 'rodziny szlacheckiej')|E]"
  # tgp_japan_emperor_restoration_decision
  tgp_japan_decision.9301.t: "Otwarta klatka"
- tgp_japan_decision.9301.desc: "Jako cesarz odzyskuję należne mi miejsce prawdziwego przywódcy tego państwa. Moja władza nie leży już w rękach osób, które chcą podsycać własne ambicje, lecz została przywrócona na Chryzantemowy Tron."
+ tgp_japan_decision.9301.desc: "Jako cesarz odzyskuję należne mi miejsce prawdziwego przywódcy tego państwa.\n\nMoja władza nie leży już w rękach osób, które chcą podsycać własne ambicje, lecz została przywrócona na Chryzantemowy Tron."
  tgp_japan_decision.9301.a: "Słońce, które poprowadzi mieszkańców tych ziem."
  tgp_japan_decision.9302.t: "[tenno.GetTitleAsNameNoTooltip] – gwarant zwycięstwa"
  tgp_japan_decision.9302.desc: "Wieści o powrocie ten’nō rozprzestrzeniają się niczym pożar. [tenno.GetName] przywraca swoje cesarskie wpływy i miejmy nadzieję, że odbierze władzę z rąk osób bezczynnych i pełnych złej woli.\n\n[tenno.Custom('PL_jego_jej')|U] zamiarem jest rządzić w sposób bardziej bezpośredni z Chryzantemowego Tronu, a [tenno.Custom('PL_jego_jej')] panowanie nie będzie więcej postrzegane jako zwykła ceremonia."

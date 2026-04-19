@@ -199,7 +199,7 @@
  nomadic_war_white_peace_desc: "Les [counties|El] rebelles et les [vassals|El] font toujours partie du pays."
  nomadic_war_defeat_desc: "Les [counties|El] rebelles et les [vassals|El] font toujours partie du pays. [attacker.Custom('FR_le_Char_U_Pi')|U][attacker.GetShortUIName] est emprisonné[attacker.Custom('FR_E')]. Tous les [counties|El] rebelles ont leur [county_opinion|El] augmentée de force."
  populist_war: "Rébellion"
- populist_war_victory_desc: "Les [counties|El] rebelles deviennent un pays indépendant avec [attacker.Custom('FR_le_Char_U_Pi')][attacker.GetShortUIName] à sa tête."
+ populist_war_victory_desc: "Les [counties|El] en rébellion prendront les [duchies|El] [de_jure|El] et deviendront des pays indépendants avec chaque attaquant comme dirigeant."
  populist_war_white_peace_desc: "Les [counties|El] rebelles et les [vassals|El] font toujours partie du pays."
  populist_war_defeat_desc: "Les [counties|El] rebelles et les [vassals|El] font toujours partie du pays. Tous les vassaux rebelles sont [Concept('prison','emprisonnés')|E] par [defender.Custom('FR_le_Char_U_Pi')][defender.GetShortUIName]."
  claimant_faction_war_victory_desc: "Le [claimant|El] prend le contrôle du [title|El] contesté."

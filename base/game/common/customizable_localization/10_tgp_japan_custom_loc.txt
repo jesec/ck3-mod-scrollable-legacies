@@ -52,98 +52,115 @@ GetReasonForLeavingBloc = {
 
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_player }
+			house.var:bloc_leaving_reason ?= flag:reason_player
 		}
 		localization_key = BlocReasonPlayer
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_war }
+			house.var:bloc_leaving_reason ?= flag:reason_war
 		}
 		localization_key = BlocReasonWar
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_events }
+			house.var:bloc_leaving_reason ?= flag:reason_events
 		}
 		localization_key = BlocReasonEvents
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_prestige }
+			house.var:bloc_leaving_reason ?= flag:reason_intent
+		}
+		localization_key = BlocReasonIntent
+	}
+	text = {
+		trigger = {
+			house.var:bloc_leaving_reason ?= flag:reason_prestige
 		}
 		localization_key = BlocReasonPrestige
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_influence }
+			house.var:bloc_leaving_reason ?= flag:reason_influence
 		}
 		localization_key = BlocReasonInfluence
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_military_strength }
+			house.var:bloc_leaving_reason ?= flag:reason_military_strength
 		}
 		localization_key = BlocReasonMilitaryStrength
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_inviter_bloc_opinion }
+			house.var:bloc_leaving_reason ?= flag:reason_inviter_bloc_opinion
 		}
 		localization_key = BlocReasonInviterBlocOpinion
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_current_bloc_opinion }
+			house.var:bloc_leaving_reason ?= flag:reason_current_bloc_opinion
 		}
 		localization_key = BlocReasonCurrentBlocOpinion
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_dynasty }
+			house.var:bloc_leaving_reason ?= flag:reason_dynasty
 		}
 		localization_key = BlocReasonDynasty
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_aspirations }
+			house.var:bloc_leaving_reason ?= flag:reason_aspirations
 		}
 		localization_key = BlocReasonAspirations
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_cohesion }
+			house.var:bloc_leaving_reason ?= flag:reason_cohesion
 		}
 		localization_key = BlocReasonCohesion
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_bribe_gold }
+			house.var:bloc_leaving_reason ?= flag:reason_bribe_gold
 		}
 		localization_key = BlocReasonBribeGold
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_bribe_prestige }
+			house.var:bloc_leaving_reason ?= flag:reason_bribe_prestige
 		}
 		localization_key = BlocReasonBribePrestige
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_bribe_influence }
+			house.var:bloc_leaving_reason ?= flag:reason_bribe_influence
 		}
 		localization_key = BlocReasonBribeInfluence
 	}
 	text = {
 		trigger = {
-			house = { var:bloc_leaving_reason = flag:reason_bribe_hook }
+			house.var:bloc_leaving_reason ?= flag:reason_bribe_hook
 		}
 		localization_key = BlocReasonBribeHook
 	}
 	text = {
 		trigger = {
-			house = { NOT = { exists = var:bloc_leaving_reason } }
+			house.var:bloc_leaving_reason ?= flag:reason_kicked
 		}
+		localization_key = BlocReasonKicked
+	}
+	text = {
+		trigger = {
+			house.var:bloc_leaving_reason ?= flag:reason_followed_liege
+		}
+		localization_key = BlocReasonFollowedLiege
+	}
+	text = {
+		trigger = { always = no }
 		localization_key = blank_line
+		fallback = yes
 	}
 }

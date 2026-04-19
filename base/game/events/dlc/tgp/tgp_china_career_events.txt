@@ -325,3 +325,171 @@ tgp_china_career.0020 = {
 		}
 	}
 }
+
+# Your Elder has died
+tgp_china_career.0030 = {
+	type = character_event
+	title = tgp_china_career.0030.t
+	desc = tgp_china_career.0030.desc
+
+	theme = death
+	
+	left_portrait = {
+		character = root
+		animation = grief
+	}
+
+	right_portrait = {
+		character = scope:deceased_elder
+		animation = dead
+	}
+
+	lower_left_portrait = {
+		character = scope:superior_fellow_disciple
+		animation = map_disbelief
+	}
+
+	lower_right_portrait = {
+		character = scope:benchmark_new_disciple
+		animation = disappointed
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				num_of_relation_disciple < disciples_limit_value
+				any_in_list = {
+					list = potential_new_disciples
+					count >= 1
+				}
+			}
+			while = {
+				limit = {
+					num_of_relation_disciple < disciples_limit_value
+					any_in_list = {
+						list = potential_new_disciples
+						count >= 1
+						NOT = {
+							is_in_list = new_disciples
+						}
+					}
+				}
+				random_in_list = {
+					list = potential_new_disciples
+					limit = {
+						NOT = {
+							has_relation_elder = root
+						}
+					}
+					add_to_list = new_disciples # for the tooltip
+				}
+			}
+			random_in_list = {
+				list = potential_new_disciples
+				save_scope_as = benchmark_new_disciple
+			}
+		}
+	}
+	
+	option = {
+		name = tgp_china_career.0030.a
+
+		custom_tooltip = {
+			text = tgp_china_career.0030.a.tt
+			open_interaction_window = {
+				interaction = find_elder_interaction
+				actor = root
+				recipient = top_liege
+			}
+		}
+	}
+	option = {
+		name = tgp_china_career.0030.b
+
+		trigger = {
+			exists = scope:deceased_elder.house.house_head
+			this != scope:deceased_elder.house.house_head
+		}
+
+		pay_short_term_gold = {
+			target = scope:deceased_elder.house.house_head
+			gold = medium_gold_value
+		}
+
+		scope:deceased_elder.house = {
+			change_house_relation_effect = {
+				HOUSE = root.house
+				VALUE = house_relation_improve_minor_value
+				REASON = disciple_sent_condolences
+				CHAR = root
+				TARGET_CHAR = scope:deceased_elder
+				TITLE = scope:dummy_gender
+			}
+		}
+
+		change_merit = minor_merit_gain
+
+		add_piety = minor_piety_gain
+
+		ai_chance = {
+			base = 0 # player only
+		}
+	}
+	option = {
+		name = tgp_china_career.0030.c
+
+		trigger = {
+			exists = scope:superior_fellow_disciple
+			scope:superior_fellow_disciple = {
+				opinion = {
+					target = root
+					value >= -10
+				}
+			}
+		}
+
+		set_elder_relation_effect = {
+            ELDER = scope:superior_fellow_disciple
+            DISCIPLE = root
+            MERIT = medium_merit_gain
+        }
+
+		ai_chance = {
+			base = 0 # player only
+		}
+	}
+
+	option = {
+		name = tgp_china_career.0030.d
+
+		trigger = {
+			any_in_list = {
+				list = new_disciples
+				count >= 1
+			}
+		}
+
+		every_in_list = {
+			list = new_disciples
+			set_elder_relation_effect = {
+	            ELDER = root
+	            DISCIPLE = this
+	            MERIT = 0
+	        }
+		}
+
+		change_merit = {
+			value = 0
+			add = {
+				value = medium_merit_gain
+				multiply = list_size:new_disciples
+			}
+		}
+
+		add_prestige = minor_prestige_value
+
+		ai_chance = {
+			base = 0 # player only
+		}
+	}
+}

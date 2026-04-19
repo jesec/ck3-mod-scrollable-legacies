@@ -20,12 +20,12 @@
 	
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { pommeranian_clothing_gfx west_slavic_clothing_gfx western_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	house_coa_frame = house_frame_21
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 1.0 1.0 }
-
+	
 	ethnicities = {
 		45 = slavic_blond
 		5 = slavic_ginger
@@ -58,7 +58,7 @@ czech = {
 	house_coa_frame = house_frame_21
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 1.0 1.0 }
-
+	
 	ethnicities = {
 		45 = slavic_blond
 		5 = slavic_ginger
@@ -94,7 +94,7 @@ polish = {
 	house_coa_frame = house_frame_21
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 1.0 1.0 }
-
+	
 	ethnicities = {
 		45 = slavic_blond
 		5 = slavic_ginger
@@ -188,7 +188,7 @@ carantanian = {
 	house_coa_frame = house_frame_21
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 1.0 1.0 }
-
+	
 	ethnicities = {
 		45 = slavic_blond
 		5 = slavic_ginger

@@ -3,9 +3,21 @@
  treasury_icon_concept: "[treasury_i|E]"
  transfer_small_gold_amount_to_treasury_interaction: "Supplement Treasury"
  transfer_gold_amount_to_treasury_interaction_desc: ""
- TRANSFER_GOLD_TO_TREASURY_INTERACTION_TOOLTIP: "#T Supplement Treasury#!\n[Character.GetPlayerInteractionAcceptEffectDescription('transfer_small_gold_amount_to_treasury_interaction')]#!\n\n#i Right-click to transfer [gold_i]#V 50#!"
+ TRANSFER_GOLD_TO_TREASURY_INTERACTION_TOOLTIP: "#T Supplement Treasury#!\n[Character.GetPlayerInteractionAcceptEffectDescription('transfer_small_gold_amount_to_treasury_interaction')]#!\n\n#i Right-click to transfer [gold_i]#V 50#!\n#i Ctrl-left-click to transfer [gold_i]#V 500#!"
  transfer_treasury_because_you_are_greedy: "Because you are [GetTrait('greedy').GetName( GetNullCharacter )]:"
  transfer_treasury_because_you_are_generous: "Because you are [GetTrait('generous').GetName( GetNullCharacter)]:"
+
+ TRANSFER_TREASURY_TO_GOLD_DECISION_TOOLTIP: "#T Withdraw Gold#!\nWithdraw [gold_i][Character.CalcScriptedValue('medium_treasury_value')|0] from your Treasury, with some consequences.\n[AddLine( Decision.GetCommandDescForPlayer)]\n#i Click to open [Decision.GetName]#!"
+ extract_gold_from_treasury: "Withdraw Funds from Treasury"
+ extract_gold_from_treasury_desc: "We have the opportunity and right to re-allocate previously earmarked government resources from the [treasury|E] of [GetPlayer.GetPrimaryTitle.GetDefinitiveName], to be made available for my personal usage.\nThis public act might cause some raised eyebrows though."
+ extract_gold_from_treasury_tooltip: "We have the opportunity and right to re-allocate previously earmarked government resources from the [treasury|E] of [GetPlayer.GetPrimaryTitle.GetDefinitiveName]."
+ extract_gold_from_treasury_confirm: "I don't need to explain myself..."
+
+ tgp_dipped_into_treasury_modifier: "Dipped into Treasury"
+ tgp_dipped_into_treasury_modifier_desc: "This character has excessively dipped into their government treasury for personal expenditures, which is frowned upon.\n"
+
+ tgp_minister_dipped_into_treasury_modifier: "$tgp_dipped_into_treasury_modifier$"
+ tgp_minister_dipped_into_treasury_modifier_desc: "$tgp_dipped_into_treasury_modifier_desc$"
 
  TREASURY_MONTHLY_INCOME: "Monthly Income"
  TREASURY_MONTHLY_EXPENSES: "Monthly Expenses"

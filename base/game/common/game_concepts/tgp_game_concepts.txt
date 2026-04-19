@@ -131,6 +131,7 @@ mandate_of_heaven = {
 }
 
 son_of_heaven = {
+	texture = "gfx/interface/icons/legitimacy_types/mandate_legitimacy.dds"
 	parent = mandate_of_heaven
 	requires_dlc_flag = all_under_heaven
 	alias = {
@@ -253,6 +254,12 @@ celestial_bureaucracy = {
 	texture = "gfx/interface/icons/message_feed/law.dds"
 	parent = law
 	requires_dlc_flag = all_under_heaven
+}
+
+retirement_age = {
+	texture = "gfx/interface/icons/message_feed/law.dds"
+	parent = law
+	requires_dlc_flag = all_under_heaven	
 }
 
 civilian_career_path = {
@@ -444,6 +451,7 @@ movement_leader = {
 }
 
 favored_movement = {
+	texture = "gfx/interface/icons/dynastic_cycle/favored_by_hegemon.dds"
 	parent = movement
 	requires_dlc_flag = all_under_heaven
 	alias = {
@@ -452,6 +460,7 @@ favored_movement = {
 }
 
 favored_era = {
+	texture = "gfx/interface/icons/dynastic_cycle/favored_by_hegemon.dds"
 	parent = dynastic_cycle_era_short
 	requires_dlc_flag = all_under_heaven
 	alias = {
@@ -689,7 +698,13 @@ great_project = {
 }
 
 great_project_contribution = {
+	texture = "gfx/interface/icons/icon_great_project.dds"
 	alias = { great_project_contributions great_project_contribute great_project_contributed }
+}
+
+great_project_contributor = {
+	texture = "gfx/interface/icons/icon_great_project.dds"
+	alias = { great_project_contributors great_project_contributor_possessive great_project_contributors_possessive }
 }
 
 mandala = {

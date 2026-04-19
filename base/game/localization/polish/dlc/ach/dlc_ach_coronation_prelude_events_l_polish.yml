@@ -203,7 +203,7 @@
  prelude_events.0170.c.bad: "Niech gaduła zanudzi na śmierć niedouczonego zwolennika."
  prelude_events.0170.c.bad_flavor: "[guest.GetFirstNameNoTooltip] rozwścieczy swoją gadaniną tę tępotę znaną jako [supporter.GetName]!"
  cheaper_to_convert_to_guest_faith_tt: "Zyskujesz #P 50%#! zniżki za przejście na wiarę, którą jest [guest.GetFaith.GetName|l]"
- prelude_events.0170.c.disrupt_loyalists_tt: "Ze względu na twój [intent|El] „#high $coronation_disrupt_loyalists$#!” [coronation_magnificence|E] aktywności, którą jest [GetActivityType('activity_coronation').GetName|l], zostaje zmniejszona#!"
+ prelude_events.0170.c.disrupt_loyalists_tt: "Ze względu na twój [intent|El] „#high $coronation_disrupt_loyalists$#!” [coronation_magnificence|E] aktywności, którą jest [GetActivityType('activity_coronation').GetName|l], zostaje #N zmniejszona#!"
  prelude_events.0180.t: "Chwila ciszy"
  prelude_events.0180.desc.host: "Wiedząc, że [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.HouseOfWorship|l] to miejsce, w którym z pewnością zaznam chwili spokoju, zanim spadnie na mnie ciężar korony, zostawiam swoich gości i udaję się właśnie tam.\n\n"
  prelude_events.0180.desc.outro: "Ołtarz wzniesiony na cześć [ROOT.Char.GetFaith.HighGodNamePossessive], lśni subtelnie, oświetlony tuzinem świec. Chłodne mury kryją aromatyczną woń i ciszę. Czuję, jak z malowidła ściennego po mojej prawej stronie pada na mnie surowy wzrok [ROOT.Char.GetFaith.WealthGodNamePossessive]. Po lewej stronie widzę natomiast powoli blednące pozostałości malunku, na którym dostrzegam ledwo widoczny już uśmiech [ROOT.Char.GetFaith.HealthGodNamePossessive]."

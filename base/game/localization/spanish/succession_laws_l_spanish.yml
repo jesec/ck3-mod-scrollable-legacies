@@ -273,4 +273,4 @@
  #Meritocratic Acclamation Succession Law (Korea, TGP)
  meritocratic_regency_succession_law: "Sucesión de regencia meritocrática"
  meritocratic_regency_succession_law_subname: "$appointment_succession_law_subname$"
- meritocratic_regency_succession_law_effects: "Según la $meritocratic_regency_succession_law$, el candidato con la mayor puntuación heredará el [title|lE] y las [holdings|lE] asociadas. Entre los candidatos disponibles se incluyen las [noble_families|lE] del señorío, los [governors|lE] y los miembros de sus familias.\n\n¡Si el [ceremonial_liege|El] resulta elegido como el siguiente [ceremonial_regent|lE], tendrá la oportunidad de elegir entre abdicar o intentar restaurar el gobierno directo!"
+ meritocratic_regency_succession_law_effects: "Según la $meritocratic_regency_succession_law$, el [title|El] y sus [holdings|El] asociadas los heredará el candidato con la mayor puntuación. Entre los candidatos disponibles se incluyen las [noble_families|El] del señorío, los [governors|El] y los miembros de sus familias."

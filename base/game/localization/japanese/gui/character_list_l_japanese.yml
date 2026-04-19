@@ -95,7 +95,7 @@
  not_player_dynasty_filter_desc: "異なる[dynasty|E]の人物を表示"
  no_dynasty_filter: "庶民"
  no_dynasty_filter_desc: "[dynasty|E]に属さない人物を表示"
- any_dynasty_filter: "帰属"
+ any_dynasty_filter: "貴族"
  any_dynasty_filter_desc: "いずれかの[dynasty|E]に属す人物を表示"
  CHARACTER_LIST_PRESSED_CLAIM_LINE: "[pressed_claim_i] [TITLE.GetName]"
  CHARACTER_LIST_UNPRESSED_CLAIM_LINE: "[unpressed_claim_i] [TITLE.GetName]"

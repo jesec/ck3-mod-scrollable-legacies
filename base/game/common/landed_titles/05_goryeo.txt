@@ -518,12 +518,12 @@ e_goryeo = {
 					color = { 120 185 175 }
 				}
 				b_Goryeo_Yanggwan_Anseong = {
-					province = 9947
+					province = 9948
 
 					color = { 120 185 175 }
 				}
 				b_Goryeo_Yanggwan_Jukju = {
-					province = 9948
+					province = 9947
 
 					color = { 120 185 175 }
 				}

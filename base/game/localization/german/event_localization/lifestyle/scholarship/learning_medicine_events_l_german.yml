@@ -52,9 +52,9 @@
  learning_medicine.2010.c: "Ihr solltet in den religiösen Schriften nach Rat suchen."
  #Fertility treatment, by Mathilda Bjarnehed
  learning_medicine.2021.t: "An [ROOT.Char.Custom('DE_ART_DEF_S_A')] [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip]"
- learning_medicine.2021.desc: "Mein Name ist [physician.GetTitledFirstNameNoTooltip], und ich bin geschult in der Medizin, mit Schwerpunkt auf dem Gebiet der Fruchtbarkeit. Vielleicht könnte mein diskreter Rat Euch ja helfen? Es wäre mir eine Ehre, Euch zu dienen … gegen eine geringe Gebühr."
+ learning_medicine.2021.desc: "Mein Name ist [physician.GetTitledFirstNameNoTooltip], und ich bin geschult in der Medizin, mit Schwerpunkt auf dem Gebiet der Fruchtbarkeit.\n\nVielleicht könnte mein diskreter Rat Euch ja helfen? Es wäre mir eine Ehre, Euch zu dienen … gegen eine geringe Gebühr."
  learning_medicine.2021.a: "Ich könnte Eure Hilfe gebrauchen …"
- learning_medicine.2021.a.tt: "[physician.GetFirstName|V] wird mir eine Fruchtbarkeitsbehandlung anbieten"
+ learning_medicine.2021.a.tt: "Ihr nehmt die Fruchtbarkeitsbehandlung an"
  learning_medicine.2021.b: "Geschulte Mediziner sind mir stets willkommen."
  learning_medicine.2021.b.tt: "Ihr lehnt die Fruchtbarkeitsbehandlung ab"
  learning_medicine.2021.c: "Ich habe #EMP keinerlei#! Probleme dieser Art!"

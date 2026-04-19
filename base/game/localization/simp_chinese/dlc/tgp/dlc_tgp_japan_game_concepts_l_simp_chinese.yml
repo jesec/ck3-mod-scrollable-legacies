@@ -73,4 +73,4 @@
  # House Relations
  game_concept_house_relation: "家族关系"
  game_concept_house_relations: "家族关系"
- game_concept_house_relation_desc: "两个[houses|E]交流时会发展出正面或负面的$game_concept_house_relation$。过去几代人的行动会被铭记，进而影响后代对彼此的看法，无论好坏。\n\n每一$game_concept_house_relation$等级都会影响对所有$game_concept_house$成员的[opinion|E]，可能会解锁额外互动。\n\n例如，处于交好的家族可以自由谈判[alliances|E]，而处于世仇的家族可以以更低花费发动[wars|E]。"
+ game_concept_house_relation_desc: "两个[houses|E]交流时会发展出正面或负面的$game_concept_house_relation$，持续数代人的时间。\n\n除了影响对所有$game_concept_house$成员的[opinion|E]外，每一$game_concept_house_relation$等级还可能拥有其他效果，例如影响建立[alliances|E]和发动[wars|E]的难易程度。\n\n$game_concept_house_relation$会保持在同一等级，直到进度达到#P +100%#!或#N ‑100%#!。然后$game_concept_house_relation$会达到另一级别，无论是正面还是负面。"

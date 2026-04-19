@@ -68,7 +68,7 @@
  house_power_parameter_strength_train_with_troops_decision: "解锁#high 激励军队#![decision|E]"
  #House Aspiration - Prosperity
  house_power_parameter_improved_stewardship_court_position_efficiency: "改善[stewardship|E][court_positions|E]的[aptitude|E]"
- ceremony_house_power_tt: "需要#V $ceremony_house_power$#![house_aspiration|E]"
+ ceremony_house_power_tt: "需要#V $ceremony_house_power$$ceremony_house_power_level_02$#![house_aspiration|E]"
  determination_house_power_tt: "需要#V $determination_house_power$#![house_aspiration|E]"
  humility_house_power_tt: "需要#V $humility_house_power$#![house_aspiration|E]"
  prosperity_house_power_tt: "需要#V $prosperity_house_power$#![house_aspiration|E]"

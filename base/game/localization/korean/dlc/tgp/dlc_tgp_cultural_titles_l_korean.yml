@@ -33,6 +33,7 @@
  # Chrysanthemum
  king_tenno_male_japanese: "덴노" # 天皇
  king_tenno_female_japanese: "$king_tenno_male_japanese$"
+ spouse_king_tenno_male_japanese: "코하이" # 皇配
  queen_kogo_female_japanese: "황후" # 皇后
  prince_tenno_male_japanese: "친왕" # 親王
  princess_tenno_female_japanese: "내친왕" # 内親王
@@ -54,8 +55,12 @@
  estate_holder_joko_female_japanese: "$estate_holder_joko_male_japanese$"
  emperor_tenno_male_japanese: "$king_tenno_male_japanese$"
  emperor_tenno_female_japanese: "$king_tenno_female_japanese$"
+ spouse_emperor_tenno_male_japanese: "$spouse_king_tenno_male_japanese$"
+ spouse_emperor_tenno_female_japanese: "$queen_kogo_female_japanese$"
  emperor_tenno_male_japanese_flag: "$king_tenno_male_japanese$"
  emperor_tenno_female_japanese_flag: "$king_tenno_female_japanese$"
+ spouse_emperor_tenno_male_japanese_flag: "$spouse_king_tenno_male_japanese$"
+ spouse_emperor_tenno_female_japanese_flag: "$queen_kogo_female_japanese$"
  empire_tenno_japanese: "제국"
  councillor_court_chaplain_japanese_buddhism_religion: "화상" # 和尚
  # Fallback
@@ -86,15 +91,27 @@
  king_female_ainu: "$king_male_ainu$"
  kingdom_ainu: "모시리" # モシリ
  # KOREA
- king_yongson_throne_male_korean: "국왕" # 國王 (국왕)
- king_yongson_throne_female_korean: "여왕" # 女王 (여왕)
- king_male_korean: "$king_yongson_throne_male_korean$"
- king_female_korean: "$king_yongson_throne_female_korean$"
+ king_male_korean: "국왕" # 國王 (국왕)
+ king_female_korean: "여왕" # 女王 (여왕)
+ spouse_king_male_korean: "국서" # 國壻 (국서)
+ spouse_king_female_korean: "왕후" # 王后 (왕후)
+ king_yongson_throne_male_korean: "$king_male_korean$"
+ king_yongson_throne_female_korean: "$king_female_korean$"
+ spouse_king_yongson_throne_male_korean: "$spouse_king_male_korean$"
+ spouse_king_yongson_throne_female_korean: "$spouse_king_female_korean$"
  empire_unified_goryeo: "통일 왕국"
- emperor_male_korean: "황제" # 皇帝 (황제)
- emperor_female_korean: "황후" # 皇后 (황후)
+ emperor_male_korean: "$hegemon_male_korean$"
+ emperor_female_korean: "$hegemon_female_korean$"
+ spouse_emperor_male_korean: "$spouse_hegemon_male_korean$"
+ spouse_emperor_female_korean: "$spouse_hegemon_female_korean$"
+ emperor_goryeo_male_korean: "$king_male_korean$"
+ emperor_goryeo_female_korean: "$king_female_korean$"
+ spouse_goryeo_emperor_male_korean: "$spouse_king_male_korean$"
+ spouse_goryeo_emperor_female_korean: "$spouse_king_female_korean$"
  hegemon_male_korean: "황제" # 皇帝 (황제)
- hegemon_female_korean: "황후" # 皇后 (황후)
+ hegemon_female_korean: "여제" # 女帝 (여제)
+ spouse_hegemon_male_korean: "$spouse_king_male_korean$"
+ spouse_hegemon_female_korean: "황후" # 皇后 (황후)
  emperor_dictator_male_korean: "집정" # 집정
  emperor_dictator_female_korean: "$emperor_dictator_male_korean$"
  emperor_prime_minister_male: "문하시중"
@@ -131,14 +148,20 @@
  duke_administrative_female_balhae_silla: "$duke_administrative_male_balhae_silla$" # 都督 (도독)
  duchy_administrative_balhae: "부" # 府 (부)
  king_male_balhae: "가독부" # 可毒夫 (가독부)
- king_female_balhae: "귀비" # 貴妃 (귀비)
+ spouse_king_female_balhae: "귀비" # 貴妃 (귀비)
  # VIET
  king_male_viet: "브엉" # 王 (Vương)
- king_female_viet: "$king_male_viet$"
- emperor_male_viet: "데" # 帝 (Đế)
- emperor_female_viet: "누" # 后 (Nữ)
+ king_female_viet: "느 브엉" # 女王 (Nữ Vương)
+ spouse_king_male_viet: "브엉 푸" # 王夫 (Vương Phu)
+ spouse_king_female_viet: "브엉 허우" # 王后 (Vương Hậu)
+ emperor_male_viet: "호앙 데" # 皇帝 (Hoàng Đế)
+ emperor_female_viet: "느 호앙" # 女皇 (Nữ Hoàng)
+ spouse_emperor_male_viet: "호앙 푸" # 皇夫 (Hoàng Phu)
+ spouse_emperor_female_viet: "호앙 허우" # 皇后 (Hoàng Hậu)
  emperor_male_viet_ceremonial: "$emperor_male_viet$"
- emperor_female_vietceremonial: "$emperor_female_viet$"
+ emperor_female_viet_ceremonial: "$emperor_female_viet$"
+ spouse_emperor_male_viet_ceremonial: "$spouse_emperor_male_viet$"
+ spouse_emperor_female_viet_ceremonial: "$spouse_emperor_female_viet$"
  # TANGUT
  king_male_tangut: "영령" # 寧令
  king_female_tangut: "여왕"
@@ -146,7 +169,9 @@
  prince_female_tangut: "공주"
  # HAN
  king_male_chinese: "왕" # 王
- king_female_chinese: "여왕" # 女王 (Nǚwáng)
+ king_female_chinese: "여왕" # 女王
+ spouse_king_male_chinese: "왕부" # 王夫
+ spouse_king_female_chinese: "왕후" # 王后
  # KOREAN CHAPLAINS
  councillor_court_chaplain_buddhist_korean_county: "대사" # 大師
  councillor_court_chaplain_buddhist_korean_duchy: "중대사" # 重大師
@@ -154,5 +179,6 @@
  councillor_court_chaplain_buddhist_korean_empire: "승통" # 僧統
  councillor_court_chaplain_seon_korean_kingdom: "선사" # 禪師
  councillor_court_chaplain_seon_korean_empire: "대선사" # 大禪師
- hegemon_male_japanese: "황제" # 黄帝
- hegemon_female_japanese: "황제" # 黄帝
+ hegemon_male_japanese: "황제" # 皇帝
+ hegemon_female_japanese: "황제" # 皇帝
+ councillor_court_chaplain_buddhist_viet: "화상" # 和尚

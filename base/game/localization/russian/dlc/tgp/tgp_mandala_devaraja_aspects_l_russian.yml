@@ -1,7 +1,7 @@
 ﻿l_russian:
  mandala_government_house_attribute_flavor_name: "[Concept('mandala_aspect', 'Аспект мандалы')|E]"
  mandala_government_house_attribute_flavor_name_no_tooltip: "$game_concept_mandala_aspect$"
- change_aspect_once_per_lifetime.tt: "Без получения #high штрафов#high  [Concept('mandala_aspect', 'аспект мандалы')|E] можно изменить только один раз в жизни"
+ change_aspect_once_per_lifetime.tt: "Без получения #high штрафов#! [Concept('mandala_aspect', 'аспект мандалы')|E] можно изменить только один раз в жизни"
  no_aspect_house_power: "Нет аспекта"
  house_power_parameter_no_aspect: "Нет эффектов"
  aspect_of_creation_house_power: "Аспект созидания"
@@ -47,6 +47,7 @@
  house_power_parameter_unlock_coerce_contribution_scheme: "Открывает [Concept('scheme', 'происки')|E] #high «[GetScheme('coerce_contribution').GetTypeName]»#!"
  house_power_parameter_births_give_piety: "Родители становятся более [Concept('piety', 'благочестивыми')|E], их дети рождаются членами этого [Concept('house', 'дома')|E]"
  house_power_parameter_may_override_stewardship_succession_trial: "Ваш [Concept('heir', 'наследник')|E] может мгновенно пройти проверку навыка «[stewardship|E]» в рамках испытаний [Concept('mandala_succession_succession', 'наследования')|E]"
+ house_power_parameter_can_build_in_tributaries: "Можно строить [Concept('buildings', 'здания')|E] и [Concept('holdings', 'владения')|E] у [Concept('tributaries', 'данников')|E] #weak (если повелитель сам не является данником)#!"
  mandala_creator_child_born: "Ребенок из династии создателя"
  mandala_creator_children_born: "Дети из династии создателя"
  mandala_creator_modifier: "Аспект созидания"
@@ -82,7 +83,7 @@
  house_power_parameter_aspect_of_destruction_ways_to_die: "Для #high аспекта разрушения#! наиболее приемлемо [Concept('character_death_death', 'умереть')|E] в [Concept('death_combat', 'в бою')|E] или в качестве [Concept('death_religion', 'мученика')|E]"
  house_power_parameter_can_use_plunder_for_contribution_cb: "Открывает [Concept('casus_belli', 'казус белли')|E] #high «[GetCasusBelliType('mandala_plunder_cb').GetName]»#!"
  house_power_parameter_can_make_mandala_tributaries_via_war: "Можно получить [Concept('tributaries', 'данников')|E] типа #high «[GetSubjectContractGroup( 'tributary_mandala' ).GetName]»#! и #high «[GetSubjectContractGroup( 'tributary_mandala_tribal' ).GetName]»#! посредством [Concept('war', 'войны')|E] с казус белли #high «[GetCasusBelliType('make_tributary_cb').GetName]»#!"
- house_power_parameter_has_unlimited_invasion_cb: "Неограниченный доступ к [Concept('casus_belli', 'казус белли')|E] #high «[GetCasusBelliType('invasion_war').GetName]»#!"
+ house_power_parameter_has_mandala_invasion_cb: "Есть однократный доступ к [Concept('casus_belli', 'казус белли')|E] #high «[GetCasusBelliType('invasion_war').GetName]»#!"
  house_power_parameter_may_override_martial_succession_trial: "Ваш [Concept('heir', 'наследник')|E] может мгновенно пройти проверку навыка «[martial|E]» в рамках испытаний [Concept('mandala_succession_succession', 'наследования')|E]"
  #Aspect of Trickery
  house_power_parameter_unlock_leverage_contribution_scheme: "Открывает [Concept('scheme', 'происки')|E] #high «[GetScheme('leverage_contribution').GetTypeName]»#!"

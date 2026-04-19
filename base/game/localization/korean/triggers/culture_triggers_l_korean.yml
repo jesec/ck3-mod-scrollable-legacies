@@ -52,9 +52,9 @@
  HAS_CULTURAL_PARAMETER_FIRST_NOT: "어떤 [CULTURE.GetName|U] [tradition|E]으로도 잠금 해제되지 않음"
  HAS_CULTURAL_PARAMETER_THIRD: "$HAS_CULTURAL_PARAMETER_FIRST$"
  HAS_CULTURAL_PARAMETER_THIRD_NOT: "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"
- NUM_DISCOVERED_INNOVATIONS_TRIGGER: "[CULTURE.GetName|U] [culture|E]가 발견한 [innovations|E]의 수#weak ($CURRENT_VALUE|0$)#!가 $NUM|V0$ $COMPARATOR$"
- NOT_NUM_DISCOVERED_INNOVATIONS_TRIGGER: "[CULTURE.GetName|U] [culture|E]가 발견한 [innovations|E]의 수#weak ($CURRENT_VALUE|0$)#!가 $NUM|V0$ $COMPARATOR$(이)가 아님"
- NUM_DISCOVERED_INNOVATIONS_IN_ERA_TRIGGER: "[CULTURE.GetName|U] [culture|E]가 $ERA$ [era|E]에서 발견한 [innovations|E]의 수#weak ($CURRENT_VALUE|0$)#!가 $NUM|V0$ $COMPARATOR$"
+ NUM_DISCOVERED_INNOVATIONS_TRIGGER: "[CULTURE.GetName|U] [culture_possessive|E] 발견한 [innovations|E] 수#weak ($CURRENT_VALUE|0$)#!가 $NUM|V0$ $COMPARATOR$"
+ NOT_NUM_DISCOVERED_INNOVATIONS_TRIGGER: "[CULTURE.GetName|U] [culture_possessive|E] 발견한 [innovations|E] 수#weak ($CURRENT_VALUE|0$)#!가 $NUM|V0$ $COMPARATOR$(이)가 아님"
+ NUM_DISCOVERED_INNOVATIONS_IN_ERA_TRIGGER: "$ERA$ [era|E]에서 [CULTURE.GetName|U] [culture_possessive|E] 발견한 [innovations|E] 수#weak ($CURRENT_VALUE|0$)#!가 $NUM|V0$ $COMPARATOR$"
  HAS_SAME_CULTURAL_HERITAGE: "당신은 같은 [Concept('culture','cultural')|EU] [heritage|E]을 공유함"
  HAS_SAME_CULTURAL_HERITAGE_NOT: "당신은 같은 [Concept('culture','cultural')|EU] [heritage|E]을 공유하지 않음"
  #Innovations

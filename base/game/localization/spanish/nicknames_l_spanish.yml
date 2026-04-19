@@ -1330,3 +1330,5 @@
  nick_tenjin_desc: "Se cree que [CHARACTER.GetShortUINameNoTooltipNoFormat|U] se ha convertido en un espíritu vengativo por lo injustamente que se le trató y ahora se le venera como un ser celestial."
  nick_ushiwakamaru: "Ushiwakamaru"
  nick_ushiwakamaru_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] tiene fama de tener la fuerza y la tenacidad de un toro joven, y todos a su alrededor [Select_CString( CHARACTER.IsLocalPlayer, 'te', CHARACTER.GetHerHim )] temen."
+ nick_ho_seung: "Ho-seung"
+ nick_ho_seung_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'tienes', 'tiene' )] una leyenda en torno a [Select_CString( CHARACTER.IsLocalPlayer, 'tu', 'su' )] persona que habla de un tigre que cayó en una trampa y renació como ser humano. Según el relato, el tigre es [Select_CString( CHARACTER.IsFemale, 'la monja', 'el monje' )] en persona."

@@ -1224,6 +1224,15 @@ GetActualBishopTitle = {
 		localization_key = councillor_court_chaplain_buddhist_korean_empire
 	}
 
+	# Viet Buddhism
+	text = {
+		trigger = {
+			culture = { has_cultural_pillar = language_vietnamese }
+			religion = religion:buddhism_religion
+		}
+		localization_key = councillor_court_chaplain_buddhist_viet
+	}
+
 	#Buddhism/Hinduism/Jainism
 	text = {
 		trigger = {

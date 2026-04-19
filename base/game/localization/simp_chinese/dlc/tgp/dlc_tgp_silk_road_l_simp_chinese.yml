@@ -1,7 +1,8 @@
 ﻿l_simp_chinese:
- # the silky silk road
+ # the Silk Road
  silk_road_situation: "丝绸之路"
  silk_road_situation_desc: "$game_concept_silk_road_situation_desc$"
+ situation_silk_road_situation_desc: "$silk_road_situation_desc$"
  game_concept_silk_road_situation: "丝绸之路"
  game_concept_silk_road: "$game_concept_silk_road_situation$"
  game_concept_silk_road_situation_desc: "$game_concept_silk_road_situation$并非指的是某一条路，而是一个连接两个文明最遥远角落的庞大网络。黄金、货物和思想在这条道路上来往，拥有丝绸之路的通行权，即意味着能够接触到世界上所有的财富。\n\n在丝绸之路上，不同的通行级别带来的黄金奖励将有所不同，并可能给予独特的机会来解锁异域的[innovations|E]。丝绸之路上流通的黄金与知识会随着其繁荣度而变化，而繁荣度又受到战争、事件和中国的[dynastic_cycle|E]等多种因素的影响。"
@@ -117,7 +118,8 @@
  SILK_ROAD_WINDOW_CATALYSTS_LIST: "丝绸之路诱因"
  FUTURE_PHASE_PROGRESSING_TEXT: "进度：还剩$YEARS|V$"
  SILK_ROAD_REGION_EFEFCTS: "区域效果："
- FUTURE_PHASE_HEADER: "进度：\n  [SituationPhaseType.GetName]：[SituationPhase.GetPhaseRelativeProgressPercent|%]"
+ FUTURE_PHASE_HEADER: "下一[dynastic_cycle_era_short|E]的进度："
+ FUTURE_PHASE_VALUE: "[SituationPhaseType.GetName]：[SituationPhase.GetPhaseRelativeProgressPercent|V%]"
  SILK_ROAD_HEADER_DESC: "丝绸之路上遍布着由市场、驿站和荒凉的蜿蜒小路构成的网络，为那些敢于踏上这条传奇之路的人提供了积累财富、启迪新思想的机遇。"
  dlc_tgp_silk_road_route_region: "丝绸之路"
  tgp_silk_road_region: "丝绸之路"

@@ -292,7 +292,7 @@
  task_convince_dejure: "규범 권역 지역 설득"
  task_convince_dejure_effect_desc: "#S #V 100%#!#! 달성 시:\n$TAB$대상 [Concept( 'county', '영지' )|E]가 자신의 [ruler|E]에게 영지를 [de_jure|E] 주군의 산하로 편입시켜 달라고 요구함"
  steward_convince_dejure_potential_county_tt: "당신은 [de_jure|E] 주군이지만 현재 대상 [Concept( 'county', '영지' )|E]의 [ruler|E]가 아님"
- steward_convince_dejure_potential_county_tt_2: "임무 실패 시 10년 동안 같은 [Concept( 'county', '영지' )|E]에 시도할 수 없음"
+ steward_convince_dejure_potential_county_tt_2: "임무 실패 시 10년 동안 같은 영지에 시도할 수 없음"
  task_convince_dejure_gain_prestige: "\n$EFFECT_LIST_BULLET$#P 위신 획득#!"
  task_convince_dejure_diplomatic_blunder: "\n$EFFECT_LIST_BULLET$#N 외교적 실책#!"
  task_convince_dejure_lose_prestige: "\n$EFFECT_LIST_BULLET$#N 위신 상실#!"

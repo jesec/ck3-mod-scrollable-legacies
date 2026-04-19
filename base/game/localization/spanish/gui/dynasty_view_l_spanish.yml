@@ -57,3 +57,7 @@
  DYNASTY_SPLENDOR: "Esplendor de dinastía:"
  DYNASTY_LEGACIES: "Legados dinásticos"
  DYNASTY_HOUSE_VIEW_LEGACY_COST: "Siguiente legado: [Dynasty.GetNextPerkCost|V0] [dynasty_prestige_i]"
+ DYNASTY_HOUSE_FROM_MEMBERS: "De [dynasty_members|El]:"
+ DYNASTY_HOUSE_FROM_MEMBERS_EXCESS: "De otros [dynasty_members|El]:"
+ DYNASTY_HOUSE_FROM_RULERS: "De gobernantes:"
+ DYNASTY_HOUSE_PRESTIGE_MULTIPLIERS: "Multiplicadores:"

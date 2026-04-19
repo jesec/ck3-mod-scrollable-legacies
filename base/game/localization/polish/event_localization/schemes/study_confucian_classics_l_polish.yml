@@ -50,7 +50,7 @@
  confucian_xp_high_tt: "Robisz znaczące postępy w zgłębianiu nauk konfucjańskich"
  confucian_xp_low_tt: "Robisz nieznaczne postępy w zgłębianiu nauk konfucjańskich"
  study_confucian_classics_outcome.130.t: "$study_confucian_classics_title$spojrzenie na nabywanie wiedzy"
- study_confucian_classics_outcome.130.desc: "Dlaczego nie rozumiem tych tekstów? Dlaczego nie mogę pojąć subtelnych znaczeń? Czy cechuje mnie #EMP aż tak#! wielka niekompetencja? Odkładam pędzelek i delikatnie opieram czoło o blat biurka.\n\n– Przychodzę z herbatą – oznajmia [servant.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', servant)], wchodząc do mojego gabinetu. – Czy to [ROOT.Char.Custom('GetRandomRitesPassage')]?#! Mam miłe wspomnienia związane z tym tekstem… Mogę ci przez chwilę poczytać?\n\nPodnoszę wzrok. Może pomocna dłoń jest tym, czego właśnie potrzebuję."
+ study_confucian_classics_outcome.130.desc: "Dlaczego nie rozumiem tych tekstów? Dlaczego nie mogę pojąć subtelnych znaczeń? Czy cechuje mnie #EMP aż tak#! wielka niekompetencja? Odkładam pędzelek i delikatnie opieram czoło o blat biurka.\n\n– Przychodzę z herbatą – oznajmia [ROOT.Char.Custom2('RelationToMeShort', servant)] [servant.GetFirstName], wchodząc do mojego gabinetu. – Czy to #EMP [ROOT.Char.Custom('GetRandomRitesPassage')]?#! Mam miłe wspomnienia związane z tym tekstem… Mogę ci przez chwilę poczytać?\n\nPodnoszę wzrok. Może pomocna dłoń jest tym, czego właśnie potrzebuję."
  study_confucian_classics_outcome.130.a: "Proszę, pomóż mi zrozumieć sens tego tekstu."
  study_confucian_classics_outcome.130.b: "Może lepiej wyjdziemy napić się czegoś?"
  study_confucian_classics_outcome.140.t: "$study_confucian_classics_title$sztuka dyplomacji"

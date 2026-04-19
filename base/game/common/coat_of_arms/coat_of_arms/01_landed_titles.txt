@@ -6847,7 +6847,102 @@ e_anatolia = {
 		}
 
 	}
+}
 
+e_oriens = {
+	pattern="pattern_chief.dds"
+	color1=white
+	color2=black
+	color3=yellow
+	colored_emblem={
+		color1=black
+		color2=yellow
+		color3=green
+		texture="ce_cross_potenty_random.dds"
+		instance={
+			position={ 0.750000 0.150000 }
+			scale={ 0.220000 0.220000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.150000 }
+			scale={ 0.220000 0.220000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.250000 0.150000 }
+			scale={ 0.220000 0.220000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=green
+		color3=yellow
+		texture="ce_warrior_angel.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ 0.550000 0.550000 }
+		}
+	}
+}
+
+e_aegyptus = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=yellow
+	colored_emblem={
+		color1=white
+		color2=yellow
+		color3=black
+		texture="ce_jesus_throne.dds"
+		instance={
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+}
+
+e_africa = {
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=blue
+	colored_emblem={
+		color1=white
+		color2=green
+		texture="ce_ordinary_cross_5.dds"
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_cross_potenty_random.dds"
+		instance={
+			position={ 0.250000 0.200000 }
+			scale={ 0.350000 0.350000 }
+		}
+
+		instance={
+			position={ 0.250000 0.800000 }
+			scale={ 0.350000 0.350000 }
+		}
+
+		instance={
+			position={ 0.750000 0.200000 }
+			scale={ 0.350000 0.350000 }
+		}
+
+		instance={
+			position={ 0.750000 0.800000 }
+			scale={ 0.350000 0.350000 }
+		}
+
+	}
 }
 
 
@@ -30493,6 +30588,18 @@ k_siam = {
 	}
 }
 
+e_brunei = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow_light"
+	color2 = "yellow_light"
+}
+
+k_brunei = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "yellow"
+}
+
 e_kambuja={
 	pattern="pattern_solid.dds"
 	color1=blue
@@ -33454,6 +33561,30 @@ d_yinsheng = {
 			position={ 0.500000 0.490000 }
 			scale={ 0.670000 0.670000 }
 			depth=1.010000
+		}
+	}
+}
+
+e_jin = {
+	pattern="pattern_checkers_02.dds"
+	color1=green
+	color2=red
+	color3=yellow
+	colored_emblem={
+		color1=white
+		color2=black
+		texture="ce_pattern_vertical_split_01.dds"
+		instance={
+			position={ 0.500000 1.000000 }
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_seal_pictorial_frame_circle_full.dds"
+		instance={
+			scale={ 0.450000 0.450000 }
 		}
 	}
 }

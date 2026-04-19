@@ -205,7 +205,7 @@
  legend_spread_events.5070.a.failure: "Niemand ist überzeugt"
  legend_spread_events.5070.b: "Vielleicht wären ein oder zwei stilistische Feinheiten nicht verkehrt …"
  legend_spread_events.5070.c: "Ich lasse mich von der Vergangenheit inspirieren, aber ich richte mich nicht nach ihr."
- every_culture_vassal: "Jeder Vasall Eurer [culture.GetNameNoTooltip|l]en [culture|E]"
+ every_culture_vassal: "Jeder Vasall Eurer [culture.GetNameNoTooltip|l]en Kultur"
  legend_spread_events.5075.t: "Unerschütterliche Hingabe"
  legend_spread_events.5075.desc: "[imam.GetFirstName] eilt von hinten an mir vorbei und wirft sich zum Gebet nieder, ohne mich auch nur eines Blickes zu würdigen. [chronicler.GetFirstName] bemerkt meine Bestürzung und beginnt zu erklären:\n\n„Es ist ein Gebetsfleck.“ [chronicler.Custom('DE_PRO_PER_S_3P_N')|U] betrachtet [imam.GetFirstName] einen Moment lang mit mir dabei, wie sich [Select_CString(imam.IsFemale, 'diese', 'dieser')] wiederholt zum Gebet niederwirft, und streckt schließlich den Hals, um [imam.Custom('DE_PRO_POS_S_3P')]e Stirn besser sehen zu können. „Wer von sich behauptet, heilig zu sein, beweist seine Hingabe, indem er sich mit so viel Kraft niederwirft, dass er eine Beule am Kopf bekommt.“"
  legend_spread_events.5075.a: "Es muss doch einen Weg geben, diesen Fleck zu fälschen …"

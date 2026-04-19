@@ -59,7 +59,7 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY: "@warning_icon! Provoca un [CombatMaaItem.GetCountered|0-%] de daño por ser contrarrestado"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD: "#I +Luchando en terreno favorable #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD: "#X -Luchando en terreno desfavorable #!"
- COMBAT_WINDOW_MAA_TT_SCREEN: "Efecto de [screen|lE] por regimiento completo: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN: "Efecto de [screen|El] por regimiento completo: [CombatMaaItem.GetStat( 'screen' )|0+=]"
  COMBAT_WINDOW_MAA_TT_PURSUIT: "Efecto de [pursuit|lE] por regimiento completo: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA: "Sin [men_at_arms|lE]"
  CV_TT_RELATIVE_SOLDIERS: "#T Fuerza relativa#!\n[CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString] contra [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString] [soldiers|lE]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"

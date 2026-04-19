@@ -516,7 +516,7 @@
  proving_grounds_nightly_barding_drills_domicile_building_desc: "#weak （[GetDomicileBuilding('proving_grounds_01').GetName]が必要）#!\n重騎兵の精鋭部隊でも、ほかの者と同じように鎖がねじれ、革がちぎれ、鉄板が錆び、訓練の記憶もいずれ薄れる。"
  proving_grounds_life_in_the_saddle_domicile_building: "馬上の生活"
  proving_grounds_life_in_the_saddle_domicile_building_desc: "#weak （[GetDomicileBuilding('proving_grounds_01').GetName]が必要）#!\n生まれたときから馬に乗っている者もいれば、後から学ぶ者もいる。"
- proving_grounds_life_in_the_saddle_horse_archers_tt: "[GetMaA('heavy_horse_archers').GetName]または[GetMaA('horse_archers').GetName]の[regiment|E]を持っていなければならない"
+ proving_grounds_life_in_the_saddle_horse_archers_tt: "[archer_cavalry|E]の[regiment|E]が1つ以上必要"
  #TIT-53191
  proving_grounds_the_stump_domicile_building: "切り株"
  #proving_grounds_the_stump_domicile_building: "The [GetPlayer.Custom('GetStumpName')|U]"

@@ -59,7 +59,7 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY: "@warning_icon! 상성이 불리하므로 피해를 [CombatMaaItem.GetCountered|0-%]만큼 줍니다."
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD: "#I + 유리한 지형에서 전투 #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD: "#X - 불리한 지형에서 전투 #!"
- COMBAT_WINDOW_MAA_TT_SCREEN: "온전한 연대 하나당 [screen|E] 효과: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN: "온전한 연대 하나당 [screen|E] 효과: [CombatMaaItem.GetStat( 'screen' )|0+=]"
  COMBAT_WINDOW_MAA_TT_PURSUIT: "온전한 연대 하나당 [pursuit|E] 효과: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA: "[men_at_arms|E] 없음"
  CV_TT_RELATIVE_SOLDIERS: "#T 군사력 비교#!\n[soldiers|E] [CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString]명 대 [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString]명\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"

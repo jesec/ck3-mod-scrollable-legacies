@@ -92,7 +92,15 @@ msg_new_powerful_family = {
 	style = neutral
 	title = event_message_title
 	desc = event_message_text
-	message_filter_type = generic_interface_message_neutral
+	message_filter_type = admin_new_powerful_family
+}
+
+msg_new_noble_family = {
+	icon = "powerful_family_shield"
+	style = neutral
+	title = event_message_title
+	desc = event_message_text
+	message_filter_type = admin_new_noble_family
 }
 
 ### FEUD

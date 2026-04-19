@@ -7,7 +7,7 @@
  activity_local_examination_desc: "It is our honor and duty to uphold the structure and arrange these examinations. They allow us to evaluate, determine and award [merit|E] to the most suited individuals — to ensure the future prosperity of the realm."
  activity_local_examination_host_desc: "$activity_local_examination_host_rewards$$activity_local_examination_guest_rewards$"
  activity_local_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
- activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$An opportunity to complete the @provincial_exam_icon! #V Provincial Examination#!\n$BULLET_WITH_TAB$May increase your [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]\n$BULLET_WITH_TAB$May increase your [merit|E]"
+ activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$An opportunity to complete the @provincial_exam_icon! #V Provincial Examination#!\n$BULLET_WITH_TAB$May increase your [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]\n$BULLET_WITH_TAB$May increase your [merit|E]\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial If you do not know the [host.GetCulture.GetLanguage.GetName] [language|E], your chances of success are vastly lowered!"
  activity_local_examination_guest_rewards: "\n$BULLET_WITH_TAB$May recruit a highly skilled character\n$BULLET_WITH_TAB$Participants may gain [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]\n$BULLET_WITH_TAB$Participants may gain [merit|E]"
  local_examination_base_cost: "Base Cost"
  activity_local_examination_host_an_a: "a"

@@ -66,23 +66,6 @@ fp3_embellish_capital_decision = {
 			value = 0
 			if = {
 				limit = {
-					NOT = {
-						any_held_county = {
-							this != this.holder.top_liege.capital_county 
-							recent_history = {
-								type = conquest
-								years = 10
-							}
-						}
-					}
-				}
-				add = embellish_capital_gold_cost
-			}
-		}
-		gold = {
-			value = 0
-			if = {
-				limit = {
 					NOR = {
 						has_treasury = yes
 						any_held_county = {

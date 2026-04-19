@@ -8,6 +8,7 @@
  manipulation_hook: "Manipulation"
  house_head_hook: "Chef de la Maison"
  indebted_hook: "Dette"
+ strong_indebted_hook: "Sauvé de la faillite"
  loyalty_hook: "Loyauté"
  predecessor_loyalty_hook: "Loyauté au prédécesseur"
  fabrication_hook: "Fabrication"

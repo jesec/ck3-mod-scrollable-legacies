@@ -21,3 +21,7 @@
  MERITOCRATIC_CEREMONIAL_LIEGE_TITLE: "[founder.GetPrimaryTitle.GetAdjectiveNoTooltip]の玉座"
  tgp_korea_decision.9202.desc: "[founder.GetTitledFirstNamePossessive]による統治の栄光が輝きを増すにつれ、その影に安らぎを求める者が増えていく。いかなる[founder.GetTitleAsNameNoTooltip]も独りで統治することはできず、真の権力の在処は常に移り変わる。\n\n[founder.GetHerHis]の子孫が名実ともに真の[founder.GetPrimaryTitle.GetDefinitiveNameNoTooltip]の支配者であり続けるためには、[founder.GetSheHe|U]は警戒を怠るべきできない…"
  tgp_korea_decision.9202.a: "権力には様々な形がある。"
+ tgp_create_meritocratic_ruling_regent_title_effect: "[GetGovernment('meritocratic_government').GetName]の[empire|E]の[ruler|E]であるため："
+ tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "[GetLaw('single_heir_succession_law').GetName]の[law|E]により形式的な[kingdom|E]の[title|E]を獲得する"
+ tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "[vassals|E]は#V $replace_ceremonial_regent_faction$#![factions|E]を創設できる"
+ tgp_create_meritocratic_ruling_regent_title_message_title: "[founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]の君主制が挑戦を受けた"

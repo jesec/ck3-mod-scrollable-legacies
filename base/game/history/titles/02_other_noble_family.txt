@@ -484,10 +484,10 @@ c_nf_guiyi_zhang = {
 
 c_nf_guiyi_cao = {
 	867.1.1 = {
+		liege = k_hexi
 		holder = 1059714
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -501,10 +501,10 @@ c_nf_guiyi_cao = {
 
 c_nf_guiyi_kang = {
 	867.1.1 = {
+		liege = k_hexi
 		holder = guiyi_character_7
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -518,10 +518,10 @@ c_nf_guiyi_kang = {
 
 c_nf_guiyi_yan = {
 	867.1.1 = {
+		liege = k_hexi
 		holder = guiyi_character_9
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -535,10 +535,10 @@ c_nf_guiyi_yan = {
 
 c_nf_guiyi_murong = {
 	867.1.1 = {
+		liege = k_hexi
 		holder = guiyi_character_11
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -552,10 +552,10 @@ c_nf_guiyi_murong = {
 
 c_nf_guiyi_suo = {
 	867.1.1 = {
+		liege = k_hexi
 		holder = 304191
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -569,10 +569,10 @@ c_nf_guiyi_suo = {
 
 c_nf_guiyi_li = {
 	867.1.1 = {
+		liege = k_hexi
 		holder = han_40026
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
-		liege = k_hexi
 	}
 	867.1.1 = {
 		effect = {
@@ -1184,7 +1184,7 @@ c_nf_jin_wanyan = {
 		holder = jurchen_wanyan_14
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1199,7 +1199,7 @@ c_nf_andong_tangkuo_5510_62d8_1 = {
 		holder = jurchen_administrator_3
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1214,7 +1214,7 @@ c_nf_andong_yila_79fb_524b_1 = {
 		holder = jurchen_administrator_4
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1229,7 +1229,7 @@ c_nf_andong_pucha_84b2_5bdf_1 = {
 		holder = jurchen_administrator_9
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1244,7 +1244,7 @@ c_nf_andong_wanyan_5b8b_738b_1 = {
 		holder = jurchen_administrator_1
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1259,7 +1259,7 @@ c_nf_andong_zhange_7c98_5272_1 = {
 		holder = jurchen_administrator_5
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1274,7 +1274,7 @@ c_nf_andong_jurchen_tudan = {
 		holder = jurchen_tudan_1
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1289,7 +1289,7 @@ c_nf_andong_jurchen_admin_fic_qian_94b1_1 = {
 		holder = jurchen_magistrate_fic_2
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1304,7 +1304,7 @@ c_nf_andong_jurchen_admin_fic_jin_91d1 = {
 		holder = jurchen_magistrate_fic_29
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1319,7 +1319,7 @@ c_nf_andong_jurchen_admin_fic_yun_4e91 = {
 		holder = jurchen_magistrate_fic_39
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1334,7 +1334,7 @@ c_nf_andong_jurchen_admin_fic_feng_4e30_2 = {
 		holder = jurchen_magistrate_fic_95
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1349,7 +1349,7 @@ c_nf_andong_jurchen_admin_fic_tian_7530 = {
 		holder = jurchen_magistrate_fic_83
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1364,7 +1364,7 @@ c_nf_andong_jurchen_admin_fic_feng_51af = {
 		holder = jurchen_magistrate_fic_52
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1379,7 +1379,7 @@ c_nf_andong_jurchen_admin_fic_ruan_962e = {
 		holder = jurchen_magistrate_fic_73
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1394,7 +1394,7 @@ c_nf_andong_jurchen_admin_fic_zhao_8d75_2 = {
 		holder = jurchen_magistrate_fic_87
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1409,7 +1409,7 @@ c_nf_andong_jurchen_admin_fic_hu_80e1 = {
 		holder = jurchen_magistrate_fic_63
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1424,7 +1424,7 @@ c_nf_andong_jurchen_admin_fic_lu_5442_1 = {
 		holder = jurchen_magistrate_fic_22
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1439,7 +1439,7 @@ c_nf_andong_jurchen_admin_fic_kong_5b54 = {
 		holder = jurchen_magistrate_fic_25
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1454,7 +1454,7 @@ c_nf_andong_jurchen_admin_fic_wu_5434_1 = {
 		holder = jurchen_magistrate_fic_6
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1469,7 +1469,7 @@ c_nf_andong_jurchen_admin_fic_qi_9f4a = {
 		holder = jurchen_magistrate_fic_32
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1484,7 +1484,7 @@ c_nf_andong_jurchen_admin_fic_jiang_59dc = {
 		holder = jurchen_magistrate_fic_86
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1499,7 +1499,7 @@ c_nf_andong_jurchen_admin_fic_min_95f5 = {
 		holder = jurchen_magistrate_fic_75
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1514,7 +1514,7 @@ c_nf_andong_jurchen_admin_fic_you_5e7d_2 = {
 		holder = jurchen_magistrate_fic_105
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1529,7 +1529,7 @@ c_nf_andong_jurchen_admin_fic_lu_5415 = {
 		holder = jurchen_magistrate_fic_47
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1544,7 +1544,7 @@ c_nf_andong_jurchen_admin_fic_qin_79e6_1 = {
 		holder = jurchen_magistrate_fic_18
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1559,7 +1559,7 @@ c_nf_andong_jurchen_admin_fic_wang_738b_1 = {
 		holder = jurchen_magistrate_fic_8
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1574,7 +1574,7 @@ c_nf_andong_jurchen_admin_fic_xu_5f90_2 = {
 		holder = jurchen_magistrate_fic_106
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1589,7 +1589,7 @@ c_nf_andong_jurchen_admin_fic_peng_5f6d = {
 		holder = jurchen_magistrate_fic_45
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1604,7 +1604,7 @@ c_nf_andong_jurchen_admin_fic_shi_77f3 = {
 		holder = jurchen_magistrate_fic_59
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1619,7 +1619,7 @@ c_nf_andong_jurchen_admin_fic_wei_97e6_2 = {
 		holder = jurchen_magistrate_fic_98
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1634,7 +1634,7 @@ c_nf_andong_jurchen_admin_fic_chen_9648_1 = {
 		holder = jurchen_magistrate_fic_10
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1649,7 +1649,7 @@ c_nf_andong_jurchen_admin_fic_zhou_5468_2 = {
 		holder = jurchen_magistrate_fic_91
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1664,7 +1664,7 @@ c_nf_andong_jurchen_admin_fic_bai_767d = {
 		holder = jurchen_magistrate_fic_36
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }
@@ -1679,7 +1679,7 @@ c_nf_andong_jurchen_pucha_84b2_5bdf = {
 		holder = pucha_84B2_5BDF_1
 		government = steppe_admin_government
 		succession_laws = { noble_family_succession_law }
-		liege = e_andong
+		liege = e_jin
 	}
 	1178.1.1 = {
 		effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 } }

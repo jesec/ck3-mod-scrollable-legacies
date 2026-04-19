@@ -123,7 +123,7 @@
  yearly.1030.a.secret_lover.desc: "die geheime, körperliche Beziehung zwischen [secret_character.GetTitledFirstName] und [secret_target.GetTitledFirstName]!"
  yearly.1030.a.secret_murder.desc: "[secret_character.GetTitledFirstName] steckte hinter dem vorzeitigen Ableben von [secret_target.GetTitledFirstName]!"
  yearly.1030.a.secret_heretic.desc: "den ketzerischen Praktiken von [secret_character.GetTitledFirstName]!"
- yearly.1030.a.secret_incest.desc: "die inzestuöse Beziehung zwischen [secret_character.GetTitledFirstName] und einem engen Verwandten!"
+ yearly.1030.a.secret_incest.desc: "die inzestuöse Beziehung zwischen [secret_character.GetTitledFirstName] und einem nahen Verwandten!"
  yearly.1030.a.secret_witch.desc: "[secret_character.GetTitledFirstName] praktiziert Hexerei!"
  yearly.1040.t: "Ein unerwarteter Besuch"
  yearly.1040.tumble.desc: "Ich bin ungesehen und ungehört am [suspicious.Custom('GetChamber')] von [suspicious.GetFirstName] angekommen. Mit Sehnsucht im Herzen – und in den Lenden – trete ich langsam hinein.\n\n"

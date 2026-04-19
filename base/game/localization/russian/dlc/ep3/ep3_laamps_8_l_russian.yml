@@ -140,7 +140,7 @@
  ep3_laamps.8103.mid_1: "«Это станет основой для нашего с вами великого будущего. Вы явно способны на большее, и на вас можно рассчитывать. А мы в людях не ошибаемся»."
  ep3_laamps.8103.mid_2: "«Да, может получиться. Даст [petitioned_ruler.GetFaith.HighGodName], мы добьемся своего! Отчего же вы не обратились к нам раньше? Вам не стоит терять время, если хотите преуспеть»."
  ep3_laamps.8103.mid_3: "«Ха! Бьюсь об заклад, [claimed_title.GetHolder.GetName] будет в бешенстве, когда [capital_barony.GetNameNoTier] покорится вам и нашим войскам. Будьте добры, пусть кто-нибудь запишет все подробности для истории»."
- ep3_laamp.8103.turns_left: "\n\n#italic Осталось раундов переговоров: [ROOT.Var('legitimist_turns').GetValue]"
+ ep3_laamp.8103.turns_left: "\n\n#italic Осталось раундов переговоров: #color_yellow [ROOT.Var('legitimist_turns').GetValue]#!"
  ep3_laamps.8103.support_6: "\n#italic [petitioned_ruler.GetShortUINameNoTooltip] обещает вам #EMP #color_yellow беспрецедентную#! поддержку — #color_yellow 1800 золота и 3000 элитных солдат.#!"
  ep3_laamps.8103.support_5: "\n#italic [petitioned_ruler.GetShortUINameNoTooltip] обещает вам #EMP #color_yellow внушительную#! поддержку — #color_yellow 1500 золота и 2500 элитных солдат.#!"
  ep3_laamps.8103.support_4: "\n#italic [petitioned_ruler.GetShortUINameNoTooltip] обещает вам #EMP #color_yellow значительную#! поддержку — #color_yellow 1200 золота и 2000 элитных солдат.#!"

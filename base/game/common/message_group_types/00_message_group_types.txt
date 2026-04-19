@@ -118,12 +118,16 @@ nomadic = {
 	sort_order = 65
 }
 
+house_bloc = {
+	sort_order = 60
+}
+
 natural_disaster = {
 	sort_order = 45
 }
 
 mandala = {
-	sort_order = 45
+	sort_order = 40
 }
 
 ############################################

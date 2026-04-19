@@ -52,6 +52,7 @@
  death_management.liege_councillor.desc: "Tw[Select_CString( dead_character.IsFemale, 'oja', 'ój' )] [Select_CString(dead_character.IsFemale, Concept('councillor', 'radna'), Concept('councillor', 'radny'))|E], [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.liege.desc: "Osoba znana jako [dead_character.GetFullName], twój [vassal|El], [dead_character.GetDeathReason]."
  death_management.pinned.desc: "Osoba, którą się interesujesz, [dead_character.GetFullName], [dead_character.GetDeathReason]."
+ death_management.elder.desc: "Osoba znana jako [deceased_elder.GetFullName], będąca twoim [Concept('elder', 'starszym')|E], [deceased_elder.GetDeathReason]."
  death_management.1008.desc: "[dead_character.GetTitledFirstName], z któr[Select_CString(dead_character.IsFemale, 'ą', 'ym' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))] [spouse_of_dead_character.GetFirstName] jest w związku małżeńskim, od[Select_CString(dead_character.IsFemale, 'eszła', 'szedł' )]. Wszystkie misterne plany zostały pokrzyżowane przez kapryśny odruch [ROOT.Char.GetFaith.DeathDeityNamePossessive], choć nasze kłopoty wydają się małe w obliczu żałoby, która dotknęła rodzinę zmarłe[Select_CString(dead_character.IsFemale, 'j', 'go' )]…"
  death_management.1008.a: "Spoczywaj w pokoju."
  death_management.1008.a.tt: "Małżonek [spouse_of_dead_character.GetFirstName], [dead_character.GetTitledFirstName], [dead_character.GetDeathReason]."

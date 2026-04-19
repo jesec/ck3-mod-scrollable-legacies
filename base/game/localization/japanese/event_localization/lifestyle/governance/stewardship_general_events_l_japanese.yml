@@ -71,7 +71,7 @@
  stewardship_general.5013.a: "[carp_food.GetFirstNameNoTooltip]、下がれ！ そこから… ああああ！"
  #Catch a servant stealing from me, by Linnéa Thimrén
  stewardship_general.5041.t: "よからぬ使用人"
- stewardship_general.5041.desc: "卑しい[ROOT.GetCharacter.Custom('lowly_servant_type')]が私の[ROOT.Char.Custom('GetCourt')]で盗みを働いた！"
+ stewardship_general.5041.desc: "卑しい[servant_character.Custom('lowly_servant_type')]が私の[ROOT.Char.Custom('GetCourt')]で盗みを働いた！"
  stewardship_general.5041.desc_highgod: "[servant_character.GetWomanMan]は私の前で縮み上がり、腹を空かせた子供たちがどうとか[ROOT.Char.GetFaith.HouseholdGodName]の名の下の慈悲がどうとか泣き言を言っている"
  stewardship_general.5041.desc_other: "[servant_character.GetWomanMan]は私の前で縮み上がり、腹を空かせた子供たちがどうとか泣き言を言い、慈悲を請うている"
  stewardship_general.5041.desc_ending: "\n\n「お願いです[ROOT.Char.GetLadyLord]、何でも言うとおりにします！」"

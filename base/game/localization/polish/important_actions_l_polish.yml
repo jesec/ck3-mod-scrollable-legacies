@@ -1136,7 +1136,7 @@
  action_active_learning_oath_1: "$action_active_diplomacy_oath_1$"
  action_active_learning_oath_1_label: "[coronation_i] Przysięga: „$GetUniversityOathText$” [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
  action_active_learning_oath_1_desc: "Podczas [Concept('coronation', 'koronacji')|E] złożono następującą [Concept('oath', 'przysięgę')|E]: #V „$GetUniversityOathText$”#!. Liczba lat pozostałych na wypełnienie przysięgi: [RemainingTime('learning_oath_1_timer')]."
- action_active_learning_oath_1_click: "$action_active_learning_oath_1_click$"
+ action_active_learning_oath_1_click: "$action_active_diplomacy_oath_1_click$"
  action_active_purge_pretenders_oath: "$action_active_diplomacy_oath_1$"
  action_active_purge_pretenders_oath_label: "[coronation_i] Przysięga: „$GetPurgePretendersOathText$” [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
  action_active_purge_pretenders_oath_desc: "Podczas [Concept('coronation', 'koronacji')|E] złożono następującą [Concept('oath', 'przysięgę')|E]: #V „$GetPurgePretendersOathText$”#!. Liczba lat pozostałych na wypełnienie przysięgi: [RemainingTime('purge_pretenders_oath_timer')]."
@@ -1205,3 +1205,46 @@
  action_landless_admin_escape_to_realm: "Ucieknij do innego państwa"
  action_landless_admin_escape_to_realm_desc: "Jesteś pochodzącym z [Concept('noble_family', 'rodziny szlacheckiej')|E] [Concept('holder', 'właścicielem')|E] [Concept('title', 'tytuł')|E] bez ziemi i podlegasz [Concept('liege', 'seniorowi')|E], u którego funkcjonuje inna forma [Concept('government', 'rządu')|E]\n\n#help Możesz poprosić któregoś z innych [Concept('independent_rulers', 'władców niezależnych')|E], u których funkcjonuje [government|El] taki jak twój, aby został twoim nowym seniorem, i przenieść swoje [domicile|El] do jego [Concept('capital', 'stolicy')|E]#!"
  action_landless_admin_escape_to_realm_click: "#I Kliknij, aby otworzyć interakcję „$landless_admin_switch_non_admin_top_liege_interaction$”"
+ action_minister_can_imprison_label: "@minister! Można więzić osobę znaną jako [recipient.GetShortUINameNotMeNoTooltip]"
+ action_minister_can_imprison_combined_group_label: "@minister! Można więzić gubernatorów"
+ action_minister_can_imprison_combined_label: "Można więzić osobę znaną jako [recipient.GetShortUINameNotMeNoTooltip]"
+ #tooltip heading
+ action_minister_can_imprison: "@minister! Można więzić gubernatora"
+ action_minister_can_imprison_combined_group_name: "$action_minister_can_imprison_combined_group_label$"
+ #tooltip contents
+ action_minister_can_imprison_desc: "Możesz [imprison|El] osobę znaną jako [recipient.GetShortUINameNotMe], ponieważ jest [recipient.GetSheHe] znanym [Concept('criminal', 'przestępcą')|E] #weak ([recipient.GetImprisonmentReasons( recipient.GetLiege )])#!."
+ action_minister_can_imprison_combined_group_description: "Możesz [imprison|El] [Concept('governors', 'gubernatorów')|E], którzy są znanymi [Concept('criminals', 'przestępcami')|E]"
+ action_minister_can_imprison_click: "#I Kliknij, aby otworzyć interakcję „$imprison_interaction$”#!"
+ action_minister_can_pardon_label: "@minister! Można ułaskawić osobę znaną jako [recipient.GetShortUINameNotMeNoTooltip]"
+ action_minister_can_pardon_combined_group_label: "@minister! Można ułaskawić gubernatorów"
+ action_minister_can_pardon_combined_label: "Można ułaskawić osobę znaną jako [recipient.GetShortUINameNotMeNoTooltip]"
+ #tooltip heading
+ action_minister_can_pardon: "@minister! Można ułaskawić gubernatora"
+ action_minister_can_pardon_combined_group_name: "$action_minister_can_pardon_combined_group_label$"
+ #tooltip contents
+ action_minister_can_pardon_desc: "Możesz zmusić osobę znaną jako [recipient.GetLiege.GetShortUINameNotMe] do odrzucenia [Concept('imprisonment_reason', 'powodu uwięzienia')|E] #weak ([recipient.GetImprisonmentReasons( recipient.GetLiege )])#! osoby, którą jest [recipient.GetShortUINameNotMe], ponieważ jest [recipient.GetSheHe] znanym [Concept('criminal', 'przestępcą')|E]."
+ action_minister_can_pardon_combined_group_description: "Możesz zmusić [liege_possessive|El] [Concept('governors', 'gubernatorów')|E], którzy są znanymi [Concept('criminals', 'przestępcami')|E], do odrzucenia [Concept('imprisonment_reason', 'powodu')|E] ich uwięzienia."
+ action_minister_can_pardon_click: "#I Kliknij, aby otworzyć interakcję „$pardon_interaction$”#!"
+ action_can_be_pardoned_by_minister_label: "@minister! Możesz poprosić osobę znaną jako [recipient.GetShortUINameNotMeNoTooltip] o ułaskawienie cię"
+ #tooltip heading
+ action_can_be_pardoned_by_minister: "@minister! Można cię ułaskawić"
+ #tooltip contents
+ action_can_be_pardoned_by_minister_desc: "Możesz poprosić osobę znaną jako [recipient.GetShortUINameNotMe] o przekonanie twojego [Concept('liege', 'seniora')|E], którym jest [actor.GetLiege.GetShortUINameNotMe], do odrzucenia [Concept('imprisonment_reason', 'powodu')|E] #weak ([actor.GetImprisonmentReasons( actor.GetLiege )])#! #V twojego#! uwięzienia."
+ action_can_be_pardoned_by_minister_unimportant: "@warning_icon! #X [recipient.GetShortUINameNotMe] nie zgadza się na spełnienie prośby.#!"
+ action_can_be_pardoned_by_minister_click: "#I Kliknij, aby otworzyć interakcję „$ask_for_pardon_interaction$”#!"
+ action_pay_governors_treasury_debt_label: "@minister! Można spłacić dług skarbca osoby znanej jako [recipient.GetShortUINameNotMeNoTooltip]"
+ action_pay_governors_treasury_debt_combined_group_label: "@minister! Można spłacić dług skarbca gubernatorów"
+ action_pay_governors_treasury_debt_combined_label: "[treasury_debt|E] osoby znanej jako [recipient.GetShortUINameNotMeNoTooltip] wynosi [treasury_i] #X [recipient.GetTreasury|0]#!"
+ #tooltip heading
+ action_pay_governors_treasury_debt: "@minister! Można spłacić dług skarbca gubernatora"
+ action_pay_governors_treasury_debt_combined_group_name: "$action_pay_governors_treasury_debt_combined_group_label$"
+ #tooltip contents
+ action_pay_governors_treasury_debt_desc: "Możesz wysłać osobie znanej jako [recipient.GetShortUINameNotMe] zasoby [treasury_i] [Concept('treasury', 'skarbca')|E], aby spłacić jej dług."
+ action_pay_governors_treasury_debt_combined_group_description: "Możesz wysyłać [Concept('governors', 'gubernatorom')|E] zasoby [treasury_i] [Concept('treasury', 'skarbca')|E] na spłatę ich [Concept('treasury_debt', 'długu skarbca')|E]."
+ action_pay_governors_treasury_debt_click: "#I Kliknij, aby otworzyć interakcję „$action_pay_governors_treasury_debt$”#!"
+ action_minister_can_pay_treasury_debt_label: "@minister! Twój dług skarbca może zostać spłacony przez osobę znaną jako [recipient.GetShortUINameNotMe]"
+ #tooltip heading
+ action_minister_can_pay_treasury_debt: "@minister! [recipient.GetShortUINameNotMe] może spłacić twój dług skarbca"
+ #tooltip contents
+ action_minister_can_pay_treasury_debt_desc: "Możesz otrzymać zasoby [treasury_i] [Concept('treasury', 'skarbca')|E] na spłatę swojego długu od [Concept('minister_of_revenue', 'ministra dochodów')|E], osoby znanej jako [recipient.GetShortUINameNotMe] lub [Concept('son_of_heaven', 'syna niebios')|E]."
+ action_minister_can_pay_treasury_debt_click: "#I Kliknij, aby otworzyć interakcję „$action_pay_governors_treasury_debt$”#!"

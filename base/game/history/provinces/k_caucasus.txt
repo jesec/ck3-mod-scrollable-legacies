@@ -8,10 +8,6 @@
 	1066.1.1 = {
 		culture = cuman
 		religion = tengri_pagan
-		buildings = {
-			palisades_01
-			market_villages_01
-		}
 	}
 }
 5315 = {	#Aksay
@@ -266,10 +262,7 @@
 5343 = {	#Samiran	#Khazar settlement
 	culture = khazar
 	religion = kabarism
-	holding = tribal_holding
-	1066.1.1 = {
-		holding = nomad_holding
-	}
+	holding = nomad_holding
 	1178.1.1 = {
 		culture = cuman
 		religion = tengri_pagan
@@ -289,7 +282,7 @@
 	#city and region according to XVIIIth maps
 	culture = khazar
 	religion = kabarism
-	holding = tribal_holding
+	holding = nomad_holding
 	1178.1.1 = {
 		culture = cuman
 		religion = tengri_pagan

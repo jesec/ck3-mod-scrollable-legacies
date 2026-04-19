@@ -60,6 +60,7 @@
  ### CONCLUSION
  activity_debate_conclusion_desc_leadership_winner: "El debate por el liderazgo del [GetPlayer.Custom('GetMyMovement')] ha terminado, ¡conmigo proclamad[GetPlayer.Custom('ES_OA')] como vencedor[GetPlayer.Custom('ES_XA')]!"
  activity_debate_conclusion_desc_leadership_loser: "Mis planes fueron frustrados y [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] sigue siendo [Activity.MakeScope.Var('challenged_movement_leader').Char.Custom('ES_ElLa')] líder del [GetPlayer.Custom('GetMyMovement')]."
+ activity_debate_conclusion_desc_leadership_challenged_loser: "Se declara a [Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] líder del movimiento [GetPlayer.Custom('GetMyMovement')], pese a mis esfuerzos."
  activity_debate_conclusion_desc_favor_winner: "El debate por el favor [ROOT.Char.GetTopLiege.Custom('ES_DelDela')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] ha terminado, ¡con el [GetPlayer.Custom('GetMyMovement')] proclamado como vencedor!"
  activity_debate_conclusion_desc_favor_loser: "No he tenido éxito en conseguir el favor [ROOT.Char.GetTopLiege.Custom('ES_DelDela')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] para el [GetPlayer.Custom('GetMyMovement')]. Habré de esforzarme más la próxima vez."
  debate_conclusion_fallback: "El [GetActivityType( 'activity_debate' ).GetName|l] ha llegado a su fin."

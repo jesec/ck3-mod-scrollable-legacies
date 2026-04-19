@@ -3,7 +3,7 @@
  tgp_east_asia_decision_events.0010.desc: "Parfois, l’illumination provient des sources les plus inattendues.\n\nLa façon de régner mandala me parle à un niveau... supérieur. Mon existence sert certainement un but plus élevé : l’unification du pays sous mon règne divin et bienveillant.\n\nEntendre « #EMP Loué soit le Devaraja [ROOT.Char.GetFirstNameNoTooltip]#! » est plaisant..."
  tgp_east_asia_decision_events.0010.a: "Voici mon premier décret."
  tgp_east_asia_decision_events.0010.b: "La propriété à [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] n’est pas digne d’un temple, pour l’instant..."
- warning_mandala_capital_building_only_built_in_citadels_tt: "\n@alert_icon! #alert_trial Le [great_building|El] [mandala|El] [GetBuilding('mandala_capital_01').GetName] peut seulement être construit si votre [capital|El] est une [holding|El] de type [temple_citadel|El]#!"
+ tgp_east_asia_decision_events.0010.b_temple_citadel: "Mon temple se dresse déjà majestueusement en [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] !"
  all_tribal_holdings_will_change_to_citadels: "Toutes les [tribal_holdings|El] dans le pays deviendront des [temple_citadel_holdings|El]"
  realm_capital_will_change_to_citadel: "La [holding|El] de la [realm_capital|El] deviendra une [temple_citadel_holding|El]"
  tgp_east_asia_decision_events.0015.opening: "[overlord.Custom2('AppropriateGreeting', ROOT.Char)]"

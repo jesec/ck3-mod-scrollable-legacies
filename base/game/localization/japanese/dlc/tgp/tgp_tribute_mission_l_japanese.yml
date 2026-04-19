@@ -71,6 +71,8 @@
  tribute_mission_costs_refunded: "貢ぎ物の任務のコストが返還された"
  tribute_mission_notification.title: "[tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]が献上した貢ぎ物"
  tribute_mission_notification.desc: "[tributary_scope.GetShortUIName|U]は[tribute_mission|E]に出て、あなたの[court|E]に貢ぎ物を献上した"
+ tribute_mission.new_tributary.title: "[tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]は貢ぎ物を約束した"
+ tribute_mission.new_tributary.desc: "[tributary_scope.GetShortUIName|U]はあなたの[tributary|E]となり[tribute|E]を捧げることを誓った"
  qualifies_for_tribute_mission_trigger: "有効な[tribute|E]を持っていない"
  qualifies_for_tribute_mission_gold_trigger: "あなたは@gold_icon![GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0]を持っていない"
  qualifies_for_tribute_mission_gold_or_herd_trigger: "あなたは期待に見合う十分な[tribute|E]を持っていない。@gold_icon![GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0]または@herd_icon![GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_herd_value')|0]が必要となる。"

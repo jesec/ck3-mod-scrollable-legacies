@@ -229,6 +229,7 @@
  attempt_to_force_surrender_opinion: "Intentó forzar la rendición"
  theft_opinion: "Robo"
  siphoned_treasury_crime: "Tesoro malversado"
+ tax_avoidance_crime: "Impuesto esquivado"
  embezzled_opinion: "Desfalcó mi dinero"
  elopement_opinion: "Fuga"
  attempted_elopement_opinion: "Intento de fuga"

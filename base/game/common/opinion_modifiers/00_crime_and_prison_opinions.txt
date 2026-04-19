@@ -483,3 +483,26 @@ gallowsbait_scum_opinion = {
 	decaying = yes
 }
 
+purged_banishment_opinion = {
+	imprisonment_reason = yes
+	banish_reason = yes
+	years = 25
+	decaying = yes
+}
+
+purged_execution_opinion = {
+	imprisonment_reason = yes
+	execute_reason = yes
+	years = 25
+	decaying = yes
+}
+
+impugned_my_sovereignty = {
+	opinion = -30
+	imprisonment_reason = yes
+	banish_reason = yes
+	revoke_title_reason = yes
+	execute_reason = yes
+	years = 25
+	decaying = yes
+}

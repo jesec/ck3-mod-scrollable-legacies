@@ -273,4 +273,4 @@
  #Meritocratic Acclamation Succession Law (Korea, TGP)
  meritocratic_regency_succession_law: "실력주의 섭정 승계"
  meritocratic_regency_succession_law_subname: "$appointment_succession_law_subname$"
- meritocratic_regency_succession_law_effects: "$meritocratic_regency_succession_law$ 시행 시 [title|E]와 관련 [holdings|E]는 점수가 가장 높은 후보가 상속하게 됩니다. 후보 목록에는 봉역의 [noble_families|E], [governors|E], 가족 구성원이 포함됩니다.\n\n[ceremonial_liege|E]가 다음 [ceremonial_regent|E]으로 선택될 경우, 퇴위할지 직접 통치를 되찾으려 시도할지 선택지가 주어집니다!"
+ meritocratic_regency_succession_law_effects: "$meritocratic_regency_succession_law$ 시행 시 [title|E]와 관련 [holdings|E]는 점수가 가장 높은 후보가 상속하게 됩니다. 후보 목록에는 봉역의 [noble_families|E], [governors|E], 가족 구성원이 포함됩니다."

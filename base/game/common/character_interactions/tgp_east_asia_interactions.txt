@@ -930,7 +930,7 @@ decommission_mandala_temple_interaction = {
 				value = massive_piety_value
 				multiply = scope:actor.primary_title.tier
 				if = {
-					limit = { has_variable = mandala_godking }
+					limit = { scope:actor = { has_variable = mandala_godking } }
 					multiply = 0
 				}
 			}	

@@ -29,6 +29,8 @@
  people: "ludzie"
  mistress: "mistrzyni"
  master: "mistrz"
+ mistress_possessive: "kochanki"
+ master_possessive: "kochanka"
  witch_spirit: "duch"
  witch_spirits: "duchy"
  witch_source: "źródło"

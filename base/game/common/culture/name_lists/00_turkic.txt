@@ -1203,6 +1203,21 @@ name_list_yughur = {
 		"dynn_Yigur"
 		"dynn_S_era_Yogor"
 		"dynn_WE_iwU_r"
+		"dynn_MU_jde"
+		"dynn_Tapmish"
+		"dynn_Beshbalik"
+		"dynn_Qibi"
+		"dynn_Yaghlakar"
+		"dynn_Ediz"
+		"dynn_Uzur"
+		"dynn_Alptekin"
+		"dynn_Akhun"
+		"dynn_Ugurlu"
+		"dynn_U_zU_mcU_"
+		"dynn_Kulug"
+		"dynn_Hosa"
+		"dynn_Yughur"
+		"dynn_Idiqut"
 	}
 	
 	dynasty_names = {
@@ -1210,6 +1225,21 @@ name_list_yughur = {
 		"dynn_Yigur"
 		"dynn_S_era_Yogor"
 		"dynn_WE_iwU_r"
+		"dynn_MU_jde"
+		"dynn_Tapmish"
+		"dynn_Beshbalik"
+		"dynn_Qibi"
+		"dynn_Yaghlakar"
+		"dynn_Ediz"
+		"dynn_Uzur"
+		"dynn_Alptekin"
+		"dynn_Akhun"
+		"dynn_Ugurlu"
+		"dynn_U_zU_mcU_"
+		"dynn_Kulug"
+		"dynn_Hosa"
+		"dynn_Yughur"
+		"dynn_Idiqut"
 	}
 
 	male_names = {

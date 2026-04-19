@@ -1,7 +1,7 @@
 ﻿l_spanish:
  #Mandala
  game_concept_mandala: "Mandala"
- game_concept_mandala_desc: "Bajo la [government_form|lE] $game_concept_mandala$, el [domain_limit|lE] y la cantidad de [direct_vassals|lE] están restringidos. El [liege|lE] y el [suzerain|lE] dependen de [tributaries|lE] para la expansión de su señorío. \n\nUn gobernante mandala puede aspirar a que se le vea como un rey dios, o devaraja, y entonces depende del [mandala_radiance|lE] para conseguir y conservar tributarios.\n\nTambién corresponde al gobernante mantener la [opinion|lE] y aumentar las relaciones con sus tributarios en un intento de conservarlos a largo plazo. A la hora de la sucesión, los tributarios suelen dispersarse a menos que el gobernante demuestre ser un [mandala_succesor|lE] digno."
+ game_concept_mandala_desc: "Bajo la [government_form|El] $game_concept_mandala$, el [domain_limit|El] y la cantidad de [direct_vassals|El] están restringidos. En su lugar el [liege|El] y el [suzerain|El] dependen de [tributaries|El] para la expansión de su señorío. \n\nUn [ruler|El] mandala puede aspirar a que se le vea como un rey dios, o devaraja, y entonces dependerá del [mandala_radiance|El] para conseguir y conservar $game_concept_tributaries$.\n\nTambién corresponde al $game_concept_ruler$ mantener la [opinion|El] y aumentar las relaciones con sus tributarios para conservarlos a largo plazo. A la hora de la sucesión, los $game_concept_tributaries$ suelen dispersarse a menos que el gobernante demuestre ser un [mandala_succesor|El] digno."
  game_concept_mandalas: "Mandalas"
  game_concept_mandala_government: "Gobierno mandala"
  game_concept_mandala_i: "@government_type_mandala!"

@@ -52,9 +52,9 @@
  learning_medicine.2010.c: "Buscad guía en [ROOT.Char.GetFaith.ReligiousText]."
  #Fertility treatment, by Mathilda Bjarnehed
  learning_medicine.2021.t: "[ROOT.Char.Custom('ES_AlAla')|U] [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]"
- learning_medicine.2021.desc: "Me llamo [physician.GetTitledFirstNameNoTooltip|l] y soy un[physician.Custom('ES_XA')] médic[physician.Custom('ES_OA')] cualificad[physician.Custom('ES_OA')] en asuntos de fertilidad. ¿Podrían mis discretos consejos resultar de provecho a mi [ROOT.Char.GetLadyLord]? Sería un honor serviros… por unos honorarios simbólicos."
+ learning_medicine.2021.desc: "Me llamo [physician.GetTitledFirstNameNoTooltip|l] y soy un[physician.Custom('ES_XA')] médic[physician.Custom('ES_OA')] cualificad[physician.Custom('ES_OA')] en asuntos de fertilidad.\n\n¿Podrían mis discretos consejos resultar de provecho a mi [ROOT.Char.GetLadyLord]? Sería un honor serviros… por unos honorarios simbólicos."
  learning_medicine.2021.a: "Podría servirme vuestra ayuda…"
- learning_medicine.2021.a.tt: "[physician.GetFirstName] me ofrece un tratamiento de fertilidad"
+ learning_medicine.2021.a.tt: "Aceptas el tratamiento de fertilidad"
  learning_medicine.2021.b: "Un[physician.Custom('ES_OA')] medic[physician.Custom('ES_OA')] cualificad[physician.Custom('ES_OA')] es siempre bienvenid[physician.Custom('ES_OA')]."
  learning_medicine.2021.b.tt: "Rechazas el tratamiento de fertilidad"
  learning_medicine.2021.c: "¡No tengo tales #EMP problemas!#!"

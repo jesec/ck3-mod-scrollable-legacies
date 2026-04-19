@@ -365,7 +365,11 @@
  message_filter_provincial_army_assignment: "@titles_icon! Affectation de l’armée provinciale"
  message_filter_provincial_army_assignment_desc: "Affectation de l’[army|El] [Concept('provincial','provinciale')|E]"
  message_filter_admin_provincial_army_requests: "@soldier_icon! Requête d’armée provinciale"
- message_filter_admin_provincial_army_requests_desc: "La demande d’une armée provinciale est approuvée ou refusée"
+ message_filter_admin_provincial_army_requests_desc: "La demande d’une [provincial_army|El] est approuvée ou refusée"
+ message_filter_admin_new_powerful_family: "@dynasty_icon! Nouvelle famille puissante"
+ message_filter_admin_new_powerful_family_desc: "Une [noble_family|El] dans le pays devient [powerful|El] ou [dominant|El]"
+ message_filter_admin_new_noble_family: "@dynasty_icon! Nouvelle famille noble"
+ message_filter_admin_new_noble_family_desc: "Une nouvelle [noble_family|El] est établie dans le pays"
  #SITUATIONS
  message_filter_great_steppe: "@county_fertility_icon! Grande steppe"
  message_filter_great_steppe_desc: "Évolutions concernant la [the_great_steppe|E]"
@@ -395,3 +399,4 @@
  message_filter_custom_message_desc: "Messages que vous vous écrivez"
  #TRIBUTARY
  message_filter_tributary: "@tributary_icon! $CONTRACT_VASSAL_SIGNATURE_TRIBUTARY_TYPE$"
+ message_filter_tributary_desc: "Évolutions concernant vos [tributaries|El]"

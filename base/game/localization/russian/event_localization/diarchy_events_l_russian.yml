@@ -248,7 +248,7 @@
  diarchy.1741.desc: "«Мы не против исполнять то, что приказывает [liege.GetTitledFirstName], — насмешливо протягивает [councillor_1.GetTitledFirstName], — но мы не рабы. Что тут непонятного».\n\nЯ уже полдня пытаюсь улучшить отношения между сюзереном и [liege.GetHerHis|l] советниками, но все без толку, не в последнюю очередь из-за непрошибаемой твердолобости [Select_CString(prison_holder.IsFemale, 'этой недалекой женщины', 'этого недалекого мужчины' )].\n\nЯ мысленно вздыхаю. Я [liege.GetDiarchTitle], и мой мандат обязывает меня этим заниматься."
  diarchy.1741.a: "Полагаю, вы не замечаете многое из того, что [liege.GetTitleAsNameNoTooltip|l] делает для вас..."
  diarchy.1741.a.t: "[liege.GetDiarchTitle|U] исполняет [mandate|El]"
- diarchy.1741.custom.several_councillors: "Все присутствующие советники"
+ diarchy.1741.custom.several_councillors: "Все присутствующие [Concept('councillor', 'советники')|E]\t"
  diarchy.1741.b: "Вы и не должны, но хорошая служба способствует благосклонности..."
  diarchy.1741.b.tt.success: "Вы просвещаете своих коллег"
  diarchy.1741.b.tt.failure: "Совет остается недружелюбным"

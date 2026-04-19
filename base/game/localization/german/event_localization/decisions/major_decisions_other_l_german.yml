@@ -78,3 +78,18 @@
  major_decisions.7001.desc: "Tief in jener Wildnis, die manche das „Goldene Land“ nennen, kam [founder.GetNameNoTierNoTooltip] als [founder.GetTitleAsNameNoTooltip] von [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] an die Macht und forderte das Schicksal des eigenen Volkes heraus.\n\nDie Tai verbrachten Jahre auf der Suche nach einer Heimat, zogen stolz als Nomaden in der Region umher und bahnten sich allmählich einen Weg nach Süden.\n\nWird ihr Einfluss die Zeit überdauern?"
  major_decisions.7001.a: "Ein weiterer, der in den Wirbelsturm geworfen wird."
  major_decisions.7001.b: "Sind sie eine Bedrohung für uns? Wir werden sehen."
+ #Brunei Kingdom
+ major_decisions.8000.t: "Das Haus des Friedens"
+ major_decisions.8000.desc: "[imam.GetTitledFirstName|U], [Select_CString(imam.IsFemale, 'die', 'der')] das nächste verpflichtende Freitagsgebet führen wird, erinnert mich an die Tradition der Vorbereitung einer Chutba im Namen [Select_CString(founder.IsFemale, 'derer, die', 'dessen, der')] [founder.GetTitleAsNameNoTooltip] ist. Abgesehen von den üblichen Gebeten und Versen fragte [imam.Custom('DE_PRO_PER_S_3P_N')] mich nach dem Teil, der den Gläubigen vorgelesen werden soll, um meine Souveränität und Vormundschaft über sie zu verkünden."
+ major_decisions.8000.a: "Sie sollen von den Taten erfahren, die [Select_CString(founder.IsFemale, 'ihre', 'ihr')] [founder.GetTitleAsNameNoTooltip] vollbringt."
+ major_decisions.8000.b: "Alles Lob gebührt Allah."
+ brunei_kingdom_khutbah_prestige_option_modifier: "Beschützer der Umma"
+ brunei_kingdom_khutbah_piety_option_modifier: "Licht der Umma"
+ #Brunei Empire
+ major_decisions.9000.t: "Kronbesteigungsgeschenk des Kaisers"
+ major_decisions.9000.desc: "Laut unserer islamischen Tradition wird von [Select_CString(founder.IsFemale, 'einer', 'einem')] neuen [founder.GetTitleAsNameNoTooltip] erwartet, dass ich meinen gesegneten Kriegern, Reisenden in meinem Land und jenen in Not frisch geprägte Münzen mit meinem Namen schenke."
+ major_decisions.9000.desc_steward: "\n\nMein [ROOT.Char.GetCouncillorPosition('councillor_steward').GetPositionName] [steward.GetTitledFirstName] bittet um das gleiche Maß an Großzügigkeit, das ich als ihr Beschützer auch meinen treuen Untertanen zugestehe."
+ major_decisions.9000.a: "Lasst die Gläubigen kosten, wie großzügig [Select_CString(founder.IsFemale, 'ihre', 'ihr')] [founder.GetTitleAsNameNoTooltip] ist!"
+ major_decisions.9000.b: "Möge Allah unser Zakat annehmen."
+ brunei_empire_high_sadaqah_modifier: "Großzügig verteilter Zakat"
+ brunei_empire_low_sadaqah_modifier: "Verteilter Zakat"

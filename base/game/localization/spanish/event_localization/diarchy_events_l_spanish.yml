@@ -248,7 +248,7 @@
  diarchy.1741.desc: "«No nos oponemos a los deseos [liege.Custom('ES_DelDela')] [liege.GetTitledFirstName|l]», dice [councillor_1.Custom('ES_ElLa')] [councillor_1.GetTitledFirstName|l] con soniquete, burlándose. «Es solo que no somos sus esclavos. No es tan difícil de entender».\n\nHe pasado gran parte de la tarde intentando mejorar las relaciones entre mi [liege.GetLadyLord|l] y sus consejeros, en vano, gracias en gran parte a la testarudez de est[councillor_1.Custom('ES_EA')] ignorante.\n\nSuspiro por dentro. Soy [diarch.Custom('ES_ElLa')] [liege.GetDiarchTitle] y mi mandato precisa de estos impuestos."
  diarchy.1741.a: "Creo que no sois consciente de lo mucho que [liege.Custom('ES_ElLa')] [liege.GetTitleAsNameNoTooltip] hace por vos…"
  diarchy.1741.a.t: "$diarchies.0000.diarch_fulfills_mandate.t$"
- diarchy.1741.custom.several_councillors: "Todo consejero presente"
+ diarchy.1741.custom.several_councillors: "Todo [councillor|El] presente"
  diarchy.1741.b: "Tampoco es que debáis, pero un mejor servicio fomenta la beneficencia…"
  diarchy.1741.b.tt.success: "Iluminas a tus colegas"
  diarchy.1741.b.tt.failure: "El consejo sigue empantanado"

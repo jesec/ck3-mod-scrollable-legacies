@@ -783,7 +783,7 @@
  fund_inspiration.6508.introduction: "Ich habe ein Schreiben von mein[inspiration_owner.Custom('DE_END_PRO_S_D')] Abenteurer[inspiration_owner.Custom('DE_END_NOU_S_GS_N')] aus der eisigen Taiga erhalten.\n\n"
  fund_inspiration.6508.desc: "„Ich verbrachte eine Weile in der guten Gesellschaft der besten Handwerker, die man sich wünschen könnte: einer Biberkolonie! Mit diesem Kurier übersende ich Euch ein Buch mit Skizzen ihrer Bauwerke, mit denen wir Fische fangen könnten! Ach, wie schön ist das Dasein als halb im Wasser lebendes Nagetier!“\n\n"
  fund_inspiration.6508.architect_desc: "Ich bin mir sicher, dass [court_architect.GetTitledFirstName] das eine oder andere von Tieren lernen könnte, die schlauer sind als [court_architect.Custom('DE_PRO_PER_S_3P_N')].“"
- fund_inspiration.6508.a: "Ich werde das gleich einmal gründlich durchgehen."
+ fund_inspiration.6508.a: "Ich werde darüber gründlich nachdenken."
  fund_inspiration.6508.b: "In der Tat. [court_architect.GetTitledFirstNameNoTooltip] könnte eine Lektion gebrauchen."
  fund_inspiration.6508.b.tt: "Die Eignung von [court_architect.GetTitledFirstName] als Architekt verbessert sich etwas"
  fund_inspiration.6508.c: "Was für #EMP niedliche#! Tierchen! [child.GetFirstNameNoTooltip|U] sollte dieses Buch haben!"

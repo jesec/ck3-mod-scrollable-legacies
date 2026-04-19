@@ -296,6 +296,42 @@
 					desc = "[influence_level|E]"
 				}
 			}
+			
+			# PIETY LEVEL (from admin family attribute)
+			if = {
+				limit = {
+					piety_level >= 1
+					house ?= {
+						OR = {
+							has_house_power_parameter = candidate_score_per_piety_level_1
+							has_house_power_parameter = candidate_score_per_piety_level_2
+							has_house_power_parameter = candidate_score_per_piety_level_3
+						}
+					}
+				}
+				add = {
+					value = 0
+					add = {
+						if = {
+							limit = {
+								house ?= { has_house_power_parameter = candidate_score_per_piety_level_3 }
+							}
+							add = candidate_score_per_piety_level_3_value
+						}
+						else_if = {
+							limit = {
+								house ?= { has_house_power_parameter = candidate_score_per_piety_level_2 }
+							}
+							add = candidate_score_per_piety_level_2_value
+						}
+						else = {
+							add = candidate_score_per_piety_level_1_value
+						}
+					}
+					multiply = piety_level
+					desc = "family_attribute_desc"
+				}
+			}
 
 			#SAME CULTURE AS REGION
 			if = {

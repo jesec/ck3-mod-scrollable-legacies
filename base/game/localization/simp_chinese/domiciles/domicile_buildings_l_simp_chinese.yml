@@ -516,7 +516,7 @@
  proving_grounds_nightly_barding_drills_domicile_building_desc: "#weak （需要[GetDomicileBuilding('proving_grounds_01').GetName]）#!\n绳线会打结，皮革会断裂，金属会生锈，训练效果会消失，这对于重骑兵而言与所有人都是一样的。"
  proving_grounds_life_in_the_saddle_domicile_building: "马鞍生活"
  proving_grounds_life_in_the_saddle_domicile_building_desc: "#weak （需要[GetDomicileBuilding('proving_grounds_01').GetName]）#!\n有些人天生就会，有些人需要在生活中训练学会。"
- proving_grounds_life_in_the_saddle_horse_archers_tt: "你必须拥有一支[GetMaA('heavy_horse_archers').GetName]或[GetMaA('horse_archers').GetName][regiment|E]"
+ proving_grounds_life_in_the_saddle_horse_archers_tt: "你必须拥有至少一支[archer_cavalry|E][regiment|E]"
  #TIT-53191
  proving_grounds_the_stump_domicile_building: "树桩"
  #proving_grounds_the_stump_domicile_building: "The [GetPlayer.Custom('GetStumpName')|U]"

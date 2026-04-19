@@ -48,7 +48,7 @@
  catalyst_accepted_independence_faction_demands: "[struggle_catalyst_catalyst|E] „$catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion$“"
  catalyst_accepted_independence_faction_demands_desc: "Die Forderungen einer [peasant_faction|E] oder [popular_faction|E] annehmen"
  catalyst_conducted_border_raid: "[struggle_catalyst_catalyst|E] „[Concept('border_raid', 'Grenzüberfälle')|E] durchgeführt“"
- catalyst_conducted_border_raid_desc: "[Concept('border_raiding', 'Grenzüberfälle')|E] gegen eine von einem anderen $game_concept_struggle_involved$en $game_concept_character$ gehaltene [county|E] beginnen"
+ catalyst_conducted_border_raid_desc: "[Concept('border_raids', 'Grenzüberfälle')|E] gegen eine von einem anderen $game_concept_struggle_involved$en $game_concept_character$ gehaltene [county|E] beginnen"
  catalyst_learned_new_language_important: "[struggle_catalyst_catalyst|E] „[language|E] erlernt“"
  catalyst_learned_new_language_important_desc: "Die [language|E] eines [Concept('struggle_involved', 'beteiligten')|E] [Concept('ruler', 'Herrschers')|E] erlernen"
  catalyst_toledo_council_conciliation: "[struggle_catalyst_catalyst|E] „$fp2_small_council_modifier$: Aussöhnung“"

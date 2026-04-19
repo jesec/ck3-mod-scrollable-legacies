@@ -21,7 +21,8 @@
  DYNASTIC_CYCLE_WINDOW_TAB_GROUP_TT: "#T Groups#!"
  DYNASTIC_CYCLE_WINDOW_PHASES_LIST_TT: "#T $DYNASTIC_CYCLE_WINDOW_PHASES_LIST$#!\n$CLICK_TO_VIEW$"
 
- DYNASTIC_CYCLE_WINDOW_EFFECTS_ON_GROUP: "Effects during current Era ([SituationPhase.GetName])"
+ DYNASTIC_CYCLE_WINDOW_EFFECTS_ON_GROUP: "Effects during current Era: [SituationPhase.GetType.GetNameWithIcon]"
+ DYNASTIC_CYCLE_WINDOW_EFFECTS_ON_GROUP_FUTURE: "Effects during selected potential Era: [SituationPhaseType.GetNameWithIcon]"
  DYNASTIC_CYCLE_WINDOW_GROUP_MEMBERS_BUTTON_LABEL: "[GetDataModelSize( SituationParticipantGroup.GetCharacters )] Participants"
  DYNASTIC_CYCLE_WINDOW_GROUP_POWER: "[SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]"
  DYNASTIC_CYCLE_WINDOW_GROUP_POWER_TOOLTIP: "#T [movement_power|E]: [SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]#!\nTotal [personal_movement_power|E] of all members of the [SituationParticipantGroup.GetName]\n\n[SituationDynasticCycleWindow.GetMovementPowerValueDesc( SituationParticipantGroup.Self )]"

@@ -47,6 +47,7 @@
  house_power_parameter_unlock_coerce_contribution_scheme: "Erlaubt das [scheme|E] #high [GetScheme('coerce_contribution').GetTypeName]#!"
  house_power_parameter_births_give_piety: "Mütter und Väter erhalten [piety|E], wenn ihre Kinder in dieses [house|E] geboren werden"
  house_power_parameter_may_override_stewardship_succession_trial: "Euer [heir|E] kann umgehend den [Concept('stewardship', 'Verwaltungs')|E]-Teil der [mandala_succession_succession|E]-Prüfungen abschließen"
+ house_power_parameter_can_build_in_tributaries: "Kann [buildings|E] und [holdings|E] in [Concept('tributaries', 'Tributzahlern')|E] bauen #weak (nur wenn sie selbst keine Tributzahler sind)#!"
  mandala_creator_child_born: "Kind der Schöpfer-Blutlinie"
  mandala_creator_children_born: "Kinder der Schöpfer-Blutlinie"
  mandala_creator_modifier: "Aspekt der Schöpfung"
@@ -82,7 +83,7 @@
  house_power_parameter_aspect_of_destruction_ways_to_die: "[death_natural_causes|El]e, [death_religion|El]e und [death_combat|E]-Tode sind annehmbare [Concept('character_death_death', 'Todesarten')|E] als #high Aspekt der Zerstörung#!"
  house_power_parameter_can_use_plunder_for_contribution_cb: "Erlaubt den [casus_belli|E] #high [GetCasusBelliType('mandala_plunder_cb').GetName]#!"
  house_power_parameter_can_make_mandala_tributaries_via_war: "Kann #high [GetSubjectContractGroup('tributary_mandala').GetName]#! und #high [GetSubjectContractGroup('tributary_mandala_tribal').GetName]#! über #high [GetCasusBelliType('make_tributary_cb').GetName]#!-[Concept('war', 'Kriege')|E] erlangen"
- house_power_parameter_has_unlimited_invasion_cb: "Hat unbegrenzten Zugriff auf den [casus_belli|E] #high [GetCasusBelliType('invasion_war').GetName]#!"
+ house_power_parameter_has_mandala_invasion_cb: "Hat einmalig Zugriff auf den [casus_belli|E] #high [GetCasusBelliType('invasion_war').GetName]#!"
  house_power_parameter_may_override_martial_succession_trial: "Euer [heir|E] kann umgehend den [Concept('martial', 'Kriegsführungs')|E]-Teil der [mandala_succession_succession|E]-Prüfungen abschließen"
  #Aspect of Trickery
  house_power_parameter_unlock_leverage_contribution_scheme: "Erlaubt das [scheme|E] #high [GetScheme('leverage_contribution').GetTypeName]#!"

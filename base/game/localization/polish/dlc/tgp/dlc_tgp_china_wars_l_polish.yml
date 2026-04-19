@@ -6,12 +6,12 @@
  china_seize_county_cb: "$CHINA_SEIZE_COUNTY_CB_NAME$"
  CHINA_SEIZE_COUNTY_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]przejęcie (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName]; cel: [TITLE.GetBaseName])"
  CHINA_SEIZE_COUNTY_WAR_NAME_BASE: "[DEFENDER.GetPrimaryTitle.GetName] [ATTACKER.GetPrimaryTitle.GetAdjective]"
- CHINA_SEIZE_COUNTY_CB_NAME: "Przejmij hegemoniczne hrabstwo ([GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName|l])"
+ CHINA_SEIZE_COUNTY_CB_NAME: "Przejmij hegemoniczne hrabstwo"
  ## duchy conquest variant
  china_seize_duchy_cb: "$CHINA_SEIZE_DUCHY_CB_NAME$"
  CHINA_SEIZE_DUCHY_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]przejęcie (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName]; cel: [TITLE.GetBaseName])"
  CHINA_SEIZE_DUCHY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetName] kontra [DEFENDER.GetPrimaryTitle.GetName]"
- CHINA_SEIZE_DUCHY_CB_NAME: "Przejmij hegemoniczne księstwo ([GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName|l])"
+ CHINA_SEIZE_DUCHY_CB_NAME: "Przejmij hegemoniczne księstwo"
  ## Great Project Conquest
  grand_campaign_kingdom_invasion_cb: "[GetTitleByKey('h_china').Custom('OrdinalChineseConquest')] Wielka Kampania [GetTitleByKey('h_china').GetAdjectiveNoTooltip]"
  GP_KINGDOM_INVASION_WAR_NAME: "$grand_campaign_kingdom_invasion_cb$"

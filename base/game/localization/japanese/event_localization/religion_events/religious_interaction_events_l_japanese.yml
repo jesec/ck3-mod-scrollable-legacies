@@ -75,7 +75,7 @@
  religious_interaction.2011.b: "お前の永遠の救いのために支払う金はない！"
  religious_interaction.2011.c: "お前は金よりも価値あるもののためにそうすべきだ。"
  religious_interaction.2012.desc: "あなたの信仰の知恵は理解しましたが、闇から光への道がどれほど長く険しいかをあなたに理解していただきたく思っています。\n\n私に必要な支援を提供してくだされば、旅はより容易になるでしょう。"
- religious_interaction.2012.a: "どこであろうと[ROOT.Char.GetFaith.GetNameNoTooltip]のために容認しよう。"
+ religious_interaction.2012.a: "あらゆる地にいる信徒のために容認しよう。"
  religious_interaction.2012.b: "お前の魂のために取引はしない！"
  religious_interaction.2012.c: "先に返すべき借りがあるだろう。"
  religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

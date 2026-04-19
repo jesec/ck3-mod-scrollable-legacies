@@ -274,7 +274,10 @@ korean_wang_goryeo_13 = { # King Mun_jong
 	}
 	1066.9.15 = {
 		effect = {
-			add_realm_law = meritocratic_regency_succession_law
+			if = {
+				limit = { has_realm_law = meritocratic_bureaucracy_0 }
+				add_realm_law = meritocratic_bureaucracy_2
+			}
 		}
 	}
 	1083.9.2 = {
@@ -2679,36 +2682,6 @@ korean_go_goguryeo_60 = { # Go An_seung
 	}	
 }
 
-# Haeju Wang - 海州王 (해주왕)
-
-korean_wang_haeju_1 = {
-	name = "Yu_5112"
-	dynasty = korean_wang_haeju
-	religion = avatamsaka
-	culture = goryeo
-	1004.1.1 = {
-		birth = yes
-	}
-	1083.1.1 = {
-		death = yes
-	}
-}
-
-korean_wang_haeju_2 = { # concubine of King Taejo
-	name = "Ye_hwa"
-	female = yes
-	dynasty = korean_wang_haeju
-	religion = avatamsaka
-	culture = goryeo
-	father = korean_wang_haeju_1 # Yu
-	1041.1.1 = {
-		birth = yes
-	}
-	1102.1.1 = {
-		death = yes
-	}
-}
-
 # Gangneung Wang - 江陵王 (강릉왕)
 
 korean_wang_gangneung_1 = {
@@ -2738,13 +2711,14 @@ korean_wang_ganggeung_2 = { # wife of Jeong Hang
 	}
 }
 
-# Seohae Wang - 왕
+# Seohae Wang - 西海王 (서해왕) / Haeju Wang - 海州王 (해주왕)
 
 korean_wang_seohae_1 = {
 	name = "Won_mok" # Real name unknown
 	dynasty = korean_wang_seohae
 	religion = yogacara
 	culture = goryeo
+	father = korean_wang_seohae_6 # Yu_5112, connecting placeholder
 	1038.1.1 = {
 		birth = yes
 	}
@@ -2758,7 +2732,7 @@ korean_wang_seohae_2 = {
 	dynasty = korean_wang_seohae
 	religion = yogacara
 	culture = goryeo
-	father = korean_wang_seohae_1 # Seo_ri
+	father = korean_wang_seohae_1 # Won_mok
 	1066.1.1 = {
 		birth = yes
 	}
@@ -2772,7 +2746,7 @@ korean_wang_seohae_3 = {
 	dynasty = korean_wang_seohae
 	religion = yogacara
 	culture = goryeo
-	father = korean_wang_seohae_2 # Ja_ji
+	father = korean_wang_seohae_2 # Ja_ji_2
 	1094.1.1 = {
 		birth = yes
 	}
@@ -2787,7 +2761,7 @@ korean_wang_seohae_4 = { # wife of Lee Gong_ui
 	dynasty = korean_wang_seohae
 	religion = yogacara
 	culture = goryeo
-	father = korean_wang_seohae_2 # Ja_ji
+	father = korean_wang_seohae_2 # Ja_ji_2
 	1091.1.1 = {
 		birth = yes
 	}
@@ -2802,11 +2776,39 @@ korean_wang_seohae_5 = { # wife of Guk_mo Wang
 	dynasty = korean_wang_seohae
 	religion = yogacara
 	culture = goryeo
-	father = korean_wang_seohae_1 # Seo_ri
+	father = korean_wang_seohae_1 # Won_mok
 	1062.1.1 = {
 		birth = yes
 	}
 	1122.5.8 = {
+		death = yes
+	}
+}
+
+korean_wang_seohae_6 = {
+	name = "Yu_5112"
+	dynasty = korean_wang_haeju
+	religion = avatamsaka
+	culture = goryeo
+	1004.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+korean_wang_seohae_7 = { # concubine of King Taejo
+	name = "Ye_hwa"
+	female = yes
+	dynasty = korean_wang_haeju
+	religion = avatamsaka
+	culture = goryeo
+	father = korean_wang_seohae_6 # Yu
+	1041.1.1 = {
+		birth = yes
+	}
+	1102.1.1 = {
 		death = yes
 	}
 }
@@ -5508,7 +5510,7 @@ korean_im_jangheung_15 = {
 
 # YUN - 윤
 
-# Pa-pyeong Yun - 坡平尹 (파평윤)
+# Papyeong Yun - 坡平尹 (파평윤)
 
 korean_yun_papyeong_1 = {
 	name = "Sin_dal"
@@ -9275,6 +9277,7 @@ korean_jeong_dongnae_9 = {
 	culture = goryeo
 	father = korean_jeong_dongnae_7 # Hang
 	mother = korean_wang_ganggeung_2 #
+	trait = lifestyle_poet
 	1111.1.1 = {
 		birth = yes
 	}
@@ -10337,7 +10340,7 @@ korean_choe_haeju_22 = { # wife of Yi Gak
 	}
 }
 
-# Su-won Choe - 수원최
+# Suju Choe - 水州崔 (수주최)
 
 korean_choe_suwon_1 = {
 	name = "Sa_wi"
@@ -13625,98 +13628,220 @@ korean_bak_silla_19 = { # wife of King Hyo_gong
 
 korean_bak_milyang_1 = {
 	name = "Uk_90C1"
-	culture = goryeo
+	culture = silla
 	faith = avatamsaka
 	dynasty = korean_bak_milyang
 	father = korean_bak_silla_10 # Eon_chim
-	968.1.1 = {
+	922.1.1 = {
 		birth = yes
 	}
-	1029.1.1 = {
+	979.1.1 = {
 		death = yes
 	}
 }
 
 korean_bak_milyang_2 = {
 	name = "Ran_703E"
-	culture = goryeo
+	culture = silla
 	faith = avatamsaka
 	dynasty = korean_bak_milyang
-	father = korean_bak_milyang_1 # Uk
-	997.1.1 = {
+	father = korean_bak_milyang_1 # Uk_90C1
+	938.1.1 = {
 		birth = yes
 	}
-	1071.1.1 = {
+	1000.1.1 = {
+		culture = goryeo
+	}
+	1010.1.1 = {
 		death = yes
 	}
 }
 
 korean_bak_milyang_3 = {
 	name = "Yeong_jeong"
-	culture = goryeo
+	culture = silla
 	faith = avatamsaka
 	dynasty = korean_bak_milyang
-	father = korean_bak_milyang_2 # Ran
-	1028.1.1 = {
+	father = korean_bak_milyang_2 # Ran_703E
+	955.1.1 = {
 		birth = yes
 	}
-	1096.1.1 = {
+	1000.1.1 = {
+		culture = goryeo
+	}	
+	1025.1.1 = {
 		death = yes
 	}
 }
 
 korean_bak_milyang_4 = {
 	name = "Yeong_hui"
-	culture = goryeo
+	culture = silla
 	faith = avatamsaka
 	dynasty = korean_bak_milyang
-	father = korean_bak_milyang_2 # Ran
-	1031.1.1 = {
+	father = korean_bak_milyang_2 # Ran_703E
+	956.1.1 = {
 		birth = yes
 	}
-	1099.1.1 = {
+	1000.1.1 = {
+		culture = goryeo
+	}	
+	1030.1.1 = {
 		death = yes
 	}
 }
 
 korean_bak_milyang_5 = {
 	name = "Yeong_gi_2"
-	culture = goryeo
+	culture = silla
 	faith = avatamsaka
 	dynasty = korean_bak_milyang
-	father = korean_bak_milyang_2 # Ran
-	1034.1.1 = {
+	father = korean_bak_milyang_2 # Ran_703E
+	957.1.1 = {
 		birth = yes
 	}
-	1097.1.1 = {
+	1000.1.1 = {
+		culture = goryeo
+	}	
+	1032.1.1 = {
 		death = yes
 	}
 }
 
 korean_bak_milyang_6 = {
 	name = "Yeong_gu_2"
-	culture = goryeo
+	culture = silla
 	faith = avatamsaka
 	dynasty = korean_bak_milyang
-	father = korean_bak_milyang_2 # Ran
-	1037.1.1 = {
+	father = korean_bak_milyang_2 # Ran_703E
+	959.1.1 = {
 		birth = yes
 	}
-	1101.1.1 = {
+	1000.1.1 = {
+		culture = goryeo
+	}	
+	1035.1.1 = {
 		death = yes
 	}
 }
 
 korean_bak_milyang_7 = {
 	name = "Yeong_ji"
+	culture = silla
+	faith = avatamsaka
+	dynasty = korean_bak_milyang
+	father = korean_bak_milyang_2 # Ran_703E
+	961.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = goryeo
+	}	
+	1038.1.1 = {
+		death = yes
+	}
+}
+
+korean_bak_milyang_8 = {
+	name = "Gi_se"
+	culture = silla
+	faith = avatamsaka
+	dynasty = korean_bak_milyang
+	father = korean_bak_milyang_3 # Yeong_jeong
+	973.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = goryeo
+	}	
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+korean_bak_milyang_9 = {	
+	name = "Si_ju"
+	culture = silla
+	faith = avatamsaka
+	dynasty = korean_bak_milyang
+	father = korean_bak_milyang_8 # Gi_se
+	990.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		culture = goryeo
+	}	
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+korean_bak_milyang_10 = {	
+	name = "Chan_haeng"
 	culture = goryeo
 	faith = avatamsaka
 	dynasty = korean_bak_milyang
-	father = korean_bak_milyang_2 # Ran
-	1040.1.1 = {
+	father = korean_bak_milyang_9 # Si_ju
+	1008.1.1 = {
 		birth = yes
 	}
-	1098.1.1 = {
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+korean_bak_milyang_11 = {	
+	name = "Eon_bu"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_bak_milyang
+	father = korean_bak_milyang_10 # Chan_haeng
+	1030.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+korean_bak_milyang_12 = {	
+	name = "Hyo_sin_2"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_bak_milyang
+	father = korean_bak_milyang_11 # Eon_bu
+	1065.1.1 = {
+		birth = yes
+	}
+	1135.1.1 = {
+		death = yes
+	}
+}
+
+korean_bak_milyang_13 = {	
+	name = "Gong_pil"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_bak_milyang
+	father = korean_bak_milyang_12 # Hyo_sin_2
+	1107.1.1 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		death = yes
+	}
+}
+
+korean_bak_milyang_14 = {	
+	name = "Yuk_gyeong"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_bak_milyang
+	father = korean_bak_milyang_13 # Gong_pil
+	1152.1.1 = {
+		birth = yes
+	}
+	1225.1.1 = {
 		death = yes
 	}
 }
@@ -14135,73 +14260,161 @@ korean_bak_pyeongsan_12 = {
 }
 
 korean_bak_pyeongsan_13 = {
-	name = "Yu_cheong" # Real name unknown
-	culture = silla
-	faith = avatamsaka
-	dynasty = korean_bak_pyeongsan
-	father = korean_bak_pyeongsan_9 # Seung_wi
-	961.1.1 = {
-		birth = yes
-	}
-	1019.1.1 = {
-		death = yes
-	}
+    name = "Bok_jong"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_9 # Seung_wi
+    961.1.1 = {
+        birth = yes
+    }
+    1019.1.1 = {
+        death = yes
+    }
 }
 
 korean_bak_pyeongsan_14 = {
-	name = "Ji_gwang" # Real name unknown
-	culture = silla
-	faith = avatamsaka
-	dynasty = korean_bak_pyeongsan
-	father = korean_bak_pyeongsan_13 # 
-	999.1.1 = {
-		birth = yes
-	}
-	1057.1.1 = {
-		death = yes
-	}
+    name = "Chung_hu"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_13 # Bok_jong
+    999.1.1 = {
+        birth = yes
+    }
+    1057.1.1 = {
+        death = yes
+    }
 }
 
 korean_bak_pyeongsan_15 = {
-	name = "Jeong_ik" # Real name unknown
-	culture = goryeo
-	faith = avatamsaka
-	dynasty = korean_bak_pyeongsan
-	father = korean_bak_pyeongsan_14 # 
-	1025.1.1 = {
-		birth = yes
-	}
-	1095.1.1 = {
-		death = yes
-	}
+    name = "In_ryang"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_14 # Chung_hu
+    trait = education_learning_3
+    trait = lifestyle_poet
+    1025.1.1 = {
+        birth = yes
+    }
+    1095.1.1 = {
+        death = yes
+    }
 }
 
 korean_bak_pyeongsan_16 = {
-	name = "Sin_deok" # Real name unknown
-	culture = goryeo
-	faith = avatamsaka
-	dynasty = korean_bak_pyeongsan
-	father = korean_bak_pyeongsan_15 # 
-	1052.1.1 = {
-		birth = yes
-	}
-	1113.1.1 = {
-		death = yes
-	}
+    name = "Gyeong_in"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_15 # In_ryang
+    1057.1.1 = {
+        birth = yes
+    }
+    1121.1.1 = {
+        death = yes
+    }
 }
 
 korean_bak_pyeongsan_17 = {
-	name = "Gyeong_san"
-	culture = goryeo
-	faith = avatamsaka
-	dynasty = korean_bak_ulleong
-	father = korean_bak_pyeongsan_16 # 
-	1081.1.1 = {
-		birth = yes
-	}
-	1158.1.1 = {
-		death = yes
-	}
+    name = "Gyeong_san"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_15 # In_ryang
+    1081.1.1 = {
+        birth = yes
+    }
+    1158.1.1 = {
+        death = yes
+    }
+}
+
+korean_bak_pyeongsan_18 = {
+    name = "Gyeong_baek"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_15 # In_ryang
+    1062.1.1 = {
+        birth = yes
+    }
+    1121.1.1 = {
+        death = yes
+    }
+}
+
+korean_bak_pyeongsan_19 = {
+    name = "Chong_seo"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_15 # In_ryang
+    trait = devoted
+    1085.1.1 = {
+        birth = yes
+    }
+    1131.1.1 = {
+        death = yes
+    }
+}
+
+korean_bak_pyeongsan_20 = {
+    name = "Hyo_ryeom"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_16 # Gyeong_in
+    1087.1.1 = {
+        birth = yes
+    }
+    1151.1.1 = {
+        death = yes
+    }
+}
+
+korean_bak_pyeongsan_21 = {
+    name = "Hyo_seon"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_16 # Gyeong_in
+    1095.1.1 = {
+        birth = yes
+    }
+    1160.1.1 = {
+        death = yes
+    }
+}
+
+korean_bak_pyeongsan_22 = {
+    name = "Hyo_ji"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_17 # Gyeong_san
+    1120.1.1 = {
+        birth = yes
+    }
+    1185.1.1 = {
+        death = yes
+    }
+}
+
+korean_bak_pyeongsan_23 = {
+    name = "Hyo_jin_2"
+    culture = goryeo
+    faith = yogacara
+    dynasty = korean_bak_pyeongsan
+    father = korean_bak_pyeongsan_17 # Gyeong_san
+    trait = education_learning_3
+    1125.1.1 = {
+        birth = yes
+    }
+    1190.1.1 = {
+        death = yes
+    }
 }
 
 ### BOK - 복
@@ -14293,6 +14506,8 @@ korean_bok_myeoncheon_6 = {
 }
 
 ### GYEON - 견
+
+# Sangju Gyeon 尚州甄 (상주견)  / Gaeunhyeon Gyeon
 
 korean_gyeon_gaeunhyeon_1 = {
 	name = "A_ja_gae" # 아자개
@@ -15110,6 +15325,8 @@ korean_han_daeheung_11 = { # wife of Lee Bong-ui
 }
 
 ### CHEOK - 척
+
+# Gokju Cheok - 谷州拓 (곡주척)
 
 korean_cheok_goksan_1 = {
 	name = "Wi_gong"
@@ -16099,7 +16316,9 @@ korean_yeon_goguryeo_4 = {
 	}
 }
 
-### YEOM - 염
+### YEOM - 염상
+
+# Papyeong Yeom - 坡平廉 (파평염) / Paju Yeom - 坡州廉 (파주염)
 
 korean_yeom_paju_1 = {
 	name = "Gwang_jong" # Real name unknown
@@ -16133,6 +16352,7 @@ korean_yeom_paju_3 = {
 	culture = goguryeo
 	faith = avatamsaka
 	dynasty = korean_yeom_paju
+	father = korean_yeom_paju_13 # Wi
 	977.1.1 = {
 		birth = yes
 	}
@@ -16199,10 +16419,110 @@ korean_yeom_paju_7 = {
 	}
 }
 
+korean_yeom_paju_8 = {
+	name = "Geuk_gwon"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yeom_paju
+	father = korean_yeom_paju_7 # Sin_yak
+	1145.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}
+
+korean_yeom_paju_9 = {
+	name = "Geuk_mo"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yeom_paju
+	father = korean_yeom_paju_7 # Sin_yak
+	1148.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}
+
+korean_yeom_paju_10 = {
+	name = "Chung_yak_2"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yeom_paju
+	father = korean_yeom_paju_6 # Deok_bang
+	1121.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+korean_yeom_paju_11 = {
+	name = "Haeng_yak"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yeom_paju
+	father = korean_yeom_paju_6 # Deok_bang
+	1124.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+korean_yeom_paju_12 = {
+	name = "Sun_yak"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yeom_paju
+	father = korean_yeom_paju_6 # Deok_bang
+	1127.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+korean_yeom_paju_13 = {
+	name = "Wi_4F4D"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yeom_paju
+	father = korean_yeom_paju_14 # Hyeong_myeong
+	931.1.1 = {
+		birth = yes
+	}
+	996.1.1 = {
+		death = yes
+	}
+}
+
+korean_yeom_paju_14 = {
+	name = "Hyeong_myeong"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yeom_paju
+	father = korean_yeom_paju_2 # Sang_6E58, connecting placeholder
+	897.1.1 = {
+		birth = yes
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+
 ### GWON - 권
 
+# Andong Gwon - 安東權 (안동권)
+
 korean_gwon_andong_1 = {
-	name = "Yeong_gwan" # Real name unknown
+	name = "In_su" # Real name unknown
 	culture = silla
 	faith = avatamsaka
 	dynasty = korean_gwon_andong
@@ -16215,29 +16535,29 @@ korean_gwon_andong_1 = {
 }
 
 korean_gwon_andong_2 = {
-	name = "In_su" # Real name unknown
+	name = "Haeng_5E78"
 	culture = silla
 	faith = avatamsaka
 	dynasty = korean_gwon_andong
-	father = korean_gwon_andong_1 # 
+	father = korean_gwon_andong_1 # In_su
 	864.1.1 = {
 		birth = yes
 	}
-	925.1.1 = {
+	953.1.1 = {
 		death = yes
 	}
 }
 
 korean_gwon_andong_3 = {
-	name = "Haeng_5E78"
+	name = "In_haeng"
 	culture = silla
 	faith = avatamsaka
 	dynasty = korean_gwon_andong
-	father = korean_gwon_andong_2 # 
+	father = korean_gwon_andong_2 # Haeng
 	894.1.1 = {
 		birth = yes
 	}
-	968.1.1 = {
+	980.1.1 = {
 		death = yes
 	}
 }
@@ -16247,11 +16567,11 @@ korean_gwon_andong_4 = {
 	culture = silla
 	faith = avatamsaka
 	dynasty = korean_gwon_andong
-	father = korean_gwon_andong_3 # Haeng
-	925.1.1 = {
+	father = korean_gwon_andong_3 # In_haeng
+	940.1.1 = {
 		birth = yes
 	}
-	999.1.1 = {
+	1000.1.1 = {
 		death = yes
 	}
 }
@@ -16261,11 +16581,151 @@ korean_gwon_andong_5 = {
 	culture = silla
 	faith = avatamsaka
 	dynasty = korean_gwon_andong
-	father = korean_gwon_andong_3 # Haeng
-	928.1.1 = {
+	father = korean_gwon_andong_3 # In_haeng
+	945.1.1 = {
 		birth = yes
 	}
-	1001.1.1 = {
+	1015.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_6 = {
+	name = "Gyun_han"
+	culture = silla
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_4 # Chaek_518A
+	980.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_7 = {
+	name = "Jwa_seom"
+	culture = silla
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_6 # Gyun_han
+	1000.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_8 = {
+	name = "Ja_paeng"
+	culture = silla
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_6 # Gyun_han
+	1005.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_9 = {
+	name = "Deok_yeo"
+	culture = silla
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_7 # Jwa_seom
+	1050.1.1 = {
+		birth = yes
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_10 = {
+	name = "Jeok_9069"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_9 # Deok_yeo
+	1094.1.1 = {
+		birth = yes
+	}
+	1147.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_11 = {
+	name = "Seon_gae"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_8 # Ja_paeng
+	1035.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_12 = {
+	name = "Yeom_5EC9"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_11 # Seon_gae
+	1065.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_13 = {
+	name = "I_yeo"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_12 # Yeom_5EC9
+	1100.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_14 = {
+	name = "Jung_si"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_13 # I_yeo
+	1140.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwon_andong_15 = {
+	name = "Su_pyeong"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_gwon_andong
+	father = korean_gwon_andong_14 # Jung_si
+	1177.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
 		death = yes
 	}
 }
@@ -16288,17 +16748,116 @@ korean_gwak_cheongju_1 = {
 }
 
 korean_gwak_cheongju_2 = {
-	name = "Jong_ham" # Real name unknown
+	name = "Jeung_62EF"
 	culture = goryeo
 	faith = avatamsaka
 	dynasty = korean_gwak_cheongju
-	father = korean_gwak_cheongju_1 # Won
+	father = korean_gwak_cheongju_1 # Won_5143
 	1009.1.1 = {
 		birth = yes
 	}
 	1074.1.1 = {
 		death = yes
 	}
+}
+
+korean_gwak_cheongju_3 = {
+	name = "Sang_5C19"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_gwak_cheongju
+	father = korean_gwak_cheongju_2 # Jeung_62EF
+	1034.1.1 = {
+		birth = yes
+	}
+	1106.1.1 = {
+		death = yes
+	}
+}
+
+korean_gwak_cheongju_4 = {
+    name = "Tan_5766"
+    culture = goryeo
+    faith = avatamsaka
+    dynasty = korean_gwak_cheongju
+    father = korean_gwak_cheongju_3 # Sang_5C19
+    1054.1.1 = {
+        birth = yes
+    }
+    1106.1.1 = {
+        death = yes
+    }
+}
+
+korean_gwak_cheongju_5 = {
+    name = "Yeo_8F3F"
+    culture = goryeo
+    faith = avatamsaka
+    dynasty = korean_gwak_cheongju
+    father = korean_gwak_cheongju_3 # Sang_5C19
+    trait = lifestyle_poet
+    1058.1.1 = {
+        birth = yes
+    }
+    1130.1.1 = {
+        death = yes
+    }
+}
+
+korean_gwak_cheongju_6 = {
+    name = "Yak_dong"
+    culture = goryeo
+    faith = avatamsaka
+    dynasty = korean_gwak_cheongju
+    father = korean_gwak_cheongju_4 # Tan_5766
+    1075.1.1 = {
+        birth = yes
+    }
+    1155.1.1 = {
+        death = yes
+    }
+}
+
+korean_gwak_cheongju_7 = {
+    name = "Gi_7426"
+    culture = goryeo
+    faith = avatamsaka
+    dynasty = korean_gwak_cheongju
+    father = korean_gwak_cheongju_6 # Yak_dong
+    1120.1.1 = {
+        birth = yes
+    }
+    1190.1.1 = {
+        death = yes
+    }
+}
+
+korean_gwak_cheongju_8 = {
+    name = "Nal_57D2"
+    culture = goryeo
+    faith = avatamsaka
+    dynasty = korean_gwak_cheongju
+    father = korean_gwak_cheongju_7 # Gi_7426
+    1160.1.1 = {
+        birth = yes
+    }
+    1240.1.1 = {
+        death = yes
+    }
+}
+
+korean_gwak_cheongju_9 = {
+    name = "Ye_9810"
+    culture = goryeo
+    faith = avatamsaka
+    dynasty = korean_gwak_cheongju
+    father = korean_gwak_cheongju_8 # Gi_7426
+    1232.1.1 = {
+        birth = yes
+    }
+    1286.1.1 = {
+        death = yes
+    }
 }
 
 ### YANG - 양
@@ -16310,6 +16869,8 @@ korean_yang_anak_1 = {
 	culture = goryeo
 	faith = avatamsaka
 	dynasty = korean_yang_anak
+	trait = education_martial_4
+	trait = brave
 	982.1.1 = {
 		birth = yes
 	}
@@ -16323,11 +16884,96 @@ korean_yang_anak_2 = {
 	culture = goryeo
 	faith = avatamsaka
 	dynasty = korean_yang_anak
-	father = korean_yang_anak_1 # Gyu
+	father = korean_yang_anak_1 # Gyu_898F
+	trait = education_martial_3
 	1009.1.1 = {
 		birth = yes
 	}
 	1068.1.1 = {
+		death = yes
+	}
+}
+
+korean_yang_anak_3 = {
+	name = "Hyo_sin" # Real name unknown
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yang_anak
+	father = korean_yang_anak_2 # Dae-chun
+	1060.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+korean_yang_anak_4 = {
+	name = "Je_bo"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yang_anak
+	father = korean_yang_anak_3 # Hyo_sin
+	1089.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+
+korean_yang_anak_5 = {
+	name = "Gang_rye"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yang_anak
+	father = korean_yang_anak_3 # Hyo_sin, connecting placeholder
+	1085.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+
+korean_yang_anak_6 = {
+	name = "Guk_570B"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yang_anak
+	father = korean_yang_anak_5 # Gang_rye
+	1105.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+
+korean_yang_anak_7 = {
+	name = "Ik_7FCA" # Real name unknown
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yang_anak
+	father = korean_yang_anak_6 # Guk
+	1125.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+
+korean_yang_anak_8 = {
+	name = "In_bi"
+	culture = goryeo
+	faith = avatamsaka
+	dynasty = korean_yang_anak
+	father = korean_yang_anak_7 # Ik_7FCA
+	1145.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
 		death = yes
 	}
 }
@@ -16469,7 +17115,7 @@ korean_yu_3 = {
 	}
 }
 
-# Chung-ju Yu - 忠州劉 (충주유)
+# Chungju Yu - 忠州劉 (충주유)
 
 korean_yu_chungju_1 = {
 	name = "Jong_ak" # Real name unknown
@@ -17777,24 +18423,27 @@ baekho_1 = { # Landless Martial adventurer
 	}
 }
 
-bojo_jinul_1 = { # Landless Scholar adventurer
-	name = "Jinul"
-	dynasty = hchar_bojo
+il_eom_1 = { # Landless Scholar adventurer
+	name = "Il_eom"
+	dynasty = hchar_chong
 	religion = dhyana
 	culture = goryeo
 	trait = education_learning_3
-	trait = temperate
-	trait = patient 
-	trait = calm
-	trait = pilgrim
+	trait = deceitful
+	trait = temperate 
+	trait = gregarious
+	trait = lifestyle_physician
 	trait = devoted
-	1158.1.1 = {
+	1145.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	1210.1.1 = {
+	1178.1.1 = {
+		give_nickname = nick_ho_seung
+	}
+	1203.1.1 = {
 		death = yes
 	}
 }

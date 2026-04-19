@@ -26,6 +26,18 @@ culture_has_east_asian_heritage_pillar_trigger = {
 		}
 	}
 }
+has_east_asian_heritage_pillar_trigger = { #This is used in the culture scope directly
+	OR = {
+		has_cultural_pillar = heritage_tibetan
+		has_cultural_pillar = heritage_chinese
+		has_cultural_pillar = heritage_japonic
+		has_cultural_pillar = heritage_korean
+		has_cultural_pillar = heritage_buyeo
+		has_cultural_pillar = heritage_qiangic
+		has_cultural_pillar = heritage_viet
+		has_cultural_pillar = heritage_hmongic
+	}
+}
 culture_has_west_asian_heritage_pillar_trigger = {
 	culture = {
 		OR = {
@@ -53,7 +65,6 @@ culture_has_southeast_asian_heritage_pillar_trigger = {
 		OR = {
 			has_cultural_pillar = heritage_viet
 			has_cultural_pillar = heritage_mon_khmer
-			has_cultural_pillar = heritage_malayic
 			has_cultural_pillar = heritage_burman
 			has_cultural_pillar = heritage_austronesian
 			has_cultural_pillar = heritage_tai
@@ -105,30 +116,30 @@ culture_has_east_central_asian_heritage_pillar_trigger = {
 #AFRICA
 culture_has_african_heritage_pillar_trigger = {
 	OR = {
-		culture_has_west_african_heritage_pillar_trigger = yes
+		culture_has_central_african_heritage_pillar_trigger = yes
 		culture_has_east_african_heritage_pillar_trigger = yes
 		culture_has_north_african_heritage_pillar_trigger = yes
-		culture_has_central_african_heritage_pillar_trigger = yes
+		culture_has_west_african_heritage_pillar_trigger = yes
 	}
 }
 culture_has_west_african_heritage_pillar_trigger = {
 	culture = {
 		OR = {
 			has_cultural_pillar = heritage_akan
-			has_cultural_pillar = heritage_yoruba
-			has_cultural_pillar = heritage_west_african
-			has_cultural_pillar = heritage_senegambian
-			has_cultural_pillar = heritage_sahelian
 			has_cultural_pillar = heritage_akan
+			has_cultural_pillar = heritage_sahelian
+			has_cultural_pillar = heritage_senegambian
+			has_cultural_pillar = heritage_west_african
+			has_cultural_pillar = heritage_yoruba
 		}
 	}
 }
 culture_has_east_african_heritage_pillar_trigger = {
 	culture = {
 		OR = {
-			has_cultural_pillar = heritage_somalian
-			has_cultural_pillar = heritage_east_african
 			has_cultural_pillar = heritage_bantu
+			has_cultural_pillar = heritage_east_african
+			has_cultural_pillar = heritage_somalian
 		}
 	}
 }

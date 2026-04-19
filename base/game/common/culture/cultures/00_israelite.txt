@@ -25,7 +25,7 @@
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
 
@@ -56,7 +56,7 @@ sephardi = {
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
 
@@ -88,7 +88,7 @@ radhanite = {
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
 kochinim = {
@@ -124,7 +124,7 @@ kochinim = {
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = south_indian
+		100 = south_indian
 	}
 }
 
@@ -155,6 +155,6 @@ bavlim = {
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }

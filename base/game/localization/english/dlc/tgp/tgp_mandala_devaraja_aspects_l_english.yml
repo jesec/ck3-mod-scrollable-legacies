@@ -54,6 +54,7 @@
  house_power_parameter_unlock_coerce_contribution_scheme: "Unlocks the #high [GetScheme('coerce_contribution').GetTypeName]#! [scheme|E]"
  house_power_parameter_births_give_piety: "Mothers and fathers gain [piety|E] when children are born into this [house|E]"
  house_power_parameter_may_override_stewardship_succession_trial: "Your [heir|E] may instantly complete the [stewardship|E] part of the [mandala_succession_succession|E] Trials"
+ house_power_parameter_can_build_in_tributaries: "Can construct [buildings|E] and [holdings|E] in [tributaries|E] #weak (only if not a Tributary yourself)#!"
  mandala_creator_child_born: "Child of the Creator Bloodline"
  mandala_creator_children_born: "Children of the Creator Bloodline"
  mandala_creator_modifier: "Aspect of Creation"
@@ -91,7 +92,7 @@
  house_power_parameter_aspect_of_destruction_ways_to_die: "[death_natural_causes|E], [death_religion|E] and [death_combat|E] are the acceptable ways to meet [character_death_death|E] as an #high Aspect of Destruction#!"
  house_power_parameter_can_use_plunder_for_contribution_cb: "Unlocks the #high [GetCasusBelliType('mandala_plunder_cb').GetName]#! [casus_belli|E]"
  house_power_parameter_can_make_mandala_tributaries_via_war: "May gain #high [GetSubjectContractGroup( 'tributary_mandala' ).GetName]#! and #high [GetSubjectContractGroup( 'tributary_mandala_tribal' ).GetName]#! [tributaries|E] via #high [GetCasusBelliType('make_tributary_cb').GetName]#! [war|E]"
- house_power_parameter_has_unlimited_invasion_cb: "Has unlimited access to the #high [GetCasusBelliType('invasion_war').GetName]#! [casus_belli|E]"
+ house_power_parameter_has_mandala_invasion_cb: "Has one access to the #high [GetCasusBelliType('invasion_war').GetName]#! [casus_belli|E]"
  house_power_parameter_may_override_martial_succession_trial: "Your [heir|E] may instantly complete the [martial|E] part of the [mandala_succession_succession|E] Trials"
 
  #Aspect of Trickery

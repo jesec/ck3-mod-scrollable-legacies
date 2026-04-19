@@ -262,7 +262,7 @@
  doomsday: "终末之日"
  third_impact: "第三次冲击"
  epidemic_events.2001.t: "战争瘟疫"
- epidemic_events.2001.desc: "[pleading_vassal.GetName|U]跪倒在地，浑身颤抖。\n\n“主君，我正遭受双重灾难。[epidemic_scope.GetName|U]吞噬着我的人民。而[attacking_vassal.GetName]又来夺取我的土地。我无法同时应对他们。”\n\n[pleading_vassal.GetHerHis]放下一个小小的金匣——这是[pleading_vassal.GetSheHe]能带来的全部。\n\n“我恳求您，在两个领地都将不复存在之前，帮助我结束这场战争。”"
+ epidemic_events.2001.desc: "[pleading_vassal.GetName|U]跪倒在地，浑身颤抖。\n\n“主君，我正遭受双重灾难。[epidemic_scope.GetName|U]吞噬着我的人民。而[attacking_vassal.GetName]又来夺取我的土地。我无法同时应对他们。”\n\n[pleading_vassal.GetSheHe|U]放下一个小小的金匣——这是[pleading_vassal.GetSheHe]能带来的全部。\n\n“我恳求您，在两个领地都将不复存在之前，帮助我结束这场战争。”"
  epidemic_events.2001.a: "我很乐意花钱结束这愚蠢的行为。"
  epidemic_events.2001.b: "你竟敢把[epidemic_scope.GetNameNoTooltip]带到#EMP 我的#!家门口！"
  epidemic_events.2001.b.desc: "卫兵！#EMP 小心地#!逮捕[pleading_vassal.GetFirstNameNoTooltip]，然后#EMP 更小心地#!把所有[pleading_vassal.GetSheHe]触碰过的东西都清洗了！"

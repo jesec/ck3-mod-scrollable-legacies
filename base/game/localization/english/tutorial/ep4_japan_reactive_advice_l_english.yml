@@ -139,4 +139,4 @@
  ra_become_shogun_subjects_desc: "You cannot become [shogun|E] without removing any antiquated remnants of the [GetGovernment('japan_administrative_government').GetNameWithIcon] [government|E].\n\nIf any of your [vassals|E] are $japan_administrative_government$, you can find them here and take their [titles|E] using the $revoke_title_interaction|V$ [character_interaction|E]."
 
  ra_become_shogun_end: "$reactive_advice_soryo_regent_become_shogun_NAME$"
- ra_become_shogun_end_desc: "The reins of power are already resting in your hands, you need only grasp them firmly to become [shogun|E].\n\nEvict the weak [GetGovernment('japan_administrative_government').GetName] [rulers|E] and enact [GetLaw('japanese_bureaucracy_2').GetName] and the country is yours!"
+ ra_become_shogun_end_desc: "The reins of power are already resting in your hands, you need only grasp them firmly to become [shogun|E].\n\nEnact [GetLaw('japanese_bureaucracy_2').GetName] and the country is yours!"

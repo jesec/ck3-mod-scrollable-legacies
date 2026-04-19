@@ -516,7 +516,7 @@
  proving_grounds_nightly_barding_drills_domicile_building_desc: "#weak ([GetDomicileBuilding('proving_grounds_01').GetName] 필요)#!\n연결 고리가 꼬이고 가죽이 끊어지며, 판금이 녹슬고 훈련 성과가 퇴색하는 일은 정예 중기병 또한 피할 수 없습니다."
  proving_grounds_life_in_the_saddle_domicile_building: "안장 위의 삶"
  proving_grounds_life_in_the_saddle_domicile_building_desc: "#weak ([GetDomicileBuilding('proving_grounds_01').GetName] 필요)#!\n일부는 타고나지만, 일부는 후천적으로 이러한 삶의 양식을 몸에 익히곤 합니다."
- proving_grounds_life_in_the_saddle_horse_archers_tt: "당신이 [GetMaA('heavy_horse_archers').GetName] 또는 [GetMaA('horse_archers').GetName] [regiment|E]를 보유해야 함"
+ proving_grounds_life_in_the_saddle_horse_archers_tt: "당신은 하나 이상의 [archer_cavalry|E] [regiment|E]를 보유해야 함"
  #TIT-53191
  proving_grounds_the_stump_domicile_building: "그루터기"
  #proving_grounds_the_stump_domicile_building: "The [GetPlayer.Custom('GetStumpName')|U]"

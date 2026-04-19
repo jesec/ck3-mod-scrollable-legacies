@@ -71,6 +71,8 @@
  tribute_mission_costs_refunded: "Zwrócono koszty trybutu"
  tribute_mission_notification.title: "Trybut zapłacony przez: [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  tribute_mission_notification.desc: "[tributary_scope.GetShortUINameNotMe] jest na [Concept('tribute_mission', 'misji zapłaty trybutu')|E] i płaci trybut na twoim [Concept('court', 'dworze')|E]"
+ tribute_mission.new_tributary.title: "Miejsce o nazwie [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] zobowiązuje się do płacenia trybutu"
+ tribute_mission.new_tributary.desc: "[tributary_scope.GetShortUINameNotMe] zobowiązuje się zostać twoim [Concept('tributary', 'trybutariuszem')|E], płacąc ci [tribute|El]"
  qualifies_for_tribute_mission_trigger: "Nie masz odpowiedniego [Concept('tribute', 'trybutu')|E]"
  qualifies_for_tribute_mission_gold_trigger: "Nie masz @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0]"
  qualifies_for_tribute_mission_gold_or_herd_trigger: "Nie masz wystarczającej ilości oczekiwanego [Concept('tribute', 'trybutu')|E]. Potrzebujesz albo @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0], albo @herd_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_herd_value')|0]."

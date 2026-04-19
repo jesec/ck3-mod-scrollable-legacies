@@ -322,6 +322,7 @@
  councillor_spouse_duke: "Герцог"
  councillor_spouse_count: "Граф"
  councillor_spouse_baron: "Барон"
+ councillor_spouse_consort: "Консорт"
  councillor_spouse_possessive: "Супруга"
  councillor_spouse_prince_consort_possessive: "Консорта"
  councillor_spouse_husband_possessive: "Мужа"

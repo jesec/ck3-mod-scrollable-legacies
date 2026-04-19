@@ -75,7 +75,7 @@
  religious_interaction.2011.b: "我不会为了你的永恒救赎而付钱！"
  religious_interaction.2011.c: "你会为了比金钱更有价值的东西而行动。"
  religious_interaction.2012.desc: "我感受到你信仰的智慧，但我希望你明白从黑暗中进入光明需要经过怎样漫长而曲折的道路。\n\n也许如果你承诺在我有需求的任何方面支持我，这趟旅程会更加容易。"
- religious_interaction.2012.a: "我接受，为了[ROOT.Char.GetFaith.GetNameNoTooltip]在各处的利益。"
+ religious_interaction.2012.a: "我接受，为了信徒在各处的利益。"
  religious_interaction.2012.b: "我不会为你的灵魂讨价还价！"
  religious_interaction.2012.c: "首先，你还有其他债没还我。"
  religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

@@ -10,12 +10,6 @@
 	culture = khazar
 	religion = kabarism
 	holding = nomad_holding
-	867.1.1 = {
-		buildings = {
-			war_camps_01
-			market_villages_01
-		}
-	}
 	1066.1.1 = {
 		culture = cuman
 		religion = tengri_pagan

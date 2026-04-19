@@ -199,7 +199,7 @@
  nomadic_war_white_peace_desc: "叛乱的[counties|E]和[vassals|E]仍是领地的一部分。"
  nomadic_war_defeat_desc: "叛乱的[counties|E]和[vassals|E]仍是领地的一部分。[attacker.GetShortUIName]被囚禁，所有叛乱[counties|E]的[county_opinion|E]被强制提高。"
  populist_war: "叛乱"
- populist_war_victory_desc: "叛乱的[counties|E]变为独立领地，[attacker.GetShortUIName]成为其统治者。"
+ populist_war_victory_desc: "叛乱的[counties|E]将夺取[de_jure|E][duchies|E]并变为独立领地，所有进攻方将成为相应统治者。"
  populist_war_white_peace_desc: "叛乱的[counties|E]和[vassals|E]仍是领地的一部分。"
  populist_war_defeat_desc: "叛乱的[counties|E]和[vassals|E]仍是领地的一部分。所有叛乱的$game_concept_vassals$被[defender.GetShortUIName][imprisoned|E]。"
  claimant_faction_war_victory_desc: "[claimant|E]接管受争夺的[title|E]。"

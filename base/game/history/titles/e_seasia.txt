@@ -787,6 +787,18 @@ k_viet = {
 			}
  		}
 	}
+	905.1.1 = {
+		holder = viet_khuc_1 # Khuc Thua Du
+	}
+	907.7.23 = {
+		holder = viet_khuc_2 # Khuc Hao
+	}
+	917.1.1 = {
+		holder = viet_khuc_3 # Khuc Thua My
+	}
+	930.1.1 = {
+		holder = viet_duong_2 # Duong Dinh Nghe
+	}
 	938.1.1 = {
 		holder = viet_ngo_3
 		government = meritocratic_government
@@ -799,7 +811,7 @@ k_viet = {
 		holder = viet_ngo_1 # Xuong_Van
 	}
 	951.1.1 = {
-		holder = viet_ngo_4 # Xuong_Ngap
+		holder = viet_ngo_6
 	}
 	954.1.1 = {
 		holder = viet_ngo_1 # Xuong_Van

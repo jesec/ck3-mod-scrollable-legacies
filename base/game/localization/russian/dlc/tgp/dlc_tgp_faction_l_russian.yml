@@ -36,6 +36,7 @@
  FACTION_JAPANESE_RESTORE_EMPEROR: "Потребовать восстановление церемониального сюзерена"
  FACTION_JAPANESE_RESTORE_EMPEROR_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nВсе жители державы [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], включая членов монаршей семьи и представителей #L [ROOT.Char.Custom('GetTitleTierAdjective')|l]ого двора, устали от вашей тирании.\n\nПришло время уступить власть. Теперь страной будет править [faction.GetSpecialCharacter.GetTitledFirstName]!"
  tgp_faction_events.0201.b: "Ты еще ответишь за свою наглость!"
+ tgp_faction_events.0201.b.cm: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|U] может погибнуть. Неужели вы готовы пойти на такой риск?!"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED: "Требование о восстановлении церемониального сюзерена принято"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED_DESC: "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nВ своих поступках я неизменно руководствуюсь интересами не только монаршей семьи и #L [ROOT.Char.Custom('GetTitleTierAdjective')|l]ого#! двора, но и всех жителей державы [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip].\n\nХотя ваши мотивы мне непонятны, я не стану вам мешать. Если это действительно необходимо, пусть [faction.GetSpecialCharacter.GetTitledFirstName] займет престол."
  FACTION_JAPANESE_RESTORE_EMPEROR_REFUSED: "Требование о восстановлении церемониального сюзерена отклонено"

@@ -73,41 +73,44 @@ window = {
 
 							vbox = {
 								layoutpolicy_vertical = expanding
+								layoutpolicy_horizontal = expanding
 								margin_left = 10
 								margin_top = 5
 
 								text_single = {
-									min_width = 500
 									text = "[Character.GetNameNoTooltip]"
 									align = left
 									default_format = "#high"
 									using = Font_Size_Medium
+									autoresize = no
+									layoutpolicy_horizontal = expanding
 								}
 								text_single = {
-									min_width = 500
 									text = "WINDOW_TREASURY_BUDGET_CHANGE_TREASURY_LABEL"
 									align = left
+									autoresize = no
+									layoutpolicy_horizontal = expanding
 								}
 #								text_single = {
-#									min_width = 500
 #									text = "WINDOW_TREASURY_BUDGET_CHANGE_MONTHLY_INCOME_LABEL"
-#									align = left
 #								}
 
 								text_single = {
-									min_width = 500
 									text = "WINDOW_TREASURY_BUDGET_CHANGE_PREVIOUS_BUDGET"
 									align = left
+									autoresize = no
+									layoutpolicy_horizontal = expanding
 								}
 								text_single = {
-									min_width = 500
 									text = "WINDOW_TREASURY_BUDGET_CHANGE_BUDGET_CAPACITY"
 									align = left
+									using = Font_Size_Small
+									autoresize = no
+									layoutpolicy_horizontal = expanding
 								}
 
 								expand = {}
 							}
-							expand = {}
 						}
 
 
@@ -136,27 +139,32 @@ window = {
 								}
 								text_single = {
 									min_width = 100
+									max_width = 100
 									margin_left = 10
 									text = "WINDOW_TREASURY_BUDGET_CHANGE_CHARACTERS_HEADER"
 								}
 								text_single = {
 									min_width = 110
+									max_width = 100
 									margin_right = 20
 
 									text = "WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATION_HEADER"
 								}
 								text_single = {
 									min_width = 100
+									max_width = 100
 									text = "WINDOW_TREASURY_BUDGET_CHANGE_TOTAL_HEADER"
 									align = left
 								}
 								text_single = {
 									min_width = 100
+									max_width = 100
 									text = "WINDOW_TREASURY_BUDGET_CHANGE_BASE_RATE_HEADER"
 									align = left
 								}
 								text_single = {
 									min_width = 100
+									max_width = 100
 									text = "WINDOW_TREASURY_BUDGET_CHANGE_TREND_HEADER"
 									align = left
 								}

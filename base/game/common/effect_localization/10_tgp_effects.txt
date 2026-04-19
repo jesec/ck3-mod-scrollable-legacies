@@ -109,15 +109,6 @@ because_of_your_divine_happenstance_tt = {
 	global_past = because_of_your_divine_happenstance_tt
 }
 
-warning_mandala_capital_building_only_built_in_citadels_tt = {
-	first = warning_mandala_capital_building_only_built_in_citadels_tt
-	third = warning_mandala_capital_building_only_built_in_citadels_tt
-	global = warning_mandala_capital_building_only_built_in_citadels_tt
-	first_past = warning_mandala_capital_building_only_built_in_citadels_tt
-	third_past = warning_mandala_capital_building_only_built_in_citadels_tt
-	global_past = warning_mandala_capital_building_only_built_in_citadels_tt
-}
-
 scheme_increase_movement_power_effect_tooltip = {
 	global = scheme_increase_movement_power_effect_tooltip
 }

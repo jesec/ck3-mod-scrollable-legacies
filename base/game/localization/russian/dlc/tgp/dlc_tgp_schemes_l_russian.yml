@@ -181,3 +181,4 @@
  scheme_critical_moments.2925.a: "Ты за это #EMP поплатишься#!."
  scheme_critical_moments.2925.b: "Будет знать, что ждет узурпаторов!"
  scheme_critical_moments.2925.c: "[owner.Custom2('InsultNoun', ROOT.Char)] [Select_CString(owner.IsFemale, 'проклятая', 'проклятый' )]!"
+ OWNER_IS_MY_MOVEMENT_MEMBER: "Состоит в том же [Concept('movement', 'движении')|E], что и [owner.GetShortUIName]: $VALUE|+0=$"

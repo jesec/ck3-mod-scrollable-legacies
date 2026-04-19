@@ -322,6 +322,7 @@
  councillor_spouse_duke: "공작"
  councillor_spouse_count: "백작"
  councillor_spouse_baron: "남작"
+ councillor_spouse_consort: "반려"
  councillor_spouse_possessive: "배우자의"
  councillor_spouse_prince_consort_possessive: "부군의"
  councillor_spouse_husband_possessive: "남편의"

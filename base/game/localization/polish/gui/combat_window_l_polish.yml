@@ -59,7 +59,7 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY: "@warning_icon!Zadano [CombatMaaItem.GetCountered|0-%] obrażeń dzięki kontrze"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD: "#I +Walka w sprzyjającym terenie #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD: "#X -Walka w niesprzyjającym terenie #!"
- COMBAT_WINDOW_MAA_TT_SCREEN: "Efekt [Concept('screen', 'skuteczności osłony')|E] na pełen pułk: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN: "Efekt [Concept('screen', 'skuteczności osłony')|E] na pełen pułk: [CombatMaaItem.GetStat( 'screen' )|0+=]"
  COMBAT_WINDOW_MAA_TT_PURSUIT: "Efekt [Concept('pursuit', 'skuteczności pościgu')|E] na pełen pułk: [MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA: "Brak [Concept( 'men_at_arms', 'zbrojnych' )|E]"
  CV_TT_RELATIVE_SOLDIERS: "#T Względna siła#!\n[CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString] vs [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString] [Concept( 'soldiers', 'żołnierzy' )|E]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"

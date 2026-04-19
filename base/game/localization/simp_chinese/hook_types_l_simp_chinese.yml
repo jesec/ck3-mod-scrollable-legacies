@@ -8,6 +8,7 @@
  manipulation_hook: "操控"
  house_head_hook: "家主"
  indebted_hook: "蒙恩"
+ strong_indebted_hook: "帮助免于破产"
  loyalty_hook: "忠诚"
  predecessor_loyalty_hook: "忠于前任"
  fabrication_hook: "捏造"

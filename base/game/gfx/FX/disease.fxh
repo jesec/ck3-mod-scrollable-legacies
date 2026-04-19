@@ -1,11 +1,11 @@
 Includes = {
 	"cw/utility.fxh"
-	"standardfuncsgfx.fxh"   
+	"standardfuncsgfx.fxh"
 	"jomini/jomini_province_overlays.fxh"
 	"jomini/jomini_water.fxh"
 }
 
-ConstantBuffer(DiseaseConstants)
+ConstantBuffer( DiseaseConstants )
 {
 	float DiseaseMaskFactor;
 	float FogSpeedFactor;
@@ -52,6 +52,9 @@ PixelShader =
 {
 	Code
 	[[
+		#define MAX_EPIDEMIC_TYPES 8
+		static const float DesaturatedFactor = 0.2f;
+		static const float GrayScale = 0.2f;
 		static const float2 SamplingOffest[16] =
 		{
 			float2( 0.002441f, 0.000000f ),
@@ -234,7 +237,7 @@ PixelShader =
 		{
 			float2 Pixel = ( Coordinate * IndirectionMapSize );
 			float2 FracCoord = frac( Pixel );
-			Pixel = floor(Pixel) / IndirectionMapSize - InvIndirectionMapSize / 2.0f;
+			Pixel = floor( Pixel ) / IndirectionMapSize - InvIndirectionMapSize / 2.0f;
 		
 			int ProvinceId11 = SampleProvinceId( Pixel, ProvinceColorIndirectionTexture );
 			float4 C11 = GetDiseaseIntensityAt( ProvinceId11, EpidemicIndex );
@@ -245,9 +248,17 @@ PixelShader =
 			int ProvinceId22 = SampleProvinceId( Pixel + InvIndirectionMapSize, ProvinceColorIndirectionTexture );
 			float4 C22 = GetDiseaseIntensityAt( ProvinceId22, EpidemicIndex );
 		
-			float4 X1 = lerp(C11, C21, FracCoord.x);
-			float4 X2 = lerp(C12, C22, FracCoord.x);
-			return lerp(X1, X2, FracCoord.y);
+			float4 X1 = lerp( C11, C21, FracCoord.x );
+			float4 X2 = lerp( C12, C22, FracCoord.x );
+			return lerp( X1, X2, FracCoord.y );
+		}
+
+		float4 DiseaseColorSample( in float2 Coordinate, in uint EpidemicIndex )
+		{
+			float2 Pixel = ( Coordinate * IndirectionMapSize );
+			Pixel = floor( Pixel ) / IndirectionMapSize - InvIndirectionMapSize / 2.0f;
+			int ProvinceId = SampleProvinceId( Pixel, ProvinceColorIndirectionTexture );
+			return GetDiseaseIntensityAt( ProvinceId, EpidemicIndex );
 		}
 		
 		void ApplyDiseaseDiffuse( inout float3 TerrainColor, in float2 Coordinate )
@@ -257,30 +268,55 @@ PixelShader =
 			{
 				return;
 			}
-
-			static const float DesaturatedFactor = 0.2f;
-			static const float GrayScale = 0.2f;
-			const int ProvinceId = SampleProvinceId( Coordinate, ProvinceColorIndirectionTexture );
-			const float ZoomBlendOut = clamp( ( 1.0f - _WaterZoomedInZoomedOutFactor * 3.1f ) * 5.0f, 0.0f, 1.0f );
+			int MaxNumEpidemicTypes = min( MAX_EPIDEMIC_TYPES, NumEpidemicTypes );
+			const float ZoomBlendOut = clamp( ( 1.0f - _WaterZoomedInZoomedOutFactor * 2.615f ) * 5.0f, 0.0f, 1.0f );
 			if( ZoomBlendOut > 0.0f )
 			{
-				const float Gray = ( TerrainColor.r + TerrainColor.g + TerrainColor.b );
-				const float3 AdjustedColor = lerp( float3( Gray, Gray, Gray ) * GrayScale, TerrainColor, DesaturatedFactor );
+				const float Gray = ( TerrainColor.r + TerrainColor.g + TerrainColor.b ) * GrayScale;
+				const float3 AdjustedColor = lerp( float3( Gray, Gray, Gray ), TerrainColor, DesaturatedFactor );
 				
-				for( uint EpidemicIndex = 0; EpidemicIndex < NumEpidemicTypes; ++EpidemicIndex )
+				for( uint EpidemicIndex = 0; EpidemicIndex < MaxNumEpidemicTypes; ++EpidemicIndex )
 				{
 					const float DiseaseIntensity = DiseaseBilinearColorSample( Coordinate, EpidemicIndex ).r;
-					TerrainColor = lerp( TerrainColor, AdjustedColor, saturate( DiseaseIntensity ) );
+					if ( DiseaseIntensity > 0.01f )
+					{
+						TerrainColor = lerp( TerrainColor, AdjustedColor, saturate( DiseaseIntensity ) );
+					}
 				}
 			}
 			else
 			{
-				for( uint EpidemicIndex = 0; EpidemicIndex < NumEpidemicTypes; ++EpidemicIndex )
+				const int ProvinceId = SampleProvinceId( Coordinate, ProvinceColorIndirectionTexture );
+				for( uint EpidemicIndex = 0; EpidemicIndex < MaxNumEpidemicTypes; ++EpidemicIndex )
 				{
 					const float DiseaseIntensity = BlurDiseaseIntensity( Coordinate, ProvinceId, EpidemicIndex, DiseaseMaskBuffer );
-					if(DiseaseIntensity > 0.01f)
+					if( DiseaseIntensity > 0.01f )
 					{
 						ApplyDiseaseColor( TerrainColor, Coordinate, EpidemicIndex, DiseaseIntensity, ZoomBlendOut );
+					}
+				}
+			}
+#endif
+		}
+		void ApplyTreeDiseaseDiffuse( inout float3 TerrainColor, in float2 Coordinate )
+		{
+#ifndef LOW_SPEC_SHADERS
+			if ( !IsEnabled )
+			{
+				return;
+			}
+			int MaxNumEpidemicTypes = min( MAX_EPIDEMIC_TYPES, NumEpidemicTypes );
+			const float ZoomBlendOut = clamp( ( 1.0f - _WaterZoomedInZoomedOutFactor * 2.615f ) * 5.0f, 0.0f, 1.0f );
+			if ( ZoomBlendOut > 0.0f )
+			{
+				const float Gray = ( TerrainColor.r + TerrainColor.g + TerrainColor.b ) * GrayScale;
+				const float3 AdjustedColor = lerp( float3( Gray, Gray, Gray ), TerrainColor, DesaturatedFactor );
+				for( uint EpidemicIndex = 0; EpidemicIndex < MaxNumEpidemicTypes; ++EpidemicIndex )
+				{
+					float DiseaseIntensity = DiseaseColorSample( Coordinate, EpidemicIndex ).r;
+					if ( DiseaseIntensity > 0.01f )
+					{
+						TerrainColor = lerp( TerrainColor, AdjustedColor, saturate( DiseaseIntensity ) );
 					}
 				}
 			}

@@ -1,7 +1,7 @@
 ﻿l_korean:
  #Mandala
  game_concept_mandala: "만다라"
- game_concept_mandala_desc: "$game_concept_mandala$ [government_form|E] 체제에서는 [domain_limit|E]와 [direct_vassals|E] 수가 제한됩니다. 대신 [liege|E]과 [suzerain|E]는 [tributaries|E]을 통해 영토를 확장합니다.\n\n만다라 영주는 신왕, 즉 데바라자로 여겨지기를 열망할 수 있으며, 이 경우 [mandala_radiance|E]에 따라 조공국을 확보하고 유지합니다.\n\n또한 영주는 [opinion|E]을 관리하고 조공국과의 관계를 키워 장기적으로 이들을 유지해야 합니다. 승계 시 통치자가 유능한 [mandala_succesor|E]임을 증명하지 못하면 조공국들이 흩어질 수 있습니다."
+ game_concept_mandala_desc: "$game_concept_mandala$ [government_form|E] 체제에서는 [domain_limit|E]와 [direct_vassals|E] 수가 제한됩니다. 대신 [liege|E]과 [suzerain|E]는 [tributaries|E]을 통해 영토를 확장합니다. \n\n만다라 [ruler|E]는 신왕, 즉 데바라자로 여겨지기를 열망할 수 있으며, 이 경우 [mandala_radiance|E]에 따라 $game_concept_tributaries$을 확보하고 유지합니다.\n\n$game_concept_ruler$는 [opinion|E]을 관리하고 $game_concept_tributaries$과의 관계를 키워 장기적으로 이들을 유지해야 합니다. 승계 시 $game_concept_ruler$가 자격 있는 [mandala_succesor|E]가 아니라면 $game_concept_tributaries$들이 흩어질 수 있습니다."
  game_concept_mandalas: "만다라"
  game_concept_mandala_government: "만다라 정부"
  game_concept_mandala_i: "@government_type_mandala!"

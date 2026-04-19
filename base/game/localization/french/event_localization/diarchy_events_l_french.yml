@@ -248,7 +248,7 @@
  diarchy.1741.desc: "« Nous ne sommes pas opposés aux désirs [liege.Custom('FR_du_Char_Pi')][liege.GetTitledFirstName] », dit [councillor_1.Custom('FR_le_Char_Pi')][councillor_1.GetTitledFirstName], tout en ricanant, « mais nous n’en sommes pas les esclaves. Ce n’est pas si dur à comprendre ».\n\nJ’ai passé la plus grande partie de mon après-midi à essayer d’améliorer les relations entre m[liege.Custom('FR_OnA')] [liege.Custom('FR_SeigneurDame')] lige et ses conseillers, sans succès, en grande partie à cause de l’entêtement de c[councillor_1.Custom('FR_EtEtte')] ignorant[councillor_1.Custom('FR_E')].\n\nJe soupire intérieurement, car mon mandat de [liege.GetDiarchTitle|l] m’oblige à remplir ces fonctions."
  diarchy.1741.a: "Je pense que vous ne comprenez pas tout ce que [liege.Custom('FR_le_Char_L')][liege.GetTitleAsNameNoTooltip] fait pour vous..."
  diarchy.1741.a.t: "$diarchies.0000.diarch_fulfills_mandate.t$"
- diarchy.1741.custom.several_councillors: "Chaque conseiller présent"
+ diarchy.1741.custom.several_councillors: "Chaque [councillor|El] présent\t"
  diarchy.1741.b: "Et vous ne devriez pas l’être, mais la loyauté pousse à la bonté..."
  diarchy.1741.b.tt.success: "Vous éclairez vos collègues"
  diarchy.1741.b.tt.failure: "Le Conseil reste courroucé"

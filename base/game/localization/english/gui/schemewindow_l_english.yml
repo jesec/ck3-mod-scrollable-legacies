@@ -18,7 +18,7 @@
  SCHEME_COOLDOWN_INFO:0 "You cannot start another [SCHEME.GetSchemeType.GetTypeName] against [SCHEME.GetTarget.GetName] for $TIME|V$."
  SCHEME_WINDOW_PROGRESS_TOOLTIP:0 "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
  SCHEME_WINDOW_PROGRESS_INFO: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))|V] until next [scheme_phase_phase|E]"
- SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Scheme is paused because you are traveling"
+ SCHEME_WINDOW_PROGRESS_FROZEN: "#weak Scheme is paused because [Scheme.GetFrozenReason]"
  SCHEME_WINDOW_PROGRESS_INFO_BASIC: "[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))] until completion"
  SCHEME_WINDOW_PROGRESS_INFO_BREAKDOWN: "[Scheme.GetSpeedDescription]"
  SCHEME_WINDOW_OPPORTUNITIES_INFO_BREAKDOWN: "1 [scheme_opportunity_opportunity|E] gained per [Scheme.GetPhasesPerOpportunity] [scheme_phase_phases|E]\n[Scheme.GetPhasesRemainingUntilOpportunity] [scheme_phase_phases|E] until next [scheme_opportunity_opportunity|E]\nAt #EMP least#! [Scheme.MakeScope.ScriptValue('scheme_charge_to_advance_threshold_value')] [scheme_opportunity_opportunities|E] required to execute#!"

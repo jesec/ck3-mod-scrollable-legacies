@@ -1330,3 +1330,5 @@
  nick_tenjin_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U](은)는 부당한 처우를 받은 뒤 복수심에 불타는 영혼이 되었으며, 이제는 천상의 존재로 숭배받습니다."
  nick_ushiwakamaru: "우시와카마루"
  nick_ushiwakamaru_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U](은)는 젊은 황소를 닮은 힘과 끈기로 잘 알려져 있으며, 주변의 이들이 두려워하는 존재입니다."
+ nick_ho_seung: "호승"
+ nick_ho_seung_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U](은)는 구덩이 함정 빠져 죽은 호랑이가 사람으로 다시 태어나 승려가 되었다는 전설에 둘러싸여 있습니다. 이 전설에 따르면, 그 승려는 다름 아닌 [CHARACTER.GetShortUINameNoTooltipNoFormat|U] 자신이라고 합니다."

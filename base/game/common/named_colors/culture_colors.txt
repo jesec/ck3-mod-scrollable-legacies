@@ -89,7 +89,7 @@
 	mon_khmer = { 41 69 238 }
 	vietnamese = { 21 107 145 }
 	chamic = { 104 63 176 }
-	japanese = { 0.8 0.17 0.18 }
+	japanese = { 255 100 255 }
 	ainu = { 70 45 20 }
 	emishi = { 185 122 87 }
 	ryukyuan = { 0.4 0.05 0.05 }

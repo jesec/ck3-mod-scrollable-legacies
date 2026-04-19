@@ -248,7 +248,7 @@
  diarchy.1741.desc: "「我々は[liege.GetTitledFirstNamePossessive]の望みに反対しているわけではない」[councillor_1.GetTitledFirstName]はずっとこちらをあざ笑いながら、ゆっくりした口調で話す。「ただ彼らの奴隷でないというだけだ。理解するのは難しくない」\n\n午後の大半を我が主君と[liege.GetHerHis]の評議員の関係改善に費やしたが、無駄だった。その大部分は無知な[councillor_1.GetWomanMan]の頑固さのせいだ。\n\n私は心の中で溜め息をつく。私は[liege.GetDiarchTitle]だ。指令により、この責務を果たさなければならないのだ。"
  diarchy.1741.a: "[liege.GetTitleAsNameNoTooltip]から受けた恩を忘れているのではないかと思うが…"
  diarchy.1741.a.t: "$diarchies.0000.diarch_fulfills_mandate.t$"
- diarchy.1741.custom.several_councillors: "出席しているすべての評議員\t"
+ diarchy.1741.custom.several_councillors: "出席しているすべての[councillor|E]\t"
  diarchy.1741.b: "あなたがそうあるべきではないが、良き奉仕は善行を促進するもので…"
  diarchy.1741.b.tt.success: "あなたは自分の仲間を啓発する"
  diarchy.1741.b.tt.failure: "評議会は厄介なままだった"

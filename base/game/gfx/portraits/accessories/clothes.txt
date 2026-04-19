@@ -3137,6 +3137,11 @@ set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_tgp_korean_nob_02_hi_entity }
 }
 
+m_clothes_sec_tgp_korean_nob_03_lo = {
+set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_tgp_korean_nob_03_lo_entity }
+}
+
 f_clothes_sec_tgp_korean_imp_02 = {
 set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_korean_imp_02_entity }
@@ -3160,6 +3165,11 @@ set_tags = "shrink_arms,shrink_chest,shrink_belly"
 f_clothes_sec_tgp_korean_nob_02_hi = {
 set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_korean_nob_02_hi_entity }
+}
+
+f_clothes_sec_tgp_korean_nob_03_lo = {
+set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_korean_nob_03_lo_entity }
 }
 
 m_clothes_sec_tgp_korean_imp_02 = {
@@ -3345,6 +3355,31 @@ set_tags = ""
 f_clothes_sec_tgp_southeast_nob_02_hi = {
 set_tags = ""
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_nob_02_hi_entity }
+}
+
+f_clothes_sec_tgp_korean_com_01 = {
+set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_korean_com_01_entity }
+}
+
+m_clothes_sec_tgp_korean_com_01 = {
+set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_clothes_sec_tgp_korean_com_01_entity }
+}
+
+f_clothes_sec_tgp_southeast_com_01 = {
+set_tags = ""
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_com_01_entity }
+}
+
+f_clothes_sec_tgp_southeast_com_02 = {
+set_tags = ""
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_com_02_entity }
+}
+
+f_clothes_sec_tgp_southeast_roy_01 = {
+set_tags = ""
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_clothes_sec_tgp_southeast_roy_01_entity }
 }
 
 m_clothes_sec_tgp_southeast_com_01 = {

@@ -29,6 +29,7 @@
  province_desc_wedding_palace_2: "\n#P ++ $building_leisure_palace_02$#!\n#weak これにより[dynasty_prestige_i] [dynasty_prestige|E]の獲得量が増加し、[stress_loss_i] [stress|E]を失う。#!"
  province_desc_wedding_palace_3: "\n#P +++ $building_leisure_palace_03$#!\n#weak これにより[dynasty_prestige_i] [dynasty_prestige|E]の獲得量が増加し、[stress_loss_i] [stress|E]を失う。#!"
  province_desc_wedding_pleasure_dome: "\n#P +++ $building_leisure_palace_03$#!\n#weak これにより[dynasty_prestige_i] [dynasty_prestige|E]の獲得量が増加し、[stress_loss_i] [stress|E]が減少する。#!"
+ province_desc_wedding_izumo_taisha: "\n#P +++ $building_izumo_taisha_01$#!\n#weak これにより[dynasty_prestige_i] [dynasty_prestige|E]の獲得量が増加し、[stress_loss_i] [stress|E]が減少する。#!"
  province_desc_wedding_holy_site: "\n#P + あなたの信仰の聖地である#!\n#weak これにより[piety_i] [piety|E]を獲得する。#!"
  every_cruel_vassal: "すべての冷酷な封臣"
  wedding_every_other_vassal: "ほかのすべての封臣"

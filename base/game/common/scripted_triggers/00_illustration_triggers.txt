@@ -15,6 +15,7 @@ has_graphical_mena_culture_group_trigger = {
 has_graphical_india_culture_group_trigger = {
 	OR = {
 		has_building_gfx = indian_building_gfx
+		has_building_gfx = tibetan_building_gfx
 		has_building_gfx = southeast_asian_building_gfx
 	}
 }
@@ -22,7 +23,7 @@ has_graphical_india_culture_group_trigger = {
 has_graphical_east_asia_culture_group_trigger = {
 	OR = {
 		has_building_gfx = chinese_building_gfx
-		has_building_gfx = japanese_building_gfx	
+		has_building_gfx = japanese_building_gfx
 	}
 }
 
@@ -38,6 +39,7 @@ has_graphical_mediterranean_culture_group_trigger = {
 	OR = {
 		has_building_gfx = mediterranean_building_gfx
 		has_building_gfx = byzantine_building_gfx
+		has_building_gfx = caucasian_building_gfx
 	}
 }
 
@@ -716,9 +718,10 @@ steppe_building_gfx_use_southeast_asian_trigger = {
 }
 
 high_tier_throne_room_trigger = {
+	tgp_is_ceremonial_regent_trigger = no # Not 'actual' ruler
 	OR = {
 		AND = {
-			tgp_is_ceremonial_regent_trigger = no # Not 'actual' ruler
+			is_governor = no
 			primary_title ?= { tier >= tier_kingdom }
 		}
 		tgp_is_ceremonial_liege_trigger = yes

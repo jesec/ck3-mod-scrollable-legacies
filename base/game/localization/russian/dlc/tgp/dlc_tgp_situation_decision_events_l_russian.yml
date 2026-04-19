@@ -127,3 +127,6 @@
  dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName] вступает в эпоху «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]»"
  dynastic_cycle_entered_stability_expansion_tt: "[GetSituation('dynastic_cycle').GetName] вступает в эпоху «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]»"
  dynastic_cycle_entered_instability_tt: "[GetSituation('dynastic_cycle').GetName] вступает в эпоху «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]»"
+ tgp_hegemon_picked_different_era_opinion: "Вопреки ожиданиям выбран иной [Concept('dynastic_cycle_era_type_stable', 'стабильный тип эры')|E]"
+ tgp_hegemon_picked_different_era_opinion_expansion_tt: "Каждый участник движений «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]» и «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]»"
+ tgp_hegemon_picked_different_era_opinion_advancement_tt: "Каждый участник движений «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]» и «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]»"

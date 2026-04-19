@@ -83,7 +83,7 @@
  lesson_china_STUDY_SCHEME_SEGMENT: "Учеба"
  TUTORIAL_OPEN_DECISION_PANEL_PROMPT: "Откройте панель «$DECISIONS_VIEW_TITLE$»"
  lesson_china_decisions_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
- lesson_china_decisions_open_desc: "Если вы решите участвовать в [Concept('imperial_examinations', 'государственных экзаменах')|E], вам не помешает как следует подготовиться к ним.\n\nПодготовка к экзаменам заключается в изучении классиков конфуцианства."
+ lesson_china_decisions_open_desc: "Если вы решите участвовать в [Concept('imperial_examination', 'государственных экзаменах')|E], вам не помешает как следует подготовиться к ним.\n\nПодготовка к экзаменам заключается в изучении классиков конфуцианства."
  lesson_china_decisions_open_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
  lesson_china_decisions: "$lesson_china_STUDY_SCHEME_SEGMENT$"
  lesson_china_decisions_desc: "Здесь перечислены решения — различные действия, которые ваш персонаж может совершить лично.\n\nДавайте выберем решение «$tgp_china_study_confucian_classics_decision|V$»."

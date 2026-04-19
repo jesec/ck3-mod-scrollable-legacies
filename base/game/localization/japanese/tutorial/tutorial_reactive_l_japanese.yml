@@ -671,8 +671,8 @@
  ra_dynastic_cycle_era_open_groups_desc: "帝国の状態は自動的にではなく、中国の国境内にいる有力な[characters|E]たちの影響を受けて変化します。では、これらの$game_concept_characters$を見てみましょう。"
  ra_dynastic_cycle_era_open_groups_trigger: "「$dynastic_cycle_tab_movements$」タブを開く"
  ra_dynastic_cycle_era_groups_desc: "中国と周辺の多くの[characters|E]は、中国の未来に影響を与えます。これらの$game_concept_characters$は[movements|e]に属し、そのそれぞれが中国を異なる方向へ導こうとします。\n\nたとえば、$dynastic_cycle_participant_group_advancement_movement|V$は、[dynastic_cycle_era_short|e]「進歩」を通じて内側から帝国を改善しようとします。一方、$dynastic_cycle_participant_group_expansion_movement|V$は、「拡大」時代において軍事力で中国を成長させ、拡大させようとします。"
- ra_dynastic_cycle_era_group_leader_desc: "[movement|E]にはそれぞれ一人の[movement_leader|E]が存在し、その[movement_leader|E]は自らの$game_concept_movement$の大義を推し進めるために請願を行うことができます。\n\n$game_concept_movement_leader$になることができるのは、中国で最も有力な$game_concept_characters$のみです。これは、$game_concept_movement$内で最も高い[movement_power|E]を持つ必要があるからです。"
- ra_dynastic_cycle_era_actions_desc: "あなたは自分自身で、あるいは参加している[movement|e]を通じて、[dynastic_cycle|e]に影響を与えるアクションを取ることもできます。\n\nこれらのアクションはウィンドウの下部に表示されています。\n\nあなたがまだ$dynastic_cycle_participant_group_undecided_movement|V$である場合は、$game_concept_movement$に参加すべきです。運動は、それぞれ異なる利益や不利益をもたらします。"
+ ra_dynastic_cycle_era_group_leader_desc: "[movement|E]にはそれぞれ一人の[movement_leader|E]が存在し、自らの$game_concept_movement$の大義を推し進めるために請願をおこなうことができます。\n\n$game_concept_movement_leader$になるには、あなたの$game_concept_movement$内で最も高い[movement_power|E]を持っている必要があります。"
+ ra_dynastic_cycle_era_actions_desc: "あなたは自分自身で、あるいは参加している[movement|e]を通じて、[dynastic_cycle|e]に影響を与えるアクションを取ることもできます。\n\nこれらのアクションはウィンドウの下部に表示されています。\n\nあなたがまだ$dynastic_cycle_participant_group_undecided_movement|V$である場合は、$game_concept_movement$に参加すべきです。"
  #merit candidacy
  reactive_advice_merit_candidacy: "属州総督の候補者"
  action_reactive_advice_merit_candidacy: "アドバイス：$reactive_advice_merit_candidacy$"

@@ -77,7 +77,7 @@
  ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS_BULLET:0 "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS$"
  ROYAL_COURT_STATUS_CGV_EXPECTATIONS:2 "Your [court_grandeur|E] is below your [court_grandeur_expectations|E]"
  ROYAL_COURT_STATUS_CGV_EXPECTATIONS_BULLET:0 "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_CGV_EXPECTATIONS$"
- ROYAL_COURT_STATUS_CURRENT_EVENTS:2 "You have [LocalPlayerCourtEvents.GetNumberCourtEvents|V] unhandled [Select_CString( GreaterThan_int32( LocalPlayerCourtEvents.GetNumberCourtEvents, '(int32)1' ), 'situations', 'situation' )] in your court"
+ ROYAL_COURT_STATUS_CURRENT_EVENTS: "You have [LocalPlayerCourtEvents.GetNumberCourtEvents|V] unhandled [Select_CString( GreaterThan_int32( LocalPlayerCourtEvents.GetNumberCourtEvents, '(int32)1' ), 'situations', 'situation' )]"
  ROYAL_COURT_STATUS_CURRENT_EVENTS_BULLET:0 "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_CURRENT_EVENTS$"
 
  NEW_ARTIFACTS_SINGLE:0 "[artifact|E]"

@@ -159,3 +159,5 @@
  grant_court_position: "Hofamt gewähren"
  grant_court_position_desc: "[recipient.GetShortUINameNoTooltip|U] ein [court_position|E] gewähren"
  request_court_position_extra_icon: "$hook_extra_icon$"
+ celestial_extinguish_noble_family_interaction: "Adelsfamilie auslöschen"
+ celestial_extinguish_noble_family_interaction_desc: "[recipient.GetShortUIName|U] und [recipient.Custom('DE_PRO_POS_S_3P')]e erwachsenen Erben [execute|El] und den Rest [recipient.Custom('DE_PRO_POS_S_3P')]er Verwandtschaft aus dem [realm|E] verbannen"

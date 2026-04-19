@@ -78,3 +78,18 @@
  major_decisions.7001.desc: "황금의 땅이라 불리는 오지 깊은 곳에서, [founder.GetNameNoTierNoTooltip](이)가 [founder.GetPrimaryTitle.GetNameNoTierNoTooltip]의 [founder.GetTitleAsNameNoTooltip](으)로 등극하며 백성들의 가혹한 운명에 도전했다.\n\n타이족은 오랜 세월 고향을 찾아 헤맸고, 이 지역의 유목민으로서 자부심을 지닌 채 남쪽으로 점차 나아갔다.\n\n저들의 영향력은 과연 세월의 흐름을 견뎌낼 수 있을까?"
  major_decisions.7001.a: "또 하나의 존재가 폭풍 속으로 던져졌다."
  major_decisions.7001.b: "저들이 우리에게 위협이 될까? 일단 두고 보자."
+ #Brunei Kingdom
+ major_decisions.8000.t: "평화의 거처"
+ major_decisions.8000.desc: "다음 의무 금요 예배를 주관할 [imam.GetTitledFirstName](은)는 [founder.GetTitleAsNameNoTooltip]의 이름으로 쿠트바를 준비하는 전통을 상기시킨다. 의무 예배와 구절들을 제외한 부분에서, [imam.GetSheHe]는 신자들에게 나의 통치권과 보호권을 선포하는 내용을 어떻게 알릴지 나에게 묻는다."
+ major_decisions.8000.a: "저들의 [founder.GetTitleAsNameNoTooltip]의 행적을 알려라."
+ major_decisions.8000.b: "모든 찬양은 알라께 돌아가야 한다."
+ brunei_kingdom_khutbah_prestige_option_modifier: "움마의 수호자"
+ brunei_kingdom_khutbah_piety_option_modifier: "움마의 빛"
+ #Brunei Empire
+ major_decisions.9000.t: "황제의 즉위 선물"
+ major_decisions.9000.desc: "우리의 이슬람 전통에 뿌리를 둔 관습에 따라, 사람들은 [founder.GetTitleAsNameNoTooltip]에게 나의 이름으로 새로 주조된 주화를 통해 나의 축복받은 전사들, 내 땅의 여행자들, 그리고 도움이 필요한 이들에게 베풀 것을 기대한다."
+ major_decisions.9000.desc_steward: "\n\n나의 [ROOT.Char.GetCouncillorPosition('councillor_steward').GetPositionName] [steward.GetTitledFirstName](은)는 내가 보호자로서 충성스러운 백성들에게 다소의 관대함을 베풀 의향이 있는지 묻는다."
+ major_decisions.9000.a: "신자들에게 [founder.GetTitleAsNameNoTooltip]의 관대함을 알려라!"
+ major_decisions.9000.b: "알라께서 우리의 사다카를 받아주시길."
+ brunei_empire_high_sadaqah_modifier: "풍성하게 베푼 사다카"
+ brunei_empire_low_sadaqah_modifier: "베푼 사다카"

@@ -73,4 +73,4 @@
  # House Relations
  game_concept_house_relation: "집안 관계"
  game_concept_house_relations: "집안 관계"
- game_concept_house_relation_desc: "두 [houses|E]이 상호작용을 하면 긍정적이거나 부정적인 $game_concept_house_relation$를 형성할 수 있습니다. 지난 세대의 행동은 대대로 기억되며 집안 후손들의 인식에 좋거나 나쁜 영향을 미치게 됩니다.\n\n각 $game_concept_house_relation$ 단계는 모든 $game_concept_house$ 구성원의 [opinion|E]에 영향을 미치며, 추가적인 상호작용을 잠금 해제할 수 있습니다.\n\n예를 들어, 친선 관계에 있는 집안들은 [alliances|E] 맺는 것을 자유롭게 협상하나, 불화가 있는 집안들은 적은 비용으로 서로에게 [wars|E]을 선포할 수 있습니다."
+ game_concept_house_relation_desc: "두 [houses|E]이 상호작용을 하면 긍정적이거나 부정적인 $game_concept_house_relation$를 형성해 대대로 이어지게 됩니다.\n\n각 $game_concept_house_relation$ 단계에는 모든 $game_concept_house$ 구성원의 [opinion|E]에 영향을 미치는 것 이외에도 부가적인 효과가 있는데, 예를 들면 [alliances|E] 및 [wars|E] 시행이 더 쉬워지거나 어려워질 수 있습니다.\n\n$game_concept_house_relation$는 모든 행동의 총합이 #P +100%#! 또는 #N -100%#!에 도달하기 전까지는 같은 단계로 유지됩니다. 해당 수치에 도달하면 $game_concept_house_relation$가 긍정적이거나 부정적인 다음 단계로 진전합니다."

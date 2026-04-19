@@ -239,6 +239,8 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_MAJAPAHIT_DESC: "Ваше имя как основателя империи $e_majapahit$ навеки высечено на вершинах горы Семеру."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RYUKYU_DESC: "Вас запомнят как человека, который объединил островные кланы и основал империю $e_ruucuu$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SIAM_DESC: "Основав королевство $k_siam$, вы навсегда вписали свое имя в историю человечества."
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC: " Вы вдохновили свой народ и объединили его под небесами Аллаха, основав королевство Бруней"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC: " Верующие Борнео запомнят вас как пастыря, оберегавшего их от зла, и как основателя империи Бруней"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC: " Благодаря вашим усилиям появилось королевство $k_israel$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC: " Ничего бы этого не было, если бы вы не стали главной силой в самой спорной священной области мира и не создали империю $e_outremer$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC: " Даже с вершины Альп не получится объять взглядом все земли, вошедшие в ваше королевство $k_switzerland$."

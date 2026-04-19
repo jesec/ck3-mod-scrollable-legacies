@@ -124,7 +124,7 @@
  tooltip_gaelic_vote_strength_current_house_head: "[house_head|E] actuel : $VALUE|=+0$"
  #Imperial Elective, Voting Strength
  tooltip_imperial_vote_strength_emperor_influence: "Dignité impériale : $VALUE|=+0$"
- tooltip_imperial_vote_strength_emperor_unpurpled: "[ROOT.Char.GetSheHe|U] n’est pas [GetTrait('born_in_the_purple').GetName( ROOT.Char )|l] : $VALUE|=+0$"
+ tooltip_imperial_vote_strength_emperor_unpurpled: "[ROOT.Char.GetSheHe|U] n’est pas [GetTrait('born_in_the_purple').GetName( Root.Char )|l] : $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_deformed: "[ROOT.Char.GetSheHe|U] est difforme : $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_child: "La parole d’un enfant ne vaut pas grand-chose : $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_child_roman: "La parole d’un enfant ne vaut pas grand-chose : $VALUE|=+0$"

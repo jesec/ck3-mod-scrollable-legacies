@@ -2385,10 +2385,7 @@ types CombatWindow
 			}
 
 			text_single = {
-				datacontext = "[CombatWindow.GetCombat.GetProvince]"
-				datacontext = "[GetNullLandedTitle]"
-
-				visible = "[And( And( CombatWindow.IsCombatInPursuitPhase, GreaterThan_CFixedPoint( MenAtArmsType.GetStat( GetPlayer, Province.Self, Title.Self, 'screen' ), '(CFixedPoint)0' ) ), Not( CombatSide.IsStillFighting ) )]"
+				visible = "[And( And( CombatWindow.IsCombatInPursuitPhase, GreaterThan_CFixedPoint( CombatMaaItem.GetStat( 'screen' ), '(CFixedPoint)0' ) ), Not( CombatSide.IsStillFighting ) )]"
 
 				margin = { 10 0 }
 				layoutpolicy_horizontal = expanding
@@ -2397,10 +2394,7 @@ types CombatWindow
 			}
 
 			text_single = {
-				datacontext = "[CombatWindow.GetCombat.GetProvince]"
-				datacontext = "[GetNullLandedTitle]"
-
-				visible = "[And( And(CombatWindow.IsCombatInPursuitPhase, GreaterThan_CFixedPoint(MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'pursuit'), '(CFixedPoint)0')), CombatSide.IsStillFighting )]"
+				visible = "[And( And(CombatWindow.IsCombatInPursuitPhase, GreaterThan_CFixedPoint( CombatMaaItem.GetStat( 'pursuit' ), '(CFixedPoint)0')), CombatSide.IsStillFighting )]"
 
 				margin = { 10 0 }
 				layoutpolicy_horizontal = expanding

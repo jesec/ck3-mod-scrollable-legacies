@@ -8,6 +8,7 @@
  manipulation_hook: "Манипуляция"
  house_head_hook: "Глава дома"
  indebted_hook: "Долг"
+ strong_indebted_hook: "Спасение от разорения"
  loyalty_hook: "Верность"
  predecessor_loyalty_hook: "Верность предшественнику"
  fabrication_hook: "Подделка"

@@ -758,3 +758,5 @@
  artifact_nukemaru_sword_desc: "Esta espada, de la que se dice que la mismísima Amaterasu entregó a un cazador en Ise, fue adquirida por $dynn_Taira$ $Tadamori$, y se cuenta que se desenvainó sola cuando una serpiente amenazó su vida mientras dormía."
  artifact_kogarasumaru_sword_name: "Kogarasumaru" #小烏丸
  artifact_kogarasumaru_sword_desc: "La «Cuervecito» fue forjada por Amakuni para la corte imperial y más tarde fue entregada a $dynn_Taira$ $Sadamori$ por $Suzaku$ $king_tenno_male_japanese$ en reconocimiento a sus servicios durante la rebelión Jōhei-Tengyō."
+ artifact_statue_green_amitabha_buddha_name: "Buda Amitabha de piedra verde"
+ artifact_statue_green_amitabha_buddha_descripton: "Esta hermosa estatua del Buda Amithaba parece estar tallada en una sola piedra verde. La base está adornada con pétalos de loto y patrones de olas.\n\nSe dice que la estatua apareció milagrosamente de entre los escombros de una pagoda que se desmoronó al poco de ser construida."

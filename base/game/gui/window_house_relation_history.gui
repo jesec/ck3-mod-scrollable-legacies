@@ -277,24 +277,25 @@ types HouseRelationHistoryWindow
 					
 					autoresize = yes
 					max_width = 410
+					align = nobaseline
 				}
 
 				expand = {}
 
 				text_single = {
 					name = "house_relation_change_amount"
-					align = center
 					fonttintcolor = { 0.6 0.55 0.9 1.0 }
 					visible = "[HouseRelationChange.NonZeroAmount]"
 					min_width = 48
-					text = "[HouseRelationChange.GetChangeAmount|+=]"
+					align = nobaseline|hcenter
+					text = "[HouseRelationChange.GetChangeAmount|+=%^]"
 					default_format = "#light_background"
 				}
 
 				text_single = {
 					name = "house_relation_no_change_amount"
 					visible = "[Not( HouseRelationChange.NonZeroAmount )]"
-					align = center
+					align = nobaseline|hcenter
 					min_width = 48
 					text = ""
 				}
@@ -316,12 +317,12 @@ types HouseRelationHistoryWindow
 
 					text_single = {
 						name = "house_relation_change_date"
-						align = right
 						min_width = 120
 						alpha = 0.45
 						text = "[HouseRelationChange.GetChangeDate.GetString|V]"
 						default_format = "#light_background"
 						using = Text_Light_Background_Overrides
+						align = nobaseline|right
 					}
 
 					spacer = {
@@ -360,6 +361,7 @@ types HouseRelationHistoryWindow
 							default_format = "#light_background"
 							using = Text_Light_Background_Overrides
 							tooltip = "[HouseRelationChange.GetLevelTooltip]"
+							align = nobaseline|hcenter
 						}
 						expand = {}
 					}

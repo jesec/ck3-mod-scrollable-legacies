@@ -181,3 +181,4 @@
  scheme_critical_moments.2925.a: "#EMP Pagareis#! por esto."
  scheme_critical_moments.2925.b: "¡[owner.GetFirstNameNoTooltip] ha descubierto lo que le pasa a [Select_CString(owner.IsFemale, 'las usurpadoras', 'los usurpadores' )]!"
  scheme_critical_moments.2925.c: "¡Será [owner.Custom2('InsultNoun', ROOT.Char)]!"
+ OWNER_IS_MY_MOVEMENT_MEMBER: "Está en el mismo [movement|El] que [owner.GetShortUIName]: $VALUE|+0=$"

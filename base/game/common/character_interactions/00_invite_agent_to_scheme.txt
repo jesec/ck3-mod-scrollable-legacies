@@ -26,6 +26,7 @@ invite_agent_to_scheme_interaction = {
 						always = scope:claimed_title
 						always = scope:piety
 						always = scope:herd
+						var:devotee_agent_var ?= scope:actor
 					}
 				}
 				force_add_to_agent_slot = {

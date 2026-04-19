@@ -239,6 +239,8 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_MAJAPAHIT_DESC: " Na szczycie góry Semeru na wieczność wyryto twoje imię – jako osoby, która powołała do życia imperium $e_majapahit$"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RYUKYU_DESC: " Zapiszesz się w historii jako osoba, która zjednoczyła wyspiarskie klany i założyła imperium $e_ruucuu_adj$"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SIAM_DESC: " Na zawsze zapiszesz się w historii ludzkości jako osoba, która założyła królestwo Syjamu"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC: " Udaje ci się zainspirować twój lud i zjednoczyć go w imię Allaha, dzięki czemu zapisujesz się w historii jako osoba, która założyła królestwo $k_brunei$"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC: " Wierni z Borneo zapamiętają cię jako pasterza, który utrzymał zło na dystans i założył imperium $k_brunei$"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC: "To dzięki Twojej ciężkiej pracy i pracowitości powstało Królestwo Izraela."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC: "Nikt nie myślał, że temu podołasz, jednakże udało ci się zdominować najbardziej sporny święty region na świecie jako Imperium Outremeru."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC: "Można wspiąć się na Alpy i nadal nie zobaczyć wszystkiego, co było Twoje po założeniu Królestwa Szwajcarii."

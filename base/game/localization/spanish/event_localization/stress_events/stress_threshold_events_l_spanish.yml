@@ -174,7 +174,7 @@
  stress_threshold.2202.desc: "[stress_character.GetSheHe|U] se ha visto sometid[stress_character.Custom('ES_OA')] a mucho estrés últimamente, pero"
  stress_threshold.2202.desc.rival: "cuando le pidieron explicaciones, solo redobló los insultos."
  stress_threshold.2202.desc.other: "comportarse así…"
- stress_threshold.2202.a: "Yo también sé dar además de recibir. «¡[stress_character.Custom2('InsultNoun'), ROOT.Char|U]!»."
+ stress_threshold.2202.a: "Yo también sé dar además de recibir, ¡[stress_character.Custom2('InsultNoun', ROOT.Char)]!"
  stress_threshold.2202.b: "Sabe que hasta [stress_character.GetSheHe] sufre… Es calmante."
  #Level 3 Stress Events
  stress_threshold.3001.t: "Ataque de nervios: las voces"

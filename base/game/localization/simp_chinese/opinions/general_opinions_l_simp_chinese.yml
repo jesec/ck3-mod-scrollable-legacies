@@ -229,6 +229,7 @@
  attempt_to_force_surrender_opinion: "曾试图强迫投降"
  theft_opinion: "盗窃"
  siphoned_treasury_crime: "挪用国库"
+ tax_avoidance_crime: "逃税"
  embezzled_opinion: "贪污"
  elopement_opinion: "私奔"
  attempted_elopement_opinion: "私奔未遂"

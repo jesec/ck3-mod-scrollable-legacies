@@ -896,6 +896,284 @@ portrait_ugro_permian_clothing_spouse_trigger = { #AKA Khanty
 	}
 }
 
+
+### CCP5 ###
+
+portrait_ccp5_english_culture_group_low_nobles_trigger = {
+	OR = {
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = english
+			}
+			portrait_low_nobles_armor_trigger = {
+				CULTURE_INPUT = english
+			}
+		}
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = welsh
+			}
+			portrait_low_nobles_armor_trigger = {
+				CULTURE_INPUT = welsh
+			}
+		}
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = cornish
+			}
+			portrait_low_nobles_armor_trigger = {
+				CULTURE_INPUT = cornish
+			}
+		}
+	}
+}
+
+portrait_ccp5_english_culture_group_high_nobles_trigger = {
+	OR = {
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = english
+			}
+			portrait_high_nobles_armor_trigger = {
+				CULTURE_INPUT = english
+			}
+		}
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = welsh
+			}
+			portrait_high_nobles_armor_trigger = {
+				CULTURE_INPUT = welsh
+			}
+		}
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = cornish
+			}
+			portrait_high_nobles_armor_trigger = {
+				CULTURE_INPUT = cornish
+			}
+		}
+	}
+}
+
+portrait_ccp5_french_culture_group_low_nobles_trigger = {
+	OR = {
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = french
+			}
+			portrait_low_nobles_armor_trigger = {
+				CULTURE_INPUT = french
+			}
+		}
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = norman
+			}
+			portrait_low_nobles_armor_trigger = {
+				CULTURE_INPUT = norman
+			}
+		}
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = breton
+			}
+			portrait_high_nobles_armor_trigger = {
+				CULTURE_INPUT = breton
+			}
+		} 
+	}
+}
+
+portrait_ccp5_french_culture_group_high_nobles_trigger = {
+	OR = {
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = french
+			}
+			portrait_high_nobles_armor_trigger = {
+				CULTURE_INPUT = french
+			}
+		}
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = norman
+			}
+			portrait_high_nobles_armor_trigger = {
+				CULTURE_INPUT = norman
+			}
+		}  
+		AND = {
+			portrait_war_nobles_helmet_ccp5_trigger = {
+				CULTURE_INPUT = breton
+			}
+			portrait_high_nobles_armor_trigger = {
+				CULTURE_INPUT = breton
+			}
+		}  
+	}
+}
+
+portrait_ccp5_is_any_war_noble_trigger = {
+	portrait_war_nobles_helmet_ccp5_trigger = {
+        CULTURE_INPUT = $CULTURE_INPUT$
+	}
+	OR = {
+		portrait_commoner_armor_trigger = {
+			CULTURE_INPUT = $CULTURE_INPUT$
+		}
+		portrait_low_nobles_armor_trigger = {
+			CULTURE_INPUT = $CULTURE_INPUT$
+		}
+		portrait_high_nobles_armor_trigger = {
+			CULTURE_INPUT = $CULTURE_INPUT$
+		}
+	}
+}
+
+portrait_english_clothing_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = english
+	}
+}
+
+portrait_welsh_clothing_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = welsh
+	}
+}
+
+portrait_cornish_clothing_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = cornish
+	}
+}
+
+portrait_swabian_clothing_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = swabian
+	}
+}
+
+portrait_breton_clothing_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = breton
+	}
+}
+
+portrait_norman_clothing_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = norman
+	}
+}
+
+portrait_pommeranian_clothing_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = pommeranian
+	}
+}
+
+portrait_english_clothing_spouse_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = english
+	}
+}
+
+portrait_swabian_clothing_spouse_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = swabian
+	}
+}
+
+portrait_breton_clothing_spouse_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = breton
+	}
+}
+portrait_norman_clothing_spouse_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = norman
+	}
+}
+portrait_welsh_clothing_spouse_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = welsh
+	}
+}
+portrait_cornish_clothing_spouse_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = cornish
+	}
+}
+portrait_pommeranian_clothing_spouse_trigger = {
+	has_cp5_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = pommeranian
+	}
+}
+
+### CCP7 EMISHI AINU / NIVKH NANAI ###
+
+portrait_emishi_clothing_trigger = {
+	has_cp7_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = emishi
+	}
+}
+
+portrait_emishi_clothing_spouse_trigger = {
+	has_cp7_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = emishi
+	}
+}
+
+portrait_nivkh_clothing_trigger = {
+	has_cp7_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = nivkh
+	}
+}
+
+portrait_nivkh_clothing_spouse_trigger = {
+	has_cp7_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = nivkh
+	}
+}
+
 ### FP1 ###
 
 portrait_fp1_norse_clothing_trigger = {
@@ -1177,6 +1455,88 @@ portrait_ainu_clothing_spouse_trigger = {
 	}
 }
 
+### CCP9 ###
+
+portrait_khitan_clothing_trigger = { 
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = khitan
+	}
+}
+
+portrait_khitan_clothing_spouse_trigger = {
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = khitan
+	}
+}
+
+portrait_dali_clothing_trigger = { #DALI DYNASTY
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = dali
+	}
+}
+
+portrait_dali_clothing_spouse_trigger = {
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = dali
+	}
+}
+
+portrait_uyghur_clothing_trigger = { #UYGHR DYNASTY
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = uyghur
+	}
+}
+
+portrait_uyghur_clothing_spouse_trigger = {
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = uyghur
+	}
+}
+
+portrait_tangut_clothing_trigger = { #TANGUT DYNASTY
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = tangut
+	}
+}
+
+portrait_tangut_clothing_spouse_trigger = {
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = tangut
+	}
+}
+
+portrait_jurchen_clothing_trigger = { #TANGUT DYNASTY
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = jurchen
+	}
+}
+
+portrait_jurchen_clothing_spouse_trigger = {
+	#has_cp9_dlc_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = jurchen
+	}
+}
+
 ### General clothing triggers ###
 
 portrait_era1_trigger = { # Intended to primarily cover the years 850 to 1000
@@ -1269,6 +1629,23 @@ portrait_era3_armor_trigger = {
 
 portrait_era4_armor_trigger = {
 	current_year >= 1240 # This is anachronistic and should historically be around 1300 (transitional mail and plate armor)
+}
+
+##Meant to cover 1270 - 1325
+portrait_late_era3_trigger = {
+	current_year >= 1220 # This is anachronistic and should historically be around 1300
+	current_year < 1340 # 1300
+}
+
+
+## This is so characters wear their cool helmets if they own the DLC helmets
+portrait_war_nobles_helmet_ccp5_trigger = {
+	exists = this
+	OR = {
+		has_character_flag = need_military_outfit
+		portrait_wear_helmet_trigger = yes
+	}
+	portrait_$CULTURE_INPUT$_clothing_trigger = yes
 }
 
 
@@ -2660,6 +3037,22 @@ portrait_religious_sami_trigger = {
 	has_cp4_dlc_trigger = yes
 	religion = religion:finno_ugric_religion
 	portrait_sami_clothing_trigger = yes
+}
+
+## CCP7 EMISHI AINU / NIVKH NANAI ##
+
+portrait_religious_emishi_trigger = {
+	has_cp7_dlc_trigger = yes
+	religion = religion:kamuyism_religion
+}
+portrait_religious_shamanism_trigger = {
+	# technically this just makes it so shamanists wear vanilla steppe religious clothing so probably doesn't need a dlc check
+	religion = religion:shamanism_religion
+}
+portrait_religious_shamanism_nivkh_trigger = { # same as above but shamanists with nivkh aesthetics will sometimes wear ainu sapanpe headgear
+	has_cp7_dlc_trigger = yes
+	portrait_nivkh_clothing_trigger = yes
+	religion = religion:shamanism_religion
 }
 
 

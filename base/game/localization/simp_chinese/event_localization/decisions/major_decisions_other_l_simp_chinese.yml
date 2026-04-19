@@ -78,3 +78,18 @@
  major_decisions.7001.desc: "在被部分人称为黄金之地的荒野深处，[founder.GetNameNoTierNoTooltip]作为[founder.GetPrimaryTitle.GetNameNoTierNoTooltip]的[founder.GetTitleAsNameNoTooltip]执掌权力，并挑战[founder.GetHerHis]人民的命运。\n\n傣人历经多年寻找家园，作为该地区的游牧民族自豪地迁徙，并逐渐向南方进发。\n\n他们的影响力能否经受时间考验？"
  major_decisions.7001.a: "又一个会被抛入飓风的存在。"
  major_decisions.7001.b: "他们对我们构成威胁吗？我们拭目以待。"
+ #Brunei Kingdom
+ major_decisions.8000.t: "和平之居所"
+ major_decisions.8000.desc: "将主持下一次聚礼的[imam.GetTitledFirstName]提醒我要遵循传统，以他[founder.GetTitleAsNameNoTooltip]的名义准备一篇呼图白。除了必诵的祷告和经文，[imam.GetSheHe]还询问我，该向信众宣读哪部分内容，以宣告我对他们的主权和监护权。"
+ major_decisions.8000.a: "让他们知晓其[founder.GetTitleAsNameNoTooltip]的伟绩。"
+ major_decisions.8000.b: "一切赞颂，唯归安拉。"
+ brunei_kingdom_khutbah_prestige_option_modifier: "乌玛的守护者"
+ brunei_kingdom_khutbah_piety_option_modifier: "乌玛之光"
+ #Brunei Empire
+ major_decisions.9000.t: "皇帝登基的赏赐"
+ major_decisions.9000.desc: "依循伊斯兰传统，[founder.GetTitleAsNameNoTooltip]理应以新铸币款待忠诚的战士、行旅与贫者。"
+ major_decisions.9000.desc_steward: "\n\n我的[ROOT.Char.GetCouncillorPosition('councillor_steward').GetPositionName][steward.GetTitledFirstName]问我，愿给予子民何等程度的慷慨，以示守护者之恩。"
+ major_decisions.9000.a: "让信众体会他们[founder.GetTitleAsNameNoTooltip]的慷慨！"
+ major_decisions.9000.b: "愿安拉垂怜并接受我们的开斋捐。"
+ brunei_empire_high_sadaqah_modifier: "慷慨布施的开斋捐"
+ brunei_empire_low_sadaqah_modifier: "布施给众人的开斋捐"

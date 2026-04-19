@@ -52,9 +52,9 @@
  learning_medicine.2010.c: "Vous devriez regarder dans [ROOT.Char.GetFaith.ReligiousText] pour vous aider."
  #Fertility treatment, by Mathilda Bjarnehed
  learning_medicine.2021.t: "[ROOT.Char.Custom('FR_AuAla')|U] [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip]"
- learning_medicine.2021.desc: "Mon nom est [physician.GetTitledFirstNameNoTooltip] et je suis un médecin formé spécialisé dans les questions de fertilité. Peut-être que mes conseils discrets bénéficieraient à [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ? Je serais honoré[physician.Custom('FR_E')] de servir — pour une somme modique."
+ learning_medicine.2021.desc: "Mon nom est [physician.GetTitledFirstNameNoTooltip] et je suis un médecin formé spécialisé dans les questions de fertilité.\n\nPeut-être que mes conseils discrets bénéficieraient à [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ? Je serais honoré[physician.Custom('FR_E')] de servir — pour une somme modique."
  learning_medicine.2021.a: "Je pourrais avoir besoin de votre aide..."
- learning_medicine.2021.a.tt: "[physician.GetFirstName] va vous proposer un traitement pour votre fertilité"
+ learning_medicine.2021.a.tt: "Vous acceptez le traitement pour votre fertilité"
  learning_medicine.2021.b: "Un médecin formé est toujours le bienvenu."
  learning_medicine.2021.b.tt: "Vous refusez le traitement pour votre fertilité"
  learning_medicine.2021.c: "Je n’ai pas de tels #EMP problèmes !#!"

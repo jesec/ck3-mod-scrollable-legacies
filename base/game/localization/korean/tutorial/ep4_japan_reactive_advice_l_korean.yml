@@ -91,4 +91,4 @@
  ra_become_shogun_subjects: "$reactive_advice_soryo_regent_become_shogun_NAME$"
  ra_become_shogun_subjects_desc: "[GetGovernment('japan_administrative_government').GetNameWithIcon] [government|E]의 낡은 잔재를 제거하지 않고는 [shogun|E]이 될 수 없습니다.\n\n당신의 [vassals|E] 중 $japan_administrative_government$에 속한 자가 있다면, 이곳에서 확인하고 $revoke_title_interaction|V$ [character_interaction|E]을 통해 그들의 [titles|E]를 박탈하십시오."
  ra_become_shogun_end: "$reactive_advice_soryo_regent_become_shogun_NAME$"
- ra_become_shogun_end_desc: "권력의 고삐는 이미 당신의 손에 있습니다. 단지 그것을 굳게 움켜쥐기만 하면 [shogun|E]이 될 수 있습니다.\n\n나약한 [GetGovernment('japan_administrative_government').GetName] [rulers|E]들을 몰아내고 [GetLaw('japanese_bureaucracy_2').GetName](을)를 제정하십시오. 일본은 당신의 것이 될 것입니다!"
+ ra_become_shogun_end_desc: "권력의 고삐는 이미 당신의 손에 있습니다. 단지 그것을 굳게 움켜쥐기만 하면 [shogun|E]이 될 수 있습니다.\n\n[GetLaw('japanese_bureaucracy_2').GetName](을)를 제정하십시오. 일본은 당신의 것이 될 것입니다!"

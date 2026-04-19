@@ -76,7 +76,7 @@
 		holder = korean_wang_goryeo_20 # Ui_jong
 	}
 	# Military dictatorship
-	1170.9.1 = {
+	1170.9.2 = {
 		holder = korean_i_jeonju_16 # Ui_bang
 		government = meritocratic_government
 	}
@@ -86,10 +86,10 @@
 }
 
 k_yongson_throne = {
-	918.1.1 = {
+	1170.9.2 = {
 		government = meritocratic_government
 		liege = e_goryeo
-		holder = korean_wang_goryeo_1 # Taejo
+		holder = korean_wang_goryeo_21 # Myeong_jong
 		effect = {
 			add_title_law = single_heir_succession_law # Regency inherited separately
 			set_variable = {
@@ -103,75 +103,6 @@ k_yongson_throne = {
 				}
 				holder = { set_court_language = language_chinese }
 			}
-		}
-	}
-	943.7.4 = {
-		holder = korean_wang_goryeo_2 # Hyejong
-	}
-	945.10.23 = {
-		holder = korean_wang_goryeo_3 # Jeongjong
-	}
-	949.4.13 = {
-		holder = korean_wang_goryeo_4 # Gwangjong
-	}
-	975.7.4 = {
-		holder = korean_wang_goryeo_5 # Gyeongjong
-	}
-	981.8.13 = {
-		holder = korean_wang_goryeo_7 # Seongjong
-	}
-	997.11.29 = {
-		holder = korean_wang_goryeo_8 # Mokjong
-	}
-	1009.3.2 = {
-		holder = korean_wang_goryeo_10 # Hyeonjong
-	}
-	1031.6.17 = {
-		holder = korean_wang_goryeo_11 # Deokjong
-	}
-	1034.10.31 = {
-		holder = korean_wang_goryeo_12 # Jeongjong
-	}
-	1046.6.24 = {
-		holder = korean_wang_goryeo_13 # King Munjong
-	}
-	1066.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.1.1 }
-		}
-	}
-	1083.9.8 = {
-		holder = korean_wang_goryeo_14 # Sun_jong
-	}
-	1083.12.12 = {
-		holder = korean_wang_goryeo_15 # Seon_jong
-	}
-	1094.6.17 = {
-		holder = korean_wang_goryeo_16 # Heon_jong
-	}
-	1095.1.1 = {
-		holder = korean_wang_goryeo_17 # Suk_jong
-	}
-	1105.11.10 = {
-		holder = korean_wang_goryeo_18 # Ye_jong
-	}
-	1122.5.15 = {
-		holder = korean_wang_goryeo_19 # In_jong
-	}
-	1146.4.10 = {
-		holder = korean_wang_goryeo_20 # Ui_jong
-	}
-	1170.9.2 = {
-		holder = korean_wang_goryeo_21 # Myeong_jong
-	}
-	1178.1.1 = {
-		effect = {
-			add_title_law = single_heir_succession_law # Regency inherited separately
-			set_variable = {
-				name = ceremonial_title
-				value = title:e_goryeo
-			}
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 }
 		}
 	}
 }
@@ -674,6 +605,7 @@ d_tamna = {
 	}
 	1176.1.1 = {
 		holder = korean_go_jeju_38 # Jeong_ik
+		government = meritocratic_government
 	}
 }
 
@@ -872,7 +804,7 @@ c_seogyeong = {
 		holder = korean_wang_goryeo_22 # Gi
 	}
 	1178.1.1 = {
-		holder = korean_jeong_haeju_1 # Jung_bu
+		holder = korean_du_dureung_9 # Gyeong_seung
 	}
 }
 
@@ -1014,9 +946,9 @@ d_gyeongju = {
 }
 
 c_gyeongju = {
-	867.1.1 = { change_development_level = 3 }
-	1066.1.1 = { change_development_level = 5 }
-	1178.1.1 = { change_development_level = 9 }
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 12 }
 
 	867.1.1 = {
 		liege = d_gyeongju
@@ -1164,7 +1096,7 @@ c_ulju = {
 	}
 	1066.1.1 = {
 		liege = d_jinju
-		holder = korean_bak_milyang_2 # Nan
+		holder = korean_bak_milyang_11 # Eon_bu
 	}
 	1178.1.1 = {
 		holder = korean_gim_gimhae_21 # Su_seong
@@ -1557,13 +1489,11 @@ c_gwiju = {
 	1178.1.1 = { change_development_level = 12 }
 
 	867.1.1 = {
-		liege = d_bukgye
-		government = meritocratic_government
-		holder = korean_ryu_jeongju_1 # Cheon_gung
-	}
-	1066.1.1 = {
 		liege = d_yukju
 		government = meritocratic_government
+		holder = balhae_wi_1 # 
+	}
+	1066.1.1 = {
 		holder = korean_yang_anak_2 # Dae_chun
 	}
 	1178.1.1 = {
@@ -1579,7 +1509,7 @@ c_taeju = {
 	867.1.1 = {
 		liege = d_yukju
 		government = meritocratic_government
-		holder = korean_ryu_jeongju_1 # Cheon_gung
+		holder = balhae_wi_1 # 
 	}
 	1066.1.1 = {
 		holder = korean_yang_anak_2 # Dae_chun
@@ -1658,6 +1588,7 @@ c_dongju = {
 		holder = korean_choe_dongju_1 # Seok
 	}
 	1178.1.1 = {
+		liege = d_gyoju
 		holder = korean_chae_pyeonggang_1 # Yeong
 	}
 }

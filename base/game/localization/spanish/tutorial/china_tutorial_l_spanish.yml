@@ -83,7 +83,7 @@
  lesson_china_STUDY_SCHEME_SEGMENT: "Estudiar"
  TUTORIAL_OPEN_DECISION_PANEL_PROMPT: "Abre la pantalla «$DECISIONS_VIEW_TITLE$»"
  lesson_china_decisions_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
- lesson_china_decisions_open_desc: "Si decides presentarte a los [imperial_examinations|El], es buena idea que te prepares bien.\n\nPuedes prepararte para los $game_concept_examinations$ si estudias los clásicos del confucianismo."
+ lesson_china_decisions_open_desc: "Si decides presentarte a un [imperial_examination|El], es buena idea que te prepares bien.\n\nPuedes prepararte para los $game_concept_examinations$ si estudias los clásicos del confucianismo."
  lesson_china_decisions_open_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
  lesson_china_decisions: "$lesson_china_STUDY_SCHEME_SEGMENT$"
  lesson_china_decisions_desc: "Estas son las decisiones, diversas acciones personales que puedes llevar a cabo.\n\nPor ahora, elige $tgp_china_study_confucian_classics_decision|V$."

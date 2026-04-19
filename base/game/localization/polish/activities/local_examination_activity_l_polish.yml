@@ -7,7 +7,7 @@
  activity_local_examination_desc: "Podtrzymywanie tej struktury poprzez zorganizowanie egzaminów to nasz obowiązek i przywilej. Egzaminy pozwalają nam ocenić i określić najlepsze jednostki oraz przyznać im [merit|El]. Tym sposobem dbamy o przyszłą pomyślność państwa."
  activity_local_examination_host_desc: "$activity_local_examination_host_rewards$$activity_local_examination_guest_rewards$"
  activity_local_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
- activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$Okazja do ukończenia @provincial_exam_icon! #V egzaminu prowincjonalnego#!\n$BULLET_WITH_TAB$Może zwiększyć twoje [trait_level_track_xp|El] [GetTrait('confucian_education').GetName( GetNullCharacter )|l]\n$BULLET_WITH_TAB$Może zwiększyć twoje [merit|El]"
+ activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$Okazja do ukończenia @provincial_exam_icon! #V egzaminu prowincjonalnego#!\n$BULLET_WITH_TAB$Może zwiększyć twoje [trait_level_track_xp|El] [GetTrait('confucian_education').GetName( GetNullCharacter )|l]\n$BULLET_WITH_TAB$Może zwiększyć twoje [merit|El]\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial Jeśli [host.GetCulture.GetLanguage.GetName|l] nie jest znanym ci [Concept('language', 'językiem')|E], twoje szanse powodzenia będą znacznie obniżone!"
  activity_local_examination_guest_rewards: "\n$BULLET_WITH_TAB$Można rekrutować postacie o wysokich umiejętnościach\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [trait_level_track_xp|El] [GetTrait('confucian_education').GetName( GetNullCharacter )|l]\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [merit|El]"
  local_examination_base_cost: "Koszt podstawowy"
  activity_local_examination_host_an_a: "$articleblank_blank$"

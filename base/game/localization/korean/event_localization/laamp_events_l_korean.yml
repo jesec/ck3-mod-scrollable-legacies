@@ -63,6 +63,7 @@
  forbidden_runaway_laamp_opinion: "모험 금지"
  ep3_laamps.0100.t: "모든 것에는 대가가 있다"
  ep3_laamps.0100.desc: "[recipient.GetTitledFirstNamePossessive] 허락을 받았을 때는 이게 꿈인지 생시인지 믿기 어려울 정도였다. 드디어 나만의 [ROOT.Char.Custom('FortifiedBuilding')](을)를 가질 수 있다. 위로는 제대로 된 지붕이, 사방으로는 튼튼한 벽이 있는 건물을 말이다!\n\n이로써 나는 [ROOT.Char.GetPrimaryTitle.GetNameNoTier]의 새로운 [ROOT.Char.GetTitleAsNameNoTooltip](이)가 되어,"
+ ep3_laamps.0100.desc_nomadic: "[recipient.GetTitledFirstNamePossessive] 허락을 받았을 때는 이게 꿈인지 생시인지 믿기 어려울 정도였다. 마침내 나만의 땅, 가축을 방목할 장소를 갖게 될 것이다!\n\n이로써 나는 [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTier]의 새로운 [ROOT.Char.GetTitleAsNameNoTooltip](이)가 되어,"
  ep3_laamps.0100.fellow_vassal: "[new_liege.GetName]의 동료 봉신으로서 일대를 다스릴 것이다. 새로운 주군에게는 신세진 것도 많고, 의지할 것도 많다."
  ep3_laamps.0100.liege: "[recipient.GetPrimaryTitle.GetAdjectiveNoTooltip]의 봉신으로서 일대를 다스릴 것이다. 새로운 주군에게는 신세진 것도 많고, 의지할 것도 많다."
  ep3_laamps.0100.independent: "한때 [recipient.GetPrimaryTitle.GetAdjectiveNoTooltip]의 것이었던 이 땅을 내 영지로 삼아 다스릴 것이다!"

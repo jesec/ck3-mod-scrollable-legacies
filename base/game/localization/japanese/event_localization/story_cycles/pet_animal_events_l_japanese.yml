@@ -160,7 +160,7 @@
  pet_animal.1113.a: "[ROOT.Char.Custom('DogStorySheHe')|U]も参加させてやろう。"
  pet_animal.1113.a_success: "[ROOT.Char.Custom('DogStoryName')]はおとなしくしている"
  pet_animal.1113.a_success.tt: "何も悪いことは起こらない"
- every_councillor: "すべての評議員"
+ every_councillor: "すべての[councillor|E]"
  pet_animal.1113.a_failure: "[ROOT.Char.Custom('DogStoryName')]は気ままに振る舞う"
  pet_animal.1113.a_failure.tt: "何か… 悪いことが起こる"
  pet_animal.1113.b: "評議会に犬の居場所はない。"

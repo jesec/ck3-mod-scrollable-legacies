@@ -72,7 +72,7 @@
  governor_contract_event.1020.d: "자선단체와 도움이 필요한 자들에게 기부한다."
  governor_contract_event.1020.e: "곡창을 먼저 채운 후, 남는 곡물을 판매한다."
  governor_contract_event.1020.f: "#EMP 모든#! 곡물을 내 장원으로 옮긴다."
- harvest_claim_it_yourself_estate_tt: "[estate|E] 내 [GetDomicileBuilding('storage_granary_03').GetName]#!(으)로 인해 #P +[EmptyScope.ScriptValue('estate_granary_gold_bonus_value')|+0%]만큼 증가함"
+ harvest_claim_it_yourself_estate_tt: "[estate|E] 내 [GetDomicileBuilding('storage_granary_03').GetName](으)로 인해 #P +[EmptyScope.ScriptValue('estate_granary_gold_bonus_value')|+0%]#!만큼 증가함"
  governor_contract_event.1030.t: "날뛰는 도적단"
  governor_contract_event.1030.desc: "보고서를 다시 읽었다. #EMP 도적단#!이 나타났다. 놈들에게는 우리 법을 준수하는 납세자들이 토실토실 살찐 양에 불과하겠지!\n\n이 거친 무법자들은 주민에게 칼을 겨누기까지 했다... 마을은 공포에 떨고 있으며, 상단 또한 사라졌다.\n\n그중에서도 특히 골칫거리인 살인마 놈들이 [bandit_destination.GetName] 근처의 [task_contract_location.GetProvince.GetTerrain.GetNameNoTooltip|l] 내에 제대로 자리를 잡았다. 놈들이 처리되기 전에는 이 지역을 통제하기란 불가능할 것이다."
  governor_contract_event.1030.a: "병사를 모아라. 즉시 출발하겠다!"

@@ -181,3 +181,4 @@
  scheme_critical_moments.2925.a: "你会为此#EMP 付出代价#!。"
  scheme_critical_moments.2925.b: "[owner.GetSheHe|U]知道篡位者有什么下场！"
  scheme_critical_moments.2925.c: "那个该死的[owner.Custom2('InsultNoun', ROOT.Char)]！"
+ OWNER_IS_MY_MOVEMENT_MEMBER: "与[owner.GetShortUIName]处于同一[movement|E]：$VALUE|+0=$"

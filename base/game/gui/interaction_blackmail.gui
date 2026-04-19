@@ -149,7 +149,6 @@ window = {
 
 			vbox_character_interaction_effects = {
 				datacontext = "[CharacterInteractionConfirmationWindow.GetEffectsDescription]"
-				visible = "[BlackmailInteractionWindow.IsBlackmail]"
 			}
 
 			hbox_character_interaction_acceptance = {

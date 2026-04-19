@@ -50,7 +50,7 @@
  debate_books_normal: "Свитки и заметки"
  debate_books_normal_desc: "$EFFECT_LIST_BULLET$Немного повышает вероятность успеха занятия\n\n#weak Для обоснования своей точки зрения мне необходимы лишь несколько наиболее важных текстов и комментарии к ним.#!"
  debate_books_good: "$adult_education_books_good$"
- debate_books_good_desc: "$EFFECT_LIST_BULLET$Повышает вероятность успеха занятия\n\n#weak Я возьму с собой множество текстов, которые помогут мне представить свои доводы и произвести впечатление на гостей."
+ debate_books_good_desc: "$EFFECT_LIST_BULLET$Повышает вероятность успеха занятия\n\n#weak Я возьму с собой множество текстов, которые помогут мне представить свои доводы и произвести впечатление на гостей.#!"
  debate_argument_major_decrease_desc: "#N #bold Значительное снижение#!#! ваших #V шансов на успех#!"
  debate_argument_moderate_decrease_desc: "#N Умеренное снижение#! ваших #V шансов на успех#!"
  debate_argument_moderate_increase_desc: "#P Умеренное повышение#! ваших #V шансов на успех#!"
@@ -60,6 +60,7 @@
  ### CONCLUSION
  activity_debate_conclusion_desc_leadership_winner: "Дебаты за главенство в движении «[GetPlayer.Custom('GetMyMovement')]» завершены, меня объявили победителем!"
  activity_debate_conclusion_desc_leadership_loser: "Мои планы провалились, [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] остается лидером движения «[GetPlayer.Custom('GetMyMovement')]»."
+ activity_debate_conclusion_desc_leadership_challenged_loser: "[Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] объявлен лидером движения «[GetPlayer.Custom('GetMyMovement')]», несмотря на мои усилия."
  activity_debate_conclusion_desc_favor_winner: "Дебаты завершены, теперь [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] благосклонно относится к движению «[GetPlayer.Custom('GetMyMovement')]»!"
  activity_debate_conclusion_desc_favor_loser: "Мне не удалось добиться успеха, [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] ничуть не лучше относится к движению «[GetPlayer.Custom('GetMyMovement')]». В следующий раз нужно приложить больше усилий."
  debate_conclusion_fallback: "[GetActivityType( 'activity_debate' ).GetName] завершились."

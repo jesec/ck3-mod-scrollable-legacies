@@ -94,10 +94,6 @@
 		}
 		# + / plus good
 		triggered_desc = {
-			trigger = { has_building_or_higher = kaifeng_palace_01 }
-			desc = activity_imperial_examination_province_kaifeng_palace_desc
-		}
-		triggered_desc = {
 			trigger = {
 				this = scope:host.top_participant_group:dynastic_cycle.var:movement_leader.capital_province
 			}
@@ -331,16 +327,6 @@
 			value = 5
 			desc = "base"
 		}
-		# Buildings
-		if = {
-			limit = {
-				has_building_or_higher = kaifeng_palace_01
-			}
-			add = {
-				value = 1
-				desc = activity_imperial_examination_province_kaifeng_palace_desc
-			}
-		}
 	}
 
 	###################
@@ -399,12 +385,6 @@
 			}
 			value = 5
 		}
-		if = {
-			limit = {
-				has_building_or_higher = kaifeng_palace_01
-			}
-			value = 10
-		}
 	}
 	
 	cost = {
@@ -414,18 +394,6 @@
 					value = debate_activity_base_cost
 					desc = debate_base_cost
 					min = 50
-				}
-				if = {
-					limit = {
-						root.capital_province ?= { has_building_or_higher = kaifeng_palace_01 }
-					}
-					multiply = {
-						value = {
-							value = 1
-							subtract = kaifeng_examination_cost_value
-						}
-						desc = kaifeng_palace_name_desc
-					}
 				}
 				# tgp_dynastic_cycle_events.0050
 				if = {
@@ -438,6 +406,12 @@
 					}
 				}
 			}
+			if = {
+				limit = {
+					has_title = title:e_minister_of_revenue
+				}
+				multiply = 0.85
+			}
 		}
 	}
 	# Used to show a rough minimum or expected cost at all to plan this
@@ -445,6 +419,12 @@
 		gold = {
 			add = debate_predicted_cost
 			min = 50
+			if = {
+				limit = {
+					has_title = title:e_minister_of_revenue
+				}
+				multiply = 0.85
+			}
 		}
 	}
 
@@ -471,8 +451,22 @@
 						}
 					}
 					this = scope:activity.var:debate_loser
+					this != scope:activity.var:challenged_movement_leader
 				}
 				desc = activity_debate_conclusion_desc_leadership_loser
+			}
+			triggered_desc = {
+				trigger = {
+					scope:activity = {
+						has_activity_option = {
+							category = special_type
+							option = debate_type_leadership
+						}
+					}
+					this = scope:activity.var:debate_loser
+					this = scope:activity.var:challenged_movement_leader
+				}
+				desc = activity_debate_conclusion_desc_leadership_challenged_loser
 			}
 			triggered_desc = {
 				trigger = {

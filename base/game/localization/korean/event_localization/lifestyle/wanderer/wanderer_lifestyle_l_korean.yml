@@ -95,7 +95,7 @@
  DistantLandsAsia2_plural: "$DistantLandsAsia2$" #Leopard
  DistantLandsAsia3_plural: "$DistantLandsAsia3$" #Caracal
  DistantLandsIndia1_plural: "$DistantLandsIndia1$" #Tiger
- DistantLandsIndia2_plural: "아프리카코끼리" #Elephant
+ DistantLandsIndia2_plural: "인도코끼리" #Elephant
  DistantLandsIndia3_plural: "가우르" #Gaur
  DistantLandsTibet1_plural: "$DistantLandsTibet1$" #Leopard
  DistantLandsTibet2_plural: "우는토끼" #Pika
@@ -189,7 +189,7 @@
  designated_terrain_plains_decision: "저지대"
  designated_terrain_drylands_decision: "건조지"
  forest_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@forest! 삼림\n$EFFECT_LIST_BULLET$@jungle! 밀림\n$EFFECT_LIST_BULLET$@taiga! 침엽수림\n$EFFECT_LIST_BULLET$@wetlands! 습지대"
- mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! 산악\n$EFFECT_LIST_BULLET$@hills! 구릉지\n$EFFECT_LIST_BULLET$@desert_mountains! 사막 산악"
+ mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! 산악\n$EFFECT_LIST_BULLET$@hills! 구릉지\n$EFFECT_LIST_BULLET$@desert_mountains! 사막 산악\n$EFFECT_LIST_BULLET$@desert_mountains! 계단식 구릉지"
  plains_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@plains! 평야\n$EFFECT_LIST_BULLET$@steppe! 초원\n$EFFECT_LIST_BULLET$@farmlands! 농지\n$EFFECT_LIST_BULLET$@floodplains! 범람원"
  drylands_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@desert! 사막\n$EFFECT_LIST_BULLET$@drylands! 건조지\n$EFFECT_LIST_BULLET$@oasis! 오아시스"
  terrain_tooltip_desc: "초점을 맞출 대상:"

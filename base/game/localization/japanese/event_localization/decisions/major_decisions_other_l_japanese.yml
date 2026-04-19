@@ -78,3 +78,18 @@
  major_decisions.7001.desc: "未開の地の奥深く、黄金の地と呼ばれる地で、[founder.GetNameNoTierNoTooltip]は[founder.GetPrimaryTitle.GetNameNoTierNoTooltip]の[founder.GetTitleAsNameNoTooltip]として権力を握り、民の運命に挑んだ。\n\nタイの民は永住の地を求めて長年彷徨い、誇り高い遊牧民として、次第に南へと進んでいた。\n\n果たして彼らの影響力は、時の流れに耐えられるだろうか？"
  major_decisions.7001.a: "またひとつの国が、嵐の中に投げ込まれた。"
  major_decisions.7001.b: "我らの脅威となり得るか？様子を見守るとしよう。"
+ #Brunei Kingdom
+ major_decisions.8000.t: "平和の住処"
+ major_decisions.8000.desc: "次の金曜礼拝を執りおこなう[imam.GetTitledFirstName]は、[founder.GetTitleAsNameNoTooltip]の名のもとにフトゥバの説教を準備する伝統を私に思い出させた。[imam.GetSheHe]は義務的な礼拝と聖句のほかに、私の主権と信者たちの守護を宣言するために読み上げるべき文言について私に尋ねた。"
+ major_decisions.8000.a: "[founder.GetTitleAsNameNoTooltip]の偉業を知らしめよ。"
+ major_decisions.8000.b: "すべての賛美はアッラーのためだけにある。"
+ brunei_kingdom_khutbah_prestige_option_modifier: "ウンマの守護者"
+ brunei_kingdom_khutbah_piety_option_modifier: "ウンマの光"
+ #Brunei Empire
+ major_decisions.9000.t: "皇帝の即位の贈り物"
+ major_decisions.9000.desc: "我々のイスラムの伝統に根ざした[founder.GetTitleAsNameNoTooltip]は、祝福された戦士たち、我が領土を旅する者たち、そして困窮する者たちに、我が名のもとにおいて新たに鋳造された貨幣で報いることが求められている。"
+ major_decisions.9000.desc_steward: "\n\n私の[ROOT.Char.GetCouncillorPosition('councillor_steward').GetPositionName]の[steward.GetTitledFirstName]は、忠実な臣民の守護者として、私がどれほどの寛大さを示すつもりか尋ねている。"
+ major_decisions.9000.a: "[founder.GetTitleAsNameNoTooltip]の寛大さを信者たちに知らしめよ！"
+ major_decisions.9000.b: "アッラーが我々のサダカを受け入れてくださいますように。"
+ brunei_empire_high_sadaqah_modifier: "サダカを惜しみなく施した"
+ brunei_empire_low_sadaqah_modifier: "サダカを施した"

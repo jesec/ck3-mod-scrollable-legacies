@@ -145,8 +145,8 @@
  HAS_LEASE_APPROVAL_FROM_OPINION:0 "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or greater"
  HAS_NO_LEASE_APPROVAL:0 "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or less"
  HAS_NO_LEASE_APPROVAL_CAN_HOOK:0 "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or less and you do not have a $TYPE$ on [CHARACTER.GetHerHim]"
- THEOCRACY_LESSEE_APPROVAL_ENDORSE:3 "#T Your [realm_priest|E] endorses you#!\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month (out of possible [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/month )\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (out of possible [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] )\n\nSince $REASON$, you gain Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
- THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE:2 "#T Your [realm_priest|E] does #emphasis not#! endorse you#!\n#weak $NO_EFFECTS$#!\n\nSince $REASON$, you gain no Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
+ THEOCRACY_LESSEE_APPROVAL_ENDORSE: "#T Your [realm_priest|E] endorses you#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month (out of possible [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/month )\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (out of possible [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] )\n\nSince $REASON$, you gain Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
+ THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE: "#T Your [realm_priest|E] does #emphasis not#! endorse you#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n#weak $NO_EFFECTS$#!\n\nSince $REASON$, you gain no Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
  THEOCRACY_LESSEE_BENEFITS_NO_ENDORSE_THRESHOLD:0 "I receive the following from titles leased to [CHARACTER.GetShortUINameNoTooltip]:\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]"
  CV_THEOCRACY_LESSEE_TOOLTIP:0 "#T [church_property|E]#!\n[Character.GetNumTitlesFromTheocraticLease] Temples\n\n[taxes|E]: [gold_i][Character.GetIncomeFromTheocraticLease|1+=]/month\n[Character.GetIncomeBreakdownFromTheocraticLease]\n\n[levies|E]: [soldier_i][Character.GetLeviesFromTheocraticLease|V]\n[Character.GetLeviesBreakdownFromTheocraticLease]"
  CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP:0 "#T $RELIGIOUS_HEAD$#!\n\n[taxes|E]: [gold_i][Character.GetIncomeAsReligiousHead|1+=]/month\n[Character.GetIncomeBreakdownAsReligiousHead]"
@@ -203,7 +203,7 @@
  KNOWN_LANGUAGES_TOOLTIP:1 "#T Known [languages|E]#!\n[Character.GetKnownLanguagesString]\n\n#weak Current [language_limit|E]: [Character.MakeScope.ScriptValue('current_extra_languages')|V0] out of [Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
 
  REQUEST_CONTRIBUTION_TOOLTIP: "[AddLocalizationIf(Not(CharacterListItem.IsSelectable),'REQUEST_CONTRIBUTION_ERROR_TOOLTIP')]"
- REQUEST_CONTRIBUTION_ERROR_TOOLTIP: "@warning_icon! You cannot #v $request_great_project_contribution_interaction$#! until the #bold Recovery#! phase of the [disaster|E]"
+ REQUEST_CONTRIBUTION_ERROR_TOOLTIP: "@warning_icon! [great_project_contributor|E] cannot be selected until all requirements for the [contribution|E] are fulfilled"
  EXTENDED_RELATIONS_TOOLTIP:0 "[Character.GetRelationToStringExtended( GetPlayer )]"
  CHARACTER_WINDOW_LEGITIMACY_LEVEL: "[LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]"
 

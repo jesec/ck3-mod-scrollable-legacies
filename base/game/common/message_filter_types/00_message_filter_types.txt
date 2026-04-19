@@ -562,7 +562,7 @@ court_amenity = {
 }
 court_language = {
 	display = toast
-	group = court
+		group = court
 }
 court_grandeur = {
 	display = toast
@@ -715,6 +715,14 @@ admin_border_change = {
 	group = administrative
 }
 admin_provincial_army_requests = {
+	display = feed
+	group = administrative
+}
+admin_new_powerful_family = {
+	display = feed
+	group = administrative
+}
+admin_new_noble_family = {
 	display = feed
 	group = administrative
 }

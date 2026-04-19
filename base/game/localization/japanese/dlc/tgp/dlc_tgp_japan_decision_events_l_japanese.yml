@@ -65,7 +65,7 @@
  will_found_noble_family_tt: "新しい[noble_family|E]の家長になる"
  # tgp_japan_emperor_restoration_decision
  tgp_japan_decision.9301.t: "檻の鍵を開ける"
- tgp_japan_decision.9301.desc: "天皇となり、私はこの国の真の指導者としての正当なる立場を取り戻した。もうこの力が己の野望を満たそうとする者たちに利用されることはない。今、すべての権力がこの菊の玉座に戻った。"
+ tgp_japan_decision.9301.desc: "天皇となり、私はこの国の真の指導者としての正当なる立場を取り戻した。\n\nもうこの力が己の野望を満たそうとする者たちに利用されることはない。今、すべての権力がこの菊の玉座に戻った。"
  tgp_japan_decision.9301.a: "この地を導く日の光だ。"
  tgp_japan_decision.9302.t: "[tenno.GetTitleAsNameNoTooltip]の勝利"
  tgp_japan_decision.9302.desc: "$game_concept_tenno_possessive$が帰還した知らせは、野火のごとく広まっていった。[tenno.GetName]天皇が朝廷における地位を取り戻したことで、怠惰な者たちや悪意を持った者たちが力を失う希望が生まれたのである。\n\n天皇は今後、菊の玉座からより直接的に人々を統治する意向を示しており、その御世が単なる儀礼と目されることは二度とあるまい。"

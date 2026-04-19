@@ -36,6 +36,7 @@
  FACTION_JAPANESE_RESTORE_EMPEROR: "$restore_ceremonial_liege_faction_name$s-Forderung"
  FACTION_JAPANESE_RESTORE_EMPEROR_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nEure Tyrannei am [ROOT.Char.Custom('GetTitleTierAdjective')|l]en Hof, über die königliche Familie und ganz [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] muss enden.\n\nGebt den Weg frei für unser wahres Oberhaupt: [faction.GetSpecialCharacter.GetTitledFirstName]!"
  tgp_faction_events.0201.b: "Ihr werdet dafür büßen, die Ehre des Reichs ([faction.GetSpecialCharacter.GetTitleAsNameNoTooltip]) beschmutzt zu haben!"
+ tgp_faction_events.0201.b.cm: "Ihr würdet es riskieren, das Reich ([ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]) zu zerreißen?!"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED: "$restore_ceremonial_liege_faction_name$s-Forderungen angenommen"
  FACTION_JAPANESE_RESTORE_EMPEROR_ACCEPTED_DESC: "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nMir liegt nur am Herzen, was für den [ROOT.Char.Custom('GetTitleTierAdjective')|l]en Hof, die königliche Familie und ganz [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] am besten ist!\n\nAuch wenn ich an Euren Beweggründen Zweifel anmelde, werde ich mich [faction.GetSpecialCharacter.GetTitledFirstName] nicht in den Weg stellen."
  FACTION_JAPANESE_RESTORE_EMPEROR_REFUSED: "$restore_ceremonial_liege_faction_name$s-Forderungen verweigert"

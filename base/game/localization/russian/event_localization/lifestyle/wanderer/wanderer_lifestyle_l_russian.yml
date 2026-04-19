@@ -189,7 +189,7 @@
  designated_terrain_plains_decision: "Низины"
  designated_terrain_drylands_decision: "Засушливые земли"
  forest_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@forest! Леса\n$EFFECT_LIST_BULLET$@jungle! Джунгли\n$EFFECT_LIST_BULLET$@taiga! Тайга\n$EFFECT_LIST_BULLET$@wetlands! Болота"
- mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! Горы\n$EFFECT_LIST_BULLET$@hills! Холмы\n$EFFECT_LIST_BULLET$@desert_mountains! Пустынные горы"
+ mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! Горы\n$EFFECT_LIST_BULLET$@hills! Холмы\n$EFFECT_LIST_BULLET$@desert_mountains! Пустынные горы\n$EFFECT_LIST_BULLET$@desert_mountains! Холмы с террасами"
  plains_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@plains! Равнины\n$EFFECT_LIST_BULLET$@steppe! Степь\n$EFFECT_LIST_BULLET$@farmlands! Пахотные земли\n$EFFECT_LIST_BULLET$@floodplains! Поймы рек"
  drylands_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@desert! Пустыни\n$EFFECT_LIST_BULLET$@drylands! Засушливые земли\n$EFFECT_LIST_BULLET$@oasis! Оазис"
  terrain_tooltip_desc: "Меня интересуют:"

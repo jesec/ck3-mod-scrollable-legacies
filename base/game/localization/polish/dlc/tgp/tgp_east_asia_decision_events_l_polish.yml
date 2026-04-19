@@ -3,7 +3,7 @@
  tgp_east_asia_decision_events.0010.desc: "Czasami oświecenie przychodzi do nas z zupełnie nieoczekiwanej strony.\n\nSposób sprawowania rządów, jakim jest mandala, rezonuje ze mną na… wyższym poziomie duchowości. Z pewnością istnieję, by wypełnić wyższy cel – zjednoczyć państwo pod moimi świętymi, łaskawymi rządami.\n\n#EMP „Niech żyje dewaradża [ROOT.Char.GetFirstNameNoTooltip]”#! – to brzmi całkiem przyjemnie…"
  tgp_east_asia_decision_events.0010.a: "#EMP To#! będzie mój pierwszy dekret."
  tgp_east_asia_decision_events.0010.b: "Posiadłość w miejscu znanym jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] nie jest godna miana świątyni, #EMP jeszcze#!…"
- warning_mandala_capital_building_only_built_in_citadels_tt: "\n@alert_icon! #alert_trial [great_building|E], którą jest [mandala|El] – [GetBuilding('mandala_capital_01').GetName|l] – może być zbudowana pod warunkiem, że twoja [capital|El] to [holding|E] [Concept('temple_citadel', 'cytadeli świątynnej')|E]#!"
+ tgp_east_asia_decision_events.0010.b_temple_citadel: "Moja wspaniała świątynia już stoi w miejscu o nazwie [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]!"
  all_tribal_holdings_will_change_to_citadels: "Wszystkie [tribal_holdings|El] w państwie to teraz [temple_citadel_holdings|El]"
  realm_capital_will_change_to_citadel: "[holding|E] [Concept('realm_capital', 'stolicy państwa')|E] to teraz [temple_citadel_holding|El]"
  tgp_east_asia_decision_events.0015.opening: "[overlord.Custom2('AppropriateGreeting', ROOT.Char)]"

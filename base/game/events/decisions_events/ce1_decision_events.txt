@@ -247,6 +247,29 @@ scripted_effect ce1_dec_1000_integrate = {
 			set_de_jure_liege_title = root.primary_title
 		}
 	}
+	# Hegemonies suck, find an empire within your hegemony that borders the kingdom
+	else_if = {
+		limit = {
+			root.primary_title = {
+				tier = tier_hegemony
+				any_in_de_jure_hierarchy = {
+					tier = tier_empire
+					any_title_to_title_neighboring_and_across_water_kingdom = { this = $KINGDOM$ }
+				}
+			}
+		}
+		root.primary_title = {
+			random_in_de_jure_hierarchy = {
+				limit = {
+					tier = tier_empire
+					any_title_to_title_neighboring_and_across_water_kingdom = { this = $KINGDOM$ }
+				}
+				$KINGDOM$ = {
+					set_de_jure_liege_title = prev
+				}
+			}
+		}
+	}
 	# Kingdoms, de jure shift all duchies into your kingdom
 	else = {
 		$KINGDOM$ = {
@@ -300,84 +323,66 @@ scripted_effect ce1_dec_1010_integrate = {
 		}
 	}
 }
+scripted_effect ce1_dec_1015_integrate = {
+	# Hegemonies are simple, just de-jure shift the empire
+	if = {
+		limit = {
+			root.primary_title.tier = tier_hegemony
+		}
+		$EMPIRE$ = {
+			set_de_jure_liege_title = root.primary_title
+		}
+	}
+	# Empires, de jure shift all kingdoms into your empire
+	else = {
+		$EMPIRE$ = {
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_kingdom }
+				set_de_jure_liege_title = root.primary_title
+			}
+		}
+	}
+}
 ce1_decision_events.1000 = {
 	type = character_event
 	title = ce1_decision_events.1000.t
 	desc = ce1_decision_events.1000.desc
-	theme = martial
+	theme = legend
 	left_portrait = {
 		character = root
 		animation = personality_honorable
 	}
+	override_background = { reference = throne_room }
 
 	immediate = {
 		play_music_cue = "mx_cue_positive_effect"
-		random_kingdom = {
+		ordered_realm_de_jure_kingdom = {
 			limit = {
 				valid_for_legendary_integration_k = yes
-				this != root.primary_title
 			}
-			save_scope_as = kingdom_01
-		}
-		random_kingdom = {
-			limit = {
-				valid_for_legendary_integration_k = yes
-				NOT = {
-					this = root.primary_title
-					this = scope:kingdom_01
-				}
+			max = 6
+			check_range_bounds = no
+			if = {
+				limit = { exists = scope:kingdom_05 }
+				save_scope_as = kingdom_06
 			}
-			save_scope_as = kingdom_02
-		}
-		random_kingdom = {
-			limit = {
-				valid_for_legendary_integration_k = yes
-				NOT = {
-					this = root.primary_title
-					this = scope:kingdom_01
-					this = scope:kingdom_02
-				}
+			else_if = {
+				limit = { exists = scope:kingdom_04 }
+				save_scope_as = kingdom_05
 			}
-			save_scope_as = kingdom_03
-		}
-		random_kingdom = {
-			limit = {
-				valid_for_legendary_integration_k = yes
-				NOT = {
-					this = root.primary_title
-					this = scope:kingdom_01
-					this = scope:kingdom_02
-					this = scope:kingdom_03
-				}
+			else_if = {
+				limit = { exists = scope:kingdom_03 }
+				save_scope_as = kingdom_04
 			}
-			save_scope_as = kingdom_04
-		}
-		random_kingdom = {
-			limit = {
-				valid_for_legendary_integration_k = yes
-				NOT = {
-					this = root.primary_title
-					this = scope:kingdom_01
-					this = scope:kingdom_02
-					this = scope:kingdom_03
-					this = scope:kingdom_04
-				}
+			else_if = {
+				limit = { exists = scope:kingdom_02 }
+				save_scope_as = kingdom_03
 			}
-			save_scope_as = kingdom_05
-		}
-		random_kingdom = {
-			limit = {
-				valid_for_legendary_integration_k = yes
-				NOT = {
-					this = root.primary_title
-					this = scope:kingdom_01
-					this = scope:kingdom_02
-					this = scope:kingdom_03
-					this = scope:kingdom_04
-					this = scope:kingdom_05
-				}
+			else_if = {
+				limit = { exists = scope:kingdom_01 }
+				save_scope_as = kingdom_02
 			}
-			save_scope_as = kingdom_06
+			else = { save_scope_as = kingdom_01 }
 		}
 	}
 
@@ -500,72 +505,42 @@ ce1_decision_events.1010 = {
 	type = character_event
 	title = ce1_decision_events.1010.t
 	desc = ce1_decision_events.1010.desc
-	theme = martial
+	theme = legend
 	left_portrait = {
 		character = root
 		animation = personality_honorable
 	}
+	override_background = { reference = throne_room }
 
 	immediate = {
 		play_music_cue = "mx_cue_positive_effect"
-		random_duchy = {
+		ordered_realm_de_jure_duchy = {
 			limit = {
 				valid_for_legendary_integration_d = yes
 			}
-			save_scope_as = duchy_01
-		}
-		random_duchy = {
-			limit = {
-				valid_for_legendary_integration_d = yes
-				this != scope:duchy_01
+			max = 6
+			check_range_bounds = no
+			if = {
+				limit = { exists = scope:duchy_05 }
+				save_scope_as = duchy_06
 			}
-			save_scope_as = duchy_02
-		}
-		random_duchy = {
-			limit = {
-				valid_for_legendary_integration_d = yes
-				NOT = {
-					this = scope:duchy_01
-					this = scope:duchy_02
-				}
+			else_if = {
+				limit = { exists = scope:duchy_04 }
+				save_scope_as = duchy_05
 			}
-			save_scope_as = duchy_03
-		}
-		random_duchy = {
-			limit = {
-				valid_for_legendary_integration_d = yes
-				NOT = {
-					this = scope:duchy_01
-					this = scope:duchy_02
-					this = scope:duchy_03
-				}
+			else_if = {
+				limit = { exists = scope:duchy_03 }
+				save_scope_as = duchy_04
 			}
-			save_scope_as = duchy_04
-		}
-		random_duchy = {
-			limit = {
-				valid_for_legendary_integration_d = yes
-				NOT = {
-					this = scope:duchy_01
-					this = scope:duchy_02
-					this = scope:duchy_03
-					this = scope:duchy_04
-				}
+			else_if = {
+				limit = { exists = scope:duchy_02 }
+				save_scope_as = duchy_03
 			}
-			save_scope_as = duchy_05
-		}
-		random_duchy = {
-			limit = {
-				valid_for_legendary_integration_d = yes
-				NOT = {
-					this = scope:duchy_01
-					this = scope:duchy_02
-					this = scope:duchy_03
-					this = scope:duchy_04
-					this = scope:duchy_05
-				}
+			else_if = {
+				limit = { exists = scope:duchy_01 }
+				save_scope_as = duchy_02
 			}
-			save_scope_as = duchy_06
+			else = { save_scope_as = duchy_01 }
 		}
 	}
 
@@ -648,6 +623,128 @@ ce1_decision_events.1010 = {
 	}
 }
 
+ce1_decision_events.1015 = {
+	type = character_event
+	title = ce1_decision_events.1015.t
+	desc = ce1_decision_events.1015.desc
+	theme = legend
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	override_background = { reference = throne_room }
+
+	immediate = {
+		play_music_cue = "mx_cue_positive_effect"
+		ordered_realm_de_jure_empire = {
+			limit = {
+				valid_for_legendary_integration_e = yes
+			}
+			max = 6
+			check_range_bounds = no
+			if = {
+				limit = { exists = scope:empire_05 }
+				save_scope_as = empire_06
+			}
+			else_if = {
+				limit = { exists = scope:empire_04 }
+				save_scope_as = empire_05
+			}
+			else_if = {
+				limit = { exists = scope:empire_03 }
+				save_scope_as = empire_04
+			}
+			else_if = {
+				limit = { exists = scope:empire_02 }
+				save_scope_as = empire_03
+			}
+			else_if = {
+				limit = { exists = scope:empire_01 }
+				save_scope_as = empire_02
+			}
+			else = { save_scope_as = empire_01 }
+		}
+	}
+
+	option = { #Empire 1 please
+		name = ce1_decision_events.1015.a
+		trigger = {
+			exists = scope:empire_01
+		}
+		ce1_dec_1015_integrate = {
+			EMPIRE = scope:empire_01
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = { #Empire 2 please
+		name = ce1_decision_events.1015.b
+		trigger = {
+			exists = scope:empire_02
+		}
+		ce1_dec_1015_integrate = {
+			EMPIRE = scope:empire_02
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = { #Empire 3 please
+		name = ce1_decision_events.1015.c
+		trigger = {
+			exists = scope:empire_03
+		}
+		ce1_dec_1015_integrate = {
+			EMPIRE = scope:empire_03
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = { #Empire 4 please
+		name = ce1_decision_events.1015.d
+		trigger = {
+			exists = scope:empire_04
+		}
+		ce1_dec_1015_integrate = {
+			EMPIRE = scope:empire_04
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = { #Empire 5 please
+		name = ce1_decision_events.1015.e
+		trigger = {
+			exists = scope:empire_05
+		}
+		ce1_dec_1015_integrate = {
+			EMPIRE = scope:empire_05
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = { #Empire 6 please
+		name = ce1_decision_events.1015.f
+		trigger = {
+			exists = scope:empire_06
+		}
+		ce1_dec_1015_integrate = {
+			EMPIRE = scope:empire_06
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
 # Pacifist conversion
 ce1_decision_events.1020 = {
 	type = character_event
@@ -703,6 +800,12 @@ ce1_decision_events.1020 = {
 				right_icon = scope:liege_convert
 				scope:liege_convert = {
 					set_character_faith = scope:leg_faith
+					if = {
+						limit = { 
+							scope:leg_faith = { has_doctrine = doctrine_monotheist }
+						}
+						custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+					}
 				}
 			}
 		}
@@ -716,7 +819,7 @@ ce1_decision_events.1020 = {
 				ai_rationality = -0.75
 			}
 			opinion_modifier = {
-				opinion_target = root
+				opinion_target = scope:legendary_character
 				multiplier = 1
 			}
 		}
@@ -767,6 +870,12 @@ ce1_decision_events.1021 = {
 	option = { # Convert I shall!
 		name = ce1_decision_events.1021.a
 		set_character_faith = scope:leg_faith
+		if = {
+			limit = { 
+				scope:leg_faith = { has_doctrine = doctrine_monotheist }
+			}
+			custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+		}
 		ai_chance = {
 			base = 100
 			ai_value_modifier = {

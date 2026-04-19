@@ -193,3 +193,5 @@
  scheme_critical_moments.2925.a: "You will #EMP pay#! for this."
  scheme_critical_moments.2925.b: "[owner.GetSheHe|U] learned what happens to usurpers!"
  scheme_critical_moments.2925.c: "Blast that [owner.Custom2('InsultNoun', ROOT.Char)]!"
+ 
+ OWNER_IS_MY_MOVEMENT_MEMBER: "Is in the same [movement|E] as [owner.GetShortUIName]: $VALUE|+0=$"

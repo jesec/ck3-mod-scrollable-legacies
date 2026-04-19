@@ -288,7 +288,7 @@
  petition_liege_block_firing_councillor_effect_tt: "5년 동안 [council|E]에서 해임 불가"
  ### Modifiers ###
  #Control
- petition_liege_0101_county_control_effect_tt: "[control|E]이 66 미만인 모든 보유 중인 [Concept( 'counties', '영지' )|E]"
+ petition_liege_0101_county_control_effect_tt: "[control|E]이 66 미만인 모든 보유 중인 [Concept( 'Counties', '영지' )|E]"
  petition_liege_county_control_modifier: "왕실 집달관"
  petition_liege_county_control_modifier_desc: "해당 영지의 소유주가 질서 회복을 위해서는 주군의 집달관들의 도움이 필요하다고 요청했습니다."
  petition_liege_county_control_modifier_tt: "해당 변화 요소가 적용된 영지에서는 [increase_control|E]이 훨씬 빠르게 진행됨"

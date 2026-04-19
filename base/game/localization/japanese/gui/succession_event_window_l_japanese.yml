@@ -239,6 +239,8 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_MAJAPAHIT_DESC: " あなたの名は、$e_majapahit$帝国の建国者として、スメル山の頂に永遠に刻まれます。"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RYUKYU_DESC: " あなたは諸島の氏族を統一した人物として、また$e_ruucuu_adj$帝国の創始者として記憶されるでしょう。"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SIAM_DESC: " あなたは$k_siam$王国の創始者として、人類の歴史に永遠に名を刻みました。"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC: " あなたは$k_brunei$王国の創始者として、アッラーの天の下で民を奮い立たせ、団結させた"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC: " ボルネオの信者たちはあなたのことを悪を退ける羊飼いとして、また$e_brunei$帝国の創始者として記憶するだろう"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC: " あなたの努力と勤勉さのおかげで、$k_israel$王国は誕生しました。"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC: " 誰もが不可能だと考えていましたが、あなたは$e_outremer$帝国を率い、世界で最も激しく争われた聖地を我が物にしました。"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC: " たとえアルプスの頂に登っても、あなたが建国した$k_switzerland$王国の全貌を見渡すことはできないでしょう。"

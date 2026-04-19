@@ -126,7 +126,7 @@
  wanderer_internal_affairs_focus_effect: ""
  wanderer_internal_affairs_focus_modifier: "$wanderer_internal_affairs_focus$"
  wayfarer_name: "徒歩旅行者"
- voyager_name: "航海者"
+ voyager_name: "探索者"
  surveyor_name: "視察官"
  #Adventurers
  diplomacy_adventurer_focus: "使者"

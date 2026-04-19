@@ -5,6 +5,7 @@
  offer_tributary_status_interaction_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip]は以前あなたから$game_concept_tributary$となるよう要求されたことに、いまだに怒っている。"
  offer_tributary_status_interaction_tributary_was_recently_subjugated: "[recipient.GetShortUINameNoTooltip]は、最近[recipient.GetHerHis]の[suzerain|E]に従属させられた"
  offer_tributary_status_interaction_warred_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip]は、以前あなたの$game_concept_tributary$になろうとした時に受けた威圧を、いまだに忘れていない"
+ offer_tributary_status_interaction_cant_use_tributaries_tt: "[actor.GetShortUINamePossessive|U]の[government|E]タイプは[tributaries|E]を許可していない"
  offer_tributary_status_interaction_suzerain_intervene.t: "[recipient.GetShortUINamePossessive|U]の[suzerain|E]が介入する"
  offer_tributary_status_interaction_suzerain_starts_war_tt: "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUIName|U]は[casus_belli|E]「[GetCasusBelliType('make_tributary_cb').GetName]」により[recipient.GetShortUIName]と戦争を開始します#!"
  offer_tributary_status_interaction_suzerain_nothing.t: "[recipient.GetShortUINamePossessive|U]の[suzerain|E]は何もしない"

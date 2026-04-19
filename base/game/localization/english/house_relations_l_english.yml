@@ -1,5 +1,5 @@
 ﻿l_english: 
- house_relation: "[DYNASTY_HOUSE.GetName]-[DYNASTY_HOUSE_2.GetName]"
+ house_relation: "[DYNASTY_HOUSE.GetBaseNameNoTooltip]-[DYNASTY_HOUSE_2.GetBaseNameNoTooltip]"
  house_relation_tooltip:  "[HOUSE_RELATION.GetLevel.GetDesc]\n"
  house_relation_change_from_decay: "Decay"
  HOUSE_RELATION_COMPLEX_BAR_ITEM_TOOLTIP: "#T [HouseRelationLevel.GetName]#!\n[HouseRelationLevel.GetParameterDesc]"
@@ -63,6 +63,7 @@
  house_relation_reason_appointment_competition_desc: "[char.GetShortUIName|U] competed with [target_char.GetShortUIName] for appointment to [title.GetDefinitiveName]"
  house_relation_reason_appointment_support_desc: "[char.GetShortUIName|U] supported [target_char.GetShortUINamePossessive] appointment to [title.GetDefinitiveName]"
  house_relation_reason_title_revocation_desc: "[char.GetShortUIName|U] revoked [title.GetDefinitiveName] from [target_char.GetShortUINamePossessive]"
+ house_relation_reason_title_grant_desc: "[char.GetShortUIName|U] granted a title to [target_char.GetShortUIName]"
  house_relation_reason_granted_bloc_leadership_desc: "[char.GetShortUIName|U] granted leadership of their house bloc to [target_char.GetShortUIName]"
  house_relation_reason_broke_grand_wedding_promise_desc: "[char.GetShortUINamePossessive|U] and [target_char.GetShortUINamePossessive] grand wedding promise was broken"
  house_relation_reason_raided_estate_desc: "[char.GetShortUIName|U] raided [target_char.GetShortUINamePossessive] estate"
@@ -104,6 +105,8 @@
  house_relation_reason_feud_raid_estate: "[house_feud_victim.GetFirstNamePossessive] estate was raided by [house_feud_attacker.GetFirstName]"
  house_relation_reason_feud_stolen_herd: "[house_feud_attacker.GetFirstNamePossessive] stole [house_feud_victim.GetFirstNamePossessive] herd"
 
+ house_relation_reason_disciple_sent_condolences_desc: "[target_char.GetShortUINamePossessive] bereaved kin received condolences from [target_char.GetHerHis] [disciple|E], [char.GetShortUIName]"
+
  # Effects
  clear_house_relation_third: "Ends [HOUSE_RELATION.GetName()] [house_relation|E]"
 
@@ -130,18 +133,18 @@
 
  house_relation_alliance_trigger: "Have a Friendly [house_relation|E]"
 
- house_relation_set_message_title: "House Relation Established"
+ house_relation_set_message_title: "Relations Established: [HOUSE_RELATION.GetNameNoTooltip|V]"
  house_relation_set_message_desc: "[house_relation.GetName] [house_relation|E] is now [house_relation.GetLevel.GetName|V]\n\n[house_relation.GetLatestChangeDescription]"
 
- house_relation_improved_message_title: "House Relation Improves"
+ house_relation_improved_message_title: "Relations Improved: [HOUSE_RELATION.GetNameNoTooltip|V]"
  house_relation_improved_message_desc: "[HOUSE_RELATION.GetName] [HOUSE_RELATION.GetLevel.GetName|V] [house_relation|E] #P improved#!\n\n[HOUSE_RELATION.GetLatestChangeDescription] [HOUSE_RELATION.GetLatestChangeIfExists]"
 
- house_relation_damaged_message_title: "House Relation Deteriorates"
+ house_relation_damaged_message_title: "Relations Damaged: [HOUSE_RELATION.GetNameNoTooltip|V]"
  house_relation_damaged_message_desc: "[HOUSE_RELATION.GetName] [HOUSE_RELATION.GetLevel.GetName|V] [house_relation|E] #N damaged#!\n\n[HOUSE_RELATION.GetLatestChangeDescription] [HOUSE_RELATION.GetLatestChangeIfExists]"
 
- house_relation_latest_change_amount: "#weak ([HOUSE_RELATION.GetLatestChangeAmount|=+%0])#!"
+ house_relation_latest_change_amount: "#weak ([HOUSE_RELATION.GetLatestChangeAmount|=+%^])#!"
 
- house_relation_cleared_message_title: "House Relation Ends"
+ house_relation_cleared_message_title: "Relations End: [house_relation.GetNameNoTooltip|V]"
  house_relation_cleared_message_desc: "[house_relation.GetName] [house_relation.GetLevel.GetName|V] [house_relation|E] has ended"
 
  house_relation_improved_minor_desc: "[houses|E] [CHARACTER.GetHouse.GetName] and [TARGET_CHARACTER.GetHouse.GetName] moves #P slightly more friendly#!"

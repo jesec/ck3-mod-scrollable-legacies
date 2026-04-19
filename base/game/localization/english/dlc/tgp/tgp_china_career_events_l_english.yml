@@ -43,3 +43,11 @@
  merit_rank_3_gloss: "[Glossary('upper-lower','MERIT_UPPER_LOWER_GLOSS')]"
  merit_rank_2_gloss: "[Glossary('upper-middle','MERIT_UPPER_MIDDLE_GLOSS')]"
  merit_rank_1_gloss: "[Glossary('upper-upper','MERIT_UPPER_UPPER_GLOSS')]"
+
+ tgp_china_career.0030.t: "The Passing of a Sage"
+ tgp_china_career.0030.desc: "My elder, [deceased_elder.GetFirstName], has passed from this world: I am told [deceased_elder.GetSheHe] [deceased_elder.GetDeathReason]. Already I begin to feel [deceased_elder.GetHerHis] absence; the reflexive rise of a question halted a half-breath from my tongue when I realize there is no one left to answer it.\n\nYet such fleeting sentiments must inevitably give way to the worldly weight of more practical concerns; the burial and mourning rites, as well as the question of who shall assume my [deceased_elder.Custom('MistressMasterPossessive')|U] mantle and carry on in [deceased_elder.GetHerHis] stead."
+ tgp_china_career.0030.a: "[deceased_elder.GetFirstNamePossessiveNoTooltip] journey has ended, but mine must continue."
+ tgp_china_career.0030.a.tt: "You will seek a new [elder|U] among the great and influential"
+ tgp_china_career.0030.b: "Send [deceased_elder.GetHerHis] kin my condolences, and a token of my respect."
+ tgp_china_career.0030.c: "[superior_fellow_disciple.GetFirstNameNoTooltip] is the most worthy of us to continue [deceased_elder.Custom('MistressMasterPossessive')|U] work."
+ tgp_china_career.0030.d: "I shall inherit [deceased_elder.GetHerHis] will and continue [deceased_elder.GetHerHis] Way."

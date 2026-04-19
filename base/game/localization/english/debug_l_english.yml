@@ -241,7 +241,8 @@
  ai_sociability_trigger:0 "AI sociability"
  ai_values_divergence_trigger:0 "[TARGET_CHARACTER.GetShortUINamePossessive] AI values divergence: $VALUE|V$"
 
- has_province_modifier_trigger:0 "Has Province modifier"
+ has_province_modifier_trigger:0 "Has $MODIFIER|V$ [province|E] [modifier|E]"
+ NOT_has_province_modifier_trigger:0 "Does #bold not#! have $MODIFIER|V$ [province|E] [modifier|E]"
  current_day_trigger:0 "Current Day is"
  current_month_trigger:0 "Current Month is"
  current_year_trigger:0 "Current Year is"

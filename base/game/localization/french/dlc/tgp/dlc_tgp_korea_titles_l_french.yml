@@ -16,6 +16,9 @@
  # CHAE - 채
  c_nf_chae_pyeonggang: "$c_nf_korea_suffix$ Pyeonggang $dynn_Chae_8521$"
  c_nf_chae_pyeonggang_article: "$FR_empty$"
+ # CHEOK - 척
+ c_nf_cheok_goksan: "$c_nf_korea_suffix$ Gokju $dynn_Cheok_62D3$"
+ c_nf_cheok_goksan_article: "$FR_empty$"
  # CHOE - 최
  c_nf_choe_dongju: "$c_nf_korea_suffix$ Dongju $dynn_Choe_5D14$"
  c_nf_choe_dongju_article: "$FR_empty$"
@@ -25,7 +28,7 @@
  c_nf_choe_haeju_article: "$FR_empty$"
  c_nf_choe_jiksan: "$c_nf_korea_suffix$ Jiksan $dynn_Choe_5D14$"
  c_nf_choe_jiksan_article: "$FR_empty$"
- c_nf_choe_suwon: "$c_nf_korea_suffix$ Suwon $dynn_Choe_5D14$"
+ c_nf_choe_suwon: "$c_nf_korea_suffix$ Suju $dynn_Choe_5D14$"
  c_nf_choe_suwon_article: "$FR_empty$"
  c_nf_choe_ubong: "$c_nf_korea_suffix$ Ubong $dynn_Choe_5D14$"
  c_nf_choe_ubong_article: "$FR_empty$"
@@ -65,8 +68,14 @@
  # GO - 경
  c_nf_go_jeju: "$c_nf_korea_suffix$ Jeju $dynn_Go_9AD8$"
  c_nf_go_jeju_article: "$FR_empty$"
+ # GWAK - 곽
+ c_nf_gwak_cheongju: "$c_nf_korea_suffix$ Cheongju $dynn_Gwak_90ED$"
+ c_nf_gwak_cheongju_article: "$FR_empty$"
+ # GWON - 권
+ c_nf_gwon_andong: "$c_nf_korea_suffix$ Andong $dynn_Gwon_6B0A$"
+ c_nf_gwon_andong_article: "$FR_empty$"
  # GYEON - 견
- c_nf_gyeon_gaeunhyeon: "$c_nf_korea_suffix$ Gaeunhyeon $dynn_Gyeon_7504$"
+ c_nf_gyeon_gaeunhyeon: "$c_nf_korea_suffix$ Sangju $dynn_Gyeon_7504$"
  c_nf_gyeon_gaeunhyeon_article: "$FR_empty$"
  # GYEONG - 경
  c_nf_gyeong_cheongju: "$c_nf_korea_suffix$ Cheongju $dynn_Gyeong_6176$"
@@ -122,11 +131,16 @@
  # WANG - 왕
  c_nf_wang_goryeo: "$c_nf_korea_suffix$ Gaeseong $dynn_Wang_738B_KO$"
  c_nf_wang_goryeo_article: "$FR_empty$"
+ c_nf_wang_seohae: "$c_nf_korea_suffix$ Seohae $dynn_Wang_738B_KO$"
+ c_nf_wang_seohae_article: "$FR_empty$"
  # YANG - 양
  c_nf_yang_anak: "$c_nf_korea_suffix$ Anak $dynn_Yang_694A_KO$"
  c_nf_yang_anak_article: "$FR_empty$"
  c_nf_yang_wonju: "$c_nf_korea_suffix$ Wonju $dynn_Yang_6881$"
  c_nf_yang_wonju_article: "$FR_empty$"
+ # YEOM - 염
+ c_nf_yeom_paju: "$c_nf_korea_suffix$ Papyeong $dynn_Yeom_5EC9$"
+ c_nf_yeom_paju_article: "$FR_empty$"
  # YU - 윤
  c_nf_yu_pyeongsan: "$c_nf_korea_suffix$ Pyeongsan $dynn_Yu_5EBE$"
  c_nf_yu_pyeongsan_article: "$FR_empty$"

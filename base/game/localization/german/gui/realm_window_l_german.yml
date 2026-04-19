@@ -24,7 +24,7 @@
  DOMAIN_LIMIT_MAXIMUM_MODIFIER: "@warning_icon! Über Maximum"
  STEWARDSHIP_DOMAIN_LIMIT: "[stewardship|E]"
  VASSAL_LIMIT_EXCEEDED_TOOLTIP: "@warning_icon!#X Über [vassal_limit|E]. Konsolidiert Eure [vassals|E] durch das Übertragen von Vasallen.#!\n\n#S Abzüge durch die Überschreitung der Schwelle#!"
- VASSAL_LIMIT_OVERRUN_EFFECT: "[Concept('vassal', 'Vasallen')|E]-[levies|E]: $LEVY|+%0$\n Vasallen-[taxes|E]: $TAX|+%0$"
+ VASSAL_LIMIT_OVERRUN_EFFECT: "  Vasallen-[levies|E]: $LEVY|+%0$\n Vasallen-[taxes|E]: $TAX|+%0$"
  VASSAL_LIMIT_OVERRUN_EFFECT_NOMAD: "  Vasallen-[herd|E]: $HERD|+%0$"
  VASSAL_LIMIT_MINIMUM_MODIFIER: "@warning_icon! Unter Minimum"
  VASSAL_LIMIT_MAXIMUM_MODIFIER: "@warning_icon! Über Maximum"

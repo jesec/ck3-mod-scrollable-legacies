@@ -1,4 +1,4 @@
-#k_bale
+﻿#k_bale
 ##d_shabelle ###################################
 ###c_gode
 8499 = {	#GODE
@@ -88,12 +88,12 @@
 ##d_samalo ###################################
 ###c_marsabit
 8488 = {	#LAGH_BOGAL
+	holding = none
+}
+8489 = {	#MARSABIT
 	culture = welayta
 	religion = waaqism_pagan
 	holding = tribal_holding
-}
-8489 = {	#MARSABIT
-	holding = none
 }
 
 ###c_fudalhi

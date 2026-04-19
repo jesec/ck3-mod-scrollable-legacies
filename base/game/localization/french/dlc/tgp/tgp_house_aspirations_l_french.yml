@@ -68,7 +68,7 @@
  house_power_parameter_strength_train_with_troops_decision: "Débloque la [decision|El] d’#high inspirer les troupes#!"
  #House Aspiration - Prosperity
  house_power_parameter_improved_stewardship_court_position_efficiency: "Amélioration de la [aptitude|El] pour les [court_positions|El] en [stewardship|El]"
- ceremony_house_power_tt: "Nécessite l’[house_aspiration|El] #V $ceremony_house_power$#!"
+ ceremony_house_power_tt: "Nécessite l’[house_aspiration|El] #V $ceremony_house_power_level_02$ $ceremony_house_power$#!"
  determination_house_power_tt: "Nécessite l’[house_aspiration|El] #V $determination_house_power$#!"
  humility_house_power_tt: "Nécessite l’[house_aspiration|El] #V $humility_house_power$#!"
  prosperity_house_power_tt: "Nécessite l’[house_aspiration|El] #V $prosperity_house_power$#!"

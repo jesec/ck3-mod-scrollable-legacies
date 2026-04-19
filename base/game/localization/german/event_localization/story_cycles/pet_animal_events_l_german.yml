@@ -160,7 +160,7 @@
  pet_animal.1113.a: "[ROOT.Char.Custom('DogStoryName')] wird an meiner Seite sein."
  pet_animal.1113.a_success: "[ROOT.Char.Custom('DogStoryName')] benimmt sich"
  pet_animal.1113.a_success.tt: "Nichts Schlimmes passiert"
- every_councillor: "Jedes Ratsmitglied"
+ every_councillor: "Jedes [councillor|E]"
  pet_animal.1113.a_failure: "[ROOT.Char.Custom('DogStoryName')] tut nichts, aber"
  pet_animal.1113.a_failure.tt: "Etwas … Schlimmes passiert"
  pet_animal.1113.b: "Ein Hund hat bei einem Ratstreffen nichts zu suchen."

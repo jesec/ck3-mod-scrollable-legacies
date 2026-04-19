@@ -248,6 +248,8 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_MAJAPAHIT_DESC: " Your name is eternally engraved on the peaks of Mount Semeru as the founder of the $e_majapahit$ Empire"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RYUKYU_DESC: " You shall be remembered as the one who united the clans of the islands, and the founder of a $e_ruucuu_adj$" empire"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SIAM_DESC: " You have carved your name eternally on the history of men, as the founder of the $k_siam$" Kingdom"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC: " You have inspired your people and united them under the heavens of Allah, as the founder of the $k_brunei$ Kingdom"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC: " Believers of Borneo will remember you as their shepherd to keep the evil at bay, as the founder of the $e_brunei$ Empire"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC:0 " It was due to your hard work and diligence that the Kingdom of $k_israel$ was created."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC:0 " None thought it could be done, but you dominated the most contested holy region in the world as the Empire of $e_outremer$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC:0 " One may climb the Alps and still not see all that was yours after you founded the Kingdom of $k_switzerland$."

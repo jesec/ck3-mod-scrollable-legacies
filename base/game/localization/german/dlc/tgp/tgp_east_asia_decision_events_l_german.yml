@@ -3,7 +3,7 @@
  tgp_east_asia_decision_events.0010.desc: "Manchmal stammt die Erleuchtung aus den unerwartetsten Quellen.\n\nDie Mandala-Herrschaft über ein Reich spricht auf einer … höheren Ebene zu mir. Meine Existenz dient sicher einem höheren Zweck: der Einigung des Reichs unter meiner göttlichen und wohlmeinenden Herrschaft.\n\n#EMP ‚Gepriesen sei Devaraja [ROOT.Char.GetFirstNameNoTooltip]‘#! hat einen schönen Klang …"
  tgp_east_asia_decision_events.0010.a: "Möge #EMP dies#! mein erster Erlass sein."
  tgp_east_asia_decision_events.0010.b: "Das Besitztum in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] ist eines Tempels nicht würdig, #EMP und doch#! …"
- warning_mandala_capital_building_only_built_in_citadels_tt: "\n@alert_icon! #alert_trial Das [great_building|E] „[mandala|E]-[GetBuilding('mandala_capital_01').GetName]“ kann nur errichtet werden, wenn Euer [capital|E] ein [Concept('temple_citadel', 'Tempelzitadellen')|E]-[holding|E] ist#!"
+ tgp_east_asia_decision_events.0010.b_temple_citadel: "Mein Tempel steht bereits prächtig in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]!"
  all_tribal_holdings_will_change_to_citadels: "Alle [tribal_holdings|E] im Reich werden [temple_citadel_holdings|E]"
  realm_capital_will_change_to_citadel: "Das [realm_capital|E]-[holding|E] wird ein [temple_citadel_holding|E]"
  tgp_east_asia_decision_events.0015.opening: "[overlord.Custom2('AppropriateGreeting', ROOT.Char)]"

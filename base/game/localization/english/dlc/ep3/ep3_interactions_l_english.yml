@@ -170,6 +170,7 @@
  admin_liege_modify_vassal_contract_interaction_desc: "Change the administration for [recipient.GetShortUINamePossessiveNoTooltip] [actor.Custom( 'GetProvinceConcept' )]"
  admin_liege_modify_vassal_contract_interaction_extra_icon: "$hook_extra_icon$"
  OPTION_DOMINANT_FAMILY: "Leverage position of [dominant_family|E]"
+ OPTION_CLEAR_DEBT: "Clear [treasury_i][treasury_debt|E]"
  AI_POWERFUL_FAMILY: "You belong to a [powerful_family|E]: $VALUE|=+0$"
  AI_GOVERNOR_EFFICIENCY: "Your [governor_efficiency|E]: $VALUE|=+0$"
  AI_SAME_HOUSE: "You are a member of [recipient.GetShortUINamePossessive] [house|E]: $VALUE|=+0$"
@@ -225,7 +226,7 @@
  PURCHASE_LAND_IS_IN_DEBT_REASON: "[recipient.GetName] is in [debt|E]: $VALUE|+=0$"
  ep3_ennobled_adventurer_modifier_reason_3: "Due to the [new_primary_title.GetAdjective] people's #EMP #N Abysmal#!#! opinion of you:"
  ep3_ennobled_adventurer_modifier_reason_2: "Due to the [new_primary_title.GetAdjective] people's #EMP #N Horrible#!#! opinion of you:"
- ep3_ennobled_adventurer_modifier_reason_1: "Due to the [new_primary_title.GetAdjective] people's #EMP #N Bad#!#! of you:"
+ ep3_ennobled_adventurer_modifier_reason_1: "Due to the [new_primary_title.GetAdjective] people's #EMP #N Bad#!#! opinion of you:"
  ep3_ennobled_adventurer_modifier_rules: "#weak To lessen the above modifier's penalty, you need to have high enough [prestige_level|E], and either you, or your [primary_spouse|E], or [primary_heir|E], need to be of the same [culture|E] and [faith|E] as [new_primary_title.GetNameNoTier]#!"
 
  request_laamp_invasion_sponsorship_interaction: "Ask for Invasion Sponsorship"
@@ -492,7 +493,7 @@
  seize_realm_target_lost_titles_tt: "[target.GetTitledFirstName] is no longer landed"
  seize_realm_target_not_independent_tt: "[target.GetTitledFirstName] is no longer independent"
  seize_realm_invalidate_fallback_tt: "I am no longer able to seize [target.GetTitledFirstNamePossessive] realm"
- seize_realm_valid_government_tt: "[THIS.Char.GetShortUIName|U] must have the [GetGovernment('feudal_government').GetName], [GetGovernment('clan_government').GetName], or [GetGovernment('tribal_government').GetName] [government|E]"
+ seize_realm_valid_government_tt: "[THIS.Char.GetShortUIName|U] must have the [GetGovernment('feudal_government').GetName], [GetGovernment('japan_feudal_government').GetName], [GetGovernment('clan_government').GetName], [GetGovernment('mandala_government').GetName], [GetGovernment('wanua_government').GetName], or [GetGovernment('tribal_government').GetName] [government|E]"
  seize_realm_interaction: "$seize_realm$ #weak (Scheme)#!"
  seize_realm_interaction_message: "Realm Seized"
  start_seize_realm_interaction_notification: "$seize_realm$"
@@ -915,7 +916,7 @@
  PROCURE_ESTATE_LOW_RANK_TT: "Recipient's [rank|E] is too low"
  PROCURE_ESTATE_AT_WAR_TT: "You are at war with this [ruler|E]"
 
- ep3_interactions_events.0610.t: "A Home for [ROOT.Char.GetHouse.GetNameNoTooltip]"
+ ep3_interactions_events.0610.t: "A Home for the [ROOT.Char.GetHouse.GetNameNoTooltip]"
  ep3_interactions_events.0610.desc: "[emperor.GetPrimaryTitle.GetName|U]. Where bureaucrats scratch out mind-numbing laws, where painted mouths whisper amidst palatial wonders... and where I have purchased a fine estate.\n\n"
  ep3_interactions_events.0610.desc_emperor: "By the beneficence of [emperor.GetTitledFirstNameRegnal] [emperor.GetHerselfHimself] I am afforded a place here, nestled in the noise of grand [emperor.GetCapitalLocation.GetTitle.GetNameNoTier]."
  ep3_interactions_events.0610.desc_governor: "[recipient.GetNamePossessive] advocacy lends me access to [recipient.GetHerHis] political world, makes me welcome in [recipient.GetHerHis] provincial [recipient.GetCapitalLocation.GetTitle.GetNameNoTier]."
@@ -1120,3 +1121,7 @@
  ep3_mass_arrests_interaction: "Order Mass Arrests"
  ep3_mass_arrests_interaction_desc: "Order every member of the [recipient.GetHouse.GetName] [family|E] to be arrested, as there is only one way to be sure that they cannot move against me: #EMP clap them all in irons.#!"
  estate_is_in_capital_desc: "[recipient.GetShortUINamePossessive|U] [estate|E] must be located in the [realm_capital|E]"
+
+ YOU_ARE_AN_ADVENTURER_REASON: "You are an [adventurer|E]: $VALUE|=+0$"
+ ADVENTURER_SUZERAIN_REASON: "I have a [suzerain|E]: $VALUE|=+0$"
+ ADVENTURER_MILITARY_POWER_REASON: "Your [military_power|E]: $VALUE|=+0$"

@@ -86,6 +86,7 @@
  minister_of_revenue_desc: "[minister_of_revenue|E]"
  minister_of_revenue_desc_with_value: "[minister_of_revenue|E]：$VALUE|+0=$"
  is_a_minister_desc: "[minister|E]である"
+ is_not_a_minister_desc: "[minister|E]ではない"
  recipient_is_a_minister_desc: "[recipient.GetShortUIName|U]は[minister|E]である"
  target_is_a_minister_desc: "[CHARACTER.GetShortUIName|U]は[minister|E]である"
  you_are_not_a_minister_desc: "あなたは[minister|E]#bold ではない#!"

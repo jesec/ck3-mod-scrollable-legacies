@@ -52,6 +52,7 @@
  death_management.liege_councillor.desc: "당신의 [councillor|E]인 [dead_character.GetFullName](이)가 [dead_character.GetDeathReason]했습니다."
  death_management.liege.desc: "당신의 [vassal|E]인 [dead_character.GetFullName](이)가 [dead_character.GetDeathReason]했습니다."
  death_management.pinned.desc: "요주의 인물이었던 [dead_character.GetFullName](이)가 [dead_character.GetDeathReason]했습니다."
+ death_management.elder.desc: "당신의 [elder|E] [deceased_elder.GetFullName](이)가 [deceased_elder.GetDeathReason]했습니다."
  death_management.1008.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))]인 [spouse_of_dead_character.GetFirstName]의 배우자, [dead_character.GetTitledFirstName](이)가 세상을 떠났다. [ROOT.Char.GetFaith.DeathDeityNamePossessive] 갑작스러운 변덕 때문에 신중하게 세웠던 계획들은 전부 물거품이 되고 말았다. 그런 불평마저도 [dead_character.GetHerHis] 가족이 겪을 고통에 비한다면 사소하기 그지없는 사안이겠지만..."
  death_management.1008.a: "편히 잠들기를."
  death_management.1008.a.tt: "[spouse_of_dead_character.GetFirstName]의 배우자인 [dead_character.GetTitledFirstName](이)가 [dead_character.GetDeathReason]했습니다."

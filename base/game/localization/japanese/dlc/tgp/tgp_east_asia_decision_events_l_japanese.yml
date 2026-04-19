@@ -3,7 +3,7 @@
  tgp_east_asia_decision_events.0010.desc: "予想外なことから天啓が得られることもある。\n\nマンダラによる治世は、私とともにより高い次元で共鳴する。私という存在は、神聖かつ慈悲深い我が支配の下に領国を統一するという、より大きな目的のためにあるに違いない。\n\n#EMP 「デーヴァラージャ[ROOT.Char.GetFirstNameNoTooltip]、万歳」#!、良い響きである…"
  tgp_east_asia_decision_events.0010.a: "#EMP これ#!を私の最初の勅令としよう。"
  tgp_east_asia_decision_events.0010.b: "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]の領分は、#EMP まだ#!寺院を与えるには値しない…"
- warning_mandala_capital_building_only_built_in_citadels_tt: "\n@alert_icon! #alert_trial [mandala|E]制の[great_building|E]「[GetBuilding('mandala_capital_01').GetName]」は、[capital|E]が[temple_citadel|E][Concept('holding', '領')|E]にある場合にしか建設できません#!"
+ tgp_east_asia_decision_events.0010.b_temple_citadel: "私の寺院はすでに[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]に立派に建っている！"
  all_tribal_holdings_will_change_to_citadels: "領国のすべての[tribal_holdings|E]が[temple_citadel_holdings|E]になる"
  realm_capital_will_change_to_citadel: "[realm_capital|E]の[holding|E]が[temple_citadel_holding|E]になる"
  tgp_east_asia_decision_events.0015.opening: "[overlord.Custom2('AppropriateGreeting', ROOT.Char)]"

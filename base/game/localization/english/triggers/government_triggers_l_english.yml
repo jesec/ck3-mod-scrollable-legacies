@@ -3,6 +3,7 @@
  GOVERNMENT_HAS_FLAG_TRIGGER:1 "[government|E] $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "Your [government|E] $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_THIRD:0 "[CHARACTER.GetShortUINamePossessive|U] [government|E] $FLAG$"
+ NONE_GOVERNMENT_HAS_FLAG_TRIGGER: "Their [government|E] $FLAG$"
 
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER:0 "Requires that [government|E] $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "Requires that your [government|E] $FLAG$"

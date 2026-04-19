@@ -1136,7 +1136,7 @@
  action_active_learning_oath_1: "$action_active_diplomacy_oath_1$"
  action_active_learning_oath_1_label: "[coronation_i] 맹세: $GetUniversityOathText$ [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
  action_active_learning_oath_1_desc: "당신은 자신의 [coronation|E]에서 #V $GetUniversityOathText$#! [oath|E]를 서약했습니다. 해당 맹세를 [RemainingTime('learning_oath_1_timer')]년 안에 완수하십시오."
- action_active_learning_oath_1_click: "$action_active_learning_oath_1_click$"
+ action_active_learning_oath_1_click: "$action_active_diplomacy_oath_1_click$"
  action_active_purge_pretenders_oath: "$action_active_diplomacy_oath_1$"
  action_active_purge_pretenders_oath_label: "[coronation_i] 맹세: $GetPurgePretendersOathText$ [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
  action_active_purge_pretenders_oath_desc: "당신은 자신의 [coronation|E]에서 #V $GetPurgePretendersOathText$#! [oath|E]를 서약했습니다. 해당 맹세를 [RemainingTime('purge_pretenders_oath_timer')]년 안에 완수하십시오."
@@ -1205,3 +1205,46 @@
  action_landless_admin_escape_to_realm: "다른 봉역으로 탈출"
  action_landless_admin_escape_to_realm_desc: "당신은 다른 [government|E] 형태를 지닌 [liege|E] 휘하의 비지주 [noble_family|E] [title|E] [holder|E]입니다\n\n#help 당신과 같은 [government|E]를 지닌 다른 [independent_rulers|E]에게 주군이 되어 줄 것을 부탁하고, 해당 영주의 [capital|E]로 [domicile|E]을 옮길 수 있습니다#!"
  action_landless_admin_escape_to_realm_click: "#I 클릭하여 $landless_admin_switch_non_admin_top_liege_interaction$ 상호작용 열기"
+ action_minister_can_imprison_label: "@minister![recipient.GetShortUINameNoTooltip] 투옥 가능"
+ action_minister_can_imprison_combined_group_label: "@minister!총독 투옥 가능"
+ action_minister_can_imprison_combined_label: "[recipient.GetShortUINameNoTooltip] 투옥 가능"
+ #tooltip heading
+ action_minister_can_imprison: "@minister!총독 투옥 가능"
+ action_minister_can_imprison_combined_group_name: "$action_minister_can_imprison_combined_group_label$"
+ #tooltip contents
+ action_minister_can_imprison_desc: "당신은 [criminal|E]로 알려진 [recipient.GetShortUIName](을)를 [imprison|E]할 수 있습니다#weak ([recipient.GetImprisonmentReasons( recipient.GetLiege )])#!."
+ action_minister_can_imprison_combined_group_description: "당신은 [criminals|E]로 알려진 [governors|E]을 [imprison|E]할 수 있습니다."
+ action_minister_can_imprison_click: "#I 클릭하여 $imprison_interaction$ 상호작용 열기#!"
+ action_minister_can_pardon_label: "@minister![recipient.GetShortUINameNoTooltip] 사면 가능"
+ action_minister_can_pardon_combined_group_label: "@minister!총독 사면 가능"
+ action_minister_can_pardon_combined_label: "[recipient.GetShortUINameNoTooltip] 사면 가능"
+ #tooltip heading
+ action_minister_can_pardon: "@minister!총독 사면 가능"
+ action_minister_can_pardon_combined_group_name: "$action_minister_can_pardon_combined_group_label$"
+ #tooltip contents
+ action_minister_can_pardon_desc: "당신은 [criminal|E]로 알려진 [recipient.GetShortUIName]의 [imprisonment_reason|E]#weak ([recipient.GetImprisonmentReasons( recipient.GetLiege )])#!를 [recipient.GetLiege.GetShortUIName](이)가 인정하도록 만들 수 있습니다."
+ action_minister_can_pardon_combined_group_description: "당신은 [criminals|E]로 알려진 [governors|E]의 [liege|E]에게 해당 인물의 [imprisonment_reason|E]를 인정하도록 강제할 수 있습니다."
+ action_minister_can_pardon_click: "#I 클릭하여 $pardon_interaction$ 상호작용 열기#!"
+ action_can_be_pardoned_by_minister_label: "@minister!당신은 [recipient.GetShortUINameNoTooltip]에게 당신을 사면하도록 요청할 수 있음"
+ #tooltip heading
+ action_can_be_pardoned_by_minister: "@minister!당신 사면 가능"
+ #tooltip contents
+ action_can_be_pardoned_by_minister_desc: "당신은 당신의 [liege|E] [actor.GetLiege.GetShortUIName](이)가 #V 당신#!의 [imprisonment_reason|E]#weak ([actor.GetImprisonmentReasons( actor.GetLiege )])#!를 인정하게 만들도록 [recipient.GetShortUIName]에게 요청할 수 있습니다."
+ action_can_be_pardoned_by_minister_unimportant: "@warning_icon! #X [recipient.GetShortUIName](은)는 수락하지 않을 것입니다.#!"
+ action_can_be_pardoned_by_minister_click: "#I 클릭하여 $ask_for_pardon_interaction$ 상호작용 열기#!"
+ action_pay_governors_treasury_debt_label: "@minister![recipient.GetShortUINamePossessiveNoTooltip] 국고 채무 상환 가능"
+ action_pay_governors_treasury_debt_combined_group_label: "@minister!총독의 국고 채무 상환 가능"
+ action_pay_governors_treasury_debt_combined_label: "[recipient.GetShortUINamePossessiveNoTooltip] 누적된 [treasury_debt|E]가 [treasury_i]#X [recipient.GetTreasury|0]#!"
+ #tooltip heading
+ action_pay_governors_treasury_debt: "@minister!총독의 국고 채무 상환 가능"
+ action_pay_governors_treasury_debt_combined_group_name: "$action_pay_governors_treasury_debt_combined_group_label$"
+ #tooltip contents
+ action_pay_governors_treasury_debt_desc: "당신은 [treasury_i][treasury|E]를 [recipient.GetShortUIName]에게 보내서 [recipient.GetHerHis] 장부를 정리할 수 있습니다."
+ action_pay_governors_treasury_debt_combined_group_description: "당신은 [treasury_i][treasury|E]를 [governors|E]에게 보내서 상대의 모든 [treasury_debt|E]를 상환할 수 있습니다."
+ action_pay_governors_treasury_debt_click: "#I 클릭하여 $action_pay_governors_treasury_debt$ 상호작용 열기#!"
+ action_minister_can_pay_treasury_debt_label: "@minister!당신의 국고 채무를 [recipient.GetShortUIName](이)가 정리 가능"
+ #tooltip heading
+ action_minister_can_pay_treasury_debt: "@minister![recipient.GetShortUIName](이)가 당신의 국고 채무 정리 가능"
+ #tooltip contents
+ action_minister_can_pay_treasury_debt_desc: "당신은 [minister_of_revenue|E], [recipient.GetShortUIName] 또는 [son_of_heaven|E]에게 [treasury_i][treasury|E]를 받아서 당신의 장부를 정리할 수 있습니다."
+ action_minister_can_pay_treasury_debt_click: "#I 클릭하여 $action_pay_governors_treasury_debt$ 상호작용 열기#!"

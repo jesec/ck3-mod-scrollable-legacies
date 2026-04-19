@@ -71,7 +71,7 @@
  ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS_BULLET: "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS$"
  ROYAL_COURT_STATUS_CGV_EXPECTATIONS: " [court_grandeur|E]가 [court_grandeur_expectations|E] 미만임"
  ROYAL_COURT_STATUS_CGV_EXPECTATIONS_BULLET: "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_CGV_EXPECTATIONS$"
- ROYAL_COURT_STATUS_CURRENT_EVENTS: "당신의 궁정 내에 [LocalPlayerCourtEvents.GetNumberCourtEvents|V]개의 미해결 상황 존재"
+ ROYAL_COURT_STATUS_CURRENT_EVENTS: "처리되지 않은 [LocalPlayerCourtEvents.GetNumberCourtEvents|V]개의 [Select_CString( GreaterThan_int32( LocalPlayerCourtEvents.GetNumberCourtEvents, '(int32)1' ), 'situations', 'situation' )](이)가 존재함"
  ROYAL_COURT_STATUS_CURRENT_EVENTS_BULLET: "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_CURRENT_EVENTS$"
  NEW_ARTIFACTS_SINGLE: "[artifact|E]"
  NEW_ARTIFACTS_PLURAL: "[artifacts|E]"

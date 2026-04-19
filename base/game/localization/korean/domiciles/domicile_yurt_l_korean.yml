@@ -579,7 +579,7 @@
  domicile_building_parameter_nomad_yurt_paiza_innovations_unlock: "$mpo_call_for_merchants$ [decision|E]에서 [innovation|E] 교환 선택지 잠금 해제"
  domicile_building_parameter_nomad_yurt_increased_innovation_paiza_lvl_1: "#V $mpo_call_for_merchants$#! [decision|E]에서 [innovation|E] 교환 선택지 보상이 #weak 소폭#! 증가합니다."
  domicile_building_parameter_nomad_yurt_increased_innovation_paiza_lvl_2: "#V $mpo_call_for_merchants$#! [decision|E]에서 [innovation|E] 교환 선택지 보상이 #weak 증가#!합니다."
- domicile_building_parameter_nomad_yurt_increased_innovation_paiza_lvl_3: "#V #V $mpo_call_for_merchants$#! [decision|E]에서 [innovation|E] 교환 선택지 보상이 #weak 대폭#! 증가합니다."
+ domicile_building_parameter_nomad_yurt_increased_innovation_paiza_lvl_3: "#V $mpo_call_for_merchants$#! [decision|E]에서 [innovation|E] 교환 선택지 보상이 #weak 대폭#! 증가합니다."
  domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_1: "#V $mpo_call_for_merchants$#! [decision|E]에서 [gold|E] [gold_i] 획득량: #P +5%#!"
  domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_2: "#V $mpo_call_for_merchants$#! [decision|E]에서 [gold|E] [gold_i] 획득량: #P +10%#!"
  domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_3: "#V $mpo_call_for_merchants$#! [decision|E]에서 [gold|E] [gold_i] 획득량: #P +20%#!"

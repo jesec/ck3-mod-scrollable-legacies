@@ -29,6 +29,8 @@
  people: "gens"
  mistress: "maîtresse"
  master: "maître"
+ mistress_possessive: "maîtresse"
+ master_possessive: "maître"
  witch_spirit: "esprit"
  witch_spirits: "esprits"
  witch_source: "source"

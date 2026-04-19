@@ -18,7 +18,7 @@
  SCHEME_COOLDOWN_INFO: "你在$TIME|V$内不能开始另一个针对[SCHEME.GetTarget.GetName]的[SCHEME.GetSchemeType.GetTypeName]。"
  SCHEME_WINDOW_PROGRESS_TOOLTIP: "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
  SCHEME_WINDOW_PROGRESS_INFO: "距下一[scheme_phase_phase|E]还有[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))|V]"
- SCHEME_WINDOW_PROGRESS_FROZEN: "#weak 计谋暂停，因为你正在旅行"
+ SCHEME_WINDOW_PROGRESS_FROZEN: "#weak 计谋暂停，因为[Scheme.GetFrozenReason]"
  SCHEME_WINDOW_PROGRESS_INFO_BASIC: "距完成还有[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))]"
  SCHEME_WINDOW_PROGRESS_INFO_BREAKDOWN: "[Scheme.GetSpeedDescription]"
  SCHEME_WINDOW_OPPORTUNITIES_INFO_BREAKDOWN: "每[Scheme.GetPhasesPerOpportunity][scheme_phase_phases|E]获得1[scheme_opportunity_opportunity|E]\n距获得下1[scheme_opportunity_opportunity|E]还有[Scheme.GetPhasesRemainingUntilOpportunity][scheme_phase_phases|E]\n需要#EMP 至少#!有[Scheme.MakeScope.ScriptValue('scheme_charge_to_advance_threshold_value')][scheme_opportunity_opportunities|E]才能执行#!"

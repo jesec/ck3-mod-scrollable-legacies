@@ -448,7 +448,7 @@
 			icon = kalikula_shaktism
 
 			holy_site = varanasi
-			holy_site = putuo
+			holy_site = ayodhya
 			holy_site = mathura
 			holy_site = haridwar
 			holy_site = kanchipuram
@@ -647,7 +647,7 @@
 
 				#TricksterGod
 				TricksterGodName = hinduism_trickster_god_name
-				TricksterGodNamePossessive = hinduism_trickster_god_namepossessive
+				TricksterGodNamePossessive = hinduism_trickster_god_name_possessive
 				TricksterGodSheHe = CHARACTER_SHEHE_HE
 				TricksterGodHerHis = CHARACTER_HERHIS_HIS
 				TricksterGodHerHim = CHARACTER_HERHIM_HIM

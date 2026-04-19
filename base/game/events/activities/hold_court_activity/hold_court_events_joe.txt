@@ -2027,9 +2027,10 @@ hold_court.8340 = {
 		scope:candidate ?= {
 			save_scope_as = recipient
 			court_event_character_flag_effect = yes
-			court_position_generator_effect = { VAR = target EMPLOYER = root }
-			court_position_generator_effect = { VAR = second EMPLOYER = root }
-			court_position_generator_effect = { VAR = backup EMPLOYER = root }
+			court_position_generator_effect = { VAR = target EMPLOYER = root ONLY_EMPTY = no }
+			# SECONDARY OPTIONS SHOULD BE EMPTY
+			court_position_generator_effect = { VAR = second EMPLOYER = root ONLY_EMPTY = yes }
+			court_position_generator_effect = { VAR = backup EMPLOYER = root ONLY_EMPTY = yes }
 		}
 		# Trigger next event in chain.
 		hold_court_queue_next_event_effect = yes

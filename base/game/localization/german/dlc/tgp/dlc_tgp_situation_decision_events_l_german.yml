@@ -127,3 +127,6 @@
  dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName|U] tritt in die Epoche „[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]“ ein"
  dynastic_cycle_entered_stability_expansion_tt: "[GetSituation('dynastic_cycle').GetName|U] tritt in die Epoche „[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]“ ein"
  dynastic_cycle_entered_instability_tt: "[GetSituation('dynastic_cycle').GetName|U] tritt in die Epoche „[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]“ ein"
+ tgp_hegemon_picked_different_era_opinion: "Andere [dynastic_cycle_era_type_stable|E] gewählt als erwartet"
+ tgp_hegemon_picked_different_era_opinion_expansion_tt: "Alle Mitglieder, die einer [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('advancement_movement').GetName] oder einer [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('conservative_movement').GetName] angehören"
+ tgp_hegemon_picked_different_era_opinion_advancement_tt: "Alle Mitglieder, die einer [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('expansion_movement').GetName] oder [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('conservative_movement').GetName] angehören"

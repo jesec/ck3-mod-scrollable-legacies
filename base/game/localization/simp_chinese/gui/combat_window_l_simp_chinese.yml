@@ -59,7 +59,7 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY: "@warning_icon!由于被克制，造成[CombatMaaItem.GetCountered|0-%]伤害"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD: "#I +在有利地形作战#!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD: "#X -在不利地形作战#!"
- COMBAT_WINDOW_MAA_TT_SCREEN: "每支满员军团的[screen|E]效果：[MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN: "每支满员军团的[screen|E]效果：[CombatMaaItem.GetStat( 'screen' )|0+=]"
  COMBAT_WINDOW_MAA_TT_PURSUIT: "每支满员军团的[pursuit|E]效果：[MenAtArmsType.GetStat(GetPlayer, Province.Self, Title.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA: "没有[men_at_arms|E]"
  CV_TT_RELATIVE_SOLDIERS: "#T 相对军力#!\n[CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString]对阵[CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString][soldiers|E]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"

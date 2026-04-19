@@ -3,7 +3,7 @@
 	steam_id = "1296730"
 	msgr_id = "9NSL78KTTM4X"
 	type = minor
-	priority = 0
+	priority = 1000
 }
 
 dlc_002 = {
@@ -11,7 +11,7 @@ dlc_002 = {
 	steam_id = "1296731"
 	msgr_id = "9NMFCFSZSHQT"
 	type = minor
-	priority = 1
+	priority = 1001
 }
 
 dlc_003 = {
@@ -19,7 +19,7 @@ dlc_003 = {
 	steam_id = "1303183"
 	msgr_id = "9MTWRN8XTRN0"
 	type = minor
-	priority = 50
+	priority = 10050
 }
 
 dlc_004 = {
@@ -35,7 +35,7 @@ dlc_005 = {
 	steam_id = "1303184"
 	msgr_id = "9PBZ92STFNS0"
 	type = minor
-	priority = 51
+	priority = 10051
 }
 
 dlc_006 = {
@@ -43,7 +43,7 @@ dlc_006 = {
 	steam_id = "2114760"
 	msgr_id = "9P37T515L87H"
 	type = minor
-	priority = 2
+	priority = 1002
 }
 
 dlc_007 = {
@@ -59,7 +59,7 @@ dlc_008 = {
 	steam_id = "2311930"
 	msgr_id = "9P712ZX7MR5W"
 	type = minor
-	priority = 3
+	priority = 1003
 }
 
 dlc_009 = {
@@ -67,7 +67,7 @@ dlc_009 = {
 	steam_id = "2313541"
 	msgr_id = "9PC73D79KLQR"
 	type = minor
-	priority = 4
+	priority = 1004
 }
 
 dlc_010 = {
@@ -75,7 +75,7 @@ dlc_010 = {
 	steam_id = "2313540"
 	msgr_id = "9PG5DD1TCXRQ"
 	type = minor
-	priority = 52
+	priority = 10052
 }
 
 dlc_011 = {
@@ -99,7 +99,7 @@ dlc_013 = {
 	steam_id = "2671040"
 	msgr_id = "9N5WGH141BNT"
 	type = minor
-	priority = 6
+	priority = 1006
 }
 
 dlc_014 = {
@@ -115,7 +115,7 @@ dlc_015 = {
 	steam_id = "2671080"
 	msgr_id = "9N753L0KX15Q"
 	type = minor
-	priority = 7
+	priority = 1007
 }
 
 dlc_016 = {
@@ -147,7 +147,7 @@ dlc_019 = {
 	steam_id = "3315500"
 	msgr_id = "9N2Q6NJDG6B5"
 	type = minor
-	priority = 11
+	priority = 1011
 }
 
 dlc_020 = {
@@ -163,7 +163,7 @@ dlc_021 = {
 	steam_id = "3315520"
 	msgr_id = "9PL549QHNPXP"
 	type = minor
-	priority = 12
+	priority = 1012
 }
 
 dlc_022 = {
@@ -172,4 +172,44 @@ dlc_022 = {
 	msgr_id = "9P7BZ0J4XZN7"
 	type = major
 	priority = 4
+}
+
+dlc_023 = {
+	key = "High Medieval Warfare Attire"
+	steam_id = "3315560"
+	msgr_id = "9P3286R4T0MG"
+	type = minor
+	priority = 13
+}
+
+dlc_024 = {
+	key = "Holy Buildings"
+	steam_id = "3315570"
+	msgr_id = "9N6PD3WNVT1M"
+	type = minor
+	priority = 14
+}
+
+dlc_025 = {
+	key = "North Pacific Attire"
+	steam_id = "3315580"
+	msgr_id = "9N29T8J88W5J"
+	type = minor
+	priority = 15
+}
+
+dlc_026 = {
+	key = "East Asian Wonders"
+	steam_id = "4232860"
+	msgr_id = "9MWL2RFJV38J"
+	type = minor
+	priority = 16
+}
+
+dlc_027 = {
+	key = "Celestial Court Attire"
+	steam_id = "4232870"
+	msgr_id = "9P5NCSDS5VD4"
+	type = minor
+	priority = 17
 }

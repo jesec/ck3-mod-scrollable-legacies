@@ -174,7 +174,7 @@
  stress_threshold.2202.desc: "Zugegeben, [stress_character.Custom('DE_PRO_PER_S_3P_N')] hat derzeit wirklich alle Hände voll zu tun, aber"
  stress_threshold.2202.desc.rival: "als ich um eine Erklärung dieses Verhaltens bat, schleuderte [stress_character.Custom('DE_PRO_PER_S_3P_N')] mir nur noch mehr Beleidigungen entgegen."
  stress_threshold.2202.desc.other: "ein solches Verhalten …"
- stress_threshold.2202.a: "Das lasse ich mir nicht gefallen. „[stress_character.Custom2('InsultNoun'), ROOT.Char|U]!“"
+ stress_threshold.2202.a: "Das lasse ich mir nicht gefallen, [stress_character.Custom2('InsultNoun', ROOT.Char)]!"
  stress_threshold.2202.b: "Dass sogar [stress_character.Custom('DE_PRO_PER_S_3P_N')] Probleme hat … Das beruhigt mich ungemein."
  #Level 3 Stress Events
  stress_threshold.3001.t: "Geistiger Zusammenbruch: Die Stimmen"

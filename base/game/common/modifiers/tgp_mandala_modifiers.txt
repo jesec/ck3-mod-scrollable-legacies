@@ -270,3 +270,21 @@ mandala_coronation_low_feast_modifier = {
 	courtly_opinion = -10
 	monthly_piety_gain_mult = -0.15
 }
+
+mandala_descendant_from_aspect_of_creation_modifier = {
+	icon = mandala_positive
+	fertility = 0.1
+}
+
+mandala_forged_from_aspect_of_destruction_modifier = {
+	icon = blood_positive
+	attacker_advantage = 5
+	army_damage_mult = 0.10
+}
+
+mandala_ascended_in_aspect_of_trickery_modifier = {
+	icon = mask_positive
+	hostile_scheme_phase_duration_add = -10
+	political_scheme_phase_duration_add = -10
+	personal_scheme_phase_duration_add = -10
+}

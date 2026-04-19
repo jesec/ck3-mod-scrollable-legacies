@@ -86,6 +86,7 @@
  minister_of_revenue_desc: "[minister_of_revenue|E]"
  minister_of_revenue_desc_with_value: "[minister_of_revenue|E]: $VALUE|+0=$"
  is_a_minister_desc: "[minister|E]임"
+ is_not_a_minister_desc: "[minister|E]가 아님"
  recipient_is_a_minister_desc: "[recipient.GetShortUIName|U](이)가 [minister|E]임"
  target_is_a_minister_desc: "[CHARACTER.GetShortUIName|U](이)가 [minister|E]임"
  you_are_not_a_minister_desc: "당신이 [minister|E]가 #bold 아님#!"

@@ -4,7 +4,7 @@
  imperial_examination.1000.t: "考生会集"
  imperial_examination.1000.desc: "我踏入[ROOT.Char.GetCurrentLocation.GetName]的城市，只见街道已被清扫得干干净净，还为我们的到来精心装饰了一番。我们走过时百姓纷纷躬身行礼，低声祈祷祝福；街角处，赌徒们正忙着下注。\n\n我目光所及之处，尽是身着华贵丝绸长袍的考生，他们正与自己的陪侍前往当地的酒肆。今日，我将会知晓自己明日能走多远。"
  imperial_examination.1000.a: "无论如何，我一定要金榜题名！"
- imperial_examination.1000.a.tt: "你会有更多作弊机会。\n@alert_icon!#alert_trial 你可能会被抓住！#!"
+ imperial_examination.1000.a.tt: "你会有更多作弊机会。\n@alert_icon!#alert_trial 你可能会被抓住！#!#weak （如果未被发现，你会获得#V $secret_exam_cheater$#![secret|E]）#!"
  imperial_examination.1000.b: "我希望以高尚的方式证明自己。"
  #Host
  imperial_examination.1001.t: "$imperial_examination.1000.t$"
@@ -14,7 +14,7 @@
  imperial_examination.1002.t: "$imperial_examination.1000.t$"
  imperial_examination.1002.desc: "我与[ROOT.Char.Custom2('RelationToMe', candidate )][candidate.GetTitledFirstName]进入[ROOT.Char.GetCurrentLocation.GetName]城。为了迎接我们的到来，街道已打扫干净、张灯结彩。\n\n[candidate.GetSheHe]一旦被隔离在考生号舍中，我影响[candidate.GetHerHis]进步的能力就将会非常微小。也许我应该提供一些建议。"
  imperial_examination.1002.a: "“不计代价取得成功，[ROOT.Char.Custom2('RelationToMe', candidate )]。”"
- imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip]会有更多作弊机会。\n@alert_icon!#alert_trial [candidate.GetSheHe|U]可能会被抓住！#!"
+ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip]会有更多作弊机会。\n@alert_icon!#alert_trial [candidate.GetSheHe|U]可能会被抓住！#!#weak （如果[candidate.GetSheHe]未被发现，[candidate.GetSheHe]会获得#V $secret_exam_cheater$#![secret|E]）#!"
  imperial_examination.1002.b: "“不要令[ROOT.Char.GetHouse.GetNameNoTooltip]氏家族蒙羞。”"
  imperial_examination.1003.t: "$imperial_examination.1000.t$"
  imperial_examination.1003.desc: "我进入[ROOT.Char.GetCurrentLocation.GetName]城，双臂因学术书卷和学习资料而不堪重负。\n\n"
@@ -445,7 +445,7 @@
  # Intro event
  imperial_examination.7100.t: "族人参加科举"
  imperial_examination.7100.desc: "承蒙英明神武的[host.GetTitleAsNameNoTooltip]的恩典，[location.GetName]本次的会试已结束，新录用候补官员若干。"
- imperial_examination.7100.desc.intro_nr_of_relatives_singular: "只有我的[ROOT.Char.Custom2('RelationToMeShort', house_member)|U][house_member.GetTitledFirstName]参与了这次考试。"
+ imperial_examination.7100.desc.intro_nr_of_relatives_singular: "只有我的[ROOT.Char.Custom2('RelationToMeShort', house_member)][house_member.GetTitledFirstName]参与了这次考试。"
  imperial_examination.7100.desc.intro_nr_of_relatives: "\n\n[ROOT.Char.MakeScope.Var('num_exam_family_entrants').GetValue]名[ROOT.Char.GetHouse.GetNameNoTooltip]家族的成员参加了这次考试。"
  imperial_examination.7100.desc.all_failed: "他们全都失败了。"
  imperial_examination.7100.desc.all_passed_provincial: "他们都通过了考试，没有辜负我们家族的姓氏。"

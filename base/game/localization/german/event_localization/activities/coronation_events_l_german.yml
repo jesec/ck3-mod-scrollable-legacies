@@ -406,7 +406,7 @@
  hunt_default_header: "Jagd"
  every_non_disloyal_vassal_attendee_tt: "Nicht-[GetTrait('disloyal').GetName(GetNullCharacter)|l]e [vassals|E] von [host.GetTitledFirstName] bei der Krönung"
  every_detractor_tt: "Jeder [coronation_detractor|E] bei der [coronation|E]"
- every_non_detractor_tt: "Jeder [Concept('coronation', 'Krönungs')]-[guest|E], der kein [coronation_detractor|E] ist"
+ every_non_detractor_tt: "Jeder [Concept('coronation', 'Krönungs')|E]-[guest|E], der kein [coronation_detractor|E] ist"
  every_zealot_vassal_guest_tt: "Alle [GetVassalStance('zealot').GetTextIcon][GetVassalStance('zealot').GetName]-[Concept('vassal', 'Vasallen')|E] bei dieser [activity|E]"
  every_faith_warrior_guest_tt: "Jeder [GetTrait('faith_warrior').GetName(GetNullCharacter)] oder [GetTrait('crusader_king').GetName(GetNullCharacter)] bei dieser [activity|E]"
  available_because_host_intent_tt: "Diese Auswahl ist dank Eures „[host.GetInvolvedActivityIntent.GetName]“-[Concept('intent', 'Vorsatzes')|E] verfügbar"

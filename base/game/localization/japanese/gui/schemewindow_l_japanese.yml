@@ -18,7 +18,7 @@
  SCHEME_COOLDOWN_INFO: "[SCHEME.GetTarget.GetName]に対しては$TIME|V$間、再び[SCHEME.GetSchemeType.GetTypeName]を開始することはできません。"
  SCHEME_WINDOW_PROGRESS_TOOLTIP: "#T [SchemeItem.GetProgressDescription]#!\n[Scheme.GetChangeDesc]"
  SCHEME_WINDOW_PROGRESS_INFO: "次の[scheme_phase_phase|E]まで[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))|V]"
- SCHEME_WINDOW_PROGRESS_FROZEN: "#weak あなたが移動中なので工作は一時中断されている#!"
+ SCHEME_WINDOW_PROGRESS_FROZEN: "#weak [Scheme.GetFrozenReason]なので工作は一時中断されている#!"
  SCHEME_WINDOW_PROGRESS_INFO_BASIC: "完了まで[GetGameTimeDurationDays(Subtract_int32(Scheme.GetProgressGoal, Scheme.GetProgress))]"
  SCHEME_WINDOW_PROGRESS_INFO_BREAKDOWN: "[Scheme.GetSpeedDescription]"
  SCHEME_WINDOW_OPPORTUNITIES_INFO_BREAKDOWN: "[Scheme.GetPhasesPerOpportunity][scheme_phase_phases|E]ごとに[scheme_opportunity_opportunity|E]を1つ得る\n次の[scheme_opportunity_opportunity|E]まで、あと[Scheme.GetPhasesRemainingUntilOpportunity][scheme_phase_phases|E]\n実行には#EMP 少なくとも#! [Scheme.MakeScope.ScriptValue('scheme_charge_to_advance_threshold_value')]の[scheme_opportunity_opportunities|E]が必要#!"

@@ -159,3 +159,5 @@
  grant_court_position: "授予宫廷职位"
  grant_court_position_desc: "授予[recipient.GetShortUINameNoTooltip][court_position|E]"
  request_court_position_extra_icon: "$hook_extra_icon$"
+ celestial_extinguish_noble_family_interaction: "诛灭世族"
+ celestial_extinguish_noble_family_interaction_desc: "[execute|E][recipient.GetShortUIName]和[recipient.GetHerHis]的成年继承人，并将[recipient.GetHerHis]剩余的亲属[banish|E]出[realm|E]"

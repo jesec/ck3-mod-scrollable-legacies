@@ -43,3 +43,5 @@
  global_culture.3011.desc: "La singular mezcla de pueblos en el sur de Italia y en Sicilia ha dado lugar a una cultura única influida por mil factores.\n\nAhora queda claro que la gente del [county_to_change.GetName] no se considera [old_culture.GetName], sino que son [sicilian.GetCollectiveNoun]."
  global_culture.3011.a: "Un desarrollo interesante..."
  global_culture.3012.a: "¡Maravilloso!"
+ global_culture.4011.t: "Propagación de la cultura [goryeo.GetNameNoTooltip]"
+ global_culture.4011.desc: "Los pueblos de los tres reinos han acabado compartiendo una identidad más amplia a raíz de la unificación, lo que ha dado lugar a una cultura única que refleja multitud de influencias.\n\nAhora queda claro que la gente de [county_to_change.GetName] no se considera [old_culture.GetName], ¡sino [goryeo.GetCollectiveNoun] nativa!"

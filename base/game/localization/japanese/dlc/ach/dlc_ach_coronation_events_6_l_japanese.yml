@@ -341,8 +341,8 @@
  coronation_events.6130.abrahamic_intro_guest: "はじめに、[host.GetTitledFirstNameRegnal]は聖油で浄められる。それにより、[host.GetFaith.HighGodNamePossessive]の信徒たちの上に立つ者として祝福され、[host.GetHerHis]の領国の民を司るという聖務を担うのだ。"
  coronation_events.6130.dharmic_intro_host: "供物が捧げられ、[Glossary( 'ラージャスーヤ', 'RAJASUYA_GLOSS' )]が始まった。聖なる[Glossary( 'アビシェーカ', 'ABHISHEKA_GLOSS' )]の時だ。私はヴェーダのマントラを唱える。17の聖水を運ぶ者たちが集ってくる。"
  coronation_events.6130.dharmic_intro_guest: "供物が捧げられ、[Glossary( 'ラージャスーヤ', 'RAJASUYA_GLOSS' )]が始まった。聖なる[Glossary( 'アビシェーカ', 'ABHISHEKA_GLOSS' )]の時だ。[host.GetTitledFirstNameRegnal]がヴェーダのマントラを唱える。17の聖水を運ぶ者たちが[host.GetHerHim]の周りに集ってくる。"
- RAJASUYA_GLOSS: "ダルマ信仰において、君主の即位に際して広く行われる一連の儀式。#G ラージャスーヤ#!には、聖水を振りかける、3本の矢をつがえた弓を受け取る、虎の毛皮を踏む、サイコロ賭博を行うといった要素が含まれる。"
- ABHISHEKA_GLOSS: "ダルマ信仰における古代の儀式。王や長老に、聖なる河川やインドの四隅の海岸から集められた水を振りかけるもので、王の即位と結び付けられている。"
+ RAJASUYA_GLOSS: "東方宗教の信仰において、君主の即位に際して広く行われる一連の儀式。#G ラージャスーヤ#!には、聖水を振りかける、3本の矢をつがえた弓を受け取る、虎の毛皮を踏む、サイコロ賭博を行うといった要素が含まれる。"
+ ABHISHEKA_GLOSS: "東方宗教における古代の儀式。王や長老に、聖なる河川やインドの四隅の海岸から集められた水を振りかけるもので、王の即位と結び付けられている。"
  coronation_events.6130.generic_intro_host: "だがその前に、[anointer.GetTitledFirstNamePossessiveRegnal]の承認を証しする、聖油による浄めがある。この儀式は、私を[ROOT.Char.GetPrimaryTitle.GetNameNoTier]の統治者として認めるだけでなく、[host.GetFaith.HighGodNamePossessive]から特に祝福されし信徒の列に加えるという意味を持つのだ。"
  coronation_events.6130.generic_intro_guest: "だがその前に、[host.GetTitledFirstNamePossessiveRegnal]が[host.GetFaith.HighGodName]より授かりし使命を証しする、塗油式が執り行われる。この儀では、[anointer.GetTitledFirstNameRegnal]自らが聖油を携える。"
  # Bit about priest

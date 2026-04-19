@@ -4,7 +4,7 @@
  imperial_examination.1000.t: "Llegada de examinandos"
  imperial_examination.1000.desc: "Entro en la ciudad de [ROOT.Char.GetCurrentLocation.GetName] para ver sus calles barridas y engalanadas lujosamente para nuestra llegada. Las gentes se inclinan y murmuran plegarias de buena fortuna según pasamos, mientras los jugadores hacen apuestas por los rincones.\n\nAllá donde miro, veo a otros examinandos vestidos con sus mejores ropajes de seda marchar a las tabernas locales con sus cortesanas. Hoy descubriré hasta dónde estoy dispuesto a llegar."
  imperial_examination.1000.a: "¡Tendré éxito, sea como sea!"
- imperial_examination.1000.a.tt: "Tendrás más oportunidades de hacer trampa.\n@alert_icon! #alert_trial ¡Puede que te pillen!#!"
+ imperial_examination.1000.a.tt: "Tendrás más oportunidades de hacer trampa.\n@alert_icon! #alert_trial ¡Puede que te pillen!#! #weak (Si no te descubren, conseguirás un [secret|El] de #V $secret_exam_cheater$#!)#!"
  imperial_examination.1000.b: "Deseo probar mi valía de modo honorable."
  #Host
  imperial_examination.1001.t: "$imperial_examination.1000.t$"
@@ -14,7 +14,7 @@
  imperial_examination.1002.t: "$imperial_examination.1000.t$"
  imperial_examination.1002.desc: "Entro en la ciudad de [ROOT.Char.GetCurrentLocation.GetName] con mi [ROOT.Char.Custom2('RelationToMe', candidate )], [candidate.Custom('ES_ElLa')] [candidate.GetTitledFirstName|l]. Las calles han sido barridas y engalanadas lujosamente para nuestra llegada.\n\nEn cuanto [candidate.GetSheHe] se recluya en los alojamientos de los examinandos, mi capacidad de influir en su progreso será escasa. Tal vez debería ofrecer algún consejo."
  imperial_examination.1002.a: "«Tened éxito cueste lo que cueste, [ROOT.Char.Custom2('RelationToMe', candidate )]»."
- imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip] tendrá más oportunidades de hacer trampa.\n@alert_icon! #alert_trial ¡Puede que le pillen!#!"
+ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip] tendrá más oportunidades de hacer trampa.\n@alert_icon! #alert_trial ¡Puede que le pillen!#! #weak (Si no lo hacen, conseguirá un [secret|El] de #V $secret_exam_cheater$#!)#!"
  imperial_examination.1002.b: "«No dejéis en evidencia a la casa [ROOT.Char.GetHouse.GetNameNoTooltip]»."
  imperial_examination.1003.t: "$imperial_examination.1000.t$"
  imperial_examination.1003.desc: "Entro en la ciudad de [ROOT.Char.GetCurrentLocation.GetName] con los brazos cargados de pergaminos de aprendizaje y materiales de estudio.\n\n"

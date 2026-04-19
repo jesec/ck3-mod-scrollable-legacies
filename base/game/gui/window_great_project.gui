@@ -356,7 +356,7 @@
 		}
 
 		hbox = {
-			visible = "[GreatProjectWindow.CanCancelGreatProject( GetPlayer )]"
+			visible = "[And( Not( GreatProjectWindow.HasSelectedContributions ) , GreatProjectWindow.CanCancelGreatProject( GetPlayer ))]"
 			layoutpolicy_horizontal = expanding
 
 			margin = { 0 15 }
@@ -366,8 +366,6 @@
 				text = "GREAT_PROJECT_CANCEL_LABEL"
 
 				onclick = "[GreatProjectWindow.ShowCancelGreatProjectConfirmation]"
-
-				tooltip = "GREAT_PROJECT_CANCEL_LABEL_TT"
 			}
 		}
 	}

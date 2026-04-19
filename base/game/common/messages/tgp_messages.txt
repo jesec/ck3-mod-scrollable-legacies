@@ -33,6 +33,7 @@ msg_house_relation_level_changed_bad = {
 	desc = house_relation_damaged_message_desc
 	style = bad
 	message_filter_type = house_relation_changed
+	combine_into_one = yes # avoids feed spam from mass executions and family purges
 }
 msg_house_relation_cleared = {
 	icon = "default_house_relation_level_neutral"
@@ -44,6 +45,14 @@ msg_house_relation_cleared = {
 
 
 ## Tribute
+
+event_tribute_good_text = {
+	icon = "tributary"
+	title = event_message_title
+	desc = event_message_text
+	style = good
+	message_filter_type = tributary
+}
 
 event_tribute_good_with_text = {
 	icon = "tributary"

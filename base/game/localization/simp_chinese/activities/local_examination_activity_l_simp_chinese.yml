@@ -7,7 +7,7 @@
  activity_local_examination_desc: "维护科举取士体系是我们的荣誉与本分。通过考试，我们能评定、选拔并以[merit|E]嘉奖那些最贤良的人才，以保证未来江山社稷永续。"
  activity_local_examination_host_desc: "$activity_local_examination_host_rewards$$activity_local_examination_guest_rewards$"
  activity_local_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]"
- activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$有机会通过@provincial_exam_icon!#V 乡试#!\n$BULLET_WITH_TAB$可能提高你的[GetTrait('confucian_education').GetName( GetNullCharacter )][trait_level_track_xp|E]\n$BULLET_WITH_TAB$可能提高你的[merit|E]"
+ activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$有机会通过@provincial_exam_icon!#V 乡试#!\n$BULLET_WITH_TAB$可能提高你的[GetTrait('confucian_education').GetName( GetNullCharacter )][trait_level_track_xp|E]\n$BULLET_WITH_TAB$可能提高你的[merit|E]\n$BULLET_WITH_TAB$@alert_icon!#alert_trial 如果你不懂[host.GetCulture.GetLanguage.GetName]，你通过的几率会大幅降低！"
  activity_local_examination_guest_rewards: "\n$BULLET_WITH_TAB$可能招募一名才艺卓越的角色\n$BULLET_WITH_TAB$参与者可能获得[GetTrait('confucian_education').GetName( GetNullCharacter )][trait_level_track_xp|E]\n$BULLET_WITH_TAB$参与者可以获得[merit|E]"
  local_examination_base_cost: "基础花费"
  activity_local_examination_host_an_a: "$articleblank_article$"

@@ -21,3 +21,7 @@
  MERITOCRATIC_CEREMONIAL_LIEGE_TITLE: "[founder.GetPrimaryTitle.GetAdjectiveNoTooltip] 왕위"
  tgp_korea_decision.9202.desc: "[founder.GetTitledFirstNamePossessive] 통치가 더 영광스럽게 빛을 발하며, 많은 이가 [founder.GetHerHis] 그림자 속에서 위안을 찾는다. 하지만 그 어떤 [founder.GetTitleAsNameNoTooltip]도 혼자 통치할 수는 없으며, 진정한 권력의 선은 언제나 움직이는 법이다.\n\n[founder.GetHerHis] 후손들이 계속해서 [founder.GetPrimaryTitle.GetDefinitiveNameNoTooltip](을)를 통치하며, 그저 이름만 유지하는 허울이 되지 않으려면 [founder.GetSheHe|U] 역시 경계해야 한다..."
  tgp_korea_decision.9202.a: "권력은 여러 형태로 나타나는 법."
+ tgp_create_meritocratic_ruling_regent_title_effect: "[GetGovernment('meritocratic_government').GetName] [empire|E]의 [ruler|E]이기 때문에:"
+ tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "당신이 [GetLaw('single_heir_succession_law').GetName] [law|E]로 허울 [kingdom|E] [title|E]를 획득함"
+ tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "[vassals|E]이 #V $replace_ceremonial_regent_faction$#! [factions|E]을 생성할 수 있음"
+ tgp_create_meritocratic_ruling_regent_title_message_title: "[founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] 군주국이 도전받음"

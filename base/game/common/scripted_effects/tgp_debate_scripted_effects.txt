@@ -372,7 +372,9 @@ debate_host_rewards_effect = {
                                     situation_top_has_catalyst = catalyst_movement_gained_power_pro_hegemon
                                 }
                             }
-                            trigger_situation_catalyst = catalyst_movement_gained_power_pro_hegemon
+                            situation:dynastic_cycle = {
+                            	trigger_situation_catalyst = catalyst_movement_gained_power_pro_hegemon
+                            }
                         }
                     }
                     advancement_movement = {
@@ -382,7 +384,9 @@ debate_host_rewards_effect = {
                                     situation_top_has_catalyst = catalyst_movement_gained_power_advancement
                                 }
                             }
-                            trigger_situation_catalyst = catalyst_movement_gained_power_advancement
+                            situation:dynastic_cycle = {
+                            	trigger_situation_catalyst = catalyst_movement_gained_power_advancement
+                            }                            
                         }
                     }
                     expansion_movement = {
@@ -392,7 +396,9 @@ debate_host_rewards_effect = {
                                     situation_top_has_catalyst = catalyst_movement_gained_power_expansion
                                 }
                             }
-                            trigger_situation_catalyst = catalyst_movement_gained_power_expansion
+                            situation:dynastic_cycle = {
+                            	trigger_situation_catalyst = catalyst_movement_gained_power_expansion
+                            }
                         }
                     }
                     conservative_movement = {
@@ -402,7 +408,9 @@ debate_host_rewards_effect = {
                                     situation_top_has_catalyst = catalyst_movement_gained_power_conservative
                                 }
                             }
-                            trigger_situation_catalyst = catalyst_movement_gained_power_conservative
+                            situation:dynastic_cycle = {
+                            	trigger_situation_catalyst = catalyst_movement_gained_power_conservative
+                            }
                         }
                     }
                 }
@@ -442,7 +450,7 @@ debate_host_rewards_effect = {
             ordered_in_list = {
                 variable = debate_disciples
                 order_by = learning
-                position = 1
+                position = 0
                 save_scope_as = disciple_2
             }
         }

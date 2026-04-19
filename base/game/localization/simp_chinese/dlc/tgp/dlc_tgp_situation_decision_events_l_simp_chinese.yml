@@ -127,3 +127,6 @@
  dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName]进入了[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]"
  dynastic_cycle_entered_stability_expansion_tt: "[GetSituation('dynastic_cycle').GetName]进入[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]"
  dynastic_cycle_entered_instability_tt: "[GetSituation('dynastic_cycle').GetName]进入了[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]"
+ tgp_hegemon_picked_different_era_opinion: "选择与预期不同的[dynastic_cycle_era_type_stable|E]"
+ tgp_hegemon_picked_different_era_opinion_expansion_tt: "所有[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]和[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]成员"
+ tgp_hegemon_picked_different_era_opinion_advancement_tt: "所有[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]和[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]成员"

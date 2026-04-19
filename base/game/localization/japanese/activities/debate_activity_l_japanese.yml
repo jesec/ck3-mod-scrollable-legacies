@@ -60,6 +60,7 @@
  ### CONCLUSION
  activity_debate_conclusion_desc_leadership_winner: "[GetPlayer.Custom('GetMyMovement')]の指導者を決めるための討論が終わり、私の勝利が宣言された！"
  activity_debate_conclusion_desc_leadership_loser: "私の計画はくじかれ、[Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip]はいまだ[GetPlayer.Custom('GetMyMovement')]の指導者のままである。"
+ activity_debate_conclusion_desc_leadership_challenged_loser: "私の努力にもかかわらず、[Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip]は[GetPlayer.Custom('GetMyMovement')]のリーダーに任命された。"
  activity_debate_conclusion_desc_favor_winner: "[ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip]の贔屓を得るための討論が終わり、[GetPlayer.Custom('GetMyMovement')]の勝利が宣言された！"
  activity_debate_conclusion_desc_favor_loser: "私は[GetPlayer.Custom('GetMyMovement')]への[ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip]の贔屓を得ることはできなかった。次回はさらに精進せねば。"
  debate_conclusion_fallback: "[GetActivityType( 'activity_debate' ).GetName]が終了した。"

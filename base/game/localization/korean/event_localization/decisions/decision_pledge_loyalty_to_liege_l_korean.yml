@@ -102,7 +102,7 @@
  pledge_loyalty_to_liege.0601.a_liege: "정말 거슬리는군."
  pledge_loyalty_to_liege.0601.a: "상황을 다시 생각해 봐야겠는데..."
  pledge_loyalty_to_liege_overdue.1000.t: "불명예스러운 봉신"
- pledge_loyalty_to_liege_overdue.1000.desc.1: "저들의 [ROOT.Char.GetTitleAsName](으)로서 충성을 맹세하러 온 자들의 기록을 검토하던 중, 문득 한 가지 사실을 깨달았다. [SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName] 가문의 [SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName](이)가 이번에도 목록에서 빠져 있었다. 벌써 [SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue]년이다."
+ pledge_loyalty_to_liege_overdue.1000.desc.1: "저들의 [ROOT.Char.GetTitleAsName](으)로서 충성을 맹세하러 온 자들의 기록을 검토하던 중, 문득 한 가지 사실을 깨달았다. [SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName] 가문의 [SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName](이)가 이번에도 목록에서 빠져 있었다. 벌써 [SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue|0]년이다."
  pledge_loyalty_to_liege_overdue.1000.desc.new_liege: "내가 이 자리에 오른 뒤 그 세월이 흘렀다."
  pledge_loyalty_to_liege_overdue.1000.desc.new_title: "[SCOPE.sC('pledge_loyalty_to_liege_offender').GetSheHe]가 내 봉신이 된 후 그 세월이 흘렀다."
  pledge_loyalty_to_liege_overdue.1000.desc.2: "그러나 [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis] 영지에서는 공물은커녕 한마디 말조차 온 적이 없다.\n\n궁정 신하들이 불안한 눈빛을 주고받고, 복도 곳곳에서 속삭임이 들린다. 과연 단순한 실수인가? 아니면 내 통치에 대한 노골적인 무시인가? 형언할 수 없는 반역의 기운이 공기를 무겁게 짓누른다."

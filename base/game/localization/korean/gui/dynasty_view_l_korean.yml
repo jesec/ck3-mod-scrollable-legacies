@@ -57,3 +57,7 @@
  DYNASTY_SPLENDOR: "가문 장엄:"
  DYNASTY_LEGACIES: "가문 유산"
  DYNASTY_HOUSE_VIEW_LEGACY_COST: "다음 유산: [dynasty_prestige_i] [Dynasty.GetNextPerkCost|V0]"
+ DYNASTY_HOUSE_FROM_MEMBERS: "[dynasty_members|E]에서:"
+ DYNASTY_HOUSE_FROM_MEMBERS_EXCESS: "다른 [dynasty_members|E]에서:"
+ DYNASTY_HOUSE_FROM_RULERS: "영주에서:"
+ DYNASTY_HOUSE_PRESTIGE_MULTIPLIERS: "배율:"

@@ -4,7 +4,7 @@
  imperial_examination.1000.t: "Prüflinge versammeln sich"
  imperial_examination.1000.desc: "Ich betrete die Stadt [ROOT.Char.GetCurrentLocation.GetName] und sehe, dass ihre Straßen gefegt und reich geschmückt sind für unsere Ankunft. Leute verbeugen sich und murmeln Glücksgebete, während wir vorbeigehen und Glücksspieler platzieren an Straßenecken ihre Wetten.\n\nWo ich auch hinsehe, erblicke ich überall weitere Prüflinge in ihren besten Seidenroben, die mit ihren Kurtisanen die örtlichen Tavernen bevölkern. Heute finde ich heraus, wie weit ich bereit bin, zu gehen."
  imperial_examination.1000.a: "Ich werde erfolgreich sein – komme, was wolle!"
- imperial_examination.1000.a.tt: "Ihr erhaltet mehr Gelegenheiten zum Schummeln.\n@alert_icon! #alert_trial Ihr könntet erwischt werden!#!"
+ imperial_examination.1000.a.tt: "Ihr erhaltet mehr Gelegenheiten zum Schummeln.\n@alert_icon! #alert_trial Ihr könntet erwischt werden!#! #weak (Falls Ihr unentdeckt bleibt, erhaltet Ihr das [secret|E] #V $secret_exam_cheater$)#!#!"
  imperial_examination.1000.b: "Ich möchte mich auf dem ehrenhaften Weg beweisen."
  #Host
  imperial_examination.1001.t: "$imperial_examination.1000.t$"
@@ -14,7 +14,7 @@
  imperial_examination.1002.t: "$imperial_examination.1000.t$"
  imperial_examination.1002.desc: "Mein[candidate.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', candidate)] [candidate.GetTitledFirstName] und ich betreten die Stadt [ROOT.Char.GetCurrentLocation.GetName]. Ihre Straßen sind gefegt und reich geschmückt für unsere Ankunft.\n\nSobald [candidate.GetTitledFirstName] in den Unterkünften der Prüflinge abgeschieden ist, werden meine Möglichkeiten, [candidate.Custom('DE_PRO_POS_S_3P')]en Fortschritt zu beeinflussen, sehr gering ausfallen. Vielleicht sollte ich noch ein paar Ratschläge geben."
  imperial_examination.1002.a: "„Seid um jeden Preis erfolgreich, [ROOT.Char.Custom2('RelationToMe', candidate)].“"
- imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip|U] erhält mehr Gelegenheiten zum Schummeln.\n@alert_icon! #alert_trial [candidate.Custom('DE_PRO_PER_S_3P_N')|U] könnte erwischt werden!#!"
+ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip|U] erhält mehr Gelegenheiten zum Schummeln.\n@alert_icon! #alert_trial [candidate.Custom('DE_PRO_PER_S_3P_N')|U] könnte erwischt werden!#! #weak (Falls [candidate.Custom('DE_PRO_PER_S_3P_N')] unentdeckt bleibt, erhält [candidate.Custom('DE_PRO_PER_S_3P_N')] das [secret|E] #V $secret_exam_cheater$)#!#!"
  imperial_examination.1002.b: "„Bringt keine Schande über Haus [ROOT.Char.GetHouse.GetNameNoTooltip].“"
  imperial_examination.1003.t: "$imperial_examination.1000.t$"
  imperial_examination.1003.desc: "Ich betrete die Stadt [ROOT.Char.GetCurrentLocation.GetName], die Arme voller Schriftrollen und anderer Studiermaterialien.\n\n"
@@ -445,7 +445,7 @@
  # Intro event
  imperial_examination.7100.t: "Familie bei der Prüfung vertreten"
  imperial_examination.7100.desc: "Bei der Herrlichkeit, die [Select_CString(host.IsFemale, 'unsere wohlmeinende', 'unser wohlmeinender')] [host.GetTitleAsNameNoTooltip] für sich beansprucht: Wir haben neue mögliche Statthalter, die die Hauptsitzprüfung in [location.GetName] ablegen."
- imperial_examination.7100.desc.intro_nr_of_relatives_singular: "Nur mein[potential_laamp.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('potential_laamp'))] [house_member.GetTitledFirstName] nahm als Prüfling teil."
+ imperial_examination.7100.desc.intro_nr_of_relatives_singular: "Nur [house_member.GetTitledFirstName] ([ROOT.Char.Custom2('RelationToMeShort', house_member)] von mir) war als Prüfling zugegen."
  imperial_examination.7100.desc.intro_nr_of_relatives: "\n\n[ROOT.Char.MakeScope.Var('num_exam_family_entrants').GetValue] Mitglieder des Hauses [ROOT.Char.GetHouse.GetNameNoTooltip] nahmen als Prüflinge teil."
  imperial_examination.7100.desc.all_failed: "[ROOT.Char.Custom('ActivityGetFaileesBothAll')|U] scheiterten."
  imperial_examination.7100.desc.all_passed_provincial: "[ROOT.Char.Custom('ActivityGetSuccessfulBothAll')|U] machten unserem guten Namen Ehre und bestanden ihre Prüfung."

@@ -16,7 +16,7 @@
  challenge_to_2p_chess_interaction: "盤遊戯で挑む"
  challenge_to_2p_chess_interaction_desc: "[board_game|E]で[recipient.GetName]と遊ぶ"
  CHALLENGE_TO_2P_CHESS_INTERACTION_NOTIFICATION: "ご機嫌いかがですか、我がすばらしき[actor.Custom2('RelationToMeShort', recipient)]よ！手に汗にぎる[actor.Custom('BG_GameType_Concept_Dark')]のゲームを遊んでいきませんか？"
- CHESS_FRIENDLY: "有効試合"
+ CHESS_FRIENDLY: "友好試合"
  CHESS_PRESTIGE: "名声を賭ける"
  CHESS_GOLD: "財産を賭ける"
  CHESS_LAND: "土地を賭ける"

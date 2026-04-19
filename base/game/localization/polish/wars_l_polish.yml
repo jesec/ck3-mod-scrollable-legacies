@@ -199,7 +199,7 @@
  nomadic_war_white_peace_desc: "Zbuntowane [counties|El] oraz zbuntowani [vassals|El] pozostaną częścią państwa."
  nomadic_war_defeat_desc: "Zbuntowane [counties|El] oraz zbuntowani [vassals|El] pozostaną częścią państwa. Osoba znana jako [attacker.GetShortUINameNotMe] zostaje uwięziona. [county_opinion|E] wszystkich zbuntowanych [Concept('counties', 'hrabstw')|E] zostaje przymusowo zwiększona."
  populist_war: "Bunt"
- populist_war_victory_desc: "Zbuntowane [counties|El] staną się niezależnym państwem, którego władcą będzie [attacker.GetShortUINameNotMe]."
+ populist_war_victory_desc: "Zbuntowane [counties|El] przejmą [duchies|El] [de_jure|El] i staną się niezależnymi państwami, na czele których staną poszczególni napastnicy."
  populist_war_white_peace_desc: "[counties|E] powstałe w buncie oraz [vassals|El] pozostaną częścią państwa."
  populist_war_defeat_desc: "[counties|E] powstałe w buncie oraz [vassals|El] pozostaną częścią państwa. Wszyscy zbuntowani wasale zostaną [Concept( 'imprisoned', 'uwięzieni' )|E] przez [Select_CString( defender.IsLocalPlayer, 'ciebie', Concatenate('', defender.GetShortUINameNotMe))]"
  claimant_faction_war_victory_desc: "[claimant|E] przejmuje kontrolę nad spornym [Concept( 'title', 'tytułem' )|E]."

@@ -124,7 +124,7 @@
  tournament_qualify_fail_title: "[activity.GetCurrentPhase.GetPhase.GetName]の敗退"
  tournament_qualify_fail_desc: "あなたは[host.GetShortUINamePossessive]による[activity.GetCurrentPhase.GetPhase.GetName]の参加資格を得られなかった"
  tournament_champion_qualify_fail_title: "拒絶された代闘士"
- tournament_champion_qualify_fail_desc: "あなたのチャンピオン、[contest_champion.GetTitledFirstName]は、[host.GetShortUINamePossessive]による[activity.GetCurrentPhase.GetPhase.GetName]の参加資格を得られなかった"
+ tournament_champion_qualify_fail_desc: "あなたの代闘士、[contest_champion.GetTitledFirstName]は、[host.GetShortUINamePossessive]による[activity.GetCurrentPhase.GetPhase.GetName]の参加資格を得られなかった"
  tournament_qualify_race_desc: "あなたの馬は[host.GetShortUINamePossessive]の[activity.GetCurrentPhase.GetPhase.GetName]に出場した"
  tournament_qualify_fail_race_desc: "あなたは[host.GetShortUINamePossessive]による[activity.GetCurrentPhase.GetPhase.GetName]の出場資格を得られなかった"
  ### LOCALES
@@ -196,7 +196,7 @@
  locale_window_contest_result_winner_desc_you_lose: "[Character.GetNameNoTooltip]はあなたと[Subtract_int32( GetDataModelSize( ActivityLocaleWindow.GetGuestSublist( PlannedActivityPhase.Self, 'contestant' ) ), '(int32)2' )]人のほかの[contestants|e]を打ち破った"
  locale_window_contest_result_winner_desc_you_win: "あなたは[Subtract_int32( GetDataModelSize( ActivityLocaleWindow.GetGuestSublist( PlannedActivityPhase.Self, 'contestant' ) ), '(int32)1' )]の[contestants|e]を打ち破った"
  locale_window_contest_result_winner_desc_spectator: "[Character.GetNameNoTooltip]は[Subtract_int32( GetDataModelSize( ActivityLocaleWindow.GetGuestSublist( PlannedActivityPhase.Self, 'contestant' ) ), '(int32)1' )]のほかの[contestants|e]を打ち破った"
- locale_window_contest_your_result: "• あなたはこの競技会で[SelectLocalization(PlannedActivityPhase.IsCharacterInGuestSubset(GetPlayer, 'winner'), 'tournament_won', 'tournament_lost')]となった"
+ locale_window_contest_your_result: "•あなたはこの競技会で[SelectLocalization(PlannedActivityPhase.IsCharacterInGuestSubset(GetPlayer, 'winner'), 'tournament_won', 'tournament_lost')]となった"
  character_contest_type_aptitude_start: "[Character.GetShortUINamePossessive|U]"
  character_contest_type_aptitude_breakdown: "#bold 概要：#!"
  character_contest_type_aptitude_wit: "#T $character_contest_type_aptitude_start$ $tournament_contest_type_wit$ [contest_aptitude|E]: [Character.Custom('GetContestTypeWitAptitude')]#![AddTextIf( Not( StringIsEmpty( Character.MakeScope.GetScriptValueDesc('contest_type_aptitude_wit') ) ), Concatenate( '\n', Character.MakeScope.GetScriptValueDesc('contest_type_aptitude_wit') ) )]"

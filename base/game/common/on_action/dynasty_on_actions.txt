@@ -284,41 +284,83 @@ on_house_relation_destroyed = {
 # scope:house = <house>
 on_house_aspiration_upgraded = {
 	effect = {
+		#####################
+    	# Mandala Government
+    	#####################
 		if = {
-			limit = {
-				house = { 
-					has_house_power_parameter = aspect_of_creation
-					NOT = { has_house_power_parameter = aspect_of_creation_01 }
+			limit = { government_has_flag = government_is_mandala }
+			#Completion memory
+			if = {
+				limit = {
+					OR = {
+						has_house_power_parameter = aspect_of_creation_05
+						has_house_power_parameter = aspect_of_serenity_05
+						has_house_power_parameter = aspect_of_destruction_05
+						has_house_power_parameter = aspect_of_trickery_05
+					}
+				}
+				if = {
+					limit = {
+						house = { has_house_power_parameter = aspect_of_creation_05 }
+					}
+					create_character_memory = { type = completed_creation_aspect_memory }
+				}
+				if = {
+					limit = {
+						house = { has_house_power_parameter = aspect_of_serenity_05 }
+					}
+					create_character_memory = { type = completed_serenity_aspect_memory }
+				}
+				if = {
+					limit = {
+						house = { has_house_power_parameter = aspect_of_destruction_05 }
+					}		
+					create_character_memory = { type = completed_destruction_aspect_memory }
+				}
+				if = {
+					limit = {
+						house = { has_house_power_parameter = aspect_of_trickery_05 }
+					}	
+					create_character_memory = { type = completed_trickery_aspect_memory }
 				}
 			}
-			create_character_memory = { type = upgraded_creation_aspect_memory }
-		}
-		if = {
-			limit = {
-				house = { 
-					has_house_power_parameter = aspect_of_serenity
-					NOT = { has_house_power_parameter = aspect_of_serenity_01 }
+			#Upgrade memory
+			else_if = {
+				limit = {
+					NOR = {
+						has_house_power_parameter = aspect_of_creation_01
+						has_house_power_parameter = aspect_of_serenity_01
+						has_house_power_parameter = aspect_of_destruction_01
+						has_house_power_parameter = aspect_of_trickery_01
+					}
+				}
+				if = {
+					limit = {
+						house = { has_house_power_parameter = aspect_of_creation }
+					}
+					create_character_memory = { type = upgraded_creation_aspect_memory }
+				}
+				if = {
+					limit = {
+						house = { has_house_power_parameter = aspect_of_serenity }
+					}
+					create_character_memory = { type = upgraded_serenity_aspect_memory }
+				}
+				if = {
+					limit = {
+						house = { has_house_power_parameter = aspect_of_destruction }
+					}		
+					create_character_memory = { type = upgraded_destruction_aspect_memory }
+				}
+				if = {
+					limit = {
+						house = { has_house_power_parameter = aspect_of_trickery }
+					}	
+					create_character_memory = { type = upgraded_trickery_aspect_memory }
 				}
 			}
-			create_character_memory = { type = upgraded_serenity_aspect_memory }
-		}
-		if = {
-			limit = {
-				house = { 
-					has_house_power_parameter = aspect_of_destruction
-					NOT = { has_house_power_parameter = aspect_of_destruction_01 }
-				}
-			}		
-			create_character_memory = { type = upgraded_destruction_aspect_memory }
-		}
-		if = {
-			limit = {
-				house = { 
-					has_house_power_parameter = aspect_of_trickery
-					NOT = { has_house_power_parameter = aspect_of_trickery_01 }
-				}
-			}	
-			create_character_memory = { type = upgraded_trickery_aspect_memory }
+			#Go you!
+			trigger_event = tgp_east_asia_mandala_events.1000
 		}
 	}
 }
@@ -328,7 +370,6 @@ on_house_aspiration_upgraded = {
 # scope:house = <house>
 on_house_aspiration_changed = {
     effect = {
-
     	#####################
     	# Mandala Government
     	#####################
@@ -442,57 +483,25 @@ on_house_aspiration_changed = {
 	    	#Just started on this track
 	    	if = {
 	    		limit = {
-	    			house = {
-	    				has_house_power_parameter = aspect_of_creation
-	    				NOR = {
-	    					has_house_power_parameter = aspect_of_creation_02
-	    					has_house_power_parameter = aspect_of_creation_03
-	    					has_house_power_parameter = aspect_of_creation_04
-	    					has_house_power_parameter = aspect_of_creation_05
-	    				}
-	    			}
+	    			house = { has_house_power_parameter = aspect_of_creation_01 }
 	    		}
 	    		create_character_memory = { type = picked_creation_aspect_memory }
 	    	}
 	    	if = {
 	    		limit = {
-	    			house = {
-	    				has_house_power_parameter = aspect_of_serenity
-	    				NOR = {
-	    					has_house_power_parameter = aspect_of_serenity_02
-	    					has_house_power_parameter = aspect_of_serenity_03
-	    					has_house_power_parameter = aspect_of_serenity_04
-	    					has_house_power_parameter = aspect_of_serenity_05
-	    				}
-	    			}
+	    			house = { has_house_power_parameter = aspect_of_serenity_01 }
 	    		}	
 	    		create_character_memory = { type = picked_serenity_aspect_memory }
 	    	}
 	    	if = {
 	    		limit = {
-	    			house = {
-	    				has_house_power_parameter = aspect_of_destruction
-	    				NOR = {
-	    					has_house_power_parameter = aspect_of_destruction_02
-	    					has_house_power_parameter = aspect_of_destruction_03
-	    					has_house_power_parameter = aspect_of_destruction_04
-	    					has_house_power_parameter = aspect_of_destruction_05
-	    				}
-	    			}
+	    			house = { has_house_power_parameter = aspect_of_destruction_01 }
 	    		}
 	    		create_character_memory = { type = picked_destruction_aspect_memory }
 	    	}
 	    	if = {
 	    		limit = {
-	    			house = {
-	    				has_house_power_parameter = aspect_of_trickery
-	    				NOR = {
-	    					has_house_power_parameter = aspect_of_trickery_02
-	    					has_house_power_parameter = aspect_of_trickery_03
-	    					has_house_power_parameter = aspect_of_trickery_04
-	    					has_house_power_parameter = aspect_of_trickery_05
-	    				}
-	    			}
+	    			house = { has_house_power_parameter = aspect_of_trickery_01 }
 	    		}
 	    		create_character_memory = { type = picked_trickery_aspect_memory }
 	    	}

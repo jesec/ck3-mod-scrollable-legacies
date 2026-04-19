@@ -259,7 +259,7 @@
  RAZE_HOLDING_DOWNGRADE_BUILDING: "$EFFECT_LIST_BULLET$Здание [BUILDING.GetName] разрушено, теперь это [TARGET_BUILDING.GetName]"
  RAZE_HOLDING_DESTROY_BUILDING: "$EFFECT_LIST_BULLET$Здание [BUILDING.GetName] полностью разрушено"
  RAZE_HOLDING_NO_PRIMARY_BUILDING: "@warning_icon! #X В провинции [Province.GetName] нет [Concept('buildings', 'зданий')|E]#!"
- RAZE_HOLDING_HOLDING_OF_CORRECT_TYPE: "@warning_icon! #X Тип [Concept('holding', 'владения')|E] соответствует вашей [Concept('government', 'форме правления')|E]."
+ RAZE_HOLDING_HOLDING_OF_CORRECT_TYPE: "@warning_icon! #X Тип [Concept('holding', 'владения')|E] соответствует вашей [Concept('government', 'форме правления')|E].#!"
  RAZE_HOLDING_COOLDOWN: "@warning_icon! #X Провинцию [Province.GetName] можно повторно разорить [Date.GetString]"
  RAZE_HOLDING_DOES_NOT_CONTROL_HOLDING: "@warning_icon! #X Вы не обладаете полным контролем над провинцией [Province.GetName]"
  province_razed_toast_title: "Провинция [province.GetNameNoTooltip] разорена"

@@ -2,6 +2,7 @@
  GOVERNMENT_HAS_FLAG_TRIGGER: "[government|E] $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Eure [government|E] $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "[government|E] von [CHARACTER.GetShortUIName|U] $FLAG$"
+ NONE_GOVERNMENT_HAS_FLAG_TRIGGER: "Ihre [government|E] $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER: "Erfordert, dass die [government|E]: $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Erfordert, dass Eure [government|E]: $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "Erfordert, dass die [government|E] von [CHARACTER.GetShortUIName]: $FLAG$"

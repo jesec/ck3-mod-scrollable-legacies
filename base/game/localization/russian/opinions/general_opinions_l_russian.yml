@@ -229,6 +229,7 @@
  attempt_to_force_surrender_opinion: "Этот человек пытался принудить к сдаче"
  theft_opinion: "Кража"
  siphoned_treasury_crime: "Вывод средств из казны"
+ tax_avoidance_crime: "Уклонение от налогов"
  embezzled_opinion: "Присвоение моих средств"
  elopement_opinion: "Тайный побег"
  attempted_elopement_opinion: "Попытка побега"

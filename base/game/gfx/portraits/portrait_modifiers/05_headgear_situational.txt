@@ -216,6 +216,7 @@
 							has_building_gfx = chinese_building_gfx
 							has_building_gfx = steppe_building_gfx
 							has_building_gfx = indian_building_gfx
+							has_building_gfx = tibetan_building_gfx
 							has_building_gfx = southeast_asian_building_gfx
 							has_building_gfx = japanese_building_gfx
 						}
@@ -237,6 +238,7 @@
 							has_building_gfx = chinese_building_gfx
 							has_building_gfx = steppe_building_gfx
 							has_building_gfx = indian_building_gfx
+							has_building_gfx = tibetan_building_gfx
 							has_building_gfx = southeast_asian_building_gfx
 							has_building_gfx = japanese_building_gfx
 						}

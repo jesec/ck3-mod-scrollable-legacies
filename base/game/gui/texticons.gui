@@ -649,6 +649,16 @@ texticon = {
 }
 
 texticon = {
+	icon = black_armor_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/tiefutu_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = hwacha_icon
 	iconsize = {
 		texture = "gfx/interface/icons/regimenttypes/hwacha.dds"
@@ -972,6 +982,56 @@ texticon = {
 	icon = torch_bearers_icon
 	iconsize = {
 		texture = "gfx/interface/icons/regimenttypes/torch_bearers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = emishi_horse_archers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/emishi_horse_archers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = fire_lance
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/fire_lance.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = ballista_elephant_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/ballista_elephant.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = samurai_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/samurai.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hwacha_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hwacha.dds"
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16
@@ -3863,6 +3923,56 @@ texticon = {
 }
 
 texticon = {
+	icon = high_medieval_warfare_attire_icon
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_023.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = holy_buildings
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_024.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = north_pacific_attire
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_025.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = east_asian_wonders
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_026.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = celestial_court_attire
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_027.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = skills_icon
 	iconsize = {
 		texture = "gfx/interface/icons/icon_skills.dds"
@@ -5474,6 +5584,26 @@ texticon = {
 	icon = expansion_decree_icon
 	iconsize = {
 		texture = "gfx/interface/icons/text_icons/tributaries.dds"
+		size = { 24 24 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = tributary_settled
+	iconsize = {
+		texture = "gfx/interface/icons/tributary_settled_map_icon.dds"
+		size = { 24 24 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = tributary_nomadic
+	iconsize = {
+		texture = "gfx/interface/icons/tributary_nomadic_map_icon.dds"
 		size = { 24 24 }
 		offset = { 0 6 }
 		fontsize = 16

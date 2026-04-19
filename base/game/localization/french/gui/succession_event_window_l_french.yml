@@ -239,6 +239,8 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_MAJAPAHIT_DESC: " Votre nom restera gravé à jamais au sommet du mont Semeru comme celui qui a fondé l’empire $e_majapahit$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RYUKYU_DESC: " On se souviendra de vous pour avoir uni les clans des îles et comme fondateur d’un empire $e_ruucuu_adj$"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SIAM_DESC: " Vous avez gravé votre nom à jamais dans l’histoire de l’humanité, en tant que fondateur du Royaume de $k_siam$"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC: " Vous avez inspiré votre peuple et l’avez uni sous le ciel d’Allah en fondant le Royaume de $k_brunei$"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC: " Les croyants de Bornéo se souviendront de vous comme de leur berger qui les protégeait du mal en fondant l’Empire de $e_brunei$"
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC: " C’est grâce à votre travail acharné et à votre diligence que le Royaume d’$k_israel$ a été créé."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC: " Personne ne pensait que c’était possible, mais vous avez dominé la région sainte la plus disputée du monde en tant qu’Empire d’$e_outremer$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC: " On peut escalader les Alpes et ne pas voir tout ce qui vous appartient après que vous ayez fondé le Royaume de $k_switzerland$."

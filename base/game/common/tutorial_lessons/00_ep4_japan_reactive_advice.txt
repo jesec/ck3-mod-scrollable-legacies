@@ -788,7 +788,7 @@ reactive_advice_soryo_regent_become_shogun = {
 		gui_transition = {
 			button_id = "next"
 			button_text = "tutorial_lesson_button_next"
-			target = ra_become_shogun_open_subjects
+			target = ra_become_shogun_end
 		}
 
 		trigger_transition = {
@@ -799,7 +799,7 @@ reactive_advice_soryo_regent_become_shogun = {
 		}
 	}
 
-	# Step 6 - Open Subjects
+	# Step 6 - Open Subjects - deprecated
 	ra_become_shogun_open_subjects = {
 		text = "ra_become_shogun_open_subjects_desc"
 		shown_in_encyclopedia = no
@@ -826,7 +826,7 @@ reactive_advice_soryo_regent_become_shogun = {
 		}
 	}
 
-	# Step 7 - Subjects
+	# Step 7 - Subjects - deprecated
 	ra_become_shogun_subjects = {
 		text = "ra_become_shogun_subjects_desc"
 		shown_in_encyclopedia = no

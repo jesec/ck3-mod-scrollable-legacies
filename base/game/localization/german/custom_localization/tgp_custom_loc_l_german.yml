@@ -58,6 +58,7 @@
  BlocReasonPlayer: "aufgrund des unvorhersehbaren menschlichen Wesens"
  BlocReasonWar: "als Ergebnis eines [house_bloc|E]-Kriegs"
  BlocReasonEvents: "als Ergebnis eines Ereignisses"
+ BlocReasonIntent: "als Ergebnis eines Vorsatzes bei einer [activity|E]"
  BlocReasonPrestige: "durch den Unterschied der [prestige_levels|E] der [house_bloc|E]-Anführer"
  BlocReasonInfluence: "durch den Unterschied der [influence_levels|E] der [house_bloc|E]-Anführer"
  BlocReasonMilitaryStrength: "durch den Unterschied in der Militärstärke der [house_bloc|E]-Anführer"
@@ -70,3 +71,5 @@
  BlocReasonBribePrestige: "aufgrund einer großzügigen [prestige_i][prestige|E]-Bestechung"
  BlocReasonBribeInfluence: "aufgrund einer großzügigen [influence_i][influence|E]-Bestechung"
  BlocReasonBribeHook: "durch den Einsatz eines [hook_i][Concept('hook', 'Druckmittels')|E]"
+ BlocReasonKicked: "aufgrund eines Rauswurfs durch das [leading_house|E]"
+ BlocReasonFollowedLiege: "um sich dem [bloc|E] des [Concept('liege', 'Lehnsherrn')|E] des eigenen [Concept('house_head', 'Hausoberhaupts')|E] anschließen zu können"

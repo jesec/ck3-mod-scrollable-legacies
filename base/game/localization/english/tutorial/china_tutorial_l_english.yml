@@ -124,7 +124,7 @@
  TUTORIAL_OPEN_DECISION_PANEL_PROMPT: "Open the '$DECISIONS_VIEW_TITLE$' Panel"
 
  lesson_china_decisions_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
- lesson_china_decisions_open_desc: "Once you decide join an [imperial_examinations|E], it helps if you are well prepared.\n\nYou can prepare for $game_concept_examinations$ by studying the Confucian Classics."
+ lesson_china_decisions_open_desc: "Once you decide to join a [imperial_examination|E], it helps if you are well prepared.\n\nYou can prepare for $game_concept_examinations$ by studying the Confucian Classics."
  lesson_china_decisions_open_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
 
  lesson_china_decisions: "$lesson_china_STUDY_SCHEME_SEGMENT$"

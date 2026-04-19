@@ -91,4 +91,4 @@
  ra_become_shogun_subjects: "$reactive_advice_soryo_regent_become_shogun_NAME$"
  ra_become_shogun_subjects_desc: "你必须先清除[GetGovernment('japan_administrative_government').GetNameWithIcon][government|E]的一切残余，才能成为[shogun|E]。\n\n如果你的任意[vassals|E]是$japan_administrative_government$，你可以在这里找到他们，并使用$revoke_title_interaction|V$[character_interaction|E]取得他们的[titles|E]。"
  ra_become_shogun_end: "$reactive_advice_soryo_regent_become_shogun_NAME$"
- ra_become_shogun_end_desc: "权力的缰绳已经掌握在你手中，你只需要牢牢抓住它们就可以成为[shogun|E]。\n\n驱逐弱小的[GetGovernment('japan_administrative_government').GetName][rulers|E]，并制定[GetLaw('japanese_bureaucracy_2').GetName]，国家就是你的了！"
+ ra_become_shogun_end_desc: "权力的缰绳已经掌握在你手中，你只需要牢牢抓住它们就可以成为[shogun|E]。\n\n制定[GetLaw('japanese_bureaucracy_2').GetName]，国家就是你的了！"

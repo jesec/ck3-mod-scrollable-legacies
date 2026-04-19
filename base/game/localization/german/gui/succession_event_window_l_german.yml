@@ -239,6 +239,8 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_MAJAPAHIT_DESC: " Euer Name wird auf ewig als Gründer des Großreichs von $e_majapahit$ in die Gipfel des Berges Semeru eingehauen sein."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RYUKYU_DESC: " Man wird sich an Euch als jenen Herrscher erinnern, der die Clans der Insel einte und ein $e_ruucuu_adj$-Großreich gründete."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SIAM_DESC: " Ihr trugt Euren Namen als Gründer des Königreichs $k_siam$ auf immerdar in die menschliche Geschichte ein."
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC: " Ihr habt Euer Volk als Gründer des Königreichs $k_brunei$ inspiriert und sie unter den Himmel Allahs geeint."
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC: " Die Gläubigen Borneos werden sich an Euch als Gründer des Königreichs $k_brunei$ und somit als den Hirten erinnern, der das Böse im Zaum hielt."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC: " Aufgrund Eurer harten Arbeit und Eurer Sorgfalt wurde das Königreich $k_israel$ erschaffen."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC: " Keiner hätte gedacht, dass man es schaffen kann, doch Ihr habt als das Kaiserreich von $e_outremer$ die meisten umstrittenen Regionen des Heiligen Lands dominiert."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC: " Man kann die Alpen erklimmen und doch noch nicht alles sehen, was Euer war, als Ihr das Königreich $k_switzerland$ begründet habt."

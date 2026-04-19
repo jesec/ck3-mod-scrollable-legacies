@@ -52,7 +52,7 @@
  DIARCHY_WINDOW_MONTHLY_SWING_TEXT: "当前摆动值：$CURRENT|^V$\n\n下个月[scales_of_power|E]将改变$MONTHLY_TEXT$，直到处于平衡点：$BALANCE|V^$/#V 100#!"
  DIARCHY_WINDOW_SUCCESSION_SCORE: "继承分数"
  DIARCHY_WINDOW_SUCCESSION_SCORE_BREAKDOWN: "[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle][diarch_succession|E]"
- DIARCHY_WINDOW_PARAMETER_ITEM: "• $TEXT$"
+ DIARCHY_WINDOW_PARAMETER_ITEM: "•$TEXT$"
  DIARCHY_WINDOW_BACK_TOOLTIP: "#T 返回权力分享窗口#!"
  IN_ACTIVE_DIARCHY: "[power_sharing|E]"
  diarch.succession_offence.empty: ""

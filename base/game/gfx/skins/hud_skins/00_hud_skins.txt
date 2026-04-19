@@ -78,7 +78,6 @@ asia = {
 			culture = { has_cultural_pillar = heritage_tibetan }
 			culture = { has_cultural_pillar = heritage_viet }
 			culture = { has_cultural_pillar = heritage_hmongic }
-			culture = { has_cultural_pillar = heritage_malayic }
 			culture = { has_cultural_pillar = heritage_nivkh }
 			culture = { has_cultural_pillar = heritage_burman }
 			culture = { has_cultural_pillar = heritage_dravidian }

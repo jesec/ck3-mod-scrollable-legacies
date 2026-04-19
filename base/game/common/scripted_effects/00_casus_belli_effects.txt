@@ -28,6 +28,7 @@
 @maximum_prestige_winner_ally = 1000
 @maximum_piety_winner_ally = 1000
 @maximum_merit_winner_ally = 1000
+@maximum_merit_loser_ally = 1000
 @maximum_prestige_loser_ally = 1000
 @maximum_piety_loser_ally = 1000
 
@@ -291,6 +292,11 @@ modify_allies_of_participants_fame_values = {
 					multiply = $WINNER_ALLY_FAME_SCALE$
 					max = @maximum_prestige_winner_ally
 				}
+				merit = {
+					value = $FAME_BASE$
+					multiply = $WINNER_ALLY_FAME_SCALE$
+					max = @maximum_merit_winner_ally
+				}
 				opinion = {
 					modifier = contributed_in_war
 				}
@@ -315,6 +321,11 @@ modify_allies_of_participants_fame_values = {
 					multiply = $WINNER_ALLY_FAME_SCALE$
 					max = @maximum_prestige_winner_ally
 				}
+				merit = {
+					value = $FAME_BASE$
+					multiply = $WINNER_ALLY_FAME_SCALE$
+					max = @maximum_merit_winner_ally
+				}
 				opinion = {
 					modifier = contributed_in_war
 				}
@@ -329,30 +340,6 @@ modify_allies_of_participants_fame_values = {
 				opinion = {
 					modifier = contributed_in_war
 				}
-			}
-		}
-	}
-	# Award Merit to each participant of the winning side
-	if = {
-		# Award Merit to the victorious attacker's allies.
-		limit = {
-			$WINNER$ = scope:attacker
-		}
-		add_from_contribution_attackers = {
-			merit = {
-				value = $FAME_BASE$
-				multiply = $WINNER_ALLY_FAME_SCALE$
-				max = @maximum_merit_winner_ally
-			}
-		}
-	}
-	else = {
-		# Award Merit to the victorious defender's allies.
-		add_from_contribution_defenders = {
-			merit = {
-				value = $FAME_BASE$
-				multiply = $LOSER_ALLY_FAME_SCALE$
-				max = @maximum_merit_winner_ally
 			}
 		}
 	}
@@ -376,6 +363,11 @@ modify_allies_of_participants_fame_both_values = {
 				value = $PIETY_FAME_BASE$
 				multiply = $WINNER_ALLY_FAME_SCALE$
 				max = @maximum_piety_winner_ally
+			}
+			merit = {
+				value = $MERIT_FAME_BASE$
+				multiply = $WINNER_ALLY_FAME_SCALE$
+				max = @maximum_merit_winner_ally
 			}
 			opinion = {
 				modifier = contributed_in_war
@@ -427,6 +419,11 @@ modify_allies_of_participants_fame_both_values = {
 				multiply = $LOSER_ALLY_FAME_SCALE$
 				max = @maximum_piety_loser_ally
 			}
+			merit = {
+				value = $MERIT_FAME_BASE$
+				multiply = $LOSER_ALLY_FAME_SCALE$
+				max = @maximum_merit_loser_ally
+			}
 			opinion = {
 				modifier = contributed_in_war
 			}
@@ -447,6 +444,11 @@ modify_allies_of_participants_fame_values_crusading_claim = {
 			prestige = {
 				value = $FAME_BASE$
 				multiply = $WINNER_ALLY_FAME_SCALE$
+			}
+			merit = {
+				value = $FAME_BASE$
+				multiply = $WINNER_ALLY_FAME_SCALE$
+				max = @maximum_merit_winner_ally
 			}
 			opinion = {
 				modifier = contributed_in_war
@@ -469,6 +471,11 @@ modify_allies_of_participants_fame_values_crusading_claim = {
 			prestige = {
 				value = $FAME_BASE$
 				multiply = $WINNER_ALLY_FAME_SCALE$
+			}
+			merit = {
+				value = $FAME_BASE$
+				multiply = $WINNER_ALLY_FAME_SCALE$
+				max = @maximum_merit_winner_ally
 			}
 			opinion = {
 				modifier = contributed_in_war

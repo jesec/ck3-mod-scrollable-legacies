@@ -3,7 +3,7 @@
  tgp_east_asia_decision_events.0010.desc: "가끔은 가장 뜻밖의 곳에서 깨우침을 얻기도 한다\n\n봉역을 통치하는 만다라의 방식이 내게는... 더 높은 차원과의 공명으로 느껴진다. 나는 분명 더 큰 목적을 위해 존재하는 것이다. 바로 내 신성하고도 자애로운 통치 아래 봉역을 통합하는 것이다.\n\n#EMP '[ROOT.Char.GetFirstNameNoTooltip] 데바라자를 경배하라'#!라고 외치는 소리가 듣기 좋기는 하다..."
  tgp_east_asia_decision_events.0010.a: "#EMP 이것이#! 내 첫 칙령이 되리라."
  tgp_east_asia_decision_events.0010.b: "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]의 봉토는 사원에 걸맞지 않다. #EMP 아직은#! 말이지..."
- warning_mandala_capital_building_only_built_in_citadels_tt: "\n@alert_icon! #alert_trial [mandala|E] [GetBuilding('mandala_capital_01').GetName] [great_building|E]은 당신의 [capital|E]가 [temple_citadel|E] [holding|E]여야만 건설할 수 있음#!"
+ tgp_east_asia_decision_events.0010.b_temple_citadel: "내 사원은 이미 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]에 잘 세워져 있다!"
  all_tribal_holdings_will_change_to_citadels: "봉역의 모든 [tribal_holdings|E]가 [temple_citadel_holdings|E]가 될 것임"
  realm_capital_will_change_to_citadel: "[realm_capital|E] [holding|E]가 [temple_citadel_holding|E]가 될 것임"
  tgp_east_asia_decision_events.0015.opening: "[overlord.Custom2('AppropriateGreeting', ROOT.Char)]"

@@ -100,6 +100,7 @@
 							text = "[Title.GetNameNoTooltip]"
 							default_format = "#high"
 							using = Font_Size_Medium
+							max_width = 300
 						}
 
 						text_single = {
@@ -107,6 +108,8 @@
 							layoutpolicy_horizontal = expanding
 							text = ADMIN_VASSAL_DETAILS_TITLE_TIER
 							align = center
+							max_width = 250
+
 						}
 
 						expand = {}
@@ -336,18 +339,24 @@
 									size = { 494 40 }
 									using = Background_Obligation_Banner_Right
 
-									text_single = {
-										parentanchor = vcenter
-										position = { 10 -4}
-										layoutpolicy_horizontal = expanding
+									hbox = {
+										text_single = {
+											margin_left = 10
+											margin_bottom = 4
+											autoresize = no
+											layoutpolicy_horizontal = expanding
 
-										text = "[ObligationLevel.GetName]"
-										default_format = "#underline"
-										align = nobaseline
-										using = Font_Size_Medium
 
-										tooltip = "[ObligationLevel.GetDesc]"
+											text = "[ObligationLevel.GetName]"
+											default_format = "#underline"
+											align = nobaseline
+											using = Font_Size_Medium
+
+											tooltip = "[ObligationLevel.GetDesc]"
+										}
 									}
+
+									
 								}
 
 								hbox = {
@@ -421,6 +430,7 @@
 
 											text = "[governor_efficiency|E]"
 											align = nobaseline
+											max_width = 100
 										}
 
 										text_single = {
@@ -430,6 +440,7 @@
 											default_format = "#high"
 											align = nobaseline
 											using = Font_Size_Medium
+											max_width = 110
 
 											tooltip = "ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_TT"
 										}
@@ -452,6 +463,7 @@
 
 											text = "[taxes|E]"
 											align = nobaseline
+											max_width = 110
 										}
 
 										hbox = {
@@ -467,6 +479,7 @@
 												using = Font_Size_Medium
 												default_format = "#high"
 												align = nobaseline
+												max_width = 80
 											}
 
 											text_single = {
@@ -474,6 +487,7 @@
 												text = "ADMIN_VASSAL_DETAILS_TAX_EFFICIENCY_BONUS"
 												align = nobaseline
 												default_format = "#P"
+												max_width = 40
 											}
 
 											text_single = {
@@ -481,6 +495,7 @@
 												text = "ADMIN_VASSAL_DETAILS_TAX_EFFICIENCY_BONUS"
 												align = nobaseline
 												default_format = "#N"
+												max_width = 40
 											}
 										}
 									}
@@ -499,6 +514,7 @@
 									vbox = {
 										text_single = {
 											layoutpolicy_horizontal = expanding
+											max_width = 110
 
 											text = "[levies|E]"
 											align = nobaseline
@@ -517,6 +533,7 @@
 												using = Font_Size_Medium
 												default_format = "#high"
 												align = nobaseline
+												max_width = 70
 											}
 
 											text_single = {
@@ -524,6 +541,7 @@
 												text = "ADMIN_VASSAL_DETAILS_LEVY_EFFICIENCY_BONUS"
 												align = nobaseline
 												default_format = "#P"
+												max_width = 40
 											}
 
 											text_single = {
@@ -531,6 +549,7 @@
 												text = "ADMIN_VASSAL_DETAILS_LEVY_EFFICIENCY_BONUS"
 												align = nobaseline
 												default_format = "#N"
+												max_width = 40
 											}
 										}
 									}

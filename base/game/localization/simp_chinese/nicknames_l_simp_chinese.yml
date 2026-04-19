@@ -1330,3 +1330,5 @@
  nick_tenjin_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]因蒙受不公而化为怨灵，[CHARACTER.GetHerHis]如今被奉为神明供奉。"
  nick_ushiwakamaru: "牛若丸"
  nick_ushiwakamaru_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]以公牛犊般的力量和韧劲而闻名，周遭人对[Select_CString(CHARACTER.IsLocalPlayer, '你', Select_CString(CHARACTER.IsFemale, '她', '他' ))]无不畏惧。"
+ nick_ho_seung: "虎僧"
+ nick_ho_seung_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]周身环绕着一幅浮动的传说绘卷，描绘一只老虎落入槛阱毙命后受生为人，最终成为僧人的故事。据绘卷所示，这位僧人正是[CHARACTER.GetHerselfHimself]本人。"

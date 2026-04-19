@@ -75,7 +75,7 @@
  religious_interaction.2011.b: "¡No pagaré por vuestra salvación eterna!"
  religious_interaction.2011.c: "Haréis esto por algo mucho más valioso que el oro."
  religious_interaction.2012.desc: "Veo la sabiduría de vuestra fe, pero espero que entendáis el largo y sinuoso camino que lleva de la oscuridad a la luz.\n\nTal vez si prometierais apoyarme en lo que necesite, el viaje sería más fácil."
- religious_interaction.2012.a: "Acepto, por el bien de la fe [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]."
+ religious_interaction.2012.a: "Acepto, por el bien de los fieles en todas partes."
  religious_interaction.2012.b: "¡No negociaré por vuestra alma!"
  religious_interaction.2012.c: "Primero tenéis otras deudas que pagarme."
  religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

@@ -758,3 +758,5 @@
  artifact_nukemaru_sword_desc: "天照大神自身が伊勢の猟師に授けたとされるこの剣は、後に$dynn_Taira$$Tadamori$が買い求めた。彼が眠っている間に蛇が襲ってきた際、この剣は自ら鞘から抜け出したと伝えられている。"
  artifact_kogarasumaru_sword_name: "小烏丸" #小烏丸
  artifact_kogarasumaru_sword_desc: "小烏丸は、天国が朝廷のために鍛造し、その後承平天慶の乱での功績により$Suzaku$$king_tenno_male_japanese$から$dynn_Taira$$Sadamori$へ下賜された。"
+ artifact_statue_green_amitabha_buddha_name: "緑石の阿弥陀仏像"
+ artifact_statue_green_amitabha_buddha_descripton: "この美しい阿弥陀仏像は、一枚の緑石から彫り出されたように見える。台座には蓮の花びらと波紋の模様が施されている。\n\nこの像は、建立直後に崩れた塔の瓦礫から奇跡的に現れたと伝えられている。"

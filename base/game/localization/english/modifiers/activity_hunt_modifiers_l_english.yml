@@ -183,6 +183,7 @@ tgp_hunt_burnt_local_crops_desc: "This character burnt the field of local peasan
  hunt_success_chance.recent_hunt_held:0 "Recent Hunts in [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
  hunt_success_chance.hunting_grounds:0 "$building_type_hunting_grounds_01$ [building|E]"
  hunt_success_chance.rainbow_mountains_01: "$building_type_rainbow_mountains_01$ [building|E]"
+ hunt_success_chance.chocolate_hills_01: "$building_type_chocolate_hills_01$ [building|E]"
  hunt_success_chance.visegrad_castle_01: "$building_type_visegrad_castle_01$ [building|E]"
  hunt_success_chance.logging_camps:0 "$building_type_logging_camps_01$ [building|E]"
  hunt_success_chance.royal_forest:0 "$building_type_royal_forest_01$ [building|E]"

@@ -35,7 +35,7 @@
  mercenary_company_succession_law_effects: "継承時には団長のすべての[titles|e]がその後継者に与えられます。後継者は一般的には[martial|E]能力が最も高い[knight|E]です。"
  city_succession_law: "共和制"
  city_succession_law_effects: "継承時には亡くなった統治者のすべての[titles|e]がその後継者に与えられます。"
- herder_succession_law: "小群遊牧民の継承"
+ herder_succession_law: "遊牧集団の継承"
  herder_succession_law_effects: "継承時には亡くなった統治者のすべての[titles|e]がその後継者に与えられます。"
  succession_rel_head: "[religious_head_succession_law_short|E]"
  succession_rel_head_singular: "[religious_head_succession_law_short|E]"
@@ -273,4 +273,4 @@
  #Meritocratic Acclamation Succession Law (Korea, TGP)
  meritocratic_regency_succession_law: "能力主義摂政継承"
  meritocratic_regency_succession_law_subname: "$appointment_succession_law_subname$"
- meritocratic_regency_succession_law_effects: "$meritocratic_regency_succession_law$では、[title|E]とそれに関連する[holdings|E]を、最もスコアが高い候補者が相続することになる。領国の[noble_families|E]、[governors|E]やその一族の成員が候補者になることができる。\n\n[ceremonial_liege|E]は、次の[ceremonial_regent|E]に選ばれた場合、退位するか、直接統治を復活させる選択肢が与えられる。"
+ meritocratic_regency_succession_law_effects: "$meritocratic_regency_succession_law$の下では、[title|E]とそれに関連する[holdings|E]を、最もスコアが高い候補者が相続することになります。[realm|E]の[noble_families|E]、[governors|E]やその一族の成員が候補者になることができます。"

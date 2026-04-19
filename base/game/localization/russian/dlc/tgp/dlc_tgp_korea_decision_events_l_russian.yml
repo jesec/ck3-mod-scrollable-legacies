@@ -21,3 +21,7 @@
  MERITOCRATIC_CEREMONIAL_LIEGE_TITLE: "[founder.GetPrimaryTitle.GetAdjectiveNoTooltip]ий трон"
  tgp_korea_decision.9202.desc: "Чем ярче [founder.GetTitledFirstName] сияет своей славой, тем больше людей ищет утешения в [Select_CString(founder.IsFemale, 'ее', 'его' )] тени. [founder.GetTitleAsNameNoTooltip|U] не может править в одиночестве, а тропы истинной власти всегда извилисты.\n\nЧтобы [Select_CString(founder.IsFemale, 'ее', 'его' )] потомки правили державой [ROOT.Char.GetPrimaryTitle.GetDefinitiveNameNoTooltip] не только номинально, [Select_CString(founder.IsFemale, 'ей', 'ему' )] стоит проявить бдительность уже сейчас..."
  tgp_korea_decision.9202.a: "Власть имеет разные обличия."
+ tgp_create_meritocratic_ruling_regent_title_effect: "[Concept('ruler', 'Правитель')|E] [Concept('empire', 'империи')|E] с формой правления «[GetGovernment('meritocratic_government').GetName]»:"
+ tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "Вы получите титулярный [Concept('kingdom', 'королевский')|E] [Concept('title', 'титул')|E] с [Concept('law', 'законом')|E] о наследовании «[GetLaw('single_heir_succession_law').GetName]»"
+ tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "[Concept('vassals', 'Вассалы')|E] могут создавать [Concept('factions', 'фракции')|E] с целью #V смены церемониального регента#!"
+ tgp_create_meritocratic_ruling_regent_title_message_title: "Вызов [founder.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ой монархии"

@@ -1,5 +1,13 @@
 # Scrollable Legacies Changelog
 
+## v1.0.1 - 2026-04-19
+
+Compatibility bump for CK3 1.18.4.
+- Merged base 1.18.1.1 → 1.18.4 (through 1.18.2, 1.18.3).
+- Auto-merge resolved the one touched file (window_dynasty_house.gui)
+  cleanly; mod's scrollbox replacement for the dynamic grid is preserved.
+
+
 ## v1.0 - 2025-11-16
 
 **Initial Release**

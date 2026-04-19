@@ -71,7 +71,7 @@
  ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS_BULLET: "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS$"
  ROYAL_COURT_STATUS_CGV_EXPECTATIONS: "Votre [court_grandeur|El] est en dessous de votre [Concept('court_grandeur_expectations','magnificence attendue')|E]"
  ROYAL_COURT_STATUS_CGV_EXPECTATIONS_BULLET: "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_CGV_EXPECTATIONS$"
- ROYAL_COURT_STATUS_CURRENT_EVENTS: "Vous avez [LocalPlayerCourtEvents.GetNumberCourtEvents|V] [Select_CString( GreaterThan_int32( LocalPlayerCourtEvents.GetNumberCourtEvents, '(int32)1' ), 'problèmes', 'problème' )] en attente à votre Cour"
+ ROYAL_COURT_STATUS_CURRENT_EVENTS: "Vous avez [LocalPlayerCourtEvents.GetNumberCourtEvents|V] [Select_CString( GreaterThan_int32( LocalPlayerCourtEvents.GetNumberCourtEvents, '(int32)1' ), 'problèmes', 'problème' )] en attente"
  ROYAL_COURT_STATUS_CURRENT_EVENTS_BULLET: "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_CURRENT_EVENTS$"
  NEW_ARTIFACTS_SINGLE: "nouvel [artifact|El]"
  NEW_ARTIFACTS_PLURAL: "nouveaux [artifacts|El]"

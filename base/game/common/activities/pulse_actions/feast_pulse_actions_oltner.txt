@@ -1453,6 +1453,9 @@ spouse_insults_host = {
 }
 
 host_gains_diplo_xp = {
+
+	icon = diplomacy
+
 	is_valid = {
 		is_current_phase_active = yes
 		coronation_feast_phase = yes # If Coronation, only in feast phase

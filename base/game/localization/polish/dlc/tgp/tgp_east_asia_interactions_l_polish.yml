@@ -5,6 +5,7 @@
  offer_tributary_status_interaction_cooldown_active_tt: "[recipient.GetShortUINameNotMeNoTooltip] wciąż odczuwa rozczarowanie twoją ostatnią prośbą, by zostać twoim trybutariuszem"
  offer_tributary_status_interaction_tributary_was_recently_subjugated: "[suzerain|E] niedawno podporządkował sobie osobę znaną jako [recipient.GetShortUINameNotMeNoTooltip]"
  offer_tributary_status_interaction_warred_cooldown_active_tt: "[recipient.GetShortUINameNotMeNoTooltip] wciąż czuje strach od czasu ostatniej próby dołączenia do ciebie w roli trybutariusza"
+ offer_tributary_status_interaction_cant_use_tributaries_tt: "[government|E] osoby znanej jako [actor.GetShortUINameNotMe] nie uznaje posiadania [Concept('tributaries', 'trybutariuszy')|E]"
  offer_tributary_status_interaction_suzerain_intervene.t: "[suzerain|E] osoby znanej jako [recipient.GetShortUINameNotMe] interweniuje"
  offer_tributary_status_interaction_suzerain_starts_war_tt: "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUINameNotMe] rozpoczyna wojnę przeciwko osobie, którą jest [recipient.GetShortUINameNotMe], przy użyciu [casus_belli|El] „[GetCasusBelliType('make_tributary_cb').GetName]”#!"
  offer_tributary_status_interaction_suzerain_nothing.t: "[suzerain|E] osoby znanej jako [recipient.GetShortUINameNotMe] nie reaguje"

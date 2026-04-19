@@ -196,7 +196,7 @@
  locale_window_contest_result_winner_desc_you_lose: "[Character.GetNameNoTooltip]击败了你和其他[Subtract_int32( GetDataModelSize( ActivityLocaleWindow.GetGuestSublist( PlannedActivityPhase.Self, 'contestant' ) ), '(int32)2' )]位[contestants|e]"
  locale_window_contest_result_winner_desc_you_win: "你击败了[Subtract_int32( GetDataModelSize( ActivityLocaleWindow.GetGuestSublist( PlannedActivityPhase.Self, 'contestant' ) ), '(int32)1' )]位[contestants|e]"
  locale_window_contest_result_winner_desc_spectator: "[Character.GetNameNoTooltip]击败了其他[Subtract_int32( GetDataModelSize( ActivityLocaleWindow.GetGuestSublist( PlannedActivityPhase.Self, 'contestant' ) ), '(int32)1' )]位[contestants|e]"
- locale_window_contest_your_result: "• 你[SelectLocalization(PlannedActivityPhase.IsCharacterInGuestSubset(GetPlayer, 'winner'), 'tournament_won', 'tournament_lost')]这次比赛"
+ locale_window_contest_your_result: "•你[SelectLocalization(PlannedActivityPhase.IsCharacterInGuestSubset(GetPlayer, 'winner'), 'tournament_won', 'tournament_lost')]这次比赛"
  character_contest_type_aptitude_start: "[Character.GetShortUINamePossessive|U]"
  character_contest_type_aptitude_breakdown: "#bold 明细：#!"
  character_contest_type_aptitude_wit: "#T $character_contest_type_aptitude_start$ $tournament_contest_type_wit$ [contest_aptitude|E]：[Character.Custom('GetContestTypeWitAptitude')]#![AddTextIf( Not( StringIsEmpty( Character.MakeScope.GetScriptValueDesc('contest_type_aptitude_wit') ) ), Concatenate( '\n', Character.MakeScope.GetScriptValueDesc('contest_type_aptitude_wit') ) )]"

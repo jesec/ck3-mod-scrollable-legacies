@@ -159,3 +159,5 @@
  grant_court_position: "궁정 직위 부여"
  grant_court_position_desc: "[recipient.GetShortUINameNoTooltip]에게 [court_position|E] 부여"
  request_court_position_extra_icon: "$hook_extra_icon$"
+ celestial_extinguish_noble_family_interaction: "귀족 가문 축출"
+ celestial_extinguish_noble_family_interaction_desc: "[recipient.GetShortUIName] 및 [recipient.GetHerHis] 성인 후계자들을 [execute|E]하고, [recipient.GetHerHis] 남은 일족을 [realm|E]에서 [banish|E]합니다"

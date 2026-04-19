@@ -71,7 +71,7 @@
  ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS_BULLET: "$EFFECT_LIST_BULLET$$ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS$"
  ROYAL_COURT_STATUS_CGV_EXPECTATIONS: "あなたの[court_grandeur|E]は[court_grandeur_expectations|E]を下回っています"
  ROYAL_COURT_STATUS_CGV_EXPECTATIONS_BULLET: "$EFFECT_LIST_BULLET$$ROYAL_COURT_STATUS_CGV_EXPECTATIONS$"
- ROYAL_COURT_STATUS_CURRENT_EVENTS: "宮廷に[LocalPlayerCourtEvents.GetNumberCourtEvents|V]個の未対応の[Select_CString( GreaterThan_int32( LocalPlayerCourtEvents.GetNumberCourtEvents, '(int32)1' ), '状況', '状況' )]があります"
+ ROYAL_COURT_STATUS_CURRENT_EVENTS: "未対応の[Select_CString( GreaterThan_int32( LocalPlayerCourtEvents.GetNumberCourtEvents, '(int32)1' ), '状況', '状況' )]が[LocalPlayerCourtEvents.GetNumberCourtEvents|V]件あります"
  ROYAL_COURT_STATUS_CURRENT_EVENTS_BULLET: "$EFFECT_LIST_BULLET$$ROYAL_COURT_STATUS_CURRENT_EVENTS$"
  NEW_ARTIFACTS_SINGLE: "[artifact|E]"
  NEW_ARTIFACTS_PLURAL: "[artifacts|E]"

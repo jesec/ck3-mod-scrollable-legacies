@@ -516,7 +516,7 @@
  proving_grounds_nightly_barding_drills_domicile_building_desc: "#weak (Wymaganie: [GetDomicileBuilding('proving_grounds_01').GetName|l])#!\nŁączenia się skręcają, skóra się rwie, płyty rdzewieją, a elitarna kawaleria ciężka zapomina przećwiczone zagadnienia równie łatwo jak wszyscy inni."
  proving_grounds_life_in_the_saddle_domicile_building: "Życie w siodle"
  proving_grounds_life_in_the_saddle_domicile_building_desc: "#weak (Wymaganie: [GetDomicileBuilding('proving_grounds_01').GetName|l])#!\nNiektórzy rodzą się jeźdźcami, inni zostają nimi na późniejszym etapie życia."
- proving_grounds_life_in_the_saddle_horse_archers_tt: "Musisz mieć [regiment|El], który tworzą [GetMaA('heavy_horse_archers').GetName|l] lub [GetMaA('horse_archers').GetName|l]"
+ proving_grounds_life_in_the_saddle_horse_archers_tt: "Musisz mieć co najmniej jeden [regiment|El] [Concept('archer_cavalry', 'łuczników konnych')|E]"
  #TIT-53191
  proving_grounds_the_stump_domicile_building: "Pieniek"
  #proving_grounds_the_stump_domicile_building: "The [GetPlayer.Custom('GetStumpName')|U]"

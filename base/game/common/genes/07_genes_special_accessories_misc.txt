@@ -346,7 +346,51 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+
+		ccp7_emishi_com_legwear = {
+			index = 25
+			male = {
+				1 = m_legwear_sec_ccp_emishi_com_01
+				1 = m_legwear_sec_ccp_emishi_com_02
+			}
+			female = {
+				1 = f_legwear_sec_ccp_emishi_com_01
+				1 = f_legwear_sec_ccp_emishi_com_02
+			}
+			boy = male
+			girl = female
+		}
+		
+		ccp7_emishi_nob_legwear = {
+			index = 26
+			male = {
+				1 = m_legwear_sec_ccp_emishi_nob
+
+			}
+			female = {
+				1 = f_legwear_sec_ccp_emishi_nob
+			}
+			boy = male
+			girl = female
+		}
+
+		ccp7_nivkh_com_legwear = {
+			index = 27
+			male = {
+				1 = m_legwear_sec_ccp_nivkh_com_01
+				1 = m_legwear_sec_ccp_nivkh_com_02
+				1 = m_legwear_sec_ccp_emishi_com_02
+			}
+			female = {
+				1 = f_legwear_sec_ccp_nivkh_com_01
+				1 = f_legwear_sec_ccp_emishi_com_02
+			}
+			boy = male
+			girl = female
+		}
+
 	}
+	
 
 	special_legwear = {
 
@@ -702,6 +746,21 @@ accessory_genes = {
 			female = {
 				1 = f_cloaks_sec_ccp4_sami_com_01
 				1 = f_cloaks_sec_ccp4_sami_hi_nob_01
+			}
+			boy = male
+			girl = female
+		}
+		ccp7_mino_com_01 = {
+			index = 23
+			male = {
+				1 = empty
+				1 = m_cloaks_sec_ccp_mino_com_01
+				1 = male_furs_secular_fp1_nobility_03
+			}
+			female = {
+				1 = empty
+				1 = f_cloaks_sec_ccp_mino_com_01
+				1 = female_furs_secular_fp1_nobility_03
 			}
 			boy = male
 			girl = female
@@ -1650,6 +1709,17 @@ props_left = {
 		index = 101
 		male = {
 			1 = japanese_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	ccp5_french_marshal_sword_left = {
+		index = 102
+		male = {
+			3 = ccp5_french_marshal_sword_01_left
+			3 = ccp5_french_marshal_sword_02_left
+			2 = western_sword_02_left
 		}
 		female = male
 		boy = male
@@ -2703,6 +2773,17 @@ props_left = {
 			index = 112
 			male = {
 				1 = tgp_japanese_cup_01_a
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		ccp5_french_marshal_sword = {
+			index = 113
+			male = {
+				3 = ccp5_french_marshal_sword_01
+				14 = ccp5_french_marshal_sword_02
+				2 = western_sword_02
 			}
 			female = male
 			boy = male

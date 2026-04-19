@@ -29,6 +29,8 @@
  people: "사람"
  mistress: "여주인"
  master: "주인"
+ mistress_possessive: "여주인의"
+ master_possessive: "주인의"
  witch_spirit: "정령"
  witch_spirits: "정령"
  witch_source: "근원"

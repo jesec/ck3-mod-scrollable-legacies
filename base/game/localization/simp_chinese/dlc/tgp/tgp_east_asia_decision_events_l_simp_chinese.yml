@@ -3,7 +3,7 @@
  tgp_east_asia_decision_events.0010.desc: "有时候，启迪可能来自最意想不到的来源。\n\n曼荼罗式的统治方式在……更高的层面上与我产生共鸣。毫无疑问，我的存在肩负着更伟大的使命——将整个领地统一在我神圣而仁慈的统治之下。\n\n#EMP “提婆罗阇[ROOT.Char.GetFirstNameNoTooltip]，万岁！”#! 这句话听起来很顺耳……"
  tgp_east_asia_decision_events.0010.a: "让#EMP 这#!成为我的第一个敕令。"
  tgp_east_asia_decision_events.0010.b: "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]的地产#EMP 暂时#!配不上一座寺庙……"
- warning_mandala_capital_building_only_built_in_citadels_tt: "\n@alert_icon!#alert_trial [mandala|E][GetBuilding('mandala_capital_01').GetName][great_building|E]只能在你的[capital|E]是[temple_citadel|E][holding|E]时建造#!"
+ tgp_east_asia_decision_events.0010.b_temple_citadel: "我的神庙在[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]已经够气派了！"
  all_tribal_holdings_will_change_to_citadels: "领地内所有[tribal_holdings|E]会成为[temple_citadel_holdings|E]"
  realm_capital_will_change_to_citadel: "[realm_capital|E][holding|E]会成为[temple_citadel_holding|E]"
  tgp_east_asia_decision_events.0015.opening: "[overlord.Custom2('AppropriateGreeting', ROOT.Char)]"

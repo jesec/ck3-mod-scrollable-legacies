@@ -30,7 +30,7 @@
  vassal.2101.desc: "\"여러 귀족들이 모여들어 연회를 즐긴 지도 어느덧 수개월이 지났습니다, [ROOT.Char.GetTitleTierName].\"\n\n[party_vassal.GetTitledFirstName](이)가 [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', party_vassal)] 말을 이어갔다. \"영주님께도 도움이 될 만한 일이잖습니까. 이 상황을 바로잡고 근사한 연회를 베푼다면 고마워하는 이들도 여럿 나올 겁니다!\""
  vassal.2101.a: "머지않아 연회를 열겠다고 약조하리다!"
  vassal.2101.a_hyped: "연회가 빠질 수는 없지! 왜 이렇게 오랫동안 미뤄왔는지 모르겠구려."
- vassal.2101.a.tt: "#F [party_vassal.GetFirstNameNoTooltip](이)가 이 약속을 기억하며, 10년 내로 약속을 이행했을 시에 당신에게 [favor|E]를 빚짐#!"
+ vassal.2101.a.tt: "#F [party_vassal.GetFirstNameNoTooltip](이)가 이 약속을 기억하며, 10년 내로 약속을 이행했을 시에 당신에게 감사를 표함#!"
  vassal.2101.b: "연회는 내가 내킬 때 개최할 거요."
  vassal.2101.b_arrogant: "대체 무슨 자격으로 내게 명령하는 거요?!"
  vassal.2101.b_greedy: "연회에 돈이 얼마나 많이 들어가는지도 모르는 주제에!"

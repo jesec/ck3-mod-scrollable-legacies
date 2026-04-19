@@ -3,6 +3,67 @@
 
 	text = {
 		trigger = {
+			has_title = title:e_minister_chancellor
+			has_council_position = councillor_chancellor
+		}
+		localization_key = councillor_chancellor_celestial_government_imperial
+	}
+	text = {
+		trigger = {
+			has_title = title:e_minister_of_war
+			has_council_position = councillor_marshal
+		}
+		localization_key = minister_war
+	}
+	text = {
+		trigger = {
+			has_title = title:e_minister_of_revenue
+			has_council_position = councillor_steward
+		}
+		localization_key = councillor_steward_celestial_government_imperial
+	}
+	text = {
+		trigger = {
+			has_title = title:e_minister_censor
+			has_council_position = councillor_spymaster
+		}
+		localization_key = councillor_spymaster_celestial_government_imperial
+	}
+
+	text = {
+		trigger = {
+			has_title = title:e_minister_of_rites
+			has_council_position = councillor_court_chaplain
+		}
+		localization_key = councillor_court_chaplain_celestial_government_imperial
+	}
+	text = {
+		trigger = {
+			has_council_position = minister_personnel
+		}
+		localization_key = minister_personnel
+	}
+	text = {
+		trigger = {
+			has_council_position = minister_justice
+		}
+		localization_key = minister_justice
+	}
+	text = {
+		trigger = {
+			has_council_position = minister_works
+		}
+		localization_key = minister_works
+	}
+	text = {
+		trigger = {
+			has_council_position = minister_grand_marshal
+		}
+		localization_key = minister_grand_marshal
+	}
+
+	text = {
+		trigger = {
 			has_council_position = councillor_chancellor
 		}
 		fallback = yes

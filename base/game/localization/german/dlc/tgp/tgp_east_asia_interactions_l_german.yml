@@ -5,6 +5,7 @@
  offer_tributary_status_interaction_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip|U] ist immer noch verärgert wegen des letzten Mals, als Ihr [recipient.Custom('DE_PRO_PER_S_3P_A')] batet, $game_concept_tributary$ von Euch zu werden"
  offer_tributary_status_interaction_tributary_was_recently_subjugated: "[recipient.GetShortUINameNoTooltip|U] wurde vor Kurzem vom eigenen [suzerain|E] unterworfen"
  offer_tributary_status_interaction_warred_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip|U] ist immer noch eingeschüchtert vom letzten Versuch, [recipient.Custom('DE_PRO_PER_S_3P_A')] als $game_concept_tributary$ zu gewinnen"
+ offer_tributary_status_interaction_cant_use_tributaries_tt: "[Concept('government', 'Regierungsart')|E] von [actor.GetShortUIName] erlaubt keine [tributaries|E]"
  offer_tributary_status_interaction_suzerain_intervene.t: "[suzerain|E] von [recipient.GetShortUIName] greift ein"
  offer_tributary_status_interaction_suzerain_starts_war_tt: "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUIName|U] beginnt einen Krieg gegen [recipient.GetShortUIName] mit dem [casus_belli|E] „[GetCasusBelliType('make_tributary_cb').GetName]“#!"
  offer_tributary_status_interaction_suzerain_nothing.t: "[suzerain|E] von [recipient.GetShortUIName] unternimmt nichts"

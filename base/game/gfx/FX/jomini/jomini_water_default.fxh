@@ -173,6 +173,110 @@ PixelShader =
 			float3	_Normal;
 			float	_ReflectionAmount;
 		};
+
+		float CalcSingleWave( float3 WorldSpacePos, float Depth, float TimeOffset )
+		{
+			// Scale wave frequency to keep consistent width
+			float WaveFrequency = 0.4f; // Wider waves in shallow water
+			
+			float WaveLines = ( 1.0f - Depth ) - GlobalTime * 0.15f + TimeOffset;
+			WaveLines = frac( WaveLines * WaveFrequency );
+			
+			// return WaveLines;
+			// Only create waves in a portion of the cycle (0.5 to 1.0), leaving gaps (0.0 to 0.5)
+
+			// Remap to 0-1 range for the wave portion
+			float WavePortion = ( WaveLines - 0.5f ) * 2.0f;
+			
+			// Sharp leading edge (front of wave toward shore) - at END of wave portion
+			float SharpEdge = smoothstep( 0.8f, 1.0f, WavePortion );
+			
+			// Soft trailing edge - strongest near sharp edge, fades toward ocean
+			float TrailingFade = ( smoothstep( 0.1, 0.8f, WavePortion ) ) * 0.4f;
+			
+			// Combine for asymmetric wave shape
+			float WaveShape = max( SharpEdge, TrailingFade );
+			
+			WaveLines = WaveShape;
+			
+			// Add depth-based fade: opaque near shore, fade toward ocean
+			float DepthFade = smoothstep( 3.0f, 1.0f, Depth );
+			WaveLines *= DepthFade;
+			
+			return WaveLines;
+		}
+		
+		float CalcApproachingWaves( float2 WorldUV, float3 WorldSpacePos, float Depth )
+		{
+			// Sample flow map including alpha channel
+			float4 FlowData = PdxTex2D( FlowMapTexture, WorldUV );
+			float ShoreWaveMask = FlowData.a; // Alpha channel controls where waves appear
+			// Early out if no shore waves should appear 
+			if ( ShoreWaveMask <= 0.0f )
+			{
+				return 0.0f;
+			}
+			
+			// Create 3 wave layers with basic wave patterns
+			float Wave1 = CalcSingleWave( WorldSpacePos, Depth, 0.0f );
+			float Wave2 = Wave1;
+			float Wave3 = CalcSingleWave( WorldSpacePos, Depth, 1.0f );
+			
+			// Large scale mask UV transforms - red channel (different for each wave)
+			float2 BaseUV = WorldSpacePos.xz * 0.001f; // Large scale
+			float2 LargeScaleMaskUV1A = BaseUV + GlobalTime * float2( 0.002f, 0.001f );
+			float2 LargeScaleMaskUV2A = BaseUV * 1.3f + GlobalTime * float2( -0.0015f, 0.0025f );
+			float2 LargeScaleMaskUV3A = BaseUV * 0.8f + GlobalTime * float2( 0.0018f, -0.002f );
+			
+			// Large scale mask UV transforms - blue channel (different scale and motion for variety)
+			float2 BlueBaseUV = BaseUV; // Different base scale
+			float2 LargeScaleMaskUV1B = BlueBaseUV * 0.7f + GlobalTime * float2(0.0015f, -0.001f);
+			float2 LargeScaleMaskUV2B = BlueBaseUV * 1.8f + GlobalTime * float2(-0.0008f, 0.0032f);
+			float2 LargeScaleMaskUV3B = BlueBaseUV * 1.1f + GlobalTime * float2(0.0015f, 0.0009f);
+			
+			// Sample large scale masks for each wave
+			float LargeScaleMask1A = PdxTex2DUpscaleNative( FoamTexture, LargeScaleMaskUV1A ).g;
+			float LargeScaleMask1B = PdxTex2DUpscaleNative( FoamTexture, LargeScaleMaskUV1B ).g;
+			float LargeScaleMask2A = PdxTex2DUpscaleNative( FoamTexture, LargeScaleMaskUV2A ).g;
+			float LargeScaleMask2B = PdxTex2DUpscaleNative( FoamTexture, LargeScaleMaskUV2B ).g;
+			float LargeScaleMask3A = PdxTex2DUpscaleNative( FoamTexture, LargeScaleMaskUV3A ).g;
+			float LargeScaleMask3B = PdxTex2DUpscaleNative( FoamTexture, LargeScaleMaskUV3B ).g;
+			
+			// Combine red and blue channels for each wave
+			float LargeScaleMask1 = LargeScaleMask1A * LargeScaleMask1B;
+			float LargeScaleMask2 = LargeScaleMask2A * LargeScaleMask2B;
+			float LargeScaleMask3 = LargeScaleMask3A * LargeScaleMask3B;
+			
+			// Apply large scale masks to individual waves
+			Wave1 *= LargeScaleMask1;
+			Wave2 *= LargeScaleMask2;
+			Wave3 *= LargeScaleMask3;
+			
+			// Recombine masked waves
+			float ApproachingWaves = saturate( Wave1 + Wave2 + Wave3 );
+			
+			// Small-scale mask that affects all waves, with more opacity where waves are translucent 
+			float2 SmallScaleMaskUV1 = WorldSpacePos.xz * 0.06f + GlobalTime * 0.2f * float2( 0.02f, 0.01f );
+			float2 SmallScaleMaskUV2 = WorldSpacePos.xz * 0.5f + GlobalTime * float2( -0.08f, -0.06f );
+			float SmallScaleMask1 = PdxTex2DUpscaleNative( FoamTexture, SmallScaleMaskUV1 ).b;
+			float SmallScaleMask2 = PdxTex2DUpscaleNative( FoamNoiseTexture, SmallScaleMaskUV2 ).g;
+			
+			// Combine the two small scale masks with max for more complex patterns
+			float SmallScaleMask = min(SmallScaleMask1, SmallScaleMask2);
+			
+			// Apply small scale mask with inverse relationship to wave opacity
+			// Where waves are more translucent (lower ApproachingWaves), mask has more effect
+			float MaskStrength = lerp( 0.3f, 1.0f, 1.0f - ApproachingWaves );
+			SmallScaleMask = lerp( 1.0f, SmallScaleMask, MaskStrength );
+			
+			ApproachingWaves *= SmallScaleMask;
+			
+			// Apply foam map texture as a mask
+			float FoamMap = PdxTex2D( FoamMapTexture, WorldUV ).g;
+			ApproachingWaves *= FoamMap;
+
+			return ApproachingWaves;
+		}
 		
 		float CalcFoamFactor( float2 UV01, float2 WorldSpacePosXZ, float Depth, float FlowFoamMask, float3 FlowNormal )
 		{
@@ -498,8 +602,7 @@ PixelShader =
 			#ifdef JOMINIWATER_BORDER_LERP
 				HeightmapCoordinate.x -= JOMINIWATER_MapSize.x;
 			#endif
-			float Height = GetHeightMultisample( HeightmapCoordinate, 0.65 );
-			
+			float Height = GetHeightMultisample( HeightmapCoordinate, 0.65f );
 			SWaterParameters Params;
 			Params._ScreenSpacePos = Input.Position;
 			Params._WorldSpacePos = Input.WorldSpacePos;
@@ -510,7 +613,13 @@ PixelShader =
 			Params._WaveNoiseFlattenMult = 1.0f;
 			Params._FlowNormal = CalcFlow( FlowMapTexture, FlowNormalTexture, Params._WorldUV, Params._WorldSpacePos.xz, Params._FlowFoamMask );
 			
-			return CalcWater( Params, ShadowTerm );
+			SWaterOutput Out = CalcWater( Params, ShadowTerm );
+
+			// Calculate approaching waves
+			float ApproachingWaves = CalcApproachingWaves( Input.UV01, Input.WorldSpacePos, Params._Depth );
+			// Blend approaching waves with water color
+			Out._Color.rgb = lerp( Out._Color.rgb, float3( 1.0f, 1.0f, 1.0f ), ApproachingWaves );
+			return Out;
 		}
 
 		SWaterOutput CalcWater( VS_OUTPUT_WATER Input )

@@ -7,7 +7,7 @@
  activity_local_examination_desc: "이 시험을 유지하고 주관하는 것은 우리의 명예이자 의무입니다. 과거 시험을 통해 가장 적합한 인재를 평가하고 선발하여 [merit|E]을 부여함으로써 국가의 번영을 확보할 수 있습니다."
  activity_local_examination_host_desc: "$activity_local_examination_host_rewards$$activity_local_examination_guest_rewards$"
  activity_local_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
- activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$@provincial_exam_icon! #V 해시#!를 완료할 기회\n$BULLET_WITH_TAB$당신의 [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]가 증가할 수 있음\n$BULLET_WITH_TAB$당신의 [merit|E]이 증가할 수 있음"
+ activity_local_examination_guest_desc: "\n$BULLET_WITH_TAB$@provincial_exam_icon! #V 해시#!를 완료할 기회\n$BULLET_WITH_TAB$당신의 [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]가 증가할 수 있음\n$BULLET_WITH_TAB$당신의 [merit|E]이 증가할 수 있음\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial [host.GetCulture.GetLanguage.GetName] [language|E]를 모를 경우, 성공 확률이 대폭 감소합니다!"
  activity_local_examination_guest_rewards: "\n$BULLET_WITH_TAB$일정 확률로 매우 유능한 인물을 모집합니다\n$BULLET_WITH_TAB$일정 확률로 참가자가 [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]를 획득합니다\n$BULLET_WITH_TAB$일정 확률로 참가자가 [merit|E]을 획득합니다"
  local_examination_base_cost: "기본 비용"
  activity_local_examination_host_an_a: "$articleblank_article$"

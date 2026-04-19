@@ -63,7 +63,7 @@
  tgp_china_study_confucian_classics_decision: "儒教の古典を学ぶ"
  tgp_china_study_confucian_classics_decision_desc: "孔子の『論語』、孟子の深遠なる書、礼と歴史を記した偉大な書物…学問と修養を通じて、天地の秩序を垣間見ることができる。\n\n#weak 儒教の古典を学ぶことは、[examinations|E]に備えるため、あるいは[governor|E]となる可能性を高めるための優れた方法だ。#!"
  tgp_china_study_confucian_classics_decision_tooltip: "自分を対象として[scheme|E]「[GetScheme('study_confucian_classics').GetTypeName]」を開始する"
- tgp_china_study_confucian_classics_decision_tt: "自分を対象として[scheme|E]「[GetScheme('study_confucian_classics').GetTypeName]」を開始する\n\n予想される報酬：\n$EFFECT_LIST_BULLET$[GetTrait('confucian_education').GetName( GetNullCharacter )] [trait|E] / [trait_level_track_xp|E]\n$EFFECT_LIST_BULLET$[GetTrait('lifestyle_poet').GetName( GetNullCharacter )]の[trait|E]\n$EFFECT_LIST_BULLET$[merit_i][merit|E]\n$EFFECT_LIST_BULLET$ [learning_i][stewardship_i][diplomacy_i]の[skill|E] #weak （最大8）#!\n$EFFECT_LIST_BULLET$次の[examination|E]における[exam_advantage|E]\n\nデメリット：\n$EFFECT_LIST_BULLET$[stress_i] [stress|E]を獲得する可能性がある"
+ tgp_china_study_confucian_classics_decision_tt: "自分を対象として[scheme|E]「[GetScheme('study_confucian_classics').GetTypeName]」を開始する\n\n予想される報酬：\n$EFFECT_LIST_BULLET$[GetTrait('confucian_education').GetName( GetNullCharacter )] [trait|E] / [trait_level_track_xp|E]\n$EFFECT_LIST_BULLET$[GetTrait('lifestyle_poet').GetName( GetNullCharacter )]の[trait|E]\n$EFFECT_LIST_BULLET$[merit_i][merit|E]\n$EFFECT_LIST_BULLET$[learning_i][stewardship_i][diplomacy_i]の[skill|E] #weak （最大8）#!\n$EFFECT_LIST_BULLET$次の[examination|E]における[exam_advantage|E]\n\nデメリット：\n$EFFECT_LIST_BULLET$[stress_i] [stress|E]を獲得する可能性がある"
  tgp_china_study_confucian_classics_decision_confirm: "この道はどこへ続いているのだろう。"
  tgp_china_study_confucian_classics_decision_req_tt: "あなたはまだ[scheme|E]「[GetScheme('study_confucian_classics').GetTypeName]」を実行していない"
  tgp_china_study_confucian_classics_decision_end_scheme_tt: "@alert_icon!#alert_trial 進行中の[personal_scheme|E]は終了します#!"
@@ -181,3 +181,4 @@
  scheme_critical_moments.2925.a: "必ず#EMP 報い#!は受けてもらうぞ。"
  scheme_critical_moments.2925.b: "簒奪者がどうなるか思い知っただろう！"
  scheme_critical_moments.2925.c: "おのれ、[owner.Custom2('InsultNoun', ROOT.Char)]め！"
+ OWNER_IS_MY_MOVEMENT_MEMBER: "[owner.GetShortUIName]と同じ[movement|E]に参加している：$VALUE|+0=$"

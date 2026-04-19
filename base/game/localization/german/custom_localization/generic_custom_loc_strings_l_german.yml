@@ -29,6 +29,8 @@
  people: "Leute"
  mistress: "Herrin"
  master: "Herr"
+ mistress_possessive: "der Meisterin"
+ master_possessive: "des Meisters"
  witch_spirit: "Geister"
  witch_spirits: "Geister"
  witch_source: "Quelle"

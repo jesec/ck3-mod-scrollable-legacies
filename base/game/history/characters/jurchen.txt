@@ -2368,19 +2368,6 @@ wanyan_extra_1 = {
 	}
 }
 
-tudan_1 = {
-	name = "Kening" # 徒单克宁
-	dynasty = jurchen_tudan
-	religion = dhyana
-	culture = "jurchen"
-	1131.1.1 = {
-		birth = yes
-	}
-	1191.1.1 = {
-		death = yes
-	}
-}
-
 wanyan_extra_2 = {
 	name = "Zongxu" # 完颜宗叙
 	dynasty = jurchen_wanyan

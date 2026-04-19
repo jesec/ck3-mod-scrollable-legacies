@@ -52,7 +52,7 @@
  DIARCHY_WINDOW_MONTHLY_SWING_TEXT: "現在の揺動値: $CURRENT|^V$\n\n来月、[scales_of_power|E]が$MONTHLY_TEXT$だけ揺れ動く。#V 100#!中$BALANCE|V^$になると平衡状態になる"
  DIARCHY_WINDOW_SUCCESSION_SCORE: "継承スコア"
  DIARCHY_WINDOW_SUCCESSION_SCORE_BREAKDOWN: "[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle] [diarch_succession|E]"
- DIARCHY_WINDOW_PARAMETER_ITEM: "• $TEXT$"
+ DIARCHY_WINDOW_PARAMETER_ITEM: "•$TEXT$"
  DIARCHY_WINDOW_BACK_TOOLTIP: "#T 権力の共有ウィンドウへ戻る#!"
  IN_ACTIVE_DIARCHY: "[power_sharing|E]"
  diarch.succession_offence.empty: ""

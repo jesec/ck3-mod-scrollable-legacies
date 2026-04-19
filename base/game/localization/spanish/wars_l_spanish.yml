@@ -199,7 +199,7 @@
  nomadic_war_white_peace_desc: "Los [counties|lE] y [vassals|lE] rebeldes siguen siendo parte del señorío."
  nomadic_war_defeat_desc: "Los [counties|lE] y [vassals|lE] rebeldes siguen siendo parte del señorío. [attacker.GetShortUIName] es encarcelad[attacker.Custom('ES_OA')]. Aumenta de forma forzosa la [county_opinion|lE] de todos los [counties|lE] rebelados."
  populist_war: "Rebelión"
- populist_war_victory_desc: "Los [counties|lE] rebeldes se convierten en un país independiente con [attacker.GetShortUIName] como gobernante."
+ populist_war_victory_desc: "Los [counties|El] rebeldes tomarán [duchies|El] [de_jure|El] y se convertirán en señoríos independientes con cada atacante como gobernante."
  populist_war_white_peace_desc: "Los [counties|lE] y [vassals|lE] rebeldes siguen siendo parte del señorío."
  populist_war_defeat_desc: "Los [counties|lE] y [vassals|lE] rebeldes siguen siendo parte del señorío. Todos los vasallos rebeldes son [Concept( 'imprisoned', 'encarcelados' )|E] por [defender.GetShortUIName]."
  claimant_faction_war_victory_desc: "El [claimant|lE] toma el control del [title|lE] disputado."

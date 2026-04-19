@@ -10673,6 +10673,7 @@
  dynn_Kopparvall: "Kopparvall"
  dynn_freddi: "Freddi"
  dynn_collinder: "Collinder"
+ dynn_tosunyan: "Tosunyan"
  #TGP
  dynn_Tang: "Tang"
  dynn_Kediri: "Kediri"
@@ -10745,6 +10746,7 @@
  dynn_Asari: "Asari" #浅利
  dynn_Ashida: "Ashida" #芦田
  dynn_Ashikaga: "Ashikaga" #足利
+ dynn_Ashina_JP: "Ashina" #蘆名
  dynn_Aso: "Aso" #阿蘇
  dynn_Asukabe: "Asukabe" #飛鳥部
  dynn_Asuke: "Asuke" #足助
@@ -10888,6 +10890,7 @@
  dynn_IntO_: "Intō" #印東
  dynn_Irie: "Irie" #入江
  dynn_Irobe: "Irobe" #色部
+ dynn_Iruma: "Iruma" #入間
  dynn_Isa: "Isa" #伊佐
  dynn_Isawa: "Isawa" #胆沢
  dynn_Ishibashi: "Ishibashi" #石橋
@@ -11811,6 +11814,7 @@
  dynn_I_5DF2: "Yi" #已 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_I_674E: "yi" #李 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_Il_58F9: "Il" #壹 (일)
+ dynn_Ho_seung_864E_50E7: "Ho-seung" #(虎僧)
  dynn_Im_4EFB: "Im" #任 (임)
  dynn_Jae_C7AC: "Jae" #재
  dynn_Jang_5F35: "Jang" #張 (장)

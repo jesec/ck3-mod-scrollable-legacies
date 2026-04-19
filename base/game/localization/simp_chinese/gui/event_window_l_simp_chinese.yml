@@ -123,7 +123,7 @@
  EVENT_WINDOW_OPTION_SEA_LEGACY_OVERRIDE: "此选项可用，因为[GetDynastyPerk( 'tgp_sea_legacy_5' ).GetName]"
  EVENT_WINDOW_OPTION_AVAILABLE_CELESTIAL_MILITARY_APPOINTMENT: "此选项可用，因为你的@celestial_military_administration!军制管理"
  EVENT_WINDOW_OPTION_AVAILABLE_MOVEMENT: "此选项可用，因为你属于[GetPlayer.Custom('GetMyMovement')]"
- EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "此选项可用，因为[dynastic_cycle|E]的[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName][situation_phase|E]"
+ EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "此选项可用，因为[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName][situation_dynastic_cycle_phase|E]"
  EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "此选项可用，因为你的$learned_philosophers_house_power$[powerful_family_attribute|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE_FOCUS: "此选项可用，因为你的[GetPlayer.GetFocus.GetName]"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE: "此选项可用，因为你的[lifestyle|E]"

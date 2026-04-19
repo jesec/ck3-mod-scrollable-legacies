@@ -58,6 +58,7 @@
  BlocReasonPlayer: "由于难以捉摸的人性"
  BlocReasonWar: "由于[house_bloc|E]战争"
  BlocReasonEvents: "由于事件"
+ BlocReasonIntent: "由于[activity|E]意图"
  BlocReasonPrestige: "由于[house_bloc|E]领袖的[prestige_levels|E]差异"
  BlocReasonInfluence: "由于[house_bloc|E]领袖的[influence_levels|E]差异"
  BlocReasonMilitaryStrength: "由于[house_bloc|E]领袖的军力差异"
@@ -70,3 +71,5 @@
  BlocReasonBribePrestige: "由于慷慨的[prestige_i][prestige|E]贿赂"
  BlocReasonBribeInfluence: "由于慷慨的[influence_i][influence|E]贿赂"
  BlocReasonBribeHook: "由于使用了[hook_i][hook|E]"
+ BlocReasonKicked: "由于被[leading_house|E]踢出"
+ BlocReasonFollowedLiege: "为了加入其[house_heads_possessive]的[liege|E]的[bloc|E]"

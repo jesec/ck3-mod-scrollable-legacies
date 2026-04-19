@@ -47,6 +47,7 @@
  house_power_parameter_unlock_coerce_contribution_scheme: "解锁#high [GetScheme('coerce_contribution').GetTypeName]#![scheme|E]"
  house_power_parameter_births_give_piety: "母亲和父亲在[house|E]中的孩子出生时获得[piety|E]"
  house_power_parameter_may_override_stewardship_succession_trial: "你的[heir|E]可以立即完成[mandala_succession_succession|E]的[stewardship|E]试炼"
+ house_power_parameter_can_build_in_tributaries: "可以在[tributaries|E]建造[buildings|E]和[holdings|E]#weak （仅当你自己不是朝贡者时）#!"
  mandala_creator_child_born: "造物主后嗣"
  mandala_creator_children_born: "造物主后嗣"
  mandala_creator_modifier: "创造之相"
@@ -82,7 +83,7 @@
  house_power_parameter_aspect_of_destruction_ways_to_die: "[death_natural_causes|E]、[death_religion|E]和[death_combat|E]是#high 毁灭之相#!可接受的[character_death_death|E]方式"
  house_power_parameter_can_use_plunder_for_contribution_cb: "解锁#high [GetCasusBelliType('mandala_plunder_cb').GetName]#![casus_belli|E]"
  house_power_parameter_can_make_mandala_tributaries_via_war: "可通过#high [GetCasusBelliType('make_tributary_cb').GetName]#![war|E]获得#high [GetSubjectContractGroup( 'tributary_mandala' ).GetName]#!和#high [GetSubjectContractGroup( 'tributary_mandala_tribal' ).GetName]#![tributaries|E]"
- house_power_parameter_has_unlimited_invasion_cb: "可以无限制使用#high [GetCasusBelliType('invasion_war').GetName]#![casus_belli|E]"
+ house_power_parameter_has_mandala_invasion_cb: "可以使用一次#high [GetCasusBelliType('invasion_war').GetName]#![casus_belli|E]"
  house_power_parameter_may_override_martial_succession_trial: "你的[heir|E]可以立即完成[mandala_succession_succession|E]的[martial|E]试炼"
  #Aspect of Trickery
  house_power_parameter_unlock_leverage_contribution_scheme: "解锁#high [GetScheme('leverage_contribution').GetTypeName]#![scheme|E]"

@@ -17,7 +17,7 @@
  mpo_noble_warriors_grave_modifier: "Grab des geköpften Edelmannes"
  mpo_noble_warriors_grave_modifier_desc: "Ein in der Schlacht von den Schultern geschlagenes Haupt von hohem Ansehen wird in der Erde dieses Landes beigesetzt. Das Grab ist ein sehr bekannter und oft besuchter heiliger Ort."
  beheaded_accolade_successor_tt: "Ein passender Nachfolger für [beheaded_warrior_accolade.GetName] wird Eurem [court|E] beitreten"
- custom.every_beheaded_family: "Jeder [Concept('close_family_member', 'enge Verwandte')|E] von [beheaded_warrior.GetShortUIName]"
+ custom.every_beheaded_family: "Jeder [Concept('close_family_member', 'nahe Verwandte')|E] von [beheaded_warrior.GetShortUIName]"
  warriors_head_artifact: "Das verehrte Haupt von [beheaded_warrior.GetTitledFirstNameNoTooltip]"
  kin_head_artifact_desc: "Das verwesende, nicht wiederzuerkennende Gesicht von [beheaded_warrior.GetFirstName], einem geliebten Spross des Hauses [beheaded_warrior.GetHouse.GetName], der von den Truppen von [beheaded_warrior_foe.GetName] in „[beheaded_warrior_location.GetName|U]“ erschlagen wurde."
  accolade_head_artifact_desc: "Die schaurigen Überreste von [beheaded_warrior.GetFirstName], ein angesehener [ROOT.Char.Custom('KnightCultureNoTooltip')] und bekannt als ‚[beheaded_warrior_accolade.GetName]‘. Die Krieger von [beheaded_warrior_foe.GetName] Krieger beanspruchen die Ehre, [beheaded_warrior.Custom('DE_PRO_PER_S_3P_A')] auf dem Schlachtfeld von „[beheaded_warrior_location.GetName|U]“ darniedergestreckt zu haben."

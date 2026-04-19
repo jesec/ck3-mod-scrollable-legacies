@@ -239,6 +239,8 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_MAJAPAHIT_DESC: " 당신의 이름은 $e_majapahit$ 제국의 창건자로서 세메루산 봉우리에 영원히 새겨졌습니다."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RYUKYU_DESC: " 당신은 섬의 씨족들을 통합한 자이자, $e_ruucuu_adj$ 제국의 창건자로 기억될 것입니다."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SIAM_DESC: " 당신은 $k_siam$ 왕국의 창건자로서 인류의 역사에 영원히 이름을 새겼습니다."
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_KINGDOM_DESC: "당신은 $k_brunei$ 왕국의 건국자로서 백성들을 고무하고 알라의 하늘 아래 하나로 결속시켰습니다."
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BRUNEI_EMPIRE_DESC: "보르네오의 신자들은 당신을 $e_brunei$ 제국의 건국자로서 악을 물리치는 목자로 기억할 것입니다."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC: " 당신의 고된 노력과 성실함 덕택에 $k_israel$ 왕국이 탄생하였습니다."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC: " 모두가 불가능하다 여겼습니다. 그러나 당신은 보란 듯이 세계에서 가장 치열한 성지 대부분을 제패하고 $e_outremer$ 제국을 세웠습니다."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC: " 하물며 알프스 정상에서도 $k_switzerland$ 왕국을 건립한 당신의 영토 전역이 눈에 들어오지는 않을 것입니다."

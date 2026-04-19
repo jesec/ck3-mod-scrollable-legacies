@@ -204,7 +204,7 @@ fp3_misc_decisions.0015 = {
 			ordered_in_list = {
 				list = realm_zoroastrian_faiths
 				order_by = fervor
-				position = 1
+				position = 0
 				save_scope_as = zoroastrian_faith_2
 			}
 		}

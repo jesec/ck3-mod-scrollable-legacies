@@ -758,3 +758,5 @@
  artifact_nukemaru_sword_desc: "Cette épée, qui aurait été remise par Amaterasu à un chasseur à Ise, fut acquise par $dynn_Taira$ $Tadamori$, et on raconte qu’elle se dégaina d’elle-même lorsqu’un serpent le menaça pendant son sommeil."
  artifact_kogarasumaru_sword_name: "Kogarasumaru" #小烏丸
  artifact_kogarasumaru_sword_desc: "Le « petit corbeau » a été forgé par Amakuni pour la Cour impériale, puis offert à $dynn_Taira$ $Sadamori$ par le $king_tenno_male_japanese|l$ $Suzaku$ pour ses services lors de la rébellion Jōhei-Tengyō."
+ artifact_statue_green_amitabha_buddha_name: "Statue du Bouddha Amitabha en pierre verte"
+ artifact_statue_green_amitabha_buddha_descripton: "Cette magnifique statue du Bouddha Amitabha semble avoir été sculptée dans un seul bloc de pierre verte. Le socle est décoré de fleurs de lotus et de motifs ondulés.\n\nSelon la légende, la statue serait apparue miraculeusement à partir des décombres d’une pagode qui s’est effondrée peu après sa construction."

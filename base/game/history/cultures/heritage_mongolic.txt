@@ -1,4 +1,4 @@
-# Mongols
+﻿# Mongols
 # Naiman
 # Kerait
 # Khitan
@@ -20,3 +20,4 @@
 	# Tribal Innovations
 	discover_innovation = innovation_casus_belli
 }
+

@@ -671,6 +671,7 @@ bm_867_northmen = {
 bm_867_adventurers = {
 	start_date = 867.1.1
 	is_playable = yes
+	recommended = yes
 	group = bm_group_867
 
 	weight = {
@@ -1102,16 +1103,8 @@ bm_867_carolingians = {
 bm_867_mandalas = {
 	start_date = 867.1.1
 	is_playable = yes
-	recommended = yes
 	group = bm_group_867
 	requires_dlc_flag = all_under_heaven
-	
-	weight = {
-		if = {
-			limit = { has_dlc_feature = all_under_heaven }
-			add = 100
-		}
-	}
 
 	# Angkor - khmer_varman_9
 	character = {

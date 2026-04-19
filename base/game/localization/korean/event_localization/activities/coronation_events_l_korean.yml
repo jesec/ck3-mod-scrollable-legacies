@@ -162,7 +162,7 @@
  ach_coronation.0013.e.disagrees: "나는 이 멍청이들과는 차원이 다르다."
  ach_coronation.0013.e.flavor.mean: "왜 하찮은 평민들의 수다 따위에 신경을 써야 하지?"
  ach_coronation.0013.e.flavor.nice: "누가 평민들이 무식하다고 했지?!"
- two_detractors_get_negative_rumors_tt: "두 명의 [coronation_detractors|E]가 #N #N [GetModifier('ach_negative_rumors_modifier').GetNameWithTooltip]#! [modifier|E]를 얻게 됨"
+ two_detractors_get_negative_rumors_tt: "두 명의 [coronation_detractors|E]가 #N [GetModifier('ach_negative_rumors_modifier').GetNameWithTooltip]#! [modifier|E]를 얻게 됨"
  because_you_have_overseer_tt: "#P  [GetTrait('overseer').GetName( GetNullCharacter )] 경험이 당신의 [coronation_magnificence|E]한 분위기에 미치는 부정적 영향을 회피하는 데 도움이 됨#!"
  violated_city_rights_opinion: "도시 권리 침해"
  ach_coronation.0014.t: "혼돈의 직전"

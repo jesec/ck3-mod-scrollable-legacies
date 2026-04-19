@@ -21,3 +21,7 @@
  MERITOCRATIC_CEREMONIAL_LIEGE_TITLE: "Trône [founder.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  tgp_korea_decision.9202.desc: "Maintenant que la gloire du règne [founder.Custom('FR_du_Char_Pi')][founder.GetTitledFirstName] brille de mille feux, nombreux sont ceux qui cherchent refuge dans son ombre. Aucun[founder.Custom('FR_E')] [founder.GetTitleAsNameNoTooltip|l] ne peut régner seul[founder.Custom('FR_E')], et la lignée où réside le véritable pouvoir ne cesse de changer.\n\n[founder.Custom('FR_IlElle')|U] va devoir prendre des précautions pour que ses descendants continuent à régner sur [founder.GetPrimaryTitle.GetDefinitiveNameNoTooltip] autrement que de nom..."
  tgp_korea_decision.9202.a: "Le pouvoir prend de nombreuses formes."
+ tgp_create_meritocratic_ruling_regent_title_effect: "En raison du statut de [ruler|El] d’un [empire|El] [GetGovernment('meritocratic_government').GetAdjective|l] :"
+ tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "Vous gagnez un [title|El] [Concept('kingdom', 'royal')|E] ayant la [law|El] de [GetLaw('single_heir_succession_law').GetName|l]"
+ tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "Les [vassals|El] peuvent créer des [factions|El] #V $replace_ceremonial_regent_faction$#!"
+ tgp_create_meritocratic_ruling_regent_title_message_title: "Monarchie de [founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] contestée"

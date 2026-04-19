@@ -78,3 +78,18 @@
  major_decisions.7001.desc: "En lo profundo de las tierras salvajes que algunos conocen como la Tierra dorada, [founder.GetNameNoTierNoTooltip] ascendió al poder como [founder.Custom('ES_ElLa')] [founder.GetTitleAsNameNoTooltip|l] de [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] y desafió el destino de su gente.\n\nEl pueblo tai pasó años en busca de un hogar, vagando por la región como nómadas orgullosos, abriéndose paso gradualmente hacia el sur.\n\n¿Resistirá su influencia el paso del tiempo?"
  major_decisions.7001.a: "Otro pueblo arrojado al huracán."
  major_decisions.7001.b: "¿Son una amenaza para nosotros? Ya veremos."
+ #Brunei Kingdom
+ major_decisions.8000.t: "La morada de la paz"
+ major_decisions.8000.desc: "[imam.Custom('ES_ElLa')|U] [imam.GetTitledFirstName|l], quien dirigirá la siguiente oración obligatoria del viernes, me recuerda la tradición de preparar un jutba en nombre de su [founder.GetTitleAsNameNoTooltip|l]. Aparte de las oraciones y versículos obligatorios, me pregunta sobre la parte que se leerá a los creyentes para proclamar mi soberanía y tutela sobre ellos."
+ major_decisions.8000.a: "Que conozcan las obras de su [founder.GetTitleAsNameNoTooltip|l]."
+ major_decisions.8000.b: "Solo Alá merece alabanza."
+ brunei_kingdom_khutbah_prestige_option_modifier: "Protector de la umma"
+ brunei_kingdom_khutbah_piety_option_modifier: "Luz de la umma"
+ #Brunei Empire
+ major_decisions.9000.t: "El regalo de ascenso del emperador"
+ major_decisions.9000.desc: "Arraigado en nuestra tradición islámica, de un[founder.Custom('ES_XA')] [founder.GetTitleAsNameNoTooltip|l] se espera que compense a los guerreros bendecidos, viajeros de esta tierra y aquellos necesitados de las monedas recién acuñadas en mi nombre."
+ major_decisions.9000.desc_steward: "\n\nMi [ROOT.Char.GetCouncillorPosition('councillor_steward').GetPositionName|l], [steward.Custom('ES_ElLa')] [steward.GetTitledFirstName|l], solicita el nivel de generosidad que estoy dispuest[ROOT.Char.Custom('ES_OA')] a ofrecer a mis súbditos leales como su protector[ROOT.Char.Custom('ES_XA')]."
+ major_decisions.9000.a: "¡Que los creyentes conozcan la generosidad de su [founder.GetTitleAsNameNoTooltip|l]!"
+ major_decisions.9000.b: "Que Alá acepte nuestra sadaqa."
+ brunei_empire_high_sadaqah_modifier: "Sadaqa distribuida generosamente"
+ brunei_empire_low_sadaqah_modifier: "Sadaqa distribuida"

@@ -5,6 +5,7 @@
  offer_tributary_status_interaction_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip](은)는 지난번에 당신이 [recipient.GetSheHe]에게 $game_concept_tributary$이 되라고 요구했을 때의 불쾌함을 잊지 않았음"
  offer_tributary_status_interaction_tributary_was_recently_subjugated: "[recipient.GetShortUINameNoTooltip](이)가 최근 [recipient.GetHerHis] [suzerain|E]에 의해 복속당했음"
  offer_tributary_status_interaction_warred_cooldown_active_tt: "[recipient.GetShortUINameNoTooltip](은)는 지난번 당신의 $game_concept_tributary$으로 들어가려다 겪은 일로 아직 위축되어 있음"
+ offer_tributary_status_interaction_cant_use_tributaries_tt: "[actor.GetShortUINamePossessive|U] [government|E] 유형이 [tributaries|E]을 허용하지 않음"
  offer_tributary_status_interaction_suzerain_intervene.t: "[recipient.GetShortUINamePossessive|U] [suzerain|E]가 개입"
  offer_tributary_status_interaction_suzerain_starts_war_tt: "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUIName|U](이)가 [GetCasusBelliType('make_tributary_cb').GetName] [casus_belli|E]으로 [recipient.GetShortUIName](와)과 전쟁을 시작함#!"
  offer_tributary_status_interaction_suzerain_nothing.t: "[recipient.GetShortUINamePossessive|U] [suzerain|E]가 방관함"

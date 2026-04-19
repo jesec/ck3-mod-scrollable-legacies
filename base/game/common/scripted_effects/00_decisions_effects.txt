@@ -1557,8 +1557,9 @@ convert_whole_realm_to_feudalism_effect = {
 		limit = {
 			has_tgp_dlc_trigger = yes
 			top_liege = this
-			culture = { has_cultural_pillar = heritage_japonic }
+			culture.culture_head ?= { government_is_japanese_trigger = yes }
 		}
+		add_character_flag = can_become_japanese_feudal # Used in the can_get_government of japan_feudal_government
 		change_government = japan_feudal_government
 		if = {
 			limit = {
@@ -1657,6 +1658,7 @@ convert_whole_realm_to_feudalism_effect = {
 			}
 			every_vassal_or_below = {
 				limit = { government_has_flag = government_is_tribal }
+				add_character_flag = can_become_japanese_feudal # Used in the can_get_government of japan_feudal_government
 				change_government = japan_feudal_government
 				if = {
 					limit = {
@@ -1667,10 +1669,15 @@ convert_whole_realm_to_feudalism_effect = {
 						set_house_name = japanese_dynasty_name
 						save_scope_as = new_house
 					}
-					create_noble_family_effect = { GOVERNMENT_GIVER = this }
-					scope:new_title = {
-						#set_title_name_dynamic = japanese_noble_family_name
-						set_coa = scope:new_house
+					if = {
+						limit = {
+							highest_held_title_tier >= tier_county
+						}
+						create_noble_family_effect = { GOVERNMENT_GIVER = this }
+						scope:new_title = {
+							#set_title_name_dynamic = japanese_noble_family_name
+							set_coa = scope:new_house
+						}
 					}
 				}
 				#Nuke tribal authorities.

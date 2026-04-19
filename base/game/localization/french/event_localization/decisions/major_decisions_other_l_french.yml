@@ -78,3 +78,18 @@
  major_decisions.7001.desc: "Au cœur d’une région sauvage, connue par certains sous le nom de Terre dorée, [founder.Custom('FR_le_Char_Pi')][founder.GetTitledFirstNameNoTooltip] a accédé au pouvoir en tant que [founder.GetTitleAsNameNoTooltip|l] de [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] et a défié le destin de son peuple.\n\nLe peuple taï a passé des années à chercher un foyer, à errer fièrement comme nomades et de progresser le sud.\n\nSon influence résistera-t-elle au passage du temps ?"
  major_decisions.7001.a: "Un autre trône pris dans la tempête."
  major_decisions.7001.b: "Sont-ils une menace pour nous ? Nous verrons."
+ #Brunei Kingdom
+ major_decisions.8000.t: "La maison de la paix"
+ major_decisions.8000.desc: "[imam.Custom('FR_le_Char_Pi')|U][imam.GetTitledFirstName], qui dirigera la prochaine prière obligatoire du vendredi, me rappelle la tradition de préparer un khutba au nom [founder.Custom('FR_du_Char_L')][founder.GetTitleAsNameNoTooltip|l]. Outre les prières et les versets habituels, [imam.Custom('FR_IlElle')] m’a demandé la partie qui doit être lue aux fidèles afin d’annoncer ma souveraineté et ma tutelle sur eux."
+ major_decisions.8000.a: "Ils doivent être informés des actes de leur [founder.GetTitleAsNameNoTooltip|l]."
+ major_decisions.8000.b: "Toute louange revient à Allah seul."
+ brunei_kingdom_khutbah_prestige_option_modifier: "Protecteur de la oumma"
+ brunei_kingdom_khutbah_piety_option_modifier: "Lumière de la oumma"
+ #Brunei Empire
+ major_decisions.9000.t: "Cadeau d’intronisation de l’empereur"
+ major_decisions.9000.desc: "Selon notre tradition islamique, un[founder.Custom('FR_E')] [founder.GetTitleAsNameNoTooltip|l] est censé[founder.Custom('FR_E')] offrir à ses guerriers bénis, aux voyageurs de son pays et aux nécessiteux des pièces fraîchement frappées à son effigie."
+ major_decisions.9000.desc_steward: "\n\nMon [ROOT.Char.GetCouncillorPosition('councillor_steward').GetPositionName|l] demande la même générosité que celle dont je fais preuve envers mes fidèles sujets en tant que [Select_CString(ROOT.Char.IsFemale,'protectrice','protecteur')]."
+ major_decisions.9000.a: "Que les croyants goûtent à la générosité de leur [founder.GetTitleAsNameNoTooltip|l] !"
+ major_decisions.9000.b: "Qu’Allah accepte notre sadaqa."
+ brunei_empire_high_sadaqah_modifier: "Sadaqa généreusement distribuée"
+ brunei_empire_low_sadaqah_modifier: "Sadaqa distribuée"

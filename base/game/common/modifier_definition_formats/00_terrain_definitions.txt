@@ -1623,3 +1623,30 @@ terraced_hills_barter_goods_mult = {
 	prefix = MOD_MONTHLY_BARTER_GOODS_PREFIX
 	percent = yes
 }
+
+terraced_hills_advantage = {
+	prefix = MOD_ADVANTAGE_PREFIX
+	decimals = 0
+}
+
+terraced_hills_max_combat_roll = {
+	decimals = 0
+}
+
+terraced_hills_development_growth = {
+	prefix = MOD_DEVELOPMENT_PREFIX
+	decimals = 1
+}
+
+terraced_hills_development_growth_factor = {
+	prefix = MOD_DEVELOPMENT_PREFIX
+	decimals = 1
+	percent = yes
+}
+
+terraced_hills_provisions_use_mult = {
+	decimals = 0
+	prefix = MOD_PROVISIONS_PREFIX
+	color = bad
+	percent = yes
+}

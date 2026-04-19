@@ -82,8 +82,16 @@ PixelShader =
 			return PdxReadBuffer4( ProvinceEffectDataBuffer, Index );
 		}
 
-		void SampleProvinceEffectsMask( float2 MapCoords, inout EffectIntensities ConditionData )
+		void BilinearSampleProvinceEffectsMask( float2 MapCoords, inout EffectIntensities ConditionData )
 		{
+			#ifdef LOW_SPEC_SHADERS
+				ConditionData._Drought = 0.0f;
+				ConditionData._Flood = 0.0f;
+				ConditionData._Summer = 0.0f;
+				ConditionData._Snow = 0.0f;
+				return;
+			#endif
+
 			// ProvinceEffects mask
 			float2 Pixel = MapCoords * IndirectionMapSize + 0.5f;
 			float2 FracCoord = frac( Pixel );
@@ -118,6 +126,31 @@ PixelShader =
 			float Snow1 = lerp( C11.r == SNOW_INDEX, C21.r == SNOW_INDEX, FracCoord.x );
 			float Snow2 = lerp( C12.r == SNOW_INDEX, C22.r == SNOW_INDEX, FracCoord.x );
 			ConditionData._Snow = lerp( Snow1, Snow2, FracCoord.y ) * Impact;
+		}
+		
+		void SampleProvinceEffectsMask( float2 MapCoords, inout EffectIntensities ConditionData )
+		{
+			#ifdef LOW_SPEC_SHADERS
+				ConditionData._Drought = 0.0f;
+				ConditionData._Flood = 0.0f;
+				ConditionData._Summer = 0.0f;
+				ConditionData._Snow = 0.0f;
+				return;
+			#endif
+
+			float2 Pixel = MapCoords * IndirectionMapSize + 0.5f;
+			Pixel = floor( Pixel ) / IndirectionMapSize - InvIndirectionMapSize / 2.0f;
+			float4 Sample = SampleProvinceEffects( Pixel );
+
+			float ImpactTemp = Sample.g;
+
+			float Impact = RemapClamped( ImpactTemp, 0.0f, OpacityLowImpactValue, 0.0f, 0.5f );
+			Impact += RemapClamped( ImpactTemp, OpacityLowImpactValue, OpacityHighImpactValue, 0.0f, 0.5f );
+
+			ConditionData._Drought = ( Sample.r == DROUGHT_INDEX ) * Impact;
+			ConditionData._Flood = ( Sample.r == FLOOD_INDEX ) * Impact;
+			ConditionData._Summer = ( Sample.r == SUMMER_INDEX ) * Impact;
+			ConditionData._Snow = ( Sample.r == SNOW_INDEX ) * Impact;
 		}
 
 		void ApplyDroughtDiffuseTerrain( inout float4 Diffuse, inout float3 Normal, inout float4 Properties, float2 WorldSpacePosXz, float ConditionValue )
@@ -305,6 +338,9 @@ PixelShader =
 
 		void ApplyProvinceEffectsTerrain( in EffectIntensities ConditionData, inout float4 Diffuse, inout float3 Normal, inout float4 Properties, float3 WorldSpacePos, inout float WaterNormalLerp )
 		{
+			#ifdef LOW_SPEC_SHADERS
+				return;
+			#endif
 			// Do not apply any effects to the snow.
 			float3 SnowColor = float3( 0.698f, 0.737f, 0.765f );
 			if ( !any( abs( Diffuse.rgb - SnowColor ) >= 0.45f ) )
@@ -375,6 +411,9 @@ PixelShader =
 
 		void ApplyProvinceEffectsTree( in EffectIntensities ConditionData, inout float4 Diffuse, float2 MapCoords, float2 WorldSpacePosXz )
 		{
+			#ifdef LOW_SPEC_SHADERS
+				return;
+			#endif
 			ApplyDroughtDiffuseTree( Diffuse, WorldSpacePosXz, ConditionData._Drought );
 			ApplySummerDiffuseTree( Diffuse, WorldSpacePosXz, ConditionData._Summer );
 			DebugCondition( Diffuse.rgb, ConditionData );
@@ -396,6 +435,9 @@ PixelShader =
 
 		void ApplyProvinceEffectsDecal( in EffectIntensities ConditionData, inout float3 Diffuse, float2 MapCoords )
 		{
+			#ifdef LOW_SPEC_SHADERS
+				return;
+			#endif
 			ApplyDroughtDiffuseDecal( Diffuse, ConditionData._Drought );
 
 			DebugCondition( Diffuse.rgb, ConditionData );

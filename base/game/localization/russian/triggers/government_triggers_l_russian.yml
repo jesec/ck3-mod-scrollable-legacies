@@ -2,6 +2,7 @@
  GOVERNMENT_HAS_FLAG_TRIGGER: "Тип [Concept('government', 'правительства')|E] — $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Ваш тип [Concept('government', 'правительства')|E] — $FLAG$"
  GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "Тип [Concept('government', 'правительства')|E] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )|l][CHARACTER.GetShortUINamePossessive][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] — $FLAG$"
+ NONE_GOVERNMENT_HAS_FLAG_TRIGGER: "Их [Concept('government', 'правительство')|E] — $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER: "Требуется тип [Concept('government', 'правительства')|E] $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST: "Требуется, чтобы у вас был тип [Concept('government', 'правительства')|E] $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD: "Требуется, чтобы у [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )|l][CHARACTER.GetShortUINamePossessive][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] был тип [Concept('government', 'правительства')|E] $FLAG$"

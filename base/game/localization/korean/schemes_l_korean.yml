@@ -351,6 +351,7 @@
  FREEZE_REASON_TRAVELING: "여행 중임"
  FREEZE_REASON_TARGET_TRAVELING: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip](은)는 여행 중임"
  BEFRIENDING_AT_FEAST: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip](은)는 당신과 같은 연회에 참석 중임"
+ ALLOWING_TO_MOURN: "우리는 [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip](이)가 애도하도록 허용합니다."
  overthrow_regent: "섭정 타도"
  overthrow_regent_action: "타도"
  overthrow_regent_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip](을)를 납치해 [imprison|E]한 후, [SCHEME.GetTargetCharacter.GetDiarchTitle] 직위를 내게 양도하도록 강요한다!"

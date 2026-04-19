@@ -60,7 +60,11 @@ types task_contract_travel_windows {
 			margin_bottom = 10
 
 			background = {
-				texture = "gfx/interface/illustrations/event_scenes/ep2_travel_bridge.dds"
+				block "location_pick_illustration_texture"
+				{
+					texture = "gfx/interface/illustrations/event_scenes/ep2_travel_bridge.dds"
+				} 
+				
 				alpha = 0.2
 				fittype = centercrop
 				mirror = horizontal
@@ -94,7 +98,12 @@ types task_contract_travel_windows {
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
-					text = "MOVE_DOMICILE_DESTINATION_SELECTION_HEADER"
+					block "location_pick_header_text"
+					{
+						text = "MOVE_DOMICILE_DESTINATION_SELECTION_HEADER"
+					}
+
+					
 					default_format = "#T"
 					using = Font_Size_Big
 					max_width = 420
@@ -114,7 +123,10 @@ types task_contract_travel_windows {
 					text = "QUIT"
 					min_width = 300
 
-					onclick = "[MoveDomicileWindow.Close]"
+					block "location_pick_on_close"
+					{
+						onclick = "[MoveDomicileWindow.Close]"
+					}					
 					shortcut = "close_window"
 				}
 

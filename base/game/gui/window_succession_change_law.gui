@@ -242,6 +242,7 @@ window = {
 
 											text_single = {
 												text = "SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_OPPOSE"
+												max_width = 80
 											}
 										}
 
@@ -252,6 +253,7 @@ window = {
 
 											tooltip = "SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_APPROVE_TT"
 											using = tooltip_se
+											max_width = 110
 										}
 									}
 								}
@@ -433,6 +435,7 @@ types SuccessionLawTypes
 				text = "[Law.GetSubName]"
 				visible = "[Law.HasSubName]"
 				default_format = "#low"
+				max_width = 280
 			}
 		}
 		

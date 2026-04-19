@@ -35,7 +35,7 @@
 
 			blockoverride "header_text"
 			{
-				text = "[GreatProjectType.GetName]"
+				text = "[GreatProjectType.GetNameForPlayer]"
 
 			}
 
@@ -333,7 +333,7 @@ widget = {
 		position = { 0 100 }
 
 		text_label_center = {
-			text = "[SelectPlanProjectLocationView.GetProjectType.GetName]"
+			text = "[SelectPlanProjectLocationView.GetProjectType.GetNameForPlayer]"
 			default_format = "#high"
 			using = Font_Size_Medium
 			parentanchor = hcenter
@@ -414,27 +414,27 @@ types GreatProjectPlanWindow
 				}
 
 				text_single = {
-					layoutpolicy_horizontal = growing
+					layoutpolicy_horizontal = expanding
 
 					text = "[ContributionItem.GetName]"
 					align = nobaseline
 					
 					default_format = "#low"
-					
+
 					visible = "[ContributionItem.GetContributor.IsValid]"
+					autoresize = no
 				}
 				
 				text_single = {
-					layoutpolicy_horizontal = growing
+					layoutpolicy_horizontal = expanding
 
 					text = "[ContributionItem.GetName]"
-					align = nobaseline
-					
+					align = nobaseline|left
+
 					visible = "[Not(ContributionItem.GetContributor.IsValid)]"
+					autoresize = no
 				}
 
-
-				expand = {}
 
 				block "contributor_slot" {}
 
@@ -459,7 +459,7 @@ types GreatProjectPlanWindow
 				name = "show_contributors_button"
 				
 				# Only the owner can ask other people to fund Contributions, and they cannot ask people to fund Contributions that only they can fund.
-				visible = "[And( And( ObjectsEqual( ContributionItem.GetProject.GetOwner, GetPlayer ), Not( ContributionItem.IsOwnerOnly ) ), And( ContributionItem.GetProject.IsValid, Not( ContributionItem.IsFunded ) ) )]"
+				visible = "[And( And( Or( ObjectsEqual( ContributionItem.GetProject.GetOwner, GetPlayer ), ObjectsEqual( ContributionItem.GetProject.GetFounder, GetPlayer ) ), Not( ContributionItem.IsOwnerOnly ) ), And( ContributionItem.GetProject.IsValid, Not( ContributionItem.IsFunded ) ) )]"
 				
 				size = { 60 40 }
 

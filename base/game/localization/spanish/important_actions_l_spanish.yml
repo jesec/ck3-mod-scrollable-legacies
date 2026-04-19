@@ -1136,7 +1136,7 @@
  action_active_learning_oath_1: "$action_active_diplomacy_oath_1$"
  action_active_learning_oath_1_label: "Juramento [coronation_i]: $GetUniversityOathText$ [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
  action_active_learning_oath_1_desc: "Durante la [coronation|lE] hiciste el [oath|lE] de #V $GetUniversityOathText$#!. Te quedan [RemainingTime('learning_oath_1_timer')] años para cumplirlo."
- action_active_learning_oath_1_click: "$action_active_learning_oath_1_click$"
+ action_active_learning_oath_1_click: "$action_active_diplomacy_oath_1_click$"
  action_active_purge_pretenders_oath: "$action_active_diplomacy_oath_1$"
  action_active_purge_pretenders_oath_label: "Juramento [coronation_i]: $GetPurgePretendersOathText$ [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
  action_active_purge_pretenders_oath_desc: "Durante la [coronation|lE] hiciste el [oath|lE] de #V $GetPurgePretendersOathText$#!. Te quedan [RemainingTime('purge_pretenders_oath_timer')] años para cumplirlo."
@@ -1205,3 +1205,46 @@
  action_landless_admin_escape_to_realm: "Escapar a otro señorío"
  action_landless_admin_escape_to_realm_desc: "Tu personaje es [holder|El] de un [title|El] de [noble_family|El] sin tierras bajo un [liege|El] con una forma de [government|El] distinta.\n\n#help Puedes pedir a otros [independent_rulers|El] con tu forma de [government|El] que se conviertan en tu nuevo señor y trasladar tu [domicile|El] a su [capital|El].#!"
  action_landless_admin_escape_to_realm_click: "#I Haz clic para abrir la interacción $landless_admin_switch_non_admin_top_liege_interaction$"
+ action_minister_can_imprison_label: "@minister!Se puede encarcelar a [Select_CString(recipient.IsLocalPlayer,'tu personaje', recipient.GetShortUIName)]"
+ action_minister_can_imprison_combined_group_label: "@minister!Se puede encarcelar a los gobernadores"
+ action_minister_can_imprison_combined_label: "Se puede encarcelar a [Select_CString(recipient.IsLocalPlayer,'tu personaje', recipient.GetShortUIName)]"
+ #tooltip heading
+ action_minister_can_imprison: "@minister!El gobernador puede ser encarcelado"
+ action_minister_can_imprison_combined_group_name: "$action_minister_can_imprison_combined_group_label$"
+ #tooltip contents
+ action_minister_can_imprison_desc: "Puedes [imprison|El] legalmente a [recipient.GetShortUINameNoTooltip], ya que es un[recipient.Custom('ES_XA')] [criminal|El] conocid[recipient.Custom('ES_OA')] #weak ([recipient.GetImprisonmentReasons( recipient.GetLiege )])#!."
+ action_minister_can_imprison_combined_group_description: "Se puede [imprison|lE] a [governors|El] que sean [criminals|El] conocidos"
+ action_minister_can_imprison_click: "#I Haz clic para abrir la interacción $imprison_interaction$#!"
+ action_minister_can_pardon_label: "@minister!Se puede perdonar a [Select_CString(recipient.IsLocalPlayer,'tu personaje', recipient.GetShortUIName)]"
+ action_minister_can_pardon_combined_group_label: "@minister!Se puede perdonar a los gobernadores"
+ action_minister_can_pardon_combined_label: "Se puede perdonar a [Select_CString(recipient.IsLocalPlayer,'tu personaje', recipient.GetShortUIName)]"
+ #tooltip heading
+ action_minister_can_pardon: "@minister!Se puede perdonar al gobernador"
+ action_minister_can_pardon_combined_group_name: "$action_minister_can_pardon_combined_group_label$"
+ #tooltip contents
+ action_minister_can_pardon_desc: "Puedes hacer que [recipient.GetLiege.GetShortUIName] conceda un [imprisonment_reason|El] #weak ([recipient.GetImprisonmentReasons( recipient.GetLiege )])#! contra [recipient.GetShortUIName], ya que es un[recipient.Custom('ES_XA')] [criminal|El] conocid[recipient.Custom('ES_OA')]."
+ action_minister_can_pardon_combined_group_description: "Puedes obligar a los [governors|El] [liege_possessive|E] que sean [criminals|El] conocidos a conceder un [imprisonment_reason|El] contra ellos."
+ action_minister_can_pardon_click: "#I Haz clic para abrir la interacción $pardon_interaction$#!"
+ action_can_be_pardoned_by_minister_label: "@minister!Puedes pedir a [recipient.GetShortUINameNoTooltip] que te perdone"
+ #tooltip heading
+ action_can_be_pardoned_by_minister: "@minister!Se te puede perdonar"
+ #tooltip contents
+ action_can_be_pardoned_by_minister_desc: "Puedes pedir a [recipient.GetShortUIName] que haga que tu [liege|El], [actor.GetLiege.GetShortUIName], conceda un [imprisonment_reason|El] #weak ([actor.GetImprisonmentReasons( actor.GetLiege )])#! contra #V ti#!."
+ action_can_be_pardoned_by_minister_unimportant: "@warning_icon! #X [recipient.GetShortUIName] no quiere aceptar.#!"
+ action_can_be_pardoned_by_minister_click: "#I Haz clic para abrir la interacción $ask_for_pardon_interaction$#!"
+ action_pay_governors_treasury_debt_label: "@minister!Se puede pagar la deuda del tesoro de [Select_CString(recipient.IsLocalPlayer,'tu personaje', recipient.GetShortUINameNoTooltip)]"
+ action_pay_governors_treasury_debt_combined_group_label: "@minister!Se puede pagar la deuda del tesoro de los gobernadores"
+ action_pay_governors_treasury_debt_combined_label: "La [treasury_debt|El] acumulada de [Select_CString(recipient.IsLocalPlayer,'tu personaje', recipient.GetShortUINameNoTooltip)] es #X [recipient.GetTreasury|0]#! [treasury_i]"
+ #tooltip heading
+ action_pay_governors_treasury_debt: "@minister!Se puede pagar la deuda del tesoro del gobernador"
+ action_pay_governors_treasury_debt_combined_group_name: "$action_pay_governors_treasury_debt_combined_group_label$"
+ #tooltip contents
+ action_pay_governors_treasury_debt_desc: "Puedes enviar [treasury|El] [treasury_i] a [recipient.GetShortUIName] y arreglar sus libros de cuentas."
+ action_pay_governors_treasury_debt_combined_group_description: "Puedes enviar [treasury|El] [treasury_i] a los [governors|El] para pagar su [treasury_debt|lE]."
+ action_pay_governors_treasury_debt_click: "#I Haz clic para abrir la interacción $action_pay_governors_treasury_debt$#!"
+ action_minister_can_pay_treasury_debt_label: "@minister![recipient.GetShortUIName] puede saldar tu deuda del tesoro"
+ #tooltip heading
+ action_minister_can_pay_treasury_debt: "@minister![recipient.GetShortUIName] puede saldar la deuda de tu tesoro"
+ #tooltip contents
+ action_minister_can_pay_treasury_debt_desc: "Puedes recibir [treasury|El] [treasury_i] de parte del [minister_of_revenue|El], de [recipient.GetShortUIName] o del [son_of_heaven|E] y arreglar tus libros de cuentas."
+ action_minister_can_pay_treasury_debt_click: "#I Haz clic para abrir la interacción $action_pay_governors_treasury_debt$#!"

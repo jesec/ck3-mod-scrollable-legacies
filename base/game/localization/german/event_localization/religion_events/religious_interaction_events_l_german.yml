@@ -75,7 +75,7 @@
  religious_interaction.2011.b: "Ich werde nicht für Eure ewige Erlösung zahlen!"
  religious_interaction.2011.c: "Ihr werdet es für etwas sehr viel Wertvolleres als Gold tun."
  religious_interaction.2012.desc: "Ich erkenne die Weisheit in Eurem Glauben, doch ich hoffe, Ihr erkennt auch, was für ein langer, gewundener Pfad es von der Finsternis ins Licht ist.\n\nVielleicht würde die Reise für mich leichter werden, wenn Ihr versprächet, mich überall zu unterstützen, wohin mich dieser Weg führt."
- religious_interaction.2012.a: "Ich nehme das Angebot an. Zum Wohl des [ROOT.Char.GetFaith.GetNameNoTooltip]s allerorten."
+ religious_interaction.2012.a: "Ich akzeptiere, zum Wohl der Gläubigen allerorten."
  religious_interaction.2012.b: "Ich werde nicht um Eure Seele feilschen!"
  religious_interaction.2012.c: "Erst müsst Ihr mir noch andere Schulden zahlen."
  religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

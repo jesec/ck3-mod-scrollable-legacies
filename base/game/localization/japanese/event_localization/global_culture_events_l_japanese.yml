@@ -43,3 +43,5 @@
  global_culture.3011.desc: "イタリア南部およびシチリア島における折衷的な諸民族の混在から、数多の影響を受け入れた独自の文化が誕生した。\n\n[county_to_change.GetName]の民がもはや自分たちを[old_culture.GetName]とはみなしておらず、生来の[sicilian.GetCollectiveNoun]と考えていることは今や明白だ！"
  global_culture.3011.a: "興味深い展開だ…"
  global_culture.3012.a: "素晴らしい！"
+ global_culture.4011.t: "[goryeo.GetNameNoTooltip]文化の伝播"
+ global_culture.4011.desc: "三国の人々は統一を経てより大きな独自性を共有するようになり、数多の影響を反映した独自の文化が誕生した。\n\n[county_to_change.GetName]の民がもはや自分たちを[old_culture.GetName]とはみなしておらず、生来の[goryeo.GetCollectiveNoun]と考えていることは今や明白だ！"

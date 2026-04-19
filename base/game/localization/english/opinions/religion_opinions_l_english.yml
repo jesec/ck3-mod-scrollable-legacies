@@ -19,6 +19,7 @@
 
  judaism_religion_opinion: "$judaism_religion_adj$ Opinion"
  jainism_religion_opinion:0 "$jainism_religion_adherent$ Opinion"
+ shintoism_religion_opinion:0 "$shintoism_religion_adherent$ Opinion"
  hinduism_religion_opinion:0 "$hinduism_religion_adherent$ Opinion"
  buddhism_religion_opinion:0 "$buddhism_religion_adherent$ Opinion"
  zoroastrianism_religion_opinion:0 "$zoroastrianism_religion_adherent$ Opinion"

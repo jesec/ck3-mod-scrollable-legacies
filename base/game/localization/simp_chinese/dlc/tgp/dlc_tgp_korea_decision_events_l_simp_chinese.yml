@@ -21,3 +21,7 @@
  MERITOCRATIC_CEREMONIAL_LIEGE_TITLE: "[founder.GetPrimaryTitle.GetAdjectiveNoTooltip]御座"
  tgp_korea_decision.9202.desc: "随着[founder.GetTitledFirstNamePossessive]的统治之光愈发耀眼，众人纷纷在[founder.GetHerHis]的荫蔽中寻求慰藉。没有任何[founder.GetTitleAsNameNoTooltip]能够独自执政，而真正权力所在的界线始终在变动。\n\n若[founder.GetHerHis]的后裔想要继续统治[founder.GetPrimaryTitle.GetDefinitiveNameNoTooltip]，不仅仅是名义上的统治，[founder.GetSheHe|U]必须时刻保持警惕……"
  tgp_korea_decision.9202.a: "权力有很多种形式。"
+ tgp_create_meritocratic_ruling_regent_title_effect: "由于是[GetGovernment('meritocratic_government').GetName][empire|E]的[ruler|E]："
+ tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "你获得一个拥有[GetLaw('single_heir_succession_law').GetName][law|E]的名义[kingdom|E][title|E]"
+ tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "[vassals|E]可以建立#V $replace_ceremonial_regent_faction$#![factions|E]"
+ tgp_create_meritocratic_ruling_regent_title_message_title: "[founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]君主制受到挑战"

@@ -72,7 +72,7 @@
  governor_contract_event.1020.d: "将它捐赠给慈善机构和有需要的人。"
  governor_contract_event.1020.e: "填满粮仓并出售剩余的粮食。"
  governor_contract_event.1020.f: "#EMP 全部#!搬到我的庄园。"
- harvest_claim_it_yourself_estate_tt: "由于你的[estate|E]的[GetDomicileBuilding('storage_granary_03').GetName]#!，数量增加#P +[EmptyScope.ScriptValue('estate_granary_gold_bonus_value')|+0%]"
+ harvest_claim_it_yourself_estate_tt: "由于你的[estate|E]的[GetDomicileBuilding('storage_granary_03').GetName]，数量增加#P +[EmptyScope.ScriptValue('estate_granary_gold_bonus_value')|+0%]#!"
  governor_contract_event.1030.t: "盗匪猖獗"
  governor_contract_event.1030.desc: "我又读了一遍报告。#EMP 强盗#!，对他们来说，我守法的纳税人不过是一群待宰的肥羊！\n\n事实上，这群凶暴的亡命徒已经对我的人民下了手……村庄受到威胁，商队不见了踪影。\n\n一群尤其危险的暴徒已经在[bandit_destination.GetName]附近的[task_contract_location.GetProvince.GetTerrain.GetNameNoTooltip|l]站稳了脚跟。必须清除他们，该区域才能恢复控制。"
  governor_contract_event.1030.a: "集结一队士兵。我们立即出发！"

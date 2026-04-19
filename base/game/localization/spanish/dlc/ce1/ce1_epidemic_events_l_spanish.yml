@@ -262,7 +262,7 @@
  doomsday: "el Juicio Final"
  third_impact: "el Tercer impacto"
  epidemic_events.2001.t: "La plaga de la guerra"
- epidemic_events.2001.desc: "[pleading_vassal.GetName|U] se arrodilla, temblando.\n\n«Mi señor[ROOT.Char.Custom('ES_XA')], dos plagas me acosan. La de [epidemic_scope.GetName|l] devora a mi pueblo y ahora [attacking_vassal.GetName] ataca mis tierras. No puedo luchar contra ambas».\n\nPresenta un pequeño cofre de oro; todo lo que ha podido traer.\n\n«Os lo ruego. Ayudadme a terminar esta guerra antes de que no quede ningún señorío»."
+ epidemic_events.2001.desc: "[pleading_vassal.GetName|U] se arrodilla, temblando.\n\n«Mi señor[ROOT.Char.Custom('ES_XA')], dos plagas me acosan. La de [epidemic_scope.GetName|l] devora a mi pueblo, y ahora [attacking_vassal.GetName] ataca mis tierras. No puedo luchar contra ambas».\n\nPresenta un pequeño cofre de oro; todo lo que ha podido traer.\n\n«Os lo ruego. Ayudadme a terminar esta guerra antes de que no quede ningún señorío»."
  epidemic_events.2001.a: "Pagaré con gusto para poner fin a esta locura."
  epidemic_events.2001.b: "¡Cómo os atrevéis a traer la plaga de [epidemic_scope.GetNameNoTooltip|l] a #EMP mi#! puerta!"
  epidemic_events.2001.b.desc: "¡Guardias! Arrestad con #EMP mucho cuidado#! a [pleading_vassal.GetFirstNameNoTooltip] y luego, con un #EMP cuidado aún mayor#!, ¡lavad todo lo que haya tocado!"

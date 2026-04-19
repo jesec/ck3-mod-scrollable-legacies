@@ -60,6 +60,7 @@
  ### CONCLUSION
  activity_debate_conclusion_desc_leadership_winner: "Die Debatte zur Führung der [GetPlayer.Custom('GetMyMovement')] ist abgeschlossen und ich wurde zum Sieger erklärt!"
  activity_debate_conclusion_desc_leadership_loser: "Meine Pläne wurden vereitelt und [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] bleibt Anführer der [GetPlayer.Custom('GetMyMovement')]."
+ activity_debate_conclusion_desc_leadership_challenged_loser: "Man erklärt [Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] trotz meiner Bemühungen zum Anführer der [GetPlayer.Custom('GetMyMovement')]."
  activity_debate_conclusion_desc_favor_winner: "Die Debatte um die Gunst [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] ist abgeschlossen und die [GetPlayer.Custom('GetMyMovement')] wird zum Sieger erklärt!"
  activity_debate_conclusion_desc_favor_loser: "Ich konnte leider der [GetPlayer.Custom('GetMyMovement')] nicht die Gunst [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] sichern. Ich werde mir beim nächsten Mal mehr Mühe geben müssen."
  debate_conclusion_fallback: "Die [GetActivityType('activity_debate').GetName] ist zu Ende gegangen."

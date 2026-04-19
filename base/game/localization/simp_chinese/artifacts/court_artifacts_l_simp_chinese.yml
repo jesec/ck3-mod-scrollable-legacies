@@ -758,3 +758,5 @@
  artifact_nukemaru_sword_desc: "此刀相传由天照赐予伊势国一位猎师，后由$dynn_Taira$$Tadamori$购得，据说在大蛇扰其清梦时，此刀从鞘中自行拔出。"
  artifact_kogarasumaru_sword_name: "小乌丸" #小烏丸
  artifact_kogarasumaru_sword_desc: "小乌丸由天国为朝廷锻造，后因平定承平天庆之乱，被$Suzaku$$king_tenno_male_japanese$赐予$dynn_Taira$$Sadamori$。"
+ artifact_statue_green_amitabha_buddha_name: "青石阿弥陀佛"
+ artifact_statue_green_amitabha_buddha_descripton: "这尊精美的阿弥陀佛像由整块青石雕琢而成，基座饰有莲瓣与水波纹。\n\n据说，某座佛塔建成后不久倒塌，此佛像便奇迹般自废墟中显现。"

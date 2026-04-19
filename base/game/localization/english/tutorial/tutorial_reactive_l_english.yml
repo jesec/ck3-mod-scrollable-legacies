@@ -877,9 +877,9 @@ action_reactive_advice_kurultai_click: "$click_to_open_lesson$"
  ra_dynastic_cycle_era_open_groups_trigger: "Open the '$dynastic_cycle_tab_movements$' tab"
  ra_dynastic_cycle_era_groups_desc: "Many [characters|E] in and around China have an impact on its future. These $game_concept_characters$ belong to [movements|e], each of which want to steer China in a different direction.\n\nFor instance, the $dynastic_cycle_participant_group_advancement_movement|V$ wants to improve the Empire by looking inward through the Advancement [dynastic_cycle_era_short|e], while the $dynastic_cycle_participant_group_expansion_movement|V$ wishes for China to grow and expand through military force via the Expansion Era."
 
- ra_dynastic_cycle_era_group_leader_desc: "Each [movement|E] has a [movement_leader|E], which can make petitions in order to further their $game_concept_movement$'s cause.\n\nOnly the most powerful $game_concept_characters$ in China can become $game_concept_movement_leader$, as you need to have the highest [movement_power|E] in the $game_concept_movement$."
+ ra_dynastic_cycle_era_group_leader_desc: "Each [movement|E] has a [movement_leader|E], who can make petitions in order to further their $game_concept_movement$'s cause.\n\nTo become a $game_concept_movement_leader$ you need to have the highest [movement_power|E] within your $game_concept_movement$."
 
- ra_dynastic_cycle_era_actions_desc: "You can also take Actions to influence the [dynastic_cycle|e], either as on your own, or through your [movement|e].\n\nYou can find these Actions at the bottom of the window.\n\nIf you are still $dynastic_cycle_participant_group_undecided_movement|V$, you should join a $game_concept_movement$. Each movement gives you a different benefits or penalties."
+ ra_dynastic_cycle_era_actions_desc: "You can also take Actions to influence the [dynastic_cycle|e], either on your own, or through your [movement|e].\n\nYou can find these Actions at the bottom of the window.\n\nIf you are still $dynastic_cycle_participant_group_undecided_movement|V$, you should join a $game_concept_movement$."
 
  # merit candidacy
 
