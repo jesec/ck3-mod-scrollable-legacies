@@ -485,10 +485,8 @@ async function parse(inputDir, outputDir, releaseNotesDir) {
     fs.mkdirSync(releaseNotesDir, { recursive: true });
   }
 
-  // Load BBCode/Markdown converters once
-  const { default: bbobHTML } = await import('@bbob/html');
-  const { default: presetHTML5 } = await import('@bbob/preset-html5');
-  const TurndownService = (await import('turndown')).default;
+  // Load BBCode/Markdown converter (our custom direct conversion)
+  const BBCodeParser = await import('./lib/bbcode-parser.js');
 
   // Helper function to fetch and save release notes for a version
   async function fetchAndSaveReleaseNotes(targetVersion) {
@@ -616,22 +614,8 @@ async function parse(inputDir, outputDir, releaseNotesDir) {
       .toISOString().split('T')[0];
     const url = `https://store.steampowered.com/news/app/${CK3_APP_ID}/view/${releaseEvent.gid}`;
 
-    // Normalize BBCode
-    let normalizedBBCode = releaseEvent.announcement_body.body
-      // Fix list items
-      .replace(/\[\*\](.*?)\[\/\*\]/gs, '[*]$1')
-      // Fix URL attributes: [url=link style=button] -> [url=link]
-      .replace(/\[url=([^\s\]]+)\s+[^\]]*\]/gi, '[url=$1]')
-      // Add https:// to URLs that are missing protocol
-      .replace(/\[url=(?!https?:\/\/)([^\]]+)\]/gi, '[url=https://$1]');
-
-    const html = bbobHTML(normalizedBBCode, presetHTML5());
-    const turndownService = new TurndownService({
-      headingStyle: 'atx',
-      codeBlockStyle: 'fenced',
-      bulletListMarker: '-'
-    });
-    const markdown = turndownService.turndown(html);
+    // Convert BBCode to Markdown using our custom parser
+    const markdown = BBCodeParser.bbcodeToMarkdown(releaseEvent.announcement_body.body);
 
     const releaseNotesFile = `${versionSlug}_${date}.md`;
     const releaseNotesPath = path.join(releaseNotesDir, releaseNotesFile);
@@ -869,7 +853,6 @@ CK3 Mod Base Utility
 Usage:
   node index.js <command> [options]
 
-Commands:
   check [stored-file]
       Query Steam PICS for CK3 depot state and compare against a stored
       .ck3-version.json (default: ./base/.ck3-version.json). Anonymous
