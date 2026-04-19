@@ -209,7 +209,7 @@
  PURCHASE_LAND_IS_IN_DEBT_REASON: "[recipient.GetName] ma [debt|El]: $VALUE|+=0$"
  ep3_ennobled_adventurer_modifier_reason_3: "Z powodu #EMP #N fatalnej#!#! opinii, jaką ma o tobie ludność [new_primary_title.GetName]:"
  ep3_ennobled_adventurer_modifier_reason_2: "Z powodu #EMP #N marnej#!#! opinii, jaką ma o tobie ludność [new_primary_title.GetName]:"
- ep3_ennobled_adventurer_modifier_reason_1: "Z powodu #EMP #N złej#!#! opinii, jaką ma o tobie ludność [new_primary_title.GetName]:"
+ ep3_ennobled_adventurer_modifier_reason_1: "Z powodu #EMP #N złej#!#! opinii, jaką ma o tobie ludność [new_primary_title.GetAdjective]:"
  ep3_ennobled_adventurer_modifier_rules: "#weak Aby zmniejszyć karę nakładaną przez powyższy modyfikator, musisz mieć odpowiednio wysoki [prestige_level|El], a ponadto albo ty, albo twój [primary_spouse|El] lub [primary_heir|El] musicie być tej samej [Concept('faith', 'wiary')|E] i [Concept('culture', 'kultury')|E] co [new_primary_title.GetNameNoTier]#!"
  request_laamp_invasion_sponsorship_interaction: "Poproś o sfinansowanie inwazji"
  request_laamp_invasion_sponsorship_interaction_desc: "Zapewnij sobie wsparcie [Concept('ruler', 'władcy')|E], który w zamian za [vassalage|El] dostarczy ci [Concept('soldiers', 'żołnierzy')|E]"

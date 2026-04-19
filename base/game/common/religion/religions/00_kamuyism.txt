@@ -1,6 +1,6 @@
 ﻿kamuyism_religion = { # Ainu folk religion
 	family = rf_pagan
-
+	graphical_faith = "shinto_gfx"
 	doctrine = pagan_hostility_doctrine
 
 	pagan_roots = yes

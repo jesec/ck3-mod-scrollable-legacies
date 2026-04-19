@@ -315,6 +315,8 @@
  innovation_waterworks: "供水系统"
  innovation_waterworks_desc: "水赋予生命，但水的用途远不止解渴或灌溉田地。若能巧妙加以利用，这从天而降的资源不仅能驱动远胜畜力的机械，还可助力人工运河上的交通与贸易，甚至仅凭其本身，便足以维持街道的清洁与宜居。"
  culture_parameter_unlocks_waterworks_buildings: "解锁[GetBuilding('waterworks_01').GetTypeName|V]线的[buildings|E]"
+ innovation_tiefutu: "$tiefutu$"
+ innovation_tiefutu_desc: "$tiefutu_flavor$"
  innovation_bulkheads: "水密隔舱"
  innovation_bulkheads_desc: "防止船只沉没最可靠的方法，首先是避免其船体破损。但如果发生这种情况，只要船体被分隔为多个带水密隔板的舱室，船只仍可能获救。即使船体受损，水密隔舱也可阻止海水灌入致船只完全沉没，从而在此过程中挽救人员、物资及船只本身。"
  innovation_coking: "炼焦工艺"
@@ -339,6 +341,3 @@
  unlock_maa_bombard: "可以招募[GetMaA('bombard').GetName][men_at_arms|E]"
  unlock_maa_trebuchet: "可以招募[GetMaA('trebuchet').GetName][men_at_arms|E]"
  unlock_maa_mangonel: "可以招募[GetMaA('mangonel').GetName][men_at_arms|E]"
- innovation_tiefutu: "$tiefutu$"
- innovation_tiefutu_desc: "$tiefutu_flavor$"
- 

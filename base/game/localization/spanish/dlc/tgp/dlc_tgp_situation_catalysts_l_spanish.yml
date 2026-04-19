@@ -75,7 +75,7 @@
  catalyst_requested_incursion: "[governor|E] involucrado en una incursión extranjera"
  catalyst_requested_incursion_desc: "[governor|E] descubierto por usar la [interaction|El] #V $fp3_request_turkic_invasion_interaction$#!"
  catalyst_hegemon_in_defensive_war_yearly: "[dynastic_cycle_catalyst|E] anual de [war|El] defensiva en curso"
- catalyst_hegemon_in_defensive_war_yearly_desc: "Deriva anual: [son_of_heaven|E] está involucrado en una [war|El] defensiva"
+ catalyst_hegemon_in_defensive_war_yearly_desc: "Deriva anual: el [son_of_heaven|E] está involucrado en una [war|El] defensiva"
  # Merit
  catalyst_hegemon_low_merit_vassals_yearly: "[dynastic_cycle_catalyst|E] anual de [vassals|lE] con poco [merit_level|lE]"
  catalyst_hegemon_low_merit_vassals_yearly_desc: "Deriva anual: más del #V 50 %#! de los [vassals|lE] del [son_of_heaven|E] tiene un [merit_level|El] inferior a $MERIT_LEVEL_LABEL_6$"

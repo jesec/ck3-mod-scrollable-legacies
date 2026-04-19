@@ -893,7 +893,7 @@
  embrace_tributarization_interaction_aibehavior_nemesis_tt: "[actor.GetShortUINameNoTooltip|U] ist [nemesis|E] von [recipient.GetShortUIName]: $VALUE|=+0$"
  embrace_tributarization_interaction_aibehavior_dynasty_tt: "[actor.Custom('DE_PRO_PER_S_3P_N')|U] gehört zur [dynasty|E] von [recipient.GetShortUIName|U]: $VALUE|=+0$"
  embrace_as_tributary_interaction_same_faith: "[recipient.GetShortUINameNoTooltip|U] [Select_CString(recipient.IsLocalPlayer, 'seid', 'ist')] ein Gottkönig des [Concept('faith', 'Glaubens')|E] „[actor.GetFaith.GetName]“: $VALUE|=+0$"
- embrace_as_tributary_interaction_same_religion: "[recipient.GetShortUINameNoTooltip|U] [Select_CString(recipient.IsLocalPlayer, 'seid', 'ist')] ein Gottkönig der [religion|E] „[actor.GetFaith.GetName]“: $VALUE|=+0$"
+ embrace_as_tributary_interaction_same_religion: "[recipient.GetShortUINameNoTooltip|U] ist ein Gottkönig der [religion|E] [actor.GetReligion.GetName]: $VALUE|=+0$"
  embrace_as_tributary_interaction_other_religion_family: "[actor.GetShortUINameNoTooltip|U] [Select_CString(actor.IsLocalPlayer, 'seid', 'ist')] ein [actor.GetFaith.GetReligion.GetFamily.GetAdjective|l]er Gottkönig: $VALUE|=+0$"
  tributary_interaction_aibehavior_recipient_other_religion_family: "[recipient.GetShortUINameNoTooltip|U] [Select_CString(recipient.IsLocalPlayer, 'seid', 'ist')] ein [actor.GetFaith.GetReligion.GetFamily.GetAdjective|l]er Gottkönig: $VALUE|=+0$"
  embrace_as_tributary_interaction_wrong_government: "[recipient.GetShortUINameNoTooltip|U] hat eine Regierung der Art „[recipient.GetGovernment.GetName|E]“: $VALUE|=+0$"

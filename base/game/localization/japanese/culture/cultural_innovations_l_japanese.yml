@@ -315,6 +315,8 @@
  innovation_waterworks: "水道設備"
  innovation_waterworks_desc: "水は生命の源であるが、喉の渇きを癒したり、灌漑したりする以外にも多くの用途がある。うまく利用すれば、空から降ってくるこの資源は家畜の何倍も大きな動力となって機械を動かし、人工運河に沿った移動や交易を促進し、あるいは単に人の多い街を衛生的に住みやすく保つこともできる。"
  culture_parameter_unlocks_waterworks_buildings: "[GetBuilding('waterworks_01').GetTypeName|V]系の[buildings|E]をアンロック"
+ innovation_tiefutu: "$tiefutu$"
+ innovation_tiefutu_desc: "$tiefutu_flavor$"
  innovation_bulkheads: "隔壁"
  innovation_bulkheads_desc: "船が沈没するのを防ぐ最も確実な方法は、そもそも船体を破損させないことだ。だが万一破損した場合でも、船体が防水壁で区切られていれば、船を救うことができるかもしれない。船が損傷しても、隔壁が船全体の浸水を防ぎ、乗組員や物資、そして船自体を救える可能性がある。"
  innovation_coking: "コークス化"
@@ -339,6 +341,3 @@
  unlock_maa_bombard: "[GetMaA('bombard').GetName]を[men_at_arms|E]に採用できる"
  unlock_maa_trebuchet: "[GetMaA('trebuchet').GetName]を[men_at_arms|E]に採用できる"
  unlock_maa_mangonel: "[GetMaA('mangonel').GetName]を[men_at_arms|E]に採用できる"
- innovation_tiefutu: "$tiefutu$"
- innovation_tiefutu_desc: "$tiefutu_flavor$"
- 

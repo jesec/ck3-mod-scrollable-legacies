@@ -60,7 +60,7 @@
  ### CONCLUSION
  activity_debate_conclusion_desc_leadership_winner: "[GetPlayer.Custom('GetMyMovement')]의 지도권을 놓고 벌어진 토론이 끝났다. 내가 승자가 되었다!"
  activity_debate_conclusion_desc_leadership_loser: "내 계획은 수포가 되었다. [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip](이)가 [GetPlayer.Custom('GetMyMovement')]의 지도자로 남았다."
- activity_debate_conclusion_desc_leadership_challenged_loser: "내 노력에도 불구하고 [Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip](이)가 [GetPlayer.Custom('GetMyMovement')]의 리더로 선언되었다."
+ activity_debate_conclusion_desc_leadership_challenged_loser: "내 노력에도 불구하고 [Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip](이)가 [GetPlayer.Custom('GetMyMovement')]의 지도자로 선언되었다."
  activity_debate_conclusion_desc_favor_winner: "[ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] 호의를 받기 위한 토론이 끝났다. [GetPlayer.Custom('GetMyMovement')](이)가 승자가 되었다!"
  activity_debate_conclusion_desc_favor_loser: "[ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] 호의를 [GetPlayer.Custom('GetMyMovement')](으)로 돌리는 데 실패했다. 다음에는 더 노력해야 할 것이다."
  debate_conclusion_fallback: "[GetActivityType( 'activity_debate' ).GetName](이)가 막을 내렸습니다."

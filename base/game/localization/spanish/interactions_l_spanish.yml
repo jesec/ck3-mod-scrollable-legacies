@@ -893,7 +893,7 @@
  embrace_tributarization_interaction_aibehavior_nemesis_tt: "[actor.GetShortUINameNoTooltip|U] [actor.LocalPlayerString( 'eres', 'es' )] [nemesis|lE] [Select_CString( recipient.IsLocalPlayer, 'tu personaje', recipient.GetShortUIName)]: $VALUE|=+0$"
  embrace_tributarization_interaction_aibehavior_dynasty_tt: "[actor.GetSheHe|U] pertenece a [recipient.LocalPlayerString( 'tu', 'la' )] [dynasty|lE][recipient.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]: $VALUE|=+0$"
  embrace_as_tributary_interaction_same_faith: "[recipient.GetShortUINameNoTooltip|U] [recipient.LocalPlayerString( 'eres', 'es' )] rey dios de la [faith|El] [actor.GetFaith.GetAdjective]: $VALUE|=+0$"
- embrace_as_tributary_interaction_same_religion: "[recipient.GetShortUINameNoTooltip|U] [recipient.LocalPlayerString( 'eres', 'es' )] rey dios de la [religion|El] [actor.GetReligion.GetAdjective]: $VALUE|=+0$"
+ embrace_as_tributary_interaction_same_religion: "[recipient.GetShortUINameNoTooltip|U] [recipient.LocalPlayerString( 'eres', 'es' )] un rey dios de la [religion|El] [actor.GetReligion.GetAdjective]: $VALUE|=+0$"
  embrace_as_tributary_interaction_other_religion_family: "[actor.GetShortUINameNoTooltip|U] [actor.LocalPlayerString( 'eres', 'es' )] un rey dios de la [religion|El] [actor.GetFaith.GetReligion.GetFamily.GetAdjective]: $VALUE|=+0$"
  tributary_interaction_aibehavior_recipient_other_religion_family: "[recipient.GetShortUINameNoTooltip|U] [actor.LocalPlayerString( 'eres', 'es' )] un rey dios de la fe [recipient.GetFaith.GetReligion.GetFamily.GetName]: $VALUE|=+0$"
  embrace_as_tributary_interaction_wrong_government: "[recipient.GetShortUINameNoTooltip|U] tiene un gobierno [recipient.GetGovernment.GetName|El]: $VALUE|=+0$"

@@ -21,6 +21,13 @@ has_cp4_dlc_trigger = {
 	has_dlc_feature = arctic_attire
 }
 
+has_cp5_dlc_trigger = {
+	has_dlc_feature = high_medieval_warfare_attire
+}
+
+has_cp6_dlc_trigger = {
+	has_dlc_feature = holy_buildings
+}
 
 ##################################################
 # Booster Pack Triggers

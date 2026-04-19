@@ -467,7 +467,7 @@
  msg_house_unity_change_stage_tt: "$msg_house_unity_change_stage_desc$"
  msg_start_diarchy_title: "[LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip] 시작"
  msg_start_diarchy_effect: "내가 [LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [LEFT_CHARACTER.GetDiarchyTypeName]에서 나의 [LEFT_CHARACTER.Custom2('RelationToMeShort', RIGHT_CHARACTER.Self)] [RIGHT_CHARACTER.GetShortUIName](와)과 함께 [sharing_power|E]를 시작함"
- msg_inherit_diarchy_title: "[LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip] 상속"
+ msg_inherit_diarchy_title: "[LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')|U] [LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip] 상속"
  on_entered_diarchy.notification.vassal.t: "주군의 [ROOT.Char.GetDiarchyTypeNameNoTooltip] 도입"
  on_entered_diarchy.notification.vassal.t.higher_liege: "상위 주군의 [ROOT.Char.GetDiarchyTypeNameNoTooltip] 도입"
  on_entered_diarchy.notification.vassal.desc: "[ROOT.Char.GetShortUIName|U](은)는 이제 [ROOT.Char.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [ROOT.Char.GetDiarchyTypeName]에서 [ROOT.Char.GetHerHisMy] [ROOT.Char.Custom2('RelationToMeShort', ROOT.Char.GetDiarchy.GetDiarch.Self)] [ROOT.Char.GetDiarchy.GetDiarch.GetShortUIName](와)과 함께 [sharing_power|E]를 함"

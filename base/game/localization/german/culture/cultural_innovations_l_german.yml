@@ -315,6 +315,8 @@
  innovation_waterworks: "Wasserwerke"
  innovation_waterworks_desc: "Wasser ist ein Lebensspender, aber nicht nur als Durstlöscher und für die Bewässerung von Feldern. Geschickt genutzt kann diese vom Himmel fallende Ressource Maschinen antreiben, die um ein Vielfaches stärker sind als jedes Vieh, Reisen und Handel entlang künstlicher Kanäle erleichtern oder einfach dafür sorgen, dass belebte Straßen sauber und bewohnbar bleiben."
  culture_parameter_unlocks_waterworks_buildings: "Erlaubt die [Concept('buildings', 'Gebäudereihe')|E] „[GetBuilding('waterworks_01').GetTypeName|V]“"
+ innovation_tiefutu: "$tiefutu$"
+ innovation_tiefutu_desc: "$tiefutu_flavor$"
  innovation_bulkheads: "Schotten"
  innovation_bulkheads_desc: "Der sicherste Weg, den Untergang eines Schiffes zu verhindern, besteht darin, den Rumpf gar nicht erst zu beschädigen. Doch wenn sich dies nicht vermeiden lässt, ist das Schiff vielleicht noch zu retten, sofern der Rumpf durch wasserdichte Wände unterteilt wurde. Selbst wenn das Schiff beschädigt würde, läuft so nur ein Teil von ihm voll und man kann Menschen, Vorräte und das Schiff selbst oft vor dem Untergang bewahren."
  innovation_coking: "Verkokung"
@@ -339,6 +341,3 @@
  unlock_maa_bombard: "Kann „[GetMaA('bombard').GetName]“ als [men_at_arms|E] rekrutieren"
  unlock_maa_trebuchet: "Kann „[GetMaA('trebuchet').GetName]“ als [men_at_arms|E] rekrutieren"
  unlock_maa_mangonel: "Kann „[GetMaA('mangonel').GetName]“ als [men_at_arms|E] rekrutieren"
- innovation_tiefutu: "$tiefutu$"
- innovation_tiefutu_desc: "$tiefutu_flavor$"
- 

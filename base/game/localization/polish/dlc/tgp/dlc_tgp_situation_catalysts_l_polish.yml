@@ -74,8 +74,8 @@
  catalyst_hegemon_won_war_desc: "[son_of_heaven|E] wygrał [Concept('war', 'wojnę')|E]"
  catalyst_requested_incursion: "[governor|E] zaangażowany w najazdy obcych stron"
  catalyst_requested_incursion_desc: "[governor|E] zdemaskowany za użycie [Concept('interaction', 'interakcji')|E] #V „$fp3_request_turkic_invasion_interaction$”#!"
- catalyst_hegemon_in_defensive_war_yearly: "[dynastic_cycle_catalyst|E]: trwająca obronna [war|El] w ujęciu rocznym"
- catalyst_hegemon_in_defensive_war_yearly_desc: "Roczna zmiana: [son_of_heaven|E] prowadzi obronną [Concept('war', 'wojnę')|E]"
+ catalyst_hegemon_in_defensive_war_yearly: "[dynastic_cycle_catalyst|E]: trwająca [war|El] obronna w ujęciu rocznym"
+ catalyst_hegemon_in_defensive_war_yearly_desc: "Zmiany w ujęciu rocznym: [son_of_heaven|El] prowadzi [Concept('war', 'wojnę')|E] obronną"
  # Merit
  catalyst_hegemon_low_merit_vassals_yearly: "[dynastic_cycle_catalyst|E]: liczba [Concept('vassals', 'wasali')|E] o niskiej [Concept('merit_level', 'randze zasług')|E] w ujęciu rocznym"
  catalyst_hegemon_low_merit_vassals_yearly_desc: "Zmiany w ujęciu rocznym: ponad #V 50%#! [Concept('vassals', 'wasali')|E] [son_of_heaven_possessive|El] o [Concept('merit_level', 'randze zasług')|E] niższej niż $MERIT_LEVEL_LABEL_6$"

@@ -220,6 +220,7 @@ akom_religion = {
 			color = { 0.9 0.7 0.3 }
 			icon = akanism
 			reformed_icon = akanism_reformed
+			graphical_faith = "pagan_gfx"
 
 			holy_site = bono
 			holy_site = kumasi

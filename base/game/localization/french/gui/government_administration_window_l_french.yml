@@ -152,7 +152,7 @@
  VASSAL_DIRECTIVE_ICON_TOOLTIP: "#T [vassal_directive|E] : [Character.Custom('vassal_directive_text_and_icon')|V]#!\n[Character.Custom('vassal_directive_text')]"
  ADMIN_WINDOW_MERIT_POOLS: "#high Viviers du mérite :#!"
  ADMIN_WINDOW_MERIT_POOLS_REQUIRED_MERIT: "Les [characters|El] ayant un [merit_level|El] d’au moins $MERIT_LEVEL$ qui ne sont pas [governors|El] d’un titre de [title_tier|El] supérieur peuvent gagner des [provinces|El] [AdminMeritPool.GetTitleTierName] avec ces administrations :"
- ADMIN_WINDOW_MERIT_POOLS_TYPE_CIVILIAN: "Civile"
+ ADMIN_WINDOW_MERIT_POOLS_TYPE_CIVILIAN: "Civil"
  ADMIN_WINDOW_MERIT_POOLS_TYPE_MILITARY: "Militaire"
  ADMIN_WINDOW_MERIT_POOLS_CIVILIAN: "[merit_pool|E] de [title_tier|El] [AdminMeritPool.GetTitleTierName] $ADMIN_WINDOW_MERIT_POOLS_TYPE_CIVILIAN|l$"
  ADMIN_WINDOW_MERIT_POOLS_MILITARY: "[merit_pool|E] de [title_tier|El] [AdminMeritPool.GetTitleTierName] $ADMIN_WINDOW_MERIT_POOLS_TYPE_MILITARY|l$"

@@ -16,6 +16,8 @@
  DLC_VISIT_STORE: "Visit Store"
  DLC_LIST_HEADER: "DLC List"
  DLC_LIST_OPEN_TOOLTIP: "#T Show Full DLC List#!"
+ subscription_available: "Subscription Available"
+ subscription_active: "Active Subscription"
  DLC001_PREORDER:0 "Garments of the Holy Roman Empire"
  DLC002_SP_DAY1:0 "Fashion of the Abbasid Court"
  DLC003_FP1:0 "The Northern Lords"
@@ -38,6 +40,8 @@
  DLC020_CE2: "Khans of the Steppe"
  DLC021_BP4: "Coronations"
  DLC022_EP4: "All Under Heaven"
+ DLC023_CP5: "High Medieval Warfare Attire"
+ DLC024_CP6: "Holy Buildings"
 
  dlc_001:0 "$DLC001_PREORDER$"
  dlc_001_desc:0 "Immerse yourself in the Holy Roman Empire with a collection of outfits for both commoners, warriors and rulers of Central Europe."
@@ -83,4 +87,8 @@
  dlc_021_desc: "Begin your reign with majesty! Legitimize your power through awe-inspiring ceremonies that command the respect of vassals and rivals alike. From the crown's first touch, your legacy is forged in grandeur with Coronations."
  dlc_022: "$DLC022_EP4$"
  dlc_022_desc: "With All Under Heaven, the vast and dynamic history of Eastern Asia comes to life. Claim the Mandate, unite your people, and shape the future of empires in this monumental expansion!"
+ dlc_023: "$DLC023_CP5$"
+ dlc_023_desc: "Gird yourself for battle in fancy new gear with High Medieval Warfare Attire. This Creator Pack by modder JedNick includes a wide range of Western European helmets, headgear, and armor from the High Medieval Period."
+ dlc_024: "$DLC024_CP6$"
+ dlc_024_desc: "Add greater variety and historical detail to your map with Holy Buildings. This Creator Pack by modder Kefir úr includes new 3D models for religious buildings: from humble churches to magnificent monuments, Holy Buildings brings even more regional and religious flavor to your game!"
  

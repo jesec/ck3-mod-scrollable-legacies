@@ -398,7 +398,7 @@
  japanese_bureaucracy_2_effects_not_in_prev: "$EFFECT_LIST_BULLET$ #indent_newline:3 Nicht-[governor|E]-[vassals|E] können keine [wars|E] gegen andere Vasallen führen, es sei denn, sie setzen ein [hook|E] gegen ihren [Concept('liege', 'Lehnsherrn')|E] ein#!"
  japanese_bureaucracy_3: "Zentralisierte Regierungskunst"
  japanese_bureaucracy_3_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Nicht-[governor|E]-[vassals|E] können keine [wars|E] erklären#!"
- JAPANESE_BUREAUCRACY_IS_ON_COOLDOWN: "Ihr habt unlängst Eure [japanese_bureaucracy|E] geändert. Sie kann erst [GetCurrentDateWithDiff(GetVarTimeRemaining(CHARACTER.MakeScope, 'crown_authority_cooldown'))] wieder geändert werden."
+ JAPANESE_BUREAUCRACY_IS_ON_COOLDOWN: "Ihr habt unlängst Eure [japanese_bureaucracy|E] geändert. Sie kann erst [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperial_bureaucracy_cooldown') )] wieder geändert werden."
  border_wars_laws: "Grenzkriegpolitlinie"
  border_wars_laws_singular: "$border_wars_laws$"
  top_liege_redirected_to_border_wars_law: "Garantieschutz"

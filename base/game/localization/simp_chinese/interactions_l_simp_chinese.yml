@@ -1064,7 +1064,7 @@
  char_interaction.0231.title: "正义"
  char_interaction.0231.desc_prison: "[recipient.GetTitledFirstName]已被捕，被安全地锁在我的地牢里等待[recipient.GetHerHis]的命运。"
  char_interaction.0231.desc_house_arrest: "依照我的命令，[recipient.GetTitledFirstName]现在被关押在[recipient.GetHerHis]自己的家中。我已派了一些守卫，确保[recipient.GetSheHe]不会逃脱软禁。"
- char_interaction.0231.desc_stockade: "依照我的命令，[recipient.GetTitledFirstName]现在被关押在营地的围栏里，[recipient.GetSheHe]将在那里等待[recipient.GetHerHis]的命运。"
+ char_interaction.0231.desc_stockade: "依照我的命令，[recipient.GetTitledFirstName]现在被关押在围栏里，[recipient.GetSheHe]将在那里等待[recipient.GetHerHis]的命运。"
  char_interaction.0231.a: "好。"
  char_interaction.0232.desc: "我在[actor.GetTitledFirstName]手下受辱太久了。\n\n"
  char_interaction.0232.liege: "当我们的领主虐待[actor.GetHerHis]忠诚的封臣时，我不会袖手旁观。我劝你和我一起为推翻这个暴君而战。"

@@ -75,7 +75,7 @@
  catalyst_requested_incursion: "[governor|E]이 외세 침략에 연루됨"
  catalyst_requested_incursion_desc: "[governor|E]이 #V $fp3_request_turkic_invasion_interaction$#! [interaction|E]을 사용했음이 드러났습니다"
  catalyst_hegemon_in_defensive_war_yearly: "연간 진행 중인 방어 [war|E] [dynastic_cycle_catalyst|E]"
- catalyst_hegemon_in_defensive_war_yearly_desc: "연간 변화 추이: [son_of_heaven|E](은)는 방어 [war|E]에 참여 중"
+ catalyst_hegemon_in_defensive_war_yearly_desc: "연간 변화 추이: [son_of_heaven|E]가 방어 [war|E]에 참여 중"
  # Merit
  catalyst_hegemon_low_merit_vassals_yearly: "연간 낮은 [merit_level|E] [vassals|E] [dynastic_cycle_catalyst|E]"
  catalyst_hegemon_low_merit_vassals_yearly_desc: "연간 변화 추이: [son_of_heaven_possessive|E] [vassals|E] 중 #V 50%#! 이상의 [merit_level|E]가 $MERIT_LEVEL_LABEL_6$보다 낮음"

@@ -418,17 +418,15 @@ alan = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		#tradition_horse_lords
 		tradition_horse_breeder
 		tradition_mountaineers
-		#tradition_steppe_tolerance
 		tradition_wedding_ceremonies
 	}
 	
 	name_list = name_list_alan
 	
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	building_gfx = { caucasian_building_gfx byzantine_building_gfx }
 	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { iranian_unit_gfx }
 	house_coa_frame = house_frame_12

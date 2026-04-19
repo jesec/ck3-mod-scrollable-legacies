@@ -209,7 +209,7 @@
  PURCHASE_LAND_IS_IN_DEBT_REASON: "[recipient.GetName|U] hat [debt|E]: $VALUE|+=0$"
  ep3_ennobled_adventurer_modifier_reason_3: "Aufgrund der #EMP #N unterirdischen#!#!Meinung des [new_primary_title.GetAdjective|l]en Volks von Euch:"
  ep3_ennobled_adventurer_modifier_reason_2: "Aufgrund der #EMP #N schrecklichen#!#!Meinung des [new_primary_title.GetAdjective|l]en Volks von Euch:"
- ep3_ennobled_adventurer_modifier_reason_1: "Aufgrund der #EMP #N schlechten#!#!Meinung des [new_primary_title.GetAdjective|l]en Volks von Euch:"
+ ep3_ennobled_adventurer_modifier_reason_1: "Aufgrund der #EMP #N schlechten#!#! Meinung des [new_primary_title.GetAdjective|l]en Volks von Euch:"
  ep3_ennobled_adventurer_modifier_rules: "#weak Um den oben genannten Modifikator abzuschwächen, müsst Ihr eine ausreichend hohe [prestige_level|E] haben und entweder Ihr, Euer [primary_spouse|E] oder Euer [primary_heir|E] müssen derselben [culture|E] und demselben [Concept('faith', 'Glauben')|E] angehören wie „[new_primary_title.GetNameNoTier]“#!"
  request_laamp_invasion_sponsorship_interaction: "Um Invasionsunterstützung bitten"
  request_laamp_invasion_sponsorship_interaction_desc: "Sichern wir uns die Unterstützung eines [Concept('ruler', 'Herrschers')|E], der [soldiers|E] im Austausch für eine [vassalage|E] bereitstellt"

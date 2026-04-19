@@ -315,6 +315,8 @@
  innovation_waterworks: "Réseau de distribution d’eau"
  innovation_waterworks_desc: "L’eau donne la vie, mais elle a bien d’autres utilisations que d’étancher la soif ou d’irriguer les champs. Utilisée de manière ingénieuse, cette ressource qui tombe du ciel peut actionner des machines avec beaucoup plus de force que n’importe quel animal, faciliter les voyages et le commerce grâce à des canaux ou, tout simplement, maintenir les rues animées saines et habitables."
  culture_parameter_unlocks_waterworks_buildings: "Débloque la série de [buildings|El] [GetBuilding('waterworks_01').GetTypeName|V]"
+ innovation_tiefutu: "$tiefutu$"
+ innovation_tiefutu_desc: "$tiefutu_flavor$"
  innovation_bulkheads: "Cloisons"
  innovation_bulkheads_desc: "La meilleure façon d’empêcher un navire de couler est de ne pas transpercer la coque. Mais si cela se produit, le navire peut encore être sauvé si la coque est divisée en compartiments avec des séparations étanches entre eux. Même si le navire est endommagé, une cloison peut empêcher l’eau de le couler complètement, ce qui permet de sauver des hommes, du matériel et le navire lui-même."
  innovation_coking: "Cokéfaction"
@@ -339,6 +341,3 @@
  unlock_maa_bombard: "Peut recruter des [GetMaA('bombard').GetName|l] comme [men_at_arms|El]"
  unlock_maa_trebuchet: "Peut recruter des [GetMaA('trebuchet').GetName|l] comme [men_at_arms|El]"
  unlock_maa_mangonel: "Peut recruter des [GetMaA('mangonel').GetName|l] comme [men_at_arms|El]"
- innovation_tiefutu: "$tiefutu$"
- innovation_tiefutu_desc: "$tiefutu_flavor$"
- 

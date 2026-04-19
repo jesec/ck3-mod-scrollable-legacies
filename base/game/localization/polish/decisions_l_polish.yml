@@ -1554,7 +1554,7 @@
  form_brunei_empire_decision_effects_de_jure_tt_a: "Jeśli [brunei_kingdom.GetNameNoTier] i [tanjungnagara_kingdom.GetNameNoTier] są pod twoją kontrolą, staną się częścią [de_jure|El] miejsca znanego jako [brunei_empire.GetName]"
  form_brunei_empire_decision_effects_de_jure_tt_b: "Jeśli miejsce o nazwie [sandao_duchy.GetNameNoTier] jest pod twoją kontrolą, stanie się ono częścią [de_jure|El] miejsca znanego jako [brunei_kingdom.GetName]"
  form_brunei_empire_decision_effects_de_jure_tt_c: "Jeśli miejsce o nazwie [sulu_county.GetNameNoTier] jest pod twoją kontrolą, stanie się ono częścią [de_jure|El] miejsca znanego jako [barune_duchy.GetName]"
- form_brunei_empire_decision_requirement_1_tt: "Ty lub twoi [vassals|El] posiadacie następujący [title|El]: [GetTitleByKey('d_BOR_santubong').GetName]"
+ form_brunei_empire_decision_requirement_1_tt: "Ty lub twoi [vassals|El] posiadacie następujący [title|El]: [GetTitleByKey('d_PHI_sandao').GetName]"
  form_brunei_empire_decision_requirement_2_tt: "Ty lub twoi [vassals|El] posiadacie następujący [title|El]: [GetTitleByKey('c_BOR_berau').GetName]"
  form_brunei_empire_decision_confirm: "Bij monety mojego imperium!"
  create_dar_al_islam_decision: "Ustanów dar al-islam"

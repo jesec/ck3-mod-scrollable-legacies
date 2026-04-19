@@ -3923,6 +3923,26 @@ texticon = {
 }
 
 texticon = {
+	icon = high_medieval_warfare_attire_icon
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_023.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = holy_buildings
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_024.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = skills_icon
 	iconsize = {
 		texture = "gfx/interface/icons/icon_skills.dds"

@@ -1655,6 +1655,17 @@ props_left = {
 		boy = male
 		girl = female
 	}
+	ccp5_french_marshal_sword_left = {
+		index = 102
+		male = {
+			3 = ccp5_french_marshal_sword_01_left
+			3 = ccp5_french_marshal_sword_02_left
+			2 = western_sword_02_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
 }
 
 	#####################################
@@ -2703,6 +2714,17 @@ props_left = {
 			index = 112
 			male = {
 				1 = tgp_japanese_cup_01_a
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		ccp5_french_marshal_sword = {
+			index = 113
+			male = {
+				3 = ccp5_french_marshal_sword_01
+				14 = ccp5_french_marshal_sword_02
+				2 = western_sword_02
 			}
 			female = male
 			boy = male

@@ -68,7 +68,7 @@
  house_power_parameter_strength_train_with_troops_decision: "[decision|E]「#high 部隊を鼓舞#!」をアンロック"
  #House Aspiration - Prosperity
  house_power_parameter_improved_stewardship_court_position_efficiency: "[stewardship|E]の[court_positions|E]の[aptitude|E]が向上"
- ceremony_house_power_tt: "[house_aspiration|E]「#V $ceremony_house_power_level_02$ $ceremony_house_power$#!」が必要"
+ ceremony_house_power_tt: "[house_aspiration|E]「#V $ceremony_house_power_level_02$$ceremony_house_power$#!」が必要"
  determination_house_power_tt: "[house_aspiration|E]「#V $determination_house_power$#!」が必要"
  humility_house_power_tt: "[house_aspiration|E]「#V $humility_house_power$#!」が必要"
  prosperity_house_power_tt: "[house_aspiration|E]「#V $prosperity_house_power$#!」が必要"

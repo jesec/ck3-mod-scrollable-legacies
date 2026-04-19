@@ -288,7 +288,7 @@
  house_left_bloc_member_custom: "Des [rulers|El] quittent le [bloc|El]"
  house_bloc_member_tt: "[THIS.Char.GetShortUIName|U]"
  house_joined_bloc_member_custom: "Des [rulers|El] rejoignent le [bloc|El]"
- house_bloc_new_leading_house_tt: "La [house|E] [THIS.House.GetBaseName] devient la [leading_house|El] de la [bloc_temp.GetName|V]"
+ house_bloc_new_leading_house_tt: "La [house|E] [THIS.House.GetBaseName] devient la [leading_house|E] de la [bloc_temp.GetName|V]"
  house_bloc_member_custom: "[rulers|E] de [house_bloc|El] adéquats"
  house_bloc_member_joins_tt: "Rejoint la [bloc.GetName|V]"
  house_bloc_member_leaves_tt: "Quitte la [bloc.GetName|V]"

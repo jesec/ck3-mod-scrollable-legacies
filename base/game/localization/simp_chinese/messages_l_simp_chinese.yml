@@ -467,7 +467,7 @@
  msg_house_unity_change_stage_tt: "$msg_house_unity_change_stage_desc$"
  msg_start_diarchy_title: "[LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]开始"
  msg_start_diarchy_effect: "我开始在[LEFT_CHARACTER.GetDiarchyTypeName]中与我的[LEFT_CHARACTER.Custom2('RelationToMeShort', RIGHT_CHARACTER.Self)][RIGHT_CHARACTER.GetShortUIName][sharing_power|E]"
- msg_inherit_diarchy_title: "[LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')][LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]继承"
+ msg_inherit_diarchy_title: "[LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')|U][LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]继承"
  on_entered_diarchy.notification.vassal.t: "领主进入[ROOT.Char.GetDiarchyTypeNameNoTooltip]"
  on_entered_diarchy.notification.vassal.t.higher_liege: "更高级的领主进入[ROOT.Char.GetDiarchyTypeNameNoTooltip]"
  on_entered_diarchy.notification.vassal.desc: "[ROOT.Char.GetShortUIName|U]现在在[ROOT.Char.GetDiarchyTypeName]中与[ROOT.Char.GetHerHisMy]的[ROOT.Char.Custom2('RelationToMeShort', ROOT.Char.GetDiarchy.GetDiarch.Self)][ROOT.Char.GetDiarchy.GetDiarch.GetShortUIName][sharing_power|E]"

@@ -1031,6 +1031,8 @@
 						has_building_or_higher = shah_i_zinda_01
 						has_building_or_higher = shah_i_zinda_02
 						has_building_or_higher = damascus_mosque_01
+						has_building_or_higher = yazd_mosque_01
+						has_building_or_higher = qutb_minar_03 #Quwwat-ul-Islam Mosque
 					}
 				}
 			}

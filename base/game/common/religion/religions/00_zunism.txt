@@ -1,6 +1,6 @@
 ﻿zunism_religion = {
 	family = rf_pagan
-
+	graphical_faith = "zoroastrian_gfx"
 	doctrine = pagan_hostility_doctrine
 
 	pagan_roots = yes

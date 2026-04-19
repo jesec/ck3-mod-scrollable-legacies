@@ -1,6 +1,11 @@
 ﻿l_simp_chinese:
  building_holy_site_mahabodhi_temple_destination_desc: "我漫步在[GetBuilding('holy_site_mahabodhi_temple_01').GetName]神圣的场院中，被寺里的宁静迷住。佛陀在菩提树下悟道之处充满了深邃的祥和。那些描绘他开悟过程的精致雕刻，让我想起了我们所有人都必将踏上的灵性道路。"
+ building_sanchi_stupa_destination_desc: "[GetBuilding('sanchi_stupa_01').GetName]的圆顶是散脂城外小山上最显眼的景象。我在此地遇到的许多香客和僧侣都声称，这片寺庙建筑群已使用了数千年。"
+ building_boudhanath_destination_desc: "[GetBuilding('boudhanath_01').GetName]巨大的圆顶下安置着与诸多历史佛陀相关的灵骨和遗物，这里迄今为止也都是迦瑟侘曼荼波最高的建筑。它高耸于城市其他建筑之上，清晰地表明了佛教对这座城市历史的重要性。当我走近，身边尽是旅人、香客和商贩，他们都在此驻足休息并祈祷。"
+ building_mont_st_michel_destination_desc: "在退潮时走近[GetBuilding('mont_st_michel_01').GetName]所在的潮汐岛，能看到宏伟的教堂与城墙高耸于地平线之上，彰显着天主凌驾天地的伟力。此地既是一处重要的宗教中心，也时着当地修士和渔民的防御要塞。"
+ building_holy_site_st_peters_basilica_destination_desc: "[GetBuilding('holy_site_st_peters_basilica_01').GetName]耸立在梵蒂冈的山丘之上，坐落于圣伯多禄的墓址，提醒着人们西方教会及其历代教宗的权威。在永恒之城的这一角，随处可见司铎与修女，还有盼望从众多朝圣者那里获得施舍的乞丐。"
  building_holy_site_imam_ali_mosque_destination_desc: "进入城市，[GetBuilding('holy_site_imam_ali_mosque_01').GetName]的金顶闪耀得像一座灯塔。伊玛目[ali.GetFirstName]安息的这一圣地，充满了前来致敬的朝圣者。空气中弥漫着浓浓的虔诚，墙上精致的书法诉说着对神明深深的崇敬。"
+ building_yazd_mosque_destination_desc: "抬头仰望[GetBuilding('yazd_mosque_01').GetName]巨大门廊上方的宣礼塔，我心生敬畏。来此途中，一位当地人提醒我，这座城市作为宗教中心的历史比任何人的记忆都要久远。如今，街道上依然挤满了朝圣者与宣教师，这些虔诚的信士远道而来，只为领略这座圣地的魅力。"
  building_holy_site_great_mosque_of_mecca_destination_desc: "当我看到[GetBuilding('holy_site_great_mosque_of_mecca_01').GetName]时，我的心中充满了敬畏。克尔白自洪荒伊始就是一处圣所，这一奇观证明了[GetReligionByKey('islam_religion').GetName]的坚韧。成群结队的朝觐者，每一位都寻求与神明亲近，在虔诚中仿佛都融为一体。"
  building_holy_site_great_mosque_of_cordoba_destination_desc: "当我漫步在[GetBuilding('holy_site_great_mosque_of_cordoba_01').GetName]宽阔的大厅中时，那片由柱子和红白相间的拱券组成的森林是建筑巧思的奇迹。[GetReligionByKey('islam_religion').GetName]和[visigothic_culture.GetName]设计的这种融合，诉说着一片土地上丰富的历史和文化。"
  building_holy_site_great_mosque_of_djenne_destination_desc: "[GetBuilding('holy_site_great_mosque_of_djenne_01').GetName]从城市中心拔地而起的雄伟景象，真是一道奇观。其独特的土坯建筑风格与萨赫勒的景观相映成趣，是建造者信仰和技艺的骄傲象征。"

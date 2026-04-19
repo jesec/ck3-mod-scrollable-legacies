@@ -893,7 +893,7 @@
  embrace_tributarization_interaction_aibehavior_nemesis_tt: "[actor.GetShortUINameNotMeNoTooltip] to [nemesis|El] postaci znanej jako [recipient.GetShortUINameNotMe]: $VALUE|=+0$"
  embrace_tributarization_interaction_aibehavior_dynasty_tt: "[actor.GetName] należy do [Concept('dynasty', 'dynastii')|E] osoby znanej jako [recipient.GetShortUINameNotMe]: $VALUE|=+0$"
  embrace_as_tributary_interaction_same_faith: "[recipient.GetShortUINameNotMeNoTooltip] to król-bóg [Concept('faith', 'wiary')|E] o nazwie [actor.GetFaith.GetName|l]: $VALUE|=+0$"
- embrace_as_tributary_interaction_same_religion: "[recipient.GetShortUINameNotMeNoTooltip] to król-bóg [Concept('religion', 'religii')|E] o nazwie [actor.GetReligion.GetName|l]: $VALUE|=+0$"
+ embrace_as_tributary_interaction_same_religion: "[recipient.GetShortUINameNotMeNoTooltip] to król-bóg wiary, którą jest [religion|El] o nazwie [actor.GetReligion.GetName|l]: $VALUE|=+0$"
  embrace_as_tributary_interaction_other_religion_family: "[actor.GetShortUINameNotMeNoTooltip] to król-bóg [Concept('religion', 'religii')|E] o nazwie [actor.GetFaith.GetReligion.GetFamily.GetName|l]: $VALUE|=+0$"
  tributary_interaction_aibehavior_recipient_other_religion_family: "[recipient.GetShortUINameNotMeNoTooltip] to Bóg-Król wiary, którą jest religia [recipient.GetFaith.GetReligion.GetFamily.GetName|l]: $VALUE|=+0$"
  embrace_as_tributary_interaction_wrong_government: "[recipient.GetShortUINameNotMeNoTooltip] posiada rząd, jakim jest rząd [recipient.GetGovernment.GetName|E]: $VALUE|=+0$"

@@ -1,6 +1,6 @@
 ﻿confucianism_religion = {
 	family = rf_sinitic
-	graphical_faith = dharmic_gfx
+	graphical_faith = sinitic_gfx
 	doctrine = eastern_hostility_doctrine
 
 	#Main Group

@@ -74,8 +74,8 @@
  catalyst_hegemon_won_war_desc: "Le [son_of_heaven|E] a gagné une [war|El]"
  catalyst_requested_incursion: "[governor|E] impliqué dans une incursion étrangère"
  catalyst_requested_incursion_desc: "[governor|E] exposé pour l’utilisation de l’[interaction|El] #V $fp3_request_turkic_invasion_interaction$#!"
- catalyst_hegemon_in_defensive_war_yearly: "[dynastic_cycle_catalyst|E] : [war|El] défensive en cours annuelle"
- catalyst_hegemon_in_defensive_war_yearly_desc: "Glissement annuel : [son_of_heaven|E] participe à une [war|El] défensive"
+ catalyst_hegemon_in_defensive_war_yearly: "[dynastic_cycle_catalyst|E] : [war|El] défensive en cours annuelle"
+ catalyst_hegemon_in_defensive_war_yearly_desc: "Glissement annuel : le [son_of_heaven|E] participe à une [war|El] défensive"
  # Merit
  catalyst_hegemon_low_merit_vassals_yearly: "[dynastic_cycle_catalyst|E] : [vassals|El] au [merit_level|El] bas"
  catalyst_hegemon_low_merit_vassals_yearly_desc: "Glissement annuel : plus de #V 50%#! des [vassals|El] du [son_of_heaven|E] ayant un [merit_level|El] plus bas que le $MERIT_LEVEL_LABEL_6$"

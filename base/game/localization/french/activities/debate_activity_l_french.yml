@@ -60,7 +60,7 @@
  ### CONCLUSION
  activity_debate_conclusion_desc_leadership_winner: "Le débat pour la direction du [GetPlayer.Custom('GetMyMovement')|l] est terminé et j’en sors vainqueur !"
  activity_debate_conclusion_desc_leadership_loser: "Mes plans ont été contrecarrés et [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] reste le chef du [GetPlayer.Custom('GetMyMovement')|l]."
- activity_debate_conclusion_desc_leadership_challenged_loser: "On déclare [Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] chef du mouvement « [GetPlayer.Custom('GetMyMovement')] », malgré mes efforts."
+ activity_debate_conclusion_desc_leadership_challenged_loser: "[Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] est déclaré[Activity.MakeScope.Var('debate_winner').Char.Custom('FR_E')] [Select_CString( Activity.MakeScope.Var('debate_winner').Char.IsFemale, 'cheffe', 'chef' )] du [GetPlayer.Custom('GetMyMovement')|l], en dépit de mes efforts."
  activity_debate_conclusion_desc_favor_winner: "Le débat pour les faveurs [ROOT.Char.GetTopLiege.Custom('FR_du_Char_L')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l] s’achève sur la victoire du [GetPlayer.Custom('GetMyMovement')|l] !"
  activity_debate_conclusion_desc_favor_loser: "Je n’ai pas réussi à obtenir les faveurs [ROOT.Char.GetTopLiege.Custom('FR_du_Char_L')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l] pour le [GetPlayer.Custom('GetMyMovement')|l]. Je devrai faire mieux la prochaine fois."
  debate_conclusion_fallback: "Le [GetActivityType( 'activity_debate' ).GetName|l] s’achève."

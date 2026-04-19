@@ -74,8 +74,8 @@
  catalyst_hegemon_won_war_desc: "[son_of_heaven|E]赢得了一场[war|E]"
  catalyst_requested_incursion: "[governor|E]涉及外族入侵"
  catalyst_requested_incursion_desc: "[governor|E]因使用#V $fp3_request_turkic_invasion_interaction$#![interaction|E]而曝光"
- catalyst_hegemon_in_defensive_war_yearly: "年度[dynastic_cycle_catalyst|E]：持续中的防御性[war|E]"
- catalyst_hegemon_in_defensive_war_yearly_desc: "年度变动：[son_of_heaven|E]正在参与一场防御性[war|E]"
+ catalyst_hegemon_in_defensive_war_yearly: "持续中的防御[war|E][dynastic_cycle_catalyst|E]"
+ catalyst_hegemon_in_defensive_war_yearly_desc: "年度变动：[son_of_heaven|E]参与防御[war|E]"
  # Merit
  catalyst_hegemon_low_merit_vassals_yearly: "低[merit_level|E][vassals|E][dynastic_cycle_catalyst|E]"
  catalyst_hegemon_low_merit_vassals_yearly_desc: "年度变动：[son_of_heaven_possessive|E]超过#V 50%#!的[vassals|E]的[merit_level|E]低于$MERIT_LEVEL_LABEL_6$"

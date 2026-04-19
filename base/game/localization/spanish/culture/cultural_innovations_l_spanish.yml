@@ -315,6 +315,8 @@
  innovation_waterworks: "Obras hidráulicas"
  innovation_waterworks_desc: "El agua da la vida, pero tiene muchos más usos aparte de saciar la sed o irrigar los campos. Ingeniosamente aprovechado, el recurso que cae de los cielos puede impulsar maquinaria con mucha más fuerza que cualquier ganado, facilitar los viajes y el comercio con canales hechos por el hombre o, sencillamente, mantener las calles bulliciosas salubres y habitables."
  culture_parameter_unlocks_waterworks_buildings: "Desbloquea la línea de [buildings|lE] [GetBuilding('waterworks_01').GetName|V]"
+ innovation_tiefutu: "$tiefutu$"
+ innovation_tiefutu_desc: "$tiefutu_flavor$"
  innovation_bulkheads: "Mamparos de separación"
  innovation_bulkheads_desc: "Lo mejor para impedir que un barco se hunda es que el casco no se rompa. Pero si eso ocurre, la nave aún se puede salvar si se divide el casco en compartimientos con separaciones estancas entre ellos. Aunque el barco resultase dañado, un mamparo de separación puede impedir que el agua lo hunda por completo y salvar así a hombres, suministros y el mismo navío."
  innovation_coking: "Coquización"
@@ -339,6 +341,3 @@
  unlock_maa_bombard: "Puede reclutar [GetMaA('bombard').GetName|l] como [men_at_arms|lE]"
  unlock_maa_trebuchet: "Puede reclutar [GetMaA('trebuchet').GetName|l] como [men_at_arms|lE]"
  unlock_maa_mangonel: "Puede reclutar [GetMaA('mangonel').GetName|l] como [men_at_arms|lE]"
- innovation_tiefutu: "$tiefutu$"
- innovation_tiefutu_desc: "$tiefutu_flavor$"
- 

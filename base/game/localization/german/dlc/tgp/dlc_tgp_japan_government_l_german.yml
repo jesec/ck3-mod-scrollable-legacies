@@ -104,7 +104,7 @@
  request_appointment_support_desc_japan: "[recipient.GetShortUINameNoTooltip|U] bitten, Euch oder ein [house|E]-Mitglied bei der zukünftigen Ernennung in Sachen [actor.GetTopLiege.Custom('GetGovernorConcept')] oder [ceremonial_regent|E] zu unterstützen"
  demand_admin_interaction_desc_japan: "[recipient.GetShortUIName|U] bitten, die eigene [government|E] ([recipient.GetGovernment.GetAdjective]) aufzugeben und ein [GetGovernment('japan_administrative_government').GetName]-[governor|E] zu werden"
  # Imperial Policy Japan
- defense_mobilization_law_valid_trigger: "Mindestens #V 1#! [Concept('de_jure', 'De-jure')|E]-[county|E] von „[THIS.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetName]“ muss von einem [realm|E] gehalten oder der [top_liege|E] muss einen Verteidigungs-[war|E] gegen ein anderes $game_concept_realm$ führen"
+ defense_mobilization_law_valid_trigger: "Mindestens #V 1#! [Concept('de_jure', 'De-jure')|E]-[county|E] von „[THIS.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDefinitiveName]“ muss von einem [realm|E] gehalten werden oder der [Concept('top_liege', 'Oberste Lehnsherr')|E] muss einen Verteidigungs-[war|E] gegen ein anderes $game_concept_realm$ führen"
  imperial_expansion_internal_peace_trigger: "Das [realm|E] muss sich im [peace|E] befinden"
  shogunate_law_required: "Erfordert [feudal_government|E]"
  CEREMONIAL_HOUSE_MARRYING_DOWN_REASON: "[Concept('dynasty_prestige_level', 'Prachtstufen')|E]-Auswirkung einer [ceremonial_house|E]-Heirat: $VALUE|=+0$"

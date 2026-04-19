@@ -74,7 +74,7 @@
  catalyst_hegemon_won_war_desc: "[son_of_heaven|E]は[war|E]に勝利した"
  catalyst_requested_incursion: "[governor|E]が異国からの侵入に関与"
  catalyst_requested_incursion_desc: "[governor|E]が[interaction|E]「#V $fp3_request_turkic_invasion_interaction$#!」を使用したことが発覚した"
- catalyst_hegemon_in_defensive_war_yearly: "年間[dynastic_cycle_catalyst|E]「進行中の防衛的[war|E]」"
+ catalyst_hegemon_in_defensive_war_yearly: "[dynastic_cycle_catalyst|E]「毎年継続中の防衛的[war|E]」"
  catalyst_hegemon_in_defensive_war_yearly_desc: "年間変動：[son_of_heaven|E]は防衛的[war|E]に従事している"
  # Merit
  catalyst_hegemon_low_merit_vassals_yearly: "[dynastic_cycle_catalyst|E]「年間の[merit|E]が低い[vassals|E]」"

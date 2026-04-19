@@ -21,7 +21,7 @@
  tgp_japan_general.9100.desc: "\n\n私は封臣たちの前に立ち、新たな王冠を戴き、そして[ROOT.Char.Custom('quirk_pos_personal_present')]。ああ、これからの世界を動かしていくのはこの私なのだ！"
  tgp_japan_general.9100.a: "[ROOT.Char.GetTitleAsNameNoTooltip]の治世が長くあらんことを！"
  tgp_japan_general.9120.t: "影の権力者"
- tgp_japan_general.9120.desc: "[previous_holder.GetTitledFirstNamePossessive]が去り、私の影響力が大きくなる中、ついに国政はその大部分が再び朝廷の管轄下に戻った。\n\n皇位継承が確実となった今、多くの者は私が慣例に従い剃髪し、後継者である[emperor_player_heir.GetFirstName]に皇位を譲ることを期待している。そうすれば[ROOT.Char.GetTitleAsNamePossessiveNoTooltip]の儀礼的な責務から離れ、より差し迫った政治課題に専念できるからだ。"
+ tgp_japan_general.9120.desc: "[previous_holder.GetTitledFirstNamePossessive]が去り、私の影響力が大きくなる中、ついに国政はその大部分が再び朝廷の管轄下に戻った。\n\n皇位継承が確実となった今、多くの者は私が慣例に従い剃髪し、後継者である[emperor_player_heir.GetFirstName]に皇位を譲ることを期待している。そうすれば[ROOT.Char.GetTitleAsNameNoTooltip]の儀礼的な責務から離れ、より差し迫った政治課題に専念できるからだ。"
  tgp_japan_general.9120.a: "出家する時が来た…"
  tgp_japan_general.9120.b: "#EMP 私#!は[ROOT.Char.GetTitleAsNameNoTooltip]なのだから、統治するのも#EMP この私#!だ！"
  tgp_japan_general.9300.t: "$game_concept_imperial_policy$："

@@ -209,7 +209,7 @@
  PURCHASE_LAND_IS_IN_DEBT_REASON: "[recipient.GetName] в [Concept('debt', 'долгах')|E]: $VALUE|+=0$"
  ep3_ennobled_adventurer_modifier_reason_3: "По причине #EMP #N ужасного#!#! мнения о вас среди #L [new_primary_title.GetAdjective|l]ого#! народа:"
  ep3_ennobled_adventurer_modifier_reason_2: "По причине #EMP #N отвратительного#!#! мнения о вас среди #L [new_primary_title.GetAdjective|l]ого#! народа:"
- ep3_ennobled_adventurer_modifier_reason_1: "По причине #EMP #N дурного#!#! мнения о вас среди #L [new_primary_title.GetAdjective|l]ого#! народа:"
+ ep3_ennobled_adventurer_modifier_reason_1: "Из-за того, что у #L [new_primary_title.GetAdjective|l]их#! жителей сложилось о вас #EMP #N плохое#!#! мнение:"
  ep3_ennobled_adventurer_modifier_rules: "#weak Чтобы уменьшить штраф от вышеуказанного модификатора, вам требуется достаточно высокий [Concept('prestige_level', 'уровень репутации')|E] и либо вы, либо ваша [Concept('primary_spouse', 'главная жена/главный муж')|E], либо [Concept('primary_heir', 'первый наследник')|E] должны принадлежать к той же [Concept('culture', 'культуре')|E] и [Concept('faith', 'конфессии')|E], что и [new_primary_title.GetNameNoTier]#!"
  request_laamp_invasion_sponsorship_interaction: "Попросить поддержать вторжение"
  request_laamp_invasion_sponsorship_interaction_desc: "Попросить [Concept( 'ruler', 'правителя' )|E] снабдить вас [Concept( 'soldiers', 'солдатами' )|E] в обмен на [Concept( 'vassalage', 'вассальную присягу' )|E]"

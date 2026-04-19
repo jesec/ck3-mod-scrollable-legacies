@@ -497,6 +497,7 @@ bp2_yearly.0601 = {
 		trigger = {
 			OR = {
 				location.culture ?= { has_building_gfx = indian_building_gfx }
+				location.culture ?= { has_building_gfx = tibetan_building_gfx }
 				location.culture ?= { has_graphical_mena_culture_group_trigger = yes }
 				location.culture ?= { has_graphical_african_culture_group_trigger = yes }
 				location.culture ?= { has_graphical_steppe_culture_group_trigger = yes }

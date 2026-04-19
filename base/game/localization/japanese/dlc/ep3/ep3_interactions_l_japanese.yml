@@ -209,7 +209,7 @@
  PURCHASE_LAND_IS_IN_DEBT_REASON: "[recipient.GetName]は[debt|E]がある：$VALUE|+=0$"
  ep3_ennobled_adventurer_modifier_reason_3: "[new_primary_title.GetAdjective]の人々のあなたに対する好感度が#EMP #N 極めて悪い#!#!ため："
  ep3_ennobled_adventurer_modifier_reason_2: "[new_primary_title.GetAdjective]の人々のあなたに対する好感度が#EMP #N 非常に悪い#!#!ため："
- ep3_ennobled_adventurer_modifier_reason_1: "[new_primary_title.GetAdjective]の人々のあなたに対する好感度が#EMP #N 悪い#!#!ため："
+ ep3_ennobled_adventurer_modifier_reason_1: "[new_primary_title.GetAdjective]の人々のあなたに対する好感度が#EMP #N 良くない#!#!ため："
  ep3_ennobled_adventurer_modifier_rules: "#weak 上記の補正のペナルティを軽減するには、[prestige_level|E]が充分に高いか、あるいはあなた、あなたの[primary_spouse|E]または[primary_heir|E]が[new_primary_title.GetNameNoTier]と同じ[culture|E]と[faith|E]である必要がある#!"
  request_laamp_invasion_sponsorship_interaction: "侵略の後援を要請する"
  request_laamp_invasion_sponsorship_interaction_desc: "あなたの[vassalage|E]と引き換えに[soldiers|E]を提供するよう[ruler|E]に要請する"

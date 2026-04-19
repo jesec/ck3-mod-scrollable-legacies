@@ -104,7 +104,7 @@
  request_appointment_support_desc_japan: "Pedir a [recipient.GetShortUINameNoTooltip] que te promueva a ti o a un miembro de tu [house|lE] para llegar a ser [actor.Custom('ES_ElLa')] futur[actor.Custom('ES_OA')] [actor.GetTopLiege.Custom('GetGovernorConcept')|l] o [ceremonial_regent|lE]"
  demand_admin_interaction_desc_japan: "Pedir a [recipient.GetShortUIName|U] que abandone el [government|lE] [recipient.GetGovernment.GetAdjective] y asuma el cargo de [governor|lE] [GetGovernment('japan_administrative_government').GetName|l]"
  # Imperial Policy Japan
- defense_mobilization_law_valid_trigger: "Al menos #V 1#! [county|lE] [de_jure|lE] de [THIS.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDefinitiveName] debe estar en posesión de otro [realm|lE], o su [top_liege|lE] debe dirigir una [war|lE] contra otro $game_concept_realm$"
+ defense_mobilization_law_valid_trigger: "Al menos #V 1#! [county|El] [de_jure|El] de [THIS.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDefinitiveName] debe estar en posesión de otro [realm|El], o su [top_liege|El] debe dirigir una [war|El] defensiva contra otro $game_concept_realm$"
  imperial_expansion_internal_peace_trigger: "El [realm|El] debe estar en [peace|El]"
  shogunate_law_required: "Requiere el [feudal_government|El]"
  CEREMONIAL_HOUSE_MARRYING_DOWN_REASON: "Impacto de [dynasty_prestige_level|lE] por casarse con [ceremonial_house|lE]: $VALUE|=+0$"

@@ -467,7 +467,7 @@
  msg_house_unity_change_stage_tt: "$msg_house_unity_change_stage_desc$"
  msg_start_diarchy_title: "[LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]が開始"
  msg_start_diarchy_effect: "私は[LEFT_CHARACTER.GetDiarchyTypeName]において、自分の[LEFT_CHARACTER.Custom2('RelationToMeShort', RIGHT_CHARACTER.Self)]である[RIGHT_CHARACTER.GetShortUIName]との[sharing_power|E]を開始した"
- msg_inherit_diarchy_title: "[LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]を継承"
+ msg_inherit_diarchy_title: "[LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')|U][LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]を継承"
  on_entered_diarchy.notification.vassal.t: "主君が[ROOT.Char.GetDiarchyTypeNameNoTooltip]の一員となった"
  on_entered_diarchy.notification.vassal.t.higher_liege: "上位の主君が[ROOT.Char.GetDiarchyTypeNameNoTooltip]の一員となった"
  on_entered_diarchy.notification.vassal.desc: "[ROOT.Char.GetShortUIName|U]は今、[ROOT.Char.GetDiarchyTypeName]において、[ROOT.Char.GetHerHisMy]の[ROOT.Char.Custom2('RelationToMeShort', ROOT.Char.GetDiarchy.GetDiarch.Self)]である[ROOT.Char.GetDiarchy.GetDiarch.GetShortUIName]との[sharing_power|E]をしている"
