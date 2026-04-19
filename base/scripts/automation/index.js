@@ -106,61 +106,177 @@ function parseManifest(manifestPath) {
   }
 }
 
-// Command: check
-async function checkUpdate(compareVersion) {
-  // Get latest release notes
-  const eventsUrl = `https://store.steampowered.com/events/ajaxgetpartnereventspageable?` +
-    `clan_accountid=0&appid=${CK3_APP_ID}&offset=0&count=10&l=english`;
+// Compare two "X.Y[.Z[.W]]" version strings numerically. Missing segments = 0.
+function compareSemver(a, b) {
+  const pa = a.split('.').map(Number);
+  const pb = b.split('.').map(Number);
+  const len = Math.max(pa.length, pb.length);
+  for (let i = 0; i < len; i++) {
+    const x = pa[i] || 0;
+    const y = pb[i] || 0;
+    if (x !== y) return x - y;
+  }
+  return 0;
+}
 
-  let data;
+// Write key=value lines to $GITHUB_OUTPUT if the env var is set (no-op otherwise).
+function emitGithubOutput(pairs) {
+  const file = process.env.GITHUB_OUTPUT;
+  if (!file) return;
+  const lines = Object.entries(pairs).map(([k, v]) => `${k}=${v}`).join('\n') + '\n';
+  fs.appendFileSync(file, lines);
+}
+
+// Query Steam PICS anonymously and return the app's depots + branches dicts.
+async function fetchPicsAppInfo(appId) {
+  const SteamUser = (await import('steam-user')).default;
+  const client = new SteamUser();
+
+  const LOGIN_TIMEOUT_MS = 30000;
+  const PICS_TIMEOUT_MS = 30000;
+
+  await new Promise((resolve, reject) => {
+    const t = setTimeout(() => reject(new Error(`Steam login timed out after ${LOGIN_TIMEOUT_MS}ms`)), LOGIN_TIMEOUT_MS);
+    client.once('loggedOn', () => { clearTimeout(t); resolve(); });
+    client.once('error', (err) => { clearTimeout(t); reject(err); });
+    client.logOn({ anonymous: true });
+  });
+
   try {
-    data = JSON.parse(await fetch(eventsUrl));
-  } catch (err) {
-    console.error('❌ Failed to parse Steam API response:', err.message);
-    process.exit(1);
-  }
-
-  const latestPatch = data.events.find(event =>
-    /^(Update|Hotfix|Rollback for Update) [0-9]+\.[0-9]+/.test(event.event_name) &&
-    !event.event_name.includes('Available')
-  );
-
-  if (!latestPatch) {
-    console.error('❌ Could not find latest patch version');
-    process.exit(1);
-  }
-
-  const match = latestPatch.event_name.match(/([0-9]+\.[0-9]+\.[0-9]+(?:\.[0-9]+)?)/);
-  const latestVersion = match ? match[1] : null;
-
-  if (!latestVersion || !validateVersion(latestVersion)) {
-    console.error('❌ Could not parse valid version from:', latestPatch.event_name);
-    process.exit(1);
-  }
-
-  // If no version to compare, just print latest version (for CI/automation)
-  if (!compareVersion) {
-    console.log(latestVersion);
-    return;
-  }
-
-  // Compare versions
-  if (compareVersion === latestVersion) {
-    process.exit(0);  // Up to date
-  } else {
-    process.exit(1);  // Update available
+    const result = await Promise.race([
+      client.getProductInfo([appId], [], true),
+      new Promise((_, rej) => setTimeout(() => rej(new Error(`PICS query timed out after ${PICS_TIMEOUT_MS}ms`)), PICS_TIMEOUT_MS)),
+    ]);
+    const app = result?.apps?.[appId];
+    if (!app) throw new Error(`App ${appId} not in PICS response`);
+    return app.appinfo || {};
+  } finally {
+    try { client.logOff(); } catch { /* best effort */ }
   }
 }
 
+// Command: check
+// Compares Steam PICS public-branch manifest GIDs against a stored .ck3-version.json.
+// Additionally enumerates Paradox-published historical branches that are newer than
+// our current version (for CI backfill).
+//
+// Exits 0 when the comparison completed (needs_update written to $GITHUB_OUTPUT).
+// Exits 1 when the check itself failed (network error, missing app, etc.). Never
+// silently reports "up to date" on error — the workflow must see the failure.
+async function checkUpdate(storedFilePath) {
+  const versionFile = path.resolve(storedFilePath || 'base/.ck3-version.json');
+  let stored = { version: null, depots: {} };
+  if (fs.existsSync(versionFile)) {
+    try {
+      stored = JSON.parse(fs.readFileSync(versionFile, 'utf8'));
+    } catch (err) {
+      console.error(`⚠️  Could not parse ${versionFile}: ${err.message}`);
+      stored = { version: null, depots: {} };
+    }
+  }
+  const storedDepots = stored.depots || {};
+  const storedVersion = stored.version || '0.0.0';
+
+  console.log(`🔍 Querying Steam PICS for app ${CK3_APP_ID}...`);
+  const appinfo = await fetchPicsAppInfo(Number(CK3_APP_ID));
+  const depots = appinfo.depots || {};
+  const branches = depots.branches || {};
+
+  // Public branch manifest GIDs keyed by depot id.
+  const liveDepots = {};
+  for (const [key, value] of Object.entries(depots)) {
+    if (!/^\d+$/.test(key)) continue;
+    const gid = value?.manifests?.public?.gid;
+    if (gid) liveDepots[key] = String(gid);
+  }
+
+  // Depot-level diff. We only iterate over depots we've previously downloaded
+  // (present in stored). Comparing against live-only depots would cause a
+  // retrigger loop for depots our Steam account doesn't own or that are
+  // excluded by DepotDownloader's -os/-language filters: they'd never make
+  // it into stored, so they'd stay "new" in every PICS check.
+  //
+  // Exception: on a first run (empty stored), treat every live depot as
+  // "changed" so the repo gets seeded. Subsequent runs learn which depots
+  // we actually own from what DD managed to download.
+  const firstRun = Object.keys(storedDepots).length === 0;
+  const changed = [];
+  const liveOnlyDepots = [];
+
+  for (const id of Object.keys(storedDepots)) {
+    const s = storedDepots[id]?.manifest != null ? String(storedDepots[id].manifest) : null;
+    const l = liveDepots[id] || null;
+    if (s !== l) changed.push({ id, stored: s, live: l });
+  }
+  for (const id of Object.keys(liveDepots)) {
+    if (id in storedDepots) continue;
+    if (firstRun) {
+      changed.push({ id, stored: null, live: liveDepots[id] });
+    } else {
+      liveOnlyDepots.push({ id, live: liveDepots[id] });
+    }
+  }
+
+  // Paradox-published historical branches newer than our stored version.
+  // Branch names look like "1.18.3", "1.18.1.1", "open_beta", "avx_issue_hotfix", …
+  // We only want versioned stable branches, ordered ascending so the workflow can
+  // replay missed updates in release order. On a first run (no stored depots)
+  // we skip backfill entirely — downloading every CK3 version ever is absurd;
+  // seeding the repo from public is the right default.
+  const intermediateVersions = firstRun
+    ? []
+    : Object.keys(branches)
+        .filter(name => /^\d+\.\d+(\.\d+){0,2}$/.test(name))
+        .filter(name => compareSemver(name, storedVersion) > 0)
+        .sort(compareSemver);
+
+  const publicBuildid = branches.public?.buildid ?? null;
+
+  if (changed.length === 0) {
+    console.log(`✅ Up to date (stored ${storedVersion}, public buildid ${publicBuildid})`);
+    emitGithubOutput({ needs_update: 'false' });
+    return;
+  }
+
+  console.log(`🆕 Update available`);
+  console.log(`   stored version: ${storedVersion}`);
+  console.log(`   public buildid: ${publicBuildid}`);
+  console.log(`   changed depots: ${changed.length}`);
+  for (const { id, stored: s, live: l } of changed) {
+    console.log(`     depot ${id}: ${s ?? '(new)'} → ${l ?? '(removed)'}`);
+  }
+  if (liveOnlyDepots.length > 0) {
+    const list = liveOnlyDepots.map(d => d.id).join(', ');
+    console.log(`   live-only depots (informational, not triggering): ${list}`);
+  }
+  if (intermediateVersions.length > 0) {
+    console.log(`   intermediate branches to backfill: ${intermediateVersions.join(', ')}`);
+  } else {
+    console.log(`   intermediate branches to backfill: (none — public is the only missing state)`);
+  }
+
+  emitGithubOutput({
+    needs_update: 'true',
+    current_version: storedVersion,
+    public_buildid: String(publicBuildid ?? ''),
+    changed_depots: changed.map(c => c.id).join(','),
+    intermediate_versions: intermediateVersions.join(','),
+  });
+}
+
 // Command: download
-async function download(version, outputDir) {
-  if (!validateVersion(version)) {
+// Fetches a CK3 depot into outputDir via DepotDownloader. When `branch` is
+// provided, downloads Paradox's named branch (e.g. "1.18.3") rather than the
+// public/latest build — used for backfilling missed CI runs.
+async function download(version, outputDir, branch) {
+  if (version && version !== 'latest' && !validateVersion(version)) {
     console.error(`❌ Invalid version format: ${version}`);
-    console.error('   Version must be in format: x.x or x.x.x or x.x.x.x (e.g., 1.18.0.2)');
+    console.error('   Version must be in format: x.x or x.x.x or x.x.x.x (e.g., 1.18.0.2), or "latest"');
     process.exit(1);
   }
 
-  console.log(`📥 Downloading CK3 ${version}...\n`);
+  const label = branch ? `branch ${branch}` : version ? `CK3 ${version}` : 'CK3 (public)';
+  console.log(`📥 Downloading ${label}...\n`);
 
   const downloadDir = outputDir || '/tmp/ck3-download';
   console.log(`   Output directory: ${downloadDir}\n`);
@@ -182,14 +298,18 @@ async function download(version, outputDir) {
   }
 
   try {
-    execFileSync('DepotDownloader', [
+    const ddArgs = [
       '-no-mobile',
       '-app', CK3_APP_ID,
       '-os', 'windows',
-      '-dir', downloadDir
-    ], {
+      '-dir', downloadDir,
+    ];
+    if (branch) {
+      ddArgs.push('-beta', branch);
+    }
+    execFileSync('DepotDownloader', ddArgs, {
       stdio: 'inherit',
-      env
+      env,
     });
     console.log('\n✅ Download complete!');
   } catch (err) {
@@ -750,17 +870,24 @@ Usage:
   node index.js <command> [options]
 
 Commands:
-  check [version]
-      Print latest CK3 version, or compare against provided version
-      Exits with code 0 if versions match, 1 if different or update available
+  check [stored-file]
+      Query Steam PICS for CK3 depot state and compare against a stored
+      .ck3-version.json (default: ./base/.ck3-version.json). Anonymous
+      login; no Steam credentials needed. Writes needs_update,
+      current_version, public_buildid, changed_depots, intermediate_versions
+      to $GITHUB_OUTPUT when set. Exits 0 when the query succeeded
+      (regardless of outcome); exits 1 when the query itself failed.
 
-  download <version> <output-dir>
-      Download CK3 files using DepotDownloader (Windows version)
+  download <version|"latest"> <output-dir> [branch]
+      Download CK3 files using DepotDownloader (Windows version).
+      Pass a Paradox branch name (e.g. "1.18.3") to fetch a specific
+      historical build, or omit to fetch the public/latest branch.
       Requires environment variables:
         - STEAM_USERNAME: Steam account username
         - STEAM_PASSWORD: Steam account password
         - STEAM_TOTP_SECRET: (optional) Shared secret for automatic 2FA code generation
-      Example: STEAM_USERNAME=x STEAM_PASSWORD=y node index.js download 1.18.0.2 /tmp/ck3
+      Example: STEAM_USERNAME=x STEAM_PASSWORD=y node index.js download latest /tmp/ck3
+      Example: STEAM_USERNAME=x STEAM_PASSWORD=y node index.js download 1.18.3 /tmp/ck3 1.18.3
 
   parse <input-dir> <output-dir> <release-notes-dir>
       Parse downloaded files, auto-detect version from depot timestamps,
@@ -796,7 +923,7 @@ Examples:
         break;
 
       case 'download':
-        await download(args[1], args[2]);
+        await download(args[1], args[2], args[3]);
         break;
 
       case 'parse':
