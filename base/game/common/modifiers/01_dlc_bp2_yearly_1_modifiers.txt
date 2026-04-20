@@ -1,6 +1,6 @@
 ﻿#Character modifiers
 changed_ways_modifier = {
-	icon = stress_positive
+	icon = stress_mixed
 	stress_loss_mult = 0.1
 	stress_gain_mult = 0.1
 }
@@ -16,7 +16,7 @@ august_presence_modifier = {
 }
 
 the_city_builder_modifier = {
-	icon = beast_positive #Wanted something fancy
+	icon = beast_positive
 	city_holding_holding_build_gold_cost = -0.15
 	city_holding_holding_build_speed = -0.15
 	city_holding_build_gold_cost = -0.15

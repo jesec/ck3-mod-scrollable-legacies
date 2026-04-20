@@ -41,7 +41,7 @@
  DOMICILE_RESOURCE_HERD_BALANCE: "[Domicile.GetHerdResource|=0]"
  domicile_adventurer: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
  domicile_estate: "la finca [CHARACTER.GetHouse.GetNameNoTooltip]"
- DOMICILE_HERD_TITLE: "[herd|E]: [Domicile.GetHerd|V0]/[Domicile.GetHerdLimit]"
+ DOMICILE_HERD_TITLE: "[herd|E]: [Domicile.GetHerd|V0]/[Domicile.GetHerdLimit|0]"
  DOMICILE_HERD_MONTHLY_CHANGE: "Cambio mensual"
  DOMICILE_HERD_BREAKDOWN_GAIN: "Ganancia de grey"
  DOMICILE_HERD_BREAKDOWN_LOSS: "Pérdida de grey"

@@ -86,6 +86,8 @@
  scheme_critical_moments.1153.desc_secret: "\n\n至少，没有人会知道我的失败。"
  scheme_critical_moments.1153.a: "令人失望。"
  SCHEME_TARGET_IS_A_KINGDOM: "[target.GetName]是[kingdom|E]：$VALUE|+0=$"
+ SCHEME_TARGET_IS_AN_EMPIRE: "[target.GetName]是[empire|E]：$VALUE|+0=$"
+ SCHEME_TARGET_IS_A_HEGEMONY: "[target.GetName]是[hegemony|E]：$VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_HOLDER: "你是当前[governor|E]的[spymaster|E]：$VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_LIEGE_OF_HOLDER: "你是当前[governor|E][liege|E]的[spymaster|E]：$VALUE|+0=$"
  SCHEME_I_AM_DIARCH_OF_HOLDER: "你是当前[governor|E]的[diarch|E]：$VALUE|+0=$"

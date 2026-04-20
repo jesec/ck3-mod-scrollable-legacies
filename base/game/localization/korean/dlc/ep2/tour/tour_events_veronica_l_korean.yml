@@ -200,8 +200,7 @@
  cultural_festival.2110.e: "자리를 지켜야 해."
  cultural_festival_2110_d_tt: "개를 걷어참"
  cultural_festival_2110_d_opinion_tt: "참석한 모든 냉담하지 않거나 가학적이지 않은 인물"
- available_because_intent_tt: "#EMP #low 당신의 [THIS.Char.GetInvolvedActivityIntent.GetName] 의도 덕분에 이 선택지를 사용할 수 있음#!#!"
- event_triggered_because_intent_tt: "#EMP #low 당신의 [THIS.Char.GetInvolvedActivityIntent.GetName] 의도 덕분에 이 선택지를 사용할 수 있음#!#!"
+ available_because_intent_tt: "#EMP #low 당신의 [THIS.Char.GetInvolvedActivityIntent.GetName|V] [intent|E]#!#! 덕분에 이 선택지를 사용할 수 있음"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "위대한 연극"
  cultural_festival.3000.desc: "주군 [visiting_liege.GetTitledFirstName]의 방문은 곧 절호의 기회라고 할 수 있다. 이 운명의 만남을 잘 이용하면 [visiting_liege.GetHerHis] 동정심을 사 한결 편하게 목표를 이룰 수 있을지도...\n\n그래, 주군의 위업을 표현한 연극을 만들면 어떨까? "

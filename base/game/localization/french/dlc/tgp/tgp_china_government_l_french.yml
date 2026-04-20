@@ -118,7 +118,7 @@
  may_gain_merit_desc: "Peut gagner du [merit|El][merit_i]"
  cannot_compete_for_lower_rank_titles_tt: "Les [governors|El] ne peuvent pas concourir pour les [titles|El] d’un [title_tier|El] plus bas que leur [governorship|El] actuel"
  tgp_is_above_retirement_age_law_not_set: "Aucune [law|El] de l’[GetLawGroup('celestial_retirement_law').GetName|l]"
- tgp_is_above_retirement_age_5: "La [law|El] de l’[GetLawGroup('celestial_retirement_law').GetName|l] est définie sur [GetLaw('celestial_retirement_law_5').GetName] et ne permet pas les retraites précoces"
+ tgp_is_above_retirement_age_5: "La [law|El] de l’[GetLawGroup('celestial_retirement_law').GetName|l] est définie sur [GetLaw('celestial_retirement_law_5').GetName] et permet la retraite à n’importe quel âge"
  tgp_is_above_retirement_age_0: "La [law|El] de l’[GetLawGroup('celestial_retirement_law').GetName|l] est définie sur [GetLaw('celestial_retirement_law_0').GetName] et permet la retraite pour les [governors|El] âgés de plus de 50 ans"
  tgp_is_above_retirement_age_1: "La [law|El] de l’[GetLawGroup('celestial_retirement_law').GetName|l] est définie sur [GetLaw('celestial_retirement_law_1').GetName] et permet la retraite pour les [governors|El] âgés de plus de 60 ans"
  tgp_is_above_retirement_age_2: "La [law|El] de l’[GetLawGroup('celestial_retirement_law').GetName|l] est définie sur [GetLaw('celestial_retirement_law_2').GetName] et permet la retraite pour les [governors|El] âgés de plus de 70 ans"

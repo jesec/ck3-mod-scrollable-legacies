@@ -85,6 +85,7 @@
  court.3031.a: "소수 민족 봉신들과의 관계를 개선하고 싶다."
  court.3031.b: "남작들에게 좋게 말 좀 해주게나."
  court.3031.c: "[reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]들과 좀 더 좋은 관계를 형성하고 싶군."
+ every_culture_county_3031: "[reference_county.GetCulture.GetName] [culture|E]의 모든 [realm|E] [Concept( 'county', '영지' )|E]"
  court.3031.d: "남들 생각은 내 알 바 아닐세."
  #Homesickness
  court.3040.t: "향수병에 걸린 [homesick_parent.GetMotherFather|U]"

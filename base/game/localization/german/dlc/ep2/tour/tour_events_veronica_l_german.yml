@@ -200,8 +200,7 @@
  cultural_festival.2110.e: "Ich muss an Ort und Stelle bleiben."
  cultural_festival_2110_d_tt: "Ihr tretet den Hund"
  cultural_festival_2110_d_opinion_tt: "Alle teilnehmenden, nicht gefühllosen oder sadistischen Charaktere"
- available_because_intent_tt: "#EMP #low Diese Auswahl ist dank Eures [THIS.Char.GetInvolvedActivityIntent.GetName]-Vorsatzes verfügbar#!#!"
- event_triggered_because_intent_tt: "#EMP #low Diese Auswahl ist dank Eures [THIS.Char.GetInvolvedActivityIntent.GetName]-Vorsatzes verfügbar#!#!"
+ available_because_intent_tt: "#EMP #low Diese Auswahl ist verfügbar dank Eures [Concept('intent', 'Vorsatzes')|E] „[THIS.Char.GetInvolvedActivityIntent.GetName|V]“#!#!"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "Das große Theaterstück"
  cultural_festival.3000.desc: "Der Besuch [Select_CString(visiting_liege.IsFemale, 'meiner Lehnsherrin', 'meines Lehnsherrn')] [visiting_liege.GetTitledFirstName] eröffnet mir eine große Gelegenheit: Ich könnte diese schicksalhafte Begegnung sicherlich dafür nutzen, um [visiting_liege.Custom('DE_PRO_POS_S_3P')]e Sympathie zu gewinnen, womit ich es wahrscheinlich leichter hätte, das zu bekommen, was ich will …\n\nVielleicht könnte ich ein Theaterstück anberaumen, das [visiting_liege.Custom('DE_PRO_POS_S_3P')]e großen Taten widerspiegelt? "

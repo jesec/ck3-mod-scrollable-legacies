@@ -60,7 +60,7 @@
  NUM_OF_RELATION_BEST_FRIEND_TRIGGER: "N.º de [best_friends|lE] es $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_CRUSH_TRIGGER: "N.º de [crushes|lE] es $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_SOULMATE_TRIGGER: "N.º de [soulmates|lE] es $COMPARATOR$ $NUM|V0$"
- HAS_RELATION_POSSIBLE_PARENT_OF_TARGET: "Podría ser [parent|lE] de [TARGET_CHARACTER.GetShortUIName]"
+ HAS_RELATION_POSSIBLE_PARENT_OF_TARGET: "Podría ser progenitor de [TARGET_CHARACTER.GetShortUIName]"
  HAS_RELATION_BLOOD_BROTHER_WITH_TARGET: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'sois', 'son')] [Select_CString(And(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'hermanas', 'hermanos')] de sangre"
  HAS_RELATION_NEMESIS_WITH_TARGET: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'sois', 'son')] [nemeses|lE]"
  NOT_HAS_RELATION_NEMESIS_WITH_TARGET: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] no [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'sois', 'son')] [nemeses|lE]"

@@ -22,7 +22,7 @@ loyal_attitudes_modifier = {
 }
 
 pacifist_mindset_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	prowess = -20
 	seduce_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	diplomacy = 3
@@ -35,7 +35,7 @@ told_good_story_modifier = {
 }
 
 musically_inspired_modifier = {
-	icon = fertility_positive
+	icon = fertility_mixed
 	attraction_opinion = 15
 	fertility = 0.1
 	prisoner_opinion = -5
@@ -79,7 +79,7 @@ personal_chivalry_modifier = {
 }
 
 grotesque_rush_modifier = {
-	icon = horse_positive
+	icon = horse_mixed
 	travel_speed_mult = 0.3
 	travel_safety_mult = -0.1
 }
@@ -100,7 +100,7 @@ travel_events.3000_interest_modifier = {
 }
 
 satiated_curiosity = {
-	icon = learning_positive
+	icon = learning_mixed
 	learning = 1
 	stress_gain_mult = 0.1
 }
@@ -121,7 +121,7 @@ feral_pet_love_modifier = {
 }
 
 broadened_horizons_modifier = {
-	icon = social_positive
+	icon = social_mixed
 	different_faith_opinion = 10
 	religious_vassal_opinion = -5
 }
@@ -181,4 +181,10 @@ pet_rescue_modifier = {
 pilgrim_guide_modifier = {
 	icon = horse_positive
 	travel_safety_mult = 0.3
+}
+
+traveling_slowly_modifier = {
+	icon = horse_negative
+	travel_speed_mult = -0.25
+	travel_safety = -10
 }

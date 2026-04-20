@@ -2030,7 +2030,7 @@
 		birth = "1109.1.1"
 	}
 	1137.1.1 = {
-		dynasty = 401
+		dynasty_house = house_las_asturias
 	}
 	1150.1.1 = {
 		add_spouse = 72756
@@ -2428,7 +2428,7 @@
 
 72757 = {
 	name = "Rodrigu" # Rodrigo Díaz del Valle
-	dynasty = 12159
+	dynasty_house = house_las_asturias
 	trait = education_learning_1
 	religion = catholic
 	culture = asturleonese
@@ -2444,14 +2444,16 @@
 
 72758 = {
 	name = "A_lvaru" # Álvaro Díaz del Valle, Founder of the House Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72731
 	mother = 72756
+
 	1153.1.1 = {
 		birth = "1153.1.1"
 	}
+	
 	1212.1.1 = {
 		add_spouse = 72992
 	}
@@ -2462,7 +2464,7 @@
 
 72759 = {
 	name = "OrdoN_u" # Ordoño Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72758
@@ -2477,7 +2479,7 @@
 
 72760 = {
 	name = "Pedru" # Pedro Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72758
@@ -2495,7 +2497,7 @@
 
 72761 = {
 	name = "Alfonsu" # Alfonso Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72758
@@ -2513,7 +2515,7 @@
 
 72762 = {
 	name = "A_lvaru" # Álvaro Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72758
@@ -2531,7 +2533,7 @@
 
 72763 = {
 	name = "Mayor" # Mayor Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	female = yes
 	religion = catholic
 	culture = asturleonese
@@ -2547,7 +2549,7 @@
 
 72764 = {
 	name = "Nicor" # Nicor Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	female = yes
 	religion = catholic
 	culture = asturleonese
@@ -2563,7 +2565,7 @@
 
 72766 = {
 	name = "Taresa" # Teresa (Alfónsez) Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	female = yes
 	religion = catholic
 	culture = asturleonese
@@ -2592,7 +2594,7 @@
 
 72768 = {
 	name = "Taresa" # Teresa Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	female = yes
 	religion = catholic
 	culture = asturleonese
@@ -2608,7 +2610,7 @@
 
 72769 = {
 	name = "Pedru" # Pedro (Pérez) Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72760
@@ -2626,7 +2628,7 @@
 
 72770 = {
 	name = "Rodrigu" # Rodrigo (Pérez) Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72760
@@ -2670,7 +2672,7 @@
 
 72773 = {
 	name = "Rodrigu" # Rodrigo (Rodríguez) Álvarez de las Asturias
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72770
@@ -2689,7 +2691,7 @@
 72774 = {
 	name = "Sancha" # Sancha (Rodríguez) Álvarez de las Asturias
 	female = yes
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72770
@@ -2705,7 +2707,7 @@
 72775 = {
 	name = "Taresa" # Teresa (Rodríguez) Álvarez de las Asturias
 	female = yes
-	dynasty = 401
+	dynasty_house = house_las_asturias
 	religion = catholic
 	culture = asturleonese
 	father = 72770

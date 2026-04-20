@@ -178,10 +178,22 @@
 			layoutpolicy_horizontal = expanding
 		}
 
+		# 1+ Other Supporters
 		text_label_center = {
 			layoutpolicy_horizontal = expanding
-
+			visible = "[GreaterThan_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )]"
 			text = "SUPPORTER_WINDOW_OTHER_LABEL"
+			default_format = "#UND"
+			fontsize = 14
+			fontsize_min = 10
+			tooltip = "SUPPORTER_WINDOW_OTHER_LABEL_HOVER"
+		}
+
+		# 0 Other Supporters
+		text_label_center = {
+			layoutpolicy_horizontal = expanding
+			visible = "[LessThanOrEqualTo_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )]"
+			text = "SUPPORTER_WINDOW_OTHER_LABEL_NONE"
 			default_format = "#UND"
 			fontsize = 14
 			fontsize_min = 10
@@ -332,10 +344,22 @@
 			layoutpolicy_horizontal = expanding
 		}
 
+		# 1+ Other Detractors
 		text_label_center = {
 			layoutpolicy_horizontal = expanding
-
+			visible = "[GreaterThan_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )]"
 			text = "DETRACTOR_WINDOW_OTHER_LABEL"
+			default_format = "#UND"
+			fontsize = 14
+			fontsize_min = 10
+			tooltip = "DETRACTOR_WINDOW_OTHER_LABEL_HOVER"
+		}
+
+		# 0 Other Detractors
+		text_label_center = {
+			layoutpolicy_horizontal = expanding
+			visible = "[LessThanOrEqualTo_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )]"
+			text = "DETRACTOR_WINDOW_OTHER_LABEL_NONE"
 			default_format = "#UND"
 			fontsize = 14
 			fontsize_min = 10

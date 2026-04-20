@@ -132,7 +132,7 @@
  game_concept_minister_censor: "$councillor_spymaster_celestial_government_imperial$"
  game_concept_minister_censor_desc: "$game_concept_minister_censor$是负责阴谋与情报的[minister|E]。\n\n谨防御史大夫不忠，因为他们能轻易隐瞒甚至参与对你和你[close_family|E]的[schemes|E]！\n\n御史大夫可以被指定为[grand_secretariat_director|E]，这取决于[GetLawGroup('grand_secretariat_laws').GetName|V][law|E]。\n\n$minister_censor_action_breakdown$"
  game_concept_minister_censor_possessive: "$councillor_spymaster_celestial_government_imperial_possessive$"
- minister_censor_action_breakdown: "#indent_newline:4 #weak 御史大夫可以：\n$BULLET$使用#V $censor_find_secrets_interaction$#![interaction|E]在[vassal|E]的[courts|E]查找[secrets|E]或获得[hooks|E]\n$BULLET$[blackmail|E]会触发#V “$catalyst_minister_blackmailed$”#![dynastic_cycle_catalyst|E]\n$BULLET$使用特殊#V $influence_meritorious_career_interaction$#![interaction|E]选项#!#!"
+ minister_censor_action_breakdown: "#indent_newline:4 #weak 御史大夫可以：\n$BULLET$使用#V $censor_find_secrets_interaction$#![interaction|E]在[vassal|E]的[courts|E]查找[secrets|E]，你可以藉此获得[liege|E]的[gold_i][gold|E]奖赏或是获得[hooks|E]\n$BULLET$[blackmail|E]会触发#V “$catalyst_minister_blackmailed$”#![dynastic_cycle_catalyst|E]\n$BULLET$使用特殊#V $influence_meritorious_career_interaction$#![interaction|E]选项#!#!"
  game_concept_minister_grand_marshal: "$minister_grand_marshal$"
  game_concept_minister_grand_marshal_desc: "$game_concept_minister_grand_marshal$是[realm|E]的最高武官，指挥一支[title_men_at_arms|E][army|E]。\n\n枢密使可以被指定为[grand_secretariat_director|E]，这取决于#V [GetLawGroup('grand_secretariat_laws').GetName]#![law|E]。\n\n$minister_grand_marshal_action_breakdown$"
  game_concept_minister_grand_marshal_possessive: "$minister_grand_marshal_possessive$"

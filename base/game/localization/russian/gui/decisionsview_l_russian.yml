@@ -25,6 +25,7 @@
  LEAVE_COUNCIL_CONFIRMATION: "Больше не будет получать преимущества от нахождения в [Concept( 'council', 'совете' )|E] персонажа [CHARACTER.GetLiege.GetUIName] на должности [CHARACTER.GetCouncilTitle|l]"
  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "Покинуть"
  decision_tab_great_projects: "Проекты"
+ GREAT_PROJECTS_TAB: "Грандиозные проекты"
  AVAILABLE_DECISIONS_VIEW_PROJECTS: "Доступные [Concept('great_projects', 'грандиозные проекты')|E]"
  DECISIONS_VIEW_EMPTY_PROJECTS: "Нет доступных [Concept('great_projects', 'грандиозных проектов')|E]"
  DECISIONS_VIEW_PLANNED_PROJECTS: "Запланированные [Concept('great_projects', 'грандиозные проекты')|E]"

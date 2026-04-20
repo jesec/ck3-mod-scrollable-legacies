@@ -34,6 +34,18 @@
  learning_scholarship.3001.c.tt2: "[chaplain.GetFirstName] pozostaje nieprzekonan[Select_CString(chaplain.IsFemale, 'a', 'y' )]"
  learning_scholarship.3001.c.toast.tt2: "[chaplain.GetFirstName] odrzucił[Select_CString(chaplain.IsFemale, 'a', '' )] moje argumenty"
  #Translate a Great Work, by Petter Vilberg
+ #story cycle loc
+ book_translation_story: "Przetłumacz wielkie dzieło"
+ book_translation_story_desc: "Przetłumaczenie wielkiego dzieła pozwoli innym czerpać garściami z jego mądrości. Jeśli uda ci się dokonać tego ambitnego intelektualnego przedsięwzięcia, okrzykną cię geniuszem. Jeśli poniesiesz porażkę – wyjdziesz na głupca."
+ TRANSLATION_STORY: "Tłumaczysz dzieło zatytułowane „[Story.GetOwner.Custom('TranslationBookLong')]”"
+ TRANSLATION_QUALITY: "Jakość tłumaczenia"
+ POOR_TRANSLATION: "Niska"
+ EXCELLENT_TRANSLATION: "Znakomita"
+ DURATION_LEFT: "Pozostały czas trwania"
+ PROGRESS_TOWARDS_CYNICISM: "Postęp w kierunku cynizmu"
+ CYNICISM: "Cynizm"
+ ZEALOTRY: "Fanatyzm"
+ #event loc
  learning_scholarship_special.2001.t: "Nowe tłumaczenie"
  learning_scholarship_special.2001.desc: "Moje próby nauczenia się czegoś nowego w pierwszej kolejności pokazały mi, jak wiele jeszcze nie wiem. Co więcej, na przestrzeni wieków wiele wiedzy zostało utraconej z powodu niszczenia książek i zapominania języków…\n\nMoże [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] wnieść swój wkład, wykonując nowe tłumaczenie jednego z klasycznych dzieł?\n\nCo powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] przetłumaczyć…?"
  learning_scholarship_special.2001.regula_pastoralis: "Regula Pastoralis, o tym, jak wieść dobre życie."

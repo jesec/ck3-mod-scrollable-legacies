@@ -255,6 +255,7 @@
  building_sado_mines_destination_desc: "目立たず荒涼とした離島だが、地下では[GetBuilding('sado_mines_01').GetName]の鉱山労働者がこの島に隠された富を熱心に掘り起こしている。"
  building_tada_mines_destination_desc: "森林に覆われた摂津の山々に囲まれた[GetBuilding('tada_mines_01').GetName]は銅採掘業で賑わい、採掘者たちが大地に隠された富をせっせと掘り出している。"
  building_mozu_tombs_destination_desc: "[GetBuilding('mozu_tombs').GetName]は実に興味深い驚異である。古代の天皇が眠るという印象的な墳丘墓は、鍵穴状の掘で囲まれ、精神的な風景だけでなく物理的な景観をも形作っている。"
+ building_trosky_castle_01_destination_desc: "雄大な[GetBuilding('trosky_castle_01').GetName]は2つの巨大な玄武岩の岩塊の間に築かれており、古老たちからは眠れる火山と呼ばれている。皮肉にも岩の見た目に因んで「廃墟」を意味する名が付けられているが、実際は真逆だ。"
  legendary_watchtower_destination_desc: "高くそびえ立つ[GetBuilding('legendary_watchtower').GetName]は、揺るぎない眼差しで周囲を見張っている。この堅牢な監視塔は、数マイル先まで見通すことができ、建設者の油断のなさが窺える。また監視塔としてだけでなく、領国の平和を脅かす者から人々を守る象徴としての役割も果たしている。"
  legendary_hunting_ground_destination_desc: "[GetBuilding('legendary_hunting_lodge').GetName]は、自然が頂点に君臨する場である。広大な敷地は多様な動植物であふれ、狩猟という高貴な技を磨くため、手つかずの聖域を提供している。ここでは伝統と自然が絡み合い、大自然を相手に自分の実力を試したいと願う人々のために、過酷でありながら挑戦しがいのある環境を提供している。"
  legendary_palace_destination_desc: "荘厳な雰囲気に包まれた[GetBuilding('legendary_palace').GetName]は、足を踏み入れた者すべてを魅了する建築の傑作である。豪華絢爛な広間と庭園は、芸術が到達しうる頂点を示している。権力と美の中心地であるこの宮殿は、訪れる人々の心に畏怖と驚きを抱かせる。"

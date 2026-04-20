@@ -85,6 +85,7 @@
  court.3031.a: "Améliorez ma réputation auprès de mes vassaux issus des minorités."
  court.3031.b: "Parlez de moi en bien aux barons."
  court.3031.c: "Je souhaite nouer de meilleures relations avec les [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]."
+ every_culture_county_3031: "Chaque [county|El] du [realm|El] de [culture|El] [reference_county.GetCountyData.GetCulture.GetName]"
  court.3031.d: "Je ne me soucie pas de ce que les autres pensent."
  #Homesickness
  court.3040.t: "M[homesick_parent.Custom('FR_OnA')] [homesick_parent.GetMotherFather] nostalgique"

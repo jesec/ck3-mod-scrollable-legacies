@@ -84,4 +84,5 @@
  ep3_laamp_peasant_war: "农民起义"
  ep3_laamp_peasant_war.peasant_army: "所有伯爵领的农民都会起义为[levies|E]并加入你这一方"
  ep3_join_war_payment_tt: "由于[GetTaskContractType('laamp_join_war_contract').GetName][task_contract|E]："
- ep3_hire_laamp_mercs_payment_tt: "由于[mercenary|E]工作："
+ ep3_hire_laamp_mercs_payment_tt: "由于[TARGET_CHARACTER.GetShortUIName]完成[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'你',Select_CString(TARGET_CHARACTER.IsFemale,'她','他'))]的[mercenary|E]合同："
+ ep3_hire_laamp_mercs_payment_later_tt: "[mercenary|E][adventurer|E][THIS.Char.GetShortUIName|U]将继续参与[THIS.Char.MakeScope.Var('joined_as_mercenary').Char.GetShortUINamePossessive]的其他[wars|E]"

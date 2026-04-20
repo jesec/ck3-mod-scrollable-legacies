@@ -374,7 +374,7 @@
  #Important Action
  action_ongoing_house_feud: "Anhaltende [house_feud|E]"
  action_ongoing_house_feud_label: "@dynasty_icon! Euer Haus führt eine Fehde mit [recipient.GetHouse.GetBaseNameNoTooltip]"
- action_ongoing_house_feud_desc: "Eure Familie sieht das Haus [recipient.GetHouse.GetBaseName] als Feind an und wird Belohnungen erhalten, wenn es dieses Haus übertrumpft.\n\n#help Morde, [torturing|E], Hörner aufsetzen, Diebstähle und das Gewinnen von [Concept('wars', 'Kriegen')|E] gegen seine Mitglieder steigert Eure Punkte; wenn Eure Familie zum Opfer wird, sinken sie.#!\n\n#help $house_feud_balance_action_tt$#!\n"
+ action_ongoing_house_feud_desc: "Eure Familie sieht das Haus [recipient.GetHouse.GetBaseName] als Feind an und wird Belohnungen erhalten, wenn es dieses Haus übertrumpft.\n\n#help Morde, [torturing|E], Hörner aufsetzen, Diebstähle und das Gewinnen von [Concept('wars', 'Kriegen')|E] gegen seine Mitglieder steigert Eure Punkte; wenn Eure Familie zum Opfer wird, sinken sie.#!\n"
  action_ongoing_house_feud_click: "#I Klicken, um das [house_feud|E]-Hausoberhaupt anzuzeigen#!"
  action_ongoing_house_feud_unimportant: "@warning_icon! #N Euer Haus verliert die [house_feud|E] derzeit#!"
  swap_feud_tt: "Beendet eine [house_feud|E] mit [house|E] [house_feud_existing.GetBaseName]"

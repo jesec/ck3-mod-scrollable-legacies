@@ -57,18 +57,6 @@
 	}
 }
 
-144225 = {
-	name = "Hassan"
-	religion = "ismaili"
-	culture = "persian"
-	1090.1.1 = {
-		birth = yes
-	}
-	1124.1.1 = {
-		death = "1124.1.1"
-	}
-}
-
 144226 = {
 	name = "Kiya_Buzurg_Ummid"
 	religion = "ismaili"
@@ -4745,26 +4733,6 @@ hunas_5 = {
 		birth=yes
 	}
 	1370.1.1={
-		death=yes
-	}
-}
-
-248022 = {
-	name="Nasir_Khusraw"
-	#dynasty = 0
-	religion=ismaili
-	culture=persian
-	##trait=physician
-	#trait=poet
-	trait=gregarious
-	trait=education_learning_2
-	1004.1.1={
-		birth=yes
-	}
-	1053.1.1 = {
-		#employer = 248007
-	}
-	1088.1.1={
 		death=yes
 	}
 }

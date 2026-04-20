@@ -72,7 +72,7 @@
  hostage_prestige_income_tt_past: "$hostage_prestige_income_tt$"
  hostage_prestige_renown_income_tt: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer,'gagnerez','gagnera')] du [prestige|El][prestige_i|E] et de la [dynasty_prestige|El][dynasty_prestige_i|E]"
  hostage_prestige_piety_renown_income_tt: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer,'gagnerez','gagnera')] du [prestige|El][prestige_i|E], de la [dynasty_prestige|El][dynasty_prestige_i|E] et de la [piety|El][piety_i|E]"
- hostage_prestige_income_loss_tt: "Perd du [prestige|El] [prestige_i|E]"
+ hostage_prestige_income_loss_tt: "Perd du [prestige|El][prestige_i|E]"
  hostage_prestige_renown_income_loss_tt: "Perd du [prestige|El][prestige_i|E] et de la [dynasty_prestige|El][dynasty_prestige_i|E]"
  hostage_prestige_piety_renown_income_loss_tt: "Perd du [prestige|El][prestige_i|E], de la [dynasty_prestige|El][dynasty_prestige_i|E] et de la [piety|El][piety_i|E]"
  warden_lower_title_tier_tt: "#weak [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTier] a un [title_tier|El] plus élevé que [CHARACTER.GetPrimaryTitle.GetNameNoTier]#!"

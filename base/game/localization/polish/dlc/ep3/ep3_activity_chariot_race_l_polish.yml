@@ -45,7 +45,7 @@
  every_losing_charioteer_xp_gain: "Wszyscy pozostali woźnice zyskują #high 3#! do wartości [Concept('trait_level_track_xp', 'doświadczenia cechy')|E]"
  ### INTENTS ###
  increase_influence_intent: "Zwiększenie wpływów"
- increase_influence_intent_desc: "Gromadząc w hipodromie wszystkich [strategoi|El] i wszystkie [noble_families|El], skupisz się na nawiązywaniu kontaktów i zwiększaniu swojego [Concept('influence', 'wpływu')|E]."
+ increase_influence_intent_desc: "Gromadząc w hipodromie wszystkich [Concept('strategoi', 'strategów')|E] i wszystkie [noble_families|El], skupisz się na nawiązywaniu kontaktów i zwiększaniu swojego [Concept('influence', 'wpływu')|E]."
  sow_discord_intent: "Sianie niezgody"
  sow_discord_intent_desc: "Nie ma lepszej okazji do sabotowania stołecznej [Concept('county_control', 'kontroli nad hrabstwem')|E] i [Concept('county_opinion', 'powszechnej opinii')|E] na temat stolicy poprzez szarganie reputacji rządów, które sprawuje [GetPlayer.GetTopLiege.GetTitleAsNameNoTooltip], ku zadowoleniu aspirujących do tego urzędu następców… To najbardziej skuteczna strategia przeciwko mało popularnym suwerenom."
  appease_populace_intent: "Uspokojenie ludu"

@@ -35,7 +35,7 @@
  UNIT_STATE_SIEGING: "Belagernd"
  UNIT_STATE_EMBARKED: "Eingeschifft"
  UNIT_STATE_GATHERING: "Versammlung: $VALUE$ fehlen"
- UNIT_STATE_MOVING: "In Bewegung"
+ UNIT_STATE_MOVING: "Verlegt: $DAYS_LEFT$ Tage verbleibend"
  UNIT_STATE_RAIDING: "Beim Überfall"
  UNIT_STATE_BARTERING: "Tauschhandel"
  UNIT_STATE_RETREATING: "Zieht sich nach [PROVINCE.GetName] zurück"

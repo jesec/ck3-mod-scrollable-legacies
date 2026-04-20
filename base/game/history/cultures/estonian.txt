@@ -1,4 +1,4 @@
-# Estonian, part of balto finnic group
+﻿# Estonian, part of balto finnic group
 
 
 867.1.1 = {
@@ -9,7 +9,8 @@
 	discover_innovation = innovation_currency_01
 	#
 	discover_innovation = innovation_longboats
-	discover_innovation = innovation_varangian_adventurers
+	# added via on_game_start effect (FP1-gated)
+	# discover_innovation = innovation_varangian_adventurers
 }
 
 950.1.1 = {

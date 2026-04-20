@@ -1,4 +1,4 @@
-k_anatolia = {
+﻿k_anatolia = {
 	20.1.1 = {
 		change_development_level = 6
 	}
@@ -50,6 +50,7 @@ d_cilicia = {
 					game_start_date = 1066.9.15
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -84,7 +85,7 @@ d_cilicia = {
 		liege = "e_byzantium"
 	}
 	1140.2.14 = {
-		holder = 223010 #Stepan� I Rubenid
+		holder = 223010 #Stepané I Rubenid
 	}
 	1145.1.1 = {
 		holder = 223014 #Thoros II Rubenid
@@ -265,6 +266,7 @@ c_seleucia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -355,6 +357,7 @@ c_lycandus = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -611,6 +614,7 @@ d_cibyrrhaeot = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -706,6 +710,7 @@ c_lycia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -960,6 +965,7 @@ d_anatolia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1018,6 +1024,7 @@ c_lycaonia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1111,6 +1118,7 @@ c_pacatiana = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1278,6 +1286,7 @@ c_selge = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1628,6 +1637,7 @@ d_cappadocia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}

@@ -30,7 +30,7 @@
  GO_TO_RIGHT_CLICK: "Faites un clic droit pour aller à l’emplacement"
  VIEW_CLICK: "Cliquer pour voir"
  COA_LINE_OF_SUCCESSION: "[line_of_succession|E] :\n"
- COA_TOOLTIP_HOLDER: "[GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )][TITLE.GetLeaseInfo][holder|El] : [TITLE.GetHolder.GetFullNameNicknamed]\n[SelectLocalization( TITLE.GetHolder.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_VIEW_DISABLED_BORDER_WARS', 'TITLE_VIEW_ENABLED_BORDER_WARS' )]\n[SelectLocalization(DataModelHasItems(TITLE.GetLineOfSuccession), 'COA_LINE_OF_SUCCESSION', '')][TITLE.GetLineOfSuccessionDesc]\n"
+ COA_TOOLTIP_HOLDER: "[GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )][TITLE.GetLeaseInfo][holder|E] : [TITLE.GetHolder.GetFullNameNicknamed]\n[SelectLocalization( TITLE.GetHolder.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_VIEW_DISABLED_BORDER_WARS', 'TITLE_VIEW_ENABLED_BORDER_WARS' )]\n[SelectLocalization(DataModelHasItems(TITLE.GetLineOfSuccession), 'COA_LINE_OF_SUCCESSION', '')][TITLE.GetLineOfSuccessionDesc]\n"
  TITLE_LEASED_OUT_TO: "[lessee|E] : [CHARACTER.GetUIName]\n"
  COA_TOOLTIP_NO_HOLDER: "Titre non créé\n"
  COA_TOOLTIP_CLICK_INFO: "#I [SelectLocalization(TITLE.IsShownInTitleView, 'GO_TO_CLICK', 'VIEW_CLICK')]\n$GO_TO_RIGHT_CLICK$#!"

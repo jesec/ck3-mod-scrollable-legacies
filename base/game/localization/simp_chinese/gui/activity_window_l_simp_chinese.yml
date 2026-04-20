@@ -102,7 +102,7 @@
  activity_window_character_noble_student: "高贵的学生\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_student: "学生\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_teacher: "教师\n[Character.GetShortUINameNoTooltip|U]"
- ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "分数：[ActivityWindow.GetSpecialProgressValue|^V]"
+ ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "#ts 分数：[ActivityWindow.GetSpecialProgressValue|^V]#!"
  ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP: "#T [ActivityPhase.GetName]#!\n上次行动：[ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\n距下一[activity_phase_action|E]还有[Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V]天。\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE: "无"
  ACTIVITY_TIME_UNTIL_PROGRESS: " （距[Select_CString(Activity.IsCurrentPhaseActive, '结束', '开始')]还有[Activity.GetEstimatedProgressPhaseDate.GetTimeToDate]）"

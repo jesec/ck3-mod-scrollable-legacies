@@ -198,3 +198,5 @@
  whipped_soldiers_desc: "해당 봉토의 연대는 매일 훈련을 수행합니다."
  reluctant_recruits: "모병 기피"
  reluctant_recruits_desc: "해당 인물의 엄격하고 가혹한 규율로 인해, 신병을 징집하는 데 더 많은 비용이 듭니다."
+ intrepid_traveler_travel_modifier: "대담한 여행자"
+ intrepid_traveler_travel_modifier_desc: "지도자의 용기에 고무된 일행은 들뜬 기세로 여정을 이어 갑니다."

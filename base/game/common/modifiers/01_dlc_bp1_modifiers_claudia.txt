@@ -5,7 +5,7 @@
 }
 
 bp1_1000_focus_on_work_modifier = {
-	icon = social_negative
+	icon = social_mixed
 	monthly_lifestyle_xp_gain_mult = 0.1
 	stress_gain_mult = 0.15
 }
@@ -16,7 +16,7 @@ bp1_1020_friend_with_modifier = {
 }
 
 bp1_superstition_modifier = {
-	icon = magic_negative
+	icon = magic_mixed
 	stress_gain_mult = 0.2
 	stress_loss_mult = 0.2
 }

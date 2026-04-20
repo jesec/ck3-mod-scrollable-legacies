@@ -105,6 +105,8 @@
  message_filter_house_unity_stage_desc: "Zmienia się twój [house_unity_level|El]"
  message_filter_dynasty_child_of_age: "@dynasty_icon_alt! Dorastanie"
  message_filter_dynasty_child_of_age_desc: "W [Concept('court', 'dworze')|E] twojej [Concept('dynasty', 'dynastii')|E] dorasta [child|El]"
+ message_filter_child_of_age: "@child_icon! Dorastanie twojego dziecka"
+ message_filter_child_of_age_desc: "Jedno z twoich [children|El] dorasta"
  #DEATH
  message_filter_death_family: "@death_icon! Bliska rodzina"
  message_filter_death_family_desc: "Członek [Concept('close_family', 'bliskiej rodziny')|E] umiera"
@@ -297,6 +299,10 @@
  message_filter_accolade_rank_desc: "Zmienia się stopień posiadanego [Concept('accolade', 'wyróżnienia')|E]"
  message_filter_accolade_succession: "@accolade_icon! Sukcesja rycerska"
  message_filter_accolade_succession_desc: "Dochodzi do zmiany twojego [Concept('acclaimed_knight', 'uznanego rycerza')|E]"
+ message_filter_accolade_eligibility: "@accolade_icon! Rycerze kwalifikujący się do [Concept('accolade_type', 'atrybutu wyróżnienia')|E]"
+ message_filter_accolade_eligibility_desc: "[knight|E] może otrzymać [accolade|El] z nowym [Concept('accolade_type', 'atrybutem wyróżnienia')|E]"
+ message_filter_squire_training: "@accolade_icon! [acclaimed_knight|E] wyszkolił giermka"
+ message_filter_squire_training_desc: "[courtier|E] poprawia swoje umiejętności dzięki predyspozycjom [Concept('accolade_squires', 'giermków')|E] danego [Concept('accolade', 'wyróżnienia')|E]"
  #ACTIVITY
  message_filter_tournament_arrival: "@tournament_icon! Przybycie władcy"
  message_filter_tournament_arrival_desc: "Na twoje wydarzenie ([GetActivityType( 'activity_tournament' ).GetName|l]) jako [activity_guest|El] przybywa szanowany [ruler|El]"

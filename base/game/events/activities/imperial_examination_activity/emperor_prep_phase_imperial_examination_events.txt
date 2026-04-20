@@ -375,12 +375,7 @@ emperor_imperial_examination.300 = {
 								rarity = famed
 								rarity = illustrious
 							}
-							NOR = {
-								has_variable = 1025_treasure_map
-								has_variable = ungiftable
-								exists = scope:target.var:banner_house
-								exists = scope:target.var:banner_dynasty
-							}
+							artifact_can_be_gift_to_trigger = { RECIPIENT = root }
 						}
 					}
 				}
@@ -396,12 +391,7 @@ emperor_imperial_examination.300 = {
 							rarity = famed
 							rarity = illustrious
 						}
-						NOR = {
-							has_variable = 1025_treasure_map
-							has_variable = ungiftable
-							exists = scope:target.var:banner_house
-							exists = scope:target.var:banner_dynasty
-						}
+						artifact_can_be_gift_to_trigger = { RECIPIENT = root }
 					}
 				}
 				random_character_artifact = {
@@ -411,12 +401,7 @@ emperor_imperial_examination.300 = {
 							rarity = famed
 							rarity = illustrious
 						}
-						NOR = {
-							has_variable = 1025_treasure_map
-							has_variable = ungiftable
-							exists = scope:target.var:banner_house
-							exists = scope:target.var:banner_dynasty
-						}
+						artifact_can_be_gift_to_trigger = { RECIPIENT = root }
 					}
 					save_scope_as = newly_created_artifact
 				}

@@ -20,6 +20,11 @@
  hasan_expand_the_assassins_desc: "암살자들 영향력을 확장하려면 더 많은 봉토가 필요합니다. 확장에 성공하면 모독자들이 진정으로 몰락하게 될 것입니다."
  hasan_expand_the_assassins_tooltip: "[holy_order|E] 확장"
  hasan_expand_the_assassins_confirm: "새로운 보금자리"
+ #Story Cycle
+ ULTIMATE_FOE: "궁극의 적"
+ story_hasan: "하산 사바흐의 전설"
+ story_hasan_desc: "신앙의 힘은 군대보다 더 강하며, 제국을 무너뜨리고 새로운 역사를 만들 수 있습니다! 암살자 집단을 설립해 민족을 셀주크의 굴레에서 해방하겠습니까? 일어서서 산의 노인이 될 수 있겠습니까?"
+ PROGRESS_TOWARDS_ASSASSIN_PATH: "암살자 경로 방향 진행도"
  #Events
  hasan_sabbah.1000.t: "[GetFaithByKey('ismaili').GetAdjectiveNoTooltip|U]의 설교자"
  hasan_sabbah.1000.desc: "이집트 칼리프의 신자이자 추종자인 [amira.GetName|U](이)가 [location.GetName]의 중심에서 설교를 진행했다. 그런데 설교 내용이 이슬람 전통에서 어딘가 벗어나 있었다. 나는 이슬람과 [ROOT.Char.GetFaith.HighGodName|U]의 진리에 대해 아무런 의문도 갖지 않는다. 진리를 찾을 곳은 [ROOT.Char.GetFaith.GetName]밖에 없다고 굳게 믿는다. 그런데 [amira.GetFirstNamePossessiveNoTooltip] 설교는 그런 믿음에 균열을 내었다.\n\n하루 내내 성서와 하디스를 주제로 [amira.GetFirstNameNoTooltip](와)과 많은 대화를 나눴다. 그리고 [GetFaithByKey('ismaili').GetAdjective|U] 철학의 진리가 처음으로 내게 다가왔다."

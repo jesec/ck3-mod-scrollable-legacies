@@ -85,6 +85,7 @@
  court.3031.a: "Polepsz moje stosunki z moimi wasalami należącymi do mniejszości."
  court.3031.b: "Szepnij dobre słówko w moim imieniu baronom."
  court.3031.c: "Pragnę, żeby [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip] mieli o mnie lepsze zdanie."
+ every_culture_county_3031: "Każde [county|El] w [Concept('realm', 'państwie')|E] należące do następującej [Concept('culture', 'kultury')|E]: [reference_county.GetCulture.GetName|l]"
  court.3031.d: "Nie obchodzi mnie, co myślą inni."
  #Homesickness
  court.3040.t: "[Select_CString( homesick_parent.IsFemale, 'Matczyna', 'Ojcowska' )] tęsknota za domem"

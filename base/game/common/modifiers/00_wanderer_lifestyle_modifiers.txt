@@ -12,7 +12,7 @@ local_arbitration_modifier_1 = {
 }
 
 local_arbitration_modifier_2 = {
-	icon = stewardship_positive	
+	icon = stewardship_positive
 	tax_mult = 0.25
 	travel_danger = -10
 	county_opinion_add = 10
@@ -400,7 +400,7 @@ inspection_old_roads_negative_modifier = {
 }
 
 inspection_fighting_guilds_innkeepers_guild_modifier = {
-	icon = county_modifier_development_positive
+	icon = county_modifier_development_mixed
 	development_growth_factor = 0.15
 	county_opinion_add = 10
 	tax_mult = 0.15
@@ -409,7 +409,7 @@ inspection_fighting_guilds_innkeepers_guild_modifier = {
 }
 
 inspection_fighting_guilds_artists_guild_modifier = {
-	icon = county_modifier_development_positive
+	icon = county_modifier_development_mixed
 	development_growth_factor = 0.15
 	county_opinion_add = 25
 	building_slot_add = -1
@@ -606,7 +606,7 @@ internal_affairs_county_religious_tensions_modifier = {
 }
 
 internal_affairs_county_religious_tolerance_modifier = {
-	icon = piety_mixed
+	icon = piety_positive
 	monthly_county_control_growth_factor = 0.05
 }
 

@@ -48,7 +48,7 @@
  FACTIONS_WINDOW_DISCONTENT_TO_WEAK: "Trop faible pour envoyer un ultimatum"
  FACTIONS_WINDOW_CASSALC_CANT_CREATE_JOIN: "Vassaux qui ne rejoindront pas de faction"
  FACTIONS_WINDOW_CREATE_JOIN_EXPLANATION: "Vous pouvez empêcher un [vassal|El] de rejoindre une [faction|El] en en faisant votre [friend|El], [lover|El], [prisoner|El], ou [ally|El]. Vous pouvez également le faire en le rendant [cowed|El] ou en ayant un [strong_hook|El] contre lui."
- FACTIONS_WINDOW_FACTION_AT_WAR: "En guerre"
+ FACTIONS_WINDOW_FACTION_AT_WAR: "En [war|El] ! Vous devez avoir au moins [GetDefine( 'NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION' )|V0] de [war_score|El] avant que cette faction ne se dissolve pour gagner la guerre."
  FACTION_WINDOW_MEMBER_SINGULAR: "$NUMBER|V$ membre"
  FACTION_WINDOW_MEMBER_PLURAL: "$NUMBER|V$ membres"
  FACTION_WINDOW_LEAVE: "Quitter"

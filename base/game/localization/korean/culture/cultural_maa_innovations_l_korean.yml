@@ -49,7 +49,7 @@
  #innovation_longbows: "Longbow"
  #innovation_longbows_desc: "Taking advantage of the strong yew wood that grows here, our bowyers have learned to make longbows so powerful they require specialized training from an early age to use effectively. This investment is worth it, as our longbowmen can shoot arrows which travel further and penetrate deeper than those fired by other archers."
  innovation_adaptive_militia: "전천후 민병대"
- innovation_adaptive_militia_desc: "호든닥과 같은 무기는 저렴하면서도 생산이 쉬운 무기면서도 돌진하는 기병을 처리하는 데에 매우 효과적인 무기입니다. 그 덕분에 우리 민병대들이 무장한 $knight_culture_player_plural_no_tooltip_lowercase$(을)를 상대하면서도 높은 승산을 갖고 임할 수 있게 됐습니다."
+ innovation_adaptive_militia_desc: "후덴다흐와 같은 무기는 저렴하면서도 생산이 쉬운 무기면서도 돌진하는 기병을 처리하는 데에 매우 효과적인 무기입니다. 그 덕분에 우리 민병대들이 무장한 $knight_culture_player_plural_no_tooltip_lowercase$(을)를 상대하면서도 높은 승산을 갖고 임할 수 있게 됐습니다."
  innovation_valets: "발레"
  innovation_valets_desc: "우리 귀족 기병들을 위해 헌신적인 시종 체제를 도입한다면, 좋은 무기와 방어구를 갖춘 $knight_culture_player_plural_no_tooltip_lowercase$ 부대를 배치할 수 있게 될 겁니다."
  innovation_pike_columns: "장창 대열"

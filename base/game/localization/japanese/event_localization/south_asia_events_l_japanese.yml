@@ -105,7 +105,7 @@
  south_asia.0050.desc: "インド・ガンジス平原は千年もの間、マウリヤ朝、クシャーナ朝、グプタ朝、パーラ朝、プラティーハーラ朝など、多くの大帝国の拠点や戦場となってきた。一部の支配者は外国人だったが、多くの支配者は亜大陸から台頭してきた者たちであった。\n\n[founder.GetHouse.GetNameNoTooltip]の歴史はそれほど長くはないが、これらの王朝が滅びた跡地を切り開き、領土を広げてきた。今こそ新たな帝国と政治機構を構築し、この地に住む無数の民族と信仰を統治する時だ。"
  south_asia.0050.a: "新たな首都をデリーに建設しよう！"
  south_asia.0050.b: "ラホールを帝国の中心地にしよう"
- south_asia.0050.c: "帝国は[ROOT.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]から統治する"
+ south_asia.0050.c: "帝国は[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]から統治される"
  south_asia.0051.t: "[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]のスルタン"
  south_asia.0051.desc: "[founder.GetHouse.GetNameNoTooltip]がインド・ガンジス平原の支配を強化し、かつてヒンドゥー教国と仏教国があった地に新たなイスラム帝国を建国したという知らせが届いた。\n\n[founder.GetFullName]と名乗り、[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]からインド全土を支配する皇帝となる野望を抱いた[founder.GetFirstNameNoTooltip]は、人々から急速に畏怖の念と賞賛を集めている。"
  south_asia.0051.a: "$middle_europe_decisions.0016.a$"

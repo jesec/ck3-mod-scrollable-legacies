@@ -248,7 +248,7 @@
  tgp_japan_yearly_events.1140.t: "Parada en el camino del clan"
  tgp_japan_yearly_events.1140.desc: "Al atravesar las tierras de [local_county.GetNameNoTier], nuestro progreso se ve detenido por un grupo de gente armada.\n\n«En nombre de [local_ruler.GetName], debo recaudar una pequeña tasa», dice uno. Al notar mi confusión, añade: «Este no es un camino imperial. Aquí solo se aplica la voluntad [local_ruler.Custom('ES_DelDela')] [local_ruler.GetTitleAsName|l]»."
  tgp_japan_yearly_events.1140.a: "Dejadle recaudar su tasa, pero me acordaré de esto."
- tgp_japan_yearly_events.1140.b: "¡¿Sabéis quién soy?!"
+ tgp_japan_yearly_events.1140.b: "«¡¿Sabéis quién soy?!»."
  tgp_japan_yearly_events.1140.b.tt: "Intentas apelar al respeto de [toll_warrior.GetNameNoTooltip] por el rango"
  tgp_japan_yearly_events.1140.tt.success: "Te ganas a los guerreros"
  tgp_japan_yearly_events.1140.tt.failure: "Te obligan a buscar otra ruta"

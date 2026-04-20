@@ -160,3 +160,4 @@
  ACTIVITY_GUEST_VERY_SHORT_TRIP: "[ROOT.Char.Custom('DE_PRO_PER_S_3P_N')|U] hat eine sehr kurze Reise: $VALUE|=+0$"
  ACTIVITY_GUEST_NO_TRAVEL: "[ROOT.Char.Custom('DE_PRO_PER_S_3P_N')|U] lebt an diesem Ort: $VALUE|=+0$"
  ACTIVITY_GUEST_COURTIER: "Euer Höfling: $VALUE|=+0$"
+ ACTIVITY_GUEST_ACCLAIMED_KNIGHT_REASON: "[ROOT.Char.Custom('DE_PRO_PER_S_3P_N')|U] ist ein [Concept('acclaimed_knight', 'ausgezeichneter Ritter')|E]: $VALUE|=+0$"

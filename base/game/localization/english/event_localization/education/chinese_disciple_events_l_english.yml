@@ -144,12 +144,12 @@
   left_scroll_blank_modifier: "Master of Wu Wei"
   mentor_encouragement_modifier: "Encouraged to Improve"
 
-  opinion_mentor_respect: "Respects hard studies"
-  opinion_mentor_disrespect: "Disappointed in studies"
-  opinion_student_gratitude: "Grateful for guidance"
-  opinion_student_scolded: "Scolded by mentor"
-  opinion_student_highroad: "Impressed by humility"
-  opinion_student_humility: "Grateful for humble response"
+  opinion_mentor_respect: "Respects Hard Studies"
+  opinion_mentor_disrespect: "Disappointed in Studies"
+  opinion_student_gratitude: "Grateful for Guidance"
+  opinion_student_scolded: "Scolded by Mentor"
+  opinion_student_highroad: "Impressed by Humility"
+  opinion_student_humility: "Grateful for Humble Response"
 
   chinese_students.0011.positive.toast: "Mentor applauds my scroll"
   chinese_students.0011.negative.toast: "Mentor judges my scroll harshly"

@@ -38,7 +38,7 @@ foreign_merchant_community = {
 
 ### Court Events 7040
 court_7040_ascetic_practices = {
-	icon = piety_positive
+	icon = piety_mixed
 	health = miniscule_health_penalty
 	monthly_piety_gain_mult = 0.1
 	theocracy_government_opinion_same_faith = 15
@@ -199,7 +199,7 @@ inscrutable_host_modifier = {
 ## Flavour Event 0021
 
 above_petty_differences_modifier = {
-	icon = learning_positive
+	icon = learning_mixed
 	opinion_of_different_culture = 10
 	different_culture_opinion = 10
 	learning = medium_skill_penalty
@@ -213,7 +213,7 @@ what_did_i_just_drink_modifier = {
 }
 
 known_killjoy_modifier = {
-	icon = treat_negative
+	icon = treat_mixed
 	courtier_opinion = -15
 	learning = medium_skill_bonus
 }
@@ -426,7 +426,7 @@ ep1_fund_inspiration_2070_accept_modifier = {
 }
 
 ep1_fund_inspiration_2070_refuse_modifier = {
-	icon = county_modifier_opinion_negative
+	icon = county_modifier_opinion_mixed
 	county_opinion_add = -10
 	development_growth_factor = medium_development_growth_gain
 }
@@ -448,7 +448,7 @@ fashion_industry_county_modifier = {
 }
 
 detractor_of_courtly_love_modifier = {
-	icon = love_negative
+	icon = love_mixed
 	attraction_opinion = -10
 	monthly_learning_lifestyle_xp_gain_mult = 0.1
 }
@@ -540,7 +540,7 @@ court_war_immigration_modifier = {
 }
 
 spies_behind_every_corner_modifier = {
-	icon = intrigue_mixed
+	icon = intrigue_positive
 	intrigue = 1
 }
 

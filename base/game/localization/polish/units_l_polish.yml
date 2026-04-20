@@ -35,7 +35,7 @@
  UNIT_STATE_SIEGING: "Prowadzi oblężenie"
  UNIT_STATE_EMBARKED: "Zaokrętowana"
  UNIT_STATE_GATHERING: "Wystawianie: pozostało $VALUE$"
- UNIT_STATE_MOVING: "W ruchu"
+ UNIT_STATE_MOVING: "Przemieszczenie: do końca $DAYS_LEFT$ dni"
  UNIT_STATE_RAIDING: "Ograbia"
  UNIT_STATE_BARTERING: "Handel wymienny"
  UNIT_STATE_RETREATING: "Wycofuje się do prowincji: [PROVINCE.GetName]"

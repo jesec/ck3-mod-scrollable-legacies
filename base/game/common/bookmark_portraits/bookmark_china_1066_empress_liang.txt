@@ -117,7 +117,7 @@ bookmark_china_1066_empress_liang={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
 		clothes={ "ccp9_tan_roy_01_clothes" 13 "most_clothes" 0 }
-        headgear={ "ccp9_tangut_royalty_headgear" 203 "no_headgear" 0 }
+        headgear={ "ccp9_royalty_headgear" 203 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 1903276529 1903276529 }

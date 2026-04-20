@@ -15,13 +15,13 @@ playdate_fumbling_merchant_modifier = {
 }
 
 playdate_practicing_trade_modifier = {
-	icon = stewardship_positive
+	icon = stewardship_mixed
 	stewardship = 2
 	stress_gain_mult = 0.25
 }
 
 playdate_boring_playmate_modifier = {
-	icon = social_negative
+	icon = social_mixed
 	general_opinion = -5
 	learning = 1
 }

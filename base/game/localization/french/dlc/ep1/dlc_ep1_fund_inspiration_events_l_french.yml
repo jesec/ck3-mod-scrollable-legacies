@@ -421,7 +421,7 @@
  fund_inspiration.2080.desc: "\n\n« Vous le verrez lorsqu’il sera terminé ! », réplique [inspiration_owner.Custom('FR_le_Char_Pi')][inspiration_owner.GetTitledFirstName]. « Vous devriez laisser un[inspiration_owner.Custom('FR_E')] [inspiration_owner.GetWomanMan] travailler lorsqu’[inspiration_owner.Custom('InspirationTypeDescriptionFuturePresent')] digne de la royauté ! »"
  fund_inspiration.2080.a: "« [rival.GetFirstNameNoTooltip] s’assurera de sa qualité, [inspiration_owner.GetFirstNameNoTooltip]. »"
  fund_inspiration.2080.b: "« Contentez-vous de vos propres tâches, [rival.GetFirstNameNoTooltip]. »"
- fund_inspiration.2080.success: "[rival.GetFirstNameNoTooltip] améliore le travail de [inspiration_owner.GetFirstNameNoTooltip]"
+ fund_inspiration.2080.success: "[rival.GetFirstNameNoTooltip] améliore l’œuvre de [inspiration_owner.GetFirstNameNoTooltip]"
  fund_inspiration.2080.failure: "[rival.GetFirstNameNoTooltip] freine [inspiration_owner.GetFirstNameNoTooltip]"
  fund_inspiration.2080.c: "Il est temps de changer d’air."
  fund_inspiration.2090.t: "$fund_inspiration.title$ intervention de l’épou[event_spouse.Custom('FR_XSe')]"

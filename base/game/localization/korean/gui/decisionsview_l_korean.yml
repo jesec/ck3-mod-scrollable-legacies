@@ -25,6 +25,7 @@
  LEAVE_COUNCIL_CONFIRMATION: "더는 [CHARACTER.GetLiege.GetUIName] [council|E]의 [CHARACTER.GetCouncilTitle]로서 받는 혜택을 받지 않습니다."
  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "떠나기"
  decision_tab_great_projects: "사업"
+ GREAT_PROJECTS_TAB: "대규모 사업"
  AVAILABLE_DECISIONS_VIEW_PROJECTS: "사용 가능한 [great_projects|E]"
  DECISIONS_VIEW_EMPTY_PROJECTS: "이용 가능한 [great_projects|E] 없음"
  DECISIONS_VIEW_PLANNED_PROJECTS: "계획된 [great_projects|E]"

@@ -62,7 +62,7 @@
  false_conversion.2001.desc_grief: "[deceased_character.GetTitledFirstName] wraca w moich myślach każdego dnia. Każde wspomnienie o [deceased_character.Custom('PL_nim_niej')] jest dla mej duszy nowym źródłem cierpienia."
  false_conversion.2001.desc_depression: "Dni ciągną się w nieskończoność, wszyscy wokół mnie przeżywają radości i smutki, a ja stoję w miejscu. Mój umysł tonie w morzu szarości ostatnich [vulnerable_relation.GetAge] lat."
  false_conversion.2001.desc_stress: "Obserwuję u siebie narastające drgawki. Obgryzam paznokcie, zgrzytam zębami, nocami błądzę bez celu, zanim w końcu trafię do łóżka, by zasnąć. A mimo to czuję, jak przytłacza mnie stres tak wielki, że nie jestem w stanie go pojąć."
- false_conversion.2001.desc_outro: "\n\nGdy rozważam, jak poradzić sobie z problemami, [vulnerable_relation.Custom2('RelationToMeAddress', owner)] szepcze mi do ucha.\n\n– Wystarczy, że oddasz się uzdrawiającej mocy wiary o nazwie [owner.GetSecretFaith.GetName|l], [owner.Custom2('RelationToMeVocative', vulnerable_relation)], a wszystkie twoje troski znikną."
+ false_conversion.2001.desc_outro: "\n\nGdy rozważam, jak poradzić sobie z problemami, [owner.Custom2('RelationToMeAddress', vulnerable_relation)] szepcze mi do ucha.\n\n– Wystarczy, że odda się [vulnerable_relation.Custom2('RelationToMeAddress', owner)] uzdrawiającej mocy wiary o nazwie [owner.GetSecretFaith.GetName|l], a wszystkie troski znikną."
  false_conversion.2001.a: "W takim razie przyjmę do serca wiarę o nazwie [owner.GetSecretFaith.GetNameNoTooltip|l]!"
  false_conversion.2001.b: "Co ty sugerujesz?"
  false_conversion.2001.b_flavor: "[owner.GetTitledFirstNameNoTooltip] postanawia zamilknąć… na razie"

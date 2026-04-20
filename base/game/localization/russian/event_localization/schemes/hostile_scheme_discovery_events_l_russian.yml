@@ -23,7 +23,7 @@
  hostile_scheme_discovery.1002.elope: "планирует устроить побег, в котором будет участвовать"
  hostile_scheme_discovery.1002.steal_back_artifact: "планирует украсть артефакт! Жертвой кражи станет"
  hostile_scheme_discovery.1002.fallback: "плетет интриги, цель которых —"
- hostile_scheme_discovery.1002.a: "[owner.Custom2('InsultAdjective', ROOT.Char)|U] [Select_CString(owner.IsFemale, 'тварь', 'монстр' )]!"
+ hostile_scheme_discovery.1002.a: "[owner.Custom2('InsultAdjective', ROOT.Char)|U][Select_CString(owner.IsFemale, 'ая', 'ый' )] [Select_CString(owner.IsFemale, 'тварь', 'монстр' )]!"
  hostile_scheme_discovery.2001.intro: "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle|l] приносит печальные новости. Кто-то"
  hostile_scheme_discovery.2001.intro_no_spymaster: "До меня дошли страшные известия. Пока не известно, кто именно,"
  hostile_scheme_discovery.2001.murder: "задумал убийство! И его цель —"

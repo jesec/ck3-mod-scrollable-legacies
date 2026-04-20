@@ -106,7 +106,7 @@
  HOUSE_BLOC_COHESION_MISMATCHED_GOVERNMENT: "[government|E] jest inny niż u [Concept('leading_house', 'rodu przewodzącego')|E]:"
  HOUSE_BLOC_SAME_DYNASTY_LEGACY_PERK: "[GetDynastyPerk('tgp_japan_legacy_1').GetName]"
  # Bloc cohesion level parameters
- house_bloc_ceremony_level_parameter_any_member_ceremonial_house_marriage_acceptance: "Akceptacja [Concept('marriage', 'małżeństwa')|E] wszystkich członków [Concept('ceremonial_house', 'ceremonialnego rodu')|E]: #P +25#!"
+ house_bloc_ceremony_level_parameter_any_member_ceremonial_house_marriage_acceptance: "Akceptacja [Concept('marriage', 'małżeństwa')|E] wszystkich członków [Concept('ceremonial_house', 'rodu ceremonialnego')|E]: #P +25#!"
  house_bloc_ceremony_level_parameter_any_member_increased_feast_rewards: "Nagrody za aktywność o nazwie [GetActivityType('activity_feast').GetTextIcon] [GetActivityType('activity_feast').GetName|l] dla wszystkich członków: #P +10%#!"
  house_bloc_ceremony_level_parameter_any_member_house_continued_appointment_score: "Wynik [Concept('appointment', 'mianowania')|E] wszystkich członków w [Concept('governorships', 'gubernatorstwach')|E] zajmowanych przez członków: #P +25%#!"
  house_bloc_ceremony_level_parameter_leading_house_regent_appointment_score: "Wynik [Concept('appointment', 'mianowania')|E] regenta [Concept('leading_house', 'rodu przewodzącego')|E]: #P +10%#!"

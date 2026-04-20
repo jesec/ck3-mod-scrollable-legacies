@@ -20,6 +20,11 @@
  hasan_expand_the_assassins_desc: "暗殺者たちの影響力を拡大するために、さらなる領分が必要だ。領分が拡大されれば、冒涜者たちをせん滅できるかもしれない。"
  hasan_expand_the_assassins_tooltip: "あなたの[holy_order|E]を拡大する"
  hasan_expand_the_assassins_confirm: "新しい家"
+ #Story Cycle
+ ULTIMATE_FOE: "究極の敵"
+ story_hasan: "ハサン・サッバーフの伝説"
+ story_hasan_desc: "他国をなぎ倒し、新たな歴史を紡ぐことができるのは、軍事力をも凌ぐ信仰の力である！果たしてあなたは暗殺者集団を築いて民をセルジューク帝国の支配から解放し、山の長老にまで上り詰めることができるだろうか？"
+ PROGRESS_TOWARDS_ASSASSIN_PATH: "暗殺者の道への進捗"
  #Events
  hasan_sabbah.1000.t: "[GetFaithByKey('ismaili').GetAdjectiveNoTooltip|U]の説教師"
  hasan_sabbah.1000.desc: "エジプトカリフの信者である[amira.GetName|U]は、[location.GetName]の中心地で自身の異端的なイスラム解釈を説いている。私はイスラムと[ROOT.Char.GetFaith.HighGodName|U]の真理を疑っていないし、その真理が[ROOT.Char.GetFaith.GetName]以外に存在すると疑ったこともなかった。しかし、[amira.GetFirstNamePossessiveNoTooltip]の言葉はどこか違ったように聞こえる。\n\n私はその日の大半を費やして、[amira.GetFirstNameNoTooltip]と聖典やハディースについて話し合う。そして、[GetFaithByKey('ismaili').GetAdjective|U]の考え方に初めて真理を見出す。"

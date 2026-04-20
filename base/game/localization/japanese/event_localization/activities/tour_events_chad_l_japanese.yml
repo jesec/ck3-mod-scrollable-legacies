@@ -1,8 +1,8 @@
 ﻿l_japanese:
  tour_grounds_events.6000.t: "偶然の出会い"
  tour_grounds_events.6000.desc: "家臣の家に泊まって気分転換をするのはいいことだが、間取りがころころ変わるので、だんだん混乱してくる。自分ひとりで行動していると、どこに行けば夜食が手に入るのか、どこに行けば日用品が手に入るのか、ほとんどわからない。\n\n[stop_host_scope.GetTitledFirstNamePossessive]の[stop_host_scope.Custom('FortifiedBuilding')]で、適当に扉を開いていくなか、ある扉を開けたときに私は"
- tour_grounds_events.6000.desc.three_consorts: "[stop_host_scope.GetFirstNameNoTooltip]と[stop_host_scope.GetHerHis]配偶者である[orgy_consort_1.GetFirstNameNoTooltip]、[orgy_consort_2.GetFirstNameNoTooltip]、そして[orgy_consort_3.GetFirstNameNoTooltip]が、危なっかしそうに近くに立っており、その様子はどこか#EMP 親密#!そうな関係にあるのを目にした。\n\n"
- tour_grounds_events.6000.desc.one_consort: "[stop_host_scope.GetFirstNameNoTooltip]と[stop_host_scope.GetHerHis][stop_host_scope.Custom2('RelationToMeShort',orgy_consort_1)]が、危なっかしそうに近くに立っており、その様子はどこか#EMP 親密#!そうな関係にあるのを目にした。ろうそくが部屋をやわらかく照らし、ラベンダーの甘い香りが漂う。\n\n"
+ tour_grounds_events.6000.desc.three_consorts: "[stop_host_scope.GetFirstNameNoTooltip]と[stop_host_scope.GetHerHis]の配偶者である[orgy_consort_1.GetFirstNameNoTooltip]、[orgy_consort_2.GetFirstNameNoTooltip]、そして[orgy_consort_3.GetFirstNameNoTooltip]が、危なっかしそうに近くに立っており、その様子はどこか#EMP 親密#!そうな関係にあるのを目にした。\n\n"
+ tour_grounds_events.6000.desc.one_consort: "[stop_host_scope.GetFirstNameNoTooltip]と[stop_host_scope.GetHerHis]の[stop_host_scope.Custom2('RelationToMeShort',orgy_consort_1)]が、危なっかしそうに近くに立っており、その様子はどこか#EMP 親密#!そうな関係にあるのを目にした。ろうそくが部屋をやわらかく照らし、ラベンダーの甘い香りが漂う。\n\n"
  tour_grounds_events.6000.desc.outro: "家臣は不敵な笑みを浮かべ、私を手招きする。"
  tour_grounds_events.6000.a: "その誘惑には抗いがたい…"
  tour_grounds_events.6000.b: "「あなたがまさか来るとは！」"

@@ -3,28 +3,28 @@
 ###########################
 
 lifestyle_soldier_source_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	scheme_phase_duration = minor_scheme_phase_duration_bonus_value
 	scheme_success_chance = 5
 	scheme_secrecy = -5
 }
 
 lifestyle_studied_habits_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	scheme_phase_duration = minor_scheme_phase_duration_bonus_value
 	scheme_success_chance = 5
 	scheme_secrecy = -5
 }
 
 lifestyle_converted_informants_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	scheme_phase_duration = minor_scheme_phase_duration_bonus_value
 	scheme_success_chance = 10
 	scheme_secrecy = -5
 }
 
 lifestyle_intercepting_communication_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	scheme_phase_duration = minor_scheme_phase_duration_bonus_value
 	scheme_success_chance = 10
 	scheme_secrecy = -5
@@ -54,13 +54,13 @@ intrigue_scheme_tattletale_modifier = {
 }
 
 intrigue_scheme_in_a_hurry_modifier = {
-	icon = intrigue_negative
+	icon = intrigue_mixed
 	scheme_phase_duration = medium_scheme_phase_duration_bonus_value
 	scheme_success_chance = -10
 }
 
 intrigue_scheme_no_contact_modifier = {
-	icon = intrigue_negative
+	icon = intrigue_mixed
 	scheme_success_chance = -5
 	scheme_secrecy = 15
 }

@@ -19,7 +19,7 @@ pondering_war_modifier = {
 pondering_schemes_modifier = {
 	icon = intrigue_positive
 	intrigue = 1
-	scheme_discovery_chance_mult = 0.1
+	enemy_scheme_secrecy_add = -10
 }
 
 pondering_management_modifier = {

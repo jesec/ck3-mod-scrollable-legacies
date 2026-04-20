@@ -226,7 +226,7 @@ hunt_left_in_trap_modifier = {
 }
 
 hunt_punished_trappers_modifier = {
-	icon = hunt_negative
+	icon = hunt_mixed
 	county_opinion_add = -25
 	development_growth_factor = -0.1
 	county_fertility_growth_mult = tiny_county_fertility_growth_gain
@@ -300,3 +300,15 @@ hunt_faith_desecrated_place_of_worship = {
 	icon = county_modifier_opinion_negative
 	county_opinion_add = -10
 }
+
+hunt_carving_into_bark_modifier = {
+	icon = fertility_positive
+	attraction_opinion = 5
+	stress_loss_mult = 0.15
+}
+
+#hunt_ending_dog_suffering_modifier = {
+	#icon = dog_mixed
+	#general_opinion = 10
+	#stress_gain_mult = 0.05
+#}

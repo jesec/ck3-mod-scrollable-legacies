@@ -20,6 +20,11 @@
  hasan_expand_the_assassins_desc: "De nouvelles possessions permettront à notre ordre d’accroître son influence sur les terres environnantes. Plus nous serons forts, plus vite le sacrilège prendra fin !"
  hasan_expand_the_assassins_tooltip: "Développer votre [holy_order|El]"
  hasan_expand_the_assassins_confirm: "Un nouveau foyer"
+ #Story Cycle
+ ULTIMATE_FOE: "Votre ennemi ultime"
+ story_hasan: "La légende de Hasan Sabbah"
+ story_hasan_desc: "Plus que les armées, la force de la foi peut renverser des empires et façonner l’histoire ! Allez-vous établir les Assassins et libérer votre peuple du joug seldjoukide ? Pouvez-vous vous élever pour devenir le Vieil Homme de la Montagne ?"
+ PROGRESS_TOWARDS_ASSASSIN_PATH: "Progression vers la voie de l’assassin"
  #Events
  hasan_sabbah.1000.t: "Prêcheurs [GetFaithByKey('ismaili').GetAdherentNamePluralNoTooltip]"
  hasan_sabbah.1000.desc: "[amira.Custom('FR_le_Char_Pi')|U][amira.GetTitledFirstName], [Select_CString(amira.IsFemale,'fervente partisane','fervent partisan')] du calife égyptien, prêche une vision peu orthodoxe de l’islam au cœur de [location.GetName]. Je ne doute ni de la véracité de la foi islamique ni [ROOT.Char.GetFaith.HighGodNamePossessive] ni que seule la foi [ROOT.Char.GetFaith.GetAdjective] a réponse à toutes les questions, mais les mots de [amira.GetFirstNameNoTooltip] sonnent différemment à mes oreilles.\n\nJe passe le reste de la journée à discuter des livres saints et des hadiths avec [amira.Custom('FR_LuiElle')], et je me dis qu’il y a un grain de vérité dans la philosophie [GetFaithByKey('ismaili').GetAdjective]."

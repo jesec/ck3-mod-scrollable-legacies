@@ -203,7 +203,7 @@
  pilgrimage.0042.a: "[old_pilgrimage_host.GetSheHe]が望んでいることなのだ。"
  #Promise your religious relative to go on a Pilgrimage
  pilgrimage.0500.t: "巡礼者の死"
- pilgrimage.0500.desc: "「[first_holy_site.GetProvince.GetNameNoTooltip]。[second_holy_site.GetProvince.GetNameNoTooltip]。ああ、[second_holy_site.GetProvince.GetNameNoTooltip]…」私の[ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('pilgrimage_dying_relative'))]である[pilgrimage_dying_relative.GetTitledFirstName]の痩せこけた身体はベッドに寝かされており、それはかつての[pilgrimage_dying_relative.GetHerHis]抜け殻のようなものだ。私がゆっくりとベッドに近づくと、[pilgrimage_dying_relative.GetSheHe]はその霞んだ目を私に向けようとする。\n\n「[pilgrimage_dying_relative.Custom2('RelationToMe' , ROOT.Char)|U]…お前が後悔することになるのは、やったことではなく、やらなかったことだ」身を乗り出すと、[pilgrimage_dying_relative.GetHerHis]息からは腐ったような匂いがする。[pilgrimage_dying_relative.GetSheHe]は続ける。「日々にとらわれ、[ROOT.Char.GetFaith.HighGodName]への真なる道から遠ざからぬようにするのだ」\n\n[pilgrimage_dying_relative.GetHerHis]顔には苦しみが浮かんでおり、私は会話が終わったことを理解した。"
+ pilgrimage.0500.desc: "「[first_holy_site.GetProvince.GetNameNoTooltip]。[second_holy_site.GetProvince.GetNameNoTooltip]。ああ、[second_holy_site.GetProvince.GetNameNoTooltip]…」私の[ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('pilgrimage_dying_relative'))]である[pilgrimage_dying_relative.GetTitledFirstName]の痩せこけた身体はベッドに寝かされており、それはかつての[pilgrimage_dying_relative.GetHerHis]の抜け殻のようなものだ。私がゆっくりとベッドに近づくと、[pilgrimage_dying_relative.GetSheHe]はその霞んだ目を私に向けようとする。\n\n「[pilgrimage_dying_relative.Custom2('RelationToMe' , ROOT.Char)|U]…お前が後悔することになるのは、やったことではなく、やらなかったことだ」身を乗り出すと、[pilgrimage_dying_relative.GetHerHis]の息からは腐ったような匂いがする。[pilgrimage_dying_relative.GetSheHe]は続ける。「日々にとらわれ、[ROOT.Char.GetFaith.HighGodName]への真なる道から遠ざからぬようにするのだ」\n\n[pilgrimage_dying_relative.GetHerHis]の顔には苦しみが浮かんでおり、私は会話が終わったことを理解した。"
  pilgrimage.0500.a: "ええ、もちろんです。"
  pilgrimage.0500.a.flavor: "それが[pilgrimage_dying_relative.GetSheHe]を安らがせるのであれば。"
  pilgrimage.0500.a.tt_pilgrimage: "あなたの次の[pilgrimage|E]が安くなります"
@@ -352,7 +352,7 @@
  pilgrimage.2009.a.tt: "[GetTrait('pneumonic').GetName( GetPlayer )]の健康上のリスクを抱えながら旅を続ける"
  #Meet a mystic
  pilgrimage.2010.t: "$pilgrimage_header$神秘主義者"
- pilgrimage.2010.desc: "[2010_mystic.GetTitledFirstName]はこの旅で出会った人々の中でも変わっているほうだ。[2010_mystic.GetSheHe|U]は信心深いようだが、同時に[ROOT.Char.GetFaith.HighGodName]の本質とそれが持つ意味に関する持論を展開している。夜になると[2010_mystic.GetHerHis]テントは内側から蝋燭で照らし出され、ときおり奇妙な詠唱や独特なお香が流れてくる。\n\n[2010_mystic.GetFirstNameNoTooltip]に中に入るよう誘われたとき、私は完全に不意をつかれた。"
+ pilgrimage.2010.desc: "[2010_mystic.GetTitledFirstName]はこの旅で出会った人々の中でも変わっているほうだ。[2010_mystic.GetSheHe|U]は信心深いようだが、同時に[ROOT.Char.GetFaith.HighGodName]の本質とそれが持つ意味に関する持論を展開している。夜になると[2010_mystic.GetHerHis]のテントは内側から蝋燭で照らし出され、ときおり奇妙な詠唱や独特なお香が流れてくる。\n\n[2010_mystic.GetFirstNameNoTooltip]に中に入るよう誘われたとき、私は完全に不意をつかれた。"
  pilgrimage.2010.a: "興味はある…"
  pilgrimage.2010.a.tt: "あなたはテントの中に入る"
  pilgrimage.2010.b: "遠慮しておこう、異端の臭いがする！"
@@ -448,7 +448,7 @@
  pilgrimage.6001.b: "1人の方がいいんだ。"
  pilgrimage.6001.c: "恥を知れ。信仰に集中するために、ここにいるんだ！"
  #Tavern, Suggestion
- pilgrimage.6002.desc: "[friend.GetFirstNameNoTooltip|U]と、その日の旅の残り時間に、陰謀や冗談、戦いや好きな人、古い友だちや新しい友だちについて話す。興味深い話の真っ最中、列の先頭から疲れた叫び声が聞こえる。「ここで野営しよう！」\n\n[friend.GetFirstNameNoTooltip|U]は、[friend.GetHerHis]顔にずるい笑みを浮かべ、私にこう言う。「やっと！でも、野営する前に少し寄り道しない？長旅では、[friend.GetWomanMan]も喉が渇くだろう...」"
+ pilgrimage.6002.desc: "[friend.GetFirstNameNoTooltip|U]と、その日の旅の残り時間に、陰謀や冗談、戦いや好きな人、古い友だちや新しい友だちについて話す。興味深い話の真っ最中、列の先頭から疲れた叫び声が聞こえる。「ここで野営しよう！」\n\n[friend.GetFirstNameNoTooltip|U]は顔にずるい笑みを浮かべ、私にこう言う。「やっと！でも、野営する前に少し寄り道しない？長旅では、[friend.GetWomanMan]も喉が渇くだろう...」"
  pilgrimage.6002.a: "清涼飲料は神！"
  pilgrimage.6002.a_tt: "現地の酒場を訪れる"
  pilgrimage.6002.b: "1人でどうぞ..."
@@ -473,13 +473,13 @@
  pilgrimage.6005.b: "「私たちは償わなければならない！」"
  pilgrimage.6005.c: "「楽しい時間を過ごすのが犯罪？」"
  #You find out your friend is a Non-Believer
- pilgrimage.6006.desc: "[friend.GetFirstName]との今日の旅は、もうすぐお仕舞い。お仕舞いの地点までゆっくりと進んでいると、突然前を行く人が、「見て！#EMP すばらしい#!夕焼け！」と叫ぶ。\n\nその雄大な景色を一目見ようと、誰もが最後の力を振り絞って先へ急ぐ。「この世でこれほどの驚異を見られるのは光栄だ！信仰を瞑想するのにぴったりだ」と私は[friend.GetFirstNameNoTooltip]に言うが、[friend.GetSheHe]はまったく感動していないようで、[friend.GetHerHis]唇から嘲笑が漏れる。\n\n「ただの夕日！」と[friend.GetSheHe]が叫ぶ。「この旅で行うすべてのことが、[ROOT.Char.GetFaith.HighGodName]に関連すると？私はただ旅して世界を見たいだけ。[ROOT.Char.GetFaith.HighGodName]が存在するということにも、#EMP 全然#!自信が持てないのに！」"
+ pilgrimage.6006.desc: "[friend.GetFirstName]との今日の旅は、もうすぐお仕舞い。お仕舞いの地点までゆっくりと進んでいると、突然前を行く人が、「見て！#EMP すばらしい#!夕焼け！」と叫ぶ。\n\nその雄大な景色を一目見ようと、誰もが最後の力を振り絞って先へ急ぐ。「この世でこれほどの驚異を見られるのは光栄だ！信仰を瞑想するのにぴったりだ」と私は[friend.GetFirstNameNoTooltip]に言うが、[friend.GetSheHe]はまったく感動していないようで、[friend.GetHerHis]の唇から嘲笑が漏れる。\n\n「ただの夕日！」と[friend.GetSheHe]が叫ぶ。「この旅で行うすべてのことが、[ROOT.Char.GetFaith.HighGodName]に関連すると？私はただ旅して世界を見たいだけ。[ROOT.Char.GetFaith.HighGodName]が存在するということにも、#EMP 全然#!自信が持てないのに！」"
  pilgrimage.6006.a: "「友よ、秘密は守ります。」"
  pilgrimage.6006.b: "「信仰のない友人は受け入れられない。」"
  pilgrimage.6006.c: "「良いとこ突いてる...」"
  #You and a friend are on a pilgrimage and your friend is healed in a miracle performed by a wandering priest
  pilgrimage.6007.t: "祈りながら生きる"
- pilgrimage.6007.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))] [friend.GetFirstName]は、[friend.GetHerHis]病いにより、巡礼についていくのに苦労している。私は[friend.GetSheHe]に付き添い、[friend.GetSheHe]と一緒に歩く。[ROOT.Char.GetFaith.PriestNeuter]がしばらく私たちと一緒に旅をしていて、[friend.GetFirstNamePossessiveNoTooltip]が苦労していることに気づく。\n\n「哀れな魂よ。[ROOT.Char.GetFaith.HighGodName]の子は、[friend.GetHerHis] [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]への道中、これほど苦労すべきではない。」と言う。「[ROOT.Char.GetFaith.HealthGodName]がその苦しみを癒やす力を私に与えてくれるかもしれない。試してみてもいい？」\n\n[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))]は私の方を向く。「[ROOT.Char.GetFirstName]、どう思う？」"
+ pilgrimage.6007.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))] [friend.GetFirstName]は、病いにより、巡礼についていくのに苦労している。私は[friend.GetSheHe]に付き添い、[friend.GetSheHe]と一緒に歩く。[ROOT.Char.GetFaith.PriestNeuter]がしばらく私たちと一緒に旅をしていて、[friend.GetFirstNamePossessiveNoTooltip]が苦労していることに気づく。\n\n「哀れな魂よ。[ROOT.Char.GetFaith.HighGodName]の子は、[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]への道中、これほど苦労すべきではない。」と言う。「[ROOT.Char.GetFaith.HealthGodName]がその苦しみを癒やす力を私に与えてくれるかもしれない。試してみてもいい？」\n\n[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))]は私の方を向く。「[ROOT.Char.GetFirstName]、どう思う？」"
  pilgrimage.6007.a: "[ROOT.Char.GetFaith.HighGodName]は私たちを見ている。"
  pilgrimage.6007.a.success: "[friend.GetFirstNameNoTooltip]は治った"
  pilgrimage.6007.a.failure: "[friend.GetFirstNamePossessiveNoTooltip]の状態は悪化する"
@@ -868,7 +868,7 @@
  pilgrimage.6770.d: "「これはとても本物には見えない…」"
  #Recruit skillful local
  pilgrimage.6780.t: "有能な廷臣"
- pilgrimage.6780.desc: "一人の[ROOT.Char.GetWomanMan]が、同じように重要なほかの時間の使い方を探さずに祈れることは限られている。そして、[current_employer.GetTitledFirstName]には素敵な住居があり、[current_employer.GetSheHe]はとても親切に私をもてなしてくれる。\n\nある部屋から何かの声が聞こえてくる。「…そうすることで、あなたは最高の技を身につけることができる」という声が聞こえてきた。中を覗いてみると、[stolen_courtier.GetTitledFirstName]が興味を持った廷臣たちに[stolen_courtier.GetHerHis]技を説明しており、彼らは熱心に[stolen_courtier.GetHerHis]教えに従っている。"
+ pilgrimage.6780.desc: "一人の[ROOT.Char.GetWomanMan]が、同じように重要なほかの時間の使い方を探さずに祈れることは限られている。そして、[current_employer.GetTitledFirstName]には素敵な住居があり、[current_employer.GetSheHe]はとても親切に私をもてなしてくれる。\n\nある部屋から何かの声が聞こえてくる。「…そうすることで、あなたは最高の技を身につけることができる」という声が聞こえてきた。中を覗いてみると、[stolen_courtier.GetTitledFirstName]が興味を持った廷臣たちに[stolen_courtier.GetHerHis]の技を説明しており、彼らは熱心に[stolen_courtier.GetHerHis]の教えに従っている。"
  pilgrimage.6780.a: "なんと優秀な師であろうか。[stolen_courtier.GetSheHe]を雇うべきかもしれぬ。"
  pilgrimage.6780.b: "「そのような専門家が、こんな宮廷にいるのは損失だ…」"
  pilgrimage.6780.b.success.t: "廷臣の採用"
@@ -881,7 +881,7 @@
  generic_cp_discount: "契約上の減給"
  #Meet local guru - trait flipping event
  pilgrimage.6790.t: "[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]での精神的な目覚め"
- pilgrimage.6790.desc: "「[spiritual_mentor.GetSheHe|U]は、地上で最高の[spiritual_mentor.GetWomanMan]だ。[spiritual_mentor.GetSheHe|U]は毎日聖地を見守り、警戒のたびに[spiritual_mentor.GetSheHe]は街のすぐ外にある[spiritual_mentor.GetHerHis]キャンプに戻り、夜が明けて月が去るまで祈りを捧げる」\n\n[spiritual_mentor.GetSheHe]の逸話を聞かされたあと、私は深呼吸をしてから、[spiritual_mentor.GetSheHe]が休んでいる焚き火に近づいた。\n\n「「私はあなたを待っていました」と、[spiritual_mentor.GetSheHe]は私を真っ直ぐに見つめて言う。「それは、[spiritual_mentor.GetFaith.HighGodName]も同様です。あなたの[ROOT.Char.Custom('SinfulTrait')|l]という罪を捨てる準備はできていますか？」"
+ pilgrimage.6790.desc: "「[spiritual_mentor.GetSheHe|U]は、地上で最高の[spiritual_mentor.GetWomanMan]だ。[spiritual_mentor.GetSheHe|U]は毎日聖地を見守り、警戒のたびに[spiritual_mentor.GetSheHe]は街のすぐ外にある[spiritual_mentor.GetHerHis]のキャンプに戻り、夜が明けて月が去るまで祈りを捧げる」\n\n[spiritual_mentor.GetSheHe]の逸話を聞かされたあと、私は深呼吸をしてから、[spiritual_mentor.GetSheHe]が休んでいる焚き火に近づいた。\n\n「「私はあなたを待っていました」と、[spiritual_mentor.GetSheHe]は私を真っ直ぐに見つめて言う。「それは、[spiritual_mentor.GetFaith.HighGodName]も同様です。あなたの[ROOT.Char.Custom('SinfulTrait')|l]という罪を捨てる準備はできていますか？」"
  pilgrimage.6790.a: "「ああ。#EMP できている#!」"
  pilgrimage.6790.b: "「それよりも、あなたの教えに興味がある」"
  pilgrimage.6790.c: "「自分のことを#EMP 何も#!変える必要などない」"
@@ -983,9 +983,9 @@
  pilgrimage.9010.desc.relation_neutral: "我々は午後遅くに[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]に到着した。#EMP 私の#!使用人たちはすぐに、[old_pilgrimage_host.GetTitledFirstName]をその最後の眠りにつかせるために必要な準備を始めた。\n\n"
  pilgrimage.9010.desc.turned_back_liked: "私は重い気持ちで儀式を監督していた。[old_pilgrimage_host.GetSheHe]が[previous_holy_site.GetNameNoTierNoTooltip]の聖地への途上で亡くなったとき、[ROOT.Char.GetFaith.HighGodName]は本当に[old_pilgrimage_host.GetSheHe]とともにあったと思うことで慰みを見出そうとしていた。\n\n結局、巡礼者でなければ[ROOT.Char.GetFaith.HighGodNameAlternate]は誰を見守るというのか？"
  pilgrimage.9010.desc.turned_back_neutral: "新しい[ROOT.Char.Custom('GetRealmOrDomicile')|l]にはまだ慣れていない。[ROOT.Char.Custom('GetCourtierPlural')|l]たちは私の好意を得ようと私のそばへ駆け寄ってくる。[old_pilgrimage_host.GetTitledFirstName]の遺体を持ち帰れば、[old_pilgrimage_host.GetSheHe]が逝去し、#EMP 私#!が新たな[ROOT.Char.GetTitleAsNameNoTooltip]であるという事実を確かなものにできるだろう。"
- pilgrimage.9010.desc.there_and_back_liked: "[old_pilgrimage_host.GetHerHis]死を悼みつつも、私は[old_pilgrimage_host.GetHerHis]願いを叶え、[previous_holy_site.GetNameNoTierNoTooltip]への巡礼を終えたことに慰めを見出していた。\n\nきっと、[old_pilgrimage_host.GetSheHe]がどこにいようと、満足していることだろう。それを考えると、私の顔にもかすかに笑みが浮かんでくるようだ。"
+ pilgrimage.9010.desc.there_and_back_liked: "[old_pilgrimage_host.GetHerHis]の死を悼みつつも、私は[old_pilgrimage_host.GetHerHis]の願いを叶え、[previous_holy_site.GetNameNoTierNoTooltip]への巡礼を終えたことに慰めを見出していた。\n\nきっと、[old_pilgrimage_host.GetSheHe]がどこにいようと、満足していることだろう。それを考えると、私の顔にもかすかに笑みが浮かんでくるようだ。"
  pilgrimage.9010.desc.there_and_back_neutral: "[old_pilgrimage_host.GetTitledFirstNamePossessive]の願いを尊重して[previous_holy_site.GetNameNoTierNoTooltip]まで旅をして戻ってきたことで、[old_pilgrimage_host.GetHerHis]の[ROOT.Char.Custom('GetCourtierPlural')|l]、いや、#EMP 私#!の[ROOT.Char.Custom('GetCourtierPlural')|l]の信頼を得た。私はここの新たな[ROOT.Char.GetTitleAsNameNoTooltip]であることに徐々に慣れてきている。"
- pilgrimage.9010.desc.invalidated_pilgrimage_liked: "私は[old_pilgrimage_host.GetHerHis]死を悼み、[old_pilgrimage_host.GetSheHe]を[previous_holy_site.GetNameNoTierNoTooltip]に安置できなかったことに強い自責の念を感じている。"
+ pilgrimage.9010.desc.invalidated_pilgrimage_liked: "私は[old_pilgrimage_host.GetHerHis]の死を悼み、[old_pilgrimage_host.GetSheHe]を[previous_holy_site.GetNameNoTierNoTooltip]に安置できなかったことに強い自責の念を感じている。"
  pilgrimage.9010.desc.invalidated_pilgrimage_neutral: "[old_pilgrimage_host.GetSheHe]を[previous_holy_site.GetNameNoTierNoTooltip]の地に眠らせることがかなわなかったのは残念だが、これで[old_pilgrimage_host.GetSheHe]は、ついに安らかなる安息の地に眠ることになったのだ。"
  pilgrimage.9010.a: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]、1つの心、1つの故郷。"
  pilgrimage.9010.a_interrupted: "少なくとも、我々は無事に帰還したのだ。"

@@ -386,7 +386,7 @@
  meritocratic_bureaucracy_2_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 [vassals|E] niebędący [Concept('governor', 'gubernatorami')|E] nie mogą prowadzić żadnej [Concept('wars', 'wojny')|E], chyba że użyją [Concept('hook', 'haka')|E] na swojego [Concept('liege', 'seniora')|E]#!"
  meritocratic_bureaucracy_3: "Boski mandat"
  meritocratic_bureaucracy_3_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 [vassals|E] niebędący [Concept('governor', 'gubernatorami')|E] nie mogą wypowiedzieć żadnej [Concept('war', 'wojny')|E]#!"
- CONFUCIAN_BUREAUCRACY_IS_ON_COOLDOWN: "Niedawno zmieniono [Concept('meritocratic_bureaucracy', 'biurokrację merytokratyczną')|E]. Możesz to zrobić ponownie po [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperia l_bureaucracy_cooldown') )]"
+ CONFUCIAN_BUREAUCRACY_IS_ON_COOLDOWN: "Niedawno zmieniono [Concept('meritocratic_bureaucracy', 'biurokrację merytokratyczną')|E]. Możesz to zrobić ponownie po [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperial_bureaucracy_cooldown') )]"
  #Japanese bureauracy
  japanese_bureaucracy: "[japanese_bureaucracy|E]"
  japanese_bureaucracy_0: "Niezależni gubernatorzy"
@@ -436,4 +436,4 @@
  conservative_ministers_tt: "[ministers|E] (co najmniej [CHARACTER.MakeScope.ScriptValue('needed_conservative_ministers_value')]) muszą należeć do ruchu o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('conservative_movement').GetName] #weak (obecnie: $VALUE|0$)#!"
  not_conservative_powerful_families_tt: "[house_heads|E] stojące na czele co najmniej [CHARACTER.MakeScope.ScriptValue('needed_conservative_powerful_families_value')] [Concept('powerful_families', 'wpływowych rodzin')|E] #bold nie mogą#! należeć do ruchu o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('conservative_movement').GetName] #weak (obecnie: $VALUE|0$)#!"
  not_conservative_ministers_tt: "[ministers|E] (co najmniej [CHARACTER.MakeScope.ScriptValue('needed_conservative_ministers_value')]) #bold nie mogą#! należeć do ruchu o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('conservative_movement').GetName] #weak (obecnie: $VALUE|0$)#!"
- can_have_single_heir_succession_law_trigger_merit_or_japan_tt: "Jedno z poniższych:\n$BULLET_WITH_TAB$Twoja [culture|El] ma [Concept('innovation', 'innowację')|E] o nazwie primogenitura\n$BULLET_WITH_TAB$Jesteś [Concept('ruler', 'władcą')|E] [Concept('independent', 'niezależnym')|E]\n$BULLET_WITH_TAB$Jesteś [Concept('ceremonial_liege', 'monarchą ceremonialnym')|E]"
+ can_have_single_heir_succession_law_trigger_merit_or_japan_tt: "Jedno z poniższych:\n$BULLET_WITH_TAB$Twoja [culture|El] ma [Concept('innovation', 'innowację')|E] „$innovation_primogeniture$”\n$BULLET_WITH_TAB$Jesteś [Concept('ruler', 'władcą')|E] [Concept('independent', 'niezależnym')|E]\n$BULLET_WITH_TAB$Jesteś [Concept('ceremonial_liege', 'monarchą ceremonialnym')|E]"

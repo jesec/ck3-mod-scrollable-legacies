@@ -2328,6 +2328,7 @@ types JominiMultiplayerLobby
 									margin = { -8 0 }
 
 									button_tab = {
+										shortcut = "tab_1"
 										name = "show_players"
 										layoutpolicy_horizontal = expanding
 
@@ -2340,6 +2341,7 @@ types JominiMultiplayerLobby
 									}
 
 									button_tab = {
+										shortcut = "tab_2"
 										name = "show_settings"
 										layoutpolicy_horizontal = expanding
 

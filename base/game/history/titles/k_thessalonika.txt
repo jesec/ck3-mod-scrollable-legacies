@@ -623,6 +623,7 @@ c_kalliopolis = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -778,6 +779,7 @@ d_strymon = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -853,6 +855,7 @@ c_mosynopolis = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1023,6 +1026,7 @@ d_aegean_islands = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1102,6 +1106,7 @@ c_naxos = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1170,6 +1175,7 @@ c_abydos = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1256,6 +1262,7 @@ c_lesbos = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1353,6 +1360,7 @@ c_chios = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1454,6 +1462,7 @@ c_rhodos = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1551,6 +1560,7 @@ d_thessalonika = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1929,6 +1939,7 @@ c_thessalia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -2017,6 +2028,7 @@ c_demetrias = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}

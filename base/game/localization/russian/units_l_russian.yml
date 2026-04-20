@@ -35,7 +35,7 @@
  UNIT_STATE_SIEGING: "Осада"
  UNIT_STATE_EMBARKED: "На борту"
  UNIT_STATE_GATHERING: "Сбор: осталось $VALUE$"
- UNIT_STATE_MOVING: "Движется"
+ UNIT_STATE_MOVING: "Перемещение: осталось $DAYS_LEFT$ дн."
  UNIT_STATE_RAIDING: "Совершает налет"
  UNIT_STATE_BARTERING: "Торг"
  UNIT_STATE_RETREATING: "Отступает в провинцию [PROVINCE.GetName]"

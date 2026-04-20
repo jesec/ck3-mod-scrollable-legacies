@@ -78,6 +78,7 @@ window = {
 				button_tab = {
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
+					shortcut = "tab_1"
 
 					onclick = "[GetVariableSystem.Set( 'tax_slot_vassal_tab', 'manage_vassals' )]"
 					down = "[GetVariableSystem.HasValue( 'tax_slot_vassal_tab', 'manage_vassals' )]"
@@ -88,6 +89,7 @@ window = {
 				button_tab = {
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
+					shortcut = "tab_2"
 
 					onclick = "[GetVariableSystem.Set( 'tax_slot_vassal_tab', 'assign_vassals' )]"
 					down = "[GetVariableSystem.HasValue( 'tax_slot_vassal_tab', 'assign_vassals' )]"

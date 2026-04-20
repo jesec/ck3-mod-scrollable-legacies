@@ -4,44 +4,45 @@
  travel_walking_modifier_desc:0 "You are without mounts and hoofin' it to your destination"
  travel_guide_modifier:0 "Local Guide"
  travel_guide_modifier_desc:0 "You have hired a local guide to help you navigate"
+ temporary_travel_character_limit_tt: "and will go back to being a [wanderer|E] immediately when [travel|E] ends"
  
  # New Travel Options
  experienced_captains_option:0 "Hire Experienced Captains"
  experienced_captains_option_desc:0 "You will send word for experienced captains to join your entourage, significantly reducing the danger of traveling across sea and ocean."
  captain_recruited.t:0 "Captain Hired"
- captain_recruited.tt:0 "A seafarer with the [GetTrait('forder').GetName( GetNullCharacter )] trait will join your entourage"
+ captain_recruited.tt:0 "A seafarer with the [GetTrait('forder').GetName( GetNullCharacter )] trait will join your entourage $temporary_travel_character_limit_tt$"
  
  hire_experienced_mercenaries_option:0 "Hire Mercenary Guards"
  hire_experienced_mercenaries_option_desc:0 "You will hire hardened mercenaries to join your entourage as guards, increasing overall safety and speed."
  mercenary_leader.t:0 "Mercenary Captain Hired"
- mercenary_leader_recruited.tt:0 "A [mercenary|E] captain will join your entourage"
+ mercenary_leader_recruited.tt:0 "A [mercenary|E] captain will join your entourage $temporary_travel_character_limit_tt$"
  available_mercenary.tt:0 "There is an available, unhired [mercenary|E] within range"
 
  hire_jungle_expert_option:0 "Hire Jungle Stalker"
  hire_jungle_expert_option_desc:0 "You will send word for experts in jungle terrain to join your entourage, significantly reducing the danger of traveling across jungle terrain."
  jungle_stalker_recruited.t:0 "Jungle Stalker Hired"
- jungle_stalker_recruited.tt:0 "A guide with the [GetTrait('jungle_stalker').GetName( GetNullCharacter )] trait will join your entourage"
+ jungle_stalker_recruited.tt:0 "A guide with the [GetTrait('jungle_stalker').GetName( GetNullCharacter )] trait will join your entourage $temporary_travel_character_limit_tt$"
 
  hire_mountaineer_option:0 "Hire Mountaineer"
  hire_mountaineer_option_desc:0 "You will send word for experts in mountainous terrain to join your entourage, significantly reducing the danger of traveling across high peaks."
  mountaineer_recruited.t:0 "Mountaineer Hired"
- mountaineer_recruited.tt:0 "A guide with the [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] trait will join your entourage"
+ mountaineer_recruited.tt:0 "A guide with the [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] trait will join your entourage $temporary_travel_character_limit_tt$"
 
  hire_forder_option:0 "Hire Forder"
  hire_forder_option_desc:0 "You will send word for experts in wetlands terrain to join your entourage, significantly reducing the danger of traveling through wetlands and floodplains."
  forder_recruited.t:0 "Forder Hired"
- forder_recruited.tt:0 "A guide with the [GetTrait('forder').GetName( GetNullCharacter )] trait will join your entourage"
+ forder_recruited.tt:0 "A guide with the [GetTrait('forder').GetName( GetNullCharacter )] trait will join your entourage $temporary_travel_character_limit_tt$"
  wetlands_danger_reduction.tt:0 "[travel|E] [travel_danger|E] in Provinces with wetlands or floodplains terrain: @travel_danger_icon!#P -25#!"
 
  hire_rough_terrain_expert_option:0 "Hire Forest Guide"
  hire_rough_terrain_expert_option_desc:0 "You will send word for experts in forested terrain to join your entourage, significantly reducing the danger of traveling through forests."
  rough_terrain_expert_recruited.t:0 "Forest Guide Hired"
- rough_terrain_expert_recruited.tt:0 "A guide with the [GetTrait('forest_fighter').GetName( GetNullCharacter )] trait will join your entourage"
+ rough_terrain_expert_recruited.tt:0 "A guide with the [GetTrait('forest_fighter').GetName( GetNullCharacter )] trait will join your entourage $temporary_travel_character_limit_tt$"
 
  hire_desert_warrior_option:0 "Hire Desert Warrior"
  hire_desert_warrior_option_desc:0 "You will send word for experts in desert terrain to join your entourage, significantly reducing the danger of traveling through dry and arid lands."
  desert_warrior_recruited.t:0 "Desert Warrior Hired"
- desert_warrior_recruited.tt:0 "A guide with the [GetTrait('desert_warrior').GetName( GetNullCharacter )] trait will join your entourage"
+ desert_warrior_recruited.tt:0 "A guide with the [GetTrait('desert_warrior').GetName( GetNullCharacter )] trait will join your entourage $temporary_travel_character_limit_tt$"
 
  court_physician_option:1 "Bring Medical Equipment"
  court_physician_option_suffix: " #weak (only countering plagues)#!"
@@ -51,7 +52,7 @@
  cultural_ambassador_option:0 "Hire Cultural Ambassador"
  cultural_ambassador_option_desc:0 "You hire someone to serve as a Cultural Ambassador on your journey to disseminate information about your culture to all the baronies you travel through."
  cultural_ambassador_recruited.t:0 "Cultural Ambassador Hired"
- cultural_ambassador_recruited.tt:0 "A Cultural Ambassador with high [diplomacy|E] will be recruited to your entourage"
+ cultural_ambassador_recruited.tt:0 "A Cultural Ambassador with high [diplomacy|E] will be recruited to your entourage $temporary_travel_character_limit_tt$"
 
  fancy_mounts_option:0 "Superior Mounts"
  fancy_mounts_option_desc:0 "Your experienced stable-hands outfit your entourage with the finest mounts in all the realm."

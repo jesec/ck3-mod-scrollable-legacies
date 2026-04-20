@@ -1,0 +1,7 @@
+﻿l_japanese:
+ holy_site_parameter_jerusalem_conversion_bonus: "$holy_site_jerusalem_name$における伯爵領の改宗速度"
+ holy_site_parameter_kerala_conversion_bonus: "$holy_site_kerala_name$における伯爵領の改宗速度"
+ holy_site_parameter_iona_conversion_bonus: "$holy_site_iona_name$における伯爵領の改宗速度"
+ holy_site_parameter_visoki_conversion_resistance_bonus: "$holy_site_visoki_name$における伯爵領の改宗に対する抵抗"
+ holy_site_parameter_cordoba_conversion_bonus: "$holy_site_cordoba_name$における伯爵領の改宗速度"
+ holy_site_parameter_wadi_el_milk_conversion_resistance_bonus: "$holy_site_wadi_el_milk_name$における伯爵領の改宗に対する抵抗"

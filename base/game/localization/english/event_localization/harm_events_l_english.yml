@@ -505,7 +505,7 @@
 
  harm.1101.t.prefix:0 "A Bustling Settlement"
  harm.1101.t:0 "$harm.1101.t.prefix$: Look Out!"
- harm.1101.desc:0 "Once more I ride the streets of [ROOT.Char.GetCurrentLocation.GetName], my entourage proudly carrying my banner behind me. A small errand in town required my attention, so we've made a day of it, but I long for the comforts of home.\n\nAs we come to a crossing, I'm distracted by the titters of a group of impressed youths, and fail to hear the sound of the speeding, rattling cart speeding towards me until it's driver screams in alarm."
+ harm.1101.desc:0 "Once more I ride the streets of [ROOT.Char.GetCurrentLocation.GetName], my entourage proudly carrying my banner behind me. A small errand in town required my attention, so we've made a day of it, but I long for the comforts of home.\n\nAs we come to a crossing, I'm distracted by the titters of a group of impressed youths, and fail to hear the sound of the speeding, rattling cart speeding towards me until its driver screams in alarm."
  harm.1101.a:0 "Try to jump clear."
  harm.1101.a.tt.success:0 "An almighty-crash and a harrowing whinnie behind you"
  harm.1101.a.tt.failure:0 "The world is a blur of shattered wood and broken limbs"

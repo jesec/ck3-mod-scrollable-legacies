@@ -45,7 +45,7 @@
  force_onto_council.actor.tt: "Vous êtes devenu le [council_task.GetPositionName|l] de votre seigneur lige"
  force_onto_council.actor.tt.duration: "Vous ne pouvez pas être renvoyé pendant [SCOPE.ScriptValue('council_position_locked_value')|0] ans"
  arrange_marriage_interaction_extra_icon: "@weak_hook_icon!Vous pouvez utilisez votre [hook|El] pour lui faire accepter"
- ask_for_pardon_interaction: "Demander Pardon"
+ ask_for_pardon_interaction: "Demander pardon"
  ask_for_pardon_interaction_desc: "Demander à votre [top_liege|El] de pardonner vos [crimes|El] afin d’effacer tout motif d’[Concept( 'imprisonment_reason', 'emprisonnement' )|E], de [Concept( 'banish_reason', 'bannissement' )|E], de [Concept( 'revoke_title_reason', 'révocation de titre' )|E] ou d’[Concept( 'execute_reason', 'exécution' )|E] qui vous ciblerait."
  ask_for_pardon_interaction_minister_desc: "Demander au [minister_of_justice|El] de pardonner vos [crimes|El] afin d’effacer tout motif d’[Concept( 'imprisonment_reason', 'emprisonnement' )|E], de [Concept( 'banish_reason', 'bannissement' )|E], de [Concept( 'revoke_title_reason', 'révocation de titre' )|E] ou d’[Concept( 'execute_reason', 'exécution' )|E] qui vous ciblerait."
  ask_for_pardon_interaction_accept_toast: "Pardon accordé"

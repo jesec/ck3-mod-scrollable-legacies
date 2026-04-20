@@ -63,7 +63,7 @@
  tgp_japan_general.9550.desc.fam: "\n\nМы с семьей соберемся вместе."
  tgp_japan_general.9550.desc.end: "С каждой секундой лисы всё ближе подбираются к курятнику.\n\nКак именно дом [ROOT.Char.GetHouse.GetNameNoTooltip] встретит свой последний час?"
  every_close_family_house_member_in_court: "Каждый [Concept('spouse', 'супруг')|E] и [Concept('close_family', 'близкий родственник')|E] из членов [Concept('house', 'дома')|E] при [Concept('court', 'дворе')|E] [Select_CString(loser.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',loser.GetShortUIName))], а также вы сами,"
- every_house_member_in_court: "[Concept('spouse', 'супруг')|E] [Select_CString(loser.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', loser.GetShortUIName))] и каждый член [Concept('house', 'дома')|E] при [Concept('court', 'дворе')|E] [Select_CString(loser.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', loser.GetShortUIName))]"
+ every_house_member_in_court: "[Concept('spouses', 'Супруги')|E] [Select_CString(loser.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',loser.GetShortUIName))] и каждый член [Concept('house', 'дома')|E] при [Select_CString(loser.IsLocalPlayer, 'вашем', Select_CString(loser.IsFemale, 'ее', 'его' ))] [Concept('court', 'дворе')|E]"
  is_killed_by_you_and_you_kill_self: "@death_icon! покончит с собой, чтобы избежать позорной смерти, которую сулит [winner.GetShortUIName]"
  tgp_japan_general.9550.a.alone: "Я не приму позорную смерть!"
  tgp_japan_general.9550.a.alone.flavor: "Уж лучше умереть от собственной руки"

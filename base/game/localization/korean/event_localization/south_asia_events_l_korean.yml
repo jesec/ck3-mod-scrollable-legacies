@@ -105,7 +105,7 @@
  south_asia.0050.desc: "마우리아, 쿠샨, 굽타, 팔라, 프라티하라. 거의 천 년에 걸쳐 인더스 갠지스 평원은 여러 위대한 제국의 거점이자 전장이 되어 왔다. 이국에서 온 통치자도 있었고, 아대륙에서는 그보다 더 많은 통치자가 나타났다.\n\n[founder.GetHouse.GetNameNoTooltip]의 역사는 그렇게 오래되지는 않았으나, 우리는 저 가문들이 모두 실패한 곳에서 우리만의 봉역을 세웠다. 이제 우리도 제국을 세우고 정부 기관을 설립해 이 모든 땅에서 살아가는 수많은 이들과 신앙을 통치할 때가 왔다."
  south_asia.0050.a: "델리에 새로운 수도가 들어서리라!"
  south_asia.0050.b: "제국의 심장부는 라호르가 될 것이다."
- south_asia.0050.c: "[ROOT.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]에서 제국을 다스릴 것이다."
+ south_asia.0050.c: "[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]에서 제국을 다스릴 것이다."
  south_asia.0051.t: "[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]의 술탄국"
  south_asia.0051.desc: "[founder.GetHouse.GetNameNoTooltip] 집안이 인더스 갠지스 평원에 대한 지배력을 강화했으며, 옛 힌두 및 불교 가문이 남긴 폐허 위에 새로운 이슬람 제국을 세웠다는 소식이 전해졌다.\n\n[founder.GetFirstNameNoTooltip](은)는 자기 자신을 [founder.GetFullName](으)로 칭하며 [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]에서 인도 전역을 통치하겠다는 제국의 야심을 드러냈고, 빠르게 두려움의 대상이자 경외의 대상이 되어 가고 있다."
  south_asia.0051.a: "$middle_europe_decisions.0016.a$"

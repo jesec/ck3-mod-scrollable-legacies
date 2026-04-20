@@ -48,7 +48,7 @@
  FACTIONS_WINDOW_DISCONTENT_TO_WEAK: "太过弱小，无法发送最后通牒"
  FACTIONS_WINDOW_CASSALC_CANT_CREATE_JOIN: "无法加入派系的封臣"
  FACTIONS_WINDOW_CREATE_JOIN_EXPLANATION: "让你的[vassal|E]成为你的[friend|E]、[lover|E]、[prisoner|E]或[ally|E]可以防止他们加入[faction|E]。你也可以让他们[cowed|E]，或是得到对他们的[strong_hook|E]。"
- FACTIONS_WINDOW_FACTION_AT_WAR: "处于战争"
+ FACTIONS_WINDOW_FACTION_AT_WAR: "处于[war|E]！你必须拥有至少[GetDefine( 'NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION' )|V0][war_score|E]才能使派系解散并赢得战争。"
  FACTION_WINDOW_MEMBER_SINGULAR: "$NUMBER|V$位成员"
  FACTION_WINDOW_MEMBER_PLURAL: "$NUMBER|V$位成员"
  FACTION_WINDOW_LEAVE: "退出"

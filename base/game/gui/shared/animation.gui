@@ -61,7 +61,7 @@ template Animation_FadeIn_BottomLeft
 }
 template Animation_FadeOut_BottomLeft
 {
-     position = { -60 60 }
+    position = { -60 60 }
 }
 
 # Package of standard show/hide states
@@ -240,43 +240,43 @@ template Glow_progress_icon
         blend_mode = colordodge
         visible = "[EqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
     }
-    
+
     state = {
         trigger_when = "[EqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
         name = a
         next = b
-    
+
         using = Animation_Curve_Default
         duration = 0.6
-    
+
         modify_texture = {
             name = "glow"
             alpha = 0.8
         }
     }
-    
+
     state = {
         name = b
         next = c
-    
+
         using = Animation_Curve_Default
         duration = 0.6
         delay = 0.4
-        
-    
+
+
         modify_texture = {
             name = "glow"
             alpha = 0
         }
     }
-    
+
     state = {
         name = c
         next = a
-    
+
         using = Animation_Curve_Default
         duration = 1.6
-    
+
         modify_texture = {
             name = "glow"
             alpha = 0
@@ -335,9 +335,9 @@ types Animations
         alpha = 0
 
         state = {
-        	block "start_state"
-        	{
-        	}
+            block "start_state"
+            {
+            }
             next = b
 
             using = Animation_Curve_Default
@@ -418,7 +418,9 @@ types Animations
     # Use this to signal that an action means serious business, ie. on a button that starts a war
     type animation_aggressive = widget {
         parentanchor = center
-        size = { 100% 100% }
+        block "size" {
+            size = { 100% 100% }
+        }
 
         state = {
             name = _show
@@ -432,18 +434,23 @@ types Animations
             texture = "gfx/interface/window_siege/base_holding_fire.dds"
             using = Mask_Rough_Edges
 
-            modify_texture = {
-                name = "mask"
-                texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-                blend_mode = alphamultiply
-                mirror = vertical
+            block "animation_mask" {
+                modify_texture = {
+                    name = "mask"
+                    texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
+                    blend_mode = alphamultiply
+                    mirror = vertical
+                }
             }
-            
+
             modify_texture = {
                 name = "orange"
                 texture = "gfx/interface/colors/orange.dds"
                 blend_mode = colordodge
-                alpha = 0.2
+
+                block "alpha" {
+                    alpha = 0.2
+                }
             }
 
             modify_texture = {
@@ -463,7 +470,7 @@ types Animations
         name = "effect_sonar"
         parentanchor = center
         size = { 100% 100% }
-      
+
         alwaystransparent = yes
         alpha = 0
         scale = 0
@@ -502,7 +509,7 @@ types Animations
         name = "button_highlight"
         parentanchor = center
         size = { 100% 100% }
-      
+
         alwaystransparent = yes
         alpha = 0
         scale = 0
@@ -634,6 +641,77 @@ types Animations
                     alpha = 0.9
                 }
             }
+        }
+    }
+
+    type glow_effect = icon {
+        size = { 120% 120% }
+        texture = "gfx/interface/colors/white.dds"
+
+        block "glow_color" {
+            using = Color_Bright_Yellow
+        }
+        alpha = 0.7
+        parentanchor=center
+
+        state = {
+            name = _show
+            using = Animation_Curve_Default
+            duration = 0.3
+            alpha = 0.7
+        }
+
+        state = {
+            name = _hide
+            using = Animation_Curve_Default
+            duration = 0.6
+            alpha = 0
+        }
+
+        state = {
+            name = "a"
+            next = "b"
+            trigger_on_create = yes
+            alpha = 0.7
+
+            modify_texture = {
+                name = "glow_1"
+                rotate_uv = 0
+            }
+
+            modify_texture = {
+                name = "glow_2"
+                rotate_uv = 0
+            }
+        }
+
+        state = {
+            name = "b"
+            next = "a"
+            duration = 7
+
+            modify_texture = {
+                name = "glow_1"
+                rotate_uv = 360
+            }
+
+            modify_texture = {
+                name = "glow_2"
+                rotate_uv = 360
+            }
+        }
+
+        modify_texture = {
+            name = "glow_1"
+            texture = "gfx/interface/component_masks/mask_glow.dds"
+            blend_mode = alphamultiply
+        }
+
+        modify_texture = {
+            name = "glow_2"
+            texture = "gfx/interface/component_masks/mask_glow.dds"
+            blend_mode = alphamultiply
+            mirror = horizontal
         }
     }
 }

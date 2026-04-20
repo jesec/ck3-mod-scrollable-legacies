@@ -219,7 +219,7 @@
  SUCCESSION_EVENT_WINDOW_GAME_OVER_LOW_SPLENDOR_SHORT: "而它依然无足轻重，没能在历史上留下任何持久的印记"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR: "但它依然籍籍无名，很快就会被历史遗忘"
  #########################################
- SUCCESSION_EVENT_WINDOW_DEAD_DESC: "[CHARACTER.Custom('DeathMessageIntro')][CHARACTER.Custom('DeathMessageReason')][CHARACTER.Custom('DeathMessageOutro')]"
+ SUCCESSION_EVENT_WINDOW_DEAD_DESC: "[Character.Custom('DeathMessageIntro')][Character.Custom('NicknameReason')][Character.Custom('DeathMessageReason')][Character.Custom('DeathMessageOutro')]"
  SUCCESSION_EVENT_WINDOW_HEIR_DESC: "[CHARACTER.GetTitledFirstNameNoTooltip][CHARACTER.Custom('GetSuccessionHeirMotion')]。[CHARACTER.Custom('HeirMessageInterface')]"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_DESC: "[CHARACTER.Custom('GameOverMessageInterface')]。[CHARACTER.Custom('GameOverMessageInterfaceDuration')][CHARACTER.Custom('GameOverMessageInterfaceSplendor')]。[CHARACTER.Custom('GameOverMessageNotableAchievements')]"
  SUCCESSION_EVENT_WINDOW_END_DATE_DESC: "已到达游戏结束日期。\n\n[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceDuration')][SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceSplendor')]。[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageNotableAchievements')]"
@@ -299,3 +299,5 @@
  #Variable loc for lamp
  succession_heir_throne: "登基"
  succession_heir_leader: "作为领袖继续前进"
+ #Nicknames
+ SUCCESSION_EVENT_WINDOW_NICKNAME: "生前被称为[ROOT.Char.GetNickname]。"

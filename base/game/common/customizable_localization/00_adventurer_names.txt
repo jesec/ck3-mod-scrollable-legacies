@@ -1415,6 +1415,7 @@
 						OR = {
 							geographical_region = world_asia_east
 							geographical_region = world_asia_southeast_mainland
+							geographical_region = world_burma
 						}
 					}
 				}

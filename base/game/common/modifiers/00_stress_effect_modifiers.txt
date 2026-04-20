@@ -1,7 +1,7 @@
 ﻿# Modifiers applied from Stress Effect Events
 
 stress_frozen_grief = {
-	icon = stress_negative
+	icon = stress_mixed
 
 	health = -0.5
 	stress_gain_mult = -0.2
@@ -86,27 +86,27 @@ stress_busy_writing = {
 
 #Ongoing Stress Event Modifiers
 overworking_diplomacy_modifier = {
-	icon = diplomacy_negative
+	icon = diplomacy_mixed
 	diplomacy = major_skill_bonus
 	stress_gain_mult = 0.1
 }
 overworking_martial_modifier = {
-	icon = martial_negative
+	icon = martial_mixed
 	martial = major_skill_bonus
 	stress_gain_mult = 0.1
 }
 overworking_stewardship_modifier = {
-	icon = stewardship_negative
+	icon = stewardship_mixed
 	stewardship = major_skill_bonus
 	stress_gain_mult = 0.1
 }
 overworking_intrigue_modifier = {
-	icon = intrigue_negative
+	icon = intrigue_mixed
 	intrigue = major_skill_bonus
 	stress_gain_mult = 0.1
 }
 overworking_learning_modifier = {
-	icon = learning_negative
+	icon = learning_mixed
 	learning = major_skill_bonus
 	stress_gain_mult = 0.1
 }
@@ -136,7 +136,7 @@ irritating_everyone_courtier_modifier = {
 }
 
 encouraged_city_burn_modifier = {
-	icon = outdoors_negative
+	icon = outdoors_mixed
 	general_opinion = -10
 	diplomacy = -4
 	stress_gain_mult = -0.2
@@ -273,7 +273,7 @@ carrion_writer_modifier = {
 }
 
 pickled_human_head_footstool = {
-	icon = prestige_negative
+	icon = prestige_mixed
 	courtier_opinion = -10
 	diplomacy = medium_skill_penalty
 	stewardship = medium_skill_penalty
@@ -329,7 +329,7 @@ tragic_stoner_modifier = {
 }
 
 good_exercise_modifier = {
-	icon = prowess_positive
+	icon = prowess_mixed
 	prowess = 1
 	health = minor_health_bonus
 	general_opinion = -5

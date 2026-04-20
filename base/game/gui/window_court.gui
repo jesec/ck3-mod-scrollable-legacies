@@ -56,55 +56,101 @@
 
 					button_tab = {
 						name = "court_positions_tab_button_tutorial_uses_this"
-						layoutpolicy_horizontal = expanding
-						text = COURT_WINDOW_COURT_POSITIONS
+						shortcut = "tab_1"
 
 						onclick = "[CourtWindow.SetShowPositions]"
 						down = "[CourtWindow.IsShowPositions]"
 
-						text_single = {
-							parentanchor = vcenter|right
-							position = { -20 -2 }
-							text = "[GetDataModelSize(CourtWindow.GetCourtOwner.GetEmployedCourtPositions)]"
+						alwaystransparent = "[CourtWindow.IsShowPositions]"
 
-							default_format = "#low"
+						blockoverride "tab_label"
+						{
+							text = COURT_WINDOW_COURT_POSITIONS
+							max_width = 110
+						}
 
-							alpha = "[Select_float( GreaterThan_int32(GetDataModelSize(CourtWindow.GetCourtOwner.GetEmployedCourtPositions), '(int32)0'), '(float)1.0', '(float)0.5' )]"
+						blockoverride "icon_visible" {}
+
+						blockoverride "tab_icon"
+						{
+							texture = "gfx/interface/icons/flat_icons/court_position.dds"
+							down = "[CourtWindow.IsShowPositions]"
+							size = { 37 37 }
+						}
+
+						blockoverride "extra_info"
+						{
+							text_single = {
+								text = "[GetDataModelSize(CourtWindow.GetCourtOwner.GetEmployedCourtPositions)]"
+								align = nobaseline
+								default_format = "#low"
+
+								margin_top = 3
+
+								alpha = "[Select_float( GreaterThan_int32(GetDataModelSize(CourtWindow.GetCourtOwner.GetEmployedCourtPositions), '(int32)0'), '(float)1.0', '(float)0.5' )]"
+							}
 						}
 					}
 
 					button_tab = {
-						layoutpolicy_horizontal = expanding
-						text = "COURT_WINDOW_YOUR_COURTIERS"
-
 						onclick = "[CourtWindow.SetShowCourt]"
 						down = "[CourtWindow.IsShowCourt]"
-					}
+						shortcut = "tab_2"
 
+						alwaystransparent = "[CourtWindow.IsShowCourt]"
+
+						blockoverride "tab_label"
+						{
+							text = "COURT_WINDOW_YOUR_COURTIERS"
+							max_width = 130
+						}
+
+						blockoverride "icon_visible" {}
+
+						blockoverride "tab_icon"
+						{
+							texture = "gfx/interface/icons/flat_icons/three_people.dds"
+							size = { 37 37 }
+							down = "[CourtWindow.IsShowCourt]"
+						}
+					}
 
 					button_tab = {
 						layoutpolicy_horizontal = expanding
 						onclick = "[CourtWindow.SetShowPrison]"
 						down = "[CourtWindow.IsShowPrison]"
+						shortcut = "tab_3"
 
-						text_single = {
+						alwaystransparent = "[CourtWindow.IsShowPrison]"
+
+						blockoverride "tab_label"
+						{
 							text = "INTRIGUE_WINDOW_PRISONERS"
-							parentanchor = center
-
 							max_width = 100
-							default_format = "#low"
-
 							alpha = "[Select_float( GreaterThan_int32(CourtWindow.GetPrisoners.GetTotalNumber, '(int32)0'), '(float)1.0', '(float)0.5' )]"
 						}
 
-						text_single = {
-							parentanchor = vcenter|right
-							position = { -20 0 }
-							text = "[CourtWindow.GetPrisoners.GetTotalNumber]"
+						blockoverride "icon_visible" {}
 
-							default_format = "#low"
-
+						blockoverride "tab_icon"
+						{
+							texture = "gfx/interface/icons/flat_icons/prisoner.dds"
+							size = { 37 37 }
+							down = "[CourtWindow.IsShowPrison]"
 							alpha = "[Select_float( GreaterThan_int32(CourtWindow.GetPrisoners.GetTotalNumber, '(int32)0'), '(float)1.0', '(float)0.5' )]"
+						}
+
+						blockoverride "extra_info"
+						{
+							text_single = {
+								text = "[CourtWindow.GetPrisoners.GetTotalNumber]"
+								align = nobaseline
+								default_format = "#low"
+
+								margin_top = 3
+
+								alpha = "[Select_float( GreaterThan_int32(CourtWindow.GetPrisoners.GetTotalNumber, '(int32)0'), '(float)1.0', '(float)0.5' )]"
+							}
 						}
 					}
 				}
@@ -303,18 +349,21 @@
 								datamodel = "[CharacterSelectionList.GetList]"
 								visible = "[Not(CharacterSelectionList.IsBuildingList)]"
 								layoutpolicy_horizontal = expanding
-								addcolumn = 520
+								addcolumn = 530
 								addrow = 148
 								datamodel_reuse_widgets = yes
 
 								item = {
 									vbox = {
-										maximumsize = { 520 148 }
+										maximumsize = { 530 148 }
 
 										widget_character_list_item_finder = {
 											layoutpolicy_horizontal = expanding
 											blockoverride "divider" {}
 											blockoverride "character_relation" {}
+											blockoverride "character_name_width" {
+												max_width = 200
+											}
 
 											blockoverride "gridbox_items"
 											{
@@ -359,7 +408,7 @@
 													default_format = "#low"
 												}
 
-												
+
 											}
 
 											button_checkbox = {
@@ -378,56 +427,7 @@
 
 						blockoverride "bottom_bar"
 						{
-							hbox = {
-								margin = { 10 0 }
-								spacing = 3
-
-								text_single = {
-									text = "MASS_PRISONER_ACTIONS"
-									default_format = "#low"
-									align = nobaseline
-								}
-
-								spacer = {
-									size = { 5 5 }
-								}
-
-								button_round  = {
-									name = "ransom"
-									enabled = "[CourtWindow.CanDoMassPrisonerAction('ransom')]"
-
-									button_prison_ransom = {
-										parentanchor = center
-										onclick = "[CourtWindow.MassPrisonerAction('ransom')]"
-										tooltip = "[CourtWindow.GetMassPrisonerActionTooltip('ransom')]"
-										using = tooltip_se
-									}
-								}
-
-								button_round  = {
-									name = "release"
-									enabled = "[CourtWindow.CanDoMassPrisonerAction('release')]"
-
-									button_prison_release = {
-										parentanchor = center
-										onclick = "[CourtWindow.MassPrisonerAction('release')]"
-										tooltip = "[CourtWindow.GetMassPrisonerActionTooltip('release')]"
-										using = tooltip_se
-									}
-								}
-
-								button_round  = {
-									name = "execute"
-									enabled = "[CourtWindow.CanDoMassPrisonerAction('execute')]"
-
-									button_prison_execute = {
-										parentanchor = center
-										onclick = "[CourtWindow.MassPrisonerAction('execute')]"
-										tooltip = "[CourtWindow.GetMassPrisonerActionTooltip('execute')]"
-										using = tooltip_se
-									}
-								}
-							}
+							hbox_mass_prison_actions = {}
 						}
 					}
 
@@ -581,6 +581,22 @@
 								}
 							}
 						}
+
+						divider = {
+							size = { 0 5 }
+							layoutpolicy_horizontal = expanding
+						}
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							margin_top = 7
+							margin_left = 15
+							margin_bottom = -7
+
+							hbox_mass_prison_actions = {}
+
+							expand = {}
+						}
 					}
 				}
 			}
@@ -719,7 +735,7 @@
 						layoutpolicy_horizontal = expanding
 						datacontext = "[CharacterSelectionList.GetFilter('trait_filter')]"
 					}
-					
+
 					filter_item = {
 						layoutpolicy_horizontal = expanding
 						datacontext = "[CharacterSelectionList.GetFilter('hook_filter')]"
@@ -757,7 +773,6 @@
 
 types PrisonTypes
 {
-
 	type prison_interactions_hbox = hbox {
 		spacing = 1
 
@@ -822,6 +837,58 @@ types PrisonTypes
 			}
 		}
 	}
+	
+	type hbox_mass_prison_actions = hbox {
+		margin = { 10 0 }
+		spacing = 3
 
+		text_single = {
+			text = "MASS_PRISONER_ACTIONS"
+			default_format = "#low"
+			align = nobaseline
+		}
 
+		spacer = {
+			size = { 5 5 }
+		}
+
+		button_round  = {
+			name = "ransom"
+			enabled = "[CourtWindow.CanDoMassPrisonerAction('ransom')]"
+
+			button_prison_ransom = {
+				shortcut = "sub_tab_1"
+				parentanchor = center
+				onclick = "[CourtWindow.MassPrisonerAction('ransom')]"
+				tooltip = "[CourtWindow.GetMassPrisonerActionTooltip('ransom')]"
+				using = tooltip_se
+			}
+		}
+
+		button_round  = {
+			name = "release"
+			enabled = "[CourtWindow.CanDoMassPrisonerAction('release')]"
+
+			button_prison_release = {
+				shortcut = "sub_tab_2"
+				parentanchor = center
+				onclick = "[CourtWindow.MassPrisonerAction('release')]"
+				tooltip = "[CourtWindow.GetMassPrisonerActionTooltip('release')]"
+				using = tooltip_se
+			}
+		}
+
+		button_round  = {
+			name = "execute"
+			enabled = "[CourtWindow.CanDoMassPrisonerAction('execute')]"
+
+			button_prison_execute = {
+				shortcut = "sub_tab_3"
+				parentanchor = center
+				onclick = "[CourtWindow.MassPrisonerAction('execute')]"
+				tooltip = "[CourtWindow.GetMassPrisonerActionTooltip('execute')]"
+				using = tooltip_se
+			}
+		}
+	}	
 }

@@ -26,6 +26,7 @@
  building_type_legendary_statue_desc: "$building_legendary_statue_desc$"
  building_type_legendary_watchtower_desc: "$building_legendary_watchtower_desc$"
  building_type_legendary_hunting_lodge_desc: "$building_legendary_hunting_lodge_desc$"
+ building_type_legendary_hunting_lodge_effect: "#flavor 잠금 해제:#!\n$ep2_activities_legacy_4_hunts_up_legendary_hunt_sightings_effect$\n해당 [county|E]에서 [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] 성공 확률 증가: #P +20#!"
  shrine_of_highgod: "[ROOT.Province.GetCounty.GetFaith.HighGodName|U]의 사당"
  province_shrine: "[ROOT.Province.GetNameNoTooltip|U] 대사당"
  shrine_of_healthgod: "[ROOT.Province.GetCounty.GetFaith.HealthGodNamePossessive|U] 대사당"

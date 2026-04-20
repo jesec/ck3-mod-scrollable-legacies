@@ -26,6 +26,7 @@
  building_type_legendary_statue_desc: "$building_legendary_statue_desc$"
  building_type_legendary_watchtower_desc: "$building_legendary_watchtower_desc$"
  building_type_legendary_hunting_lodge_desc: "$building_legendary_hunting_lodge_desc$"
+ building_type_legendary_hunting_lodge_effect: "#flavor Schaltet frei:#!\n$ep2_activities_legacy_4_hunts_up_legendary_hunt_sightings_effect$\nErhöhte [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName]-Erfolgschance in dieser [county|E]: #P +20#!"
  shrine_of_highgod: "Schrein der höchsten Macht ([ROOT.Province.GetCounty.GetFaith.HighGodName])"
  province_shrine: "Großschrein von [ROOT.Province.GetNameNoTooltip|U]"
  shrine_of_healthgod: "Großschrein der heilenden Mächte ([ROOT.Province.GetCounty.GetFaith.HealthGodName])"

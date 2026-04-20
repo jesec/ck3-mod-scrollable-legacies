@@ -105,7 +105,7 @@
  south_asia.0050.desc: "孔雀王朝、贵霜王朝、笈多王朝、波罗王朝和波罗提诃罗王朝，千年以来，印度河‑恒河平原一直是许多伟大帝国的所在地和战场。一些统治者来自异域，而更多出身于次大陆自身。\n\n[founder.GetHouse.GetNameNoTooltip]家族没那么古老，但我们在这些王朝全都失败的地方，开创了一个我们自己的国家。是时候建立一个帝国和政府机构，来统治居住于这片土地上的众多民族和信仰了。"
  south_asia.0050.a: "新都将位于德里！"
  south_asia.0050.b: "我们会让拉合尔成为帝国的中心。"
- south_asia.0050.c: "帝国将在[ROOT.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]进行统治。"
+ south_asia.0050.c: "帝国将在[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]进行统治。"
  south_asia.0051.t: "[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]苏丹国"
  south_asia.0051.desc: "我们收到消息，[founder.GetHouse.GetNameNoTooltip]家族巩固了他们对印度河-恒河平原的控制，在昔日印度教和佛教王朝留下的废墟上建立了一个新的伊斯兰教帝国。\n\n[founder.GetFirstNameNoTooltip]怀揣着从[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]统治整个印度的帝国雄心，将自己塑造为[founder.GetFullName]，[founder.GetHerselfHimself]正迅速变得令人畏惧、令人敬佩。"
  south_asia.0051.a: "$middle_europe_decisions.0016.a$"

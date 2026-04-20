@@ -433,10 +433,10 @@ break_with_the_old_ways_decision = {
 		decision_to_second_step_button = "CHOOSE_REFORMATION_TYPE"
 		show_from_start = yes
 
-		item = { # Pluralist
+		item = { # Righteous: Chosen People
 			value = bwow_no_changes
 			current_description = bwow_no_changes_desc
-			localization = bwow_no_changes
+			localization = bwow_chosen_people
 			icon = "gfx/interface/icons/faith/tengri.dds"
 			ai_chance = {
 				value = 10
@@ -445,10 +445,10 @@ break_with_the_old_ways_decision = {
 			}
 		}
 
-		item = { # Righteous: Chosen People
+		item = { # Pluralist
 			value = bwow_chosen_people
 			current_description = bwow_chosen_people_desc
-			localization = bwow_chosen_people
+			localization = bwow_no_changes
 			icon = "gfx/interface/icons/icon_culture.dds"
 			ai_chance = {
 				value = 100
@@ -489,12 +489,17 @@ break_with_the_old_ways_decision = {
 	effect = {
 		trigger_event = religious_decision.0501
 		show_as_tooltip = {
-			root.faith = { remove_doctrine = unreformed_faith_doctrine }
+			if = {
+				limit = {
+					scope:bwow_no_changes = yes
+				}
+				root.faith = { remove_doctrine = unreformed_faith_doctrine }
+			}
 			if = {
 				limit = {
 					scope:bwow_chosen_people = yes
 				}
-				root.faith = { break_with_old_ways_become_chosen_people = yes }
+				root.faith = { break_with_old_ways_become_syncretic = yes }
 			}
 			if = {
 				limit = {

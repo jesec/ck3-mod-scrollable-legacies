@@ -304,6 +304,22 @@ window = {
 									using = Font_Size_Medium
 								}
 							}
+							
+							war_overview_center_panel_losses = {
+								blockoverride "left_context" {
+									datacontext = "[WarResultsWindow.GetPlayerSide]"
+								}
+								blockoverride "right_context" {
+									datacontext = "[WarResultsWindow.GetOpponentSide]"
+								}
+								blockoverride "spacing" {}
+								blockoverride "losses" {
+									expand = {}
+								}
+								blockoverride "size" {
+									size = { 25 25 }
+								}
+							}
 
 							vbox = {
 								visible = "[Not( WarResultsWindow.IsInvalidated )]"

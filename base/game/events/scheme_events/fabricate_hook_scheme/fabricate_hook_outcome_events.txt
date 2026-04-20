@@ -401,7 +401,7 @@ fabricate_hook_outcome.1005 = {
 # Generic notification
 fabricate_hook_outcome.2001 = {
 	type = character_event
-	window = scheme_target_event
+	window = scheme_conclusion_event_no_header
 	title = fabricate_hook_outcome.2001.t
 	desc = fabricate_hook_outcome.2001.desc
 	theme = fabricate_hook_scheme

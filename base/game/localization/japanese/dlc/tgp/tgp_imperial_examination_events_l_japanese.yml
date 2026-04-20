@@ -277,7 +277,7 @@
  governance_weaponry: "「槍しか持っていないと言う者が、実は弩を隠し持っている。どのような罰を課すべきか？」"
  governance_reinstatement: "「復職にふさわしい役人が復職を拒否され、逆にふさわしくない役人がその機会を与えられた。この状況をどう判断すべきか？」"
  governance_documents: "「役人が封をされた書類を正式な許可なしに開けてしまった場合、どのような懲罰を与えるべきか？」"
- governance_filial: "「死刑判決を受けた身寄りのいない犯罪者が、処刑後に恩赦を受けた場合、名誉を回復するために公式な書類を変更すべきか？」"
+ governance_filial: "「死刑判決を受けた身寄りのいない犯罪者が、処刑後に赦免を受けた場合、名誉を回復するために公式な書類を変更すべきか？」"
  imperial_examination.5000.a: "私の筆はどこだ！？"
  imperial_examination.5000.a.cheater: "最善を尽くそう…"
  imperial_examination.5000.b: "「[ROOT.Char.MakeScope.Var('has_exam_taker').Char.GetFirstNameNoTooltip]、行け！」"

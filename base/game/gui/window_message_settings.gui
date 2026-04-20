@@ -18,14 +18,18 @@
 	}
 
 	state = {
+		name = on_create
+		trigger_on_create = yes
+
+		on_start = "[GetVariableSystem.Set( 'settings', 'true'  )]"
+		on_start = "[GetVariableSystem.Clear( 'log' )]"
+	}
+
+	state = {
 		name = _hide
 		using = Animation_FadeOut_Quick
 		using = Sound_WindowHide_Standard
 	}
-
-	oncreate = "[BindTabsContext]"
-	oncreate = "[PdxGuiTabs.AddTab( 'settings' )]"
-	oncreate = "[PdxGuiTabs.AddTab( 'log' )]"
 
 	vbox = {
 		using = Window_Margins
@@ -47,6 +51,7 @@
 
 					onclick = "[CustomMessageWindow.Toggle]"
 					tooltip = "MESSAGE_SETTINGS_WINDOW_CUSTOM_MESSAGE_TT"
+					shortcut = new_custom_message
 				}
 			}
 
@@ -54,18 +59,77 @@
 			{
 				onclick = "[MessageSettingsWindow.CloseWithConfirmation]"
 			}
+			
+			button_menu = {
+				tooltip = "MY_REALM_COMPACT_SUBJECT_LIST"
+				position = { 5 -3 }
+				parentanchor = vcenter
+				visible = "[GetVariableSystem.Exists('log')]"
+				onclick = "[GetVariableSystem.Toggle('compact_message_log')]"
+				shortcut = compact_message_log
+			}
 		}
 
-		hbox_tab_buttons = {
-			blockoverride "tab_name"
-			{
-				text = "[PdxGuiTabItem.LocalizeTab( 'message_settings_tab' )]"
+		hbox = {
+			name = "message_settings_tabs" #tutorial uses this
+			layoutpolicy_horizontal = expanding
+
+			button_tab = {
+				name = "open_settings_tab"
+				shortcut = "tab_1"
+
+				down = "[GetVariableSystem.Exists( 'settings' )]"
+
+				onclick = "[GetVariableSystem.Set( 'settings', 'true' )]"
+				onclick = "[GetVariableSystem.Clear( 'log' )]"
+
+				alwaystransparent = "[GetVariableSystem.Exists( 'settings' )]"
+
+				blockoverride "tab_label"
+				{
+					text = "message_settings_tab_settings"
+					max_width = 220
+				}
+
+				blockoverride "icon_visible" {}
+
+				blockoverride "tab_icon"
+				{
+					texture = "gfx/interface/icons/flat_icons/army_automation.dds"
+					down = "[GetVariableSystem.Exists( 'settings' )]"
+				}
+			}
+
+			button_tab = {
+				name = "open_message_log_tab"
+				shortcut = "tab_2"
+
+				down = "[GetVariableSystem.Exists( 'log' )]"
+
+				onclick = "[GetVariableSystem.Set( 'log', 'true' )]"
+				onclick = "[GetVariableSystem.Clear( 'settings' )]"
+
+				alwaystransparent = "[GetVariableSystem.Exists( 'log' )]"
+
+				blockoverride "tab_label"
+				{
+					text = "message_settings_tab_log"
+					max_width = 220
+				}
+
+				blockoverride "icon_visible" {}
+
+				blockoverride "tab_icon"
+				{
+					texture = "gfx/interface/icons/flat_icons/history.dds"
+					down = "[GetVariableSystem.Exists( 'log' )]"
+				}
 			}
 		}
 
 		### SETTINGS TAB ###
 		vbox = {
-			visible = "[PdxGuiTabs.IsTabSet( 'settings' )]"
+			visible = "[GetVariableSystem.Exists( 'settings' )]"
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
 
@@ -81,6 +145,7 @@
 					margin_left = 20
 
 					layoutpolicy_horizontal = expanding
+					
 					text_label_left = {
 
 						text = "MESSAGE_SETTINGS_WINDOW_COLUMN_FILTER_TYPE"
@@ -205,7 +270,7 @@
 
 		### LOG TAB ###
 		scrollbox = {
-			visible = "[PdxGuiTabs.IsTabSet( 'log' )]"
+			visible = "[GetVariableSystem.Exists( 'log' )]"
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
 
@@ -222,6 +287,22 @@
 					setitemsizefromcell = yes
 					datamodel_wrap = 1
 					flipdirection = yes
+					
+					visible = "[Not(GetVariableSystem.Exists('compact_message_log'))]"
+
+					datamodel = "[MessageSettingsWindow.GetMessageLogHistoryItems]"
+					item = {
+						widget_message_settings_log_history_item = {}
+					}
+				}
+				
+				fixedgridbox = {
+					addcolumn = 570
+					addrow = 45
+					setitemsizefromcell = yes
+					datamodel_wrap = 1
+					flipdirection = yes
+					visible = "[GetVariableSystem.Exists('compact_message_log')]"
 
 					datamodel = "[MessageSettingsWindow.GetMessageLogHistoryItems]"
 					item = {
@@ -299,12 +380,113 @@ types MessageSettingsTypes {
 				text_single = {
 					margin_left = 6
 					max_width = 360
+					layoutpolicy_vertical = expanding
+					using = tooltip_below
+					tooltip_offset = { 70 0 }
 
 					using = Font_Size_Medium
 
 					text = "[PlayerMessageItem.GetTitle]"
 					align = nobaseline
 					fontsize_min = 14
+					
+					tooltip_visible = "[GetVariableSystem.Exists('compact_message_log')]"
+					
+					tooltipwidget = {
+						widget = {
+							size = { 570 180 }
+							using = DefaultTooltipBackground
+							using = GeneralTooltipSetup
+							
+							hbox = {
+								layoutpolicy_horizontal = expanding
+								layoutpolicy_vertical = expanding
+				
+								background = {
+									using = Background_Area
+								}
+				
+								text_multi = {
+									margin = { 20 10 }
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = expanding
+				
+									text = "[PlayerMessageItem.GetDescription]"
+									elide = right
+								}
+				
+								### MESSAGE PORTRAITS ###
+								vbox = {
+									margin_right = 8
+									margin_top = 5
+									layoutpolicy_vertical = expanding
+				
+									hbox = {
+										portrait_head_small = {
+											name = "portrait_left"
+											datacontext = "[PlayerMessageItem.GetLeftCharacter]"
+											visible = "[Character.IsValid]"
+										}
+				
+										coa_dynasty_medium = {
+											name = "dynasty_left"
+											datacontext = "[PlayerMessageItem.GetLeftDynasty]"
+											visible = "[Dynasty.IsValid]"
+										}
+				
+										coa_house_medium = {
+											name = "house_left"
+											datacontext = "[PlayerMessageItem.GetLeftHouse]"
+											visible = "[DynastyHouse.IsValid]"
+										}
+				
+										coa_title_medium = {
+											name = "title_left"
+											datacontext = "[PlayerMessageItem.GetLeftTitle]"
+											visible = "[Title.IsValid]"
+										}
+				
+										icon_artifact = {
+											name = "artifact_left"
+											datacontext = "[PlayerMessageItem.GetLeftArtifact]"
+											visible = "[Artifact.IsValid]"
+										}
+				
+										portrait_head_small = {
+											name = "portrait_right"
+											datacontext = "[PlayerMessageItem.GetRightCharacter]"
+											visible = "[Character.IsValid]"
+										}
+				
+										coa_dynasty_medium = {
+											name = "dynasty_right"
+											datacontext = "[PlayerMessageItem.GetRightDynasty]"
+											visible = "[Dynasty.IsValid]"
+										}
+				
+										coa_house_medium = {
+											name = "house_right"
+											datacontext = "[PlayerMessageItem.GetRightHouse]"
+											visible = "[DynastyHouse.IsValid]"
+										}
+				
+										coa_title_medium = {
+											name = "title_right"
+											datacontext = "[PlayerMessageItem.GetRightTitle]"
+											visible = "[Title.IsValid]"
+										}
+				
+										icon_artifact = {
+											name = "artifact_right"
+											datacontext = "[PlayerMessageItem.GetRightArtifact]"
+											visible = "[Artifact.IsValid]"
+										}
+									}
+									expand = {}
+								}
+							}
+						}
+					}
 				}
 
 				expand = {}
@@ -352,6 +534,7 @@ types MessageSettingsTypes {
 			hbox = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
+				visible = "[Not(GetVariableSystem.Exists('compact_message_log'))]"
 
 				background = {
 					using = Background_Area
@@ -609,7 +792,7 @@ types MessageSettingsTypes {
 					text = "MESSAGE_SETTINGS_WINDOW_CUSTOM_MESSAGE_EDIT_TITLE"
 				}
 
-				blockoverride "editbox_properties" 
+				blockoverride "editbox_properties"
 				{
 					name = "custom_message"
 
@@ -633,7 +816,7 @@ types MessageSettingsTypes {
 					text = "MESSAGE_SETTINGS_WINDOW_CUSTOM_MESSAGE_EDIT_DESC"
 				}
 
-				blockoverride "editbox_properties" 
+				blockoverride "editbox_properties"
 				{
 					name = "custom_message"
 

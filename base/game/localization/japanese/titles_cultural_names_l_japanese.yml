@@ -2748,6 +2748,14 @@
  cn_okjeo_adj: "$cn_okjeo$"
  cn_pungju: "豊州" #豐州 (풍주)
  cn_pungju_adj: "$cn_pungju$"
+ cn_eunju: "ウンジュ" #은주
+ cn_eunju_adj: "$cn_eunju$"
+ cn_cheopju: "チョプジュ" #첩주
+ cn_cheopju_adj: "$cn_cheopju$"
+ cn_gwideokju: "グィドクジュ" #귀덕주
+ cn_gwideokju_adj: "$cn_gwideokju$"
+ cn_simyang: "シムヤン" #심양
+ cn_simyang_adj: "$cn_simyang$"
  #Japan
  cn_east_hokkaido: "東北海道"
  cn_east_hokkaido_adj: "$cn_east_hokkaido$"
@@ -2758,7 +2766,7 @@
  cn_nishi: "爾志" #爾志
  cn_kayabe: "茅部" #茅部
  cn_otaru: "小樽" #小樽
- cn_setana: "瀬棚"
+ cn_setana: "瀬棚" #瀬棚
  cn_abuta: "虻田" #虻田
  cn_yoichi: "余市" #余市
  cn_oshima: "渡島" #渡島
@@ -2923,3 +2931,45 @@
  cn_michuan: "米川" #米川
  cn_juyan: "居延" #居延
  cn_tongcheng: "同城" #同城
+ cn_luopubo: "羅布泊" #罗布泊
+ #Carthaginian
+ cn_carthage: "カルタゴ"
+ cn_lilybaeum: "リリバイウム"
+ cn_panormus: "パノルムス"
+ cn_maleth: "マレト"
+ cn_agragant: "アグラガント"
+ cn_sicilia: "シチリア"
+ cn_sardinia: "サルデーニャ"
+ cn_caralis: "カラリス"
+ cn_tibia: "ティビア"
+ cn_hadrumetum: "ハドルメトゥム"
+ cn_thabraca: "タブラカ"
+ cn_hippo: "ヒッポ"
+ cn_tabrua: "タブルア"
+ cn_girba: "ジルバ"
+ cn_syrtis: "シルティス"
+ cn_charax: "カラクス"
+ cn_icosium: "イコシウム"
+ cn_saldae: "サルダエ"
+ cn_quinea: "クイネア"
+ cn_iol: "イオル"
+ cn_siga: "シガ"
+ cn_tingis: "ティンギス"
+ cn_abdyla: "アブディラ"
+ cn_sala: "サラ"
+ cn_ilecarvones: "イレカルボネス"
+ cn_saguntum: "サグントゥム"
+ cn_cartalias: "カルタリアス"
+ cn_carthago_nova: "カルタゴ・ノウァ"
+ cn_bastetani: "バステナニ"
+ cn_basti: "バスティ"
+ cn_malaca: "マラカ"
+ cn_calpe: "カルペ"
+ cn_gades: "ガデス"
+ cn_tudetani: "トゥデタニ"
+ cn_hispalis: "ヒスパリス"
+ cn_herna: "ヘルナ"
+ cn_cirta: "シルタ"
+ cn_sufetula: "スフェトゥラ"
+ cn_zama: "ザマ"
+ cn_rusaddir: "ルサディル"

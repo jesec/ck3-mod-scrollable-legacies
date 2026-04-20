@@ -14,14 +14,14 @@
  bookmark_japan_go_reizei_subheading: "$game_concept_ceremonial_liege$ of Japan"
  bookmark_japan_go_reizei_tameyuki: "$Tameyuki$"
  bookmark_japan_go_reizei_go_sanjo: "$Takahito$"
- bookmark_japan_go_reizei_desc: "$Chikahito$ grew up as a pawn in the tug-of-war played by his father, the retired Emperor [Glossary( 'Go-Sanjo', 'JOKO_GLOSS' )], and the [Glossary( 'Fujiwara', 'FUJIWARA_GLOSS' )] regent, $Yorimichi$. Now as [Glossary( 'Emperor', 'TENNO_GLOSS' )], $Chikahito$ has done his best to assert imperial authority but still largely performs a ceremonial role.\n\nCompelled by his consort's family to deny recognition of his only son, it is now $Chikahito$'s brother, $Takahito$, who stands to inherit the Chrysanthemum Throne.\n\n#BOLD Can you curtail Fujiwara dominance, restore the [Glossary( 'Yamato', 'YAMATO_GLOSS' )], and rule as emperor, not only in name, but wielding true and lasting power?#!"
+ bookmark_japan_go_reizei_desc: "$Chikahito$ grew up as a pawn in the tug-of-war played by his father, the retired Emperor [Glossary( 'Go-Suzaku', 'JOKO_GLOSS' )], and the [Glossary( 'Fujiwara', 'FUJIWARA_GLOSS' )] regent, $Yorimichi$. Now as [Glossary( 'Emperor', 'TENNO_GLOSS' )], $Chikahito$ has done his best to assert imperial authority but still largely performs a ceremonial role.\n\nCompelled by his consort's family to deny recognition of his only son, it is now $Chikahito$'s brother, $Takahito$, who stands to inherit the Chrysanthemum Throne.\n\n#BOLD Can you curtail Fujiwara dominance, restore the [Glossary( 'Yamato', 'YAMATO_GLOSS' )], and rule as emperor, not only in name, but wielding true and lasting power?#!"
  #He seeks to 
  # restore [Glossary( 'Yamato', 'YAMATO_GLOSS' )] authority as true Emperor's of Japan?
  bookmark_japan_morofusa: "$dynn_Minamoto$ $Morofusa$"
  bookmark_japan_morofusa_subheading: "$game_concept_governor$ of $c_iyo$"
  bookmark_japan_morofusa_toshifusa: "$Toshifusa$"
  bookmark_japan_morofusa_akifusa: "$Akifusa$"
- bookmark_japan_morofusa_desc: "Grandson of Emperor $Murakami$, $Morofusa$ stands as a rare example of an accomplished [Glossary( 'Minamoto', 'MINAMOTO_GLOSS' )] bureaucrat, swiftly climbing the ranks under the wing of his foster father, [Glossary( 'Kampaku', 'KAMPAKU_GLOSS' )] $Fujiwara$ $Yorimichi$.\n\nThough relations between the [Glossary( 'Fujiwara', 'FUJIWARA_GLOSS' )] and Murakami Minamoto remain warm, the other noble houses and imperial family hope for $Morofusa$ to stand as a counterweight to Fujiwara influence.\n\n#BOLD Can you wrest the regency from the Fujiwara, bringing power to direct imperial descendants?#!"
+ bookmark_japan_morofusa_desc: "Grandson of Emperor $Murakami$, $Morofusa$ stands as a rare example of an accomplished [Glossary( 'Minamoto', 'MINAMOTO_GLOSS' )] bureaucrat, swiftly climbing the ranks under the wing of his foster father, [Glossary( 'Kampaku', 'KAMPAKU_GLOSS' )] $dynn_Fujiwara$ $Yorimichi$.\n\nThough relations between the [Glossary( 'Fujiwara', 'FUJIWARA_GLOSS' )] and Murakami Minamoto remain warm, the other noble houses and imperial family hope for $Morofusa$ to stand as a counterweight to Fujiwara influence.\n\n#BOLD Can you wrest the regency from the Fujiwara, bringing power to direct imperial descendants?#!"
 
  bookmark_japan_takenori: "$dynn_Kiyohara$ $Takenori$"
  bookmark_japan_takenori_subheading: "Lord of Mutsu"

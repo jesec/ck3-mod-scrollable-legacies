@@ -13,7 +13,7 @@
  MIGRATION_WINDOW_DEJURE_KINGDOM_BLOCKED: "@warning_icon!#X 你的游牧权威需要至少为[GetLaw('nomadic_authority_3').GetName]#!"
  MIGRATION_WINDOW_DEJURE_EMPIRE_BLOCKED: "@warning_icon!#X 你的游牧权威需要至少为[GetLaw('nomadic_authority_4').GetName]#!"
  MIGRATION_COLOR_SELECTOR_REALMS: "显示[realms|E]"
- MIGRATION_COLOR_SELECTOR_FERTILITY: "显示[fertility|E]"
+ MIGRATION_COLOR_SELECTOR_FERTILITY: "显示[county_fertility|E]"
  MIGRATION_WINDOW_NOMAD_INFO: "最强大的统治者将决定你的迁徙是否被接受。"
  MIGRATION_WINDOW_ALL_NOMADS_BUTTON: "查看所有统治者#weak （[MigrationWindow.GetInvolvedCharacterList.GetTotalNumber]）#!"
  MIGRATION_INVOLVED_CHARACTERS_HEADER: "参与的角色"

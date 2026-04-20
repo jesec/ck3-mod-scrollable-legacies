@@ -73,7 +73,7 @@
  bp2_yearly.6010.desc: "“#EMP 我有许多朋友，他们送来的礼物却很少……#!”[sad_boi.GetFirstName]唱道，[sad_boi.GetHerHis]的嗓音因情感而沙哑。\n\n我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))]把[sad_boi.GetHerHis]的乐器扔到了一旁，哭喊道：“[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]够了！"
  bp2_yearly.6010.adult: "失去了一切慰藉。”\n\n[sad_boi.GetSheHe]向我投来了令人沮丧的一瞥，补充道：“这首歌将是我在这段不幸的囚禁中寻求帮助的恳求。小一笔钱……应该能让我的人民依然关心我……”"
  bp2_yearly.6010.child: "我在这里太不开心了。”\n\n[sad_boi.Custom('GirlBoy')]泪流满面地看着我，补充道：“听到这首歌会影响我的家人！他们会送一些东西来让我的#EMP 流放#!变得可以忍受，如果……他们仍然关心我……”"
- bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U]再次奏起悲伤的曲调，眼中充满了恍惚的[home_court_liege.GetPrimaryTitle.GetNameNoTier]。"
+ bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U]再次奏起悲伤的曲调，遥远的家乡出现在[sad_boi.GetHerHis]恍惚的眼中。"
  bp2_yearly.6010.a: "好，让我们瞧瞧他们能捣鼓出来的“慈善”……"
  bp2_yearly.6010.a.tt: "……为了我的钱袋子。"
  bp2_yearly.6010.b: "不开心？！#EMP 我帮帮你？#!"

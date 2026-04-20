@@ -651,6 +651,9 @@ japanese_yamato_28 = { # Emperor Ninmyo
 		# Concubine?
 		add_spouse = japanese_fujiwara_1203 # Katoko
 	}
+	836.1.1 = {
+		add_spouse = japanese_fujiwara_2299 # Sadako
+	}
 	839.1.1 = {
 		# Concubine?
 		add_spouse = japanese_ki_26 # Taneko
@@ -4789,7 +4792,7 @@ japanese_yamato_266 = {
 }
 
 japanese_yamato_267 = { # wife of Prince Oshikabe
-	name = "Asuka"
+	name = "Asuka_JP"
 	female = yes
 	dynasty = japanese_yamato
 	religion = yogacara
@@ -5107,11 +5110,13 @@ japanese_yamato_288 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_yamato_28 # Emperor Ninmyo
+	mother = japanese_fujiwara_2299 # Sadako
 	837.12.1 = {
 		birth = yes
 	}
 	853.5.29 = {
-		death = yes
+		trait = smallpox
+		death = { death_reason = death_smallpox }
 	}
 }
 
@@ -6084,7 +6089,7 @@ japanese_yamato_354 = {
 }
 
 japanese_yamato_355 = {
-	name = "Asuka"
+	name = "Asuka_JP"
 	dynasty = japanese_yamato
 	religion = yogacara
 	culture = japanese
@@ -7491,6 +7496,38 @@ japanese_yamato_445 = { # Saiin
 		birth = yes
 	}
 	847.3.2 = {
+		death = yes
+	}
+}
+
+japanese_yamato_498 = {
+	name = "Chikako"
+	female = yes
+	dynasty = japanese_yamato
+	religion = mantrayana
+	culture = japanese
+	father = japanese_yamato_28 # Emperor Ninmyo
+	mother = japanese_fujiwara_2299 # Sadako
+	840.1.1 = {
+		birth = yes
+	}
+	851.1.1 = {
+		death = yes
+	}
+}
+
+japanese_yamato_499 = {
+	name = "Hirako"
+	female = yes
+	dynasty = japanese_yamato
+	religion = mantrayana
+	culture = japanese
+	father = japanese_yamato_28 # Emperor Ninmyo
+	mother = japanese_fujiwara_2299 # Sadako
+	843.1.1 = {
+		birth = yes
+	}
+	877.1.1 = {
 		death = yes
 	}
 }
@@ -9030,6 +9067,9 @@ japanese_fujiwara_86 = {
 	944.1.1 = {
 		birth = yes
 	}
+	963.1.1 = {
+		add_spouse = japanese_fujiwara_2223 # Yoshiko_12
+	}
 	998.7.19 = {
 		death = yes
 	}
@@ -9326,7 +9366,8 @@ japanese_fujiwara_105 = {
 	dynasty_house = house_fujiwara_sesonji
 	religion = pundarika
 	culture = japanese
-	father = japanese_fujiwara_1336 # Yoshitaka
+	father = japanese_fujiwara_1336 # Yoshitaka, adopted by Minamoto Yasumitsu_2 (father-in-law)
+	mother = japanese_minamoto_daigo_154 # Yasuko
 	972.1.1 = {
 		birth = yes
 	}
@@ -10779,6 +10820,12 @@ japanese_fujiwara_192 = {
 	953.1.1 = {
 		birth = yes
 	}
+	982.1.1 = {
+		add_spouse = japanese_minamoto_daigo_153 # Mitsuko
+	}
+	999.1.1 = {
+		add_spouse = japanese_fujiwara_2225 # Masako_5
+	}
 	1017.5.16 = {
 		death = yes
 	}
@@ -10807,6 +10854,7 @@ japanese_fujiwara_194 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_fujiwara_192 # Kanehira
+	mother = japanese_minamoto_daigo_153 # Mitsuko
 	982.1.1 = {
 		birth = yes
 	}
@@ -10821,8 +10869,12 @@ japanese_fujiwara_195 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_fujiwara_192 # Kanehira
+	mother = japanese_minamoto_daigo_153 # Mitsuko
 	986.1.1 = {
 		birth = yes
+	}
+	1006.1.1 = {
+		add_spouse = japanese_fujiwara_2228 # Akiko_3
 	}
 	1068.1.13 = {
 		death = yes
@@ -10835,6 +10887,7 @@ japanese_fujiwara_196 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_fujiwara_192 # Kanehira
+	mother = japanese_fujiwara_2225 # Masako_5
 	1000.1.1 = {
 		birth = yes
 	}
@@ -20196,6 +20249,7 @@ japanese_fujiwara_808 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_fujiwara_195 # Sukehira
+	mother = japanese_fujiwara_2228 # Akiko_3
 	1018.1.1 = {
 		birth = yes
 	}
@@ -22619,6 +22673,9 @@ japanese_fujiwara_970 = {
 	974.1.1 = {
 		birth = yes
 	}
+	1000.1.1 = {
+		add_spouse = japanese_fujiwara_2217 # Nakako
+	}
 	1011.1.1 = {
 		death = yes
 	}
@@ -22629,7 +22686,8 @@ japanese_fujiwara_971 = {
 	dynasty_house = house_fujiwara_yoshikado
 	religion = pundarika
 	culture = japanese
-	father = japanese_fujiwara_970 # Nobunori
+	father = japanese_fujiwara_970 # Nobunori_4
+	mother = japanese_fujiwara_2217 # Nakako
 	1001.1.1 = {
 		birth = yes
 	}
@@ -23881,7 +23939,7 @@ japanese_fujiwara_1057 = {
 	}
 }
 
-japanese_fujiwara_1058 = { # wife of Shigehira Taira
+japanese_fujiwara_1058 = { # wife of Taira Shigehira
 	name = "Sukeko"
 	female = yes
 	dynasty_house = house_fujiwara_yoshikado
@@ -26509,6 +26567,9 @@ japanese_fujiwara_1239 = {
 	969.1.1 = {
 		birth = yes
 	}
+	1003.1.1 = {
+		add_spouse = japanese_fujiwara_2218 # Tameko
+	}
 	1006.1.1 = {
 		add_spouse = japanese_minamoto_montoku_13 # Takako_2
 	}
@@ -26608,6 +26669,7 @@ japanese_fujiwara_1247 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_fujiwara_195 # Sukehira
+	mother = japanese_fujiwara_2228 # Akiko_3
 	1007.1.1 = {
 		birth = yes
 	}
@@ -27972,6 +28034,9 @@ japanese_fujiwara_1336 = {
 	trait = lifestyle_poet
 	954.1.1 = {
 		birth = yes
+	}
+	971.1.1 = {
+		add_spouse = japanese_minamoto_daigo_154 # Yasuko
 	}
 	974.10.4 = {
 		death = yes
@@ -37222,6 +37287,7 @@ japanese_fujiwara_2018 = {
 	religion = pundarika
 	culture = japanese
 	father = japanese_fujiwara_1239 # Yasumichi
+	mother = japanese_fujiwara_2218 # Tameko
 	1004.1.1 = {
 		birth = yes
 	}
@@ -39609,6 +39675,321 @@ japanese_fujiwara_2211 = { # wife of Fujiwara Fuminaga
 		birth = yes
 	}
 	941.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2212 = {
+	name = "Tametada"
+	dynasty_house = house_fujiwara_yamakage
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_1490 # Kanemi_JP
+	905.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2213 = {
+	name = "Takasada_4"
+	dynasty_house = house_fujiwara_yamakage
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_2212 # Tametada
+	936.1.1 = {
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2214 = {
+	name = "Kunimoto_2"
+	dynasty_house = house_fujiwara_yamakage
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_1490 # Kanemi_JP
+	893.1.1 = {
+		birth = yes
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2215 = {
+	name = "Tomomi"
+	dynasty_house = house_fujiwara_yamakage
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_1490 # Kanemi_JP
+	909.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2216 = {
+	name = "Sadanaka"
+	dynasty_house = house_fujiwara_yamakage
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_2213 # Takasada_4
+	961.1.1 = {
+		birth = yes
+	}
+	1026.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2217 = { # wife of Fujiwara Nobunori_4
+	name = "Nakako" # ?
+	female = yes
+	dynasty_house = house_fujiwara_yamakage
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_2216 # Sadanaka
+	983.1.1 = {
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2218 = { # wife of Fujiwara Yasumichi
+	name = "Tameko" # ?
+	female = yes
+	dynasty_house = house_fujiwara_yamakage
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_2213 # Takasada_4
+	981.1.1 = {
+		birth = yes
+	}
+	1048.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2219 = {
+	name = "Kunimichi_3"
+	dynasty_house = house_fujiwara_kajuji
+	religion = pundarika
+	culture = japanese
+	father = japanese_fujiwara_1239 # Yasumichi
+	trait = bastard
+	1001.1.1 = {
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2220 = {
+	name = "Gen_en"
+	dynasty_house = house_fujiwara_kajuji
+	religion = pundarika
+	culture = japanese
+	father = japanese_fujiwara_1239 # Yasumichi
+	trait = bastard
+	trait = devoted
+	trait = education_learning_2
+	1006.1.1 = {
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2221 = {
+	name = "EnkO_"
+	dynasty_house = house_fujiwara_kajuji
+	religion = pundarika
+	culture = japanese
+	father = japanese_fujiwara_1239 # Yasumichi
+	trait = bastard
+	trait = devoted
+	trait = education_learning_2
+	1011.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2222 = { # wife of Minamoto Tsunenari
+	name = "Takako_8" # ?
+	female = yes
+	dynasty_house = house_fujiwara_kajuji
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_1239 # Yasumichi
+	1022.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2223 = { # wife of Fujiwara Sukemasa_2
+	name = "Yoshiko_12"
+	female = yes
+	dynasty_house = house_fujiwara_kajuji
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_718 # Tamesuke
+	942.1.1 = {
+		birth = yes
+	}
+	999.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2224 = {
+	name = "Yorifusa"
+	dynasty_house = house_fujiwara_ononomiya
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_86 # Sukemasa_2
+	mother = japanese_fujiwara_2223 # Yoshiko_12
+	964.1.1 = {
+		birth = yes
+	}
+	1019.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2225 = { # wife of Fujiwara Kanehira_3
+	name = "Masako_5" # ?
+	female = yes
+	dynasty_house = house_fujiwara_ononomiya
+	religion = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_86 # Sukemasa_2
+	mother = japanese_fujiwara_2223 # Yoshiko_12
+	965.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2226 = {
+	name = "Tomoakira"
+	dynasty = japanese_fujiwara # Hokke-ke
+	religion = yogacara
+	culture = japanese
+	father = japanese_fujiwara_296 # Motona
+	934.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2227 = {
+	name = "Tomoakira"
+	dynasty = japanese_fujiwara # Hokke-ke
+	religion = yogacara
+	culture = japanese
+	father = japanese_fujiwara_296 # Motona
+	934.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2228 = { # wife of Fujiwara Sukehira
+	name = "Akiko_3" # ?
+	female = yes
+	dynasty = japanese_fujiwara # Hokke-ke
+	religion = yogacara
+	culture = japanese
+	father = japanese_fujiwara_2227 # Tomoakira
+	987.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2229 = {
+	name = "Jin_en"
+	dynasty = japanese_fujiwara
+	religion = pundarika
+	culture = japanese
+	father = japanese_fujiwara_101 # Yoshichika
+	trait = devoted
+	trait = education_learning_2
+	978.1.1 = {
+		birth = yes
+	}
+	1044.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2230 = {
+	name = "En_en"
+	dynasty = japanese_fujiwara
+	religion = pundarika
+	culture = japanese
+	father = japanese_fujiwara_101 # Yoshichika
+	trait = devoted
+	trait = education_learning_2
+	982.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2298 = { # wife of Ono Takamura
+	name = "Moriko_2" # ?
+	female = yes
+	dynasty_house = house_fujiwara_nan_ke
+	religion = yogacara
+	culture = japanese
+	father = japanese_fujiwara_842 # Tadamori
+	803.1.1 = {
+		birth = yes
+	}
+	868.1.1 = {
+		death = yes
+	}
+}
+
+japanese_fujiwara_2299 = { # wife of Emperor Ninmyo
+	name = "Sadako"
+	female = yes
+	dynasty_house = house_fujiwara_nan_ke
+	religion = yogacara
+	culture = japanese
+	father = japanese_fujiwara_842 # Tadamori
+	805.1.1 = {
+		birth = yes
+	}
+	864.1.1 = {
 		death = yes
 	}
 }
@@ -54326,8 +54707,11 @@ japanese_minamoto_daigo_72 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_minamoto_daigo_69 # Nagatsune
-	1000.1.1 = {
+	1009.1.1 = {
 		birth = yes
+	}
+	1044.1.1 = {
+		add_spouse = japanese_fujiwara_2222 # Takako_8
 	}
 	1066.8.2 = {
 		death = yes
@@ -54369,6 +54753,7 @@ japanese_minamoto_daigo_75 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_minamoto_daigo_72 # Tsunenari
+	mother = japanese_fujiwara_2222 # Takako_8
 	1045.1.1 = {
 		birth = yes
 	}
@@ -55381,6 +55766,50 @@ japanese_minamoto_daigo_151 = { # wife of Fujiwara Kanemitsu
 		birth = yes
 	}
 	1180.1.1 = {
+		death = yes
+	}
+}
+
+japanese_minamoto_daigo_152 = {
+	name = "Nagamitsu_2"
+	dynasty = japanese_minamoto_daigo
+	religion = mantrayana
+	culture = japanese
+	father = japanese_minamoto_daigo_17 # Yasumitsu_2
+	950.1.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		death = yes
+	}
+}
+
+japanese_minamoto_daigo_153 = { # wife of Fujiwara Kanehira_3
+	name = "Mitsuko" # ?
+	female = yes
+	dynasty = japanese_minamoto_daigo
+	religion = mantrayana
+	culture = japanese
+	father = japanese_minamoto_daigo_17 # Yasumitsu_2
+	963.1.1 = {
+		birth = yes
+	}
+	995.1.1 = {
+		death = yes
+	}
+}
+
+japanese_minamoto_daigo_154 = { # wife of Fujiwara Yoshitaka_3
+	name = "Yasuko" # ?
+	female = yes
+	dynasty = japanese_minamoto_daigo
+	religion = mantrayana
+	culture = japanese
+	father = japanese_minamoto_daigo_17 # Yasumitsu_2
+	951.1.1 = {
+		birth = yes
+	}
+	993.1.1 = {
 		death = yes
 	}
 }
@@ -60255,6 +60684,9 @@ japanese_taira_kanmu_64 = {
 	}
 	1170.1.1 = {
 		add_spouse = japanese_taira_kanmu_428 # Kiyoko
+	}
+	1175.1.1 = {
+		add_spouse = japanese_taira_kanmu_660 # Moriko
 	}
 	1185.7.19 = {
 		death = yes
@@ -66799,7 +67231,7 @@ japanese_taira_kanmu_530 = {
 	}
 }
 
-japanese_taira_kanmu_531 = { # wife of Naritsune Fujiwara
+japanese_taira_kanmu_531 = { # wife of Fujiwara Naritsune
 	name = "Tadako" # ?
 	female = yes
 	dynasty = japanese_taira_kanmu # Ise
@@ -66814,7 +67246,7 @@ japanese_taira_kanmu_531 = { # wife of Naritsune Fujiwara
 	}
 }
 
-japanese_taira_kanmu_532 = { # wife of Norisue Fujiwara
+japanese_taira_kanmu_532 = { # wife of Fujiwara Norisue
 	name = "Noriko_5"
 	female = yes
 	dynasty = japanese_taira_kanmu # Ise
@@ -66829,7 +67261,7 @@ japanese_taira_kanmu_532 = { # wife of Norisue Fujiwara
 	}
 }
 
-japanese_taira_kanmu_533 = { # wife of Michichika Minamoto (Murakami)
+japanese_taira_kanmu_533 = { # wife of Minamoto Michichika (Murakami)
 	name = "Masako" # ?
 	female = yes
 	dynasty = japanese_taira_kanmu # Ise
@@ -68467,7 +68899,6 @@ japanese_taira_kanmu_646 = { # wife of Fujiwara Motomichi
 	}
 }
 
-
 japanese_taira_kanmu_647 = {
 	name = "Moriko" # ?
 	female = yes
@@ -68647,6 +69078,21 @@ japanese_taira_kanmu_659 = {
 		birth = yes
 	}
 	1230.1.1 = {
+		death = yes
+	}
+}
+
+japanese_taira_kanmu_660 = { # wife of Taira Munemori
+	name = "Moriko" # ?
+	female = yes
+	dynasty = japanese_taira_kanmu # Ise
+	religion = pundarika
+	culture = japanese
+	father = japanese_taira_kanmu_37 # Norimori
+	1154.1.1 = {
+		birth = yes
+	}
+	1209.1.1 = {
 		death = yes
 	}
 }
@@ -82148,6 +82594,35 @@ japanese_tachibana_224 = {
 	}
 }
 
+japanese_tachibana_225 = {
+	name = "Kin_mune"
+	dynasty = japanese_tachibana
+	religion = mantrayana
+	culture = japanese
+	father = japanese_tachibana_77 # Hiromi
+	875.1.1 = {
+		birth = yes
+	}
+	929.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tachibana_226 = { # wife of Okura Haruzane
+	name = "Muneko_2" # ?
+	female = yes
+	dynasty = japanese_tachibana
+	religion = mantrayana
+	culture = japanese
+	father = japanese_tachibana_225 # Kin_mune
+	900.1.1 = {
+		birth = yes
+	}
+	961.1.1 = {
+		death = yes
+	}
+}
+
 japanese_tachibana_300 = { # wife of Fujiwara Arisada_2
 	name = "Nariko" # ?
 	female = yes
@@ -84049,6 +84524,19 @@ japanese_sugano_2 = {
 	}
 	880.1.1 = {
 		death = yes
+	}
+}
+
+japanese_sugano_3 = {
+	name = "Shigetada"
+	dynasty = japanese_sugano
+	religion = yogacara
+	culture = japanese
+	973.1.1 = {
+		birth = yes
+	}
+	1007.1.1 = {
+		death = { death_reason = death_murder_known killer = japanese_okura_11 } # Mitsutaka_4
 	}
 }
 
@@ -87448,6 +87936,7 @@ japanese_sakanoue_12 = {
 	dynasty = japanese_sakanoue
 	religion = yogacara
 	culture = japanese
+	father = japanese_sakanoue_31 # O_kuni
 	682.1.1 = {
 		birth = yes
 	}
@@ -87650,6 +88139,61 @@ japanese_sakanoue_27 = {
 		birth = yes
 	}
 	881.12.3 = {
+		death = yes
+	}
+}
+
+japanese_sakanoue_28 = {
+	name = "Kubina"
+	dynasty = japanese_sakanoue
+	religion = yogacara
+	culture = japanese
+	589.1.1 = {
+		birth = yes
+	}
+	656.1.1 = {
+		death = yes
+	}
+}
+
+japanese_sakanoue_29 = {
+	name = "Okina_2"
+	dynasty = japanese_sakanoue
+	religion = yogacara
+	culture = japanese
+	father = japanese_sakanoue_28 # Kubina
+	620.1.1 = {
+		birth = yes
+	}
+	699.6.10 = {
+		death = yes
+	}
+}
+
+japanese_sakanoue_30 = {
+	name = "Kunimaro"
+	dynasty = japanese_sakanoue
+	religion = yogacara
+	culture = japanese
+	father = japanese_sakanoue_28 # Kubina
+	625.1.1 = {
+		birth = yes
+	}
+	687.1.1 = {
+		death = yes
+	}
+}
+
+japanese_sakanoue_31 = {
+	name = "O_kuni"
+	dynasty = japanese_sakanoue
+	religion = yogacara
+	culture = japanese
+	father = japanese_sakanoue_29 # Okina_2
+	651.1.1 = {
+		birth = yes
+	}
+	709.1.1 = {
 		death = yes
 	}
 }
@@ -88528,6 +89072,7 @@ japanese_harada_1 = {
 	dynasty = japanese_harada
 	religion = pundarika
 	culture = japanese
+	father = japanese_okura_25 # Taneo
 	1140.1.1 = {
 		birth = yes
 	}
@@ -88591,6 +89136,7 @@ japanese_okura_1 = {
 	dynasty = japanese_okura
 	religion = yogacara
 	culture = japanese
+	father = japanese_okura_13 # Kiyoakira_3
 	832.1.1 = {
 		birth = yes
 	}
@@ -88637,6 +89183,363 @@ japanese_okura_4 = {
 		birth = yes
 	}
 	934.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_5 = {
+	name = "Tsunenao_2"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_12 # Hirokatsu
+	878.1.1 = {
+		birth = yes
+	}
+	934.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_6 = {
+	name = "Haruzane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_5 # Tsunenao_2
+	905.1.1 = {
+		birth = yes
+	}
+	933.1.1 = {
+		add_spouse = japanese_tachibana_226 # Muneko_2
+	}
+	934.1.1 = {
+		add_spouse = japanese_ono_35 # Nagako_5
+	}
+	969.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_7 = { # ancestor of Hatae clan
+	name = "Tanesue_2"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_6 # Haruzane
+	mother = japanese_tachibana_226 # Muneko_2
+	934.1.1 = {
+		birth = yes
+	}
+	995.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_8 = {
+	name = "Tanehiro"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_9 # Taneki
+	999.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_9 = {
+	name = "Taneki"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_19 # Tanemitsu_2
+	971.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_10 = {
+	name = "Mitsuhiro"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_9 # Taneki
+	991.1.1 = {
+		birth = yes
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_11 = {
+	name = "Mitsutaka_4"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_9 # Taneki
+	1008.1.1 = {
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_12 = {
+	name = "Hirokatsu"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_14 # Makatsu
+	855.1.1 = {
+		birth = yes
+	}
+	919.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_13 = {
+	name = "Kiyoakira_3"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_16 # Maro, connecting plceholder
+	801.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_14 = {
+	name = "Makatsu"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_15 # Kotari
+	830.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_15 = {
+	name = "Kotari"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_16 # Maro
+	799.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_16 = {
+	name = "Maro"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	764.1.1 = {
+		birth = yes
+	}
+	831.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_17 = {
+	name = "Harutane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_6 # Haruzane
+	mother = japanese_ono_35 # Nagako_5
+	930.1.1 = {
+		birth = yes
+	}
+	1001.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_18 = { # ancestor of Tajiri clan
+	name = "Sanetane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_17 # Harutane
+	956.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_19 = { # ancestor of Akizuki clan
+	name = "Tanemitsu_2"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_17 # Harutane
+	953.1.1 = {
+		birth = yes
+	}
+	1029.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_20 = {
+	name = "Sadatane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_18 # Sanetane
+	988.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_21 = {
+	name = "TO_tane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_20 # Sadatane
+	1024.1.1 = {
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_22 = {
+	name = "Michitane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_21 # TO_tane
+	1055.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_23 = {
+	name = "Tanesuke"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_8 # Tanehiro
+	1031.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_24 = {
+	name = "Tanenari"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_23 # Tanesuke
+	1059.1.1 = {
+		birth = yes
+	}
+	1127.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_25 = {
+	name = "Taneo"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_24 # Tanenari
+	1095.1.1 = {
+		birth = yes
+	}
+	1164.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_26 = {
+	name = "Hidetane_2"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_22 # Michitane
+	1083.1.1 = {
+		birth = yes
+	}
+	1151.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_27 = {
+	name = "Moritane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_26 # Hidetane_2
+	1109.1.1 = {
+		birth = yes
+	}
+	1171.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_28 = {
+	name = "Takatane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_27 # Moritane
+	1136.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+
+japanese_okura_29 = {
+	name = "Nobutane"
+	dynasty = japanese_okura
+	religion = yogacara
+	culture = japanese
+	father = japanese_okura_28 # Takatane
+	1161.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
 		death = yes
 	}
 }
@@ -92319,8 +93222,11 @@ japanese_ono_8 = {
 	religion = mantrayana
 	culture = japanese
 	father = japanese_ono_7 # Minamori
-	808.1.1 = {
+	802.1.1 = {
 		birth = yes
+	}
+	819.1.1 = {
+		add_spouse = japanese_fujiwara_2298 # Moriko_2
 	}
 	853.2.3 = {
 		death = yes
@@ -92611,6 +93517,63 @@ japanese_ono_32 = { # wife of Sanenori Fujiwara
 		birth = yes
 	}
 	1068.1.1 = {
+		death = yes
+	}
+}
+
+japanese_ono_33 = {
+	name = "Chikubu"
+	dynasty = japanese_ono
+	religion = mantrayana
+	culture = japanese
+	father = japanese_ono_7 # Minamori
+	810.1.1 = {
+		birth = yes
+	}
+	868.1.1 = {
+		death = yes
+	}
+}
+
+japanese_ono_34 = {
+	name = "Nagaki"
+	dynasty = japanese_ono
+	religion = mantrayana
+	culture = japanese
+	father = japanese_ono_19 # Yoshifuru
+	912.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		death = yes
+	}
+}
+
+japanese_ono_35 = { # wife of Okura Haruzane
+	name = "Nagako_5" # ?
+	female = yes
+	dynasty = japanese_ono
+	religion = mantrayana
+	culture = japanese
+	father = japanese_ono_19 # Yoshifuru
+	915.1.1 = {
+		birth = yes
+	}
+	971.1.1 = {
+		death = yes
+	}
+}
+
+japanese_ono_36 = {
+	name = "Chifuru"
+	dynasty = japanese_ono
+	religion = mantrayana
+	culture = japanese
+	father = japanese_ono_19 # Yoshifuru
+	918.1.1 = {
+		birth = yes
+	}
+	969.1.1 = {
 		death = yes
 	}
 }
@@ -93350,6 +94313,7 @@ japanese_wake_4 = {
 	dynasty = japanese_wake
 	religion = yogacara
 	culture = japanese
+	father = japanese_wake_15 # Wakomaro
 	733.1.1 = {
 		birth = yes
 	}
@@ -93377,11 +94341,11 @@ japanese_wake_6 = {
 	dynasty = japanese_wake
 	religion = yogacara
 	culture = japanese
-	father = japanese_wake_5 # Hiroyo
-	801.1.1 = {
+	father = japanese_wake_17 # Iemaro
+	841.1.1 = {
 		birth = yes
 	}
-	864.1.1 = {
+	903.1.1 = {
 		death = yes
 	}
 }
@@ -93481,6 +94445,235 @@ japanese_wake_13 = { # wife of Fujiwara Kadonomaro
 		birth = yes
 	}
 	845.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_14 = {
+	name = "Hiromushi"
+	female = yes
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_15 # Wakomaro
+	730.1.1 = {
+		birth = yes
+	}
+	762.6.1 = {
+		trait = devoted
+	}
+	799.1.14 = {
+		death = yes
+	}
+}
+
+japanese_wake_15 = {
+	name = "Wakomaro"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	695.1.1 = {
+		birth = yes
+	}
+	767.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_16 = {
+	name = "Iemaro"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_5 # Hiroyo
+	813.1.1 = {
+		birth = yes
+	}
+	868.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_17 = {
+	name = "Iemaro"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_5 # Hiroyo
+	813.1.1 = {
+		birth = yes
+	}
+	868.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_18 = {
+	name = "Shigure"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_11 # Sadaoki_2
+	trait = lifestyle_physician
+	trait = education_learning_3
+	899.1.1 = {
+		birth = yes
+	}
+	965.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_19 = {
+	name = "Tokimori"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_11 # Sadaoki_2
+	847.1.1 = {
+		birth = yes
+	}
+	918.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_20 = {
+	name = "Masayo"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_18 # Shigure
+	933.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_22 = {
+	name = "SO_bO_"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_20 # Masayo
+	968.1.1 = {
+		birth = yes
+	}
+	1029.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_23 = {
+	name = "Akichika_2"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_22 # Sukenori_5
+	1003.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_24 = {
+	name = "Narisada_2"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_23 # Akichika_2
+	1035.1.1 = {
+		birth = yes
+	}
+	1099.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_25 = {
+	name = "Sadasuke_5"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_24 # Narisada_2
+	1065.1.1 = {
+		birth = yes
+	}
+	1126.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_26 = {
+	name = "Sadanari_2"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_25 # Sadasuke_5
+	1096.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_27 = {
+	name = "Tokinari_2"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_26 # Sadanari_2
+	1132.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_28 = {
+	name = "Chikanari_4"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_27 # Tokinari_2
+	1161.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_29 = {
+	name = "Motonari"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_27 # Tokinari_2
+	1158.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+
+japanese_wake_30 = {
+	name = "Tomonari_2"
+	dynasty = japanese_wake
+	religion = yogacara
+	culture = japanese
+	father = japanese_wake_27 # Tokinari_2
+	1164.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
 		death = yes
 	}
 }
@@ -98560,7 +99753,7 @@ japanese_muto_2 = {
 	}
 }
 
-japanese_muto_3 = { # wife of Tomomori Taira (Ise)
+japanese_muto_3 = { # wife of Taira Tomomori (Ise)
 	name = "Akiko" # Jibukyo
 	female = yes
 	dynasty = japanese_muto
@@ -99972,7 +101165,7 @@ japanese_miyaji_4 = {
 	}
 }
 
-# Iki
+# Iki - 伊岐
 
 japanese_iki_1 = {
 	name = "MunetO__4"
@@ -100685,7 +101878,6 @@ japanese_soga_1 = {
 	570.3.22 = {
 		death = yes
 	}
-	
 }
 
 japanese_soga_2 = { # wife of Emperor Kinmei
@@ -101537,6 +102729,358 @@ japanese_iruma_1 = {
 	}
 }
 
+# Tanba - 丹波
+
+japanese_tanba_1 = {
+	name = "Yasuyori_4"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	#father = japanese_sakanoue_31 # O_kuni - impossible
+	912.1.1 = {
+		birth = yes
+	}
+	995.5.21 = {
+		death = yes
+	}
+}
+
+japanese_tanba_2 = {
+	name = "Kiyomasa_4"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_1 # Yasuyori_4
+	949.1.1 = {
+		birth = yes
+	}
+	1012.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_3 = {
+	name = "Shigemasa_2"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_1 # Yasuyori_4
+	946.1.1 = {
+		birth = yes
+	}
+	1011.5.17 = {
+		death = yes
+	}
+}
+
+japanese_tanba_4 = {
+	name = "Tada_akira"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_3 # Shigemasa_2
+	986.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_5 = {
+	name = "Toshimasa_2"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_1 # Yasuyori_4
+	952.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_6 = {
+	name = "Masatada_4"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_4 # Tada_akira
+	1021.1.1 = {
+		birth = yes
+	}
+	1088.3.13 = {
+		death = yes
+	}
+}
+
+japanese_tanba_7 = {
+	name = "Shigetsune"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_4 # Tada_akira
+	1024.1.1 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_8 = {
+	name = "Shigeyasu"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_6 # Masatada_4
+	1053.1.1 = {
+		birth = yes
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_9 = {
+	name = "Tadayasu"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_6 # Masatada_4
+	1056.1.1 = {
+		birth = yes
+	}
+	1117.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_10 = {
+	name = "Shigeyori"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_8 # Shigeyasu
+	1081.1.1 = {
+		birth = yes
+	}
+	1149.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_11 = {
+	name = "Yoriyasu_2"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_8 # Shigeyasu
+	1084.1.1 = {
+		birth = yes
+	}
+	1154.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_12 = {
+	name = "Shigemoto"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_8 # Shigeyasu
+	1087.1.1 = {
+		birth = yes
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_13 = {
+	name = "Shigetada"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_8 # Shigeyasu
+	1090.1.1 = {
+		birth = yes
+	}
+	1152.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_14 = {
+	name = "Motoyasu_4"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_10 # Shigeyori
+	1113.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_15 = {
+	name = "Yorimoto"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_14 # Motoyasu_4
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_16 = {
+	name = "Tsunemoto"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_14 # Motoyasu_4
+	1145.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_17 = {
+	name = "Tomomoto"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_14 # Motoyasu_4
+	1148.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_18 = {
+	name = "Yasu_uji_2"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_14 # Motoyasu_4
+	1151.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_19 = {
+	name = "Motoakira"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_14 # Motoyasu_4
+	1154.1.1 = {
+		birth = yes
+	}
+	1215.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_20 = {
+	name = "Nagamoto_3"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_15 # Yorimoto
+	1173.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_21 = {
+	name = "Mochitada"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_15 # Yorimoto
+	1176.1.1 = {
+		birth = yes
+	}
+	1240.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_22 = {
+	name = "Masayasu"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_9 # Tadayasu
+	1081.1.1 = {
+		birth = yes
+	}
+	1148.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_23 = {
+	name = "Masayasu"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_9 # Tadayasu
+	1081.1.1 = {
+		birth = yes
+	}
+	1148.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_24 = {
+	name = "Saneyasu_2"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_9 # Tadayasu
+	1112.1.1 = {
+		birth = yes
+	}
+	1176.1.1 = {
+		death = yes
+	}
+}
+
+japanese_tanba_25 = {
+	name = "Tsuneyasu"
+	dynasty = japanese_tanba
+	religion = yogacara
+	culture = japanese
+	father = japanese_tanba_9 # Tadayasu
+	1115.1.1 = {
+		birth = yes
+	}
+	1171.1.1 = {
+		death = yes
+	}
+}
+
 # Lowborn
 
 japanese_lowborn_1 = {
@@ -101664,7 +103208,7 @@ japanese_lowborn_7 = { # concubine of Yoshitomo Minamoto and Kiyomori Taira
 }
 
 jojin_1 = { # Landless scholar adventurer
-	name = "Jojin"
+	name = "JO_jin"
 	dynasty = hchar_hiei
 	religion = yogacara
 	culture = japanese
@@ -101686,7 +103230,7 @@ jojin_1 = { # Landless scholar adventurer
 }
 
 isawa_no_saburo_1 = { # Landless martial adventurer
-	name = "Saburo"
+	name = "SaburO_"
 	dynasty = hchar_isawa
 	religion = pundarika
 	culture = japanese

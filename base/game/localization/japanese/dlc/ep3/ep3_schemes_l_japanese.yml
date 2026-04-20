@@ -86,6 +86,8 @@
  scheme_critical_moments.1153.desc_secret: "\n\n少なくとも、私の失敗を誰かに知られることはないはずだ。"
  scheme_critical_moments.1153.a: "がっかりだ。"
  SCHEME_TARGET_IS_A_KINGDOM: "[target.GetName]は[kingdom|E]である：$VALUE|+0=$"
+ SCHEME_TARGET_IS_AN_EMPIRE: "[target.GetName]は[empire|E]である：$VALUE|+0=$"
+ SCHEME_TARGET_IS_A_HEGEMONY: "[target.GetName]は[hegemony|E]である：$VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_HOLDER: "あなたは現在の[governor|E]の[spymaster|E]である：$VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_LIEGE_OF_HOLDER: "あなたは現在の[governor|E]の[liege|E]の[spymaster|E]である：$VALUE|+0=$"
  SCHEME_I_AM_DIARCH_OF_HOLDER: "あなたは現在の[governor|E]の[diarch|E]である：$VALUE|+0=$"

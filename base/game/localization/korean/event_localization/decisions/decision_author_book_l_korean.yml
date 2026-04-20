@@ -98,7 +98,7 @@
  prose_theme_philosophy: "철학"
  prose_topic_history: "역사"
  prose_book_description: "[author.GetFirstName](이)가 [SCOPE.Custom('GetProseTheme')](을)를 주제로 길게 서술한 논문입니다. 저자의 [SCOPE.Custom('GetProseTopic')]에 대한 이해력과 더불어 문체적 기량을 확인할 수 있습니다.\n[SCOPE.Custom('GetProseQuality')]"
- prose_name: "[author.GetFirstNameNoTooltip]의 사색"
+ prose_name_hashcollision: "[author.GetFirstNameNoTooltip]의 사색"
  #Philosophy
  prose_theme_comentary: "사서 평론"
  prose_theme_logic: "엄격한 논리의 전반적 활용"
@@ -126,7 +126,7 @@
  writing_monograph: "논문 집필"
  writing_monograph_desc: "해당 인물은 현재 자료를 찾으며 새로운 논문을 쓰는 일에 몰두하고 있습니다."
  monograph_description_full: "학자 관리 [author.GetName](이)가 [SCOPE.Custom('GetMonographTheme')]에 대해 쓴 방대한 논문입니다. [SCOPE.Custom('GetMonographTopic')] 분야에 관한 [author.GetHerHis] 폭넓은 연구를 반영하는 그림도 포함되어 있습니다.\n\n[SCOPE.Custom('GetMonographQuality')]"
- monograph_name: "[SCOPE.Custom('GetMonographTopic')]에 관한 학술서"
+ monograph_name_hashcollision: "[SCOPE.Custom('GetMonographTopic')]에 관한 학술서"
  monograph_topic_mathematics: "수학"
  monograph_topic_geography: "지리학"
  monograph_theme_home_duchy: "[author.GetCapitalLocation.GetTitle.GetDeJureLiegeOfTier('duchy').GetBaseNameNoTierNoTooltip]의 땅"

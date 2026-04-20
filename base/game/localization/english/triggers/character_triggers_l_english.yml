@@ -1031,6 +1031,28 @@
 
  has_any_secrets_trigger:0 "[CHARACTER.GetShortUIName|U] has any [secrets|E]"
  has_any_nickname_trigger:0 "Has a nickname"
+
+ has_first_name_global: "Has first name $NAME$"
+ not_has_first_name_global: "Does #bold not#! have first name $NAME$"
+ has_first_name_third: "[CHARACTER.GetShortUIName|U] has first name $NAME$"
+ not_has_first_name_third: "[CHARACTER.GetShortUIName|U] does #bold not#! have first name $NAME$"
+ has_first_name_first: "You have first name $NAME$"
+ not_has_first_name_first: "You do #bold not#! have first name $NAME$"
+
+ has_regnal_name_global: "Has regnal name $NAME$"
+ not_has_regnal_name_global: "Does #bold not#! have regnal name $NAME$"
+ has_regnal_name_third: "[CHARACTER.GetShortUIName|U] has regnal name $NAME$"
+ not_has_regnal_name_third: "[CHARACTER.GetShortUIName|U] does #bold not#! have regnal name $NAME$"
+ has_regnal_name_first: "You have regnal name $NAME$"
+ not_has_regnal_name_first: "You do #bold not#! have regnal name $NAME$"
+
+ has_original_first_name_global: "Has birth name $NAME$"
+ not_has_original_first_name_global: "Does #bold not#! have birth name $NAME$"
+ has_original_first_name_third: "[CHARACTER.GetShortUIName|U] has birth name $NAME$"
+ not_has_original_first_name_third: "[CHARACTER.GetShortUIName|U] does #bold not#! have birth name $NAME$"
+ has_original_first_name_first: "You have birth name $NAME$"
+ not_has_original_first_name_first: "You do #bold not#! have birth name $NAME$"
+
  PRISON_TOTAL_DAYS:0 "Total of days spent in [prison|E]: $DAYS|V$"
  TIME_IN_PRISON_TYPE_TRIGGER:0 "Time spent in current imprisonment type: $TIME|V$"
  IN_PRISON_TYPE_TRIGGER:0 "Is currently spending their imprisonment time in: "

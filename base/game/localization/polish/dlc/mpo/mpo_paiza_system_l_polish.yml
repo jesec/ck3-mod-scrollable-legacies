@@ -62,7 +62,7 @@
  mpo_decisions_events.2137.t: "[paiza_merchant.GetFirstNameNoTooltip] i [paiza_merchant.Custom('PL_jego_jej')] podróże"
  mpo_decisions_events.2137.desc_intro: "[paiza_merchant.GetName] bierze głęboki oddech, spogląda w dal i rozpoczyna swoją opowieść:\n#weak"
  mpo_decisions_events.2137.desc_interludium: "\n\n#![paiza_merchant.GetName] łapie oddech, a następnie opowiada o innym państwie:\n#weak"
- mpo_decisions_events.2137.a: "Rozumiem"
+ mpo_decisions_events.2137.a: "Rozumiem."
  mpo_decisions_events.2137.b: "Opowiedz mi więcej!"
  mpo_decisions_events.2137.c: "Zostań w mojej jurcie."
  mpo_decisions_events.2138.t: "Gromada za złoto"

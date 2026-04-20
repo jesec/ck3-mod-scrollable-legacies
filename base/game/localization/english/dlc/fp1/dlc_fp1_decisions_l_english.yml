@@ -5,6 +5,12 @@
  secure_high_kingdom_north_sea_decision_confirm:0 "Above all, a High King!"
  secure_high_kingdom_north_sea_decision_solve_danelaw:0 "The $k_danelaw$ currently has [de_jure|E] [counties|E], and $k_england$ must be departitioned first."
  secure_high_kingdom_north_sea_scripted_effect.daneland_reabsorbed.tt:0 "All [completely_controlled|E] [duchies|E] of $k_daneland$ are be [de_jure_drift_drifted|E] back to $k_england$"
+ secure_high_kingdom_north_sea_scripted_effect: "You get a [strong_hook|E] #weak (Loyalty)#! on [powerful_vassals|E]"
+ secure_high_kingdom_north_sea_custom_powerful_vassals: "Every [powerful_vassal|E]"
+ secure_high_kingdom_denmark_held_years: "[temp_scope.GetName] held for #V 10#! years #weak (currently [SCOPE.ScriptValue('north_sea_held_value')|0V])#!"
+ secure_high_kingdom_neustria: "You gain #V Kingdom of Neustria#! [title|E]"
+ secure_high_kingdom_custom_every_coastal: "Every coastal [province|e]"
+ north_sea_kingdom_coastal_modifier: "Pax Nordica"
 
  found_capital_of_the_rus_decision:0 "Found the Capital of the Rus'"
  found_capital_of_the_rus_decision_desc:0 "Enterprising Norse flow out of Scandinavia and through the rich rivers of the fierce Slavs to the east. Though countless settlements and minor realms vie for power, Slavic and Norse alike, only #EMP one#! can truly represent the unification of the two peoples..."

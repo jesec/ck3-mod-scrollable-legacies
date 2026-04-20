@@ -22,7 +22,7 @@ ate_human_heart = {
 }
 
 ate_human_heart_bad = {
-	icon = martial_positive
+	icon = martial_mixed
 	monthly_martial_lifestyle_xp_gain_mult = 0.15
 	health = -0.1
 }
@@ -55,7 +55,7 @@ recent_arson_modifier = {
 }
 
 arson_rebuilding_modifier = {
-	icon = county_modifier_development_positive
+	icon = county_modifier_development_mixed
 	county_opinion_add = 5
 	development_growth_factor = 0.75
 	tax_mult = -1
@@ -105,7 +105,7 @@ liege_bad_micromanagement = {
 }
 
 clearing_crime_modifier = {
-	icon = county_modifier_control_positive
+	icon = county_modifier_control_mixed
 	monthly_county_control_growth_add = 0.1
 	county_opinion_add = -5
 	development_growth_factor = -0.05

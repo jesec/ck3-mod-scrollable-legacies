@@ -374,7 +374,7 @@
  #Important Action
  action_ongoing_house_feud: "[house_feud|E] de casa en curso"
  action_ongoing_house_feud_label: "@dynasty_icon!Tu casa está enemistada con [recipient.GetHouse.GetBaseNameNoTooltip]"
- action_ongoing_house_feud_desc: "Tu familia considera a la casa [recipient.GetHouse.GetBaseName] su enemiga y recibirá recompensas por superarla.\n\n#help Asesinar, [torturing|lE], poner los cuernos, robar y ganar [wars|lE] contra sus miembros aumentará la puntuación de tu casa, mientras que ser víctima de estas acciones la reducirá.#!\n\n#help $house_feud_balance_action_tt$#!\n"
+ action_ongoing_house_feud_desc: "Tu familia considera a la casa [recipient.GetHouse.GetBaseName] su enemiga y recibirá recompensas por superarla.\n\n#help Asesinar, [torturing|lE], poner los cuernos, robar y ganar [wars|lE] contra sus miembros aumentará la puntuación de tu casa, mientras que ser víctima de estas acciones la reducirá.#!\n"
  action_ongoing_house_feud_click: "#I Clic para ver [house_feud|lE] del jefe de la casa#!"
  action_ongoing_house_feud_unimportant: "@warning_icon! #N Tu casa está perdiendo la [house_feud|lE]#!"
  swap_feud_tt: "Terminar la [house_feud|lE] con [house|lE] [house_feud_existing.GetBaseName]"

@@ -77,7 +77,7 @@
  mpo_decisions_events.2137.t: "The Travels of [paiza_merchant.GetFirstNameNoTooltip]"
  mpo_decisions_events.2137.desc_intro: "[paiza_merchant.GetName] gathers breath, looks into the distance and weaves a tale:\n#weak"
  mpo_decisions_events.2137.desc_interludium: "\n\n#![paiza_merchant.GetSheHe|U] gasps for breath, then rambles on about a different realm:\n#weak"
- mpo_decisions_events.2137.a: "I see"
+ mpo_decisions_events.2137.a: "I see."
  mpo_decisions_events.2137.b: "Tell me more!"
  mpo_decisions_events.2137.c: "Stay at my yurt."
 

@@ -219,7 +219,7 @@
  SUCCESSION_EVENT_WINDOW_GAME_OVER_LOW_SPLENDOR_SHORT: "함께했으며, 가문은 사소한 가문으로 남아 역사에 흔적을 남기지 못했습니다."
  SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR: "함께했지만, 가문은 한미한 채로 남아 곧 잊힐 운명에 처했습니다."
  #########################################
- SUCCESSION_EVENT_WINDOW_DEAD_DESC: "[CHARACTER.Custom('DeathMessageIntro')] [CHARACTER.Custom('DeathMessageReason')] [CHARACTER.Custom('DeathMessageOutro')]"
+ SUCCESSION_EVENT_WINDOW_DEAD_DESC: "[Character.Custom('DeathMessageIntro')][Character.Custom('NicknameReason')] [Character.Custom('DeathMessageReason')] [Character.Custom('DeathMessageOutro')]"
  SUCCESSION_EVENT_WINDOW_HEIR_DESC: "[CHARACTER.GetTitledFirstNameNoTooltip] [CHARACTER.Custom('GetSuccessionHeirMotion')]. [CHARACTER.Custom('HeirMessageInterface')]"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_DESC: "[CHARACTER.Custom('GameOverMessageInterface')]. [CHARACTER.Custom('GameOverMessageInterfaceDuration')] [CHARACTER.Custom('GameOverMessageInterfaceSplendor')].[CHARACTER.Custom('GameOverMessageNotableAchievements')]"
  SUCCESSION_EVENT_WINDOW_END_DATE_DESC: "게임 종료일에 도달했습니다.\n\n[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceDuration')] [SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceSplendor')].[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageNotableAchievements')]"
@@ -299,3 +299,5 @@
  #Variable loc for lamp
  succession_heir_throne: "권좌에 오름"
  succession_heir_leader: "지도자로서 나아감"
+ #Nicknames
+ SUCCESSION_EVENT_WINDOW_NICKNAME: " 생전에는 [ROOT.Char.GetNickname](으)로 불렸습니다."

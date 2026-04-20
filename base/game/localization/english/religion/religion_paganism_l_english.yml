@@ -1481,6 +1481,7 @@
  north_african_religion:0 "North-African"
  north_african_religion_adj:0 "North-African"
  north_african_religion_adherent:0 "Amazigh"
+ north_african_religion_adherent_plural:0 "$north_african_religion_plural$"
  north_african_religion_plural:0 "Amazighs"
  north_african_religion_desc:0 "Traditional Berber beliefs follow the Cult of the Dead, and believe that when one passes from this world, one becomes deified among one's own family. Stone worship and construction of Megaliths bring followers closer to the Gods, with chief deities second only to the Creator being the Sun and Moon Gods. Even among followers of other faiths, syncretism with North African folk tradition is common."
  
@@ -1596,6 +1597,8 @@
  # Kamuyism, Ainu folk religion
  kamuyism_religion: "Ezo" # 蝦夷
  kamuyism_religion_adj: "Ezo"
+ kamuyism_religion_adherent: "$kamuyism_pagan_adherent$"
+ kamuyism_religion_adherent_plural: "$kamuyism_pagan_adherent_plural$"
  kamuyism_religion_desc: "In the beginning, there was only mud, and it was the first of the kamuy - the spirits - that made the world as it is now, and it is through the intercession of ape-kamuy that humanity may draw on the powers of the spiritual world."
  kamuyism_pagan: "Kamuyism" # カムイ/神威
  kamuyism_pagan_adj: "Kamuyist"
@@ -1655,6 +1658,8 @@
  
  aluk_religion: "Aluk"
  aluk_religion_adj: "Aluk"
+ aluk_religion_adherent: "$aluk_adherent$"
+ aluk_religion_adherent_plural: "$aluk_adherent_plural$"
  aluk_religion_desc: "Angered by the sins of mortals, the god Puang Matua severed the ladder to heaven, and now none can ascend to speak with the supreme deity. Puang Tamborolangi, the creator's son, was sent down as his father's representative, carrying Puang Matua's decrees as to how the people should conduct themselves."
  aluk: "Aluk"
  aluk_adj: "Aluk"
@@ -1718,6 +1723,8 @@
 
  bimoism_religion: "Bimoism"
  bimoism_religion_adj: "Bimoist"
+ bimoism_religion_adherent: "$bimoism_adherent$"
+ bimoism_religion_adherent_plural: "$bimoism_adherent_plural$"
  bimoism_religion_desc: "For Bimoists, the gods are to be seen everywhere in nature, be it in the forest or in flames, while they propitiate the spirits of their ancestors for protection and assistance."
  bimoism: "Bimoism"
  bimoism_adj: "Bimoist"
@@ -1781,6 +1788,8 @@
 
  dayawism_religion: "Dayawism"
  dayawism_religion_adj: "Dayawist"
+ dayawism_religion_adherent: "$dayawism_adherent$"
+ dayawism_religion_adherent_plural: "$dayawism_adherent_plural$"
  dayawism_religion_desc: "The world perceivable to the naked eye is only one of a pair, the other a world parallel to this one inhabited by countless spirits, invisible but powerful. By the worship and propitiation of these spirits, their influence can be drawn upon with the aid of mediums as intermediaries."
  dayawism: "Dayawism"
  dayawism_adj: "Dayawist"
@@ -1836,6 +1845,8 @@
 
  satsana_phi_religion: "Thep Arak"
  satsana_phi_religion_adj: "Thep Arak"
+ satsana_phi_religion_adherent: "$satsana_phi_adherent$"
+ satsana_phi_religion_adherent_plural: "$satsana_phi_adherent_plural$"
  satsana_phi_religion_desc: "Devotees of Thep Arak know that the great spirits, the Phi, are of variable nature, and some may inflict harm as easily as others render aid. It is only by making offerings to the spirits that their goodwill may be assured."
  satsana_phi: "Thep Arak"
  satsana_phi_adj: "Thep Arak"
@@ -1898,6 +1909,8 @@
 
  shamanism_religion: "Shamanism"
  shamanism_religion_adj: "Shamanic"
+ shamanism_religion_adherent: "$shamanism_adherent$"
+ shamanism_religion_adherent_plural: "$shamanism_adherent_plural$"
  shamanism_religion_desc: "Shamans are the living link between this world and the world of gods and spirits, and it is only with their assistance that benevolent spirits may be invoked and malevolent spirits dispelled."
  shamanism: "Shamanism"
  shamanism_adj: "Shamanic"
@@ -1969,6 +1982,8 @@
 
  utaki_religion: "Utaki" # 御嶽
  utaki_religion_adj: "Utaki"
+ utaki_religion_adherent: "$utaki_adherent$"
+ utaki_religion_adherent_plural: "$utaki_adherent_plural$"
  utaki_religion_desc: "Utaki are sacred places, often found where water flows, at which humanity may meet with their gods, or else make their obeisances in hope of enlisting their assistance."
  utaki: "Utaki"
  utaki_adj: "Utaki"
@@ -1982,7 +1997,7 @@
  utaki_high_god_name_possessive: "Tiida's"
  utaki_high_god_name_alternate: "$utaki_high_god_name$"
  utaki_high_god_name_alternate_possessive: "$utaki_high_god_name_possessive$"
- utaki_creator_god_name: "Amamichuu"# 阿摩美久
+ utaki_creator_god_name: "Amamichuu" # 阿摩美久
  utaki_creator_god_name_possessive: "Amamichuu's"
  utaki_health_god_name: "$utaki_high_god_name$"
  utaki_health_god_name_possessive: "$utaki_high_god_name_possessive$"
@@ -2028,6 +2043,8 @@
 
  kaharingan_religion: "Kaharingan"
  kaharingan_religion_adj: "Kaharingan"
+ kaharingan_religion_adherent: "$kaharingan_adherent$"
+ kaharingan_religion_adherent_plural: "$kaharingan_adherent_plural$"
  kaharingan_religion_desc: "Though the world of spirits and the world of man are separate, they are at the same time also irrevocably intertwined, and balance between the two must be carefully maintained to ensure that all may continue to live in harmony."
  kaharingan: "Kaharingan"
  kaharingan_adj: "Kaharingan"
@@ -2084,6 +2101,8 @@
 
  moism_religion: "Moism"
  moism_religion_adj: "Moist"
+ moism_religion_adherent: "$moism_adherent$"
+ moism_religion_adherent_plural: "$moism_adherent_plural$"
  moism_religion_desc: "All things, even inanimate objects, possess a soul, but particularly potent are the spirits of the ancestors, who may punish their descendants as easily as they may protect them if they are displeased."
  moism: "Moism"
  moism_adj: "Moist"
@@ -2135,6 +2154,8 @@
 
  hantuism_religion: "Hantuism"
  hantuism_religion_adj: "Hantuist"
+ hantuism_religion_adherent: "$hantuism_adherent$"
+ hantuism_religion_adherent_plural: "$hantuism_adherent_plural$"
  hantuism_religion_desc: "An innumerable array of villages worship and propitiate an immeasurable array of spirits, both malicious and benevolent."
  hantuism: "Hantuism"
  hantuism_adj: "Hantuist"
@@ -2209,6 +2230,8 @@
 
  dab_qhuas_religion: "Dab Qhuas"
  dab_qhuas_religion_adj: "Dab Qhuas"
+ dab_qhuas_religion_adherent: "$dab_qhuas_adherent$"
+ dab_qhuas_religion_adherent_plural: "$dab_qhuas_adherent_plural$"
  dab_qhuas_religion_desc: "A household-centered spirit and ancestor faith where families honor domesticated house spirits at a home altar, and seek help from shamans who perform healing and soul-calling to restore balance between the living world and the spirit world."
  dab_qhuas: "Dab Qhuas"
  dab_qhuas_adj: "Dab Qhuas"
@@ -2283,6 +2306,8 @@
 
  tolotang_religion: "Tolotang"
  tolotang_religion_adj: "Tolotang"
+ tolotang_religion_adherent: "$tolotang_adherent$"
+ tolotang_religion_adherent_plural: "$tolotang_adherent_plural$"
  tolotang_religion_desc: "There is a world above and another world below, and between them the earth lay fallow until the gods descended and made it fit for man to inhabit."
  tolotang: "Tolotang"
  tolotang_adj: "Tolotang"

@@ -76,11 +76,11 @@
  building_type_al_qarawiyyin_university_01: "$building_al_qarawiyyin_university_01$"
  building_type_al_qarawiyyin_university_01_desc: "$building_al_qarawiyyin_university_01_desc$"
  building_al_qarawiyyin_university_01: "알 카라윈 대학"
- building_al_qarawiyyin_university_01_desc: "캐루안에서 온 상인과 이주민들이 설립한 이 광대한 복합 시설은 서방 이슬람 세계에서 가장 명망 높은 고등 교육 기관 중 하나입니다. 먼 지역의 학자들까지 불러 모으며 지역의 지배 계층에 심오한 학문을 가르칩니다.\n#italic 마드라사#!는 여러 개의 홀과 방으로 구성되어 있으며, 외국인 학생들에게 숙식 공간을 제공합니다. 공개 토론의 중심이 되는 #italic 사흔#!은 중앙 정원의 역할 또한 맡습니다."
+ building_al_qarawiyyin_university_01_desc: "카이르완에서 온 상인과 이주민들이 설립한 이 광대한 복합 시설은 서방 이슬람 세계에서 가장 명망 높은 고등 교육 기관 중 하나입니다. 먼 지역의 학자들까지 불러 모으며 지역의 지배 계층에 심오한 학문을 가르칩니다.\n#italic 마드라사#!는 여러 개의 홀과 방으로 구성되어 있으며, 외국인 학생들에게 숙식 공간을 제공합니다. 공개 토론의 중심이 되는 #italic 사흔#!은 중앙 정원의 역할 또한 맡습니다."
  #Kairouan Basins
  building_type_kairouan_basins_01: "$building_kairouan_basins_01$"
  building_type_kairouan_basins_01_desc: "$building_kairouan_basins_01_desc$"
- building_kairouan_basins_01: "캐루안 분지"
+ building_kairouan_basins_01: "카이르완 분지"
  building_kairouan_basins_01_desc: "필요할 때 도시에 신선한 물을 공급하기 위해 건설된 거대한 저수지입니다. 이 시설은 침전지 구조를 갖추어 자체적으로 빗물을 정화하고 퇴적물을 걸러냅니다.\n이 구조는 여러 개의 구역이 연결되어 이루어지며, 작은 저수지에서 큰 저수지로, 그리고 정교한 석조 물탱크로 이어지는 체계를 적용했습니다."
  #Ghana Palace
  building_type_ghana_palace_01: "$building_ghana_palace_01$"

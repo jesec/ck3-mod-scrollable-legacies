@@ -1884,6 +1884,7 @@ nga_yamankan_1 = { # Landless Scholar/Monk adventurer
 	religion = theravada
 	culture = mon
 	trait = education_martial_3
+	trait = one_eyed
 	trait = arrogant
 	trait = ambitious
 	trait = paranoid

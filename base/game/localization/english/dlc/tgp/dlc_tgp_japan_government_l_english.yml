@@ -115,6 +115,7 @@
  tgp_has_ceremonial_liege_title_no_title_tt: "[THIS.Char.GetShortUIName|U] [CharHaveHas(THIS.Char)] the [ceremonial_liege|E] [title|E]"
  tgp_is_in_ceremonial_house_tt: "[THIS.Char.GetShortUIName|U] [CharAreIs( THIS.Char )] a member of the [ceremonial_house|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetHouse.GetName|V])#!"
  tgp_realm_has_ceremonial_liege_tt: "[THIS.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName|U] has a [ceremonial_liege|E]"
+ tgp_ceremonial_liege_coronation_trigger: "Only an [independent|E] [ceremonial_liege|E] can be crowned in their [realm|E]"
 
  influence_candidacy_interaction_desc_japan: "Spend [influence|E] to promote or undermine a character's candidacy for [recipient.GetTopLiege.Custom('GetGovernorConcept')] or [ceremonial_regent|E]"
  request_appointment_support_desc_japan: "Ask [recipient.GetShortUINameNoTooltip] to promote you or a [house|E] member in becoming a future [actor.GetTopLiege.Custom('GetGovernorConcept')] or [ceremonial_regent|E]"
@@ -153,7 +154,7 @@
  japan_administrative_province_military: "@japan_administrative_military_administration! Military Administration"
  japan_administrative_province_military_short: "@japan_administrative_military_administration! Military"
  japan_administrative_province_military_text_icon: "@japan_administrative_military_administration!"
- japan_administrative_province_military_benefits: "#emphasis #bold [vassal|E] Benefits:#!#!\n$EFFECT_LIST_BULLET$ Uses [GetLaw('japanese_appointment_succession_law').GetName]\n\n#alert_trial @alert_icon! Limited to [EmptyScope.ScriptValue('japan_administrative_province_military_max_value')|V0]#!"
+ japan_administrative_province_military_benefits: "#emphasis #bold [vassal|E] Benefits:#!#!\n$EFFECT_LIST_BULLET$ Uses [GetLaw('japanese_military_appointment_succession_law').GetName]\n\n#alert_trial @alert_icon! Limited to [EmptyScope.ScriptValue('japan_administrative_province_military_max_value')|V0]#!"
  japan_administrative_province_military_desc: "#low A military administration focused on fortification and recruitment. Providing the realm with the means of protecting itself, or expanding its borders when necessary.#!"
  japan_administrative_province_military_amount_desc: "$japan_administrative_province_military_short$ limit reached"
  should_hold_a_lower_tier_governorship_first: "No held [governorship|E] of prior [title_rank|E]"

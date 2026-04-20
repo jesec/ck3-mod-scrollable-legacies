@@ -62,7 +62,7 @@
  mpo_decisions_events.2137.t: "[paiza_merchant.GetFirstNameNoTooltip] и [Select_CString(paiza_merchant.IsFemale, 'ее', 'его' )] странствия"
  mpo_decisions_events.2137.desc_intro: "[paiza_merchant.GetName] переводит дух, смотрит вдаль и начинает историю:\n#weak"
  mpo_decisions_events.2137.desc_interludium: "\n\n#![Select_CString(paiza_merchant.IsFemale, 'Она', 'Он' )] делает глубокий вдох и начинает рассказ о другой державе:\n#weak"
- mpo_decisions_events.2137.a: "Ясно"
+ mpo_decisions_events.2137.a: "Ясно…"
  mpo_decisions_events.2137.b: "Расскажите еще!"
  mpo_decisions_events.2137.c: "Оставайтесь в моей юрте."
  mpo_decisions_events.2138.t: "Стада за золото"

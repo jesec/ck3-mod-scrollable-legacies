@@ -9,7 +9,7 @@
  ce1_heroic_legacy_4_name: "살아있는 전설"
  ce1_heroic_legacy_4_effect: "[legend_mythical|E] [legend_heroic|E] 완료 시 [GetTrait('legend').GetName( GetPlayer )] [trait|E] 획득\n[legend|E] 생성 비용 감소: #positive_value 25%#!"
  ce1_heroic_legacy_5_name: "역사에 획을 긋다"
- ce1_heroic_legacy_5_effect: "5단계 [education|E] [trait|E]을 선택하여 [dynasty|E]에서 좀 더 흔하게 나타나도록 만듦"
+ ce1_heroic_legacy_5_effect: "5단계 [education|E] [trait|E]을 선택하여 [dynasty|E]에서 비교적 흔하게 나타나도록 만듦"
  has_legitimizing_access_tt: "[GetPlayer.GetDynasty.GetName](이)가 $ce1_heroic_legacy_1_name$ [perk|E]을 보유해야 함"
  has_legit_intent_access_tt: "[GetPlayer.GetDynasty.GetName](이)가 $ce1_legitimacy_legacy_3_name$ [perk|E]을 보유해야 함"
  ce1_heroic_legacy_1_useable_once: "이 전설의 연원은 [dynasty|E]별로 한 번만 사용할 수 있으며 어느 구성원이든 사용할 수 있음"

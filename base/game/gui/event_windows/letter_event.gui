@@ -7,7 +7,7 @@ window = {
 	size = { 675 530 }           ############ SIZES NEED TO MATCH
 
 	using = Window_Movable
-
+	
 	datacontext = "[EventWindow.AccessEventWindowData]"
 
 	state = {
@@ -115,7 +115,22 @@ window = {
 		parentanchor = center
 		size = { 675 530 }           ############ SIZES NEED TO MATCH
 		alpha = 0
-
+		
+		using = Event_Window_Debug_EventTools
+		using = Event_Window_Debug_OptionTooltips
+		blockoverride "is_event_on_top" {
+			enabled = "[EventWindow.IsOnTop]"
+		}
+		blockoverride "is_event_on_top_close" {
+			trigger_when = "[Not(EventWindow.IsOnTop)]"
+		}
+		
+		blockoverride "event_tooltips_position" {
+			position = { 20 -40 }
+			parentanchor = left|bottom
+			widgetanchor = right|bottom
+		}
+		
 		state = {
 			name = show
 			delay = 0.8
@@ -465,13 +480,26 @@ window = {
 						parentanchor = hcenter
 						size = { 592 42 }
 
-						tooltip = "[EventOption.GetTooltip]"
+						tooltip = "EVENT_TOOLTIP_SHORTCUT"
 						tooltip_visible = "[Not( StringIsEmpty( EventOption.GetTooltip ) )]"
 
 						onclick = "[EventOption.Select]"
 						onmousehierarchyenter = "[EventOption.OnEnter]"
 						onmousehierarchyleave = "[EventOption.OnLeave]"
 						enabled = "[EventOption.IsValid]"
+						
+						down = "[And(GetVariableSystem.HasValue('event_tooltip', EventOption.GetText), PdxGuiFoldOut.IsUnfolded)]"
+						
+						button_event_shortcut = {}
+						
+						# alt: preview option
+						button_event_preview = {}
+				
+						state = {
+							name = "hide_clean_previews"
+							trigger_when = "[And(EventWindowData.ShowDebugOptionTooltips, PdxGuiFoldOut.IsUnfolded)]"
+							on_finish = "[EventWindowData.ToggleDebugOptionTooltips]"
+						}
 
 						tooltipwidget = {
 							using = DefaultTooltipWidget
@@ -495,6 +523,8 @@ window = {
 							parentanchor = left|vcenter
 
 							hbox = {
+								widget_event_shortcut_base = {}
+								
 								fixedgridbox = {
 									name = "reason_icons"
 									datamodel = "[EventOption.Reasons]"
@@ -595,7 +625,6 @@ window = {
 						}
 
 						hbox = {
-
 							text_single = {
 								text = "[EventOption.GetText]"
 
@@ -608,6 +637,8 @@ window = {
 								using = Text_Light_Background_Overrides
 							}
 						}
+						
+						widget_event_shortcut_base = {}
 
 						widget = {
 							size = { 102 34 }
@@ -688,6 +719,14 @@ window = {
 										}
 									}
 								}
+							}
+						}
+						
+						# we won't have a tooltip otherwise
+						widget_event_shortcut = {
+							parentanchor = vcenter
+							blockoverride "shortcut_format" {
+								default_format = "#light_background"
 							}
 						}
 					}

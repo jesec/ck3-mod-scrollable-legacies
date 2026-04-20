@@ -86,6 +86,8 @@
  scheme_critical_moments.1153.desc_secret: "\n\nПо крайней мере, о моем провале никто не узнает."
  scheme_critical_moments.1153.a: "Какое разочарование."
  SCHEME_TARGET_IS_A_KINGDOM: "[target.GetName] — [Concept('kingdom', 'королевство')|E]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_AN_EMPIRE: "[target.GetName] — [Concept('empire', 'империя')|E]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_A_HEGEMONY: "[target.GetName] — [Concept('hegemony', 'гегемония')|E]: $VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_HOLDER: "Вы — [Concept( 'spymaster', 'тайный советник' )|E] текущего [Concept( 'governor', 'губернатора' )|E]: $VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_LIEGE_OF_HOLDER: "Вы — [Concept( 'spymaster', 'тайный советник' )|E] [Concept( 'liege', 'сюзерена' )|E] текущего [Concept( 'governor', 'губернатора' )|E]: $VALUE|+0=$"
  SCHEME_I_AM_DIARCH_OF_HOLDER: "Вы — [Concept( 'diarch', 'диарх' )|E] текущего [Concept( 'governor', 'губернатора' )|E]: $VALUE|+0=$"

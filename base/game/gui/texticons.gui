@@ -2361,6 +2361,16 @@ texticon = {
 }
 
 texticon = {
+	icon = commander_advantage_icon
+	iconsize = {
+		texture = "gfx/interface/icons/icon_commander_advantage.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = alliance_icon
 	iconsize = {
 		texture = "gfx/interface/icons/message_feed/alliance.dds"
@@ -3033,6 +3043,16 @@ texticon = {
 	icon = building_icon
 	iconsize = {
 		texture = "gfx/interface/icons/message_feed/building.dds"
+		size = { 24 24 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = time_icon
+	iconsize = {
+		texture = "gfx/interface/icons/icon_time.dds"
 		size = { 24 24 }
 		offset = { 0 6 }
 		fontsize = 16
@@ -3966,6 +3986,26 @@ texticon = {
 	icon = celestial_court_attire
 	iconsize = {
 		texture = "gfx/interface/icons/dlc/dlc_027.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = symbols_of_authority
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_028.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = songs_of_the_realm
+	iconsize = {
+		texture = "gfx/interface/icons/dlc/dlc_029.dds"
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16

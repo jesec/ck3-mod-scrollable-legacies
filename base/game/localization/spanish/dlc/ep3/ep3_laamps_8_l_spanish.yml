@@ -167,7 +167,7 @@
  ep3_laamps.8105.a.desc: "Pedirás más tiempo para prepararte para la guerra."
  ep3_laamps.8105.a.success: "Tienes 8 años para reclamar [claimed_title.GetName]"
  ep3_laamps.8105.a.failure: "Tienes 4 años para reclamar [claimed_title.GetName]"
- ep3_laamps.8105.b: "¡Por el futuro de [claimed_title.GetName]!"
+ ep3_laamps.8105.b: "¡Por el futuro de [claimed_title.GetNameNoTooltip]!"
  ep3_laamps.8105.b.desc: "Aceptas las condiciones. $ep3_laamps.8105.a.failure$"
  ep3_laamps.8105.c: "Esto ha sido una pérdida de tiempo."
  ep3_laamps.8105.c.desc: "@warning_icon! #color_red Rompes las negociaciones.#! [petitioned_ruler.GetName] no te apoyará y, desde luego, tendrá peor opinión de ti."

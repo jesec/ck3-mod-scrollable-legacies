@@ -1716,7 +1716,7 @@ d_donggye = {
 		holder = korean_yun_papyeong_4 # Jip_hyeong
 	}
 	1178.1.1 = {
-		holder = korean_tak_1 # 
+		holder = korean_tak_2 # 
 	}
 }
 
@@ -1734,7 +1734,7 @@ c_myeongju = {
 		holder = korean_yun_papyeong_4 # Jip_hyeong
 	}
 	1178.1.1 = {
-		holder = korean_tak_1 # 
+		holder = korean_tak_2 # 
 	}
 }
 
@@ -1770,7 +1770,7 @@ c_deungju = {
 		holder = korean_yun_papyeong_4 # Jip_hyeong
 	}
 	1178.1.1 = {
-		holder = korean_tak_1 # 
+		holder = korean_tak_2 # 
 	}
 }
 

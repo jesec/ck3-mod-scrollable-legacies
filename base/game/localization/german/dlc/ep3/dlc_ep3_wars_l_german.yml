@@ -84,4 +84,5 @@
  ep3_laamp_peasant_war: "Bauernaufstand"
  ep3_laamp_peasant_war.peasant_army: "Die Bauern in allen Gemeinden werden als [levies|E] ausgehoben und schließen sich Eurer Seite an"
  ep3_join_war_payment_tt: "Aufgrund des [GetTaskContractType('laamp_join_war_contract').GetName]s-[task_contract|E]:"
- ep3_hire_laamp_mercs_payment_tt: "Aufgrund von [mercenary|E]-Arbeit:"
+ ep3_hire_laamp_mercs_payment_tt: "Weil [TARGET_CHARACTER.GetShortUIName] den eigenen [mercenary|E]-Vertrag erfüllt:"
+ ep3_hire_laamp_mercs_payment_later_tt: "[mercenary|E]-[adventurer|E] [THIS.Char.GetShortUIName|U] bleibt in den anderen [Concept('wars','Kriegen')|E] von [THIS.Char.MakeScope.Var('joined_as_mercenary').Char.GetShortUIName]"

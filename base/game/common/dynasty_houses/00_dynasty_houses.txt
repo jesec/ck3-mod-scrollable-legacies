@@ -1584,6 +1584,12 @@ house_braganza = {
 	dynasty = 1029001 # Prydain
 }
 
+house_las_asturias = {
+	prefix = "dynnp_de"
+	name = "dynn_las_Asturias"
+	dynasty = 12159 # Valle
+}
+
 house_cameros = {
 	prefix = "dynnp_de"
 	name = "dynn_los_Cameros"
@@ -1769,12 +1775,6 @@ house_ribagorza = {
 	dynasty = 388 # Vasconia
 }
 
-house_rocaberti-empuries = {
-	prefix = "dynnp_de"
-	name = "dynn_Rocaberti"
-	dynasty = 393 # Empuries
-}
-
 house_rosello = {
 	prefix = "dynnp_de"
 	name = "dynn_RosellO_"
@@ -1937,4 +1937,22 @@ house_vermandois = {
 	prefix = "dynnp_de"
 	name = dynn_Vermandois
 	dynasty = 743
+}
+
+house_clare = {
+	prefix = "dynnp_de"
+	name = "dynn_Clare"
+	dynasty = 752
+}
+
+house_rocaberti = {
+	prefix = "dynnp_de"
+	name = "dynn_RocabertI_"
+	dynasty = 393
+}
+
+house_chalon = {
+	prefix = "dynnp_de"
+	name = "dynn_Chalon"
+	dynasty = 733
 }

@@ -11,6 +11,7 @@
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -199,6 +200,7 @@ c_prusa = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -339,6 +341,7 @@ d_ephese = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -462,6 +465,7 @@ c_aeolis = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -516,6 +520,7 @@ d_thracesia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -623,6 +628,7 @@ c_lydia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -799,6 +805,7 @@ c_chonae = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -871,6 +878,7 @@ d_optimatoi = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}
@@ -1023,6 +1031,7 @@ d_bucellaria = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}

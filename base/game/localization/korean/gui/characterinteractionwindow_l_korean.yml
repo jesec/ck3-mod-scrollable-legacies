@@ -5,6 +5,8 @@
  CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_TYPE: "#S $NAME$ 모략#!"
  SHOW_MORE_INTERACTIONS_TT: "#T [CharacterInteractionCategory.GetDescription] 더 보기#!"
  PIN_TT: "#T [Select_CString( Character.IsPinned, '고정 해제', '고정' )]\n#!화면 우측 외곽에 고정하여 해당 인물을 추적하십시오."
+ TITLE_PIN_TT: "#T [Select_CString( Title.IsPinned, '고정 해제', '고정' )]\n#!화면 우측 외곽에 고정하여 해당 작위를 추적하십시오."
+ PROVINCE_PIN_TT: "#T [Select_CString( Province.IsPinned, '고정 해제', '고정' )]\n#!화면 우측 외곽에 고정하여 해당 봉토를 추적하십시오."
  interaction_category_favorites: "즐겨찾기"
  interaction_category_diplomacy: "외교"
  interaction_category_friendly: "개인"

@@ -28,7 +28,7 @@ tgp_not_getting_any_younger_modifier = {
 }
 
 tgp_envy_fueled_study_modifier = {
-	icon = learning_mixed
+	icon = learning_positive
 	monthly_lifestyle_xp_gain_mult = 0.1
 	owned_personal_scheme_success_chance_add = 10
 }

@@ -41,7 +41,7 @@
  DOMICILE_RESOURCE_HERD_BALANCE: "[Domicile.GetHerdResource|=0]"
  domicile_adventurer: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
  domicile_estate: "das [CHARACTER.GetHouse.GetNameNoTooltip]-Anwesen"
- DOMICILE_HERD_TITLE: "[herd|E]: [Domicile.GetHerd|V0]/[Domicile.GetHerdLimit]"
+ DOMICILE_HERD_TITLE: "[herd|E]: [Domicile.GetHerd|V0]/[Domicile.GetHerdLimit|0]"
  DOMICILE_HERD_MONTHLY_CHANGE: "Monatliche Änderung"
  DOMICILE_HERD_BREAKDOWN_GAIN: "Herdenzuwachs"
  DOMICILE_HERD_BREAKDOWN_LOSS: "Herdenverlust"

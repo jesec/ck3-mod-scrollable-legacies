@@ -1329,6 +1329,8 @@
  dynn_Ce: "Ce"
  dynn_Cea: "Ceów"
  dynn_Ceanadach: "Ceanadachów"
+ dynn_Ceanneidigh: "Ceannéidighów"
+ dynn_ceanneidigh_motto: "Adhaero Virtuti"
  dynn_Cearbhaill: "Cearbhaillów"
  dynn_Ceardadh: "Ceardadhów"
  dynn_Ceballos: "Ceballosów"
@@ -6802,7 +6804,7 @@
  dynn_Yoishta: "Joisztów"
  dynn_York: "Yorków"
  dynn_Yostos: "Yostosów"
- dynn_You: "Ty"
+ dynn_You: "You"
  dynn_Younisid: "Jounisidów"
  dynn_Yousifid: "Jusyfid"
  dynn_Yperen: "Yperenów"
@@ -10674,6 +10676,10 @@
  dynn_freddi: "Freddich"
  dynn_collinder: "Collinderów"
  dynn_tosunyan: "Tosunyanów"
+ dynn_skalitz: "Skalitzów"
+ dynn_kobyla: "Kobyłów"
+ dynn_skalitz_motto: "Odczuwam duży głód"
+ dynn_kobyla_motto: "Życie to pasmo problemów, które należy rozwiązać. Im więcej ich rozwiążesz, tym lepszym staniesz się człowiekiem."
  #TGP
  dynn_Tang: "Tangów"
  dynn_Kediri: "Kedirich"
@@ -11275,6 +11281,7 @@
  dynn_Takezaki: "Takezakich" #竹崎
  dynn_Tamura: "Tamurów" #田村
  dynn_Tana_JP: "Tanów" #多名
+ dynn_Tanba: "Tanbów" #丹波
  dynn_Tanaka: "Tanaków" #田中
  dynn_Tashiro: "Tashiro" #田代
  dynn_Tatara: "Tatarów" #多々良
@@ -11773,103 +11780,213 @@
  dynn_An_694A: "Anów" #楊 (안)
  dynn_Bae_88F5: "Bae" #裵 (배)
  dynn_Baek_767D: "Baeków" #白 (백)
+ dynn_Baek_Balhae: "Eunju $dynn_Baek_767D$"
+ dynn_Baek_Daeheung: "Daeheungów $dynn_Baek_767D$" #大興白 (대흥백)
+ dynn_Baek_Jiksan: "Jiksanich $dynn_Baek_767D$" #稷山白 (직산백)
  dynn_Bak_6734: "Baków" #朴 (박) - aka Park
+ dynn_Bak_Gyeongju: "Gyeongju $dynn_Bak_6734$"
+ dynn_Bak_Jukbang: "Jukbangów $dynn_Bak_6734$"
+ dynn_Bak_Juksan: "Juksanich $dynn_Bak_6734$" #竹山朴 (죽산박)
+ dynn_Bak_Milyang: "Milseongów $dynn_Bak_6734$" #密城朴 (밀성박)
+ dynn_Bak_Pyeongjangsa: "Pyeongjangsów $dynn_Bak_6734$"
+ dynn_Bak_Pyeongsan: "Pyeongsanów $dynn_Bak_6734$" #平山朴 (평산박)
+ dynn_Bak_Seungju: "Seungju $dynn_Bak_6734$" #順天朴 (순천박)
+ dynn_Bak_Ulleong: "Ulleongów $dynn_Bak_6734$"
  dynn_Bok_535C: "Boków" #卜 (복)
+ dynn_Bok_Myeoncheon: "Myeoncheonów $dynn_Bok_535C$" #沔川卜 (면천복)
  dynn_Bu_BD80: "Bu" #부
  dynn_Buyeo: "Buyeo" #夫餘 (부여)
  dynn_Chae_8521: "Chae" #蔡 (채)
+ dynn_Chae_Eumseong: "Eumseongów $dynn_Chae_8521$" #陰城蔡 (음성채)
+ dynn_Chae_Pyeonggang: "Pyeonggangów $dynn_Chae_8521$" #平康蔡 (평강채)
  dynn_Cheok_62D3: "Cheoków" #拓 (척)
+ dynn_Cheok_Goksan: "Gokju $dynn_Cheok_62D3$" #谷山拓 (곡산척)
  dynn_Choe_5D14: "Choe" #崔 (최)
+ dynn_Choe_Chungju: "Chungju $dynn_Choe_5D14$" #忠州崔 (충주최)
+ dynn_Choe_Dongju: "Dongju $dynn_Choe_5D14$" #東州崔 (동주최)
+ dynn_Choe_Gyeongju: "Gyeongju $dynn_Choe_5D14$" #慶州崔 (경주최)
+ dynn_Choe_Haeju: "Haeju $dynn_Choe_5D14$" #海州崔 (해주최)
+ dynn_Choe_Jiksan: "Jiksanich $dynn_Choe_5D14$" #稷山崔 (직산최)
+ dynn_Choe_Suwon: "Suju $dynn_Choe_5D14$" #水州崔 (수주최)
+ dynn_Choe_Ubong: "Ubongów $dynn_Choe_5D14$" #牛峰崔 (우봉최)
  dynn_Chong_8471: "Chongów" #葱 (총)
  dynn_Da_591A: "Da" #多 (다)
  dynn_Dae_5927: "Dae" #大 (대)
+ dynn_Dae_Balhae: "Balhae Daeich" #渤海大 (발해대)
  dynn_Dal_9054: "Dalów" #達 (달)
  dynn_Dong_seong: "Dongseongów"
+ dynn_Dong_seong_Balhae: "Hyeondeok Dongseongów"
  dynn_Du_8C46: "Du" #豆 (두)
+ dynn_Du_Dureung: "Dureungów $dynn_Du_675C_KO$" #杜陵杜 (두릉두)
+ dynn_Du_Pyeongju: "Pyeongju $dynn_Du_8C46$"
  dynn_Du_675C_KO: "Du" #杜 (두)
  dynn_Eok_rye: "Eokrye"
  dynn_Eun_96B1: "Eunów" #隱 (은)
  dynn_Gang_59DC: "Kangów" #姜 (강)
  dynn_Gang_5EB7: "Kangów" #康 (강)
- dynn_Geom_7434: "Keomów" #琴 (검)
+ dynn_Gang_Geumcheon: "Geumcheonów $dynn_Gang_59DC$" #衿川姜 (금천강)
+ dynn_Gang_Jinju: "Jinju $dynn_Gang_59DC$" #晉州姜 (진주강)
+ dynn_Gang_Sincheon: "Sincheonów $dynn_Gang_5EB7$" #信川康 (신천강)
+ dynn_Geom_7434: "Keumich" #琴 (검) - actually Geum
+ dynn_Geom_Bonghwa: "Bonghwa $dynn_Geom_7434$" #奉化琴 (봉화금)
+ dynn_Geom_Nakrang: "Nakrangów $dynn_Geom_7434$"
  dynn_Gi_7B95: "Ki" #箕 (기)
+ dynn_Gi_Jikju: "Jikju $dynn_Gi_7B95$"
  dynn_Gim_91D1: "Kimów" #金 (김) - aka Gim, localised as Kim despite RR for clarity
+ dynn_Gim_Ansan: "Ansanich $dynn_Gim_91D1$" #安山金 (안산김)
+ dynn_Gim_Dangak: "Dangaków $dynn_Gim_91D1$" #唐岳金 (당악김)
+ dynn_Gim_Eonyang: "Eonyangów $dynn_Gim_91D1$" #彦陽金 (언양김)
+ dynn_Gim_Gangneung: "Gangneungów $dynn_Gim_91D1$" #江陵金 (강릉김)
+ dynn_Gim_Gimhae: "Gimhaeich $dynn_Gim_91D1$" #金海金 (김해김)
+ dynn_Gim_Gwangsan: "Gwangsanów $dynn_Gim_91D1$" #光山金 (광산김)
+ dynn_Gim_Pungsang: "Pungsangów $dynn_Gim_91D1$" #豊山金 (풍산김)
+ dynn_Gim_Silla: "Gyeongju $dynn_Gim_91D1$"
+ dynn_Gim_Suncheon: "Suncheonów $dynn_Gim_91D1$"
+ dynn_Gim_Yeonan: "Yeonanów $dynn_Gim_91D1$" #延安金 (연안김)
+ dynn_Gim_Yeongdong: "Yeongdongów $dynn_Gim_91D1$" #永同金 (영동김)
+ dynn_Gim_Yeonggwang: "Yeonggwangów $dynn_Gim_91D1$" #靈光金 (영광김)
+ dynn_Gim_Ulleong: "Ulleongów $dynn_Gim_91D1$"
  dynn_Go_53E4: "Ko" #古 (고)
  dynn_Go_9AD8: "Ko" #高 (고)
+ dynn_Go_Balhae: "Sinyangów $dynn_Go_9AD8$"
+ dynn_Go_Goguryeo: "Goguryeo $dynn_Go_9AD8$"
+ dynn_Go_Jeju: "Jeju $dynn_Go_9AD8$" #濟州高 (제주고)
  dynn_Gong_516C: "Kongów" #公 (공)
  dynn_Guk: "Kuków" #國 (국)
  dynn_Gwak_90ED: "Kwaków" #郭 (곽)
+ dynn_Gwak_Cheongju: "Cheongju $dynn_Gwak_90ED$"
  dynn_Gwi_sil: "Kwisilów" #鬼室 (귀실)
  dynn_Gwon_6B0A: "Kwonów" #權 (권)
+ dynn_Gwon_Andong: "Andongów $dynn_Gwon_6B0A$"
  dynn_Gyeon_7504: "Kyeonów" #甄 (견)
+ dynn_Gyeon_Gaeunhyeon: "Sangju $dynn_Gyeon_7504$"
  dynn_Gyeong_6176: "Kyeongów" #慶 (경)
+ dynn_Gyeong_Cheongju: "Cheongju $dynn_Gyeong_6176$"
  dynn_Ha_590F: "Haich" #夏 (하)
  dynn_Ha_8CC0: "Haich" #賀 (하)
  dynn_Han_97D3_KO: "Hanów" #韓 (한)
+ dynn_Han_Daeheung: "Daeheungów $dynn_Han_97D3_KO$" #大興韓 (대흥한)
+ dynn_Han_Gaeseong: "Gaeseongów $dynn_Han_97D3_KO$"
+ dynn_Han_Giju: "Giju $dynn_Han_97D3_KO$"
  dynn_Hae_89E3: "Hae" #解 (해)
  dynn_Heo_8F09: "Heo" #許 (허)
+ dynn_Heo_Gongam: "Gongamów $dynn_Heo_8F09$" #孔巖許 (공암허)
  dynn_Heuk_chi: "Heukchich" #黑齒 (흑치)
  dynn_Hong_6D2A: "Hongów" #洪 (홍)
+ dynn_Hong_Namyang: "Namyangów $dynn_Hong_6D2A$" #南陽洪 (남양홍)
  dynn_Hwangbo: "Hwangbów" #皇甫 (황보)
+ dynn_Hwangbo_Hwangju: "Hwangju $dynn_Hwangbo$" #黃州皇甫 (황주황보)
  dynn_I_5DF2: "Yi" #已 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_I_674E: "Yi" #李 (이) - aka Lee/I, localised as Yi despite RR for clarity
+ dynn_I_Cheongju: "Cheongju $dynn_I_674E$" #旌善李 (정선이)
+ dynn_I_Gyeongwon: "Gyeongwonów $dynn_I_674E$" #仁川李 (인천이)
+ dynn_I_Jeongseon: "Jeongseonów $dynn_I_674E$" #旌善李 (정선이)
+ dynn_I_Jeonju: "Jeonju $dynn_I_674E$" #全州李 (전주이)
+ dynn_I_Gwangjeong: "Gwangjeongów $dynn_I_674E$"
+ dynn_I_Gwangsan: "Gwangsanów $dynn_I_674E$"
+ dynn_I_Soeong: "Gaeseongów $dynn_I_674E$"
+ dynn_I_Suju: "Sujuich $dynn_I_674E$" #樹州李 (수주이)
  dynn_Il_58F9: "Ilów" #壹 (일)
- dynn_Ho_seung_864E_50E7: "Ho-seungów" #(虎僧)
+ dynn_Ho_seung_864E_50E7: "Ho-seungów" #虎僧
  dynn_Im_4EFB: "Imów" #任 (임)
+ dynn_Im_Jangheung: "Jangheungów $dynn_Im_4EFB$" #長興任 (장흥임)
  dynn_Jae_C7AC: "Jae" #재
  dynn_Jang_5F35: "Jangów" #張 (장)
+ dynn_Jang_Andong: "Andongów $dynn_Jang_5F35$" #安東張 (안동장)
  dynn_Jeo: "Jeo"
  dynn_Jeok: "Jeoków" #(적)
  dynn_Jeol_C815: "Jeongów" #정
  dynn_Jeong_912D: "Jeongów" #鄭 (정)
+ dynn_Jeong_Cheongju: "Cheongju $dynn_Jeong_912D$" #淸州鄭 (청주정)
+ dynn_Jeong_Dongrae: "Dongrae $dynn_Jeong_912D$" #東萊鄭 (동래정)
+ dynn_Jeong_Haeju: "Haeju $dynn_Jeong_912D$" #海州鄭 (해주정)
  dynn_Ji_667A: "Ji" #智 (지)
  dynn_Jin_C9C4: "Jinów" #진
  dynn_Jo_8D99: "Jo" #趙 (조)
+ dynn_Jo_Hanyang: "Hanyangów $dynn_Jo_8D99$" #漢陽趙 (한양조)
+ dynn_Jo_Hoengcheon: "Hoengcheonów $dynn_Jo_8D99$"
+ dynn_Jo_Wonju: "Wonju $dynn_Jo_8D99$" #橫城趙 (횡성조)
  dynn_Ju_5468: "Ju" #周 (주)
  dynn_Ju_6731: "Ju" #朱 (주)
  dynn_Ma_99AC_KO: "Ma" #馬 (마) (Mǎ)
  dynn_Min_9594: "Minów" #閔 (민)
+ dynn_Min_Hwangryeo: "Hwangryeo $dynn_Min_9594$" #驪興閔 (여흥민)
  dynn_Mo_5192: "Mo" #冒 (모)
  dynn_Mo_6155: "Mo" #慕 (모)
  dynn_Mok_6728: "Moków" #木 (목)
+ dynn_Mok_Balhae: "Dongju Moków"
  dynn_Mun_6587: "Munów" #文 (문)
  dynn_Mun_9580: "Munów" #門 (문)
+ dynn_Mun_Balhae: "Gwideokju $dynn_Mun_6587$"
+ dynn_Mun_Gangneung: "Gangneungów $dynn_Mun_6587$" #江陵文 (강릉문)
+ dynn_Mun_Nampyeong: "Nampyeongów $dynn_Mun_6587$" #南平文 (남평문)
  dynn_Myeong_660E: "Myeong" #明 (명)
+ dynn_Myeong_Gangseo: "Samhwa Myeongów"
  dynn_Myo_536F: "Myo" #卯 (묘)
  dynn_Nan: "Nanów"
+ dynn_Nan_Balhae: "Cheopju $dynn_Nan$"
  dynn_O_5433: "Ohów" #吳 (오) - aka O, localised as Oh despite RR for clarity
  dynn_O_70CF: "Ohów" #烏 (오) - aka O, localised as Oh despite RR for clarity
+ dynn_O_Balhae: "Buyeo $dynn_O_70CF$"
+ dynn_O_Gochang: "Gochangów $dynn_O_5433$" #高敞吳 (고창오)
+ dynn_O_Naju: "Naju $dynn_O_5433$" #羅州吳 (나주오)
  dynn_Pung_99AE: "Pungów" #馮 (풍)
  dynn_Pyeong_5E73: "Pyeong" #平 (평)
+ dynn_Pyeong_Chungju: "Chungju $dynn_Pyeong_5E73$" #忠州平 (충주평)
  dynn_Ra_7F85: "Ra" #羅 (라)
  dynn_Rim_6797: "Rimów" #林 (림)
  dynn_Ryu_67F3: "Ryu" #柳 (류)
+ dynn_Ryu_Jeongju: "Jeongju Ryu" #貞州柳 (정주류)
+ dynn_Ryu_Yeomju: "Yeomju Ryu" #鹽州柳 (염주류)
  dynn_Ryul_807F: "Ryulów" #聿 (률)
  dynn_Sa_53F2: "Sa" #史 (사)
  dynn_Seo_5F90: "Seo" #徐 (서)
  dynn_Seo_80E5: "Seo" #胥 (서)
+ dynn_Seo_Icheon: "Yeongchangów $dynn_Seo_80E5$" #利川徐 (이천서)
  dynn_Seok_C11D: "Seoków" #석
  dynn_Seop_651D: "Seopów" #攝 (섭)
+ dynn_Seop_Balhae: "Hwaju Seopów"
  dynn_Sin_7533: "Sinów" #申 (신)
  dynn_Sin_8F9B: "Sinów" #辛 (신)
+ dynn_Sin_Pyeongsan: "Pyeongsanów $dynn_Sin_7533$" #平山申 (평산신)
  dynn_So_8607: "Soich" #蘇 (소)
  dynn_Song_5B8B_KO: "Songów" #宋 (송)
+ dynn_Song_Ulju: "Ulju $dynn_Song_5B8B_KO$"
  dynn_Su_53D7: "Su" #受 (수)
  dynn_Tae_592A: "Tae" #太 (태)
  dynn_Tak_5353: "Taków" #卓 (탁)
+ dynn_Tak_Gwangsan: "Gwangsanów $dynn_Tak_5353$" #光山卓 (광산탁)
  dynn_U_4E8E: "Wu" #于 (우) - aka U, localised as Wu despite RR for clarity
+ dynn_U_Mokcheon: "Mokcheonów $dynn_U_4E8E$"
  dynn_Wi_885B: "Wi" #衛 (위)
+ dynn_Wi_Balhae: "Jangjeongów $dynn_Wi_885B$"
  dynn_Yang_6881: "Yangów" #梁 (양)
  dynn_Yang_694A_KO: "Yangów" #楊 (양)
+ dynn_Yang_Anak: "Anaków $dynn_Yang_694A_KO$"
+ dynn_Yang_Balhae: "Seoggyeongów $dynn_Yang_6881$"
+ dynn_Yang_Wonju: "Wonju $dynn_Yang_6881$"
+ dynn_Ye_Balhae: "Jinju Ye"
  dynn_Yeo_5442: "Yeo" #呂 (여)
  dynn_Yeo_8339: "Yeo" #茹 (여)
  dynn_Yeol_5217: "Yeolów" #列 (열)
+ dynn_Yeol_Balhae: "Namgyeongów $dynn_Yeol_5217$"
  dynn_Yeom_5EC9: "Yeomów" #廉 (염)
+ dynn_Yeom_Paju: "Papyeongów $dynn_Yeom_5EC9$"
  dynn_Yeon_6DF5: "Yeonów" #淵 (연)
+ dynn_Yeon_Balhae: "Jangryeong Yeonów"
+ dynn_Yeon_Goguryeo: "Goguryeo Yeonów" #淵 (연)
  dynn_Yu_5289: "Yuich" #劉 (유)
  dynn_Yu_5EBE: "Yuich" #庾 (유)
+ dynn_Yu_Chungju: "Chungju $dynn_Yu_5289$" #忠州劉 (충주유)
+ dynn_Yu_Goryeo: "Gaeseongów $dynn_Yu_5EBE$"
+ dynn_Yu_Pyeongsan: "Pyeongsanów $dynn_Yu_5EBE$" #平山庾 (평산유)
  dynn_Yun_5C39: "Yunów" #尹 (윤)
+ dynn_Yun_Papyeong: "Papyeongów $dynn_Yun_5C39$" #坡平尹 (파평윤)
  dynn_Wang_738B_KO: "Wangów" #王 (왕)
+ dynn_Wang_Haeju: "Haeju $dynn_Wang_738B_KO$" #海州王 (해주왕)
+ dynn_Wang_Gangneung: "Gangneungów $dynn_Wang_738B_KO$" #江陵王 (강릉왕)
+ dynn_Wang_Goryeo: "Gaeseongów $dynn_Wang_738B_KO$" #開城王 (개성왕)
+ dynn_Wang_Seohae: "Seohae $dynn_Wang_738B_KO$" #西海王 (서해왕)
  dynn_Lao: "Lao"
  dynn_lu: "Lü"
  dynn_yuan: "Yuanów"
@@ -11961,7 +12078,7 @@
  dynn_Mauli: "Mauli"
  dynn_Rajasa: "Rajasów"
  dynn_Bendahara: "Bendaharów"
- dynn_Srivijaya: "Srivijayów"
+ dynn_Srivijaya: "Śriwidżajów"
  dynn_Soma: "Somów"
  dynn_Sujita: "Sujitów"
  dynn_Panpan: "Pan Panów"
@@ -12045,6 +12162,7 @@
  dynn_Utthada: "Utthadów"
  dynn_Thadon: "Thadonów"
  dynn_Sittha: "Sitthów"
+ dynn_Nga_8036: "Ngów" #耶
  #Tai
  dynn_Nenphon: "Nenphonów"
  dynn_Phuchaikat: "Phuchaikatów"

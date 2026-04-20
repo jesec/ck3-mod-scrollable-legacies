@@ -2596,3 +2596,7 @@
  building_type_mozu_tombs_desc: "$building_mozu_tombs_desc$"
  building_mozu_tombs: "百舌鸟古坟群"
  building_mozu_tombs_desc: "百舌鸟的前方后圆古坟据说安葬着上古天皇。对附近海湾的船只而言，古坟群既是显著的地标，也让人回想起往昔的岁月。"
+ building_type_trosky_castle_01: "$building_trosky_castle_01$"
+ building_type_trosky_castle_01_desc: "$building_trosky_castle_01_desc$"
+ building_trosky_castle_01: "特罗斯基城堡"
+ building_trosky_castle_01_desc: "特罗斯基城堡坐落于一座死火山的两块玄武岩岩层间，其名称意为“废墟”，正是源于这两座岩石形似坍塌的城堡遗迹。"

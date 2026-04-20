@@ -28,7 +28,7 @@
  ep3_emperor_yearly.2010.t: "[sent_off.Custom('GetPrincessPrince')]の運命"
  ep3_emperor_yearly.2010.desc: "宮廷にいると遠くから話し声が聞こえてくる。#EMP 嘆かわしいことだ#!。うわさ話はこの威厳ある広間に似つかわしくない。\n\n「可哀そうな[sent_off.GetFirstName]…」\n「…一人、あの[spouse.GetCulture.GetNameNoTooltip]の#EMP 野蛮人#!どもに囲まれて…」\n「…死よりも残酷な運命だ…」\n「…奴らは#EMP フォーク#!すら使わないそうだ！」\n\nそれでも私は片隅でうわさ話をしているのが[gossip_1.Custom2('MyCharacterIntroduction', ROOT.Char)]と[gossip_2.Custom2('MyCharacterIntroduction', ROOT.Char)]だとはっきりわかる。私が厳しい目を向けると、彼らはすぐに黙り込む。だがどんな話をしていたかはもうわかった。"
  ep3_emperor_yearly.2010.a: "帝国の政治事情は個人よりも優先される。"
- ep3_emperor_yearly.2010.b: "[sent_off.GetHerHis|U]は素晴らしい模範だ。[sent_off.GetHerHis|U]そのキリスト的犠牲を私は心から敬う。"
+ ep3_emperor_yearly.2010.b: "[sent_off.GetHerHis|U]は素晴らしい模範だ。[sent_off.GetHerHis|U]のそのキリスト的犠牲を私は心から敬う。"
  ep3_emperor_yearly.2010.b2: "人々のために身を捧げる輝かしい模範だ。"
  ep3_emperor_yearly.2010.c: "皇帝を裁くのはお前ではない。"
  #A Head Unworthy of the Crown

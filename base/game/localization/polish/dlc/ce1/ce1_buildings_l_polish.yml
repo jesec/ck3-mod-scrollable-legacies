@@ -26,6 +26,7 @@
  building_type_legendary_statue_desc: "$building_legendary_statue_desc$"
  building_type_legendary_watchtower_desc: "$building_legendary_watchtower_desc$"
  building_type_legendary_hunting_lodge_desc: "$building_legendary_hunting_lodge_desc$"
+ building_type_legendary_hunting_lodge_effect: "#flavor Odblokowuje efekt:#!\n$ep2_activities_legacy_4_hunts_up_legendary_hunt_sightings_effect$\nZwiększona szansa powodzenia następującej aktywności o nazwie [GetActivityType('activity_hunt').GetTextIcon] [GetActivityType('activity_hunt').GetName|l] w tym [Concept('county', 'hrabstwie')|E]: #P +20#!"
  shrine_of_highgod: "Kapliczka [ROOT.Province.GetCounty.GetFaith.HighGodNamePossessive|U]"
  province_shrine: "Wielka kapliczka miejsca znanego jako [ROOT.Province.GetNameNoTooltip|U]"
  shrine_of_healthgod: "Wielka kapliczka [ROOT.Province.GetCounty.GetFaith.HealthGodNamePossessive|U]"

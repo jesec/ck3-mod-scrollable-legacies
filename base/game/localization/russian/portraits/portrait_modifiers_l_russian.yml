@@ -1064,10 +1064,12 @@
  ### CE1 - Legends of the Dead ###
  ### Male ###
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_01: "@legendsofthedead_icon! Плащ человека из Бокстена"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02: "@legendsofthedead_icon! Плащ с капюшоном"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_a: "@legendsofthedead_icon! Плащ с опущенным капюшоном"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_b: "@legendsofthedead_icon! Плащ с поднятым капюшоном"
  ### Female ###
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_01: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_01$"
- PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02$"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02_a: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_a$"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02_b: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_b$"
  ### SP3 - Couture of the Capets ###
  ### Male ###
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp3_western_roy_01: "@couture_icon! Монаршая мантия с меховым подбоем"
@@ -1724,9 +1726,6 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_nob_01: "@allunderheaven_icon! Корона апсары"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_nob_02: "@allunderheaven_icon! Монгкут"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_roy_01: "@allunderheaven_icon! Нага монгкут"
- ### legwear ###
- #Male
- PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_tgp_southeast_com_01: "@allunderheaven_icon! Кбен простолюдина"
  ### Hairstyles ###
  PORTRAIT_MODIFIER_custom_hair_f_hair_tgp_sea_01: "@allunderheaven_icon! Прическа апсары 1"
  PORTRAIT_MODIFIER_custom_hair_f_hair_tgp_sea_02: "@allunderheaven_icon! Прическа апсары 2"
@@ -1765,48 +1764,48 @@
  ###    CCP5     ###
  ###################
  ### Male ###
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_01: "@high_medieval_warfare_attire_icon! 1 раннеанглийский грандхельм"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_01_coa: "@high_medieval_warfare_attire_icon! 1 раннеанглийский грандхельм #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_01_hi: "@high_medieval_warfare_attire_icon! 1 раннеанглийский грандхельм дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_02: "@high_medieval_warfare_attire_icon! 2 раннеанглийских грандхельма"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_02_coa: "@high_medieval_warfare_attire_icon! 2 раннеанглийских грандхельма #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_02_hi: "@high_medieval_warfare_attire_icon! 2 раннеанглийских грандхельма дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_03: "@high_medieval_warfare_attire_icon! 3 раннеанглийских грандхельма"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_03_coa: "@high_medieval_warfare_attire_icon! 3 раннеанглийских грандхельма #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_03_hi: "@high_medieval_warfare_attire_icon! 3 раннеанглийских грандхельма дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_03: "@high_medieval_warfare_attire_icon! 3 раннегерманских грандхельма"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_03_coa: "@high_medieval_warfare_attire_icon! 3 раннегерманских грандхельма #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_03_hi: "@high_medieval_warfare_attire_icon! 3 раннегерманских грандхельма дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_01: "@high_medieval_warfare_attire_icon! 1 раннефранцузский грандхельм"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_01_coa: "@high_medieval_warfare_attire_icon! 1 раннефранцузский грандхельм #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_01_hi: "@high_medieval_warfare_attire_icon! 1 раннефранцузский грандхельм дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02: "@high_medieval_warfare_attire_icon! 2 раннефранцузских грандхельма"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02_coa: "@high_medieval_warfare_attire_icon! 2 раннефранцузских грандхельма #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02_hi: "@high_medieval_warfare_attire_icon! 2 раннефранцузских грандхельма дворянина"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_01: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_01_coa: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм 1 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_01_hi: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм дворянина 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_02: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм 2"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_02_coa: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм 2 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_02_hi: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм дворянина 2"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_03: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм 3"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_03_coa: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм 3 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_03_hi: "@high_medieval_warfare_attire_icon! Раннеанглийский грандхельм дворянина 3"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_03: "@high_medieval_warfare_attire_icon! Раннегерманский грандхельм 3"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_03_coa: "@high_medieval_warfare_attire_icon! Раннегерманский грандхельм 3 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_03_hi: "@high_medieval_warfare_attire_icon! Раннегерманский грандхельм дворянина 3"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_01: "@high_medieval_warfare_attire_icon! Раннефранцузский грандхельм 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_01_coa: "@high_medieval_warfare_attire_icon! Раннефранцузский грандхельм 1 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_01_hi: "@high_medieval_warfare_attire_icon! Раннефранцузский грандхельм дворянина 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02: "@high_medieval_warfare_attire_icon! Раннефранцузский грандхельм 2"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02_coa: "@high_medieval_warfare_attire_icon! Раннефранцузский грандхельм 2 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02_hi: "@high_medieval_warfare_attire_icon! Раннефранцузский грандхельм дворянина 2"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_01_com_coif: "@high_medieval_warfare_attire_icon! Французский цервельер #weak (койф)#!"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_01_com: "@high_medieval_warfare_attire_icon! Французский цервельер #weak (кольчуга)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_04_com_coif: "@high_medieval_warfare_attire_icon! 3 французские шапели #weak (койф)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_04_com: "@high_medieval_warfare_attire_icon! 3 французские шапели #weak (кольчуга)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02_com_coif: "@high_medieval_warfare_attire_icon! 1 французская шапель #weak (койф)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02_com: "@high_medieval_warfare_attire_icon! 1 французская шапель #weak (кольчуга)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03_com_coif: "@high_medieval_warfare_attire_icon! 2 французские шапели #weak (койф)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03_com: "@high_medieval_warfare_attire_icon! 2 французские шапели #weak (кольчуга)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03: "@high_medieval_warfare_attire_icon! 1 остроконечный грандхельм"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03_coa: "@high_medieval_warfare_attire_icon! 1 остроконечный грандхельм #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03_hi: "@high_medieval_warfare_attire_icon! 1 остроконечный грандхельм дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_04: "@high_medieval_warfare_attire_icon! 1 английский грандхельм"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_04_coa: "@high_medieval_warfare_attire_icon! 1 английский грандхельм #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_04_hi: "@high_medieval_warfare_attire_icon! 1 английский грандхельм дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_01: "@high_medieval_warfare_attire_icon! 1 германский грандхельм"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_01_hi: "@high_medieval_warfare_attire_icon! 1 германский грандхельм дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_01_coa: "@high_medieval_warfare_attire_icon! 1 германский грандхельм #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_02: "@high_medieval_warfare_attire_icon! 2 германских грандхельма"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_02_coa: "@high_medieval_warfare_attire_icon! 2 германских грандхельма #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_01: "@high_medieval_warfare_attire_icon! 1 швабский грандхельм"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_01_coa: "@high_medieval_warfare_attire_icon! 1 швабский грандхельм #weak (герб)#!"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_02: "@high_medieval_warfare_attire_icon! 2 швабских грандхельма"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_02_hi: "@high_medieval_warfare_attire_icon! 2 швабских грандхельма дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_02_coa: "@high_medieval_warfare_attire_icon! 2 швабских грандхельма #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_04_com_coif: "@high_medieval_warfare_attire_icon! Французская шапель 3 #weak (койф)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_04_com: "@high_medieval_warfare_attire_icon! Французская шапель 3 #weak (кольчуга)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02_com_coif: "@high_medieval_warfare_attire_icon! Французская шапель 1 #weak (койф)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_02_com: "@high_medieval_warfare_attire_icon! Французская шапель 1 #weak (кольчуга)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03_com_coif: "@high_medieval_warfare_attire_icon! Французская шапель 2 #weak (койф)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03_com: "@high_medieval_warfare_attire_icon! Французская шапель 2 #weak (кольчуга)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03: "@high_medieval_warfare_attire_icon! Остроконечный грандхельм 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03_coa: "@high_medieval_warfare_attire_icon! Остроконечный грандхельм 1 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_french_war_nob_03_hi: "@high_medieval_warfare_attire_icon! Остроконечный грандхельм дворянина 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_04: "@high_medieval_warfare_attire_icon! Английский грандхельм 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_04_coa: "@high_medieval_warfare_attire_icon! Английский грандхельм 1 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_english_war_nob_04_hi: "@high_medieval_warfare_attire_icon! Английский грандхельм дворянина 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_01: "@high_medieval_warfare_attire_icon! Германский грандхельм 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_01_hi: "@high_medieval_warfare_attire_icon! Германский грандхельм дворянина 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_01_coa: "@high_medieval_warfare_attire_icon! Германский грандхельм 1 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_02: "@high_medieval_warfare_attire_icon! Германский грандхельм 2"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_german_war_nob_02_coa: "@high_medieval_warfare_attire_icon! Германский грандхельм 2 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_01: "@high_medieval_warfare_attire_icon! Швабский грандхельм 1"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_01_coa: "@high_medieval_warfare_attire_icon! Швабский грандхельм 1 #weak (герб)#!"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_02: "@high_medieval_warfare_attire_icon! Швабский грандхельм 2"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_02_hi: "@high_medieval_warfare_attire_icon! Швабский грандхельм дворянина 2"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_swabian_war_nob_02_coa: "@high_medieval_warfare_attire_icon! Швабский грандхельм 2 #weak (герб)#!"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp5_english_war_nob_01_low: "@high_medieval_warfare_attire_icon! Английский переходный доспех"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp5_english_war_nob_01_low_coa: "@high_medieval_warfare_attire_icon! Английский переходный доспех #weak (герб)#!"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp5_english_war_nob_01_high: "@high_medieval_warfare_attire_icon! Английский переходный доспех дворянина"
@@ -1821,8 +1820,8 @@
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp5_english_war_nob_03_high: "@high_medieval_warfare_attire_icon! Рыцарский военный сюрко дворянина"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp5_english_war_nob_03_coa: "@high_medieval_warfare_attire_icon! Рыцарский военный сюрко дворянина #weak (герб)#!"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp5_french_war_nob_01: "@high_medieval_warfare_attire_icon! Французский гамбезон"
- PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_ccp5_western_war_nob_crest_01: "@high_medieval_warfare_attire_icon! 1 боевая митра"
- PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_ccp5_western_war_nob_crest_02: "@high_medieval_warfare_attire_icon! 2 боевые митры"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_ccp5_western_war_nob_crest_01: "@high_medieval_warfare_attire_icon! Боевая митра 1"
+ PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_ccp5_western_war_nob_crest_02: "@high_medieval_warfare_attire_icon! Боевая митра 2"
  PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_ccp5_western_war_nob_crestEra3_01: "$PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_ccp5_western_war_nob_crest_01$ #weak (Позднее Средневековье)#!"
  PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_ccp5_western_war_nob_crestEra3_02: "$PORTRAIT_MODIFIER_custom_special_crowns_crests_m_headgear_ccp5_western_war_nob_crest_02$ #weak (Позднее Средневековье)#!"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp5_western_war_nob_01: "@high_medieval_warfare_attire_icon! Кольчужный койф с повязкой"
@@ -1995,8 +1994,8 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_dal_hi_01: "@celestial_court_attire! Венец далийского дворянина"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_lia_hi_01: "@celestial_court_attire! Ляоская золотая корона"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_dal_lo_01: "@celestial_court_attire! Убор мелкого далийского дворянина"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_sil_roy_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_ccp9_sil_roy_01$"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_roy_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_ccp9_uyg_roy_01$"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_sil_roy_01: "@celestial_court_attire! Корона Силла"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_roy_01: "@celestial_court_attire! Золотая уйгурская корона"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_hi_01: "@celestial_court_attire! Убор уйгурского дворянина"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_jur_nob_01: "@celestial_court_attire! Убор цзиньского дворянина"
  ## Clothes ##
@@ -2008,9 +2007,9 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_roy_01: "@celestial_court_attire! Королевское тангутское одеяние"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_min_nob_01: "@celestial_court_attire! Платье минского дворянина"
  ### Male ###
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_lia_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_lia_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_lia_nob_01: "@celestial_court_attire! Одежда ляоского дворянина"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_dal_nob_01: "@celestial_court_attire! Одежда далийского дворянина"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_tan_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_tan_nob_01: "@celestial_court_attire! Одежда тангутского дворянина"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_min_nob_01: "@celestial_court_attire! Одежда минского дворянина"
  ### Hairstyles ###
  #Male
@@ -2018,6 +2017,23 @@
  #############
  ### Pants ###
  #############
+ ############
+ ### SP5  ###
+ ############
+ ### Headgear ###
+ ### Female ###
+ ### Headgear ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_western_roy_01: "@symbols_of_authority! Готическая корона лилий"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_western_roy_02: "@symbols_of_authority! Криспинет власти"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_byzantine_roy_01: "@symbols_of_authority! Венец Екатерины"
+ ### Male ###
+ ### Headgear ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp5_western_roy_01: "@symbols_of_authority! Венец Крестителя"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp5_byzantine_roy_01: "@symbols_of_authority! Венец Константина"
+ ### Hairstyles ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_sp5_western_01: "@symbols_of_authority! Кудри Крестителя"
+ ### Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp5_western_01: "@symbols_of_authority! Борода Крестителя"
  PORTRAIT_MODIFIER_custom_legwear: "Штаны"
  PORTRAIT_MODIFIER_custom_legwear_female_empty: "Без штанов"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_war_01: "Западные воинские штаны"
@@ -2140,6 +2156,7 @@
  sick_stomach: "Болезнь"
  severelywounded: "Серьезное ранение"
  loss_1: "Поражение в бою"
+ holding_crutch: "С клюкой"
  page_flipping: "Листает книгу"
  writing: "Пишет"
  reading: "Читает"

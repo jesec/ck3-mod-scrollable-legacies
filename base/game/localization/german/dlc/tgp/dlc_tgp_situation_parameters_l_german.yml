@@ -109,7 +109,7 @@
  chancellor_integrate_title_dynastic_cycle_bonus_desc: "[situation_dynastic_cycle_phase|E] [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip]"
  dynastic_cycle_locks_title_integration_tt: "[dynastic_cycle|E] muss in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]-[situation_dynastic_cycle_phase|E] sein"
  situation_parameter_dynastic_cycle_offensive_wars_ban: "[son_of_heaven|E] kann keine Angriffs-[wars|E] erklären; stattdessen muss der [casus_belli|E] „[GetCasusBelliType('chinese_consolidation_cb').GetName]“ oder das „[GetGreatProjectType('grand_campaign_project').GetName]“-[great_project|E] genutzt werden"
- situation_parameter_dynastic_cycle_can_build_in_tributaries: "[son_of_heaven|E] und [minister_of_work|E] können [buildings|E] und [holdings|E] in [Concept('tributaries', 'Tributzahlern')|E] bauen #weak (nur wenn sie selbst keine Tributzahler sind)#!"
+ situation_parameter_dynastic_cycle_can_build_in_tributaries: "[son_of_heaven|E] und [minister_of_works|E] können [buildings|E] und [holdings|E] in [Concept('tributaries', 'Tributzahlern')|E] bauen (nur wenn sie selbst keine Tributzahler sind)"
  dynastic_cycle_offensive_wars_ban_tt: "Während [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip] als [situation_dynastic_cycle_phase|E] gilt: $situation_parameter_dynastic_cycle_offensive_wars_ban$"
  situation_parameter_dynastic_cycle_great_projects_increased_legitimacy: "Erhöhte [legitimacy|E] durch den Abschluss von [great_projects|E]: #P +100 %#!"
  situation_parameter_dynastic_cycle_reclaim_mandate_decision: "Erlaubt die [decision|E] „[GetDecision('situation_dynastic_cycle_claim_mandate_decision').GetName]“"

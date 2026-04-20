@@ -51,8 +51,8 @@
  buddhism_religious_text: "佛经"
  buddhism_religious_text_2: "$buddhism_religious_text$" #Optional translation alt
  buddhism_religious_text_3: "$buddhism_religious_text$" #Optional translation alt
- buddhism_religious_head_title: "喇嘛"
- buddhism_religious_head_title_name: "活佛转世"
+ buddhism_religious_head_title: "长老"
+ buddhism_religious_head_title_name: "僧团"
  buddhism_devotee_male: "比丘"
  buddhism_devotee_male_plural: "比丘"
  buddhism_devotee_female: "比丘尼"
@@ -196,6 +196,8 @@
  maitreya_adherent: "弥勒教弟子"
  maitreya_adherent_plural: "弥勒教弟子"
  maitreya_desc: "释迦牟尼佛的法运已走到尽头，弥勒佛已经降临人间，这是那些将弥勒佛尊奉为救世主的信徒所主张的。他们相信，唯有摧毁旧世的业障，世界才能得到救赎。"
+ maitreya_religious_head_title: "教主" #教主
+ maitreya_religious_head_title_name: "教团"
  acharya: "阿吒力教"
  acharya_adj: "阿吒力教"
  acharya_adherent: "阿吒力教弟子"

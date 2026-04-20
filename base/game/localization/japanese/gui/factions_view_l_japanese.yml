@@ -48,7 +48,7 @@
  FACTIONS_WINDOW_DISCONTENT_TO_WEAK: "最後通牒を送るには弱体すぎます"
  FACTIONS_WINDOW_CASSALC_CANT_CREATE_JOIN: "派閥に加入できない封臣"
  FACTIONS_WINDOW_CREATE_JOIN_EXPLANATION: "[vassal|E]をあなたの[friend|E]、[lover|E]、[prisoner|E]、もしくは[ally|E]にすれば、派閥への加入を防ぐことができます。また、[cowed|E]の状態にあるか、あなたが[strong_hook|E]を持っている封臣は派閥への加入を控えるようになります。"
- FACTIONS_WINDOW_FACTION_AT_WAR: "戦争中"
+ FACTIONS_WINDOW_FACTION_AT_WAR: "[war|E]中です！この派閥が解散する前に戦争に勝利するには、[GetDefine( 'NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION' )|V0]以上の[war_score|E]が必要です。"
  FACTION_WINDOW_MEMBER_SINGULAR: "$NUMBER|V$名のメンバー"
  FACTION_WINDOW_MEMBER_PLURAL: "$NUMBER|V$人"
  FACTION_WINDOW_LEAVE: "脱退"

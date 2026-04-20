@@ -71,6 +71,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "As one [GetTitleByKey('h_china').GetHolder.Custom('WomanManPossessive')] allotted fortune diminishes, another's amplifies, for even kings and emperors are not immune to the vagaries of fate.\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName] has claimed the Mandate of Heaven, and all are expected to prostrate themselves at the feet of this new sovereign."
  tgp_dynastic_cycle.0062.desc.uninvolved: "Empires rise and fall, and the old yields to the new. The throne of [GetTitleByKey('h_china').GetNameNoTierNoTooltip] has been obtained by [GetTitleByKey('h_china').GetHolder.GetTitledFirstName], and all must take account of this new sovereign, be they within or without [GetTitleByKey('h_china').GetHolder.GetHerHis] realm.\n\nSuch changes in the winds of fate cannot be treated lightly."
  tgp_dynastic_cycle.0062.a: "We should appraise [GetTitleByKey('h_china').GetHolder.GetHerHis] capabilities carefully."
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
 
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
 
@@ -88,6 +89,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "Peaceful times afford brave heroes few chances to distinguish themselves, but other avenues for advancement may now present themselves."
  tgp_dynastic_cycle.0072.desc.uninvolved: "It seems the [GetTitleByKey('h_china').GetHolder.GetDynastyName] dynasty has some vigor left in it still."
  tgp_dynastic_cycle.0072.a: "A spring breeze blows, and the grass grows again."
+ tgp_dynastic_cycle.0072.b: "The only way is to follow the Heaven's will."
+ tgp_china_consolidation.remain_independent: "Remain as an [independent_ruler|E]"
 
  ### ENTER CONSOLIDATION ###
 

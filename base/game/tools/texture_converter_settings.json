@@ -718,6 +718,120 @@
   },
   {
     "base_directory": "",
+    "name": "Substance Painter Clothing and Hair",
+    "outputs": [
+      {
+        "channel_count": 4,
+        "inputs": [
+          {
+            "input_channel": "red",
+            "map": "BaseColor",
+            "output_channel": "red"
+          },
+          {
+            "input_channel": "green",
+            "map": "BaseColor",
+            "output_channel": "green"
+          },
+          {
+            "input_channel": "blue",
+            "map": "BaseColor",
+            "output_channel": "blue"
+          },
+          {
+            "input_channel": "blue",
+            "map": "opacity",
+            "output_channel": "alpha"
+          }
+        ],
+        "name": "_diffuse",
+        "trim": true
+      },
+      {
+        "channel_count": 4,
+        "inputs": [
+          {
+            "input_channel": "red",
+            "map": "normal",
+            "output_channel": "red"
+          },
+          {
+            "input_channel": "red",
+            "map": "normal",
+            "output_channel": "green"
+          },
+          {
+            "input_channel": "blue",
+            "map": "HairColor",
+            "output_channel": "blue"
+          },
+          {
+            "input_channel": "green",
+            "map": "normal",
+            "output_channel": "alpha"
+          }
+        ],
+        "name": "_normal",
+        "trim": false
+      },
+      {
+        "channel_count": 4,
+        "inputs": [
+          {
+            "input_channel": "red",
+            "map": "color5",
+            "output_channel": "red"
+          },
+          {
+            "input_channel": "blue",
+            "map": "specular",
+            "output_channel": "green"
+          },
+          {
+            "input_channel": "blue",
+            "map": "metallic",
+            "output_channel": "blue"
+          },
+          {
+            "input_channel": "blue",
+            "map": "roughness",
+            "output_channel": "alpha"
+          }
+        ],
+        "name": "_properties",
+        "trim": false
+      },
+      {
+        "channel_count": 4,
+        "inputs": [
+          {
+            "input_channel": "red",
+            "map": "color1",
+            "output_channel": "red"
+          },
+          {
+            "input_channel": "red",
+            "map": "color2",
+            "output_channel": "green"
+          },
+          {
+            "input_channel": "red",
+            "map": "color3",
+            "output_channel": "blue"
+          },
+          {
+            "input_channel": "red",
+            "map": "color4",
+            "output_channel": "alpha"
+          }
+        ],
+        "name": "_masks",
+        "trim": false
+      }
+    ]
+  },
+  {
+    "base_directory": "",
     "name": "Substance Painter CoA",
     "outputs": [
       {
@@ -856,6 +970,93 @@
           {
             "input_channel": "blue",
             "map": "emissive",
+            "output_channel": "blue"
+          },
+          {
+            "input_channel": "green",
+            "map": "normal",
+            "output_channel": "alpha"
+          }
+        ],
+        "name": "_normal",
+        "trim": false
+      },
+      {
+        "channel_count": 4,
+        "inputs": [
+          {
+            "input_channel": "red",
+            "map": "basecolor",
+            "output_channel": "red"
+          },
+          {
+            "input_channel": "red",
+            "map": "specular",
+            "output_channel": "green"
+          },
+          {
+            "input_channel": "red",
+            "map": "metallic",
+            "output_channel": "blue"
+          },
+          {
+            "input_channel": "red",
+            "map": "roughness",
+            "output_channel": "alpha"
+          }
+        ],
+        "name": "_properties",
+        "trim": false
+      },
+      {
+        "channel_count": 4,
+        "inputs": [
+          {
+            "input_channel": "red",
+            "map": "color1",
+            "output_channel": "red"
+          },
+          {
+            "input_channel": "red",
+            "map": "color2",
+            "output_channel": "green"
+          },
+          {
+            "input_channel": "red",
+            "map": "color3",
+            "output_channel": "blue"
+          },
+          {
+            "input_channel": "red",
+            "map": "color4",
+            "output_channel": "alpha"
+          }
+        ],
+        "name": "_masks",
+        "trim": false
+      }
+    ]
+  },
+  {
+    "base_directory": "",
+    "name": "Substance Material Tiles with Alpha",
+    "outputs": [
+      {
+        "channel_count": 4,
+        "inputs": [
+          {
+            "input_channel": "red",
+            "map": "normal",
+            "output_channel": "red"
+          },
+          {
+            "input_channel": "red",
+            "map": "normal",
+            "output_channel": "green"
+          },
+          {
+            "input_channel": "blue",
+            "map": "opacity",
             "output_channel": "blue"
           },
           {

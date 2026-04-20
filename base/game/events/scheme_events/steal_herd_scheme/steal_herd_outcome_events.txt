@@ -82,7 +82,7 @@ steal_herd_outcome.1001 = {
 
 steal_herd_outcome.1002 = {
 	type = character_event
-	window = scheme_target_event
+	window = scheme_conclusion_event_no_header
 	title = steal_herd_outcome.1002.t
 	desc = {
 		desc = steal_herd_outcome.1002.desc
@@ -649,7 +649,7 @@ steal_herd_outcome.2002 = {
 
 steal_herd_outcome.2003 = {
 	type = character_event
-	window = scheme_target_event
+	window = scheme_conclusion_event_no_header
 	title = steal_herd_outcome.2003.t
 	desc = steal_herd_outcome.2003.desc
 	theme = generic_intrigue_scheme

@@ -904,7 +904,7 @@
  trait_scarred_FR_Adj_Char: "balafré[ROOT.Char.Custom('FR_E')]"
  trait_blind_FR_Adj_Char: "aveugle"
  trait_clubfooted_FR_Adj_Char: "au pied bot"
- trait_hunchbacked_FR_Adj_Char: "bossu"
+ trait_hunchbacked_FR_Adj_Char: "bossu[ROOT.Char.Custom('FR_E')]"
  trait_lisping_FR_Adj_Char: "zozoteu[ROOT.Char.Custom('FR_RSe')]"
  trait_stuttering_FR_Adj_Char: "bégayeu[ROOT.Char.Custom('FR_RSe')]"
  trait_dwarf_FR_Adj_Char: "nain[ROOT.Char.Custom('FR_RSe')]"
@@ -921,6 +921,10 @@
  trait_possessed_FR_Adj_Char: "possédé[ROOT.Char.Custom('FR_E')]"
  trait_wounded_FR_Adj_Char: "blessé[ROOT.Char.Custom('FR_E')]"
  disabled_fallback_FR_Adj_Char: "infirme"
+ trait_faltering_heart_FR_Adj_Char: "au cœur chancelant"
+ trait_fragile_bones_FR_Adj_Char: "aux os fragiles"
+ trait_withering_mind_FR_Adj_Char: "à l’esprit en déclin"
+ trait_clouded_eyes_FR_Adj_Char: "à la vue trouble"
  # FR_TerrainTypeProvince_Plural
  terrain_plains_FR_Plural: "plaines"
  terrain_farmlands_FR_Plural: "terres arables"
@@ -936,7 +940,8 @@
  terrain_drylands_FR_Plural: "terres arides"
  terrain_forest_FR_Plural: "forêts"
  terrain_terraced_hills_FR_Plural: "collines en terrasses"
- # Lignes utilisées par LocalPlayerString (la portée doit être CHARACTER)
+ # Only for LocalPlayerString (scope must be CHARACTER in the called keys)
+ # Works with SelectLocalization if CHARACTER is the root scope
  Loc_FR_le_GetTitledFirstNameNoTooltip: " [CHARACTER.Custom('FR_le_Char_Pi')][CHARACTER.GetTitledFirstNameNoTooltip]"
  Loc_FR_le_GetTitledFirstName: " [CHARACTER.Custom('FR_le_Char_Pi')][CHARACTER.GetTitledFirstName]"
  Loc_FR_au_GetTitledFirstName: " [CHARACTER.Custom('FR_au_Char_Pi')][CHARACTER.GetTitledFirstName]"
@@ -955,6 +960,21 @@
  Loc_FR_du_GetUIName: " [CHARACTER.Custom('FR_du_Char_U_P')][CHARACTER.GetUIName]"
  Loc_FR_au_GetTitleAsNameNoTooltip: " [CHARACTER.Custom('FR_au_Char_L')][CHARACTER.GetTitleAsNameNoTooltip]"
  Loc_FR_du_GetTitleAsNameNoTooltip: " [CHARACTER.Custom('FR_du_Char_L')][CHARACTER.GetTitleAsNameNoTooltip]"
+ # # For custom cmd; Scope-independent; Display "<le|du|au><TitledFirstName>"
+ # FR_le_GetTitledFirstNameNoTooltip: "[ROOT.Char.Custom('FR_le_Char_Pi')][ROOT.Char.GetTitledFirstNameNoTooltip]" # FR_Le_GetTitledFirstNameNoTooltip
+ # FR_le_GetTitledFirstName: "[ROOT.Char.Custom('FR_le_Char_Pi')][ROOT.Char.GetTitledFirstName]" # FR_Le_GetTitledFirstName
+ # FR_au_GetTitledFirstName: "[ROOT.Char.Custom('FR_au_Char_Pi')][ROOT.Char.GetTitledFirstName]" # FR_Au_GetTitledFirstName
+ # FR_au_GetTitledFirstNameNoTooltip: "[ROOT.Char.Custom('FR_au_Char_Pi')][ROOT.Char.GetTitledFirstNameNoTooltip]" # FR_Au_GetTitledFirstNameNoTooltip
+ # FR_du_GetTitledFirstName: "[ROOT.Char.Custom('FR_du_Char_Pi')][ROOT.Char.GetTitledFirstName]" # FR_Du_GetTitledFirstName
+ # FR_du_GetTitledFirstNameNoTooltip: "[ROOT.Char.Custom('FR_du_Char_Pi')][ROOT.Char.GetTitledFirstNameNoTooltip]" # FR_Du_GetTitledFirstNameNoTooltip
+ # # For custom cmd; Scope-independent; Display " <le|du|au><TitledFirstName>" (leading space)
+ # FR__le_GetTitledFirstNameNoTooltip: " [ROOT.Char.Custom('FR_le_Char_Pi')][ROOT.Char.GetTitledFirstNameNoTooltip]" # FR__Le_GetTitledFirstNameNoTooltip
+ # FR__le_GetTitledFirstName: " [ROOT.Char.Custom('FR_le_Char_Pi')][ROOT.Char.GetTitledFirstName]" # FR__Le_GetTitledFirstName
+ # FR__au_GetTitledFirstName: " [ROOT.Char.Custom('FR_au_Char_Pi')][ROOT.Char.GetTitledFirstName]" # FR__Au_GetTitledFirstName
+ # FR__au_GetTitledFirstNameNoTooltip: " [ROOT.Char.Custom('FR_au_Char_Pi')][ROOT.Char.GetTitledFirstNameNoTooltip]" # FR__Au_GetTitledFirstNameNoTooltip
+ # FR__du_GetTitledFirstName: " [ROOT.Char.Custom('FR_du_Char_Pi')][ROOT.Char.GetTitledFirstName]" # FR__Du_GetTitledFirstName
+ # FR__du_GetTitledFirstNameNoTooltip: " [ROOT.Char.Custom('FR_du_Char_Pi')][ROOT.Char.GetTitledFirstNameNoTooltip]" # FR__Du_GetTitledFirstNameNoTooltip
+
  # FR_InspirationAdventureDestination_En
  world_europe_west_FR_en: "en " # Europe de l’Ouest
  world_europe_north_FR_en: "en " # Europe du Nord
@@ -980,6 +1000,17 @@
  adventure_inspiration_world_steppe_east_FR_en: "dans la " # $world_steppe_east$
  world_tibet_FR_en: "au " # Tibet
  world_burma_FR_en: "en " # Birmanie
+ world_siberia_FR_en: "en "
+ world_steppe_central_FR_en: "dans la "
+ world_asia_east_FR_en: "en "
+ world_asia_china_FR_en: "en "
+ world_asia_japan_FR_en: "au "
+ world_asia_korea_FR_en: "en "
+ world_asia_sakhalin_hokkaido_FR_en: "en "
+ world_asia_southeast_FR_en: "en "
+ world_asia_southeast_islands_FR_en: "en "
+ world_asia_southeast_mainland_FR_en: "en "
+ world_asia_north_east_FR_en: "en "
  # FR_GetFaithGrandTemple_Au
  building_holy_site_cathedral_01_FR_au: "à la grande cathédrale"
  building_holy_site_mosque_01_FR_au: "à la grande mosquée"
@@ -1027,6 +1058,26 @@
  artifact_type_book_FR_Le: "le " # livre
  artifact_type_pedestal_FR_Le: "l’" # œuvre d’exposition
  artifact_type_elixir_FR_Le: "l’" # élixir
+ artifact_type_panacea_FR_Le: "la " # panacée
+ artifact_type_philosophers_stone_FR_Le: "la " # pierre philosophale
+ artifact_type_animal_hide_FR_Le: "la " # peau d’animal
+ artifact_type_brooch_FR_Le: "la " # broche
+ artifact_type_animal_skull_FR_Le: "le " # crâne d’animal
+ artifact_type_chest_FR_Le: "le " # coffre
+ artifact_type_box_FR_Le: "la " # boîte
+ artifact_type_cabinet_FR_Le: "le " # meuble de rangement
+ artifact_type_goblet_FR_Le: "la " # coupe
+ artifact_type_scientific_apparatus_FR_Le: "l’" # appareil
+ artifact_type_jug_FR_Le: "la " # cruche
+ artifact_type_necklace_FR_Le: "le " # collier
+ artifact_type_bowl_FR_Le: "le " # bol
+ artifact_type_plate_FR_Le: "l’" # assiette
+ artifact_type_urn_FR_Le: "l’" # urne
+ artifact_type_tun_barrel_FR_Le: "le " # tonneau
+ artifact_type_scepter_pedestal_FR_Le: "le " # sceptre
+ artifact_type_tapestry_FR_Le: "la " # tapisserie
+ artifact_type_wall_shield_FR_Le: "le " # bouclier
+ artifact_type_wall_icon_FR_Le: "l’" # icône
  # FR_GetInspirationOwnerType_OnA
  inspiration_owner_type_writer_FR_On: "on " # écrivain[ROOT.Char.Custom('FR_E')]
  inspiration_owner_type_weaponsmith_FR_On: "[ROOT.Char.Custom('FR_OnA')] " # forgero[ROOT.Char.Custom('FR_NNne')] d’armes
@@ -1287,8 +1338,17 @@
  councillor_steward_FR_Le: "l’intendant[ROOT.Char.Custom('FR_E')]"
  councillor_marshal_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] maréchale"
  councillor_spymaster_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] maître-espio[ROOT.Char.Custom('FR_NNne')]"
- councillor_court_chaplain_FR_Le: "le chapelain de la Cour"
- councillor_kurultai_FR_Le: "le membre du Kouroultaï"
+ councillor_court_chaplain_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] chapelain de la Cour"
+ councillor_kurultai_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] membre du Kouroultaï"
+ councillor_chancellor_celestial_government_imperial_FR_Le: "[Select_CString(ROOT.Char.IsFemale,'la grande chancelière','le grand chancelier')]"
+ minister_war_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] ministre de la Guerre"
+ councillor_steward_celestial_government_imperial_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] ministre du Revenu"
+ councillor_spymaster_celestial_government_imperial_FR_Le: "[Select_CString(ROOT.Char.IsFemale,'la censeuse impériale','le censeur impérial')]"
+ councillor_court_chaplain_celestial_government_imperial_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] ministre des Rites"
+ minister_personnel_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] ministre du Personnel"
+ minister_justice_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] ministre de la Justice"
+ minister_works_FR_Le: "[ROOT.Char.Custom('FR_LeLa')] ministre du Travail"
+ minister_grand_marshal_FR_Le: "[Select_CString(ROOT.Char.IsFemale,'la grande maréchale','le grand maréchal')]"
  # FR_GetRandomWonContest_Le
  tournament_contest_FR_Le: "l’épreuve"
  tournament_phase_archery_FR_Le: "le tir à l’arc"

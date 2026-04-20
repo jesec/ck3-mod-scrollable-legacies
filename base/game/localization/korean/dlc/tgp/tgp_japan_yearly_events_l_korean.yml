@@ -248,7 +248,7 @@
  tgp_japan_yearly_events.1140.t: "씨족 길에서 멈추다"
  tgp_japan_yearly_events.1140.desc: "[local_county.GetNameNoTier]의 땅을 가로지르던 우리는 무장한 무리와 마주쳤다.\n\n\"[local_ruler.GetName]의 뜻으로 통행료를 걷고 있다.\" [toll_warrior.GetSheHe]가 말했다. 그러다 내 혼란스러운 기색을 눈치채고는 덧붙였다. \"이 길은 이제 황실 소유가 아니다. 여기서는 [local_ruler.GetTitleAsName]의 의지만을 따른다.\""
  tgp_japan_yearly_events.1140.a: "[toll_warrior.GetHerHim]에게 통행료는 내겠지만, 이 일은 잊지 않겠다."
- tgp_japan_yearly_events.1140.b: "내가 누군지 모르느냐?!"
+ tgp_japan_yearly_events.1140.b: "\"내가 누군지 모르느냐?!\""
  tgp_japan_yearly_events.1140.b.tt: "당신의 지위에 대한 [toll_warrior.GetNamePossessiveNoTooltip] 존경을 얻으려 시도함"
  tgp_japan_yearly_events.1140.tt.success: "전사들의 환심을 얻음"
  tgp_japan_yearly_events.1140.tt.failure: "다른 길을 찾을 수밖에 없게 됨"

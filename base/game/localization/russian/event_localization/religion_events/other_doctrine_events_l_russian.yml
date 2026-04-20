@@ -62,7 +62,7 @@
  false_conversion.2001.desc_grief: "Что ни день, на ум приходит [deceased_character.GetTitledFirstName]. Любое напоминание о [deceased_character.GetHerHis] жизни в этом мире лишь глубже погружает меня в пучину скорби."
  false_conversion.2001.desc_depression: "Дни тянутся друг за другом, посылая моим близким новые радости и печали. Я же живу в море серости, буквально тону в ней последние годы."
  false_conversion.2001.desc_stress: "У меня развился нервный тик. Я кусаю ногти, сжимаю зубы, хожу взад-вперед до изнеможения, а потом лежу в постели без сна. И все равно меня охватывает совершенно непостижимый стресс."
- false_conversion.2001.desc_outro: "\n\nЯ размышляю, как мне быть дальше, как вдруг рядом появляется [vulnerable_relation.Custom2('RelationToMeAddress', owner)], нашептывая мне: «Вам стоит лишь принять исцеляющую силу #L [owner.GetSecretFaith.GetName|l]ого#! учения, [owner.Custom2('RelationToMeAddress', vulnerable_relation)], и вы позабудете все свои тревоги»."
+ false_conversion.2001.desc_outro: "\n\nЯ размышляю, как мне быть дальше, как вдруг рядом появляется [owner.Custom2('RelationToMeAddress', vulnerable_relation)], нашептывая мне: «Вам стоит лишь принять исцеляющую силу #L [owner.GetSecretFaith.GetName|l]ого#! учения, [vulnerable_relation.Custom2('RelationToMeAddress', owner)], и вы позабудете все свои тревоги»."
  false_conversion.2001.a: "Тогда я приму #L [owner.GetSecretFaith.GetNameNoTooltip|l]ое#! учение всем сердцем!"
  false_conversion.2001.b: "На что вы намекаете, [owner.GetTitledFirstNameNoTooltip]?"
  false_conversion.2001.b_flavor: "[owner.GetTitledFirstNameNoTooltip] больше не произносит ни слова... пока"

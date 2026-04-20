@@ -63,7 +63,7 @@
  tgp_japan_general.9550.desc.fam: "\n\nJa i moja rodzina tulimy się do siebie."
  tgp_japan_general.9550.desc.end: "Z każdą sekundą lisy zbliżają się do nas niczym do uwięzionego w klatce ptactwa.\n\nJak ród [ROOT.Char.GetHouse.GetNameNoTooltip] stawi czoła swoim ostatnim chwilom?"
  every_close_family_house_member_in_court: "Ty i każdy członek [Concept('house', 'rodu')|E] będący [Concept('spouse', 'małżonkiem')|E] lub należący do [Concept('close_family', 'bliskiej rodziny')|E] na [Concept('court', 'dworze')|E] postaci znanej jako [loser.GetShortUINameNotMe]"
- every_house_member_in_court: "[spouse|E] osoby znanej jako [loser.GetShortUINameNotMe] $debug_and$ każdy członek [Concept('house', 'rodu')|E] na [Concept('court', 'dworze')|E]"
+ every_house_member_in_court: "[spouses|E] i każdy członek [Concept('house', 'rodu')|E] postaci znanej jako [loser.GetShortUINameNotMe] na [loser.GetHerHis] [Concept('court', 'dworze')|E]"
  is_killed_by_you_and_you_kill_self: "@death_icon! Ta postać popełni samobójstwo, by uniknąć zhańbienia przez postać znaną jako [winner.GetShortUINameNotMe]"
  tgp_japan_general.9550.a.alone: "Nie umrę w sposób niegodny!"
  tgp_japan_general.9550.a.alone.flavor: "To ja zadecyduję o własnej śmierci"

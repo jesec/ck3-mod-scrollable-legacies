@@ -49,7 +49,7 @@
 ## Shady genealogist offers to prove you are descended from mythical heroes by Isabella Welch
 
  hold_court.4900.t:0 "In Ancient Times..."
- hold_court.4900.desc:1 "An ancient figure approaches my throne, with a click and a tap of [suspicious_genealogist.GetHerHis] cane accompanying each step.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')], I am a genealogist, and you are aware you are of noble origin. However, noble is not quite the same as divine or mythical. I desire to write a scroll which shall trace your complete lineage back to the dawn of history. For a mere few gold, I can reveal the truth to you and the world: you are a true descendant of [ROOT.GetCharacter.Custom('GetMythicalFounder')]!""
+ hold_court.4900.desc:1 "An ancient figure approaches my throne, with a click and a tap of [suspicious_genealogist.GetHerHis] cane accompanying each step.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], I am a genealogist, and you are aware you are of noble origin. However, noble is not quite the same as divine or mythical. I desire to write a scroll which shall trace your complete lineage back to the dawn of history. For a mere few gold, I can reveal the truth to you and the world: you are a true descendant of [ROOT.GetCharacter.Custom('GetMythicalFounder')]!""
  hold_court.4900.a:1 ""I don't need a piece of paper to tell me that!""
  hold_court.4900.b:1 ""Excellent! Ensure the list is excessively long!""
  hold_court.4900.c:1 ""[ROOT.GetCharacter.Custom('GetMythicalFounder')]? Nothing compared to me!""

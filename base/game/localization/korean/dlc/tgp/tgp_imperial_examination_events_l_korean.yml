@@ -34,7 +34,7 @@
  imperial_examination.1040.t: "명소 감상하기"
  imperial_examination.1040.desc.again: "과거를 치르는 장소로 가다가 다시 길이 막혔다. 두 눈이 휘둥그레져서는 도시의 거리에서 길을 찾으려 애쓰는 응시자들이 잔뜩 모여 길을 막고 있었다."
  imperial_examination.1040.desc: "도시의 거리는 다가오는 과거를 준비하느라 분주했다. 사방이 기대감으로 가득했고, 나 역시 설레는 마음을 어쩔 수 없었다."
- imperial_examination.1040.desc.outro: "\n\n절도사 지망생들이 입장을 받는 장소에 줄을 서서 자신의 도착을 알리고 있었다. 줄의 규모를 고려해 보니, 회합이 시작되기 전에 도시를 돌아다녀 볼 시간이 있을 듯했다."
+ imperial_examination.1040.desc.outro: "\n\n총독 지망생들이 입장을 받는 장소에 줄을 서서 자신의 도착을 알리고 있었다. 줄의 규모를 고려해 보니, 회합이 시작되기 전에 도시를 돌아다녀 볼 시간이 있을 듯했다."
  imperial_examination.1040.a: "시장에서 두루마리를 찾아봐야겠다."
  imperial_examination.1040.a.tt: "당신이 [learning|E] 두루마리 [artifact|E]의 소유자가 됨"
  imperial_examination.1040.a.tt_equipped: "[artifact_scroll.GetName](을)를 구매함"

@@ -1,5 +1,5 @@
 ﻿tgp_tai_migration_migration_happened_county_modifier = {
-	icon = county_modifier_development_positive
+	icon = county_modifier_development_mixed
 	county_opinion_add = 15
 	development_growth_factor = 0.05
 	monthly_county_control_decline_factor = 0.25

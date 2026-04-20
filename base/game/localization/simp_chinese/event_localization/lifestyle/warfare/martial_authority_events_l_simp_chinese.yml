@@ -33,7 +33,7 @@
  martial_authority.2050.desc.ending: "也许[right_hand_person.GetSheHe]能作为我最得力的[right_hand_person.GetWomanMan]为我效力，并更加积极地管理我的[ROOT.Char.Custom('GetRealmOrDomicile')|l]？"
  martial_authority.2050.a: "是的，[right_hand_person.GetSheHe]将很适合侍奉我！"
  martial_authority.2050.a.tt: "[right_hand_person.GetShortUIName]和你将共度更多时光"
- martial_authority.2050.b: "我的[marshal.Custom2('RelationToMeShort', ROOT.Char)][marshal.GetFirstNameNoTooltip]可以摆平那些问题。"
+ martial_authority.2050.b: "我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))][marshal.GetFirstNameNoTooltip]可以摆平那些问题。"
  martial_authority.2050.c: "只要我工作更努力，我自己就能处理一切！"
  martial_authority.2050.toast.title: "[right_hand_person.GetShortUIName]现在作为一名得力的[right_hand_person.GetWomanMan]为你效力"
  martial_authority.2051.t: "额外的帮手"

@@ -136,6 +136,7 @@
  hunt.8570.a: "– Już idę!"
  hunt.8570.a.success: "Ratujesz [stampede_victim.Custom('PL_go_ja')], przy czym [stampede_victim.GetSheHe] wychodzi z sytuacji bez najmniejszego zadrapania"
  hunt.8570.a.failure: "Ratujesz [stampede_victim.Custom('PL_go_ja')], przy czym [stampede_victim.GetSheHe] odnosi rany"
+ hunt.8570.a.failure_2: "Nie udało ci się [stampede_victim.Custom('PL_go_jej')] uratować"
  hunt.8570.a.crit_failure: "Giniesz podczas próby niesienia pomocy"
  hunt.8570.b: "Być może uda mi się zmienić kierunek, w jakim pędzi stado."
  hunt.8570.b.success: "Udaje ci się zmienić kierunek, w jakim pędzi stado."

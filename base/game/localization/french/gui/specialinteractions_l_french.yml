@@ -671,6 +671,7 @@
  AI_OPINION_PRESTIGE_LEVEL_LEGENDARY: "[prestige_level|E] [GetPrestigeLevelName('(int32)5')] : $VALUE|=+0$"
  AI_OPINION_MERIT_LEVEL: "[merit_level|E] : $VALUE|=+0$"
  TRADE_INFLUENCE_FOR_BETTER_AI_ACCEPTANCE: "Offrir votre [influence|El][influence_i|E]"
+ DEMAND_INFLUENCE_AI_ACCEPTANCE: "Exiger de l’[influence|El][influence_i|E]"
  INFLUENCE_INTERACTION_ACCEPTANCE_SEND_OPTION: "Dépense de l’[influence|El] : $VALUE|=+0$"
  not_same_realm_tt: "Vous et [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUIName] n’êtes pas dans le même pays"
  same_realm_tt: "Vous et [recipient.Custom('FR_le_Char_U_Pi')][recipient.GetShortUIName] êtes dans le même pays"

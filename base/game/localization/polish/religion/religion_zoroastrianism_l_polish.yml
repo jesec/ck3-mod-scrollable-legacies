@@ -2,7 +2,7 @@
  #Common Zoroastrian Localization
  zoroastrianism_religion: "Zaratusztrianizm"
  zoroastrianism_religion_adj: "Zaratusztriańska"
- zoroastrianism_religion_adherent: "Zaratusztrianin"
+ zoroastrianism_religion_adherent: "zaratusztrianin"
  zoroastrianism_religion_adherent_plural: "zaratusztrianie"
  zoroastrianism_religion_desc: "Zgodnie z naukami Zaratusztry, zaratusztrianie wierzą w Pana Mądrości, Ormuzda, który jest źródłem wszelkiego dobra i jako taki sprzeciwia się fałszowi, reprezentowanemu przez Arymana. Zaratusztrianin szuka ścieżki prawdy poprzez Dobre Myśli, Dobre Słowa i Dobre Uczynki."
  zoroastrianism_high_god_name: "Ormuzd"
@@ -90,7 +90,7 @@
  #Behafaridism
  zurvanism: "Behafarydyzm"
  zurvanism_adj: "Behafarydycka"
- zurvanism_adherent: "Behafarydyta"
+ zurvanism_adherent: "behafarydyta"
  zurvanism_adherent_plural: "behafarydyci"
  zurvanism_desc: "Wyznawcy nauk Behafarydy, $zurvanism_adherent_plural$ dążą do współpracy ze światem islamu. W odpowiedzi na muzułmańską krytykę głównego nurtu zaratusztrianizmu wprowadzili oni liczne reformy w swojej wierze, w tym zakaz spożywania alkoholu, ścisły zakaz zawierania małżeństw między własnymi rodzinami oraz zachęcanie do dobroczynności jako sposobu na wykorzystanie osobistego bogactwa dla dobra publicznego."
  #Zurvanism doctrine - FP3 update: removed from doctrine_asceticism and saved for possible future Fatalism tenet.

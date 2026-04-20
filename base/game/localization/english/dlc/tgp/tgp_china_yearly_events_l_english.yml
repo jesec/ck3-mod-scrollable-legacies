@@ -38,7 +38,7 @@
  tgp_china_yearly_no_education_first: "#weak You get this effect because you do not have the Confucian Education trait.#!"
  tgp_china_yearly.0030.t: "The Good Word Travels Far"
  tgp_china_yearly.0030.desc_minister_of_personel: "[title_offerer.Custom2('AppropriateGreetingPositive', ROOT.Char)]\n\nIt is my duty to find talented individuals such as yourself and usher them into office. "
- tgp_china_yearly.0030.desc_elder: "As your [elder|E], I must admit that I am impressed by the reputation you made for yourself as a truly proper [confucian|E]."
+ tgp_china_yearly.0030.desc_elder: "As your [elder|E], I must admit that I am impressed by the reputation you made for yourself as a truly proper Confucian."
  tgp_china_yearly.0030.desc_fellow_confucian: "As a fellow Confucian, it pleases me to hear about your dedication to the Path, and look forward to the opportunity for many friendly debates in the future."
  tgp_china_yearly.0030.desc_intro_outro: "\n\nIn recognition of your propriety, I hereby offer to further your candidacy for the governorship of [free_title.GetName]."
  tgp_china_yearly.0030.a: "I graciously accept."

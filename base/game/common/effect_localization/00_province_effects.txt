@@ -36,6 +36,8 @@ remove_building = {
 set_holding_type = {
 	global = SET_HOLDING_TYPE_EFFECT_GLOBAL
 	global_past = SET_HOLDING_TYPE_EFFECT_GLOBAL_PAST
+	third = SET_HOLDING_TYPE_EFFECT_THIRD
+	third_past = SET_HOLDING_TYPE_EFFECT_THIRD_PAST
 }
 
 add_special_building_slot = {

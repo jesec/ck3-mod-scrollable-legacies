@@ -280,3 +280,5 @@
  game_concept_appointment_level: "任命等级"
  game_concept_appointment_levels: "任命等级"
  game_concept_appointment_level_desc: "某些[appointment_succession_laws|E]需要[characters|E]满足一定的$game_concept_appointment_level$才能成为候选人。\n\n该等级取决于特定通货的级别，每种法律都可以以不同的通货为条件。更高级[title|E]通常需要更高的等级。\n\n#weak 例如：[GetLaw('celestial_appointment_succession_law').GetName]需要[merit|E]——[duchy|E]需要至少[GetModifier( 'merit_level_3' ).GetNameWithTooltip|L][merit_level|E]，而[kingdom|E]需要至少[GetModifier( 'merit_level_5' ).GetNameWithTooltip|L]。#!"
+ game_concept_seize_peripheral_duchy: "夺取外围公国"
+ game_concept_seize_peripheral_duchy_desc: "这是与[government_bureaucratic_type|E][government_form|E][realm|E]相邻的[rulers|E]可以使用的[casus_belli|E]。\n\n它允许进攻方夺取防御方首都[de_jure|E]层级外的一个相邻[duchy|E]。"

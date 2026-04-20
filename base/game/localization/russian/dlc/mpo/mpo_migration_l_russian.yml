@@ -13,7 +13,7 @@
  MIGRATION_WINDOW_DEJURE_KINGDOM_BLOCKED: "@warning_icon! #X Вам требуется хотя бы [GetLaw('nomadic_authority_3').GetName]#!"
  MIGRATION_WINDOW_DEJURE_EMPIRE_BLOCKED: "@warning_icon! #X Вам требуется хотя бы [GetLaw('nomadic_authority_4').GetName]#!"
  MIGRATION_COLOR_SELECTOR_REALMS: "Показать [Concept('realms', 'державы')|E]"
- MIGRATION_COLOR_SELECTOR_FERTILITY: "Показать [Concept('fertility', 'плодовитость')|E]"
+ MIGRATION_COLOR_SELECTOR_FERTILITY: "Показать [Concept('county_fertility', 'тучность пастбищ')|E]"
  MIGRATION_WINDOW_NOMAD_INFO: "Сильнейший правитель решит, приемлема ли ваша миграция."
  MIGRATION_WINDOW_ALL_NOMADS_BUTTON: "Посмотреть всех правителей #weak ([MigrationWindow.GetInvolvedCharacterList.GetTotalNumber])#!"
  MIGRATION_INVOLVED_CHARACTERS_HEADER: "Вовлеченные персонажи "

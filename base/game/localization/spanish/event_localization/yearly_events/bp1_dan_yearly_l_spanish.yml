@@ -51,7 +51,7 @@
  bp1_yearly.7007.a: "¡Esto es maravilloso!"
  bp1_yearly.7007.b: "¿Habéis alterado MI [borrowed_artifact.GetNameNoTooltip]?"
  didnt_trust_friend_opinion: "No confió en mí."
- trusted_friend_opinion: "Confió en mí."
+ trusted_friend_opinion: "Confió en mí"
  forgave_me_opinion: "Me perdonó."
  improved_artifact_opinion: "Mejoró mi artefacto."
  messed_with_artifact_opinion: "Estropeó mi artefacto."

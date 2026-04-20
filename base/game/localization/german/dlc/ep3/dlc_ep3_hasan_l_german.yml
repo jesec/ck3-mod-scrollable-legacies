@@ -20,6 +20,11 @@
  hasan_expand_the_assassins_desc: "Wir brauchen mehr Besitztümer, um den Einfluss der Assassinen auszuweiten. Von dort aus könnten wir den Sturz der Gotteslästerer erleben."
  hasan_expand_the_assassins_tooltip: "Euren [holy_order|E] erweitern"
  hasan_expand_the_assassins_confirm: "Ein neues Zuhause"
+ #Story Cycle
+ ULTIMATE_FOE: "Euer schlimmster Feind"
+ story_hasan: "Die Legende des Hasan-i Sabbah"
+ story_hasan_desc: "Mehr noch als Armeen kann die Stärke des Glaubens Kaiserreiche stürzen lassen und eine neue Geschichte weben! Werden wir die Assassinen gründen und unser Volk vom Joch der Seldschuken befreien? Könnt Ihr zum Alten vom Berg aufsteigen?"
+ PROGRESS_TOWARDS_ASSASSIN_PATH: "Fortschritt auf dem Assassinenpfad"
  #Events
  hasan_sabbah.1000.t: "[GetFaithByKey('ismaili').GetAdjectiveNoTooltip|U]e Prediger"
  hasan_sabbah.1000.desc: "[amira.GetName|U], [Select_CString(amira.IsFemale, 'eine Gläubige und Anhängerin', 'ein Gläubiger und Anhänger')] des ägyptischen Kalifen, hat im Herzen von [location.GetName] unorthodoxe Ansichten über den Islam gepredigt. Ich zweifle nicht an der Wahrheit des Islam und der höchsten Instanz ([ROOT.Char.GetFaith.HighGodName]), und ich habe noch nie daran gezweifelt, dass diese Wahrheit irgendwo anders als im Glauben ([ROOT.Char.GetFaith.GetName]) zu finden ist, doch die Worte von [amira.GetFirstNameNoTooltip] klingen anders in meinen Ohren.\n\nIch verbringe den Rest des Tages damit, mit [amira.GetFirstNameNoTooltip] über heilige Bücher und Hadithe zu diskutieren, und zum ersten Mal vernehme ich die Wahrheit in der [GetFaithByKey('ismaili').GetAdjective|l]en Philosophie."

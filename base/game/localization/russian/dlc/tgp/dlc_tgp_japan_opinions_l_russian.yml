@@ -8,3 +8,4 @@
  refused_pay_homage_opinion: "Отказ склониться"
  restored_ritsuryo_opinion: "Восстановлено правительство рицурё"
  refused_pledge_loyalty_to_liege_opinion: "Отказ поклониться"
+ pledged_loyalty_to_me_opinion: "$msg_pledged_loyalty_to_liege$"

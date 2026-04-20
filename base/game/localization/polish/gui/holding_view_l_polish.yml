@@ -275,3 +275,4 @@
  REBUILD_GREAT_BUILDING_EFFECT: "$EFFECT_LIST_BULLET$Budowla o nazwie [BUILDING.GetName|l] w miejscu znanym jako [PROVINCE.GetName] została odbudowana"
  REBUILD_GREAT_BUILDING_CONFIRMATION_ACCEPT: "Odbuduj"
  REBUILD_GREAT_BUILDING_CANNOT_AFFORD: "@warning_icon! #X Niedostateczne środki: #! $COST$"
+ YOUR_NEXT_HOLDING: "#T Przejdź do swojej kolejnej [Concept('holding', 'posiadłości')|E]#!"

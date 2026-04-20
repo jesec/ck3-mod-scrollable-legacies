@@ -213,3 +213,19 @@ dlc_027 = {
 	type = minor
 	priority = 17
 }
+
+dlc_028 = {
+	key = "Symbols of Authority"
+	steam_id = "4232890"
+	msgr_id = "9PNMKF1QMD01"
+	type = minor
+	priority = 1018
+}
+
+dlc_029 = {
+	key = "Songs of the Realm"
+	steam_id = "3315590"
+	msgr_id = "9N89HZBM8Z5S"
+	type = minor
+	priority = 1019
+}

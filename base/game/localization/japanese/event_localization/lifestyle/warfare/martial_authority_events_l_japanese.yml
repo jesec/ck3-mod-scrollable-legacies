@@ -33,7 +33,7 @@
  martial_authority.2050.desc.ending: "[right_hand_person.GetSheHe]は私の右腕となり、[ROOT.Char.Custom('GetRealmOrDomicile')|l]の管理においてより積極的な役割を担えるだろうか？"
  martial_authority.2050.a: "ああ、きっと活躍してくれるだろう！"
  martial_authority.2050.a.tt: "[right_hand_person.GetShortUIName]とより多くの時間を過ごすようになる"
- martial_authority.2050.b: "私の[marshal.Custom2('RelationToMeShort', ROOT.Char)]、[marshal.GetFirstNameNoTooltip]ならそうした問題に対処できる。"
+ martial_authority.2050.b: "私の[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))]、[marshal.GetFirstNameNoTooltip]ならそうした問題に対処できる。"
  martial_authority.2050.c: "私がもっと努力すれば自分で対処できる！"
  martial_authority.2050.toast.title: "[right_hand_person.GetShortUIName]があなたの右腕として仕えるようになった"
  martial_authority.2051.t: "右腕"

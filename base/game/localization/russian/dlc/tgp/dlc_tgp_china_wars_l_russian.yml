@@ -27,7 +27,7 @@
  dynastic_cycle_hegemon_legitimacy_level_cost_desc: "[Concept('legitimacy_level', 'Уровень легитимности')|E] [Select_CString(CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',defender.GetShortUIName))]"
  # CONSOLIDATION WAR
  chinese_consolidation_cb: "$CHINESE_CONSOLIDATION_WAR_NAME$"
- CHINESE_CONSOLIDATION_WAR_NAME: "Гегемонистская война за объединение"
+ CHINESE_CONSOLIDATION_WAR_NAME: "Война за объединение Китая"
  CHINESE_CONSOLIDATION_WAR_NAME_BASE: "$CHINESE_CONSOLIDATION_WAR_NAME$"
  CHINESE_CONSOLIDATION_CB_NAME: "Объединить Поднебесную ([Concept('dynastic_cycle', 'династический цикл')|E])"
  chinese_consolidation_cb_victory_desc_attacker: "Вы захватываете все [Concept('titles', 'титулы')|E] персонажа [defender.GetShortUIName] того же [Concept('title_tier', 'уровня')|E], что и ваш [Concept('primary_title', 'первый титул')|E], или выше. Все [Select_CString(defender.IsFemale, 'ее', 'его' )] вассалы, входящие в состав [Concept('de_jure', 'де-юре')|E] державы [GetTitleByKey('h_china').GetDefinitiveName], становятся вашими вассалами."

@@ -160,3 +160,4 @@
  ACTIVITY_GUEST_VERY_SHORT_TRIP: "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] совершает очень короткое путешествие: $VALUE|=+0$"
  ACTIVITY_GUEST_NO_TRAVEL: "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] живет в районе: $VALUE|=+0$"
  ACTIVITY_GUEST_COURTIER: "Ваш [courtier|El]: $VALUE|=+0$"
+ ACTIVITY_GUEST_ACCLAIMED_KNIGHT_REASON: "[Select_CString(ROOT.Char.IsFemale, 'Она', 'Он' )] [Concept('acclaimed_knight', 'именитый рыцарь')|E]: $VALUE|=+0$"

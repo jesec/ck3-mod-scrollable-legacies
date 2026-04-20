@@ -37,7 +37,7 @@
  conqueror.1100.c: "[generous_vassal.GetFirstNameNoTooltip] is generous, but I have no need of you."
  maa_recruitment_boon: "Effective Men-at-Arms Recruitment"
  maa_recruitment_boon_desc: "This character is getting assistance from their vassals in recruiting professional soldiers."
- war_war_war_opinion: "War, war, war!"
+ war_war_war_opinion: "War, War, War!"
  
  conqueror.1200.t: "$conqueror_prefix$ Release the Glory Hounds"
  conqueror.1200.desc: "The chants echo across my halls, my capital, my lands — across my entire realm; "War! War! War!" They say.\n\nMy glory-hungry vassals call for the blood of our enemies to be spilled, for me to bring upon us the renown that is my destiny.\n\nI have their unwavering support."

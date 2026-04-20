@@ -711,6 +711,14 @@ m_hair_tgp_japanese_02 = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "m_hair_tgp_japanese_02_entity" }
 }
 
+## ------------------------------------- SP5 ----------------------------------- ##
+
+m_hair_sp5_western_01 = { 
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "m_hair_sp5_western_01_entity" }
+	
+}
+
 #####################################
 #									#
 # 			Female Hair			 	#
@@ -1370,3 +1378,4 @@ f_hair_tgp_sea_04 = {
 	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "f_hair_tgp_sea_04_entity" }	
 }
+

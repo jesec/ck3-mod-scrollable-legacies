@@ -1,7 +1,7 @@
 ﻿l_japanese:
  #What You Don't See...
  tour_grounds_events.7000.t: "見てはならぬものは…"
- tour_grounds_events.7000.desc: "[stop_host_scope.GetTitledFirstName|U]はこれまでのところ、とても親切な主催者に思えた。[stop_host_scope.GetHerHis]土地や持ち物を誇らしく見せてくれた。それがゆえに、[stop_host_scope.GetSheHe]が我々の通り過ぎた一見何の変哲もない扉から私の注意をそらそうとしたとき、少し驚いてしまった。\n\n「[stop_host_scope.GetFirstNameNoTooltip]。私に何かを#EMP 隠している#!のではないか？」\n\n私は、[stop_host_scope.GetHerHis]が凍りついた一瞬…これは、恥？それとも#EMP 罪悪感#!？…を利用し、黙って扉を押し開けた。そして、私はそこで見たものに驚いた。"
+ tour_grounds_events.7000.desc: "[stop_host_scope.GetTitledFirstName|U]はこれまでのところ、とても親切な主催者に思えた。[stop_host_scope.GetHerHis]の土地や持ち物を誇らしく見せてくれた。それがゆえに、[stop_host_scope.GetSheHe]が我々の通り過ぎた一見何の変哲もない扉から私の注意をそらそうとしたとき、少し驚いてしまった。\n\n「[stop_host_scope.GetFirstNameNoTooltip]。私に何かを#EMP 隠している#!のではないか？」\n\n私は、[stop_host_scope.GetHerHis]が凍りついた一瞬…これは、恥？それとも#EMP 罪悪感#!？…を利用し、黙って扉を押し開けた。そして、私はそこで見たものに驚いた。"
  tour_grounds_events.7000.desc_artifacts: "宝物、宝石、そして[stop_host_scope.GetFirstNamePossessiveNoTooltip]の[this_artifact.GetName]までも！"
  tour_grounds_events.7000.desc_pantry: "隠された食料庫には、外国のスパイス、味付け肉、蜂蜜、塩の樽が天井まで積まれていた！"
  tour_grounds_events.7000.desc_cellar: "隠された地下室には、遠い国から取り寄せた高価なワインやリキュールが天井まで重なっていた！"

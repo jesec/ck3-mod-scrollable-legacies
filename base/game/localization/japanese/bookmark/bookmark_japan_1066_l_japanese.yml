@@ -11,7 +11,7 @@
  bookmark_japan_go_reizei_subheading: "日本の$game_concept_ceremonial_liege$"
  bookmark_japan_go_reizei_tameyuki: "$Tameyuki$"
  bookmark_japan_go_reizei_go_sanjo: "$Takahito$"
- bookmark_japan_go_reizei_desc: "父である退位した[Glossary( '後三条', 'JOKO_GLOSS' )]天皇と[Glossary( '藤原', 'FUJIWARA_GLOSS' )]氏の摂政、$Yorimichi$による権力争いのなか、$Chikahito$は駒として利用されてきた。今や[Glossary( '天皇', 'TENNO_GLOSS' )]となった彼は、皇権を確立すべく尽力しているが、大部分においていまだに儀礼的な役割にとどまっている。\n\n后妃の一族によって唯一の息子の認知を拒まれたため、$Chikahito$の弟、$Takahito$が、現在皇位を継ぐ立場にある。\n\n#BOLD あなたは藤原氏の支配を退けて[Glossary( '大和', 'YAMATO_GLOSS' )]朝廷を復活させ、名前だけではなく真の権力を持つ天皇となることができるか？#!"
+ bookmark_japan_go_reizei_desc: "父である退位した[Glossary( '後朱雀', 'JOKO_GLOSS' )]天皇と[Glossary( '藤原', 'FUJIWARA_GLOSS' )]氏の摂政、$Yorimichi$による権力争いのなか、$Chikahito$は駒として利用されてきた。今や[Glossary( '天皇', 'TENNO_GLOSS' )]となった彼は、皇権を確立すべく尽力しているが、大部分においていまだに儀礼的な役割にとどまっている。\n\n后妃の一族によって唯一の息子の認知を拒まれたため、$Chikahito$の弟、$Takahito$が、現在皇位を継ぐ立場にある。\n\n#BOLD あなたは藤原氏の支配を退けて[Glossary( '大和', 'YAMATO_GLOSS' )]朝廷を復活させ、名前だけではなく真の権力を持つ天皇となることができるか？#!"
  #He seeks to
  # restore [Glossary( 'Yamato', 'YAMATO_GLOSS' )] authority as true Emperor's of Japan?
  bookmark_japan_morofusa: "$dynn_Minamoto$$Morofusa$"

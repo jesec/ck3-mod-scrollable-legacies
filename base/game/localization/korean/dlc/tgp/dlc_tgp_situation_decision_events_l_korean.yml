@@ -67,6 +67,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "[GetTitleByKey('h_china').GetHolder.Custom('WomanManPossessive')] 운이 줄어들면 다른 이의 운이 커지는 법이다. 왕과 황제조차도 운명의 흥망성쇠를 벗어날 수는 없다.\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName](이)가 천명을 받들었다고 선언했으며, 모두가 이 새로운 군주의 발밑에 엎드려야 한다."
  tgp_dynastic_cycle.0062.desc.uninvolved: "제국은 나타났다 사라지기 마련이며, 늙은이는 새로운 이에게 자리를 내주어야 한다. [GetTitleByKey('h_china').GetNameNoTierNoTooltip] 왕좌는 [GetTitleByKey('h_china').GetHolder.GetTitledFirstName]의 차지가 되었고, [GetTitleByKey('h_china').GetHolder.GetHerHis] 봉역 안팎 모두가 이 새로운 군주를 염두에 두어야 한다.\n\n이렇게 운명이 바뀌는 사건은 가볍게 넘겨서는 안 되는 법이다."
  tgp_dynastic_cycle.0062.a: "[GetTitleByKey('h_china').GetHolder.GetHerHis] 능력을 신중하게 살펴야 한다."
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
  tgp_dynastic_cycle.0071.t: "비가 온 뒤에는 해가 나는 법"
  tgp_dynastic_cycle.0071.desc: "한동안 머무르던 먹구름이 흩어지고, [GetTitleByKey('h_china').GetNameNoTierNoTooltip]에 맑은 하늘이 다시 한번 드리워졌다. 나는 앞에 놓인 시련을 모두 극복해 냈으니, 이제 아무도 내가 하늘이 선택한 [ROOT.Char.Custom('GetDaughterSon')] 그 자체라는 사실에 의심을 품거나 분쟁을 일으키지 못한다.\n\n고난의 시간은 이제 뒤로 하고, 모두가 유일한 목적 아래 하나가 될 수 있도록 앞날로 향하는 새로운 길을 구상해야 한다."
@@ -80,6 +81,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "평화로운 시대에는 용맹한 영웅이 능력을 발휘할 기회가 몇 없을 것이다. 그러나 이제 다른 발전으로의 길이 열릴 수도 있다."
  tgp_dynastic_cycle.0072.desc.uninvolved: "[GetTitleByKey('h_china').GetHolder.GetDynastyName] 가문에 활력이 아직 남아 있는 듯하다."
  tgp_dynastic_cycle.0072.a: "봄바람이 불어오니 풀이 다시 자라는구나."
+ tgp_dynastic_cycle.0072.b: "유일한 길은 하늘의 뜻을 따르는 것이다."
+ tgp_china_consolidation.remain_independent: "[independent_ruler|E]로 남음"
  ### ENTER CONSOLIDATION ###
  tgp_dynastic_cycle.0081.t: "천하는 오래도록 합쳐지면 반드시 나뉜다"
  tgp_dynastic_cycle.0081.desc: "한순간에 하늘이 흔들리며 세상이 뒤집혔다.\n\n충신들이 새로운 주인을 찾아 도망치고, 병사들이 의무를 저버렸으며, 이제 농노마저 다가오는 혼란을 두려워하며 내 땅을 버린다는 소식을 전하고 있다.\n\n이 모든 문제는 내 #EMP 부당한#! 통치로 인한 것이니, 내가 천명을 잃었다는 사실이 만천하에 알려졌다!"

@@ -1,7 +1,7 @@
 ﻿l_japanese:
  DNA_MODIFIERS: "DNAの補正"
  DNA_MODIFIERS_LINK: "#E $DNA_MODIFIERS$#!"
- PORTRAIT_ANIMATION: "肖像画アニメーション"
+ PORTRAIT_ANIMATION: "キャラクター画像アニメーション"
  PORTRAIT_ANIMATION_LINK: "#E $PORTRAIT_ANIMATION$#!"
  PORTRAIT_ANIMATION_TITLE: "「[Character.GetAnimationName]」アニメーション"
  PORTRAIT_MODIFIER_DEFAULT: "デフォルト"
@@ -670,8 +670,8 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_iranian_war_nob_01: "@legacyofpersia_icon! 孔雀のヘルメット"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_01: "@khansofthesteppe_icon! @legacyofpersia_icon! 羊毛の帽子"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_fp3_turkic_nob_02: "@khansofthesteppe_icon! @legacyofpersia_icon! 毛皮付き頭飾り"
- PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "@khansofthesteppe_icon! @legacyofpersia_icon! トルコ・ペルシャのマスク"
- PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_01: "@khansofthesteppe_icon! @legacyofpersia_icon! トルコ・ペルシャのマスク"
+ PORTRAIT_MODIFIER_custom_special_m_headgear_fp3_iranian_face_mask_01: "@khansofthesteppe_icon! @legacyofpersia_icon! トルコ・ペルシアのマスク"
+ PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_01: "@khansofthesteppe_icon! @legacyofpersia_icon! トルコ・ペルシアのマスク"
  PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_open_01: "クマンのマスク付き兜（解放型）"
  PORTRAIT_MODIFIER_custom_special_masks_m_headgear_fp3_iranian_face_mask_closed_01: "クマンのマスク付き兜（閉鎖型）"
  ### Female ###
@@ -1064,10 +1064,12 @@
  ### CE1 - Legends of the Dead ###
  ### Male ###
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_01: "@legendsofthedead_icon! ボックステンマンのマント"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02: "@legendsofthedead_icon! フード付きマント"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_a: "@legendsofthedead_icon! フード付きマント（フードを下ろした状態）"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_b: "@legendsofthedead_icon! フード付きマント（フードを被った状態）"
  ### Female ###
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_01: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_01$"
- PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02$"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02_a: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_a$"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02_b: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_b$"
  ### SP3 - Couture of the Capets ###
  ### Male ###
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp3_western_roy_01: "@couture_icon! 毛皮裏地の王家の外套"
@@ -1423,7 +1425,7 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era1_hi_nob_01: "@roadstopower_icon! 式典用フェロン"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era1_roy_01: "@roadstopower_icon! カエサリオンの小冠"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era1_imp_01: "@roadstopower_icon! 皇帝のステマ"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era2_nob_01: "@roadstopower_icon! ペルシャのドーム型の帽子"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era2_nob_01: "@roadstopower_icon! ペルシアのドーム型の帽子"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era2_nob_02: "@roadstopower_icon! 上級廷臣のプロポロマ"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era2_nob_03: "@roadstopower_icon! カパシオン"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ep3_byzantine_era2_hi_nob_01: "@roadstopower_icon! 特別なスカラニコン"
@@ -1724,9 +1726,6 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_nob_01: "@allunderheaven_icon! アプサラの冠"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_nob_02: "@allunderheaven_icon! マクタ"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_roy_01: "@allunderheaven_icon! ナガ・マクタ"
- ### legwear ###
- #Male
- PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_tgp_southeast_com_01: "@allunderheaven_icon! 平民のクベン"
  ### Hairstyles ###
  PORTRAIT_MODIFIER_custom_hair_f_hair_tgp_sea_01: "@allunderheaven_icon! アプサラの髪型1"
  PORTRAIT_MODIFIER_custom_hair_f_hair_tgp_sea_02: "@allunderheaven_icon! アプサラの髪型2"
@@ -1907,8 +1906,8 @@
  ### Male ###
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_com_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ccp_emishi_com_01$"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_com_02: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ccp_emishi_com_02$"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_com_03_fish: "@north_pacific_attire! 東部北極圏の平民の魚皮ローブ"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_com_03_fur: "@north_pacific_attire! 東部北極圏の平民の毛皮ローブ"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_com_03_fish: "@north_pacific_attire! 東方・北方民族の平民の魚皮ローブ"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_com_03_fur: "@north_pacific_attire! 東方・北方民族の平民の毛皮ローブ"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_lo_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ccp_emishi_lo_nob_01$"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_lo_nob_02: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ccp_emishi_lo_nob_02_a$"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ccp_emishi_lo_nob_03_fish: "@north_pacific_attire! アイヌの下級貴族の魚皮ローブ"
@@ -1940,7 +1939,7 @@
  ### CCP7 Emishi Ainu ###
  ########################
  ### Female ###
- PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ccp_emishi_com_01: "@north_pacific_attire! 東部北極圏の平民のヘッドバンド"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ccp_emishi_com_01: "@north_pacific_attire! 東方・北方民族の平民のヘッドバンド"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ccp_emishi_com_02: "@north_pacific_attire! アイヌのフード1"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ccp_emishi_com_03: "@north_pacific_attire! アイヌのフード2"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ccp_emishi_nob_01_com: "@north_pacific_attire! 平民のマタンプシ1"
@@ -1995,8 +1994,8 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_dal_hi_01: "@celestial_court_attire! 大理の上級貴族の冠"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_lia_hi_01: "@celestial_court_attire! 遼の黄金の冠"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_dal_lo_01: "@celestial_court_attire! 大理の下級貴族の帽子"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_sil_roy_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_ccp9_sil_roy_01$"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_roy_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_ccp9_uyg_roy_01$"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_sil_roy_01: "@celestial_court_attire! 新羅の冠"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_roy_01: "@celestial_court_attire! ウイグルの黄金の冠"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_hi_01: "@celestial_court_attire! ウイグルの貴族の帽子"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_jur_nob_01: "@celestial_court_attire! 晋王朝の貴族の帽子"
  ## Clothes ##
@@ -2004,13 +2003,13 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_lia_nob_01: "@celestial_court_attire! 遼の貴族の服"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_uyg_nob_01: "@celestial_court_attire! ウイグルの上級貴族のローブ"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_uyg_roy_01: "@celestial_court_attire! ウイグルの王室のローブ"
- PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_nob_01: "@celestial_court_attire! タングートの貴族の服"
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_nob_01: "@celestial_court_attire! タングートの上級貴族の服"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_roy_01: "@celestial_court_attire! タングートの王室のローブ"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_min_nob_01: "@celestial_court_attire! 明の貴族のドレス"
  ### Male ###
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_lia_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_lia_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_lia_nob_01: "@celestial_court_attire! 遼の貴族の服"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_dal_nob_01: "@celestial_court_attire! 大理の貴族の服"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_tan_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_tan_nob_01: "@celestial_court_attire! タングートの上級貴族の服"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_min_nob_01: "@celestial_court_attire! 明の貴族の服 "
  ### Hairstyles ###
  #Male
@@ -2018,6 +2017,23 @@
  #############
  ### Pants ###
  #############
+ ############
+ ### SP5  ###
+ ############
+ ### Headgear ###
+ ### Female ###
+ ### Headgear ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_western_roy_01: "@symbols_of_authority! ゴシック調のユリの王冠"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_western_roy_02: "@symbols_of_authority! 権威のクレスピン"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_byzantine_roy_01: "@symbols_of_authority! カテリーナの冠"
+ ### Male ###
+ ### Headgear ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp5_western_roy_01: "@symbols_of_authority! 洗礼者の冠"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp5_byzantine_roy_01: "@symbols_of_authority! コンスタンティヌスの王冠"
+ ### Hairstyles ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_sp5_western_01: "@symbols_of_authority! 洗礼者の巻き毛"
+ ### Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp5_western_01: "@symbols_of_authority! 洗礼者の髭"
  PORTRAIT_MODIFIER_custom_legwear: "足防具"
  PORTRAIT_MODIFIER_custom_legwear_female_empty: "足防具なし"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_war_01: "西部の戦士の足防具"
@@ -2140,6 +2156,7 @@
  sick_stomach: "病気"
  severelywounded: "重傷"
  loss_1: "戦闘敗北"
+ holding_crutch: "松葉杖"
  page_flipping: "読書"
  writing: "執筆"
  reading: "読書"

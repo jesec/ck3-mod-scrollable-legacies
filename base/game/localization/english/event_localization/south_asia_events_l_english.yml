@@ -127,7 +127,7 @@
  south_asia.0050.desc: "Mauryas, Kushanas, Guptas, Palas, and Pratiharas, for Millenia the Indo-Gangetic plain has been both the seat and the battleground for many great empires. Some rulers were foreign and many more rose from the subcontinent itself.\n\nThe [founder.GetHouse.GetNameNoTooltip]s are not as ancient but we have carved out a realm of our own where these dynasties all failed. The time has now come for us to build an Empire, and a government apparatus, to rule the myriad of peoples and faiths of that all inhabit these lands."
  south_asia.0050.a: "A new capital will stand at Delhi!"
  south_asia.0050.b: "We will make Lahore the center of the Empire"
- south_asia.0050.c: "The Empire will be ruled from [ROOT.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ south_asia.0050.c: "The Empire will be ruled from [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
  
  south_asia.0051.t: "The Sultanate of [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
  south_asia.0051.desc: "Word has reached us that the [founder.GetHouse.GetNameNoTooltip]s have consolidated their hold over the Indo-Gangetic plain, founding a new Islamic Empire on the ruins left by the Hindu and Buddhist dynasties of yesteryear.\n\nStyling [founder.GetHerselfHimself] as [founder.GetFullName], with an imperial ambition to rule all of India from [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [founder.GetFirstNameNoTooltip] is quickly growing both feared and admired."

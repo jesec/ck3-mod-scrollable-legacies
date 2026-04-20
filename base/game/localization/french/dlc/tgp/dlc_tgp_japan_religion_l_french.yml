@@ -12,7 +12,7 @@
  doctrine_parameter_piety_from_hills_and_mountains_pilgrimages: "Les personnages gagnent de la [piety|El] supplémentaire des [pilgrimages|El] dans les [GetTerrain( 'hills' ).GetName|l], [GetTerrain( 'mountains' ).GetName|l] et [GetTerrain( 'desert_mountains' ).GetName|l]"
  piety_from_hills_and_mountains_pilgrimages_tt: "Du [core_tenet|El] [GetFaithDoctrine('tenet_mountain_worship').GetBaseName] : #P [THIS.ScriptValue('medium_piety_gain')]#![piety_i]"
  ### DOCTRINE PARAMETERS
- doctrine_parameter_peasant_and_populist_factions_more_common: "Les [factions|El] paysannes et du peuple sont plus fréquentes et plus puissantes"
+ doctrine_parameter_peasant_and_populist_factions_more_common: "Les [factions|El] paysannes et populiste sont plus fréquentes et plus puissantes"
  doctrine_parameter_children_less_likely_to_be_burdened: "Les [children|El] sont moins susceptibles de gagner le [trait|El] [GetTrait('burdened').GetName( GetNullCharacter )]"
  ### HOLYSITES
  holy_site_tiantai_name: "Mont Tiantai"

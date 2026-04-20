@@ -11,7 +11,7 @@
  tour_travel.3001.a.drunkard: "#EMP ¿Qué he hecho?#!"
  tour_travel.3001.b: "No, no me caso con campesin[marriage_candidate.Custom('ES_OA')]s suci[marriage_candidate.Custom('ES_OA')]s y repugnantes."
  tour_travel.3002.t: "El precio de la conquista."
- tour_travel.3002.desc: "«Mi hermano, mi padre, mi marido, todos murieron en #EMP vuestra guerra#!». Una campesina me grita al otro lado de la plaza del pueblo.\n\n«Cuando [battle_memory.GetSecondPerspectiveDescription], fue una victoria para vos, pero para mí fue el día en que murieron tres generaciones de mi familia».\n\nSu ira se había convertido en lágrimas y las palabras que pronunció a continuación apenas llegaron a mis oídos.\n\n«¡Vos no sois mi [ROOT.Char.GetTitleAsNameNoTooltip|l]!»."
+ tour_travel.3002.desc: "«Mi [widow_peasant.Custom2( 'RelationToMeShort', widow_father )], mi [widow_peasant.Custom2( 'RelationToMeShort', widow_husband )], mi [widow_peasant.Custom2( 'RelationToMeShort', widow_son )], todos murieron en vuestra #EMPyour guerra#!». Una campesina me grita al otro lado de la plaza del pueblo.\n\n«Cuando [battle_memory.GetSecondPerspectiveDescription], fue una victoria para vos, pero para mí fue el día en que murieron tres generaciones de mi familia».\n\nSu ira se había convertido en lágrimas y las palabras que pronunció a continuación apenas llegaron a mis oídos.\n\n«¡Vos no sois mi [ROOT.Char.GetTitleAsNameNoTooltip|l]!»."
  tour_travel.3002.a: "«No puedo traerlos de vuelta, pero quizás algo de oro ayude»."
  tour_travel.3002.b: "«Fue un sacrificio que estaba dispuest[ROOT.Char.Custom('ES_OA')] a hacer»."
  tour_travel.3003.t: "Criaturas repugnantes"

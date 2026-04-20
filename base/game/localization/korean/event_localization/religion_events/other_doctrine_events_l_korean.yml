@@ -62,7 +62,7 @@
  false_conversion.2001.desc_grief: "[deceased_character.GetTitledFirstName](을)를 떠올리지 않는 날이 없다. 세상에 남겨진 [deceased_character.GetHerHis] 흔적을 볼 때마다 매번 슬픔이 새롭게 솟아난다."
  false_conversion.2001.desc_depression: "주변 사람들이 새롭게 희로애락을 겪는 가운데 세월이 한없이 흘러간다. 다만 나는 여기에 남아서 [vulnerable_relation.GetAge]년이 지나도록 슬픔의 바다에 빠져 살고 있다."
  false_conversion.2001.desc_stress: "나는 무의식적으로 경련하는 몸이 되었다. 손톱을 깨물고 이를 갈며 탈진한 상태로 잠에서 깬다. 아직도 이해를 벗어날 정도의 압박감에 짓눌리고 있다."
- false_conversion.2001.desc_outro: "\n\n대체 얼마나 더 버틸 수 있을까 고민하던 중, [vulnerable_relation.Custom2('RelationToMeAddress', owner)]의 목소리가 귓가를 스쳤다. \"[owner.Custom2('RelationToMeAddress', vulnerable_relation)], [owner.GetSecretFaith.GetName]의 치유력에 안기기만 하면 모든 고통이 사라질 겁니다.\""
+ false_conversion.2001.desc_outro: "\n\n대체 얼마나 더 버틸 수 있을까 고민하던 중, [owner.Custom2('RelationToMeAddress', vulnerable_relation)]의 목소리가 귓가를 스쳤다. \"[vulnerable_relation.Custom2('RelationToMeAddress', owner)], [owner.GetSecretFaith.GetName]의 치유력에 안기기만 하면 모든 고통이 사라질 겁니다.\""
  false_conversion.2001.a: "그렇다면 온 마음을 다해서 [owner.GetSecretFaith.GetNameNoTooltip]의 품에 안기겠다!"
  false_conversion.2001.b: "[owner.GetTitledFirstNameNoTooltip], 지금 무슨 말을 하는 거지?"
  false_conversion.2001.b_flavor: "[owner.GetTitledFirstNameNoTooltip](이)가 일단은... 입을 닫음"

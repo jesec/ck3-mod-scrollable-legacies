@@ -62,7 +62,7 @@
  mpo_decisions_events.2137.t: "Los viajes de [paiza_merchant.GetFirstNameNoTooltip]"
  mpo_decisions_events.2137.desc_intro: "[paiza_merchant.GetName] toma aire, fija la mirada en la distancia y teje un relato:\n#weak "
  mpo_decisions_events.2137.desc_interludium: "\n\n#![paiza_merchant.Custom('ES_ElLa')|U] mercader toma aliento y empieza a divagar sobre otro señorío:\n#weak "
- mpo_decisions_events.2137.a: "Ya veo"
+ mpo_decisions_events.2137.a: "Ya veo."
  mpo_decisions_events.2137.b: "¡Contadme más!"
  mpo_decisions_events.2137.c: "Quedaos en mi yurta."
  mpo_decisions_events.2138.t: "Grey por oro"

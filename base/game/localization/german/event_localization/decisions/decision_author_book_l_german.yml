@@ -98,7 +98,7 @@
  prose_theme_philosophy: "Philosophie"
  prose_topic_history: "Geschichte"
  prose_book_description: "Das ist eine längere Abhandlung in Sachen [SCOPE.Custom('GetProseTheme')] von [author.GetFirstName], in dem [author.Custom('DE_PRO_PER_S_3P_N')] [author.Custom('DE_PRO_POS_S_3P')] Verständnis eines konkreten Gegenstands ([SCOPE.Custom('GetProseTopic')]) wie auch [author.Custom('DE_PRO_POS_S_3P')] stilistisches Können zeigt.\n[SCOPE.Custom('GetProseQuality')]"
- prose_name: "Gedankengänge von [author.GetFirstNameNoTooltip]"
+ prose_name_hashcollision: "Gedankengänge von [author.GetFirstNameNoTooltip]"
  #Philosophy
  prose_theme_comentary: "Kommentar zu den ersten vier Büchern"
  prose_theme_logic: "eine allumfassende Verwendung strikter Logik"
@@ -126,7 +126,7 @@
  writing_monograph: "Eine Monografie schreiben"
  writing_monograph_desc: "Dieser Charakter ist derzeit darin versunken, für eine neue Monografie zu recherchieren und sie zu schreiben."
  monograph_description_full: "Dies ist ein dicker Band in Sachen [SCOPE.Custom('GetMonographTheme')], den [Select_CString(author.IsFemale, 'die Beamtengelehrte', 'der Beamtengelehrte')] [author.GetName] schrieb und der aus den umfangreichen Studien zu einem gewissen Bereich ([SCOPE.Custom('GetMonographTopic')]) schöpft.\n\n[SCOPE.Custom('GetMonographQuality')]"
- monograph_name: "Foliant über [SCOPE.Custom('GetMonographTopic')]"
+ monograph_name_hashcollision: "Foliant über [SCOPE.Custom('GetMonographTopic')]"
  monograph_topic_mathematics: "Mathematik"
  monograph_topic_geography: "Geografie"
  monograph_theme_home_duchy: "die Lande von [author.GetCapitalLocation.GetTitle.GetDeJureLiegeOfTier('duchy').GetBaseNameNoTierNoTooltip]"

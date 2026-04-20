@@ -916,6 +916,9 @@
  ## Imperial Prince ##
  prince_empire: "Cesarzewicz"
  princess_empire: "Cesarzówna"
+ ## Carthaginian Princess and Princess ##
+ banim: "Banim"
+ banut: "Banut"
  ####################################################
  #Special titles
  ecumenical_patriarch: "Patriarcha ekumeniczny"
@@ -941,6 +944,21 @@
  duke_feudal_brittany: "$duke$"
  duke_feudal_brittany_female: "$duke_female$"
  duchy_feudal_brittany: "$duchy$"
+ emperor_male_carthaginian: "Sufeta"
+ emperor_female_carthaginian: "Sufeta"
+ king_male_carthaginian: "Adirim"
+ king_female_carthaginian: "Adirima"
+ duke_male_carthaginian: "Rab"
+ duke_female_carthaginian: "Raba"
+ count_male_carthaginian: "Baal"
+ count_female_carthaginian: "Baal’at"
+ baron_male_carthaginian: "Adonis"
+ baron_female_carthaginian: "Adonia"
+ empire_carthaginian: "Sofetut"
+ kingdom_carthaginian: "Adirut"
+ duchy_carthaginian: "Rabbut"
+ county_carthaginian: "Ba’alut"
+ barony_carthaginian: "Adon’ut"
  dauphin_male_french: "Delfin"
  dauphin_female_french: "Delfina"
  dauphinate_french: "Delfinat"
@@ -1211,6 +1229,14 @@
  hegemon_celestial_female_chinese: "$hegemon_celestial_male_chinese$"
  spouse_hegemon_celestial_male_chinese: "Húangfū"
  spouse_hegemon_celestial_female_chinese: "Húanghòu"
+ hegemon_male_chinese: "$hegemon_celestial_male_chinese$"
+ hegemon_female_chinese: "$hegemon_celestial_male_chinese$"
+ spouse_hegemon_male_chinese: "$spouse_hegemon_celestial_male_chinese$"
+ spouse_hegemon_female_chinese: "$spouse_hegemon_celestial_female_chinese$"
+ emperor_male_chinese_independent: "$hegemon_celestial_male_chinese$" #皇帝
+ emperor_female_chinese_independent: "$hegemon_celestial_male_chinese$"
+ spouse_emperor_male_chinese_independent: "$spouse_hegemon_celestial_male_chinese$" #皇夫
+ spouse_emperor_female_chinese_independent: "$spouse_hegemon_celestial_female_chinese$" #皇后
  emperor_celestial_male_chinese_civilian_governor: "Koordynator"
  emperor_celestial_male_chinese_military_governor: "Dowódca naczelny"
  emperor_celestial_male_chinese_protectorate_governor: "Wielki generał-obrońca"
@@ -1262,8 +1288,8 @@
  #Ministers
  minister_chancellor_male: "Wielki kanclerz"
  minister_chancellor_female: "Wielka kanclerz"
- minister_censor_male: "Cesarski cenzor"
- minister_censor_female: "Cesarska cenzorka"
+ minister_censor_male: "Cenzor cesarski"
+ minister_censor_female: "Cenzorka cesarska"
  minister_grand_marshal_male: "Marszałek wielki"
  minister_grand_marshal_female: "Marszałkini wielka"
  minister_any_male: "Minister"

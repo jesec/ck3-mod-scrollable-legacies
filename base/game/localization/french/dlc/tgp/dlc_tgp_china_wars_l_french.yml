@@ -27,7 +27,7 @@
  dynastic_cycle_hegemon_legitimacy_level_cost_desc: "[legitimacy_level|E] [defender.Custom('FR_du_Char_U_Pi')][defender.GetShortUIName]"
  # CONSOLIDATION WAR
  chinese_consolidation_cb: "$CHINESE_CONSOLIDATION_WAR_NAME$"
- CHINESE_CONSOLIDATION_WAR_NAME: "Guerre de consolidation hégémonique"
+ CHINESE_CONSOLIDATION_WAR_NAME: "Guerre de consolidation chinoise"
  CHINESE_CONSOLIDATION_WAR_NAME_BASE: "$CHINESE_CONSOLIDATION_WAR_NAME$"
  CHINESE_CONSOLIDATION_CB_NAME: "Consolider des terres sous le Ciel ([dynastic_cycle|El])"
  chinese_consolidation_cb_victory_desc_attacker: "Vous prenez tous les [titles|El] [defender.Custom('FR_du_Char_U_Pi')][defender.GetShortUIName] qui sont au moins du [title_tier|El] de votre [primary_title|El] et vassalisez tous ses vassaux qui font [de_jure|El] partie de la [GetTitleByKey('h_china').GetDefinitiveName]."

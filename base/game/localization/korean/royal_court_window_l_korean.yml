@@ -13,6 +13,8 @@
  COURT_EVENT_ITEM_TOOLTIP: "#T $EVENT_TITLE$#!\n#S 참여자:#!\n$PARTICIPANT_LIST$\n\n#I 클릭하여 결단 내리기#!"
  ROYAL_COURT_TAB_THRONE: "#T 알현실#!"
  ROYAL_COURT_TAB_COURT_GRANDEUR: "#T 궁정 권위#!"
+ ROYAL_COURT_TAB_COURT_VISUALS: "#T 궁정 모습#!"
+ COURT_VISUALS: "궁정 모습"
  ROYAL_COURT_TAB_COURT_ARTIFACTS: "#T 궁정 유물#!"
  COURT_LANGUAGE_LABEL: "[court_language|E]"
  COURT_LANGUAGE_NAME: "[CulturePillar.GetNameNoTooltip]"

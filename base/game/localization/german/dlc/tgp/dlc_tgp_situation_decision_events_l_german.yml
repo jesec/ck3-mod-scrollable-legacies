@@ -67,6 +67,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "Während das Vermögen der einen Person schrumpft, wächst das der anderen, denn auch Könige und Kaiser sind nicht vor den Launen des Schicksals gefeit.\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName] hat das Mandat des Himmels beansprucht, und von allen wird erwartet, dass sie sich vor diesem neuen Herrscher verbeugen."
  tgp_dynastic_cycle.0062.desc.uninvolved: "Reiche kommen und gehen, und Altes macht Neuem Platz. Der Thron von [GetTitleByKey('h_china').GetNameNoTierNoTooltip] wurde von [GetTitleByKey('h_china').GetHolder.GetTitledFirstName] bestiegen, und alle müssen dieses neue Oberhaupt anerkennen, ob sie sich nun innerhalb oder außerhalb seines Reiches befinden.\n\nSolche Veränderungen im Wind des Schicksals darf man nicht auf die leichte Schulter nehmen."
  tgp_dynastic_cycle.0062.a: "Wir sollten [GetTitleByKey('h_china').GetHolder.Custom('DE_PRO_POS_S_3P')]e Fähigkeiten sorgfältig bewerten."
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
  tgp_dynastic_cycle.0071.t: "Auf Regen folgt Sonnenschein"
  tgp_dynastic_cycle.0071.desc: "Die anhaltenden Gewitterwolken haben sich verzogen, und über [GetTitleByKey('h_china').GetNameNoTierNoTooltip|U] ist wieder ein klarer Himmel zu sehen. Ich habe die Prüfungen bestanden, die mir auferlegt waren, und nun kann niemand mehr daran zweifeln oder leugnen, dass ich wahrlich vom Himmel auserwählt bin.\n\nDie Zeit der Entbehrungen liegt hinter uns. Ich muss einen neuen Weg in die Zukunft finden, damit sich alle hinter einem einzigen Ziel vereinen können."
@@ -80,6 +81,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "In friedlichen Zeiten haben mutige Helden nur wenige Möglichkeiten, sich auszuzeichnen, doch nun können sich andere Aufstiegschancen ergeben."
  tgp_dynastic_cycle.0072.desc.uninvolved: "Es scheint, als hätte die [GetTitleByKey('h_china').GetHolder.GetDynastyName]-Dynastie noch etwas Leben in sich."
  tgp_dynastic_cycle.0072.a: "Eine Frühlingsbrise weht, und das Gras sprießt wieder."
+ tgp_dynastic_cycle.0072.b: "Der einzige Weg besteht darin, dem Willen des Himmels zu folgen."
+ tgp_china_consolidation.remain_independent: "Ein [independent_ruler|El] bleiben"
  ### ENTER CONSOLIDATION ###
  tgp_dynastic_cycle.0081.t: "Das lang vereinte Reich muss sich teilen"
  tgp_dynastic_cycle.0081.desc: "Im Nu bebt der Himmel und die Welt steht Kopf.\n\nTreue Minister fliehen auf der Suche nach neuen Herren, Soldaten verlassen ihre Posten, und nun geben sogar die Bauern mein Land aus Angst vor kommenden Unruhen auf.\n\nAlle Übel werden meiner #EMP ungerechten#! Herrschaft zugeschrieben, und man verkündet weit und breit, ich hätte das Mandat des Himmels verloren!"

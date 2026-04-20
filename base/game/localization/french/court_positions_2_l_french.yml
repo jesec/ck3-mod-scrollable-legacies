@@ -41,7 +41,7 @@
  antiquarian_court_position_task_improve_artifacts_tt: "Chaque année, l’$antiquarian_court_position|l$ a une chance d’améliorer un [artifact|El] équipé\nLa chance d’amélioration #weak (pas la qualité)#! augmente avec la [aptitude|El]\nLes [artifacts|El] ordinaires peuvent être améliorés une fois, les chefs-d’œuvre deux fois, et ainsi de suite"
  antiquarian_improved_artifact_message: "[artifact_target.GetName] : amélioration !"
  artifact_prowess_1_modifier: "Prouesse"
- artifact_knight_effectiveness_1_modifier: "Efficacité des chevaliers"
+ artifact_knight_effectiveness_1_modifier: "Efficacité de chevalier"
  artifact_glory_hound_levy_contribution_mult_1_modifier: "Contribution en levée du vassal avide de gloire"
  artifact_enemy_hard_casualty_modifier_1_modifier: "Modificateur de pertes ennemies"
  artifact_plains_advantage_1_modifier: "Avantage en plaine"

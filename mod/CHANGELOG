@@ -1,5 +1,18 @@
 # Scrollable Legacies Changelog
 
+## v1.0.2 - 2026-04-20
+
+**Deprecated by vanilla**: Paradox added native scrollbox to
+`window_dynasty_house.gui` in CK3 1.19.0, achieving the same scrollable
+legacy-track display this mod was providing. The mod is now effectively
+a no-op — loading it does not change the UI because vanilla already
+scrolls legacy tracks natively.
+
+If you're on CK3 1.19.0 or later, you can safely disable/uninstall
+this mod. It's kept as a metadata-only mod for compatibility with
+older saves referencing it.
+
+
 ## v1.0.1 - 2026-04-19
 
 Compatibility bump for CK3 1.18.4.

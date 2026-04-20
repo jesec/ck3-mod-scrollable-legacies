@@ -1064,10 +1064,12 @@
  ### CE1 - Legends of the Dead ###
  ### Male ###
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_01: "@legendsofthedead_icon! Capa del hombre de Bocksten"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02: "@legendsofthedead_icon! Capa con capucha"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_a: "@legendsofthedead_icon! Capa con capucha bajada"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_b: "@legendsofthedead_icon! Capa con capucha subida"
  ### Female ###
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_01: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_01$"
- PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02$"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02_a: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_a$"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02_b: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_b$"
  ### SP3 - Couture of the Capets ###
  ### Male ###
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp3_western_roy_01: "@couture_icon! Manto real forrado de piel"
@@ -1724,9 +1726,6 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_nob_01: "@allunderheaven_icon! Corona apsará"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_nob_02: "@allunderheaven_icon! Makuta"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_roy_01: "@allunderheaven_icon! Makuta naga"
- ### legwear ###
- #Male
- PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_tgp_southeast_com_01: "@allunderheaven_icon! Kben de plebeyo"
  ### Hairstyles ###
  PORTRAIT_MODIFIER_custom_hair_f_hair_tgp_sea_01: "@allunderheaven_icon! Peinado apsará 1"
  PORTRAIT_MODIFIER_custom_hair_f_hair_tgp_sea_02: "@allunderheaven_icon! Peinado apsará 2"
@@ -1995,10 +1994,10 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_dal_hi_01: "@celestial_court_attire! Corona de alto noble dali"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_lia_hi_01: "@celestial_court_attire! Corona dorada liao"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_dal_lo_01: "@celestial_court_attire! Gorro de noble menor dali"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_sil_roy_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_ccp9_sil_roy_01$"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_roy_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_ccp9_uyg_roy_01$"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_sil_roy_01: "@celestial_court_attire! Corona de Silla"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_roy_01: "@celestial_court_attire! Corona dorada uigur"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_hi_01: "@celestial_court_attire! Gorro de noble uigur"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_jur_nob_01: "@celestial_court_attire! Gorro de noble, dinastía Jin"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_jur_nob_01: "@celestial_court_attire! Gorro de noble (hombre), dinastía Jin"
  ## Clothes ##
  ### Female ###
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_lia_nob_01: "@celestial_court_attire! Nobleza liao"
@@ -2008,9 +2007,9 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_roy_01: "@celestial_court_attire! Realeza tangut"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_min_nob_01: "@celestial_court_attire! Vestido de noble Ming"
  ### Male ###
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_lia_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_lia_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_lia_nob_01: "@celestial_court_attire! Nobleza liao"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_dal_nob_01: "@celestial_court_attire! Nobleza dali"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_tan_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_tan_nob_01: "@celestial_court_attire! Alta nobleza tangut"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_min_nob_01: "@celestial_court_attire! Nobleza Ming"
  ### Hairstyles ###
  #Male
@@ -2018,6 +2017,23 @@
  #############
  ### Pants ###
  #############
+ ############
+ ### SP5  ###
+ ############
+ ### Headgear ###
+ ### Female ###
+ ### Headgear ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_western_roy_01: "@symbols_of_authority! Corona de lirios goda"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_western_roy_02: "@symbols_of_authority! Crispinette de autoridad"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_byzantine_roy_01: "@symbols_of_authority! Corona de Catalina"
+ ### Male ###
+ ### Headgear ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp5_western_roy_01: "@symbols_of_authority! Corona del Bautista"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp5_byzantine_roy_01: "@symbols_of_authority! Corona de Constantino"
+ ### Hairstyles ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_sp5_western_01: "@symbols_of_authority! Rizos del Bautista"
+ ### Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp5_western_01: "@symbols_of_authority! Barba del Bautista"
  PORTRAIT_MODIFIER_custom_legwear: "Medias"
  PORTRAIT_MODIFIER_custom_legwear_female_empty: "Sin medias"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_war_01: "Medias de guerrera occidental"
@@ -2140,6 +2156,7 @@
  sick_stomach: "Malestar"
  severelywounded: "Gravemente herido"
  loss_1: "Pérdida en combate"
+ holding_crutch: "Sosteniendo una muleta"
  page_flipping: "Hojeando un libro"
  writing: "Escribiendo"
  reading: "Leyendo"

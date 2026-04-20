@@ -512,7 +512,7 @@
 	holding = tribal_holding
 }
 10972 = {
-	holding = city_holding
+	holding = none
 }
 10973 = {
 	holding = none
@@ -525,10 +525,10 @@
 	holding = tribal_holding
 }
 11486 = {
-	holding = city_holding
+	holding = none
 }
 10975 = {
-	holding = church_holding
+	holding = none
 }
 11452 = {
 	holding = none

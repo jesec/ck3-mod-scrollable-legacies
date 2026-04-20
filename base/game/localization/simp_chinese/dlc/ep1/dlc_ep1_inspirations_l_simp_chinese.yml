@@ -1,5 +1,6 @@
 ﻿l_simp_chinese:
  sponsor_inspiration_debug: "赞助灵感"
+ complete_inspiration_debug: "完成灵感"
  I_CAN_SPONSOR_OWN_INSPIRATION: "我可以赞助自己的灵感"
  NOT_I_CAN_SPONSOR_OWN_INSPIRATION: "我#bold 不#!能赞助自己的灵感"
  THEY_CAN_SPONSOR_OWN_INSPIRATION: "[CHARACTER.GetUIName]可以赞助[CHARACTER.GetHerHis]自己的灵感"

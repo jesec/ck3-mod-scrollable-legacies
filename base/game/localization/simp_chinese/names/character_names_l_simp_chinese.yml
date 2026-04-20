@@ -12732,6 +12732,7 @@
  Mahmoud: "马哈茂德"
  Mahmud_Shah_Isfansalar: "马哈茂德沙·伊斯法赫萨拉尔"
  Mahmud_Soltan: "马哈茂德·索尔坦"
+ Mahmud_Togrul: "马哈茂德·图格鲁尔"
  Mahmud: "马哈茂德"
  Mahomat: "穆罕默德"
  Mahpal: "摩诃波罗"
@@ -18807,7 +18808,7 @@
  Sulcen: "西尔肯"
  Suleiman: "苏莱曼"
  Sulev: "苏莱夫"
- Suleyman-Arslan: "苏利漫‑阿厮兰"
+ Suleyman-Arslan: "苏利漫·阿厮兰"
  Suleyman: "苏莱曼"
  Sulgen: "西尔根"
  Sulgubri: "西尔吉布丽"
@@ -32305,6 +32306,9 @@
  Jafar_Tegin: "贾法尔特勤"
  Hasan_Bughra: "哈桑·布格拉"
  Husayn_Bughra: "侯赛因·布格拉"
+ Muhammad_Bughra: "穆罕默德·布格拉"
+ Ibrahim_Bughra: "易卜拉欣·布格拉"
+ Harun_Bughra: "哈伦·布格拉"
  Bahmanyar: "巴赫曼亚尔"
  Omar_Khayyam: "欧玛尔·海亚姆"
  Bumi_Maryam: "布米·玛丽亚姆"
@@ -33951,6 +33955,7 @@
  Binh_5E73: "平" #平
  Binh_Duong: "平阳" #平陽 (Bình Dương)
  Bo_Linh: "部领" #部領 (Bộ Lĩnh)
+ Boc: "卜" #卜 (Bốc)
  Cam_Moc: "甘沐" #甘沐 (Cam Mộc)
  Can_Duc: "乾德" #乾德 (Càn Đức)
  Can_Quyet: "乾决" #(Càn Quyết)
@@ -33985,6 +33990,7 @@
  Huy_8F1D: "辉" #輝
  Ke_Nguyen: "继元"
  Khue_VN: "圭"
+ Khong_Lo: "空路" #空路 (Không Lộ)
  Khuong_Lien: "匡琏" #匡璉 (Khuông Liễn)
  Khuong_Viet: "匡越" #匡越 (Khuông Việt)
  Kim_Thanh: "庆城" #慶城
@@ -34198,6 +34204,7 @@
  Aitungga: "爱通阿"
  Alingga: "阿灵阿"
  Asu: "阿速"
+ Asuka: "阿速恪"
  Asungga: "阿松阿"
  Bajin: "八斤"
  Booju: "保住"
@@ -34432,7 +34439,7 @@
  Asatsune: "朝经" #朝経
  Asayasu: "朝康" #朝康
  Asayori: "朝赖" #朝頼
- Asuka: "明日香" #明日香
+ Asuka_JP: "明日香" #明日香
  Asukamaro: "飞鸟麻吕" #飛鳥麻呂
  Atago: "爱宕" #愛宕
  Ate: "安殿" #安殿
@@ -34543,6 +34550,7 @@
  Chikanari: "亲业" #親業
  Chikanari_2: "近业" #近業
  Chikanari_3: "爱发" #愛発
+ Chikanari_4: "亲成" #親成
  Chikane: "千兼" #千兼
  Chikanobu: "亲信" #親信
  Chikanobu_2: "近信" #近信
@@ -34580,6 +34588,7 @@
  Chikayoshi_4: "亲庆" #親慶
  Chikazane: "亲实" #親実
  Chikazumi: "近澄" #近澄
+ Chikubu: "千株" #千株
  Chinatsu: "千夏" #千夏
  Chinu: "茅渟" #茅渟
  Chisato: "千里" #千里
@@ -34628,6 +34637,7 @@
  Emishi_2: "虾夷" #蝦夷
  Emon_JP: "卫门" #衛門
  En_a: "圆阿" #円阿
+ En_en: "延圆" #延円
  En_i: "圆意" #円意
  En_yU_: "圆融" #円融
  Enchi: "圆智" #円智
@@ -34718,6 +34728,7 @@
  Gakei: "雅庆" #雅慶
  GanchU_: "元忠" #元忠
  Gen_an: "元安" #元安
+ Gen_en: "源圆" #源円
  Genchi: "元智" #元智
  Genka: "元化" #元化
  Genkei: "源庆" #源慶
@@ -34787,6 +34798,7 @@
  Harumochi: "春茂" #春茂
  Harunari: "春成" #春成
  Haruo: "春雄" #春雄
+ Harutane: "春种" #春種
  Harutaka: "春鹰" #春鷹
  Harutsu: "春津" #春津
  Harutsugu: "春继" #春継
@@ -34817,6 +34829,7 @@
  Hidetaka: "秀高" #秀高
  Hidetake: "秀武" #秀武
  Hidetane: "秀胤" #秀胤
+ Hidetane_2: "英种" #英種
  HidetO_: "秀任" #秀任
  HidetO__2: "秀远" #秀遠
  Hidetsune: "秀常" #秀常
@@ -34847,6 +34860,7 @@
  Hirokane: "广兼" #広兼
  Hirokata: "广贤" #広賢
  Hirokata_2: "弘方" #弘方
+ Hirokatsu: "广胜" #広勝
  Hirokawa: "广川" #広川
  Hiroki: "弘材" #弘材
  Hiroki_2: "广树" #広樹
@@ -34872,6 +34886,7 @@
  Hiromoto_3: "弘干" #弘幹
  Hiromu: "弘" #弘
  Hiromune: "广宗" #広宗
+ Hiromushi: "广虫" #広虫
  Hirona: "广名" #広名
  Hironaga: "广长" #広長
  Hironaka: "广仲" #広仲
@@ -35057,6 +35072,7 @@
  Jakusen: "寂然" #寂然
  Jien: "慈圆" #慈円
  JikyO_: "慈敬" #慈敬
+ Jin_en: "寻圆" #尋円
  Jingen: "寻源" #尋源
  JinkO_: "寻光" #尋光
  Jinzen: "寻禅" #尋禅
@@ -35068,6 +35084,7 @@
  JO_en: "静圆" #静円
  JO_gyO_: "贞晓" #貞暁
  JO_hen: "静遍" #静遍
+ JO_jin: "成寻" #成尋
  JO_kaku: "静觉" #静覚
  JO_kaku_2: "上觉" #上覚
  JO_kei: "定慧" #定恵
@@ -35404,6 +35421,7 @@
  Kiyoaki: "清鉴" #清鑑
  Kiyoakira: "清章" #清章
  Kiyoakira_2: "清明" #清明
+ Kiyoakira_3: "净明" #浄明
  Kiyochika: "清亲" #清親
  Kiyofusa: "清房" #清房
  Kiyohara: "清原" #清原
@@ -35660,8 +35678,10 @@
  Koshibi: "古慈斐" #古慈斐
  Koshikibu: "小式部" #小式部
  Koshima: "子岛" #子島
+ Kotari: "子足" #子足
  KozaishO_: "小宰相" #小宰相
  KU_kai: "空海" #空海
+ Kubina: "首名" #首名
  Kui_JP: "咋" #咋
  Kuimaro: "咋麻吕" #咋麻呂
  KujO_: "九条" #九条
@@ -35680,12 +35700,14 @@
  Kunikata: "邦隆" #邦隆
  Kunikatsu: "国胜" #圀勝
  Kuniko: "国子" #国子
+ Kunimaro: "国麻吕" #国麻呂
  Kunimasa: "国政" #国政
  Kunimasa_2: "邦正" #邦正
  Kunimasa_3: "邦昌" #邦昌
  Kunimasu: "国益" #国益
  Kunimichi: "国通" #国通
  Kunimichi_2: "国道" #国道
+ Kunimichi_3: "邦通" #邦通
  Kunimina: "国盛" #国盛
  Kunimitsu: "国光" #国光
  Kunimitsu_2: "邦光" #邦光
@@ -35869,6 +35891,7 @@
  Masanori_5: "雅规" #雅規
  Masanori_6: "雅教" #雅教
  Masanori_7: "匡范" #匡範
+ Masanori_8: "真典" #真典
  Masao: "正雄" #正雄
  Masaoki: "当兴" #当興
  Masara: "正良" #正良
@@ -35888,6 +35911,7 @@
  Masatada: "正内" #正内
  Masatada_2: "雅正" #雅正
  Masatada_3: "真忠" #真忠
+ Masatada_4: "雅忠" #雅忠
  Masataka: "正高" #正高
  Masataka_2: "雅隆" #雅隆
  Masataka_3: "雅孝" #雅孝
@@ -36016,6 +36040,7 @@
  Michisuke_2: "通助" #通助
  Michisuke_3: "通辅" #通輔
  Michitada: "通忠" #通忠
+ Michitane: "通种" #通種
  Michitaka: "道隆" #道隆
  MichitO_: "通任" #通任
  Michitoki: "道时" #道時
@@ -36129,6 +36154,7 @@
  Mitsutaka: "光隆" #光隆
  Mitsutaka_2: "光尧" #光堯
  Mitsutaka_3: "满隆" #満隆
+ Mitsutaka_4: "满高" #満高
  MitsutO_: "光远" #光遠
  Mitsutoki: "光时" #光時
  Mitsutomo: "光朝" #光朝
@@ -36245,6 +36271,7 @@
  Moritaka_2: "盛高" #盛高
  Moritaka_3: "盛孝" #盛孝
  Moritaka_4: "守隆" #守隆
+ Moritane: "盛种" #盛種
  Moritoki: "守时" #守時
  Moritoshi: "盛俊" #盛俊
  Moritoshi_2: "守俊" #守俊
@@ -36407,6 +36434,7 @@
  Motoyasu: "元恺" #元愷
  Motoyasu_2: "本康" #本康
  Motoyasu_3: "基保" #基保
+ Motoyasu_4: "基康" #基康
  Motoyo: "基世" #基世
  Motoyori: "基赖" #基頼
  Motoyoshi: "基义" #基義
@@ -36553,6 +36581,7 @@
  Nagakazu: "永算" #永算
  Nagakawa: "长川" #長川
  Nagakawa_2: "永河" #永河
+ Nagaki: "永树" #永樹
  Nagakiyo: "长清" #長清
  Nagakiyo_2: "永清" #永清
  Nagako: "长子" #長子
@@ -36568,12 +36597,14 @@
  Nagamichi: "长道" #長道
  Nagamichi_2: "永道" #永道
  Nagamitsu: "长光" #長光
+ Nagamitsu_2: "永光" #永光
  Nagamochi: "长茂" #長茂
  Nagamori: "长盛" #長盛
  Nagamori_2: "长守" #長守
  Nagamori_3: "永盛" #永盛
  Nagamoto: "长干" #長幹
  Nagamoto_2: "永基" #永基
+ Nagamoto_3: "长基" #長基
  Nagamune: "长宗" #長宗
  Nagamune_2: "长统" #長統
  Nagana: "永名" #永名
@@ -36737,6 +36768,7 @@
  Narinao: "成直" #成直
  Narinobu: "成信" #成信
  Narisada: "成定" #成定
+ Narisada_2: "成贞" #成貞
  Narisue: "成季" #成季
  Narisue_2: "成末" #成末
  Narisuke: "成佐" #成佐
@@ -36880,6 +36912,7 @@
  Nobutaka: "信隆" #信隆
  Nobutaka_2: "信孝" #信孝
  Nobutaka_3: "宣孝" #宣孝
+ Nobutane: "信种" #信種
  Nobutoki: "信时" #信時
  Nobutoki_2: "宣时" #宣時
  Nobutoshi: "信俊" #信俊
@@ -37132,6 +37165,7 @@
  RyU_myO_: "隆明" #隆明
  RyU_shO_: "隆昭" #隆昭
  RyU_yo: "隆誉" #隆誉
+ SaburO_: "三郎" #三郎
  Sachiko: "禧子" #禧子
  Sachiko_2: "祉子" #祉子
  Sada_akira: "贞明" #貞明
@@ -37219,10 +37253,12 @@
  Sadasuke_2: "贞资" #貞資
  Sadasuke_3: "定弼" #定弼
  Sadasuke_4: "贞亮" #貞亮
+ Sadasuke_5: "贞相" #貞相
  Sadatada: "定忠" #定忠
  Sadataka: "定隆" #定隆
  Sadataka_2: "定高" #定高
  Sadataka_3: "贞隆" #貞隆
+ Sadatane: "定胤" #貞種
  SadatO_: "贞任" #貞任
  SadatO__2: "定任" #定任
  Sadatoki: "贞时" #貞時
@@ -37329,6 +37365,7 @@
  Sanetada_2: "实忠" #実忠
  Sanetaka: "实隆" #実隆
  Sanetaka_2: "实高" #実高
+ Sanetane: "实种" #実種
  SanetO_: "实远" #実遠
  SanetO__2: "诚任" #誠任
  SanetO__3: "实任" #実任
@@ -37411,6 +37448,7 @@
  Shigekuni: "重国" #重国
  Shigekuni_2: "重邦" #重邦
  Shigemasa: "重政" #重政
+ Shigemasa_2: "重雅" #重雅
  Shigemichi: "重通" #重通
  Shigemitsu: "重光" #重光
  Shigemitsu_2: "重满" #重満
@@ -37477,6 +37515,8 @@
  Shigeyuki_3: "重之" #重之
  Shigezane: "重实" #重実
  Shigezane_2: "滋实" #滋実
+ Shigure: "时雨" #時雨
+ ShijO_: "四条" #四条
  Shiki: "志贵" #志貴
  Shikibu: "式部" #式部
  Shima_JP: "岛" #嶋
@@ -37540,6 +37580,7 @@
  ShunsO_: "俊聪" #俊聡
  Shuntetsu: "俊哲" #俊哲
  Shunzei: "俊成" #俊成
+ SO_bO_: "相法" #相法
  SO_en: "宗圆" #宗円
  SO_en_2: "宗延" #宗延
  SO_jitsu: "宗实" #宗実
@@ -37682,6 +37723,7 @@
  Sukenori_2: "扶义" #扶義
  Sukenori_3: "辅范" #輔範
  Sukenori_4: "相应" #相応
+ Sukenori_5: "相法" #相法
  Sukeo: "助雄" #助雄
  Sukeomi: "佐臣" #佐臣
  Sukesada: "资定" #資定
@@ -37961,6 +38003,7 @@
  Takasada: "隆定" #隆定
  Takasada_2: "高贞" #高貞
  Takasada_3: "孝定" #孝定
+ Takasada_4: "高节" #高節
  Takashi: "高志" #高志
  Takashige: "高重" #高重
  Takashige_2: "贵重" #貴重
@@ -37974,6 +38017,7 @@
  Takata: "高田" #高田
  Takatada: "隆忠" #隆忠
  Takatada_2: "尊忠" #尊忠
+ Takatane: "高种" #高種
  TakatO_: "高远" #高遠
  TakatO__2: "孝远" #孝遠
  TakatO__3: "尊任" #尊任
@@ -38110,7 +38154,9 @@
  Tanaga: "田长" #田長
  Tanehide: "种荣" #種栄
  Tanehira: "胤平" #胤平
+ Tanehiro: "种弘" #種弘
  Tanekage: "胤景" #胤景
+ Taneki: "种材" #種材
  Taneko: "胤子" #胤子
  Taneko_2: "种子" #種子
  Taneko_3: "殖子" #殖子
@@ -38118,15 +38164,21 @@
  Tanemasu: "种益" #種益
  Tanemichi: "胤通" #胤通
  Tanemitsu: "胤光" #胤光
+ Tanemitsu_2: "种光" #種光
  Tanemori: "胤盛" #胤盛
  Tanemoto: "胤干" #胤幹
  Tanemune: "胤宗" #胤宗
  Tanenaga: "胤长" #胤長
+ Tanenari: "种生" #種生
+ Tanenari_2: "种成" #種成
  Tanenao: "种直" #種直
  Tanenobu: "胤信" #胤信
+ Taneo: "种雄" #種雄
  Tanesada: "胤定" #胤定
  Taneshige: "胤重" #胤重
  Tanesue: "胤季" #胤季
+ Tanesue_2: "种季" #種季
+ Tanesuke: "种资" #種資
  Tanetaka: "胤隆" #胤隆
  Tanetaka_2: "胤高" #胤高
  Tanetomo: "胤知" #胤知
@@ -38179,6 +38231,7 @@
  TO_sada: "远定" #遠定
  TO_shige: "远重" #遠重
  TO_tada: "远忠" #遠忠
+ TO_tane: "远种" #遠種
  TO_tsune: "远经" #遠経
  TO_yasu: "远保" #遠保
  TO_yo: "十世" #十世
@@ -38192,6 +38245,7 @@
  Tokichika: "时亲" #時親
  Tokieda: "时枝" #時枝
  Tokifumi: "时文" #時文
+ Tokifuru: "时雨" #時雨
  Tokifusa: "时房" #時房
  Tokihide: "时秀" #時秀
  Tokihime: "时姬" #時姫
@@ -38216,6 +38270,7 @@
  Tokimitsu: "时光" #時光
  Tokimochi: "时望" #時望
  Tokimochi_2: "时用" #時用
+ Tokimori: "时森" #時盛
  Tokimoto: "时元" #時元
  Tokimoto_2: "时干" #時幹
  Tokimune: "时宗" #時宗
@@ -38225,6 +38280,7 @@
  Tokinaka_2: "齐中" #斉中
  Tokinao: "晨直" #晨直
  Tokinari: "时登" #時登
+ Tokinari_2: "时成" #時成
  Tokinobu: "时信" #時信
  Tokinobu_2: "时叙" #時叙
  Tokinori: "时范" #時範
@@ -38297,6 +38353,7 @@
  Tomonaka: "友仲" #友仲
  Tomonao: "共直" #共直
  Tomonari: "友成" #友成
+ Tomonari_2: "知成" #知成
  Tomonobu: "朝信" #朝信
  Tomonobu_2: "知信" #知信
  Tomonori: "知范" #知範
@@ -38629,6 +38686,7 @@
  Wakako: "若子" #若子
  Wake: "和气" #和気
  Wako: "妧子" #妧子
+ Wakomaro: "别乎麻吕" #別乎麻呂
  Wakugo: "若子" #若子
  Wamutamaro: "和武多麻吕" #和武多麻呂
  Warabi: "蕨" #蕨
@@ -38654,6 +38712,7 @@
  Yashima: "八岛" #八島
  Yasu: "保" #保
  Yasu_uji: "保氏" #保氏
+ Yasu_uji_2: "康氏" #康氏
  Yasuakira: "泰明" #泰明
  Yasuakira_2: "保明" #保明
  Yasuari: "泰有" #泰有
@@ -38764,6 +38823,7 @@
  Yasuyori: "保赖" #保頼
  Yasuyori_2: "庆赖" #慶頼
  Yasuyori_3: "安赖" #安頼
+ Yasuyori_4: "康赖" #康頼
  Yasuyoshi: "保义" #保義
  Yasuyuki: "泰行" #泰行
  Yasuzane: "保实" #保実
@@ -38841,6 +38901,7 @@
  Yoritsura: "赖连" #頼連
  Yoriuji: "赖氏" #頼氏
  Yoriyasu: "赖泰" #頼泰
+ Yoriyasu_2: "赖康" #頼康
  Yoriyoshi: "赖义" #頼義
  Yoriyoshi_2: "赖意" #頼意
  Yoriyuki: "赖行" #頼行
@@ -39266,6 +39327,7 @@
  Okaho: "於加保" #於加保
  Okame: "冈女" #岡女
  Okina: "老人" #老人
+ Okina_2: "老" #老
  Okuie: "奥家" #奥家
  Onga: "隐贺" #隠賀
  Otoharu: "乙春" #乙春
@@ -39875,6 +39937,7 @@
  Baek_gye: "伯计" #伯計 (백계)
  Baek_ho: "白虎" #白虎 (백호)
  Baek_seon: "伯仙" #伯仙 (백선)
+ Baek_yu: "白榆" #白楡 (백유)
  Bag_wi_geo: "驳位居" #駮位居 (박위거)
  Bal_gi: "发岐" #發岐 (발기)
  Bal_gye: "渤计" #渤計 (발계)
@@ -39904,7 +39967,7 @@
  Bo_gyeong: "普卿" #普卿 (보경)
  Bo_hui: "宝姬" #寶姬 (보희)
  Bo_jang: "甫藏" #甫藏 (보장)
- Bo_jang_2: "宝臧"
+ Bo_jang_2: "宝臧" #寶臧 (보장)
  Bo_jang_3: "宝璋" #寶璋 (보장)
  Bo_jeon: "宝甸" #寶甸 (보전)
  Bo_jun: "宝俊" #寶俊 (보준)
@@ -40059,6 +40122,8 @@
  Do_71FE: "焘" #燾 (도)
  Do_hyu: "道休" #道休 (도휴)
  Do_jeol: "都切" #都切 (도절)
+ Do_jip: "道集" #道集 (도집)
+ Do_min: "道敏" #道敏 (도민)
  Do_mong: "都蒙" #都蒙 (도몽)
  Do_ri_haeng: "都利行" #都利行 (도리행)
  Do_seon: "道诜" #道詵 (도선)
@@ -40080,6 +40145,7 @@
  Eo_ing: "於仍" #(어잉)
  Eok_5104: "亿" #億 (억)
  Eok_ryeom: "亿廉" #億廉 (억렴)
+ Eom_chung: "严冲" #嚴冲 (엄충)
  Eon_bu: "彦孚" #彦孚 (언부)
  Eon_chang: "彦昌" #彦昌 (언창)
  Eon_chim: "彦忱" #彦忱 (언침)
@@ -40100,6 +40166,7 @@
  Eon_ui: "言义" #言義 (언의)
  Eon_ui_2: "彦义" #彦義 (언의)
  Eon_wi: "言伟" #言偉 (언위)
+ Eon_wi_2: "彦㧑" #彦撝 (언위)
  Eon_yeong: "彦荣" #彦榮 (언영)
  Eul_bo: "乙宝" #乙寶 (을보)
  Eul_bul: "乙弗" #乙弗 (을불)
@@ -40198,6 +40265,7 @@
  Goeng_rim: "宏临" #宏臨 (굉림)
  Gol_jeong: "骨正" #骨正 (골정)
  Gon_ji: "昆支" #昆支 (곤지)
+ Gong_606D_KO: "恭" #恭 (공)
  Gong_chik: "公则" #公則 (공칙)
  Gong_gyu: "公珪" #公珪 (공규)
  Gong_in: "公仁" #公仁 (공인)
@@ -40260,6 +40328,7 @@
  Gye_5951: "契" #契 (계)
  Gye_5B63: "季" #季 (계)
  Gye_bang: "继芳" #繼芳 (계방)
+ Gye_hun: "继勋" #繼勳 (계훈)
  Gye_jong: "继宗" #繼宗 (계종)
  Gye_myeong: "启明" #啓明 (계명)
  Gye_o: "继乌" #繼烏 (계오) - O localized as Oh despite RR for clarity
@@ -40477,6 +40546,7 @@
  In_beom: "仁范" #仁範 (인범)
  In_bi: "仁庇" #仁庇 (인비)
  In_cheom: "鳞瞻" #鱗瞻 (인첨)
+ In_chung: "麟冲" #麟冲 (인충)
  In_gwang: "仁匡" #仁匡 (인광)
  In_gyeom: "仁谦" #仁謙 (인겸)
  In_gyeong: "仁庆" #仁慶 (인경)
@@ -40487,6 +40557,7 @@
  In_jeo: "仁著" #仁著 (인저)
  In_jeol: "仁节" #仁節 (인절)
  In_jeong: "仁正" #仁正 (인정)
+ In_ji: "仁祉" #仁祉 (인지)
  In_jong: "仁宗" #仁宗 (인종)
  In_mok: "仁穆" #仁穆 (인목)
  In_mun: "仁门" #仁門 (인문)
@@ -40557,6 +40628,7 @@
  Jang_yeo: "璋茹" #璋茹 (장여)
  Jang_yong: "藏用" #藏用 (장용)
  Je_6FDF: "济" #濟 (제)
+ Je_an: "济安" #濟安 (제안)
  Je_bo: "齐宝" #齊寶 (제보)
  Je_deok: "齐德" #齊德 (제덕)
  Je_geon: "帝建" #帝建 (제건)
@@ -40571,6 +40643,7 @@
  Jeok_gyeong: "积庆" #積慶 (적경)
  Jeok_gyun: "迪钧" #迪鈞 (적균)
  Jeok_o: "赤乌" #赤烏 (적오) - O localized as Oh despite RR for clarity
+ Jeok_son: "适孙" #適孫 (적손)
  Jeom_6F38: "渐" #漸 (점)
  Jeon_9853: "颛" #顓 (전)
  Jeon_ji: "腆支" #腆支 (전지)
@@ -40648,6 +40721,7 @@
  Ji_won_2: "之元" #之元 (지원)
  Ji_ye: "之锐" #之銳 (지예)
  Ji_yeong: "至荣" #至榮 (지영)
+ Ji_yeop: "之叶" #之葉 (지엽)
  Ji_yu: "至有" #至有 (지유)
  Ji_yun: "迟胤" #遲胤 (지윤)
  Ji_yun_2: "智胤" #智胤 (지윤)
@@ -40697,6 +40771,7 @@
  Jong_hoe: "宗诲" #宗誨 (종회)
  Jong_jae: "宗梓" #宗梓 (종재)
  Jong_jun: "宗峻" #宗峻 (종준)
+ Jong_seong: "宗成" #宗成 (종성)
  Jong_won: "宗源" #宗源 (종원)
  Jong_yang: "宗諹" #宗諹 (종양)
  Ju_4F37: "伷" #伷 (주)
@@ -40754,6 +40829,7 @@
  Mok_jong: "穆宗" #穆宗 (목종)
  Mong_go: "蒙固" #蒙固 (몽고)
  Mong_ju: "梦周" #夢周 (몽주)
+ Mu_61CB: "懋" #懋 (무)
  Mu_6B66: "武" #武 (무)
  Mu_che: "无滞" #無滯 (무체)
  Mu_deok: "武德" #武德 (무덕)
@@ -40863,7 +40939,9 @@
  Rim_yong: "琳龙" #琳龍 (림용)
  Rin_7498: "璘" #璘 (린)
  Rin_96A3: "邻" #隣 (린)
+ Roe_B8B0: "赖" #賴 (뢰)
  Rok_sa: "禄思" #祿思 (록사)
+ Ryang_4EAE: "亮" #亮 (량)
  Ryeom_5EC9: "廉" #廉 (렴)
  Ryeon: "连" #連 (련)
  Ryun_7DB8: "纶" #綸 (륜)
@@ -40929,6 +41007,7 @@
  Seol_chang: "说昌" #說昌 (설창)
  Seol_ye: "碟礼" #碟禮 (설례)
  Seon_5584: "善" #善 (선)
+ Seon_58A0: "𫮃" #墠 (선)
  Seon_5BA3: "宣" #宣 (선)
  Seon_7487: "璇" #璇 (선)
  Seon_8A75: "诜" #詵 (선)
@@ -40941,6 +41020,7 @@
  Seon_jeong: "宣正" #宣正 (선정)
  Seon_jeong_2: "宣靖" #宣靖 (선정)
  Seon_ji: "先之" #先之 (선지)
+ Seon_ji_2: "善之" #善之 (선지)
  Seon_jong: "宣宗" #宣宗 (선종)
  Seon_ju: "善主" #善主 (선주)
  Seon_mun: "宣文" #宣文 (선문)
@@ -41058,6 +41138,7 @@
  Sug_won: "淑源" #淑源 (숙원)
  Suk_6DD1: "淑" #淑 (숙)
  Suk_74B9: "璹" #璹 (숙)
+ Suk_8085: "肃" #肅 (숙)
  Suk_jong: "肃宗" #肅宗 (숙종)
  Suk_man: "宿满" #宿滿 (숙만)
  Suk_sin: "淑晨" #淑晨 (숙신)
@@ -41152,11 +41233,15 @@
  Won_5143: "元" #元 (원)
  Won_6E90: "源" #源 (원)
  Won_9060: "远" #遠 (원)
+ Won_bo: "元保" #元保 (원보)
  Won_chang: "元昌" #원창
  Won_chung: "元冲" #元沖 (원충)
  Won_deok: "元德" #元德 (원덕)
+ Won_eok: "元亿" #元億 (원억)
+ Won_gan: "元侃" #元偘 (원간)
  Won_gi: "元玑" #元璣 (원기)
  Won_gwang: "元广" #元廣 (원광)
+ Won_gwang_2: "元光" #元光 (원광)
  Won_gyeom: "元兼" #元兼 (원겸)
  Won_gyeom_2: "元谦" #元謙 (원겸)
  Won_gyeong: "元卿" #元卿 (원경)
@@ -41173,7 +41258,9 @@
  Won_jil: "元质" #元質 (원질)
  Won_jong: "原宗" #原宗 (원종)
  Won_jun: "元濬" #元濬 (원준)
+ Won_jun_2: "元俊" #元俊 (원준)
  Won_jung: "元中" #元中 (원중)
+ Won_jwa: "元佐" #元佐 (원좌)
  Won_mang: "元望" #元望 (원망)
  Won_mok: "元穆" #元穆 (원목)
  Won_pyeong: "元平" #元平 (원평)
@@ -41181,11 +41268,13 @@
  Won_seong: "元圣" #元聖 (원성)
  Won_seong_2: "元成" #元成 (원성)
  Won_sim: "元审" #元審 (원심)
+ Won_sin: "元信" #元信 (원신)
  Won_su: "元帅" #元帥 (원수)
  Won_suk: "元淑" #元淑 (원숙)
  Won_sul: "元述" #元述 (원술)
  Won_tae: "元泰" #元泰 (원태)
  Won_ui: "元义" #元義 (원의)
+ Won_wi: "元伟" #元偉 (원위)
  Won_yang: "元让" #元讓 (원양)
  Won_yong: "元容" #元容 (원용)
  Won_yu: "元瑜" #元瑜 (원유)
@@ -41197,6 +41286,7 @@
  Yang_8B93: "让" #讓 (양)
  Yang_gam: "良鉴" #良鑑 (양감)
  Yang_geom: "良剑" #良劍 (양검)
+ Yang_gyeon: "阳坚" #陽堅 (양견)
  Yang_gyun: "良钧" #良鈞 (양균)
  Yang_heon: "禳宪" #禳憲 (양헌)
  Yang_hon: "阳焜" #陽焜 (양혼)
@@ -41244,6 +41334,7 @@
  Yeong_745B: "瑛" #瑛 (영)
  Yeong_82F1: "英" #英 (영)
  Yeong_97FA: "韺" #韺 (영)
+ Yeong_bu: "永孚" #永孚 (영부)
  Yeong_chang: "永昌" #永昌 (영창)
  Yeong_cheom: "英瞻" #英瞻 (영첨)
  Yeong_eon: "令言" #令言 (영언)
@@ -41293,6 +41384,7 @@
  Yu_7DAD: "维" #維 (유)
  Yu_beom: "儒范" #儒範 (유범)
  Yu_bi: "愈毗" #愈毗 (유비)
+ Yu_bu: "有孚" #有孚 (유부)
  Yu_cheong: "惟清" #惟淸 (유청)
  Yu_chung: "惟忠" #惟忠 (유충)
  Yu_geol: "惟杰" #惟傑 (유걸)
@@ -42809,6 +42901,7 @@
  Maladee: "玛拉蒂"
  Malai: "马莱"
  Mangkhut: "莽掘"
+ Man_VN: "曼"
  Manh: "孟"
  Masayu: "玛莎尤"
  Mathawi: "摩陀毗"
@@ -43574,7 +43667,7 @@
  Guangyan_5149_513C: "光俨" #光儼 (Guāngyǎn)
  Huizong_60E0_5B97: "惠宗" #惠宗
  Jipeng_7EE7_6367: "继捧" #继捧 (Jìpěng)
- Jiqian_7E7C_9077: "继迁"
+ Jiqian_7E7C_9077: "继迁" #繼遷
  Kerui_514B_777F: "克睿" #克睿
  Kexian_514B_5BAA: "克宪" #克宪
  Liangcha_5169_5C94: "两岔" #兩岔 (Liǎngchà)
@@ -43812,13 +43905,113 @@
  Qianyi: "谦逸"
  Upali: "优波离"
  Do_Doc: "由独"
- Jojin: "成寻"
- Saburo: "三郎"
- Lo: "路"
- Nga_Yamankan: "鄂耶曼甘"
+ Nga_Yamankan: "鄂耶曼甘" #耶曼干
  Mpu_Bharada: "姆普·婆罗荼"
  Lembong: "莱邦"
- Boc: "卜"
+ #Carthaginian dynasties
+ dynn_Adonibaal: "亚多尼巴力"
+ dynn_Ahirom: "亚希兰"
+ dynn_Baalhannid: "巴力汉诺"
+ dynn_Baalid: "巴力"
+ dynn_Barca: "巴卡"
+ dynn_Bodona: "布杜纳"
+ dynn_Bostara: "博斯塔拉"
+ dynn_Chelbesid: "赫勒贝斯"
+ dynn_Eshbaalid: "伊施巴力"
+ dynn_Eugorid: "埃瓦戈拉斯"
+ dynn_Hannid: "汉诺"
+ dynn_Hiramid: "希兰"
+ dynn_Mattanid: "玛坦"
+ dynn_Metallid: "迈塔洛"
+ dynn_Milkiramid: "米勒基兰"
+ dynn_Philosirid: "菲洛西尔"
+ dynn_Gisgo: "吉斯戈"
+ dynn_Gerbalid: "格尔拔"
+ dynn_Hammid: "哈们"
+ dynn_Eugarid: "欧加里"
+ dynn_Mashhid: "马什"
+ dynn_Ummashid: "乌姆马什"
+ Abbar: "阿卜巴尔"
+ Abdmelqart: "阿卜德麦勒卡特"
+ Adonibaal: "亚多尼巴力"
+ Agbal: "阿杰巴勒"
+ Ahirom: "亚希兰"
+ Azimilik: "阿齐米利克"
+ Baal: "巴力"
+ Baalhanno: "巴力汉诺"
+ Bodashtart: "布达什塔尔特"
+ Bodo: "布杜"
+ Bodmelqart: "博德麦勒卡特"
+ Bomilcar: "波米尔卡"
+ Bostar: "布斯塔尔"
+ Boulomenus: "布卢迈努斯"
+ Carthalo: "加泰罗"
+ Chelbes: "赫勒贝斯"
+ Eshbaal: "伊施巴力"
+ Eugoras: "埃瓦戈拉斯"
+ Germelqart: "格尔麦勒卡特"
+ Hamilcar: "哈米尔卡"
+ Hannibal: "汉尼拔"
+ Hanno: "汉诺"
+ Hasdrubal: "哈斯德鲁拔"
+ Himilco: "希米尔科"
+ Mago: "马戈"
+ Maharbal: "马哈尔拔"
+ Metallo: "迈塔洛"
+ Milkherem: "米勒希琳"
+ Milkiram: "米勒基兰"
+ Paltibaal: "帕勒提巴力"
+ Philosir: "菲洛西尔"
+ Boodes: "博奥德斯"
+ Bomical: "博米卡勒"
+ Gisgo: "吉斯戈"
+ Malchus: "马勒古"
+ Abdhamon: "阿卜扎蒙"
+ Abibaal: "阿比巴力"
+ Abirami: "阿比拉米"
+ Ahumm: "阿胡姆"
+ Eshmounhilles: "埃什蒙皮勒斯"
+ Eshmouniaton: "埃什蒙亚通"
+ Itthobaal: "谒巴力"
+ Ummashtart: "乌姆马什塔特"
+ Melqartshama: "麦勒卡特沙马"
+ Batnoam: "巴特努阿姆"
+ Urumilki: "乌鲁米勒基"
+ Yehomilk: "耶豪米勒克"
+ Yadamilk: "亚达米勒克"
+ Baaliaton: "巴力亚通"
+ Barekbaal: "巴雷克巴力"
+ Gerbaal: "格尔巴力"
+ Gerimilki: "格里米勒基"
+ Khiletzbaal: "希莱兹巴力"
+ Tabnit: "塔卜尼特"
+ Yutpan: "尤特潘"
+ Zimrida: "齐姆里达"
+ Danel: "丹勒"
+ Kanmi: "坎米"
+ Maharbaal: "马哈尔巴力"
+ Milkpilles: "米勒克皮勒斯"
+ Melqartpilles: "麦勒卡特皮勒斯"
+ Milkyaton: "米勒基亚通"
+ Juba: "尤巴"
+ Abdosir: "阿卜多西"
+ Arishat: "阿丽莎特"
+ Astarte: "阿斯塔特"
+ Dido: "狄多"
+ Shayna: "谢娜"
+ Sophonisba: "索福尼斯巴"
+ Adiya: "阿迪亚"
+ Tabua: "塔布阿"
+ Yapa: "亚帕"
+ Ytab: "伊塔卜"
+ Suhaima: "苏海玛"
+ Huldu: "户勒都"
+ Mashah: "玛莎"
+ Asherah: "亚舍拉"
+ Izavel: "伊扎乌埃勒"
+ Iezabel: "耶洗别"
+ Elissa: "埃莉萨"
+ Muttunbaal: "姆屯巴亚"
  #Senoi
  Andak_Jameah: "安达克·贾梅阿"
  Atok_Balu: "阿托克·巴卢"
@@ -43879,3 +44072,4 @@
  Tkooy: "特科伊"
  Wa_Rhii: "瓦·里"
  Yam: "亚姆"
+ Lorcan: "洛尔坎"

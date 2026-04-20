@@ -5,6 +5,8 @@
  CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_TYPE: "#S Происки: $NAME$#!"
  SHOW_MORE_INTERACTIONS_TT: "#T [CharacterInteractionCategory.GetDescription] — показать больше#!"
  PIN_TT: "#T [Select_CString( Character.IsPinned, 'Открепить', 'Закрепить' )]\n#!Отслеживайте этого персонажа, закрепив [Character.GetHerHis] в планировщике в правой части экрана"
+ TITLE_PIN_TT: "#T [Select_CString( Title.IsPinned, 'Открепить', 'Закрепить' )]\n#!Отслеживайте этот титул, закрепив его в планировщике в правой части экрана"
+ PROVINCE_PIN_TT: "#T [Select_CString( Province.IsPinned, 'Открепить', 'Закрепить' )]\n#!Отслеживайте это владение, закрепив его в планировщике в правой части экрана"
  interaction_category_favorites: "Избранное"
  interaction_category_diplomacy: "Дипломатия"
  interaction_category_friendly: "Личные"

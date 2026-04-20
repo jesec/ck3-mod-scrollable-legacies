@@ -39,7 +39,7 @@
  JAPAN_SORYO_CONQUEST_DUCHY_CB_NAME: "$japan_feudal_government$의 [TITLE.GetBaseNameNoTier] [duchy|E] 정복"
  JAPAN_SORYO_CONQUEST_COUNTY_CB_NAME: "[TITLE.GetBaseNameNoTier]의 $japan_feudal_government$ [county|E] 정복"
  JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC: "$japan_feudal_government$ 정복"
- JAPAN_SORYO_CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective]의 [TITLE.GetBaseNameNoTier] 정복"
+ JAPAN_SORYO_CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective]의 [TITLE.GetBaseNameNoTier] 정복 전쟁"
  JAPAN_SORYO_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  JAPAN_SORYO_CONQUEST_LANDLESS_WAR_NAME: "$ORDER$ [ATTACKER.GetHouse.GetName]의 [TITLE.GetBaseNameNoTier] 정복"
  JAPAN_SORYO_CONQUEST_LANDLESS_WAR_NAME_BASE: "[ATTACKER.GetHouse.GetBaseName][DEFENDER.GetPrimaryTitle.GetName]"
@@ -90,7 +90,7 @@
  ##################################################
  japan_imperial_reconquest_cb: "$JAPAN_IMPERIAL_RECONQUEST_CB_NAME$"
  JAPAN_IMPERIAL_RECONQUEST_CB_NAME: "황실의 일본 수복 #weak ([de_jure|E])#!"
- JAPAN_IMPERIAL_RECONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]황실의 일본 수복"
+ JAPAN_IMPERIAL_RECONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]황실의 일본 수복 전쟁"
  JAPAN_IMPERIAL_RECONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  japan_imperial_reconquest_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName](이)가 분쟁의 대상인 [titles|E]를 차지합니다."
  japan_imperial_reconquest_cb_ended_invalid.desc.attacker: "[war.GetName] 종료: [attacker.GetShortUIName](이)가 [ritsuryo|E] 및 [soryo|E] 체제가 아니거나 [ceremonial_liege|E]가 없음"

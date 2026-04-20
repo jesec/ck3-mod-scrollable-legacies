@@ -118,7 +118,7 @@
  may_gain_merit_desc: "可能获得[merit_i][merit|E]"
  cannot_compete_for_lower_rank_titles_tt: "[governors|E]无法争夺[title_tier|E]低于当前[governorship|E]辖区的[titles|E]"
  tgp_is_above_retirement_age_law_not_set: "没有[GetLawGroup('celestial_retirement_law').GetName][law|E]"
- tgp_is_above_retirement_age_5: "[GetLawGroup('celestial_retirement_law').GetName][law|E]设定为[GetLaw('celestial_retirement_law_5').GetName]，不允许提前致仕"
+ tgp_is_above_retirement_age_5: "[GetLawGroup('celestial_retirement_law').GetName][law|E]设定为[GetLaw('celestial_retirement_law_5').GetName]，允许在任何年龄致仕"
  tgp_is_above_retirement_age_0: "[GetLawGroup('celestial_retirement_law').GetName][law|E]设定为[GetLaw('celestial_retirement_law_0').GetName]，允许50岁以上[governors|E]致仕"
  tgp_is_above_retirement_age_1: "[GetLawGroup('celestial_retirement_law').GetName][law|E]设定为[GetLaw('celestial_retirement_law_1').GetName]，允许60岁以上的[governors|E]致仕"
  tgp_is_above_retirement_age_2: "[GetLawGroup('celestial_retirement_law').GetName][law|E]设定为[GetLaw('celestial_retirement_law_2').GetName]，允许70岁以上的[governors|E]致仕"

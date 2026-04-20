@@ -234,3 +234,6 @@
  travel_start_event.1120.pro_hegemon: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip]が我々を導いてくれる！"
  travel_start_event.1120.pro_hegemon.tt: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]に加わる"
  travel_start_event.1120.bye: "どの運動にも加わりたくない。"
+ travel_starts: "旅が始まる"
+ travel_destination_activity: "あなたは[host.GetInvolvedActivity.GetName]のため[location.GetName]へ行く"
+ travel_destination_location: "あなたは[location.GetName]へ行く"

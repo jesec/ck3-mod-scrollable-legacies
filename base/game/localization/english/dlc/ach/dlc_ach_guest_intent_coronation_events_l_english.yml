@@ -9,7 +9,7 @@
  
  guest_intent_coronation_events.0010.t: "Offering Support"
  guest_intent_coronation_events.0010.desc.collective: ""Our [host.Custom('ComplimentAdjective')] [host.GetTitledFirstName] has been finally left alone," my [ROOT.Char.Custom2('RelationToMeShort',SCOPE.sC('guest'))] [guest.GetTitledFirstName] observes, [guest.Custom('quirk_pos_pp')]. "This is the chance for us supporters to show our loyalty."\n\n"Go ahead, [ROOT.Char.GetFirstNameNoTooltip], we cannot waste this opportunity.""
- guest_intent_coronation_events.0010.desc.alone: "Finally, our [host.Custom('ComplimentAdjective')] [host.GetTitledFirstName] has been left alone. I start slowly making my way towards [host.GetHerHim] with a smile on my face.\n\nI cannot waste the chance to show my loyalty."
+ guest_intent_coronation_events.0010.desc.alone: "Finally, our [host.Custom('ComplimentAdjective')] [host.GetTitledFirstName] has been left alone. I start slowly making my way towards [host.GetHerHim] with a smile on my face.\n\nI cannot waste the chance to show my fidelity."
  guest_intent_coronation_events.0010.a: "[host.GetTitledFirstNameNoTooltip] will not forget [host.GetHerHis] supporters."
  guest_intent_coronation_events.0010.b: "Or I could just foster my relationship with the [host.GetTitleAsNameNoTooltip]..."
  guest_intent_coronation_events.0010.c: "An alliance would be the most advantageous move."

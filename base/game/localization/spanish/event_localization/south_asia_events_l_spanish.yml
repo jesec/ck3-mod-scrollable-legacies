@@ -105,7 +105,7 @@
  south_asia.0050.desc: "Mauryas, Kushanas, Guptas, Palas y Pratiharas; durante milenios, la llanura indogangética ha sido a la vez sede y campo de batalla para muchos grandes imperios. Algunos gobernantes fueron extranjeros y otros muchos se alzaron desde el mismísimo subcontinente.\n\nLos [founder.GetHouse.GetNameNoTooltip] no somos tan antiguos, pero nos hemos labrado un señorío propio donde estas dinastías fracasaron. Ahora ha llegado el momento de construir un imperio y un aparato de gobierno para gobernar sobre la inmensidad de pueblos y fes que habitan estas tierras."
  south_asia.0050.a: "¡Se levantará una nueva capital en Delhi!"
  south_asia.0050.b: "Haremos de Lahore el centro del imperio"
- south_asia.0050.c: "El imperio se gobernará desde [ROOT.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ south_asia.0050.c: "El imperio se gobernará desde [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
  south_asia.0051.t: "El sultanato de [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
  south_asia.0051.desc: "Nos han llegado noticias de que los [founder.GetHouse.GetNameNoTooltip] han consolidado su dominio sobre la llanura indogangética y han fundado un nuevo imperio islámico sobre las ruinas dejadas por las dinastías hindúes y budistas de antaño.\n\n[founder.GetFirstNameNoTooltip], que asume la identidad de [founder.GetFullName] y la ambición imperial de gobernar sobre toda la India desde [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], se va haciendo cada vez más temid[founder.Custom('ES_OA')] y admirad[founder.Custom('ES_OA')]."
  south_asia.0051.a: "$middle_europe_decisions.0016.a$"

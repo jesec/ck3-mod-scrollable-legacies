@@ -124,7 +124,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_CELESTIAL_MILITARY_APPOINTMENT: "Ta opcja jest dostępna ze względu na twoją @celestial_military_administration! administrację militarną"
  EVENT_WINDOW_OPTION_AVAILABLE_MOVEMENT: "Ta opcja jest dostępna ze względu na twoją przynależność do ruchu o nazwie [GetPlayer.Custom('GetMyMovement')]"
  EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "Ta opcja jest dostępna, ponieważ [situation_dynastic_cycle_phase|El] to [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName|l]"
- EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "Ta opcja jest dostępna, ponieważ twój [powerful_family_attribute|El] to uczeni filozofowie"
+ EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "Ta opcja jest dostępna ze względu na twój [powerful_family_attribute|El]: uczeni filozofowie"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE_FOCUS: "Ta opcja jest dostępna ze względu na twój priorytet: [GetPlayer.GetFocus.GetName|l]"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE: "Ta opcja jest dostępna ze względu na twój [lifestyle|El]"
  EVENT_OPTION_NO_LONGER_AVAILABLE: "@warning_icon! #X Już niedostępne#!"
@@ -143,3 +143,36 @@
  TRAVEL_EVENT_WINDOW_CURRENT_LOCATION: "Obecnie:"
  TRAVEL_EVENT_WINDOW_NEXT_DESTINATION: "Następny cel: ~[TravelPlanData.GetNextDestination.GetEstimatedArrivalDate.GetTimeToDate]"
  EVENT_CONTENT_SOURCE_TT: "To wydarzenie pochodzi z „[EventWindowData.GetContentSourceDlc.GetName|V]”"
+ #tooltip with Shift shortcut
+ EVENT_TOOLTIP_SHORTCUT: "[EventOption.GetTooltip]$EVENT_SHORTCUT$"
+ EVENT_SHORTCUT: "#bold;low $select_event$#!"
+ #low looks better in event options, normal brightness attracts too much attention
+ #if the option is enabled and not dangerous and we haven't disabled shortcuts
+ #add two linebreaks to separate it from the main tooltip + shift + index
+ select_event: "[AddTextIf(And(And(EventOption.IsValid, Not(EventOption.HasFlag('dangerous'))), Not(IsGameSettingOptionSelected('show_event_shortcuts', 'nowhere'))), Concatenate('\n\n', Localize(Concatenate('event_option_', IntToString(Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1'))))))]"
+ #EVENT_SHORTCUT_NO_BREAK: "#bold;low $select_event_no_break$#!"
+ event_option_1: "$shift_key_plus$1"
+ event_option_2: "$shift_key_plus$2"
+ event_option_3: "$shift_key_plus$3"
+ event_option_4: "$shift_key_plus$4"
+ event_option_5: "$shift_key_plus$5"
+ event_option_6: "$shift_key_plus$6"
+ event_option_7: "$shift_key_plus$7"
+ event_option_8: "$shift_key_plus$8"
+ event_option_9: "$shift_key_plus$9"
+ event_option_10: "$shift_key_plus$0"
+ event_option_11: "$shift_key_plus$-"
+ event_option_12: "$shift_key_plus$="
+ event_option_13: "$shift_key_plus$BACKSPACE"
+ event_option_14: ""
+ #Alt+number to preview or select an option
+ CONFIRM_EVENT_OPTION: "#bold;low $preview_event$#!"
+ preview_event: "[Concatenate(Localize('alt_key_plus'), IntToString(Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1')))]"
+ #tooltip when hovering over the number
+ EVENT_NUMBER_TIP: "#I $select_event_no_break$[AddLocalizationIf(And(EventOption.IsValid, Not(EventOption.HasFlag('dangerous'))), 'select_this_option')]$preview_event$, aby wyświetlić i potwierdzić\nAlt + E, aby wyświetlić wszystkie opcje#!"
+ #shift+ without two linebreaks in front
+ select_event_no_break: "[AddTextIf(And(EventOption.IsValid, Not(EventOption.HasFlag('dangerous'))), Concatenate(Localize('shift_key_plus'), IntToString(Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1'))))]"
+ select_this_option: ", aby wybrać tę opcję\n"
+ EVENT_NUMBER_TIP_SHORT: "#I $select_event_no_break$[AddLocalizationIf(And(EventOption.IsValid, Not(EventOption.HasFlag('dangerous'))), 'select_this_option')]"
+ alt_key_plus: "Alt+"
+ shift_key_plus: "Shift+"

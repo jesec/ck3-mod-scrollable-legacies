@@ -57,7 +57,7 @@
  #Chocolate Hills #NOTE: today are called "Chocolate" Hills, but of course chocolate didn't exist in the Philippines back then. This is a random name I thought out, but it is not based on native names (none of which seem to have survived from then)
  building_type_chocolate_hills_01: "$building_chocolate_hills_01$"
  building_type_chocolate_hills_01_desc: "$building_chocolate_hills_01_desc$"
- building_chocolate_hills_01: "Rdzawe zbocza"
+ building_chocolate_hills_01: "Rdzawe Zbocza"
  building_chocolate_hills_01_desc: "Tę formację geologiczną wyróżnia duża liczba okrągłych, stożkowatych wzgórz, które rozciągają się równomiernie po całym krajobrazie. Pokrywa je warstwa trawy, która w okresie suszy przybiera żywe brązowe i pomarańczowe odcienie, nadając terenowi nietypową jesienną barwę."
  #Fanfang of Guangzhou
  building_type_fanfang_guangzhou_01: "$building_fanfang_guangzhou_01$"
@@ -84,7 +84,7 @@
  building_type_gunung_api_01_desc: "$building_gunung_api_01_desc$"
  building_gunung_api_01: "Gunung Api"
  building_gunung_api_01_desc: "Ta góra, która wyrasta z dzikiej dżungli, jest w oczach miejscowych święta. Pośród wilgoci i mgły majaczą jej zbocza pokryte imponującymi wapiennymi szczytami i głębokimi jaskiniami wyżłobionymi przez wodę na przestrzeni niezliczonych stuleci."
- #Suwalesi Megaliths
+ #Sulawesi Megaliths
  building_type_suwalesi_megaliths_01: "$building_suwalesi_megaliths_01$"
  building_type_suwalesi_megaliths_01_desc: "$building_suwalesi_megaliths_01_desc$"
  building_suwalesi_megaliths_01: "Megality z Sulawesi"

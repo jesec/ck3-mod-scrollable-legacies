@@ -410,7 +410,7 @@
  pet_animal.3030.court_huntsman: "You know about animals, don't you, [court_huntsman.GetFirstName]?"
  pet_animal.3030.random_smart_courtier: "[random_smart_courtier.GetFirstName] is quite knowledgeable, perhaps [random_smart_courtier.GetSheHe] can help."
  pet_animal.3030.self: "I know how to treat this ailment."
- pet_animal.3030.none: "I must let nature take it's toll."
+ pet_animal.3030.none: "I must let nature take its toll."
  pet_animal.3030.very_good: "They successfully restore your eagle to full health"
  pet_animal.3030.good: "They treat your eagle's injury"
  pet_animal.3030.good_self: "You successfully treat your eagle's injury"

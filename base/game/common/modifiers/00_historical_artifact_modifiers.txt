@@ -139,6 +139,13 @@ tizona_no_court_modifier = {
 	light_cavalry_toughness_mult = 0.25
 }
 
+easteregg_henry_longsword_modifier = {
+	prowess_no_portrait = 2
+	monthly_prestige = 0.5
+	monthly_dynasty_prestige_mult = 0.05
+	knight_effectiveness_mult = 0.1
+}
+
 muhammed_sword_modifier = {
 	court_grandeur_baseline_add = 4
 	monthly_piety = 0.2

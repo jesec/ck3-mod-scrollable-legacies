@@ -1420,7 +1420,7 @@ han_vn_1 = {
 }
 
 viet_ngo_14 = {
-	name = "Man"
+	name = "Man_VN"
 	dynasty = viet_ngo
 	culture = "viet"
 	religion = "dhyana"
@@ -1726,7 +1726,7 @@ ly_do_doc_1 = { # Landless Martial adventurer
 }
 
 khong_lo_1 = { # Landless Scholar/Monk adventurer
-	name = "Lo"
+	name = "Khong_Lo"
 	dynasty = hchar_khong
 	religion = dhyana
 	culture = viet

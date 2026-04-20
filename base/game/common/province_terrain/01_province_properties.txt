@@ -144,11 +144,11 @@
 1606 ={
 	winter_severity_bias = 0.45
 }
-# b_hartlepool 
+# b_darlington
 1607 ={
 	winter_severity_bias = 0.50
 }
-# b_darlington 
+# b_hartlepool 
 1608 ={
 	winter_severity_bias = 0.45
 }

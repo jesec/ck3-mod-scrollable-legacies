@@ -59,8 +59,7 @@ diplomacy_majesty_4090_traditional_raiment_modifier = {
 }
 
 diplomacy_majesty_4090_no_raiment_modifier = {
-	icon = prestige_negative
+	icon = prestige_mixed
 	attraction_opinion = 20
 	monthly_prestige = -1
 }
-

@@ -148,3 +148,4 @@
  tgp_moved_shogun_court_modifier_desc: "Cette terre s’impose comme la nouvelle capitale du shogunat, loin de la capitale impériale."
  tgp_festival_prosperity: "Prospérité de la fête"
  tgp_festival_prosperity_desc: "Ce comté a organisé une fête prospère"
+ ceremonial_liege_appointment_support_desc: "Soutien du $game_concept_ceremonial_liege|l$"

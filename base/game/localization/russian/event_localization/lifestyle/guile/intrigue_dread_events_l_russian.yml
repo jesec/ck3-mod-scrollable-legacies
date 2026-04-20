@@ -84,7 +84,7 @@
  intrigue_dread.1801.b: "Мы еще не закончили."
  intrigue_dread.1801.c: "Давайте больше не будем этого делать."
  #Torturing Courtier
- intrigue_dread.1901.t: "[disliked_courtier.Custom2('InsultAdjective', ROOT.Char)|U] [Select_CString(disliked_courtier.IsFemale, 'дура', 'болван' )]"
+ intrigue_dread.1901.t: "[disliked_courtier.Custom2('InsultAdjective', ROOT.Char)|U][Select_CString(disliked_courtier.IsFemale, 'ая', 'ый' )] [Select_CString(disliked_courtier.IsFemale, 'дура', 'болван' )]"
  intrigue_dread.1901.desc: "День за днем мне приходится терпеть то, что [disliked_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] находится рядом со мной.\n\nКаждый раз, когда я разговариваю с [Select_CString(disliked_courtier.IsFemale, 'ней', 'ним' )], [disliked_courtier.GetSheHe] [disliked_courtier.Custom('quirk_neg_present')]. Это #EMP попытка#! оскорбить меня? Я не позволю, чтобы меня [Select_CString(disliked_courtier.IsFemale, 'оскорбляла эта', 'оскорблял этот' )] [disliked_courtier.Custom2('InsultNoun', ROOT.Char)]. Кто-то должен преподать [disliked_courtier.GetHerHim] урок!"
  intrigue_dread.1901.a: "У меня есть яд, который мне давно хотелось опробовать..."
  intrigue_dread.1901.b: "Будет жаль, если [disliked_courtier.GetSheHe] вдруг продемонстрирует свою глупость всему двору."
@@ -209,7 +209,7 @@
  intrigue_defied_loved_one_opinion: "Порицает любимого человека"
  #Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t: "[family_member.GetFirstNameNoTooltip] и слухи"
- intrigue_dread.2101.desc.intro: "«Вы слышали ужасные слухи, в которых фигурирует [Select_CString(family_member.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]? Мне удалось найти их источник». С этими словами [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] похлопывает ладонью по кипе писем.\n\nВ этих письмах содержатся доказательства того, что [family_member.GetFirstName] [Select_CString(family_member.IsFemale, 'стала', 'стал' )] жертвой инсинуаций недоброжелателя по имени [hater.GetName]."
+ intrigue_dread.2101.desc.intro: "«Вы слышали ужасные слухи, в которых фигурирует [Select_CString(family_member.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))], [family_member.GetTitledFirstName]? Мне удалось найти их источник». С этими словами [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] похлопывает ладонью по кипе писем.\n\nВ этих письмах содержатся доказательства того, что [family_member.GetFirstName] [Select_CString(family_member.IsFemale, 'стала', 'стал' )] жертвой инсинуаций недоброжелателя по имени [hater.GetName]."
  intrigue_dread.2101.desc.failed_assassination: "[hater.GetSheHe|U] даже выдвигает обвинения в том, что [family_member.GetFirstName] [Select_CString(family_member.IsFemale, 'пыталась', 'пытался' )] [hater.GetHerHis] убить!"
  intrigue_dread.2101.desc.committed_adultery: "[hater.GetSheHe|U] заявляет, что [family_member.GetFirstName] [Select_CString(family_member.IsFemale, 'была неверной женой', 'был неверным мужем' )], и даже перечисляет слухи о [family_member.GetHerHis] похождениях!"
  intrigue_dread.2101.desc.bullied_me: "[hater.GetSheHe|U] заявляет, что [family_member.GetFirstName] с детства [Select_CString(family_member.IsFemale, 'проявляла', 'проявлял' )] злодейский характер и что [hater.GetNameNoTooltip] не раз [Select_CString(family_member.IsFemale, 'становилась', 'становился' )] жертвой [family_member.GetHerHis] издевательств."

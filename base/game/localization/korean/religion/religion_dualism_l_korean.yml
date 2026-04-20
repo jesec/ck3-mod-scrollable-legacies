@@ -112,11 +112,11 @@
  manichean_religious_head_title: "야막"
  manichean_religious_head_title_name: "야막령"
  #Mandeanism
- mandeaism: "만데안주의"
- mandeaism_adj: "만데안주의"
- mandeaism_adherent: "만데안주의자"
- mandeaism_adherent_plural: "만데안주의자"
- mandeaism_desc: "만데안주의는 그 원류를 아담으로부터 찾으며 세례 요한을 위대한 선지자로 섬깁니다. 세상은 빛과 어둠으로 이루어져 있으며 모든 필멸의 영혼들은 시간이 지나면 영원의 빛으로 돌아갈 자격이 있는지 심판받게 된다고 생각합니다."
+ mandeaism: "만다야교"
+ mandeaism_adj: "만다야교"
+ mandeaism_adherent: "만다야교 신자"
+ mandeaism_adherent_plural: "만다야교 신자"
+ mandeaism_desc: "만다야교는 그 원류를 아담으로부터 찾으며 세례 요한을 위대한 선지자로 섬깁니다. 세상은 빛과 어둠으로 이루어져 있으며 모든 필멸의 영혼들은 시간이 지나면 영원의 빛으로 돌아갈 자격이 있는지 심판받게 된다고 생각합니다."
  mandeaism_high_god_name: "최초의 빛"
  mandeaism_high_god_name_2: "$mandeaism_high_god_name$" #Optional translation alt
  mandeaism_high_god_name_possessive: "최초의 빛의"

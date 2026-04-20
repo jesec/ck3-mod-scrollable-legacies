@@ -849,3 +849,29 @@ vanity_tosunyan = {
 	culture = armenian
 	motto = dynn_tosunyan_motto
 }
+
+dynn_skalitz = {
+	name = "dynn_skalitz"
+	prefix = "dynnp_of"
+	culture = "czech"
+	motto = dynn_skalitz_motto
+}
+
+dynn_kobyla = {
+	name = "dynn_kobyla"
+	culture = "czech"
+	motto = dynn_kobyla_motto
+}
+
+dynn_kobyla_late = {
+	name = "dynn_kobyla"
+	culture = "czech"
+	motto = dynn_kobyla_motto
+}
+
+vanity_ceanneidigh = {
+	name = dynn_Ceanneidigh
+	prefix = "dynnp_ua"
+	culture = irish
+	motto = dynn_ceanneidigh_motto
+}

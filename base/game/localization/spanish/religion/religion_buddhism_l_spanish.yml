@@ -51,8 +51,8 @@
  buddhism_religious_text: "Budavacana"
  buddhism_religious_text_2: "$buddhism_religious_text$" #Optional translation alt
  buddhism_religious_text_3: "$buddhism_religious_text$" #Optional translation alt
- buddhism_religious_head_title: "Lama"
- buddhism_religious_head_title_name: "Encarnación del Lama"
+ buddhism_religious_head_title: "Sthavira"
+ buddhism_religious_head_title_name: "Samgha"
  buddhism_devotee_male: "bhikkhu"
  buddhism_devotee_male_plural: "bhikkhus"
  buddhism_devotee_female: "bhikkhuni"
@@ -196,6 +196,8 @@
  maitreya_adherent: "maitreyanista"
  maitreya_adherent_plural: "maitreyanistas"
  maitreya_desc: "La era del Sakyamuni Buda ha terminado y Maitreya Buda ha descendido al mundo, o eso sostienen quienes ensalzan y adoptan a Maitreya como el salvador profetizado. Solo mediante la destrucción del viejo orden se podrá salvar el mundo."
+ maitreya_religious_head_title: "Jerarca" #教主
+ maitreya_religious_head_title_name: "Órdenes religiosas"
  acharya: "Acharya"
  acharya_adj: "acharya"
  acharya_adherent: "acharyista"

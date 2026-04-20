@@ -97,7 +97,7 @@
  BattlePoIHistoricalNameSufuku: "巣伏の戦い"
  BattlePoIHistoricalDescSufuku: "#emp 勝者：胆沢の蝦夷\n敗者：[GetScriptedCharacterByHistoryID( 'japanese_iruma_1' ).GetFullName]\n日付：西暦789年#!\n#weak これは朝廷による蝦夷征討の中でも重要な戦闘である。\n\n朝廷軍は当初、撤退する蝦夷を追って北上川の両岸に分かれて進軍した。しかし、蝦夷の散兵が朝廷軍の渡河を阻止し、大部分を川と山に挟まれた袋小路に追い詰めた。\n\nその後の朝廷軍の崩壊は大失態を呈し、多くの兵士が死を免れるために裸で川を泳いで逃げたという。軍は解散され、[GetScriptedCharacterByHistoryID( 'japanese_yamato_24' ).GetFullName]は将たちを厳しく叱責した。#!"
  BattlePoIHistoricalNameBaekgang: "白村江の戦い"
- BattlePoIHistoricalDescBaekgang: "#emp 勝者：新羅王国および唐\n敗者：[GetScriptedCharacterByHistoryID( 'japanese_abe_36' ).GetFullName]\n日付：西暦663年#!\n#weak これは、唐と新羅が、百済復興運動の勢力とその日本側の同盟軍と衝突した、決定的な海戦である。\n\n戦闘の主舞台は主に白馬江であった。日本軍は数の上では優勢であったが、唐の海軍は持ちこたえ、最終的に反撃に転じて日本艦隊を包囲し、これを撃破した。\n\nこの戦いは、百済の終焉と、朝鮮半島における日本の影響力の終わりを決定づけた。#!"
+ BattlePoIHistoricalDescBaekgang: "#emp 勝者：新羅王国および唐\n敗者：[GetScriptedCharacterByHistoryID( 'japanese_abe_36' ).GetFullName]\n日付：西暦663年#!\n#weak これは、唐と新羅が、百済復興運動の勢力とその日本側の同盟軍と衝突した、決定的な海戦である。\n\n戦闘の主舞台は主に白馬江であった。日本軍は数の上では優勢であったが、唐の海軍は持ちこたえ、最終的に反撃に転じて日本艦隊を包囲し、これを撃破した。\n\nこの決定的な新羅・唐の勝利により、日本は朝鮮半島の情勢から完全に撤退し、百済復興運動も壊滅した。#!"
  BattlePoIHistoricalNamePalembang: "チョーラ朝のパレンバン攻撃"
  BattlePoIHistoricalDescPalembang: "#emp 勝者：[GetScriptedCharacterByHistoryID( '189038' ).GetFullName]\n敗者：[GetScriptedCharacterByHistoryID( 'javanese_sailendra_25' ).GetFullName]\n日付：西暦1025年#!\n#weak チョーラ朝の軍勢による、スリヴィジャヤ帝国の首都パレンバンへの奇襲攻撃である。\n\nチョーラ軍は海を越えて到着すると、略奪と破壊を行いながら進軍し、瞬く間にスリヴィジャヤの首都を制圧した。\n\nパレンバンの陥落はスリヴィジャヤ帝国の完全な崩壊を招き、この地域に対するチョーラ朝の影響力がその後数十年にわたって持続した。#!"
  BattlePoIHistoricalNameAngkor: "アンコールの包囲戦"

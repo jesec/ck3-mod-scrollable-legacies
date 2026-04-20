@@ -22,6 +22,6 @@
  MASS_PRISONER_ACTION_RANSOM_ACCEPT: "Auslösen"
  MASS_PRISONER_ACTION_RELEASE_ACCEPT: "Entlassen"
  MASS_PRISONER_ACTION_EXECUTE_ACCEPT: "Hinrichten"
- PRISONER_IS_LOCKED_FROM_MASS_ACTION: "Klicken, um in Massenaktion einzuschließen"
- PRISONER_IS_NOT_LOCKED_FROM_MASS_ACTION: "Klicken, um von Massenaktionen auszuschließen"
+ PRISONER_IS_LOCKED_FROM_MASS_ACTION: "Klicken, um in Massenaktionen einzuschließen"
+ PRISONER_IS_NOT_LOCKED_FROM_MASS_ACTION: "Klicken, um aus Massenaktionen auszuschließen"
  MASS_PRISONER_ADDITIONAL_REASONS: "#X … und noch mehr#!"

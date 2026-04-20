@@ -54,10 +54,10 @@
  ep3_fireside_chat_modifier_3: "Fireside Chat: The Cornocupia of Wisdom"
  ep3_fireside_chat_modifier_3_desc: "$ep3_fireside_chat_modifier_1_desc$"
 
- activity_camp_party_special_type_bar_segment_tt_0: "#t Lively#!\n$EFFECT_LIST_BULLET$All attendees lose [stress|E]\n$EFFECT_LIST_BULLET$Reduction in [provisions_i][provisions|E] costs from [GetDecisionWithKey('visit_local_settlement_decision').GetName] for #value 1#! year"
- activity_camp_party_special_type_bar_segment_tt_1: "#t Cheery#!\n$EFFECT_LIST_BULLET$All attendees lose [stress|E]\n$EFFECT_LIST_BULLET$You gain a #positive_value small#! amount of [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Better recruits from [GetDecisionWithKey('visit_local_settlement_decision').GetName] for #value 1 #! year\n$EFFECT_LIST_BULLET$You gain [lifestyle_experience|E]"
- activity_camp_party_special_type_bar_segment_tt_2: "#t Joyous#!\n$EFFECT_LIST_BULLET$All attendees lose [stress|E]\n$EFFECT_LIST_BULLET$You gain a #positive_value medium#! amount of [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Better recruits from [GetDecisionWithKey('visit_local_settlement_decision').GetName] for #value 1 #! year\n$EFFECT_LIST_BULLET$You gain [lifestyle_experience|E]\n$EFFECT_LIST_BULLET$You gain a new [task_contract|E]"
- activity_camp_party_special_type_bar_segment_tt_3: "#t Jubilant#!\n$EFFECT_LIST_BULLET$All attendees lose [stress|E]\n$EFFECT_LIST_BULLET$You gain a #positive_value large#! amount of [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Better recruits from [GetDecisionWithKey('visit_local_settlement_decision').GetName] for #value 1 #! year\n$EFFECT_LIST_BULLET$You gain [lifestyle_experience|E]\n$EFFECT_LIST_BULLET$You gain #value 2#! new [task_contracts|E]\n$EFFECT_LIST_BULLET$$activity_camp_party_reward_upgrade_building$"
+ activity_camp_party_special_type_bar_segment_tt_0: "#t Lively#!\n#ts Score: [ActivityWindow.GetSpecialProgressValue|0V]/#V 25#!#!\n$EFFECT_LIST_BULLET$All attendees lose [stress|E]\n$EFFECT_LIST_BULLET$Reduction in [provisions_i][provisions|E] costs from [GetDecisionWithKey('visit_local_settlement_decision').GetName] for #value 1#! year"
+ activity_camp_party_special_type_bar_segment_tt_1: "#t Cheery#!\n#ts Score: [ActivityWindow.GetSpecialProgressValue|0V]/#V 50#!#!\n$EFFECT_LIST_BULLET$All attendees lose [stress|E]\n$EFFECT_LIST_BULLET$You gain a #positive_value small#! amount of [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Better recruits from [GetDecisionWithKey('visit_local_settlement_decision').GetName] for #value 1 #! year\n$EFFECT_LIST_BULLET$You gain [lifestyle_experience|E]"
+ activity_camp_party_special_type_bar_segment_tt_2: "#t Joyous#!\n#ts Score: [ActivityWindow.GetSpecialProgressValue|0V]/#V 75#!#!\n$EFFECT_LIST_BULLET$All attendees lose [stress|E]\n$EFFECT_LIST_BULLET$You gain a #positive_value medium#! amount of [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Better recruits from [GetDecisionWithKey('visit_local_settlement_decision').GetName] for #value 1 #! year\n$EFFECT_LIST_BULLET$You gain [lifestyle_experience|E]\n$EFFECT_LIST_BULLET$You gain a new [task_contract|E]"
+ activity_camp_party_special_type_bar_segment_tt_3: "#t Jubilant#!\n#ts Score: [ActivityWindow.GetSpecialProgressValue|0V]/#V 100#!#!\n$EFFECT_LIST_BULLET$All attendees lose [stress|E]\n$EFFECT_LIST_BULLET$You gain a #positive_value large#! amount of [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Better recruits from [GetDecisionWithKey('visit_local_settlement_decision').GetName] for #value 1 #! year\n$EFFECT_LIST_BULLET$You gain [lifestyle_experience|E]\n$EFFECT_LIST_BULLET$You gain #value 2#! new [task_contracts|E]\n$EFFECT_LIST_BULLET$$activity_camp_party_reward_upgrade_building$"
  activity_camp_party_reward_upgrade_building: "May upgrade a random @landless_rulers_icon![camp|E] [building|E] for free"
 
  camp_party_tt_positive_massive: "Your [GetActivityType('activity_camp_party').GetName] Carousing level #P increases massively #!"
@@ -274,7 +274,7 @@
  ep3_camp_party.2000.vengeful: "#EMP revenge#! is a dish best served cold"
 
  #Opinion Modifiers
- camp_party_listened_to_me_opinion: "Listened To Me"
+ camp_party_listened_to_me_opinion: "Listened to Me"
  camp_party_reveled_opinion: "Engaged in Revelry"
 
  ep3_camp_party.2100.t: "Fireside Chat"
@@ -327,8 +327,8 @@
  ep3_fireside_chat_learning: "Fireside Chat: Learning"
  ep3_fireside_chat_learning_desc: "This character learned quite a lot about the mysteries of the heavens and the earth from a riveting conversation round the roaring fire"
  ep3_camp_party_sad_lonesome: "Lonesome Camp Revelry"
- ep3_camp_party_sad_lonesome_desc: "This character hosted a [activity_camp_party|E] only for themselves and is haunted by the memory of the troubled silence of solitude"
+ ep3_camp_party_sad_lonesome_desc: "This character hosted a [GetActivityType('activity_camp_party').GetName] only for themselves and is haunted by the memory of the troubled silence of solitude"
  ep3_camp_party_shadows_in_the_dark: "Scary Shadows in the Dark"
- ep3_camp_party_shadows_in_the_dark_desc: "This character sat through their [activity_camp_party|E] alone, and very, very still"
+ ep3_camp_party_shadows_in_the_dark_desc: "This character sat through their [GetActivityType('activity_camp_party').GetName] alone, and very, very still"
  camp_party_fortress_of_solitude: "Fortress of Solitude"
- camp_party_fortress_of_solitude_desc: "This character hosted a [activity_camp_party|E] only for themselves and is warmed by the memory of the peaceful silence of solitude"
+ camp_party_fortress_of_solitude_desc: "This character hosted a [GetActivityType('activity_camp_party').GetName] only for themselves and is warmed by the memory of the peaceful silence of solitude"

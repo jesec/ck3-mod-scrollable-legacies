@@ -1,4 +1,5 @@
-﻿#k_khitan
+﻿# also k_raole
+#k_khitan
 ##d_LIAO_linhuang ###################################
 ###c_LIAO_linhuang
 11709 = {	#Linhuang
@@ -103,116 +104,6 @@
 	holding = none
 }
 
-##d_LIAO_zhongjing ###################################
-###c_LIAO_dading
-11721 = {	#Dading
-	culture = khitan
-	religion = tengri_pagan
-	holding = nomad_holding
-	1066.1.1 = {
-		religion = dhyana
-		holding = castle_holding
-	}
-}
-11720 = {	#Enzhou
-	holding = none
-}
-11719 = {	#Songshanzhou
-	holding = none
-}
-11718 = {	#Gaozhou
-	holding = none
-}
-
-11716 = { # Fengzhou
-	culture = khitan
-	religion = tengri_pagan
-	holding = nomad_holding
-	1066.1.1 = {
-		religion = dhyana
-		holding = castle_holding
-	}
-}
-
-###c_LIAO_chaoyang
-11759 = {	#Chaoyang
-	culture = khitan
-	religion = tengri_pagan
-	holding = nomad_holding
-	1066.1.1 = {
-		religion = dhyana
-		holding = castle_holding
-	}
-}
-11760 = {	#Liping
-	holding = none
-}
-11753 = {	#Jianzhou
-	holding = none
-}
-11754 = {	#Wuanzhou
-	culture = khitan
-	religion = tengri_pagan
-	holding = nomad_holding
-	1066.1.1 = {
-		religion = dhyana
-		holding = castle_holding
-	}
-}
-
-###c_LIAO_jinzhou
-11774 = {	#Jinzhou
-	culture = khitan
-	religion = tengri_pagan
-	holding = nomad_holding
-	1066.1.1 = {
-		religion = dhyana
-		holding = castle_holding
-	}
-}
-11776 = {	#Xizhou
-	holding = none
-}
-11775 = {	#Andefu
-	holding = none
-}
-11773 = {	#Yizhou
-	culture = khitan
-	religion = tengri_pagan
-	holding = nomad_holding
-	1066.1.1 = {
-		religion = dhyana
-		holding = castle_holding
-	}
-}
-11772 = {	#Qianzhou
-	holding = none
-}
-
-11765 = {
-	culture = khitan
-	religion = tengri_pagan
-	holding = nomad_holding
-	1066.1.1 = {
-		religion = dhyana
-		holding = castle_holding
-	}
-}
-
-11762 = {
-	culture = khitan
-	religion = tengri_pagan
-	holding = nomad_holding
-	1066.1.1 = {
-		religion = dhyana
-		holding = castle_holding
-	}
-}
-
-###c_LIAO_xianzhou
-11761 = {	#Chuanzhou
-	holding = none
-}
 
 ##d_LIAO_shangjing ###################################
 ###c_LIAO_wuzhou
@@ -415,4 +306,319 @@
 }
 11797 = {	#Shaozijiang
 	holding = none
+}
+## k_raole
+
+##d_LIAO_zhongjing ###################################
+###c_LIAO_dading
+11721 = {	#Dading
+	culture = khitan
+	religion = tengri_pagan
+	holding = nomad_holding
+	1066.1.1 = {
+		religion = dhyana
+		holding = castle_holding
+	}
+}
+11720 = {	#Enzhou
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+11719 = {	#Songshanzhou
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+12427 = {	# CIRLZJ JIANTING
+	holding = none
+}
+
+###c_lzj_chengdexi # LZJ CHENGDEXI
+12417 = {	# CIRLZJ LIUHETING
+	culture = khitan
+	religion = avatamsaka
+	holding = nomad_holding
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+12429 = {	# CIRLZJ BEIAN
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+12415 = {	# CIRLZJ CHAOLIJIANG
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+12416 = {	# CIRLZJ XUEFANG
+	holding = none
+}
+
+###c_lzj_chengde # LZJ CHENGDE
+12425 = {	# CIRLZJ LUEXIATING
+	culture = han
+	religion = avatamsaka
+	holding = nomad_holding
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+12426 = {	# CIRLZJ CHENGDE
+	holding = none
+}
+12418 = {	# CIRLZJ XINGHUA
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+12420 = {	# CIRLZJ QINGLONGHE
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+###c_lxj_yuyidong # LXJ YUYIDONG
+12428 = {	# CIRLZJ CAODANGZHEN
+	culture = khitan
+	religion = avatamsaka
+	holding = nomad_holding
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+12430 = {	# CIRLZJ YUDAOKOU
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+# c_woye
+11754 = {	#Wuanzhou
+	culture = khitan
+	religion = tengri_pagan
+	holding = nomad_holding
+	1066.1.1 = {
+		religion = dhyana
+		holding = castle_holding
+	}
+}
+11753 = {	#Jianzhou
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+11718 = {	#Gaozhou
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+
+11716 = { # Fengzhou
+	culture = khitan
+	religion = tengri_pagan
+	holding = nomad_holding
+	1066.1.1 = {
+		religion = dhyana
+		holding = castle_holding
+	}
+}
+11715 = {
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_LIAO_chaoyang
+11759 = {	#Chaoyang
+	culture = khitan
+	religion = tengri_pagan
+	holding = nomad_holding
+	1066.1.1 = {
+		religion = dhyana
+		holding = castle_holding
+	}
+}
+11772 = {	#Qianzhou
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+11761 = {	#Chuanzhou
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+11758 = {
+	holding = none
+}
+
+###c_lnj_liaoxi # LNJ LIAOXI
+12422 = {	# CIRLZJ QINHUANGDAO
+	culture = khitan
+	religion = avatamsaka
+	holding = nomad_holding
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+12421 = {	# CIRLZJ LONGTAN
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+9694 = {	# PINGZHOU
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_lnj_liaoxibei # LNJ LIAOXIBEI
+12424 = {	# CIRLZJ YUHEJING
+	culture = khitan
+	religion = avatamsaka
+	holding = nomad_holding
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+12423 = {	# CIRLZJ FUSU
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+11760 = {	#Liping
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+11775 = {	#Andefu
+	holding = none
+}
+
+###c_LIAO_jinzhou
+11773 = {	#Yizhou
+	culture = khitan
+	religion = tengri_pagan
+	holding = nomad_holding
+	1066.1.1 = {
+		religion = dhyana
+		holding = castle_holding
+	}
+}
+11774 = {	#Jinzhou
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+11776 = {	#Xizhou
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+# c_LIAO_liaozhou
+11765 = {
+	culture = khitan
+	religion = tengri_pagan
+	holding = nomad_holding
+	1066.1.1 = {
+		religion = dhyana
+		holding = castle_holding
+	}
+}
+11766 = {
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+11771 = {
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+# c_LIAO_xianzhou
+11762 = {
+	culture = khitan
+	religion = tengri_pagan
+	holding = nomad_holding
+	1066.1.1 = {
+		religion = dhyana
+		holding = castle_holding
+	}
+}
+11763 = {
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+11764 = {
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+
+##d_yanyun_yuyi ###################################
+###c_lxj_huanzhou # LXJ HUANZHOU
+12411 = {	# CIRLXJ HUANZHOU
+	culture = khitan
+	religion = avatamsaka
+	holding = nomad_holding
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+12409 = {	# CIRLXJ DONGTING
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+12410 = {	# CIRLXJ NANPO
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+###c_lxj_yangchengzhou # LXJ YANGCHENGZHOU
+12406 = {	# CIRLXJ YANGCHENG
+	culture = khitan
+	religion = avatamsaka
+	holding = nomad_holding
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+12407 = {	# CIRLXJ YUNYUDI
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+12408 = {	# CIRLXJ LILINGTAIYI
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
 }

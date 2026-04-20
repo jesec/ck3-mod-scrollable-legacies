@@ -34,6 +34,18 @@
  learning_scholarship.3001.c.tt2: "[chaplain.GetFirstName]を揺さぶることに失敗した"
  learning_scholarship.3001.c.toast.tt2: "[chaplain.GetFirstName]は私の主張を否定した"
  #Translate a Great Work, by Petter Vilberg
+ #story cycle loc
+ book_translation_story: "名作の翻訳"
+ book_translation_story_desc: "偉大な作品を翻訳すれば、人々にその恩恵を届けることができる。翻訳という野心と知性が成せる業を見事に達成すれば、それは才知の証となり、失敗すれば愚鈍の烙印を押されることになる。"
+ TRANSLATION_STORY: "あなたは『[Story.GetOwner.Custom('TranslationBookLong')]』を翻訳している"
+ TRANSLATION_QUALITY: "翻訳の品質"
+ POOR_TRANSLATION: "悪い"
+ EXCELLENT_TRANSLATION: "素晴らしい"
+ DURATION_LEFT: "残り時間"
+ PROGRESS_TOWARDS_CYNICISM: "皮肉への進捗"
+ CYNICISM: "皮肉"
+ ZEALOTRY: "狂信"
+ #event loc
  learning_scholarship_special.2001.t: "新たな翻訳"
  learning_scholarship_special.2001.desc: "博学な人物となれるよう、努力を重ねてきたが、いまだ知らないことの多さを思い知らされるばかりだ。それに、書物が破損したり、言語が忘れられたことによって失われた知識も多くあるに違いない…\n\n古典文献を新訳すれば、何か貢献ができるかもしれない。\n\nだがそれにしても、何を訳そうか…？"
  learning_scholarship_special.2001.regula_pastoralis: "『司牧の原理』、良き人生を送る方法について。"

@@ -78,7 +78,7 @@
  HIRED_TROOPS_VIEW_HR_STATUS_AT_WAR_AGAINST_YOU: "#X En guerre avec vous#!"
  HIRED_TROOPS_VIEW_HR_STATUS_AT_WAR: "#X En guerre#!"
  HIRED_TROOPS_VIEW_HR_STATUS_BUSY: "#X Occupés#!"
- HIRED_TROOPS_VIEW_HR_COST: "$COST|0$ @gold_icon!"
+ HIRED_TROOPS_VIEW_HR_COST: "$COST|0$ [SelectLocalization( GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!' )]"
  TITLE_TROOPS_MAPMODE_TOOLTIP_STATUS: "#weak Statut :#! [Title.GetAdministrativeArmyStatus]"
  TITLE_TROOPS_MAPMODE_TOOLTIP_TROOPS_FROM: "Troupes de :"
  TITLE_TROOPS_MAPMODE_TOOLTIP_CURRENT_ARMY_SIZE: "#weak Taille de l’armée :#! [Title.GetTotalTitleMAATroopsDesc]"

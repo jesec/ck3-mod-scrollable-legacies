@@ -112,5 +112,5 @@
  coronation_factions_modifier_tt: "Każdy członek zyskuje modyfikator „[GetModifier('coronation_faction_bolstered_modifier').GetNameWithTooltip]” na #high 5 lat#!"
  coronation_faction_bolstered_modifier: "Przywódca rebeliantów"
  coronation_faction_bolstered_modifier_desc: "​​Niezadowoleni wojownicy gromadzą się pod sztandarem tej postaci po zasianiu przez nią ziarna niezgody podczas koronacji swego seniora."
- coronation_guest_intent_disrupt_happened_tt: "#weak #EMP Wydarzyło się to ze względu na obecność dużej liczby [Concept('coronation_detractors', 'krytykantów')|E] na twojej [Concept('coronation', 'koronacji')|E]#!#!"
+ coronation_guest_intent_disrupt_happened_tt: "#weak #EMP Wydarzyło się to ze względu na obecność dużej liczby [Concept('coronation_detractors', 'przeciwników')|E] na twojej [Concept('coronation', 'koronacji')|E]#!#!"
  coronation_guest_intent_disrupt_happened_sender_tt: "#weak #EMP Wydarzyło się to ze względu na duże wpływy osoby znanej jako [petition_sender.GetTitledFirstName]#!#!"

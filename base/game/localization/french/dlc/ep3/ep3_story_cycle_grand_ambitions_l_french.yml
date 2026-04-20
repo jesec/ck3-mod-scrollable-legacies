@@ -161,7 +161,7 @@
  grand_ambitions_ally_joins_war: "[Select_CString(joiner.IsFemale,'Une alliée','Un allié')] rejoint la guerre : [joiner.GetTitledFirstName]"
  grand_ambitions.0500.opening: "[interlocutor.Custom2('AppropriateGreeting', ROOT.Char)]"
  grand_ambitions.0500.dead: "J’ai le plaisir de vous informer que [story.MakeScope.Var('target_char').Char.Custom('FR_le_Char_Pi')][story.MakeScope.Var('target_char').Char.GetTitledFirstName] a péri. Devons-nous poursuivre nos plans de destitution [ROOT.Char.GetTopLiege.Custom('FR_du_Char_Pi')][ROOT.Char.GetTopLiege.GetTitledFirstName] ?"
- grand_ambitions.0500.wrong_title: "J’ai le plaisir de vous informer que [previous_story_target.Custom('FR_le_Char_Pi')][previous_story_target.GetTitledFirstName] ne détient plus [story.Var('target_title').GetName]. Devons-nous poursuivre nos plans de destitution [ROOT.Char.GetTopLiege.Custom('FR_du_Char_Pi')][ROOT.Char.GetTopLiege.GetTitledFirstName] ?"
+ grand_ambitions.0500.wrong_title: "J’ai le plaisir de vous informer que [previous_story_target.Custom('FR_le_Char_Pi')][previous_story_target.GetTitledFirstName] ne détient plus [story.MakeScope.Var('target_title').Title.GetName]. Devons-nous poursuivre nos plans de destitution [ROOT.Char.GetTopLiege.Custom('FR_du_Char_Pi')][ROOT.Char.GetTopLiege.GetTitledFirstName] ?"
  grand_ambitions.0500.a: "Je ne me reposerai pas tant que je ne serai pas [ROOT.Char.GetTopLiege.Custom('FR_le_Char_L')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] !"
  grand_ambitions.0500.b: "Cessez les préparatifs. Festoyons !"
  grand_ambitions.0500.b.tt: "Vous ne tentez plus de [depose|El] [THIS.Char.GetTopLiege.Custom('FR_le_Char_L')][THIS.Char.GetTopLiege.GetTitleAsName]"

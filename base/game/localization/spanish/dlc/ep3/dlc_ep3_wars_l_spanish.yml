@@ -84,4 +84,5 @@
  ep3_laamp_peasant_war: "Revuelta campesina"
  ep3_laamp_peasant_war.peasant_army: "Los campesinos de todos los condados se alzarán como [levies|lE] y se unirán a tu bando"
  ep3_join_war_payment_tt: "Por un [task_contract|lE] de [GetTaskContractType('laamp_join_war_contract').GetName|l]:"
- ep3_hire_laamp_mercs_payment_tt: "Por trabajo de [mercenary|lE]:"
+ ep3_hire_laamp_mercs_payment_tt: "Porque [TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'completaste', 'completó')] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'tu', 'su')] contrato [mercenary|El]:"
+ ep3_hire_laamp_mercs_payment_later_tt: "[THIS.Char.GetShortUIName|U], [Concept('mercenary',Select_CString(THIS.Char.IsFemale,'mercenaria', 'mercenario'))|E] [Concept('adventurer',Select_CString(THIS.Char.IsFemale,'aventurera', 'aventurero'))|E], [Select_CString(THIS.Char.IsLocalPlayer, 'seguirás', 'seguirá')] en las otras [wars|El] de [Select_CString( THIS.Char.MakeScope.Var('joined_as_mercenary').Char.IsLocalPlayer, 'tu personaje', THIS.Char.MakeScope.Var('joined_as_mercenary').Char.GetShortUIName)]"

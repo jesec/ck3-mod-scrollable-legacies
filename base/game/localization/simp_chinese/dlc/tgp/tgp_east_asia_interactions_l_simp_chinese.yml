@@ -31,7 +31,7 @@
  tributary_mandala_common_desc: "作为交换，他们的[suzerain|E]会在朝贡者遭受外敌入侵时予以保护。"
  tributary_wanua: "村社制朝贡者"
  tributary_wanua_desc: "[wanua|E][tributary|E]定期向[suzerain|E]缴纳[gold|E]、[prestige|E]甚至[barter_goods|E]。[tributary_contract|E]可被继承。"
- wasted_our_efforts: "浪费我的努力"
+ wasted_our_efforts: "浪费我们的努力"
  tgp_mandala_send_missionary_interaction: "派遣传教士"
  tgp_mandala_send_missionary_interaction_desc: "一名专职传教士从你的领地派往[recipient.GetShortUIName]的宫廷，可能会使你的[tributary|E]皈依你的[faith|E]、或通过与你朝贡者的宫廷交涉产生[piety|E]"
  tgp_mandala_send_missionary_interaction_tt: "[actor.GetCulture.GetNameNoTooltip]的[actor.GetFaith.GetName]传教士将出现在[recipient.GetName]的宫廷"

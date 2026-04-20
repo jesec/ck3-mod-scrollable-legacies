@@ -236,12 +236,10 @@
 			limit = {
 				any_held_title = {
 					tier = tier_county
-			   		any_county_province = {
-			   			any_province_epidemic = {
-			   				count >= 1
-			   				outbreak_intensity < apocalyptic
-			   			}
-					}
+			   		any_county_province_epidemic = {
+			   			count >= 1
+			   			outbreak_intensity < apocalyptic
+			   		}
 				}
 				would_follow_social_distancing_value >= -1
 			}
@@ -253,11 +251,9 @@
 		else_if = {
 			limit = {
 				any_realm_county = {
-			 		any_county_province = {
-			 			any_province_epidemic = {
-			 				count >= 1
-			 				outbreak_intensity < apocalyptic
-			 			}
+			 		any_county_province_epidemic = {
+			 			count >= 1
+			 			outbreak_intensity < apocalyptic
 			 		}
 			 	}
 			 	would_follow_social_distancing_value >= -1
@@ -271,12 +267,10 @@
 			limit = {
 				any_held_title = {
 					tier = tier_county
-			 		any_county_province = {
-			 			any_province_epidemic = {
-							count >= 1
-							outbreak_intensity = apocalyptic
-			 			}
-					}
+			 		any_county_province_epidemic = {
+						count >= 1
+						outbreak_intensity = apocalyptic
+			 		}
 				}
 			}
 			add = {
@@ -288,11 +282,9 @@
 			limit = {
 				any_held_title = {
 					tier = tier_county
-			 		any_county_province = {
-			 			any_province_epidemic = {
-							count >= 1
-							outbreak_intensity = apocalyptic
-			 			}
+			 		any_county_province_epidemic = {
+						count >= 1
+						outbreak_intensity = apocalyptic
 			 		}
 				}
 			}

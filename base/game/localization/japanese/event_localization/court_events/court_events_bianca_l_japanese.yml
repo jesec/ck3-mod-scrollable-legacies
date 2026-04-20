@@ -85,6 +85,7 @@
  court.3031.a: "少数派の封臣たちとの関係を改善してくれ。"
  court.3031.b: "男爵のあいだの私の評判を上げてくれ。"
  court.3031.c: "[reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]とよりよい関係を築きたい。"
+ every_culture_county_3031: "[reference_county.GetCulture.GetName][culture|E]のすべての[realm|E][county|E]"
  court.3031.d: "他人がどう思おうが関係ない。"
  #Homesickness
  court.3040.t: "我が郷愁の[homesick_parent.GetMotherFather|U]"

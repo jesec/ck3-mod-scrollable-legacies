@@ -2188,7 +2188,7 @@ japanese_manor_retainer_accomodations_02 = {
 
 	parameters = {
 		house_head_can_ask_for_knight = yes
-		estate_increase_bodyguard_aptitude_1 = yes
+		estate_increase_bodyguard_aptitude_2 = yes
 	}
 	
 	ai_value = {
@@ -2231,7 +2231,7 @@ japanese_manor_retainer_accomodations_03 = {
 
 	parameters = {
 		house_head_can_ask_for_knight = yes
-		estate_increase_bodyguard_aptitude_1 = yes
+		estate_increase_bodyguard_aptitude_3 = yes
 	}
 	
 	ai_value = {
@@ -2263,7 +2263,7 @@ japanese_manor_retainer_accomodations_04 = {
 	
 	parameters = {
 		house_head_can_ask_for_knight = yes
-		estate_increase_bodyguard_aptitude_2 = yes
+		estate_increase_bodyguard_aptitude_4 = yes
 	}
 
 	character_modifier = {
@@ -2304,7 +2304,7 @@ japanese_manor_retainer_accomodations_05 = {
 	
 	parameters = {
 		house_head_can_ask_for_knight = yes
-		estate_increase_bodyguard_aptitude_2 = yes
+		estate_increase_bodyguard_aptitude_5 = yes
 	}
 
 	character_modifier = {
@@ -3691,7 +3691,7 @@ japanese_shrine_01 = {
 	can_construct = {
 		custom_tooltip = {
 			text = humility_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_shrine }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_shrine }
 		}
 	}
 
@@ -3734,7 +3734,7 @@ japanese_shrine_02 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_02 }
 		custom_tooltip = {
 			text = humility_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_shrine }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_shrine }
 		}
 	}
 
@@ -3776,7 +3776,7 @@ japanese_shrine_03 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_03 }
 		custom_tooltip = {
 			text = humility_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_shrine }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_shrine }
 		}
 	}
 
@@ -3818,7 +3818,7 @@ japanese_shrine_04 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_04 }
 		custom_tooltip = {
 			text = humility_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_shrine }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_shrine }
 		}
 	}
 
@@ -3861,7 +3861,7 @@ japanese_shrine_05 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_05 }
 		custom_tooltip = {
 			text = humility_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_shrine }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_shrine }
 		}
 	}
 
@@ -3903,7 +3903,7 @@ japanese_shrine_06 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_06 }
 		custom_tooltip = {
 			text = humility_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_shrine }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_shrine }
 		}
 	}
 
@@ -4574,7 +4574,7 @@ japanese_brewery_01 = {
 	can_construct = {
 		custom_tooltip = {
 			text = prosperity_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_brewery }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_brewery }
 		}
 	}
 
@@ -4615,7 +4615,7 @@ japanese_brewery_02 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_02 }
 		custom_tooltip = {
 			text = prosperity_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_brewery }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_brewery }
 		}
 	}
 
@@ -4655,7 +4655,7 @@ japanese_brewery_03 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_03 }
 		custom_tooltip = {
 			text = prosperity_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_brewery }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_brewery }
 		}
 	}
 
@@ -4695,7 +4695,7 @@ japanese_brewery_04 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_04 }
 		custom_tooltip = {
 			text = prosperity_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_brewery }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_brewery }
 		}
 	}
 
@@ -4736,7 +4736,7 @@ japanese_brewery_05 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_05 }
 		custom_tooltip = {
 			text = prosperity_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_brewery }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_brewery }
 		}
 	}
 
@@ -4776,7 +4776,7 @@ japanese_brewery_06 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_06 }
 		custom_tooltip = {
 			text = prosperity_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_brewery }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_brewery }
 		}
 	}
 
@@ -5351,7 +5351,7 @@ japanese_archive_01 = {
 		}
 		custom_tooltip = {
 			text = service_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_archive }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_archive }
 		}
 	}
 
@@ -5397,7 +5397,7 @@ japanese_archive_02 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_02 }
 		custom_tooltip = {
 			text = service_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_archive }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_archive }
 		}
 	}
 
@@ -5442,7 +5442,7 @@ japanese_archive_03 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_03 }
 		custom_tooltip = {
 			text = service_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_archive }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_archive }
 		}
 	}
 
@@ -5487,7 +5487,7 @@ japanese_archive_04 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_04 }
 		custom_tooltip = {
 			text = service_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_archive }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_archive }
 		}
 	}
 
@@ -5533,7 +5533,7 @@ japanese_archive_05 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_05 }
 		custom_tooltip = {
 			text = service_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_archive }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_archive }
 		}
 	}
 
@@ -5578,7 +5578,7 @@ japanese_archive_06 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_06 }
 		custom_tooltip = {
 			text = service_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_archive }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_archive }
 		}
 	}
 
@@ -5625,7 +5625,7 @@ japanese_schoolhouse_01 = {
 	}
 
 	parameters = {
-		increased_tutor_aptitude_1 = yes
+		estate_increased_tutor_aptitude_1 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
 		estate_governor_efficiency_bonus_for_house_members = yes
@@ -5661,7 +5661,7 @@ japanese_schoolhouse_02 = {
 	}
 
 	parameters = {
-		increased_tutor_aptitude_2 = yes
+		estate_increased_tutor_aptitude_2 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
 		estate_governor_efficiency_bonus_for_house_members = yes
@@ -5697,7 +5697,7 @@ japanese_schoolhouse_03 = {
 	}
 
 	parameters = {
-		increased_tutor_aptitude_3 = yes
+		estate_increased_tutor_aptitude_3 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
 		estate_governor_efficiency_bonus_for_house_members = yes
@@ -5733,7 +5733,7 @@ japanese_schoolhouse_04 = {
 	}
 
 	parameters = {
-		increased_tutor_aptitude_4 = yes
+		estate_increased_tutor_aptitude_4 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
 		estate_governor_efficiency_bonus_for_house_members = yes
@@ -5769,7 +5769,7 @@ japanese_schoolhouse_05 = {
 	}
 
 	parameters = {
-		increased_tutor_aptitude_5 = yes
+		estate_increased_tutor_aptitude_5 = yes
 		estate_reduced_tutor_cost = yes
 		japanese_schoolhouse_education_boost_1 = yes
 		estate_governor_efficiency_bonus_for_house_members = yes
@@ -5805,9 +5805,9 @@ japanese_schoolhouse_06 = {
 	}
 
 	parameters = {
-		japanese_schoolhouse_education_boost_1 = yes
-		increased_tutor_aptitude_6 = yes
+		estate_increased_tutor_aptitude_6 = yes
 		estate_reduced_tutor_cost = yes
+		japanese_schoolhouse_education_boost_1 = yes
 		estate_governor_efficiency_bonus_for_house_members = yes
 	}
 	
@@ -6203,7 +6203,7 @@ japanese_armory_01 = {
 	can_construct = {
 		custom_tooltip = {
 			text = strength_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_armory }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_armory }
 		}
 	}
 
@@ -6245,7 +6245,7 @@ japanese_armory_02 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_02 }
 		custom_tooltip = {
 			text = strength_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_armory }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_armory }
 		}
 	}
 
@@ -6286,7 +6286,7 @@ japanese_armory_03 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_03 }
 		custom_tooltip = {
 			text = strength_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_armory }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_armory }
 		}
 	}
 
@@ -6327,7 +6327,7 @@ japanese_armory_04 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_04 }
 		custom_tooltip = {
 			text = strength_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_armory }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_armory }
 		}
 	}
 
@@ -6369,7 +6369,7 @@ japanese_armory_05 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_05 }
 		custom_tooltip = {
 			text = strength_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_armory }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_armory }
 		}
 	}
 
@@ -6410,7 +6410,7 @@ japanese_armory_06 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_06 }
 		custom_tooltip = {
 			text = strength_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_armory }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_armory }
 		}
 	}
 
@@ -7206,7 +7206,7 @@ japanese_watch_house_01 = {
 	can_construct = {
 		custom_tooltip = {
 			text = determination_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_watch_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_watch_house }
 		}
 	}
 
@@ -7255,7 +7255,7 @@ japanese_watch_house_02 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_02 }
 		custom_tooltip = {
 			text = determination_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_watch_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_watch_house }
 		}
 	}
 
@@ -7303,7 +7303,7 @@ japanese_watch_house_03 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_03 }
 		custom_tooltip = {
 			text = determination_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_watch_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_watch_house }
 		}
 	}
 
@@ -7351,7 +7351,7 @@ japanese_watch_house_04 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_04 }
 		custom_tooltip = {
 			text = determination_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_watch_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_watch_house }
 		}
 	}
 
@@ -7400,7 +7400,7 @@ japanese_watch_house_05 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_05 }
 		custom_tooltip = {
 			text = determination_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_watch_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_watch_house }
 		}
 	}
 
@@ -7448,7 +7448,7 @@ japanese_watch_house_06 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_06 }
 		custom_tooltip = {
 			text = determination_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_watch_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_watch_house }
 		}
 	}
 
@@ -11732,7 +11732,7 @@ japanese_tea_house_01 = {
 	can_construct = {
 		custom_tooltip = {
 			text = ceremony_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_tea_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_tea_house }
 		}
 	}
 
@@ -11772,7 +11772,7 @@ japanese_tea_house_02 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_02 }
 		custom_tooltip = {
 			text = ceremony_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_tea_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_tea_house }
 		}
 	}
 
@@ -11811,7 +11811,7 @@ japanese_tea_house_03 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_03 }
 		custom_tooltip = {
 			text = ceremony_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_tea_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_tea_house }
 		}
 	}
 
@@ -11850,7 +11850,7 @@ japanese_tea_house_04 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_04 }
 		custom_tooltip = {
 			text = ceremony_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_tea_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_tea_house }
 		}
 	}
 
@@ -11890,7 +11890,7 @@ japanese_tea_house_05 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_05 }
 		custom_tooltip = {
 			text = ceremony_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_tea_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_tea_house }
 		}
 	}
 
@@ -11929,7 +11929,7 @@ japanese_tea_house_06 = {
 		domicile ?= { has_domicile_building_or_higher = japanese_manor_main_06 }
 		custom_tooltip = {
 			text = ceremony_house_power_tt
-			house = { has_house_power_parameter = unlocks_japanese_manor_tea_house }
+			house = { has_house_aspiration_parameter = unlocks_japanese_manor_tea_house }
 		}
 	}
 

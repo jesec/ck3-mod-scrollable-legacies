@@ -4,7 +4,7 @@
 }
 
 drinking_binge = {
-	icon = stress_positive
+	icon = stress_mixed
 	stewardship = -2
 	stress_loss_mult = 0.1
 }
@@ -21,76 +21,76 @@ focused_on_realm = {
 }
 
 famed_parent_lvl_1 = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	monthly_prestige_gain_mult = 0.1
 	stress_gain_mult = 0.1
 }
 
 famed_parent_lvl_2 = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	monthly_prestige_gain_mult = 0.25
 	stress_gain_mult = 0.15
 }
 
 famed_parent_lvl_3 = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	monthly_prestige_gain_mult = 0.5
 	stress_gain_mult = 0.25
 }
 
 famed_parent_conclusion = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	monthly_prestige_gain_mult = 1
 	stress_gain_mult = 0.5
 }
 
 famed_parent_opt_out_base = {
-	icon = stress_positive
+	icon = stress_mixed
 	monthly_prestige_gain_mult = -0.25
 	stress_gain_mult = -0.1
 	stress_loss_mult = 0.1
 }
 
 famed_parent_opt_out_advanced = {
-	icon = stress_positive
+	icon = stress_mixed
 	monthly_prestige_gain_mult = -0.5
 	stress_gain_mult = -0.2
 	stress_loss_mult = 0.2
 }
 
 pious_parent_lvl_1 = {
-	icon = piety_positive
+	icon = piety_mixed
 	monthly_piety_gain_mult = 0.1
 	stress_gain_mult = 0.1
 }
 
 pious_parent_lvl_2 = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	monthly_piety_gain_mult = 0.25
 	stress_gain_mult = 0.15
 }
 
 pious_parent_lvl_3 = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	monthly_piety_gain_mult = 0.5
 	stress_gain_mult = 0.25
 }
 
 pious_parent_conclusion = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	monthly_piety_gain_mult = 1
 	stress_gain_mult = 0.5
 }
 
 pious_parent_opt_out_base = {
-	icon = stress_positive
+	icon = stress_mixed
 	monthly_piety_gain_mult = -0.25
 	stress_gain_mult = -0.1
 	stress_loss_mult = 0.1
 }
 
 pious_parent_opt_out_advanced = {
-	icon = stress_positive
+	icon = stress_mixed
 	monthly_piety_gain_mult = -0.5
 	stress_gain_mult = -0.2
 	stress_loss_mult = 0.2

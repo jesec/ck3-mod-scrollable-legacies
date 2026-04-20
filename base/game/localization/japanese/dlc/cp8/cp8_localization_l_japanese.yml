@@ -62,8 +62,8 @@
  #Fanfang of Guangzhou
  building_type_fanfang_guangzhou_01: "$building_fanfang_guangzhou_01$"
  building_type_fanfang_guangzhou_01_desc: "$building_fanfang_guangzhou_01_desc$"
- building_fanfang_guangzhou_01: "広州の番坊"
- building_fanfang_guangzhou_01_desc: "#italic 番坊#!は外国商人たち、主に海上交易路を経てこの地にやってきたイスラム教徒のアラブ人やペルシア人からなる、重要なコミュニティである。彼らには都市の西側に独自の区画が与えられ、独自の役人と慣習を有している。中心部には高い尖塔と灯台を冠した赤い壁のモスクがそびえ、船と魂を安全な港へ導いている。"
+ building_fanfang_guangzhou_01: "広州の蕃坊"
+ building_fanfang_guangzhou_01_desc: "#italic 蕃坊#!は外国商人たち、主に海上交易路を経てこの地にやってきたイスラム教徒のアラブ人やペルシア人からなる、重要なコミュニティである。彼らには都市の西側に独自の区画が与えられ、独自の役人と慣習を有している。中心部には高い尖塔と灯台を冠した赤い壁のモスクがそびえ、船と魂を安全な港へ導いている。"
  #Wilwatikta Palace
  building_type_wilwatikta_palace_01: "$building_wilwatikta_palace_01$"
  building_type_wilwatikta_palace_01_desc: "$building_wilwatikta_palace_01_desc$"
@@ -84,7 +84,7 @@
  building_type_gunung_api_01_desc: "$building_gunung_api_01_desc$"
  building_gunung_api_01: "グノンアピ"
  building_gunung_api_01_desc: "手つかずの密林からそびえ立つこの山は、地元の人々にとって聖なる存在である。湿気と霧が立ち込めるその山腹は、鋭く突き出した石灰岩のピナクルや、長い年月の間に水に削られた深い洞窟が広がっている。"
- #Suwalesi Megaliths
+ #Sulawesi Megaliths
  building_type_suwalesi_megaliths_01: "$building_suwalesi_megaliths_01$"
  building_type_suwalesi_megaliths_01_desc: "$building_suwalesi_megaliths_01_desc$"
  building_suwalesi_megaliths_01: "スラウェシのメガリス"

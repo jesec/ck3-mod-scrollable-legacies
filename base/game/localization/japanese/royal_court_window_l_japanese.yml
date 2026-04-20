@@ -13,6 +13,8 @@
  COURT_EVENT_ITEM_TOOLTIP: "#T $EVENT_TITLE$#!\n#S 参加者：#!\n$PARTICIPANT_LIST$\n\n#I クリックして決断を下す#!"
  ROYAL_COURT_TAB_THRONE: "#T 玉座の間#!"
  ROYAL_COURT_TAB_COURT_GRANDEUR: "#T 王宮の威光#!"
+ ROYAL_COURT_TAB_COURT_VISUALS: "#T 宮廷の外観#!"
+ COURT_VISUALS: "宮廷の外観"
  ROYAL_COURT_TAB_COURT_ARTIFACTS: "#T 展示用宝物#!"
  COURT_LANGUAGE_LABEL: "[court_language|E]"
  COURT_LANGUAGE_NAME: "[CulturePillar.GetNameNoTooltip]"

@@ -916,6 +916,9 @@
  ## Imperial Prince ##
  prince_empire: "皇子"
  princess_empire: "皇女"
+ ## Carthaginian Princess and Princess ##
+ banim: "バニム"
+ banut: "バヌト"
  ####################################################
  #Special titles
  ecumenical_patriarch: "全地総主教"
@@ -941,6 +944,21 @@
  duke_feudal_brittany: "$duke$"
  duke_feudal_brittany_female: "$duke_female$"
  duchy_feudal_brittany: "$duchy$"
+ emperor_male_carthaginian: "ショフェト"
+ emperor_female_carthaginian: "ショフェト"
+ king_male_carthaginian: "アディリム"
+ king_female_carthaginian: "アディリマ"
+ duke_male_carthaginian: "ラブ"
+ duke_female_carthaginian: "ラバ"
+ count_male_carthaginian: "バアル"
+ count_female_carthaginian: "バアルアト"
+ baron_male_carthaginian: "アドニス"
+ baron_female_carthaginian: "アドニア"
+ empire_carthaginian: "ショフェトート"
+ kingdom_carthaginian: "アディルート"
+ duchy_carthaginian: "ラッブート"
+ county_carthaginian: "バアルート"
+ barony_carthaginian: "アドヌート"
  dauphin_male_french: "ドーファン"
  dauphin_female_french: "ドーフィネ"
  dauphinate_french: "ドーファン領"
@@ -1211,6 +1229,14 @@
  hegemon_celestial_female_chinese: "$hegemon_celestial_male_chinese$"
  spouse_hegemon_celestial_male_chinese: "皇夫"
  spouse_hegemon_celestial_female_chinese: "皇后"
+ hegemon_male_chinese: "$hegemon_celestial_male_chinese$"
+ hegemon_female_chinese: "$hegemon_celestial_male_chinese$"
+ spouse_hegemon_male_chinese: "$spouse_hegemon_celestial_male_chinese$"
+ spouse_hegemon_female_chinese: "$spouse_hegemon_celestial_female_chinese$"
+ emperor_male_chinese_independent: "$hegemon_celestial_male_chinese$" #皇帝
+ emperor_female_chinese_independent: "$hegemon_celestial_male_chinese$"
+ spouse_emperor_male_chinese_independent: "$spouse_hegemon_celestial_male_chinese$" #皇夫
+ spouse_emperor_female_chinese_independent: "$spouse_hegemon_celestial_female_chinese$" #皇后
  emperor_celestial_male_chinese_civilian_governor: "巡撫"
  emperor_celestial_male_chinese_military_governor: "総督"
  emperor_celestial_male_chinese_protectorate_governor: "大護軍"

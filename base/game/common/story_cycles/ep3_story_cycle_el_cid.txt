@@ -6,6 +6,35 @@
 ##################################################
 
 story_el_cid = {
+	visible = yes
+
+	icon = {
+		reference = "gfx/interface/icons/artifact/artefact_icons_unique_artifact_excalibur.dds"
+	}
+
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp2_courtyard.dds"
+	}
+
+	visualization = {
+		character = {
+			variable_name = "cid_liege"
+			label = "CID_LIEGE"
+		}
+		custom_string_key = "EL_CID_CUSTOM_STRING_KEY"
+		traits = {
+			campeador
+		}
+		tug_of_war_counter = {
+			label = "cid_loyalty_counter_label"
+			variable_name = "cid_loyalty_counter"
+			tooltip = EL_LOYALTY_COUNTER_TOOLTIP
+			min_label = CID_LOYALTY_MIN_LABEL
+			max_label = CID_LOYALTY_MAX_LABEL
+			min = -5
+			max = 5
+		}
+	}
 	
 	on_setup = {
 		story_owner = {
@@ -17,10 +46,10 @@ story_el_cid = {
 		debug_log = "El Cid's story ended on:"
 		debug_log_date = yes
 		#We clean up all variables
+		remove_variable = cid_liege
+		remove_variable = cid_enemy
+		remove_variable = cid_loyalty_counter
 		story_owner = {
-			remove_variable = cid_enemy
-			remove_variable = cid_liege
-			remove_variable = cid_loyalty_counter
 			remove_variable = ongoing_cid_story_cycle
 			remove_variable = cid_title_to_give
 			#And you can never have this again
@@ -39,14 +68,24 @@ story_el_cid = {
 		first_valid = {
 			triggered_effect = { #If your liege dies
 				trigger = {
-					story_owner.var:cid_liege = {
+					story_owner = {
 						OR = {
-							NOT = { exists = this }
-							is_alive = no
+							any_owned_story = {
+								has_variable = cid_liege
+								var:cid_liege = {
+									is_alive = no
+								}
+							}
+							NOT = { 
+								any_owned_story = {
+									has_variable = cid_liege
+								}
+							}
 						}
 					}
 				}
 				effect = {
+					save_scope_as = story
 					story_owner = {
 						trigger_event = cid.5000
 					}
@@ -67,9 +106,10 @@ story_el_cid = {
 					}
 				}
 				effect = {
+					save_scope_as = story
+					var:cid_liege = { save_scope_as = liege }
+					var:cid_enemy = { save_scope_as = enemy }
 					story_owner = {
-						var:cid_liege = { save_scope_as = liege }
-						var:cid_enemy = { save_scope_as = enemy }
 						trigger_event = { on_action = el_cid_landless_on_action }
 					}
 				}
@@ -79,9 +119,10 @@ story_el_cid = {
 					always = yes
 				}
 				effect = {
+					save_scope_as = story
+					var:cid_liege = { save_scope_as = liege }
+					var:cid_enemy = { save_scope_as = enemy }
 					story_owner = {
-						var:cid_liege = { save_scope_as = liege }
-						var:cid_enemy = { save_scope_as = enemy }
 						trigger_event = { on_action = el_cid_landless_or_landed_on_action }
 					}
 				}
@@ -96,8 +137,8 @@ story_el_cid = {
 		first_valid = { #Your liege takes you back
 			triggered_effect = {
 				trigger = {
+					var:cid_loyalty_counter >= 5
 					story_owner = {
-						var:cid_loyalty_counter >= 5
 						has_government = landless_adventurer_government
 					}
 				}
@@ -109,12 +150,13 @@ story_el_cid = {
 			}
 			triggered_effect = { #Your liege hates you
 				trigger = {
+					var:cid_loyalty_counter <= -5
 					story_owner = {
-						var:cid_loyalty_counter <= -5
 						has_government = landless_adventurer_government
 					}
 				}
 				effect = {
+					save_scope_as = story
 					story_owner = {
 						trigger_event = cid.4010
 					}
@@ -122,9 +164,9 @@ story_el_cid = {
 			}
 			triggered_effect = { #Neutral ending
 				trigger = {
+					var:cid_loyalty_counter > -5
+					var:cid_loyalty_counter < 5
 					story_owner = {
-						var:cid_loyalty_counter > -5
-						var:cid_loyalty_counter < 5
 						has_variable = had_cid_1000
 						has_variable = had_cid_1030
 						has_variable = had_cid_1040
@@ -160,6 +202,7 @@ story_el_cid = {
 					}
 				}
 				effect = {
+					save_scope_as = story
 					story_owner = {
 						trigger_event = cid.4000
 					}

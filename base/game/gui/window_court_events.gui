@@ -191,12 +191,19 @@ types RoyalCourtTypes
 						addcolumn = 510
 						addrow = 42
 						datamodel = "[EventWindowData.GetOptions]"
+						blockoverride "shortcut_tip" {
+							tooltip = "EVENT_NUMBER_TIP_SHORT"
+						}
 
 						item = {
 							button_eventoption = {
 								blockoverride "onmousehierarchy_callbacks" {
 									onmousehierarchyenter = "[EventWindowViewInsert.OnMouseEnterOption(EventOption.Self)]"
 									onmousehierarchyleave = "[EventWindowViewInsert.OnMouseLeaveOption]"
+								}
+								blockoverride "eventoption_down" {}
+								blockoverride "button_event_preview" {
+									visible = no
 								}
 							}
 						}

@@ -179,11 +179,22 @@ k_khotan = {
 	1006.1.1 = {
 		holder = 0
 	}
-	1178.1.1 = {
-		holder = 188855
-		liege = e_kara_khitai
+
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate, Ibrahim II moves to Kashgar as Khitai vassal
+	1137.1.1 = {
+		holder = 144115 # Ibrahim II
 		de_jure_liege = e_kara_khitai
-		government = nomad_government
+		liege = 0 # moved to tributary
+		government = clan_government
+	}
+	1158.1.1 = {
+		holder = 188855 # Muhammad III
+	}
+	1188.1.1 = {
+		holder = 188856 # Yusuf II
+	}
+	1205.1.1 = {
+		holder = 188857 # Muhammad IV
 	}
 }
 
@@ -1382,18 +1393,21 @@ d_kashgar = {
 	1120.1.1 = {
 		holder = karluk0046
 	}
-	1140.1.1 = {
-		holder = karluk0047
+
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate, Ibrahim II move to Kashgar as Khitai vassal
+	1137.1.1 = {
+		holder = 144115 # Ibrahim II
+		liege = e_kara_khitai
+		government = clan_government
 	}
-	1160.1.1 = {
-		holder = karluk0048
-		liege = k_khotan
+	1178.1.1 = {
+		holder = 188855 # Muhammad III
 	}
-	1180.1.1 = {
-		holder = karluk0049
+	1188.1.1 = {
+		holder = 188856 # Yusuf II
 	}
-	1200.1.1 = {
-		holder = karluk0050
+	1205.1.1 = {
+		holder = 188857 # Muhammad IV
 	}
 	1220.1.1 = {
 		holder = karluk0051
@@ -1474,18 +1488,22 @@ c_kashgar = {
 	1120.1.1 = {
 		holder = karluk0046
 	}
-	1140.1.1 = {
-		holder = karluk0047
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate, Ibrahim II moves to Kashgar as Khitai vassal
+	1137.1.1 = {
+		holder = 144115 # Ibrahim II
+		liege = e_kara_khitai
+		government = clan_government
 	}
-	1160.1.1 = {
-		holder = karluk0048
+	1178.1.1 = {
+		holder = 188855 # Muhammad III
 	}
-	1180.1.1 = {
-		holder = karluk0049
+	1188.1.1 = {
+		holder = 188856 # Yusuf II
 	}
-	1200.1.1 = {
-		holder = karluk0050
+	1205.1.1 = {
+		holder = 188857 # Muhammad IV
 	}
+	#Kashgar vassals - fictional placeholders
 	1220.1.1 = {
 		holder = karluk0051
 	}
@@ -1565,18 +1583,22 @@ c_maralbeshi = {
 	1120.1.1 = {
 		holder = karluk0046
 	}
-	1140.1.1 = {
-		holder = karluk0047
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate, Ibrahim II moves to Kashgar as Khitai vassal
+	1137.1.1 = {
+		holder = 144115 # Ibrahim II
+		liege = e_kara_khitai
+		government = clan_government
 	}
-	1160.1.1 = {
-		holder = karluk0048
+	1178.1.1 = {
+		holder = 188855 # Muhammad III
 	}
-	1180.1.1 = {
-		holder = karluk0049
+	1188.1.1 = {
+		holder = 188856 # Yusuf II
 	}
-	1200.1.1 = {
-		holder = karluk0050
+	1205.1.1 = {
+		holder = 188857 # Muhammad IV
 	}
+	#Kashgar vassals - fictional placeholders
 	1220.1.1 = {
 		holder = karluk0051
 	}
@@ -1650,21 +1672,22 @@ c_terek_pass = {
 	1100.1.1 = {
 		holder = karluk0045
 	}
-	1120.1.1 = {
-		holder = karluk0046
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate, Ibrahim II moves to Kashgar as Khitai vassal
+	1137.1.1 = {
+		holder = 144115 # Ibrahim II
+		liege = e_kara_khitai
+		government = clan_government
 	}
-	1140.1.1 = {
-		holder = karluk0047
+	1178.1.1 = {
+		holder = 188855 # Muhammad III
 	}
-	1160.1.1 = {
-		holder = karluk0048
+	1188.1.1 = {
+		holder = 188856 # Yusuf II
 	}
-	1180.1.1 = {
-		holder = karluk0049
+	1205.1.1 = {
+		holder = 188857 # Muhammad IV
 	}
-	1200.1.1 = {
-		holder = karluk0050
-	}
+	#Kashgar vassals - fictional placeholders
 	1220.1.1 = {
 		holder = karluk0051
 	}
@@ -1858,8 +1881,14 @@ c_yarkand = {
 	1117.7.9 = {
 		holder = 217241
 	}
-	1144.7.22 = {
-		holder = 217242
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate, Ibrahim II moves to Kashgar as Khitai vassal
+	1137.1.1 = {
+		holder = 144115 # Ibrahim II
+		liege = e_kara_khitai
+		government = clan_government
+	}
+	1178.1.1 = {
+		holder = 188855 # Muhammad III
 	}
 	1186.3.27 = {
 		holder = 217243

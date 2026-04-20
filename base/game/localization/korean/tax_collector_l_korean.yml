@@ -169,7 +169,7 @@
  VASSAL_IS_NOT_FAR_ENOUGH: "[CHARACTER.GetShortUIName](은)는 당신의 [capital|E]와 대등함"
  VASSAL_HAS_THE_WRONG_RELIGION: "[CHARACTER.GetShortUIName]의 [religion|E]가 당신과 같음"
  VASSAL_HAS_THE_WRONG_FAITH: "[CHARACTER.GetShortUIName]의 [faith|E]이 당신과 같지 #Bold 않음#!"
- NO_TAX_SLOT_AVAILABLE: "#X 유효한 세금 슬롯이 없으며, 다음 달에 활성화될 수 있음#!"
+ NO_TAX_SLOT_AVAILABLE: "#X 유효한 세금 공간이 없으며, 다음 달에 활성화될 수 있음#!"
  TAX_SLOT_OBLIGATION_LIEGE_MODIFIER: "#S 봉신당 [liege|E]:#!"
  TAX_SLOT_OBLIGATION_VASSAL_MODIFIER: "#S [vassal|E]:#!"
  TAX_SLOT_OBLIGATION_SELECT_WARNING_TOOLTIP: "[JoinText( '\n\n', TaxSlotObligationsWindow.CanSelectObligationDesc( TaxSlotObligation.Self ), TaxSlotObligationsWindow.GetInvalidVassalsForObligationDesc( TaxSlotObligation.Self ) )]"

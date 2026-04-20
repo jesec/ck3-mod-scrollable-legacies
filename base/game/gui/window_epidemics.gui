@@ -14,7 +14,8 @@ window = {
 
 	margin_widget = {
 		size = { 100% 100% }
-		margin = { 0 26 }
+		margin_top = 30
+		margin_bottom = 28
 		margin_right = 13
 
 		widget = {
@@ -23,33 +24,35 @@ window = {
 			vbox = {
 				using = Window_Margins
 
-				header_pattern = {
-					layoutpolicy_horizontal = expanding
+				 header_pattern = {
+				 	layoutpolicy_horizontal = expanding
 
-					blockoverride "header_text"
-					{
-						text = "EPIDEMICS_TITLE"
-					}
+				 	blockoverride "header_text"
+				 	{
+				 		text = "EPIDEMICS_TITLE"
+				 	}
 
-					blockoverride "button_close"
-					{
-						onclick = "[EpidemicsWindow.Close]"
-					}
+				 	blockoverride "button_close"
+				 	{
+				 		onclick = "[EpidemicsWindow.Close]"
+				 	}
 
-					blockoverride "button_go_to"
-					{
-						visible = "[EpidemicsWindow.HasFocusedEpidemic]"
-						onclick = "[EpidemicsWindow.GetFocusedEpidemic.ZoomCameraTo]"
-						tooltip = "EPIDEMIC_GO_TO"
-					}
+				 	blockoverride "button_go_to"
+				 	{
+				 		visible = "[EpidemicsWindow.HasFocusedEpidemic]"
+				 		onclick = "[EpidemicsWindow.GetFocusedEpidemic.ZoomCameraTo]"
+				 		tooltip = "EPIDEMIC_GO_TO"
+				 	}
 
-					blockoverride "button_back"
-					{
-						visible = "[EpidemicsWindow.HasFocusedEpidemic]"
-						onclick = "[EpidemicsWindow.ClearFocusedEpidemic]"
-						tooltip = EPIDEMIC_BACK_LABEL
-					}
-				}
+				 	blockoverride "button_back"
+				 	{
+				 		visible = "[EpidemicsWindow.HasFocusedEpidemic]"
+				 		onclick = "[EpidemicsWindow.ClearFocusedEpidemic]"
+				 		tooltip = EPIDEMIC_BACK_LABEL
+				 	}
+				 }
+
+				situation_tabs = {}
 
 				vbox = {
 					name = "contents"
@@ -932,6 +935,7 @@ types EpidemicsWindowTypes
 }
 
 template Expand_Epidemics {
+	on_start = "[GetVariableSystem.Set( 'situations_tab', 'epidemics' )]"
 	on_start = "[GetVariableSystem.Set( 'expand_epidemics_realm', 'true' )]"
 	on_start = "[GetVariableSystem.Set( 'expand_epidemics_nearby', 'true' )]"
 	on_start = "[GetVariableSystem.Set( 'expand_epidemics_world', 'true' )]"

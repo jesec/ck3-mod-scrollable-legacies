@@ -12,5 +12,6 @@
  no_republic_or_theocracy_tt: "#X [theocracy|E]または[republic|E]の統治者にはなれません#!"
  cant_already_be_your_heir: "#X 現時点ではあなたの[primary_heir|E]にはなれません#!"
  cant_be_hostage_tt: "#X [hostage|E]にはなれません#!"
+ recently_sent_to_exam_tt: "#X 最近試験に送られました#!"
  cant_be_another_player_tt: "#X ほかのプレイヤーにはなれません#!"
  must_be_direct_descendant_tt: "#X あなたの直接の子孫、すなわち子供、孫、ひ孫でなくてはなりません#!"

@@ -1118,8 +1118,8 @@
 	1065.1.1 = {
 		learn_language_of_culture = culture:khwarezmian
 	}
-	1096.1.1 = {
-		death = "1096.1.1"
+	1097.1.1 = {
+		death = yes
 	}
 }
 
@@ -2418,6 +2418,7 @@
 				location = province:4859
 				origin = province:4333
 			}
+			add_prestige = 3000
 		}
 	}
 	1072.11.1 = {
@@ -5686,6 +5687,9 @@
 	father = 144101
 	1153.1.1 = {
 		birth = "1153.1.1"
+	}
+	1178.1.1 = {
+		employer = 188912 # Yelu Zhilugu
 	}
 	1193.1.1 = {
 		death = "1193.1.1"

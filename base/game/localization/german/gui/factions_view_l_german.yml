@@ -48,7 +48,7 @@
  FACTIONS_WINDOW_DISCONTENT_TO_WEAK: "Zu schwach, um ein Ultimatum zu stellen"
  FACTIONS_WINDOW_CASSALC_CANT_CREATE_JOIN: "Vasallen, die keinen Fraktionen beitreten können"
  FACTIONS_WINDOW_CREATE_JOIN_EXPLANATION: "Ihr könnt [vassals|E] daran hindern, [factions|E] beizutreten, indem Ihr sie zu Euren [Concept('friend', 'Freunden')|E], [Concept('lover', 'Affären')|E], [Concept('prisoner', 'Gefangenen')|E] oder [Concept('ally', 'Verbündeten')|E] macht. Sie können auch keinen Fraktionen beitreten, wenn sie [cowed|E] sind oder man ein [strong_hook|E] gegen sie hat."
- FACTIONS_WINDOW_FACTION_AT_WAR: "Im Krieg"
+ FACTIONS_WINDOW_FACTION_AT_WAR: "Im [war|E]! Ihr müsst mindestens [GetDefine('NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION')|V0] [war_score|E] haben, bevor diese Fraktion aufgelöst wird, um den Krieg zu gewinnen."
  FACTION_WINDOW_MEMBER_SINGULAR: "$NUMBER|V$ Mitglied"
  FACTION_WINDOW_MEMBER_PLURAL: "$NUMBER|V$ Mitglieder"
  FACTION_WINDOW_LEAVE: "Verlassen"

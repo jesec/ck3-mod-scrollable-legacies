@@ -182,7 +182,7 @@
  bp3_journey.1000.a: "Wezmę jedną sztukę!"
  bp3_journey.1000.b: "Chcę wykorzystać twoje umiejętności w miejscu, którym jest [ROOT.Char.Custom('GetCourtType')|l]."
  bp3_journey.1000.c: "Jam jest #EMP [ROOT.Char.GetTitleAsNameNoTooltip]#!! Nie marnuj mojego czasu!"
- will_have_excellent_aptitude: "Ma #aptitude_excellent doskonałe @aptitude:5:inherit_color!#! [aptitude|El]"
+ will_have_excellent_aptitude: "Ma #aptitude_excellent @aptitude:5:inherit_color!doskonałe#! [aptitude|El]"
  increase_skill_chance_25: "Szansa na dodatkowe zwiększenie [Concept('skill', 'umiejętności')|E] po zakończeniu: #P +25%#!"
  increase_skill_chance_20: "Szansa na dodatkowe zwiększenie [Concept('skill', 'umiejętności')|E] po zakończeniu: #P +20%#!"
  increase_skill_chance_15: "Szansa na dodatkowe zwiększenie [Concept('skill', 'umiejętności')|E] po zakończeniu: #P +15%#!"

@@ -200,8 +200,7 @@
  cultural_festival.2110.e: "Nie mogę się poruszyć."
  cultural_festival_2110_d_tt: "Kopiesz psa"
  cultural_festival_2110_d_opinion_tt: "Każda niebezduszna lub niesadystyczna postać uczestnicząca w festiwalu"
- available_because_intent_tt: "#EMP #low Ta opcja jest dostępna, ponieważ twój zamiar to „[THIS.Char.GetInvolvedActivityIntent.GetName]”#!#!"
- event_triggered_because_intent_tt: "#EMP #low Ta opcja jest dostępna, ponieważ twój zamiar to „[THIS.Char.GetInvolvedActivityIntent.GetName]”#!#!"
+ available_because_intent_tt: "#EMP #low Ta opcja jest dostępna, ponieważ twoim [Concept('intent', 'zamiarem')|E] jest „[THIS.Char.GetInvolvedActivityIntent.GetName]”#!#!"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "Wielka sztuka"
  cultural_festival.3000.desc: "Dzięki wizycie mojego seniora, którym jest [visiting_liege.GetTitledFirstName], nadarza się świetna okazja. Z pewnością mogę wykorzystać to spotkanie, które przynosi mi los, aby zyskać [visiting_liege.Custom('PL_jego_jej')] sympatię i prawdopodobnie łatwiej zdobyć to, czego chcę…\n\nMoże udałoby mi się zorganizować przedstawienie wychwalające [visiting_liege.Custom('PL_jego_jej')] wielkie czyny? "

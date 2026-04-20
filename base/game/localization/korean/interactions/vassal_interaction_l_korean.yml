@@ -75,7 +75,7 @@
  train_commanders: "@task_train_commanders! [men_at_arms|E] 훈련"
  build_maa: "@directive_maa! [men_at_arms|E] 모집"
  convert_faith: "@task_conversion! [faith|E] 개종"
- convert_culture: "@task_promote_culture! [culture|E] 촉진"
+ convert_culture: "@task_promote_culture! [culture|E] 우대"
  improve_cultural_acceptance: "@task_accept_culture! [cultural_acceptance|E] 개선"
  building_focus_fortification: "@directive_fortification! [fortification_buildings|E] 건설"
  building_focus_military: "@directive_military! [military_buildings|E] 건설"

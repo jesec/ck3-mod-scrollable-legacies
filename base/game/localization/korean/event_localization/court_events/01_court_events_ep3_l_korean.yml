@@ -249,7 +249,7 @@
  court_position_subject_betting_odds: "도박 확률"
  court_position_subject_work: "작업"
  #Holder Improves
- court.8311.t: "밧줄 배우기"
+ court.8311.t: "요령 배우기"
  court.8311.desc: "내 [position_holder.GetHeldCourtPositionsString], [position_holder.GetTitledFirstName](은)는 처음에는 [position_holder.Custom('GetCourtPositionSubject')]의 가장 기본적인 원리조차 제대로 이해하지 못하는 듯했다. 하지만 드디어 [position_holder.GetHerHis] 역할에 맞게 성장해 나가는 듯하다.\n\n궁정의 많은 이도 [position_holder.GetHerHis] 능력이 아직은 한계가 있지만, 계속해서 빠르게 발전하고 있다고 말했다. 적어도 [position_holder.GetSheHe]는 자기 몫을 해내려고 진심으로 노력하는 것 같으니 다행이다."
  court.8311.a: "잘 파악해 나가고 있군, [position_holder.GetFirstNameNoTooltip]!"
  bonus_aptitude_role_tt: "[position_holder.Custom('GetTargetCourtPosition')] [aptitude|E]: #P +[SCOPE.ScriptValue('cp_bonus_aptitude_value')]#!"

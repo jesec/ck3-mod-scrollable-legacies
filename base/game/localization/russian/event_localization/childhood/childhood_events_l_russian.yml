@@ -170,7 +170,7 @@
  childhood.1008.3: "Как раз когда [victim.GetSheHe] [Select_CString(victim.IsFemale, 'собиралась', 'собирался' )] откусить кусок хлеба за завтраком, моя рука с размаху ударила [victim.GetHerHis] по спине. Конечно, при этом едва не перевернулся стол, но звук, который [victim.GetTitledFirstName] при этом [Select_CString(victim.IsFemale, 'издала', 'издал' )], был просто уморительным!"
  childhood.1008.a: "Полезно иногда сбросить пар!"
  childhood.1008.b: "Закрепим это старым добрым избиением!"
- childhood.1008.c: "[extra_bully.GetFirstNameNoTooltip]! Помоги-ка мне, тут [Select_CString(victim.IsFemale, 'эта', 'этот' )] [victim.Custom2('InsultAdjective', ROOT.Char)] [victim.Custom2('InsultNoun', ROOT.Char)]!"
+ childhood.1008.c: "[extra_bully.GetFirstNameNoTooltip]! Помоги-ка мне, тут [Select_CString(victim.IsFemale, 'эта', 'этот' )] [victim.Custom2('InsultAdjective', ROOT.Char)][Select_CString(victim.IsFemale, 'ая', 'ый' )] [victim.Custom2('InsultNoun', ROOT.Char)]!"
  childhood.1009.t: "Беспокойство друга"
  childhood.1009.opening: "[friend.GetTitledFirstName] хороший друг. [Select_CString(friend.IsFemale, 'Она заметила', 'Он заметил' )], что меня что-то гнетет, и [Select_CString(friend.IsFemale, 'убедила', 'убедил' )] меня поделиться своими мыслями.\n\n"
  childhood.1009.1: "«Зачем мы пришли в этот мир? Какие у [ROOT.Char.GetFaith.FateGodNamePossessive] планы на нас?»"

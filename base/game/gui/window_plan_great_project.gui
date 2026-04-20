@@ -17,6 +17,14 @@
 	}
 
 	state = {
+		name = on_create
+		trigger_on_create = yes
+
+		on_start = "[GetVariableSystem.Set( 'targeting_factions', 'overview'  )]"
+		on_start = "[GetVariableSystem.Clear( 'contributions' )]"
+	}
+
+	state = {
 		name = _hide
 		using = Animation_FadeOut_Quick
 	}
@@ -25,10 +33,6 @@
 	vbox = {
 		using = Window_Margins
 		layoutpolicy_horizontal = expanding
-
-		oncreate = "[BindTabsContext]"
-		oncreate = "[PdxGuiTabs.AddTab( 'overview' )]"
-		oncreate = "[PdxGuiTabs.AddTab( 'contributions' )]"
 
 		header_pattern = {
 			layoutpolicy_horizontal = expanding
@@ -62,7 +66,7 @@
 				visible = "[And( GreatProjectType.SatisfiesRequirements( PlanGreatProjectWindow.GetSelectedProvince.Self ), Not( GreatProjectType.NeedLocationSelection ) )]"
 				parentanchor = top|left
 				position = { 10 5 }
-				
+
 				text = "GREAT_PROJECT_LOCATION_PLAN"
 				align = nobaseline
 
@@ -91,19 +95,67 @@
 			autoresize = yes
 		}
 
-		hbox_tab_buttons = {
-			name = "great_project_view_tabs"
+		hbox = {
+			name = "great_project_construction_tabs"
+			layoutpolicy_horizontal = expanding
 
-			blockoverride "tab_name"
-			{
-				text = "[PdxGuiTabItem.LocalizeTab( 'great_project_view_tab' )]"
+			button_tab = {
+				name = "open_overview_tab"
+				shortcut = "tab_1"
+
+				down = "[GetVariableSystem.Exists( 'overview' )]"
+
+				onclick = "[GetVariableSystem.Set( 'overview', 'true' )]"
+				onclick = "[GetVariableSystem.Clear( 'contributions' )]"
+
+				alwaystransparent = "[GetVariableSystem.Exists( 'overview' )]"
+
+				blockoverride "tab_label"
+				{
+					text = "great_project_view_tab_overview"
+					max_width = 220
+				}
+
+				blockoverride "icon_visible" {}
+
+				blockoverride "tab_icon"
+				{
+					texture = "gfx/interface/icons/flat_icons/outliner.dds"
+					down = "[GetVariableSystem.Exists( 'overview' )]"
+				}
+			}
+
+			button_tab = {
+				name = "open_contributions_tab"
+				shortcut = "tab_2"
+
+				down = "[GetVariableSystem.Exists( 'contributions' )]"
+
+				onclick = "[GetVariableSystem.Set( 'contributions', 'true' )]"
+				onclick = "[GetVariableSystem.Clear( 'overview' )]"
+
+				alwaystransparent = "[GetVariableSystem.Exists( 'contributions' )]"
+
+				blockoverride "tab_label"
+				{
+					text = "great_project_view_tab_contributions"
+					max_width = 220
+				}
+
+				blockoverride "icon_visible" {}
+
+				blockoverride "tab_icon"
+				{
+					texture = "gfx/interface/icons/flat_icons/contribute.dds"
+					down = "[GetVariableSystem.Exists( 'contributions' )]"
+				}
 			}
 		}
 
 		# EFFECTS
 		vbox = {
 			name = "great_project_overview"
-			visible = "[PdxGuiTabs.IsTabSet( 'overview' )]"
+			visible = "[GetVariableSystem.Exists( 'overview' )]"
 
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
@@ -164,7 +216,7 @@
 		# CONTRIBUTIONS TAB
 		vbox = {
 			name = "contribution_tab"
-			visible = "[PdxGuiTabs.IsTabSet( 'contributions' )]"
+			visible = "[GetVariableSystem.Exists( 'contributions' )]"
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
 
@@ -176,7 +228,7 @@
 				blockoverride "scrollbox_content"
 				{
 					vbox = {
-						
+
 						layoutpolicy_horizontal = expanding
 
 						margin_top = 5
@@ -418,13 +470,13 @@ types GreatProjectPlanWindow
 
 					text = "[ContributionItem.GetName]"
 					align = nobaseline
-					
+
 					default_format = "#low"
 
 					visible = "[ContributionItem.GetContributor.IsValid]"
 					autoresize = no
 				}
-				
+
 				text_single = {
 					layoutpolicy_horizontal = expanding
 
@@ -457,10 +509,10 @@ types GreatProjectPlanWindow
 			# Only show this button when the project has been created and the contribution is not yet funded
 			button_standard = {
 				name = "show_contributors_button"
-				
+
 				# Only the owner can ask other people to fund Contributions, and they cannot ask people to fund Contributions that only they can fund.
 				visible = "[And( And( Or( ObjectsEqual( ContributionItem.GetProject.GetOwner, GetPlayer ), ObjectsEqual( ContributionItem.GetProject.GetFounder, GetPlayer ) ), Not( ContributionItem.IsOwnerOnly ) ), And( ContributionItem.GetProject.IsValid, Not( ContributionItem.IsFunded ) ) )]"
-				
+
 				size = { 60 40 }
 
 				onclick = "[GreatProjectWindow.ShowPotentialContributors( ContributionItem.Self )]"

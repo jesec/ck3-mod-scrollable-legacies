@@ -148,7 +148,7 @@
  mpo_events_ariana.0050.lose: "[criminal_family.GetFirstNameNoTooltip] is disgraced"
  mpo_events_ariana.0050.win: "[criminal_family.GetFirstNameNoTooltip] is exonerated"
  criminal_family_dynasty_modifier: "Disreputable Dynasty"
- criminal_family_dynasty_modifier_desc: "This dynasty has been tarnished by the actions of one of it's members."
+ criminal_family_dynasty_modifier_desc: "This dynasty has been tarnished by the actions of one of its members."
 
  mpo_events_ariana.0060.t: "Treasure Nest"
  mpo_events_ariana.0060.desc: "My [ROOT.Char.Custom2('RelationToMeShort', appropriate_child)] [appropriate_child.GetName] rushes to me excitedly, and before I can ask what has [appropriate_child.GetHerHim] so worked up, [appropriate_child.GetSheHe] puts a small, glittering object in my hand. "Look at what I found!" [appropriate_child.GetSheHe] exclaims. "It fell from an eagle's nest, and I think it's a treasure!" \n\nI examine the object, and it is indeed a small, golden trinket. It is not worth much, but it is clear that [appropriate_child.GetSheHe] is proud of [appropriate_child.GetHerHim]self.\n\n"Do you want me to bring you to the nest?" [appropriate_child.GetSheHe] asks. "There might be more""
@@ -194,7 +194,7 @@
  mpo_events_ariana.0081.desc_guy: "It has been some time since I last spoke with [tree_lover.GetName]. I find myself thinking of [tree_lover.GetHerHim] often, and I wonder if [tree_lover.GetSheHe] has found the tree [tree_lover.GetSheHe] spoke of. Just as I am about to dismiss the thought,"
  mpo_events_ariana.0081.desc: "[tree_lover.GetSheHe|U] appears before me with a big smile on [tree_lover.GetHerHis] face. [tree_lover.GetSheHe|U] leads me to my courtyard, where a freshly planted tree stands tall and proud.\n\n"
  mpo_events_ariana.0081.desc_dead: "[tree_giver.GetName] appears before me with a grim expression. [tree_giver.GetSheHe|U] leads me to my courtyard, where a freshly planted tree stands tall and proud. "[tree_lover.GetName] was right," [tree_giver.GetSheHe] says, "but I wish [tree_lover.GetSheHe] could present you with it [tree_lover.GetHerHim]self."\n\n"
- mpo_events_ariana.0081.desc_outro: "I am in awe at the sight, if only because the legend turned out to be true. It's leaves glimmer in the sun, falling ever so gracefully onto the ground. The light that passes through the branches paint my skin, and amidst my admiration, I once again think of [tree_lover.GetFirstNameNoTooltip], and I recall the tree's supposed ability to grant wishes. I close my eyes, and make a silent plea."
+ mpo_events_ariana.0081.desc_outro: "I am in awe at the sight, if only because the legend turned out to be true. Its leaves glimmer in the sun, falling ever so gracefully onto the ground. The light that passes through the branches paint my skin, and amidst my admiration, I once again think of [tree_lover.GetFirstNameNoTooltip], and I recall the tree's supposed ability to grant wishes. I close my eyes, and make a silent plea."
  mpo_events_ariana.0081.a: "I wish for my lands and loins to prosper."
  mpo_events_ariana.0081.b: "I wish for the strength to overcome my enemies."
  mpo_events_ariana.0081.c: "I wish for wisdom, and a clear mind."

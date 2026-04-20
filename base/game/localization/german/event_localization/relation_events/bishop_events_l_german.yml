@@ -1,6 +1,8 @@
 ﻿l_german:
  bishop.1001.opening: "[bishop.Custom2('AppropriateGreeting', ROOT.Char)]"
- bishop.1001.desc: "Es ist meine Pflicht, Euch darüber in Kenntnis zu setzen, dass unanfechtbare Beweise dafür vorliegen, dass Eure Ehe mit [spouse.GetTitledFirstName] ein Bund zwischen Blutsverwandten ist. Dieses Wissen bleibt unter uns, sofern Ihr diese unheilige Ehe auf der Stelle beendet."
+ bishop.1001.desc: "Es ist meine Pflicht, Euch darüber in Kenntnis zu setzen, dass unanfechtbare Beweise dafür vorliegen, dass Eure Ehe mit [spouse.GetTitledFirstName] ein Bund zwischen Blutsverwandten ist.\n\n"
+ bishop.1001.desc.actually_incestuous: "Dieses Wissen bleibt unter uns, sofern Ihr diese unheilige Ehe auf der Stelle beendet."
+ bishop.1001.desc.made_up: "Dieses … #EMP unwiderlegbare#! Wissen bleibt unter uns, sofern Ihr diese #EMP eindeutig#! unheilige Ehe auf der Stelle beendet."
  bishop.1001.a: "Natürlich, [bishop.GetTitledFirstNameNoTooltip]."
  bishop.1001.a.tt: "@warning_icon! #X Ihr lasst Euch von [spouse.GetUIName] scheiden#!"
  bishop.1001.b: "Unsere Ehe wird nicht von einer derart offensichtlichen Lüge zerstört werden!"

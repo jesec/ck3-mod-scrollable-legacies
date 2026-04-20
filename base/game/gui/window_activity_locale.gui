@@ -1019,6 +1019,8 @@ types ActivityLocaleTypes
 			name = activity_new_event_shown
 			on_start = "[PdxGuiTriggerAllAnimations( 'activity_event_appear' )]"
 		}
+		
+		using = Event_Window_Debug_EventTools
 
 		widget = {
 			size = { 100% 100% }
@@ -1502,6 +1504,13 @@ types ActivityLocaleTypes
 											onmousehierarchyenter = "[EventWindowViewInsert.OnMouseEnterOption( EventOption.Self )]"
 											onmousehierarchyleave = "[EventWindowViewInsert.OnMouseLeaveOption]"
 										}
+										blockoverride "shortcut_format" {
+											default_format = "#medium;glow_color:{0.1,0.1,0.1,1.0}"
+											margin_left = 10
+										}
+										blockoverride "shortcut_size" {
+											size = { 20 20 }
+										}
 									}
 								}
 							}
@@ -1620,6 +1629,34 @@ types ActivityLocaleTypes
 				}
 
 				expand = {}
+			}
+			
+			margin_widget = {
+				margin_bottom = 280
+				margin_top = 30
+				size = { 10 100% }
+				alwaystransparent = yes
+				position = { 300 0 }
+				parentanchor = hcenter
+				allow_outside = yes
+				
+				widget = {
+					size = { 10 100% }
+					allow_outside = yes
+					blockoverride "clean_event_tooltips_position" {
+						position = { 0 0 }
+						parentanchor = bottom
+						widgetanchor = bottom
+					}
+					blockoverride "clean_flip_tooltips" {
+						righttoleft = yes
+					}
+					blockoverride "tooltip_scroll_height" {
+						max_height = 700
+					}
+					
+					using = Event_Window_Right_Tooltips
+				}
 			}
 
 			event_window_transition_widget = {

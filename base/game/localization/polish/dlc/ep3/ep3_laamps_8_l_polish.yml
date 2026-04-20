@@ -167,7 +167,7 @@
  ep3_laamps.8105.a.desc: "Poprosisz o więcej czasu na przygotowanie się do wojny."
  ep3_laamps.8105.a.success: "[claimed_title.GetName] – masz 8 lat, by zająć to miejsce"
  ep3_laamps.8105.a.failure: "[claimed_title.GetName] – masz 4 lata, by zająć to miejsce"
- ep3_laamps.8105.b: "Za świetlaną przyszłość miejsca znanego jako [claimed_title.GetName]!"
+ ep3_laamps.8105.b: "Za świetlaną przyszłość miejsca znanego jako [claimed_title.GetNameNoTooltip]!"
  ep3_laamps.8105.b.desc: "Zgadzasz się na ustalone warunki. $ep3_laamps.8105.a.failure$"
  ep3_laamps.8105.c: "To była strata czasu."
  ep3_laamps.8105.c.desc: "@warning_icon! #color_red Zrywasz negocjacje.#! [petitioned_ruler.GetName] nie udzieli ci wsparcia i z pewnością ma o tobie gorszą opinię."

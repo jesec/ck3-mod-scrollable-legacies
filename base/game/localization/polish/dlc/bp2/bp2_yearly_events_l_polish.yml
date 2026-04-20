@@ -1,7 +1,7 @@
 ﻿l_polish:
  #Pet Rock events
  pet_rock.0001.t: "Kamień milowy"
- pet_rock.0001.desc: " #EMP Stuk!#! \n\nWędruję po dziedzińcu, gdy nagle potrącam butem mały kamień. Odbija się on kilkukrotnie od swoich pobratymców, a potem ląduje nieruchomo kilka kroków ode mnie. Podnoszę go z zaciekawieniem. Jest chropowaty, ma [ROOT.Char.Custom('RockColor')] zabarwienie, a jego powierzchnia, co dziwne, wydaje się ciepła.\n\nNagle uświadamiam sobie, czego ode mnie chce. Kamień emanuje #EMP przyjazną#! aurą, a kiedy patrzę, jak leży w mojej dłoni, jego ciężar zarówno mnie uspokaja, jak i napełnia podekscytowaniem."
+ pet_rock.0001.desc: " #EMP Stuk!#! \n\nWędruję po dziedzińcu, gdy nagle potrącam butem mały kamień. Odbija się on kilkukrotnie od swoich pobratymców, a potem ląduje nieruchomo kilka kroków ode mnie. Podnoszę go z zaciekawieniem. Jego nierówna powierzchnia, co dziwne, wydaje się ciepła.\n\nNagle uświadamiam sobie, czego ode mnie chce. Kamień emanuje #EMP przyjazną#! aurą, a kiedy patrzę, jak leży w mojej dłoni, jego ciężar zarówno mnie uspokaja, jak i napełnia podekscytowaniem."
  pet_rock.0001.a: "Zostaniemy najlepszymi przyjaciółmi!"
  pet_rock.0001.a.tt: "Rozpoczyna się wasza wspólna przygoda!"
  pet_rock.0001.b: "Co ja mam w głowie?"

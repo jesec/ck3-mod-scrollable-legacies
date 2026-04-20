@@ -1,6 +1,6 @@
 ﻿l_polish:
  court_jester_prefix: "Nadworny błazen: "
- jester.100.t: "$court_jester_prefix$:obrzydliwa aparycja"
+ jester.100.t: "$court_jester_prefix$obrzydliwa aparycja"
  jester.100.desc: "Kolejny stresujący dzień… Kiedy siadam, aby zaznać odrobiny ciszy i spokoju, nagle otwierają się drzwi do mojej komnaty.\n\nCzyżby to [jester.GetTitledFirstName] – osoba, która była moim rywalem, a teraz jest błaznem? [jester.Custom('GetClothingArticle')|U] ma niewiarygodnie brudną, do tego ta krzykliwa ozdoba – [jester.Custom('GetAccessory')]. Teraz [jester.Custom('PL_jego_jej')] wygląd jest tak samo obrzydliwy, jak charakter!\n\n– [ROOT.Char.Custom('GetExpensiveDrink_Singular')|U] dla #EMP waszej wysokości#!… – mówi, gwałtownie marszcząc czoło.\n\nJednak życie jest dobre."
  jester.100.a: "Toast za ciebie, [jester.GetFirstNameNoTooltip]!"
  covered_in_feces: "Pokrycie fekaliami"

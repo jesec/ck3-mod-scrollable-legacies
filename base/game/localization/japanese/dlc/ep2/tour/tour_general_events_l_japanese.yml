@@ -17,7 +17,7 @@
  ##Vassal Events
  #Find secret/hook on your liege/key member of liege's court
  tour_general.2000.t: "$activity_tour$：口を滑らせる"
- tour_general.2000.desc_intro: "焚き火の火花が宙に舞う中、[visiting_liege.GetTitledFirstName]の祝宴は早朝まで続いた。私は[visiting_liege.GetHerHis]側近たちと世間話をしたり、酒を酌み交わしたりしながら、うろうろしていた。\n\n焚き火の片隅で、[visiting_liege.GetTitledFirstNamePossessiveNoTooltip]の[visiting_liege.Custom2('RelationToMeShort', SCOPE.sC('2000_secret_holder'))]である[2000_secret_holder.GetTitledFirstName]が、明らかに酩酊しており、どうにかもう一杯飲もうとしているのに気づいた。\n\n近づいてみると、[2000_secret_holder.GetSheHe]のつぶやきが聞こえる。"
+ tour_general.2000.desc_intro: "焚き火の火花が宙に舞う中、[visiting_liege.GetTitledFirstName]の祝宴は早朝まで続いた。私は[visiting_liege.GetHerHis]の側近たちと世間話をしたり、酒を酌み交わしたりしながら、うろうろしていた。\n\n焚き火の片隅で、[visiting_liege.GetTitledFirstNamePossessiveNoTooltip]の[visiting_liege.Custom2('RelationToMeShort', SCOPE.sC('2000_secret_holder'))]である[2000_secret_holder.GetTitledFirstName]が、明らかに酩酊しており、どうにかもう一杯飲もうとしているのに気づいた。\n\n近づいてみると、[2000_secret_holder.GetSheHe]のつぶやきが聞こえる。"
  tour_general.2000.desc_liege: "「ああ、[visiting_liege.GetTitledFirstNameNoTooltip]、どうしてそんなにもあれを好いているのですか…」"
  tour_general.2000.desc_self: "「[2000_secret_holder.GetFirstNameNoTooltip]、しっかりしてください！あれに恋焦がれるのはやめましょう…」"
  tour_general.2000.desc_outro: "私の存在に気づくと、[2000_secret_holder.GetSheHe]はすぐにつぶやきを止める。"
@@ -32,7 +32,7 @@
  tour_general.2000.b: "今すぐ立ち去ろう。"
  #Help liege entourage member, gain scheme progress
  tour_general.2001.t: "$activity_tour$：不都合な状況"
- tour_general.2001.desc_hashish: "私が主君の側近の馬車を調べていると、[2001_precarious_entourage_character.GetTitledFirstName]に出くわした。[2001_precarious_entourage_character.GetSheHe|U]は異常なまでに気難しいようで、小袋の中の何かをゴソゴソといじりながら、絶えず目をあちこちに向けていた。\n\n私が身を乗り出すと、私を見ながらぎこちなく微笑む[2001_precarious_entourage_character.GetHerHis]目が、赤くなっていることに気付いた。「[ROOT.Char.GetTitledFirstNameNoTooltip]よ、このような有様ですまない。どうやら…薬を置き忘れてきてしまったようだ。君は何か#EMP 薬草#!について知らないだろうか？」"
+ tour_general.2001.desc_hashish: "私が主君の側近の馬車を調べていると、[2001_precarious_entourage_character.GetTitledFirstName]に出くわした。[2001_precarious_entourage_character.GetSheHe|U]は異常なまでに気難しいようで、小袋の中の何かをゴソゴソといじりながら、絶えず目をあちこちに向けていた。\n\n私が身を乗り出すと、私を見ながらぎこちなく微笑む[2001_precarious_entourage_character.GetHerHis]の目が、赤くなっていることに気付いた。「[ROOT.Char.GetTitledFirstNameNoTooltip]よ、このような有様ですまない。どうやら…薬を置き忘れてきてしまったようだ。君は何か#EMP 薬草#!について知らないだろうか？」"
  tour_general.2001.desc_privy: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]を通って、訪問先の[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('visiting_liege'))]である[visiting_liege.GetTitledFirstName]に会いに行く途中、突然くぐもった叫び声が聞こえた。私は立ち止まって耳を傾け、それから叫び声のする方へ移動し始めた。\n\n叫び声をたどっていくと、狭い路地の一角にある屋外トイレへとたどり着いた。そこには、助けを求める声が響いていた。その声は「私は[2001_precarious_entourage_character.GetTitledFirstName]。少し…身動きが取れないのだ」と、告白している。"
  tour_general.2001.desc_outro: "\n\n「私を助けてくれるなら、我が宮廷の貴重な情報を教えよう…」[2001_precarious_entourage_character.GetSheHe]が懇願する。"
  tour_general.2001.a: "少し待て、出してやろう。"
@@ -91,7 +91,7 @@
  tour_general.4000.c: "ほかになにかできるかもしれない…"
  #Search a room and find vassal secrets
  tour_general.4001.t: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]：秘密の保持"
- tour_general.4001.desc: "[ROOT.Char.GetCurrentLocation.GetName]滞在中の私の[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('stop_host_scope'))]である[stop_host_scope.GetTitledFirstName]のもとを訪ねた際、巡回の一団とはぐれた私は、[stop_host_scope.GetHerHis]宿舎に取り残されてしまった。\n\nこれは、おそらく[stop_host_scope.GetSheHe]をよりよく#EMP 知る#!ための絶好の機会だろう。もしかすると、何か変わった…面白いもの、あるいは[stop_host_scope.GetSheHe]が私に見つけてほしくないものを見つけられるかもしれない。"
+ tour_general.4001.desc: "[ROOT.Char.GetCurrentLocation.GetName]滞在中の私の[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('stop_host_scope'))]である[stop_host_scope.GetTitledFirstName]のもとを訪ねた際、巡回の一団とはぐれた私は、[stop_host_scope.GetHerHis]の宿舎に取り残されてしまった。\n\nこれは、おそらく[stop_host_scope.GetSheHe]をよりよく#EMP 知る#!ための絶好の機会だろう。もしかすると、何か変わった…面白いもの、あるいは[stop_host_scope.GetSheHe]が私に見つけてほしくないものを見つけられるかもしれない。"
  tour_general.4001.a: "寝室が間違いなく怪しい。"
  tour_general.4001.a.tt: "あなたは寝室を探った"
  tour_general.4001.b: "怪しげな取引にふさわしいのは会議室だろう。"

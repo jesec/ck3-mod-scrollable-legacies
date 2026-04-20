@@ -223,3 +223,23 @@ rebuke_roman_revanchism_sicily_controls_unlisted_empire_trigger = {
 		}
 	}
 }
+
+restore_roman_empire_decision_religion_culture_trigger = {
+	custom_tooltip = {
+		text = restore_roman_empire_decision_religion_culture_tt
+		OR = {
+			religion = {
+				OR = {
+					is_in_family = rf_abrahamic
+					this = religion:hellenism_religion
+				}
+			}
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_latin
+					has_cultural_pillar = heritage_byzantine
+				}
+			}
+		}
+	}
+}

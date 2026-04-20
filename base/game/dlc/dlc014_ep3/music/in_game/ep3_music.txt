@@ -55,20 +55,20 @@ group_ep3_cuetrack = {
 }
 group_ep3_moodtrack = {
     pause_factor = 15
-    #subsequent_playback_chance = { 0.65 0.35 0.1 }
     mood = yes
     can_be_interrupted = yes
-    trigger_prio_override = no
     is_valid = {
 		has_ep3_dlc_trigger = yes
 		should_use_byzantine_music_trigger = yes
+		should_not_use_bespoke_music_trigger = yes
 	}
 }
 group_ep3_adventurer_moodtrack = {
     pause_factor = 15
-    #subsequent_playback_chance = { 0.65 0.35 0.1 }
     mood = yes
     can_be_interrupted = yes
-    trigger_prio_override = no
-    is_valid = { has_ep3_dlc_trigger = yes }
+    is_valid = {
+		has_ep3_dlc_trigger = yes
+		should_not_use_bespoke_music_trigger = yes
+	}
 }

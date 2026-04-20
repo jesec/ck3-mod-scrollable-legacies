@@ -79,7 +79,7 @@
 203545 = {
 	name = "Isabel"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 6
 	diplomacy = 6
 	intrigue = 5
@@ -1649,7 +1649,7 @@
 204561 = {
 	name = "Adeliza"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 7
 	diplomacy = 6
 	intrigue = 6
@@ -2377,11 +2377,11 @@
 	trait = education_martial_3
 	father = 204657
 	mother = 204526
-	1159.1.1 = {
-		birth = "1159.1.1"
+	1160.1.1 = {
+		birth = yes
 	}
 	1188.5.28 = {
-		death = "1188.5.28"
+		death = yes
 	}
 }
 
@@ -3232,7 +3232,7 @@
 
 204770 = {
 	name = "Richard"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 7
 	diplomacy = 7
 	intrigue = 8
@@ -3259,7 +3259,7 @@
 
 204771 = {
 	name = "Gilbert"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 5
 	diplomacy = 4
 	intrigue = 8
@@ -3280,7 +3280,7 @@
 204772 = {
 	name = "Isabel"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 8
 	diplomacy = 7
 	intrigue = 7
@@ -3302,7 +3302,7 @@
 204773 = {
 	name = "Alina"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 4
 	diplomacy = 4
 	intrigue = 5
@@ -3419,7 +3419,7 @@
 
 204790 = {
 	name = "Gilbert"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 5
 	diplomacy = 5
 	intrigue = 7
@@ -3462,7 +3462,7 @@
 
 204795 = {
 	name = "Roger"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 4
 	diplomacy = 7
 	intrigue = 7
@@ -3502,7 +3502,7 @@
 
 204797 = {
 	name = "Richard"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 5
 	diplomacy = 7
 	intrigue = 7
@@ -3529,7 +3529,7 @@
 204798 = {
 	name = "Aveline"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 5
 	diplomacy = 7
 	intrigue = 8
@@ -3551,7 +3551,7 @@
 204799 = {
 	name = "Mabel"
 	female = yes
-	dynasty = 364 #de Clare
+	dynasty_house = house_clare #de Clare
 	martial = 7
 	diplomacy = 4
 	intrigue = 5
@@ -3597,7 +3597,7 @@
 
 204801 = {
 	name = "Gilbert"
-	dynasty = 364
+	dynasty_house = house_clare
 	religion = "catholic"
 	culture = "english"
 	father = 204797
@@ -3616,7 +3616,7 @@
 204802 = {
 	name = "Maud"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 8
 	diplomacy = 8
 	intrigue = 7
@@ -4335,7 +4335,7 @@
 453066 = {
 	name = "Johanna"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 6
 	diplomacy = 4
 	intrigue = 5
@@ -4929,7 +4929,7 @@
 
 454048 = {
 	name = "Richard"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 6
 	diplomacy = 6
 	intrigue = 5
@@ -4950,7 +4950,7 @@
 
 454049 = {
 	name = "Gilbert"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -7016,7 +7016,7 @@
 	name = "Maud"
 	# AKA: Maud
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 7
 	diplomacy = 5
 	intrigue = 5
@@ -7117,7 +7117,7 @@
 
 454606 = {
 	name = "Gilbert"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 8
 	diplomacy = 5
 	intrigue = 8
@@ -7149,7 +7149,7 @@
 454607 = {
 	name = "Eleanor"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 5
 	diplomacy = 5
 	intrigue = 7
@@ -7171,7 +7171,7 @@
 454608 = {
 	name = "Margaret"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 5
 	diplomacy = 7
 	intrigue = 5
@@ -7194,7 +7194,7 @@
 454609 = {
 	name = "Elizabeth"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 5
 	diplomacy = 7
 	intrigue = 5
@@ -7741,7 +7741,7 @@
 7436 = {
 	name = "Isabel"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	religion = "catholic"
 	culture = "english"
 	father = 204801
@@ -7807,7 +7807,7 @@
 
 7445 = {
 	name = "Thomas"
-	dynasty = 364
+	dynasty_house = house_clare
 	religion = "catholic"
 	culture = "english"
 	trait = lustful
@@ -8510,7 +8510,7 @@
 33367 = {
 	name = "Isabel"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	religion = "catholic"
 	culture = "english"
 	father = 454048
@@ -9008,7 +9008,7 @@
 
 129063 = {
 	name = "Roger" #Bishop of Worcester
-	dynasty = 752
+	dynasty_house = house_fitzroy # FitzRoy
 	religion = "catholic"
 	culture = "norman"
 	father = 203036 #Robert Fitzroy of Caen
@@ -9980,7 +9980,7 @@
 
 155244 = {
 	name = "Gilbert"
-	dynasty = 364
+	dynasty_house = house_clare
 	religion = "catholic"
 	culture = "norman"
 	father = 204794
@@ -10615,7 +10615,7 @@
 161441 = {
 	name = "Rohese"
 	female = yes
-	dynasty = 364
+	dynasty_house = house_clare
 	religion = "catholic"
 	culture = "norman"
 	father = 204794

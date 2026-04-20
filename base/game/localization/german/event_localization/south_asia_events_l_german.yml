@@ -105,7 +105,7 @@
  south_asia.0050.desc: "Die Maurya, die Kuschana, die Guptas, die Palas und die Pratiharas: Seit Jahrtausenden ist die Indus-Ganges-Brahmaputra-Ebene sowohl Sitz als auch Schlachtfeld für viele große Reiche. Manche Herrscher kamen aus der Fremde, manche stammten vom Subkontinent selbst.\n\nDas Haus der [founder.GetHouse.GetNameNoTooltip] ist nicht ganz so uralt, doch wo all diese anderen Dynastien am Ende scheiterten, schufen wir uns nun unser eigenes Reich. Die Zeit ist gekommen, ein Großreich daraus zu machen und einen richtigen Regierungsapparat zu schaffen, um über die Vielzahl an Völkern und Religionen zu herrschen, die diese Lande ihre Heimat nennen."
  south_asia.0050.a: "In Delhi wird ein neuer Hauptsitz stehen!"
  south_asia.0050.b: "Wir werden Lahore zum Zentrum des Reichs machen."
- south_asia.0050.c: "Das Reich wird von „[ROOT.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]“ aus regiert."
+ south_asia.0050.c: "Das Reich wird von „[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]“ aus regiert."
  south_asia.0051.t: "Das Sultanat von [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
  south_asia.0051.desc: "Uns erreichte die Kunde, dass das Haus [founder.GetHouse.GetNameNoTooltip] seinen Griff um die Indus-Ganges-Brahmaputra-Ebene gefestigt und auf den Ruinen der hinduistischen und buddhistischen Dynastien aus grauer Vorzeit ein neues muslimisches Großreich errichtet hat.\n\n[founder.GetFirstNameNoTooltip|U] sieht sich in der Nachfolge von [founder.GetFullName], zeigt imperiale Ambitionen, von „[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip|U]“ aus über ganz Indien zu herrschen, und wird dafür rasch sowohl gefürchtet als auch bewundert."
  south_asia.0051.a: "$middle_europe_decisions.0016.a$"

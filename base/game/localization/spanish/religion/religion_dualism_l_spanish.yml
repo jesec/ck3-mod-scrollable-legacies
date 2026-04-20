@@ -114,8 +114,8 @@
  #Mandeanism
  mandeaism: "Mandeísmo"
  mandeaism_adj: "mandeísta"
- mandeaism_adherent: "mandeísta"
- mandeaism_adherent_plural: "mandeístas"
+ mandeaism_adherent: "mandeo"
+ mandeaism_adherent_plural: "mandeos"
  mandeaism_desc: "El mandeísmo remonta su linaje a Adán y Juan el Bautista es su mayor profeta. El mundo consta de luz y oscuridad y, llegado el momento, se juzgará si las almas mortales son dignas de regresar a la luz eterna."
  mandeaism_high_god_name: "La Primera Luz"
  mandeaism_high_god_name_2: "$mandeaism_high_god_name$" #Optional translation alt

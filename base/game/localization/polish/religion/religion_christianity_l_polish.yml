@@ -2,7 +2,7 @@
  #Common Christian Localization
  christianity_religion: "Chrześcijaństwo"
  christianity_religion_adj: "Chrześcijańska"
- christianity_religion_adherent: "Chrześcijanin"
+ christianity_religion_adherent: "chrześcijanin"
  christianity_religion_adherent_plural: "chrześcijanie"
  christianity_religion_desc: "Wypływające z życia i nauk Jezusa z Nazaretu, chrześcijaństwo opiera się na idei wiecznego zbawienia jako przymierza, na mocy którego wyznawcy są odkupieni ze swych grzechów i przyjęci przez Boga do życia wiecznego."
  christianity_high_god_name: "Bóg"
@@ -76,7 +76,7 @@
  #Catholic-Group Faiths
  catholic: "Katolicyzm"
  catholic_adj: "Katolicka"
- catholic_adherent: "Katolik"
+ catholic_adherent: "katolik"
  catholic_adherent_plural: "katolicy"
  catholic_desc: "Kościół rzymskokatolicki opiera się na wierze, że Jezus przekazał klucze królestwa niebieskiego świętemu Piotrowi, a jego następca – papież – jest wobec tego najwyższym duchowym zwierzchnikiem całego chrześcijańskiego świata."
  west_christian_fertility_god_name: "św. Brygida"
@@ -153,7 +153,7 @@
  insular_celtic_bishop_plural_female: "opatki"
  bosnian_church: "Patarenizm"
  bosnian_church_adj: "Patareńska"
- bosnian_church_adherent: "Patarenin"
+ bosnian_church_adherent: "patarenin"
  bosnian_church_adherent_plural: "patareni"
  bosnian_church_desc: "Dawno zapomniani zarówno przez katolików, jak i prawosławnych, Krstjani z bośniackich wyżyn tworzą społeczność o znacznie swobodniejszych zwyczajach, pozbawioną formalnej struktury. Zachowując wiele archaicznych elementów wczesnego chrześcijaństwa, traktowani są pogardliwie przez współwyznawców, jeśli w ogóle pamiętani"
  bosnian_house_of_worship: "hiža"

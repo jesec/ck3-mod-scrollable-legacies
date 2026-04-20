@@ -339,7 +339,7 @@
  laamp_base_6031_request: "Przystąpienie do tego [Concept('task_contract', 'kontraktu')|E] wymaga ukończenia [Concept('scheme', 'spisku')|E] „[GetScheme('laamp_base_6031_contract_scheme').GetTypeName]”"
  laamp_base_6031_desc_title: "Kto lojalny, niechże mnie wysłucha!"
  laamp_base_6031_desc: "Most w miejscu znanym jako [TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier] pozostaje bez ochrony, a żeby utrzymać bandytów z dala od niego, trzeba nam pokazać swoją siłę. [TaskContract.GetEmployer.GetTitledFirstNameNoTooltip] wynagrodzi każdego, kto odwiedzie od nas rozbójników."
- laamp_base_contract_schemes.6031.t: "$laamp_base_6021_contract_scheme$"
+ laamp_base_contract_schemes.6031.t: "$laamp_base_6031_contract_scheme$"
  laamp_base_contract_schemes.6031.desc: "[employer.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('employer'))], wędrując po obozie.\n\n– Cudowny poranek. Doskonały, żeby pokazać tym łotrom wartość, jaką ma prawdziwy $knight_culture_player_no_tooltip_lowercase$. Widzisz, jest taki most, który prowadzi prosto do miejsca znanego jako [ROOT.Char.GetCurrentLocation.GetName]. Wałęsają się tam różnej maści szubrawcy, głupcy i imbecyle.\n\n– Ktoś powinien zająć się tymi łachudrami."
  laamp_base_contract_schemes.6031.a: "Skruszę trzysta kopii!"
  laamp_base_contract_schemes.6031.b: "To zajmie kilka dni."

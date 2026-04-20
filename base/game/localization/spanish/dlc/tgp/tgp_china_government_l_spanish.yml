@@ -118,7 +118,7 @@
  may_gain_merit_desc: "Se pude ganar [merit|lE] [merit_i]"
  cannot_compete_for_lower_rank_titles_tt: "Los [governors|lE] no pueden competir por [titles|lE] de un [title_tier|lE] inferior al de su [governorship|lE] actual"
  tgp_is_above_retirement_age_law_not_set: "No hay ninguna [law|El] de [GetLawGroup('celestial_retirement_law').GetName]"
- tgp_is_above_retirement_age_5: "La [GetLawGroup('celestial_retirement_law').GetName|l] se ha establecido por [law|El] en [GetLaw('celestial_retirement_law_5').GetName] y no permite la jubilación anticipada"
+ tgp_is_above_retirement_age_5: "La [GetLawGroup('celestial_retirement_law').GetName|l] se ha establecido por [law|El] en [GetLaw('celestial_retirement_law_5').GetName] y permite la jubilación a cualquier edad"
  tgp_is_above_retirement_age_0: "La [GetLawGroup('celestial_retirement_law').GetName|l] se ha establecido por [law|El] en [GetLaw('celestial_retirement_law_0').GetName] y permite la jubilación de los [governors|El] mayores de 50 años"
  tgp_is_above_retirement_age_1: "La [GetLawGroup('celestial_retirement_law').GetName|l] se ha establecido por [law|El] en [GetLaw('celestial_retirement_law_1').GetName] y permite la jubilación de los [governors|El] mayores de 60 años"
  tgp_is_above_retirement_age_2: "La [GetLawGroup('celestial_retirement_law').GetName|l] se ha establecido por [law|El] en [GetLaw('celestial_retirement_law_2').GetName] y permite la jubilación de los [governors|El] mayores de 70 años"

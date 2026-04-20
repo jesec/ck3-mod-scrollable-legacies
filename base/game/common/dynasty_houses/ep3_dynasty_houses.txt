@@ -126,3 +126,8 @@ house_lautrec = {
 	name = "dynn_Lautrec"
 	dynasty = 40021 # Trencavel
 }
+
+house_rogerios_dalassenos = {
+	name = "dynn_Rogerios_Dalassenos"
+	dynasty = 20066
+}

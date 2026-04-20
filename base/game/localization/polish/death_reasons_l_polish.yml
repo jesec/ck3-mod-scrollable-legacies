@@ -1,6 +1,7 @@
 ﻿l_polish:
  death_natural_causes: "[Select_CString( CHARACTER.IsFemale, 'zmarła', 'zmarł' )] we śnie"
  death_old_age: "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] ze starości"
+ death_broken_bones: "zmarła, potykając się i łamiąc wiele delikatnych kości"
  death_bubonic_plague: "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu zarazy, którą była [GetTrait('bubonic_plague').GetName( CHARACTER.Self )|l]"
  death_smallpox: "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu zarazy, którą była [GetTrait('smallpox').GetName( CHARACTER.Self )|l]"
  death_measles: "umarła z powodu choroby znanej jako [GetTrait('measles').GetName( CHARACTER.Self )|l]"
@@ -266,7 +267,7 @@
  death_tournament_pas_darmes_defend_killer: "zmarła w wyniku ran odniesionych podczas obrony swego stanowiska w walce o przejście z osobą znaną jako [TARGET_CHARACTER.GetUINameNotMe]"
  death_tournament_pas_darmes_challenge: "zmarła w wyniku ran odniesionych po rzuceniu wyzwania w ramach walki o przejście"
  death_tournament_pas_darmes_challenge_killer: "zmarła w wyniku ran odniesionych po rzuceniu wyzwania w ramach walki o przejście przeciwko osobie znanej jako [TARGET_CHARACTER.GetUINameNotMe]"
- death_wild_animal: "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] żywcem rozszarpan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez dziką bestię"
+ death_wild_animal: "została rozszarpana przez dziką bestię"
  death_tournament_archery_fall: "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] po upadku z konia podczas zawodów strzeleckich"
  death_tournament_quintain_hit: "zmarła po tym, jak manekin zrzucił [CHARACTER.Custom('PL_go_ja')] z konia podczas turnieju"
  death_tournament_piledriver: "został[Select_CString( CHARACTER.IsFemale, 'a rzucona', ' rzucony' )] na głowę podczas turnieju zapaśniczego"
@@ -334,6 +335,7 @@
  death_poisonous_forage: "przez pomyłkę zjadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] kilka trujących roślin"
  death_drowning_in_terrain: "została zaciągnięta do wody przez swojego konia i utopiona, gdy usiłowała go ocalić"
  death_drowning_in_terrain_killer: "została zaciągnięta do wody przez konia osoby, którą jest [TARGET_CHARACTER.GetUINameNotMe], i utopiona, gdy usiłowała go ocalić"
+ death_lost_in_rainstorm: "zaginęła podczas gwałtownej ulewy"
  #BP2
  death_hostage_execution: "został[Select_CString( CHARACTER.IsFemale, 'a stracona', ' stracony' )] będąc zakładni[Select_CString( CHARACTER.IsFemale, 'czką', 'kiem' )]"
  death_hostage_execution_killer: "został[Select_CString( CHARACTER.IsFemale, 'a stracona', ' stracony' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] będąc zakładni[Select_CString( CHARACTER.IsFemale, 'czką', 'kiem' )]"
@@ -388,5 +390,7 @@
  death_crowd_stampede_killer: "$death_slain_in_riot$ w trakcie koronacji osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]"
  death_avoid_dishonor: "popełniła samobójstwo w celu uniknięcia zhańbienia"
  death_avoid_dishonor_killer: "$death_avoid_dishonor$ przez postać znaną jako [TARGET_CHARACTER.GetUINameNotMe]"
- death_eradicated: "i cały jej ród został zgładzony"
+ death_eradicated: "została zamordowana wraz z całym swoim rodem"
  death_eradicated_killer: "$death_eradicated$ przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe]"
+ #TGP
+ death_ritual_suicide: "popełniła rytualne samobójstwo"

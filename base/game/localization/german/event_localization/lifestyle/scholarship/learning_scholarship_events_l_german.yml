@@ -34,6 +34,18 @@
  learning_scholarship.3001.c.tt2: "Ich kann [chaplain.GetFirstName] nicht umstimmen"
  learning_scholarship.3001.c.toast.tt2: "[chaplain.GetFirstName] weist meine Argumente ab"
  #Translate a Great Work, by Petter Vilberg
+ #story cycle loc
+ book_translation_story: "Ein großes Werk übersetzen"
+ book_translation_story_desc: "Die Übersetzung eines großen Werks wird andere dazu ermächtigen, Gewinn aus seiner Weisheit zu schöpfen. Das Vollbringen dieser ehrgeizigen Geistesgroßtat wird Eure schillernde Brillanz widerspiegeln; scheitert Ihr daran, kennzeichnet Euch dies als Holzkopf."
+ TRANSLATION_STORY: "Ihr übersetzt [Story.GetOwner.Custom('TranslationBookLong')]"
+ TRANSLATION_QUALITY: "Übersetzungsgüte"
+ POOR_TRANSLATION: "Schlecht"
+ EXCELLENT_TRANSLATION: "Hervorragend"
+ DURATION_LEFT: "Verbleibende Dauer"
+ PROGRESS_TOWARDS_CYNICISM: "Fortschritt in Richtung Zynismus"
+ CYNICISM: "Zynismus"
+ ZEALOTRY: "Blinder Eifer"
+ #event loc
  learning_scholarship_special.2001.t: "Eine Neuübersetzung"
  learning_scholarship_special.2001.desc: "Mehr als alles andere lehrte mich meine Mission, ein gebildeter Mensch zu werden, wie viel ich doch noch nicht weiß. Und es muss noch so viel Wissen geben, das dem Zahn der Zeit zum Opfer fiel, als Bücher verrotteten oder Sprachen in Vergessenheit gerieten …\n\nVielleicht könnte ich ja meinen Beitrag leisten, indem ich eine Neuübersetzung eines Klassikers anfertige?\n\nObwohl, was würde ich überhaupt übersetzen …?"
  learning_scholarship_special.2001.regula_pastoralis: "Regula Pastoralis: Wie führt man ein gutes Leben?"

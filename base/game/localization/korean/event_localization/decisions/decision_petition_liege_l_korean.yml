@@ -54,7 +54,7 @@
  petition_liege_faction_war_tt: "#X 현재 전쟁 중이거나 요구를 압박할 만한 능력이 있는 [claimant_faction|E] 또는 [liberty_faction|E]이 없습니다.#!"
  petition_liege_decision_effects_faction_war: "[liege|E]이 일정 확률로 당신을 반대하는 [faction|E]을 해체합니다."
  #Control
- petition_liege_decision_option_county_control: "집달관 파견\n#low [Concept( 'counties', '영지' )|E] [control|E]을 높이는 데 도움을 받습니다.#!"
+ petition_liege_decision_option_county_control: "집달관 파견\n#low [Concept( 'county', '영지' )|E] [control|E]을 높이는 데 도움을 받습니다.#!"
  petition_liege_county_control_desc: "[ROOT.Char.GetLiege.GetTitledFirstName]에게 어지러운 [Concept( 'counties', '영지' )|E]의 [control|E]을 복원하는 데 지원을 해달라고 요청합니다."
  petition_liege_county_control_tooltip: "$petition_liege_decision_second_tooltip$"
  petition_liege_county_control_tt: "#X [Concept( 'counties', '영지' )|E] 중 [control|E]이 낮은 곳이 없습니다.#!"

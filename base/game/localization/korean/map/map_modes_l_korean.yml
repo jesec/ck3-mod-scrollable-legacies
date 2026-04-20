@@ -39,7 +39,7 @@
  struggle: "연루"
  struggle_desc: "#T 연루#!\n[struggle_region|E] 내 [realms|E]의 연루 상태를 표시합니다."
  economy_buildings: "@gold_icon! 경제"
- economy_buildings_desc: "#T 경제 및 건물#!\n지도에 [Concept( 'counties', '영지' )|E] [income|E]과 [special_buildings|E]을 표시합니다."
+ economy_buildings_desc: "#T 경제 및 건물#!\n지도에 [Concept( 'county', '영지' )|E] [income|E]과 [special_buildings|E]을 표시합니다."
  county_control: "$MAPMODE_COUNTY_CONTROL_NAME$"
  county_control_desc: "$MAPMODE_COUNTY_CONTROL$"
  epidemics: "@epidemic_icon! 역병"

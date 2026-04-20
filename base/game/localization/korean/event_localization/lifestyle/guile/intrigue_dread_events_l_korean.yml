@@ -209,7 +209,7 @@
  intrigue_defied_loved_one_opinion: "연인을 부정함"
  #Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t: "[family_member.GetFirstNameNoTooltip]에 관한 소문"
- intrigue_dread.2101.desc.intro: "\"영주님의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))]분이신 [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)] 님과 관련해 좋지 않은 소문이 돌고 있지 않습니까? 그 출처를 알아냈습니다.\" [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 서신 묶음을 톡톡 두드렸다.\n\n[hater.GetName](이)가 [family_member.GetFirstNamePossessive] 위신을 진흙탕에 처박으려고 애쓰고 있다는 내용이었다."
+ intrigue_dread.2101.desc.intro: "\"영주님의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))]분이신 [family_member.GetTitledFirstName] 님과 관련해 좋지 않은 소문이 돌고 있지 않습니까? 그 출처를 알아냈습니다.\" [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U](이)가 서신 묶음을 톡톡 두드렸다.\n\n[hater.GetName](이)가 [family_member.GetFirstNamePossessive] 위신을 진흙탕에 처박으려고 애쓰고 있다는 내용이었다."
  intrigue_dread.2101.desc.failed_assassination: "심지어 [hater.GetName](은)는 [family_member.GetFirstName](이)가 자기를 죽이려고 했다는 주장까지 내세우고 있었다!"
  intrigue_dread.2101.desc.committed_adultery: "[hater.GetName](은)는 [family_member.GetFirstName](이)가 [family_member.GetWifeHusband](으)로서 절조를 지키지 않았으며, 음란한 행각을 저지르고 다닌다는 투로 이야기를 늘어놓고 있었다!"
  intrigue_dread.2101.desc.bullied_me: "[hater.GetName](은)는 [family_member.GetFirstName](이)가 어릴 때부터 악인이 될 조짐을 보였으며, 자신을 가혹하게 괴롭혔다는 주장을 내세우고 있었다."

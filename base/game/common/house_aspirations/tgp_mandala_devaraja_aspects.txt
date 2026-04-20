@@ -626,9 +626,9 @@ aspect_of_destruction = {
 
 		any_house_member_modifier = {
 			monthly_martial_lifestyle_xp_gain_mult = 0.02
-			levy_size = 0.075
-			levy_reinforcement_rate = 0.005
-			men_at_arms_maintenance = -0.005
+			levy_size = 0.05
+			levy_reinforcement_rate = 0.01
+			men_at_arms_maintenance = -0.01
 		}
 
 		house_head_modifier = {
@@ -670,8 +670,8 @@ aspect_of_destruction = {
 
 		any_house_member_modifier = {
 			monthly_martial_lifestyle_xp_gain_mult = 0.03
-			levy_size = 0.01
-			levy_reinforcement_rate = 0.015
+			levy_size = 0.075
+			levy_reinforcement_rate = 0.02
 			men_at_arms_maintenance = -0.015
 		}
 
@@ -715,8 +715,8 @@ aspect_of_destruction = {
 
 		any_house_member_modifier = {
 			monthly_martial_lifestyle_xp_gain_mult = 0.04
-			levy_size = 0.0125
-			levy_reinforcement_rate = 0.02
+			levy_size = 0.1
+			levy_reinforcement_rate = 0.03
 			men_at_arms_maintenance = -0.02
 		}
 
@@ -754,8 +754,8 @@ aspect_of_destruction = {
 
 		any_house_member_modifier = {
 			monthly_martial_lifestyle_xp_gain_mult = 0.05
-			levy_size = 0.015
-			levy_reinforcement_rate = 0.025
+			levy_size = 0.125
+			levy_reinforcement_rate = 0.04
 			men_at_arms_maintenance = -0.025
 		}
 

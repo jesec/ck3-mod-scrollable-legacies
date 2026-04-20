@@ -159,7 +159,7 @@
  hold_court.6131.desc_hunt: "\n\n이와 별개로, [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 큰 도움이 되었다는 상세한 보고가 들어왔다. 나로서는 몹시 흡족스러웠다."
  hold_court.6131.desc_dead: "\n\n안타깝게도 [6130_helper.GetTitledFirstName](은)는 스스로 돕겠다고 맹세한 토지 조사 사업이 완료되는 걸 보지 못하고 눈을 감았다."
  hold_court.6131.a: "돈 쓴 보람이 있군!"
- all_realm_county: "모든 [realm|E] [Concept( 'counties', '영지' )|E]"
+ all_realm_county: "모든 [realm|E] [Concept( 'county', '영지' )|E]"
  #A Cumbersome Gift
  hold_court.6140.t: "거추장스러운 선물"
  hold_court.6140.desc: "[6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)](이)가 득의양양하게 입장하자 알현실에 적막이 내리깔렸다. 그 뒤로 두 명의 하인이 낑낑거리며 따라 들어왔는데, #EMP 사슬에 묶인 [ROOT.Char.Custom('GetAnimalType')]#!(을)를 질질 끌고 있었다.\n\n[6140_gifter.GetFirstNameNoTooltip](이)가 자랑스러운 미소를 머금고 외쳤다. \"[ROOT.Char.Custom('FormOfAddressForLiege')|U], 세상의 제패자에게 걸맞은 선물을 가져왔습니다! 바로 [6140_province.GetCounty.GetName]의 [6140_province.GetTerrain.GetNameNoTooltip]에서 사로잡은 근사한 짐승입니다. 이것을 영주님께 진상하겠나이다. 저의 헌신과 영주님의 견줄 데 없는 권력을 보여주는 상징으로 삼으소서!\""

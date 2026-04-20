@@ -2270,7 +2270,6 @@ ai_men_at_arms_expense_treasury_min = {
 			OR = {
 				vassal_contract_has_flag = celestial_province_protectorate
 				vassal_contract_has_flag = celestial_province_military
-				vassal_contract_has_flag = meritocratic_province_protectorate
 				vassal_contract_has_flag = meritocratic_province_military
 				vassal_contract_has_flag = celestial_grand_marshal_obligation
 			}
@@ -2401,7 +2400,6 @@ ai_men_at_arms_expense_treasury_ideal = {
 			OR = {
 				vassal_contract_has_flag = celestial_province_protectorate
 				vassal_contract_has_flag = celestial_province_military
-				vassal_contract_has_flag = meritocratic_province_protectorate
 				vassal_contract_has_flag = meritocratic_province_military
 				vassal_contract_has_flag = celestial_grand_marshal_obligation
 			}
@@ -2510,7 +2508,6 @@ ai_men_at_arms_expense_treasury_max = {
 			OR = {
 				vassal_contract_has_flag = celestial_province_protectorate
 				vassal_contract_has_flag = celestial_province_military
-				vassal_contract_has_flag = meritocratic_province_protectorate
 				vassal_contract_has_flag = meritocratic_province_military
 				vassal_contract_has_flag = celestial_grand_marshal_obligation
 			}
@@ -2907,7 +2904,6 @@ ai_men_at_arms_chance_expense_below_min = {
 			OR = {
 				vassal_contract_has_flag = celestial_province_protectorate
 				vassal_contract_has_flag = celestial_province_military
-				vassal_contract_has_flag = meritocratic_province_protectorate
 				vassal_contract_has_flag = meritocratic_province_military
 				vassal_contract_has_flag = celestial_grand_marshal_obligation
 			}
@@ -3040,7 +3036,6 @@ ai_men_at_arms_chance_expense_below_ideal = {
 			OR = {
 				vassal_contract_has_flag = celestial_province_protectorate
 				vassal_contract_has_flag = celestial_province_military
-				vassal_contract_has_flag = meritocratic_province_protectorate
 				vassal_contract_has_flag = meritocratic_province_military
 				vassal_contract_has_flag = celestial_grand_marshal_obligation
 			}

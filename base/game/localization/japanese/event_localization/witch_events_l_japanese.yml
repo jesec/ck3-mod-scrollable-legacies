@@ -44,6 +44,7 @@
  witch.2004.discovered.desc: "[target.GetFirstNameNoTooltip]が目を細める。「[ROOT.Char.GetFirstNameNoTooltip]、あなたですか？ “[owner.GetFaith.WitchGodName|U]”？ 何をわけのわからないことを！？」"
  witch.2004.not_discovered.desc: "[target.GetFirstNameNoTooltip]はベッドから這い出て、枕元のテーブルに置かれた何かに手を伸ばす。ろくな物ではなさそうだ。「あなたとも、あなたの嘘とも関わり合いにはなりたくない！ 失せろ、悪魔め！」[target.GetFirstNameNoTooltip]は叫び、私はすぐさまそれに従う。"
  witch.2004.a: "失礼、[target.Custom('GetChamber')]を間違えた！"
+ witch.2005.toast: "見つかった魔術師"
  witch.2005.end.desc: "「[ROOT.Char.GetFirstNameNoTooltip]、あなたですか？ “[owner.GetFaith.WitchGodName|U]”？ あなたの冒涜は[target.GetLiege.Custom2('MyCharacterIntroduction', target)|U]のお耳にも届くことでしょう！」"
  witch.2005.a: "頼む、誤解はやめてくれ！"
  witch.2005.a.tt: "実際のところ、[target.GetSheHe]は#EMP まさに#! そう思っているかもしれない…"

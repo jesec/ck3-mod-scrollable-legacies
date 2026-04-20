@@ -85,6 +85,7 @@
  court.3031.a: "提高我在少数派封臣眼中的地位。"
  court.3031.b: "替我在男爵们中间美言几句。"
  court.3031.c: "我希望与[reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]人建立更好的关系。"
+ every_culture_county_3031: "[reference_county.GetCulture.GetName][culture|E]的所有[realm|E][county|E]"
  court.3031.d: "我不在乎其他人怎么看。"
  #Homesickness
  court.3040.t: "[homesick_parent.GetMotherFather|U]思乡"

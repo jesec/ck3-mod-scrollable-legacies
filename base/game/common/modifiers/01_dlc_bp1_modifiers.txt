@@ -3,13 +3,13 @@
 ########################################
 
 bp_yearly_8040_trying_to_be_mindful_modifier = {
-	icon = stress_negative
+	icon = stress_mixed
 	stress_gain_mult = 0.1
 	diplomacy = 1
 }
 
 bp1_yearly_8000_trusting_modifier = {
-	icon = social_positive
+	icon = social_mixed
 	vassal_opinion = 5
 	intrigue = -1
 }
@@ -124,7 +124,7 @@ bp1_sickness_being_doted_on = {
 }
 
 exploitative_lord_modifier = {
-	icon = county_modifier_opinion_negative
+	icon = county_modifier_opinion_mixed
 	county_opinion_add = -15
 	tax_mult = 0.2
 	monthly_county_control_growth_add = 0.1
@@ -144,7 +144,7 @@ bp1_withholding_ghost_sex = {
 }
 
 bp1_indulging_ghost_sex = {
-	icon = stress_positive
+	icon = stress_mixed
 	fertility = -0.1
 	stress_loss_mult = 0.1
 	stress_gain_mult = -0.1
@@ -167,13 +167,13 @@ linguistically_challenged_modifier = {
 }
 
 sneaking_suspicion_modifier = {
-	icon = social_positive
+	icon = social_mixed
 	close_relative_opinion = 10
 	stress_gain_mult = 0.1
 }
 
 busy_guards_modifier = {
-	icon = intrigue_negative
+	icon = intrigue_mixed
 	enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 	stress_loss_mult = 0.1
 }
@@ -196,7 +196,7 @@ lacking_poultry_modifier = {
 }
 
 obsessively_neurotic_modifier = {
-	icon = stress_negative
+	icon = stress_mixed
 	stress_gain_mult = 0.2
 	enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
 }
@@ -223,7 +223,7 @@ disdained_modifier = {
 }
 
 cat_revenge_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	murder_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	owned_scheme_secrecy_add = -5
 }
@@ -316,7 +316,7 @@ sycophant_story_failed_scheme_detection_modifier = {
 }
 
 welcome_distraction_modifier = {
-	icon = stress_positive
+	icon = stress_mixed
 	stress_gain_mult = -0.15
 	stewardship = -2
 }

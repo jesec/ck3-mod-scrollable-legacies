@@ -68,7 +68,7 @@
  TITLE_VIEW_USURP_TITLE: "篡夺"
  USURP_TITLE_TITLE: "篡夺[TITLE.GetBaseNameNoTooltip]"
  USURP_TITLE_TOOLTIP_TITLE: "#T 篡夺[TITLE.GetBaseName]#!"
- USURP_TITLE_TEXT: "从[TITLE.GetHolder.GetUIName]处篡夺[TITLE.GetName]。\n花费：\n[SelectLocalization(GetPlayer.GetGovernment.IsType('meritocratic_government'), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\n我会获得[prestige_i]$PRESTIGE|0V$\n\n[TITLE.GetHolder.GetUIName]会失去[legitimacy|E]。"
+ USURP_TITLE_TEXT: "从[TITLE.GetHolder.GetUIName]处篡夺[TITLE.GetName]。\n花费：\n[SelectLocalization( Or( GetPlayer.GetGovernment.IsType( 'celestial_government' ), Or(GetPlayer.GetGovernment.IsType( 'meritocratic_government' ), GetPlayer.GetGovernment.IsType( 'administrative_government' ))), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\n我会获得[prestige_i]$PRESTIGE|0V$\n\n[TITLE.GetHolder.GetUIName]会失去[legitimacy|E]。"
  USURP_TITLE_DESC_GOLD: "[gold_i]"
  USURP_TITLE_DESC_TREASURY: "[treasury_i]"
  USURP_TITLE_ACCEPT: "篡夺"

@@ -199,7 +199,7 @@
  tgp_natural_disaster_flood_1_county_modifier: "Flooding"
  tgp_natural_disaster_flood_1_county_modifier_desc: "This county is experiencing a mild flood.$tgp_natural_disaster_cleanup_tt$"
  tgp_natural_disaster_flood_2_county_modifier: "Severe Flooding"
- tgp_natural_disaster_flood_2_county_modifier_desc: "This county is afflicted by a terrible flood, leaving damage in it's path.\n$tgp_natural_disaster_cleanup_tt$"
+ tgp_natural_disaster_flood_2_county_modifier_desc: "This county is afflicted by a terrible flood, leaving damage in its path.\n$tgp_natural_disaster_cleanup_tt$"
  tgp_natural_disaster_flood_3_county_modifier: "Terrible Flooding"
  tgp_natural_disaster_flood_3_county_modifier_desc: "Flooding endangers the very survival of this county, with the potential to leave it desolate and stripped of all value.\n$tgp_natural_disaster_cleanup_tt$"
 

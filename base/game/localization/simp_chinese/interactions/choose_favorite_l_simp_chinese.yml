@@ -12,5 +12,6 @@
  no_republic_or_theocracy_tt: "#X 不能是[theocracy|E]或[republic|E]统治者#!"
  cant_already_be_your_heir: "#X 不能已经是你的[primary_heir|E]#!"
  cant_be_hostage_tt: "#X 不能是[hostage|E]#!"
+ recently_sent_to_exam_tt: "#X 最近被送去参加过考试#!"
  cant_be_another_player_tt: "#X 不能是另一名玩家#!"
  must_be_direct_descendant_tt: "#X 必须是你的直系后裔：子女，孙子女，曾孙子女#!"

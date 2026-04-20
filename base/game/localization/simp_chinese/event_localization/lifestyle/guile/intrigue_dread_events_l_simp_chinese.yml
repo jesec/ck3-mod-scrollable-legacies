@@ -206,10 +206,10 @@
  tooltip.intrigue_dread.2001.c.duel_failure: "[loved_one.GetFirstName]公开反抗你"
  intrigue_protected_by_loved_one_modifier: "受爱人保护"
  intrigue_protected_by_loved_one_modifier_desc: "该角色有一个愿意做#EMP 任何事情#!来保护自己的爱人。"
- intrigue_defied_loved_one_opinion: "背叛爱人"
+ intrigue_defied_loved_one_opinion: "背叛了爱人"
  #Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t: "关于[family_member.GetFirstNameNoTooltip]的传言"
- intrigue_dread.2101.desc.intro: "“那些关于你的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))][family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]的恶毒传言……我已经查出了源头。”[spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)]拍了拍一捆信函。\n\n那些信证明[hater.GetName]想要败坏[family_member.GetFirstNamePossessive]的名声。"
+ intrigue_dread.2101.desc.intro: "“那些关于你的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))][family_member.GetTitledFirstName]的恶毒传言……我已经查出了源头。”[spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U]拍了拍一捆信函。\n\n那些信证明[hater.GetName]想要败坏[family_member.GetFirstNamePossessive]的名声。"
  intrigue_dread.2101.desc.failed_assassination: "[hater.GetSheHe|U]甚至指控[family_member.GetFirstName]想要杀[hater.GetHerHim]！"
  intrigue_dread.2101.desc.committed_adultery: "[hater.GetSheHe|U]宣称[family_member.GetFirstName]是个不忠的[family_member.GetWifeHusband]，并且讲述了关于[family_member.GetHerHis]的露骨故事！"
  intrigue_dread.2101.desc.bullied_me: "[hater.GetSheHe|U]宣称[family_member.GetFirstName][family_member.GetHerHim]从小就是个坏种，那时候[family_member.GetSheHe]就残忍地霸凌[hater.GetNameNoTooltip]。"

@@ -14,7 +14,7 @@
  pay_homage.0001.b.tt: "[homage_vassal.GetTitledFirstName] уходит"
  #Activity End: Vassal learns that liege refuses to hear petition
  pay_homage.0009.opening: "[homage_liege.Custom2('AppropriateGreeting', ROOT.Char )]"
- pay_homage.0009.desc: "Меня не так просто одурачить, [homage_vassal.Custom2('InsultAdjective', SCOPE.sC('homage_liege'))] вы [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'обманщица', 'обманщик' )]. Ваша присяга для меня пустой звук!"
+ pay_homage.0009.desc: "Меня не так просто одурачить, [homage_vassal.Custom2('InsultAdjective', SCOPE.sC('homage_liege'))][Select_CString(homage_vassal.IsFemale, 'ая', 'ый' )] вы [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'обманщица', 'обманщик' )]. Ваша присяга для меня пустой звук!"
  pay_homage.0009.a: "Возмутительно!"
  #Liege Event: Liege receives homage from vassal
  pay_homage.0101.t: "$pay_homage_header$ Преклонение колена"

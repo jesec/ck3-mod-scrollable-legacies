@@ -78,7 +78,7 @@
  HIRED_TROOPS_VIEW_HR_STATUS_AT_WAR_AGAINST_YOU: "#X 与你交战#!"
  HIRED_TROOPS_VIEW_HR_STATUS_AT_WAR: "#X 处于战争#!"
  HIRED_TROOPS_VIEW_HR_STATUS_BUSY: "#X 繁忙#!"
- HIRED_TROOPS_VIEW_HR_COST: "@gold_icon!$COST|0$"
+ HIRED_TROOPS_VIEW_HR_COST: "[SelectLocalization( GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!' )]$COST|0$"
  TITLE_TROOPS_MAPMODE_TOOLTIP_STATUS: "#weak 状态：#![Title.GetAdministrativeArmyStatus]"
  TITLE_TROOPS_MAPMODE_TOOLTIP_TROOPS_FROM: "部队来自："
  TITLE_TROOPS_MAPMODE_TOOLTIP_CURRENT_ARMY_SIZE: "#weak 军队规模：#![Title.GetTotalTitleMAATroopsDesc]"

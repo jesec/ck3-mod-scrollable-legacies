@@ -72,11 +72,8 @@ marriage_interaction.0001 = {
 
 	after = {
 		hidden_effect = {
-			if = {
-				limit = { this = scope:rejected_betrothed }
-				scope:rejecting_betrothed = {
-					break_betrothal = scope:rejected_betrothed
-				}
+			scope:rejecting_betrothed = {
+				break_betrothal = scope:rejected_betrothed
 			}
 		}
 	}

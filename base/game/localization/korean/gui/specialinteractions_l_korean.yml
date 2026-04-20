@@ -671,6 +671,7 @@
  AI_OPINION_PRESTIGE_LEVEL_LEGENDARY: "[GetPrestigeLevelName('(int32)5')] [prestige_level|E]: $VALUE|=+0$"
  AI_OPINION_MERIT_LEVEL: "[merit_level|E]: $VALUE|=+0$"
  TRADE_INFLUENCE_FOR_BETTER_AI_ACCEPTANCE: "당신의 [influence_i|E][influence|E] 제공"
+ DEMAND_INFLUENCE_AI_ACCEPTANCE: "[influence_i|E][influence|E] 요구"
  INFLUENCE_INTERACTION_ACCEPTANCE_SEND_OPTION: "[influence|E] 소모: $VALUE|=+0$"
  not_same_realm_tt: "당신과 [recipient.GetShortUIName](이)가 같은 봉역에 있지 #BOLD 않음#!"
  same_realm_tt: "당신 및 [recipient.GetShortUIName](이)가 같은 봉역에 있음"

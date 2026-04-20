@@ -105,6 +105,8 @@
  message_filter_house_unity_stage_desc: "Cambia el [Concept( 'house_unity_level', 'nivel de unidad de tu casa' )|E]"
  message_filter_dynasty_child_of_age: "@dynasty_icon_alt! Mayoría de edad"
  message_filter_dynasty_child_of_age_desc: "Un [child|lE] de tu [dynasty|lE] se hace mayor de edad en tu [court|lE]"
+ message_filter_child_of_age: "@child_icon! Mayoría de edad de tu vástago"
+ message_filter_child_of_age_desc: "Uno de tus [Concept('children', 'vástagos')|E] ha alcanzado la mayoría de edad"
  #DEATH
  message_filter_death_family: "@death_icon! Familia cercana"
  message_filter_death_family_desc: "Muere alguien de la [close_family|lE]"
@@ -297,6 +299,10 @@
  message_filter_accolade_rank_desc: "Un [accolade|lE] que poseas cambia de grado"
  message_filter_accolade_succession: "@accolade_icon! Sucesión de caballero"
  message_filter_accolade_succession_desc: "Cambia tu [acclaimed_knight|lE]"
+ message_filter_accolade_eligibility: "@accolade_icon! Caballero elegible para un [accolade_type|El]"
+ message_filter_accolade_eligibility_desc: "A un [knight|El] se le puede otorgar un [accolade|El] de un [Concept('accolade_type', 'tipo')|E] nuevo"
+ message_filter_squire_training: "@accolade_icon! [acclaimed_knight|E] ha entrenado a un escudero"
+ message_filter_squire_training_desc: "Las habilidades de un [courtier|El] mejoran gracias a la aptitud de los [accolade_squires|El] de un [accolade|El]"
  #ACTIVITY
  message_filter_tournament_arrival: "@tournament_icon! Llegada de gobernante"
  message_filter_tournament_arrival_desc: "Un [ruler|lE] notable llega como [activity_guest|lE] a tu [GetActivityType( 'activity_tournament' ).GetName|l]"

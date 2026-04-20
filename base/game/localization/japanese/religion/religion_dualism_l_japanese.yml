@@ -114,8 +114,8 @@
  #Mandeanism
  mandeaism: "マンダ教"
  mandeaism_adj: "マンダ教"
- mandeaism_adherent: "マンダ教徒"
- mandeaism_adherent_plural: "マンダ教徒"
+ mandeaism_adherent: "マンダ教"
+ mandeaism_adherent_plural: "マンダ教"
  mandeaism_desc: "マンダ教はその系譜をアダムにまでさかのぼり、洗礼者ヨハネを最も偉大な預言者とする。世界は光と闇からなり、やがてすべての定命の魂は永遠の光へ還る価値があるかどうかを審判される。"
  mandeaism_high_god_name: "最初の光"
  mandeaism_high_god_name_2: "$mandeaism_high_god_name$" #Optional translation alt

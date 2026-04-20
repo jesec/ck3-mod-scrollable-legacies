@@ -36,6 +36,7 @@
 		scope:target = {
 			is_ai = yes
 			is_independent_ruler = yes
+			is_landed = yes
 			is_alive = yes
 			in_diplomatic_range = scope:owner
 			this != scope:owner

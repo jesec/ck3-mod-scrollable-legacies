@@ -374,7 +374,7 @@
  #Important Action
  action_ongoing_house_feud: "[house_feud|E] entre Maisons en cours"
  action_ongoing_house_feud_label: "@dynasty_icon! Votre Maison se querelle avec la Maison [recipient.GetHouse.GetBaseNameNoTooltip]"
- action_ongoing_house_feud_desc: "Votre famille considère la Maison [recipient.GetHouse.GetBaseName] comme son ennemie et sera récompensée à chaque fois qu’elle lui causera du tort.\n\n#help Le meurtre, la [torturing|El], l’adultère, le vol et remporter des [wars|El] à l’encontre de ses membres augmente le score de votre Maison, tandis qu’en être victime le réduit.#!\n\n#help $house_feud_balance_action_tt$#!\n"
+ action_ongoing_house_feud_desc: "Votre famille considère la Maison [recipient.GetHouse.GetBaseName] comme son ennemie et sera récompensée à chaque fois qu’elle lui causera du tort.\n\n#help Le meurtre, la [torturing|El], l’adultère, le vol et remporter des [wars|El] à l’encontre de ses membres augmente le score de votre Maison, tandis qu’en être victime le réduit.#!\n"
  action_ongoing_house_feud_click: "#I Cliquez pour voir le chef de Maison de la [house_feud|El] #!"
  action_ongoing_house_feud_unimportant: "@warning_icon! #N Votre Maison est en train de perdre la [house_feud|El]#!"
  swap_feud_tt: "Mettre un terme à la [house_feud|El] avec la [house|E] [house_feud_existing.GetBaseName]"

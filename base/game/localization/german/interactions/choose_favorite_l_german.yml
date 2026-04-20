@@ -12,5 +12,6 @@
  no_republic_or_theocracy_tt: "#X Darf kein Herrscher über eine [theocracy|E] oder eine [republic|E] sein#!"
  cant_already_be_your_heir: "#X Darf nicht bereits Euer [primary_heir|E] sein#!"
  cant_be_hostage_tt: "#X Darf keine [hostage|E] sein#!"
+ recently_sent_to_exam_tt: "#X Wurde vor Kurzem zu einer Prüfung geschickt#!"
  cant_be_another_player_tt: "#X Darf kein anderer Spieler sein#!"
  must_be_direct_descendant_tt: "#X Muss Euer direkter Nachkomme sein: Kind, Enkel, Urenkel#!"

@@ -29,7 +29,7 @@ ach_partners_in_revanchism_active_modifier = {
 }
 
 ach_neutered_revanchist_modifier = {
-    icon = stress_mixed
+    icon = stress_negative
     stress_loss_mult = -0.2
     stress_gain_mult = 0.2
     martial = -4

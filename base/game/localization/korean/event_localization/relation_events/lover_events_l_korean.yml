@@ -40,7 +40,7 @@
  lover.0003.desc.end2people: "사람과"
  lover.0003.desc.end3: " 어울리다간, 인생이 끝장날지도 몰라!"
  lover_0003.a: "[lover_1.GetFirstNameNoTooltip](을)를 보내줘야 해."
- lover_0003.b: "[lover_2.GetFirstNameNoTooltip](와)과 함께 끝까지 가볼 생각이야."
+ lover_0003.b: "[lover_2.GetFirstNameNoTooltip](와)과의 관계는 끝낼 생각이야."
  lover_0003.c: "이런 식으로 [lover_3.GetFirstNameNoTooltip](와)과 함께할 수는 없어."
  lover_0003.d: "연애는 양보다 질이란 말씀이야!"
  lover_0003.d.tt: "혹사당하는 일이 없게 낭만적인 말솜씨로 연인을 만족시키려 함"

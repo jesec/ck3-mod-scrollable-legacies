@@ -158,11 +158,11 @@ raid_insight_tea = {
 }
 
 ep3_admin_renounce_throne_personal = {
-	icon = byzantine_crown_mixed
+	icon = byzantine_crown_positive
 	stress_loss_mult = 0.1
 }
 
 ep3_admin_renounce_throne_house = {
-	icon = byzantine_crown_mixed
+	icon = byzantine_crown_negative
 	monthly_influence_mult = -0.05
 }

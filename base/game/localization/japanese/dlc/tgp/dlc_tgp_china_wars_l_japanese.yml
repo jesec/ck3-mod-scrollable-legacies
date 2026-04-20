@@ -27,7 +27,7 @@
  dynastic_cycle_hegemon_legitimacy_level_cost_desc: "[defender.GetShortUINamePossessive]の[legitimacy_level|E]"
  # CONSOLIDATION WAR
  chinese_consolidation_cb: "$CHINESE_CONSOLIDATION_WAR_NAME$"
- CHINESE_CONSOLIDATION_WAR_NAME: "覇権統一戦争"
+ CHINESE_CONSOLIDATION_WAR_NAME: "中国統一戦争"
  CHINESE_CONSOLIDATION_WAR_NAME_BASE: "$CHINESE_CONSOLIDATION_WAR_NAME$"
  CHINESE_CONSOLIDATION_CB_NAME: "天の下に領土を統一（[dynastic_cycle|E]）"
  chinese_consolidation_cb_victory_desc_attacker: "あなたはあなたの[primary_title|E]の[title_tier|E]以上の[defender.GetShortUINamePossessive]の[titles|E]すべてを奪うか、[de_jure|E]の[GetTitleByKey('h_china').GetDefinitiveName]に属する[defender.GetShortUINameNoTooltip]のすべてを封臣を従属させる。"

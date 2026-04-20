@@ -1,6 +1,32 @@
 ﻿story_hasan = {
 	# by James Beaumont
-	
+	visible = yes
+	icon = {
+		trigger = {
+			always = yes
+		}
+		reference = "gfx/interface/icons/regimenttypes/mubarizun.dds"
+	}
+	visualization = {
+		decisions = {
+			hasan_evangelize_the_faith
+			hasan_agitate_the_populace
+			hasan_ignite_the_flames
+			hasan_found_the_assassins
+			hasan_expand_the_assassins
+			zealous_missionary_prep_decision
+		}
+		basic_counter = {
+			variable_name = "radical_points"
+			min = 0
+			max = 15
+			label = "PROGRESS_TOWARDS_ASSASSIN_PATH"
+		}
+		character = {
+			variable_name = "ultimate_foe"
+			label = "ULTIMATE_FOE"
+		}
+	}
 	on_setup = {
 		
 	}

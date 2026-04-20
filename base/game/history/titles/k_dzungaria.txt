@@ -47,7 +47,7 @@ k_dzungaria = {
 	}
 	##Vassalized by Kara-Khitans / Great Liao in 1132
 	1132.1.1 = {
-		liege = e_kara_khitai
+		liege = 0 # moved to tributary
 	}
 	1160.1.11 = {
 		holder = uyghur0089
@@ -624,6 +624,7 @@ c_yangjibaliq = {
 	}
 	1066.1.1 = {	#Fictional to avoid domain overlimit
 		holder = fictional_uyghurs_1
+		government = feudal_government
 	}
 	1068.7.11 = {
 		holder = 302981	#Bügü Bilgä (Arslan)
@@ -721,6 +722,7 @@ c_bugur = {
 	}
 	1066.1.1 = {	#Fictional to avoid domain overlimit
 		holder = fictional_uyghurs_1
+		government = feudal_government
 	}
 	1068.7.11 = {
 		holder = 302981	#Bügü Bilgä (Arslan)
@@ -1717,7 +1719,7 @@ c_boro_burgasu = {
 	1157.9.3 = {
 		holder = fictional_naimans_9	#fictional herder
 		government = herder_government
-		liege = d_naiman_gobi
+		liege = 0
 	}
 	1187.6.16 = {
 		holder = 303319		#fictional Tooril Buku

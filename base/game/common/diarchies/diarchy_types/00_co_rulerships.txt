@@ -26,7 +26,7 @@ junior_emperorship = {
 		add = mandate_type_qualification:swell_armies
 		add = mandate_type_qualification:promote_authority
 	}
-	
+
 	# Scales of Power
 	## 000
 	power_level = {
@@ -146,7 +146,7 @@ co_emperorship = {
 		add = mandate_type_qualification:swell_armies
 		add = mandate_type_qualification:promote_authority
 	}
-	
+
 	# Scales of Power
 	## 000
 	power_level = {
@@ -253,7 +253,7 @@ co_monarchy = {
 		add = mandate_type_qualification:swell_armies
 		add = mandate_type_qualification:promote_authority
 	}
-	
+
 	# Scales of Power
 	## 000
 	power_level = {
@@ -310,7 +310,7 @@ co_monarchy = {
 
 	loyalty_score = { add = diarch_loyalty_score_type_co_emperorship_value }
 
-	end_interaction = execute_prisoner_interaction
+	end_interaction = systematically_maim_character_interaction
 
 	liege_modifier = {
 		name = from_co_monarch_diplomacy_vassal_opinion

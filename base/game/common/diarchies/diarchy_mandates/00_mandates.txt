@@ -363,24 +363,34 @@ promote_merit = {
 			}
 			# Secondary skills.
 			add = {
-				value = 0
+				value = 0.1
 				every_relation = {
 					type = disciple
-					add = 1
+					add = 2
 				}
 				desc = mandate_aptitude.promote_merit.disciples
 			}
 			add = {
-				value = "has_trait_xp(confucian_education)"
+				value = 0.1
+				add = "has_trait_xp(confucian_education)"
 				multiply = 0.25
 				desc = mandate_aptitude.promote_merit.confucian_education
 			}
-		}
-		if = {
-			limit = {
-				this = title:e_minister_grand_marshal.holder
+			if = {
+				limit = {
+					this != title:e_minister_chancellor.holder
+				}
+				multiply = {
+					value = 0.25
+					desc = mandate_aptitude.council_type_penalty
+				}
 			}
-			multiply = 0
+			else = {
+				multiply = {
+					value = 1.5
+					desc = mandate_aptitude.council_type_bonus
+				}
+			}
 		}
 	}
 
@@ -441,12 +451,21 @@ promote_might = {
 				multiply = 0.5
 				desc = mandate_aptitude.promote_might.secondary_skill.diplomacy
 			}
-		}
-		if = {
-			limit = {
-				this = title:e_minister_chancellor.holder
+			if = {
+				limit = {
+					this != title:e_minister_grand_marshal.holder
+				}
+				multiply = {
+					value = 0.25
+					desc = mandate_aptitude.council_type_penalty
+				}
 			}
-			multiply = 0
+			else = {
+				multiply = {
+					value = 1.5
+					desc = mandate_aptitude.council_type_bonus
+				}
+			}
 		}
 	}
 
@@ -492,24 +511,34 @@ placate_movements = {
 			desc = mandate_aptitude.placate_movements.category
 			# Primary skill.
 			add = {
-				value = diplomacy
+				value = intrigue
 				desc = mandate_aptitude.placate_movements.primary_skill.diplomacy
 			}
 			# Secondary skills.
 			add = {
-				value = intrigue
+				value = diplomacy
 				multiply = 0.3
 				desc = mandate_aptitude.placate_movements.secondary_skill.intrigue
-			}
-			add = {
-				value = stewardship
-				multiply = 0.3
-				desc = mandate_aptitude.placate_movements.secondary_skill.stewardship
 			}
 			add = {
 				value = learning
 				multiply = 0.3
 				desc = mandate_aptitude.placate_movements.secondary_skill.learning
+			}
+			if = {
+				limit = {
+					this != title:e_minister_censor.holder
+				}
+				multiply = {
+					value = 0.25
+					desc = mandate_aptitude.council_type_penalty
+				}
+			}
+			else = {
+				multiply = {
+					value = 1.5
+					desc = mandate_aptitude.council_type_bonus
+				}
 			}
 		}
 	}

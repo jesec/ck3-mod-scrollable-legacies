@@ -339,7 +339,7 @@
  laamp_base_6031_request: "この[task_contract|E]では、[scheme|E]「[GetScheme('laamp_base_6031_contract_scheme').GetTypeName]」を完了しなければならない"
  laamp_base_6031_desc_title: "求む！屈強な人物"
  laamp_base_6031_desc: "[TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier]の橋は無防備な状態のままだ。盗賊を寄せ付けないためには、武力を誇示する必要がある。盗賊を止められる者であれば誰でも、[TaskContract.GetEmployer.GetTitledFirstNameNoTooltip]が報酬を支払う。"
- laamp_base_contract_schemes.6031.t: "$laamp_base_6021_contract_scheme$"
+ laamp_base_contract_schemes.6031.t: "$laamp_base_6031_contract_scheme$"
  laamp_base_contract_schemes.6031.desc: "[employer.GetTitledFirstName]が野営地を進みながら、[ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('employer'))]。\n\n「素晴らしい朝だ」[employer.GetSheHe]が口を開いた。「悪党どもに$knight_culture_player_no_tooltip$の真価を示す良い機会だ。実は[ROOT.Char.GetCurrentLocation.GetName]に繋がる橋があるのだが、不届き者や愚か者どもがたむろしているのだ」\n\n「誰かが何とかしなくてはならない」"
  laamp_base_contract_schemes.6031.a: "私が三百の槍を折ってみせよう！"
  laamp_base_contract_schemes.6031.b: "数日かかるだろう。"

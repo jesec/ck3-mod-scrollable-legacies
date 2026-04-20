@@ -682,7 +682,7 @@ claim_throne_outcome.4003 = {
 #A Vassal has a claim on my Primary Title
 claim_throne_outcome.5001 = {
 	type = character_event
-	window = scheme_target_event
+	window = scheme_conclusion_event_no_header
 	title = claim_throne_outcome.1001.t
 	desc = {
 		desc = claim_throne_outcome.5001.opening
@@ -745,7 +745,7 @@ claim_throne_outcome.5001 = {
 #A Vassal has an illegitimate claim on my Primary Title
 claim_throne_outcome.5002 = {
 	type = character_event
-	window = scheme_target_event
+	window = scheme_conclusion_event_no_header
 	title = claim_throne_outcome.1001.t
 	desc = {
 		desc = claim_throne_outcome.5001.opening
@@ -812,7 +812,7 @@ claim_throne_outcome.5002 = {
 #Someone tried to claim my throne - Only fires if Scheme was discovered
 claim_throne_outcome.5003 = {
 	type = character_event
-	window = scheme_target_event
+	window = scheme_conclusion_event_no_header
 	title = claim_throne_outcome.1001.t
 	desc = {
 		desc = claim_throne_outcome.5003.opening

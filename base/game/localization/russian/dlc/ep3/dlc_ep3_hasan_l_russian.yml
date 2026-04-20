@@ -20,6 +20,11 @@
  hasan_expand_the_assassins_desc: "Нам нужно больше владений, чтобы наш орден мог и дальше расширять свое влияние. Скоро, скоро увидим мы конец святотатцев!"
  hasan_expand_the_assassins_tooltip: "Расширить [Concept( 'holy_order', 'священный орден' )|E]"
  hasan_expand_the_assassins_confirm: "Новый дом"
+ #Story Cycle
+ ULTIMATE_FOE: "Величайший враг"
+ story_hasan: "Легенда Хасана Саббаха"
+ story_hasan_desc: "Сила веры способна низвергать империи и творить историю вернее любых армий. Сумеете ли вы основать орден ассасинов и избавить народ от ига сельджуков? Готовы ли вы стать Горным Старцем?"
+ PROGRESS_TOWARDS_ASSASSIN_PATH: "Прогресс на пути ассасина"
  #Events
  hasan_sabbah.1000.t: "[GetFaithByKey('ismaili').GetNameNoTooltip|U]ие проповедники"
  hasan_sabbah.1000.desc: "[amira.GetName|U], истово [Select_CString(amira.IsFemale, 'верующая сторонница', 'верующий сторонник' )] египетского халифа, снова проповедует свою необычную версию ислама в самом сердце владения [location.GetName]. [ROOT.Char.GetFaith.HighGodName|U] знает, прежде я никогда не [Select_CString(ROOT.Char.IsFemale, 'сомневалась', 'сомневался' )] в истинности исламской веры и [Select_CString(ROOT.Char.IsFemale, 'верила', 'верил' )], что лишь [ROOT.Char.GetFaith.GetAdjective|l] знает все ответы. Но в проповедях своих [amira.GetFirstNameNoTooltip] затрагивает самые потаенные струны моей души…\n\nВесь оставшийся день я и [amira.GetFirstNameNoTooltip] обсуждали священные тексты и хадисы, и я вдруг начинаю различать в #L [GetFaithByKey('ismaili').GetName|l]ой#! философии некое зерно истины."
@@ -57,7 +62,7 @@
  hasan_sabbah.1040.a.win: "$hasan_sabbah.1010.a.win$"
  hasan_sabbah.1040.a.lose: "$hasan_sabbah.1010.a.lose$"
  hasan_sabbah.1050.t: "Горный старец"
- hasan_sabbah.1050.desc: "[defender.Custom2('InsultAdjective', ROOT.Char)|U] [defender.GetName] и [defender.GetHerHis] империя наконец-то повержены! Их всех ожидает [ROOT.Char.GetFaith.NegativeAfterLife|l], где им самое место. Захватив руины павшей империи, мои сторонники ожидают новых распоряжений. Что же ждет #L [ROOT.Char.GetFaith.GetName|l]ую#! веру в грядущие дни?\n\nТеперь, когда [defender.GetFirstNameNoTooltip] нам больше не угрожает, ничто не мешает освободить владение [hasan_home.GetName]. Это место может стать базой для дальнейших операций во всём регионе."
+ hasan_sabbah.1050.desc: "[defender.Custom2('InsultAdjective', ROOT.Char)|U][Select_CString(defender.IsFemale, 'ая', 'ый' )] [defender.GetName] и [defender.GetHerHis] империя наконец-то повержены! Их всех ожидает [ROOT.Char.GetFaith.NegativeAfterLife|l], где им самое место. Захватив руины павшей империи, мои сторонники ожидают новых распоряжений. Что же ждет #L [ROOT.Char.GetFaith.GetName|l]ую#! веру в грядущие дни?\n\nТеперь, когда [defender.GetFirstNameNoTooltip] нам больше не угрожает, ничто не мешает освободить владение [hasan_home.GetName]. Это место может стать базой для дальнейших операций во всём регионе."
  hasan_sabbah.1050.a: "[hasan_home.GetNameNoTierNoTooltip|U] станет символом новой эпохи."
  hasan_sabbah.1050.b: "Мы продолжим — сражение наше вечно."
  #Modifiers

@@ -22,3 +22,8 @@ macro = {
 	replace_with = "AddLocalizationIf( LessThan_CFixedPoint(ActivityWindow.GetSpecialProgressValue, SetVariable), SetVariable2 )"
 }
 
+macro = {
+	description = "Is the character one that will hold Coronations?"
+	definition = "CoronationCharacter(ScopeCharacter)"
+	replace_with = "GetScriptedGui( 'coronation_trigger_gui' ).IsValid( GuiScope.SetRoot( ScopeCharacter.MakeScope ).End )"
+}

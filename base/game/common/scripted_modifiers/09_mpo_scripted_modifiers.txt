@@ -306,9 +306,7 @@ mpo_blood_brother_interactions_ai_accept_modifier = {
 			scope:recipient = {
 				NOT = {
 					any_neighboring_top_liege_realm_owner = {
-						NOT = {
-							this = scope:actor
-						}
+						this != scope:actor
 					}
 				}
 				NOT = {

@@ -280,3 +280,5 @@
  game_concept_appointment_level: "任命レベル"
  game_concept_appointment_levels: "任命レベル"
  game_concept_appointment_level_desc: "$game_concept_appointment_level$は、一部の[appointment_succession_laws|E]において、[characters|E]が有効な候補者となるための必要条件として利用されます。\n\nこのレベルは特定の通貨のレベルに基づいており、利用される通貨も法律によって異なります。通常、階級の高い[title|E]ほど高いレベルが求められます。\n\n#weak 例：[GetLaw('celestial_appointment_succession_law').GetName]は[merit|E]を必要とします。[duchy|E]には[GetModifier( 'merit_level_3' ).GetNameWithTooltip|L]以上の、[kingdom|E]には[GetModifier( 'merit_level_5' ).GetNameWithTooltip|L]以上の[merit_level|E]が必要です。#!"
+ game_concept_seize_peripheral_duchy: "周辺公爵領の奪取"
+ game_concept_seize_peripheral_duchy_desc: "[government_bureaucratic_type|E]の[government_form|E]に統治されている[realm|E]と国境を接する[rulers|E]が利用できる[casus_belli|E]です。\n\n防衛側の首都の[de_jure|E]序列に属していない隣接する[duchy|E]を奪取できます。"

@@ -1,6 +1,6 @@
 ﻿l_japanese:
  ep2_accolade_events.0100.t: "狩人の技術"
- ep2_accolade_events.0100.desc: "やみくもに野生動物を追いかけ、ひたすらに矢を放ち続けるのか？\n\n「無駄だ！」[ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]として名を馳せた[huntsmaster.GetName]が笑う。\n\n獣は狡猾だ。近づくと追跡者の匂いを嗅ぎつけて散らばり、追い詰められると凶暴化する。獲物を倒すには、その自然を熟知し、一度角笛を鳴らしたら決して手を緩めないことだ。\n\n[huntsmaster.GetHerHis]仲間内で、最も熟達した狩人は[huntsmaster.GetFirstNameNoTooltip]だ。"
+ ep2_accolade_events.0100.desc: "やみくもに野生動物を追いかけ、ひたすらに矢を放ち続けるのか？\n\n「無駄だ！」[ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]として名を馳せた[huntsmaster.GetName]が笑う。\n\n獣は狡猾だ。近づくと追跡者の匂いを嗅ぎつけて散らばり、追い詰められると凶暴化する。獲物を倒すには、その自然を熟知し、一度角笛を鳴らしたら決して手を緩めないことだ。\n\n[huntsmaster.GetHerHis]の仲間内で、最も熟達した狩人は[huntsmaster.GetFirstNameNoTooltip]だ。"
  ep2_accolade_events.0100.desc.both: "[ROOT.Char.Custom2('RelationToMeShort', new_hunter_2)]の[new_hunter_2.GetFirstName]と私は、[ROOT.Char.GetFaith.HighGodName]の生物の生態と…それを出し抜くすべを知りつつある。"
  ep2_accolade_events.0100.desc.heir: "[ROOT.Char.Custom2('RelationToMeShort', new_hunter)]の[new_hunter.GetFirstName]は、[ROOT.Char.GetFaith.HighGodName]の生物の生態と…それを出し抜くすべを知りつつある。"
  ep2_accolade_events.0100.desc.liege: "私は[ROOT.Char.GetFaith.HighGodName]の生物の生態と…それを出し抜くすべを知りつつある。"

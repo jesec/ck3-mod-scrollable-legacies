@@ -60,7 +60,7 @@
  NUM_OF_RELATION_BEST_FRIEND_TRIGGER: "Liczba [Concept('best_friend', 'najlepszych przyjaciół')|E] wynosi $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_CRUSH_TRIGGER: "Liczba [Concept('crushes', 'sympatii')|E] wynosi $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_SOULMATE_TRIGGER: "Liczba [Concept('soulmates', 'bratnich dusz')|E] wynosi $COMPARATOR$ $NUM|V0$"
- HAS_RELATION_POSSIBLE_PARENT_OF_TARGET: "To mógłby być [parent|E] osoby, którą jest [TARGET_CHARACTER.GetShortUINameNotMe]"
+ HAS_RELATION_POSSIBLE_PARENT_OF_TARGET: "To mógłby być rodzicem osoby, którą jest [TARGET_CHARACTER.GetShortUINameNotMe]"
  HAS_RELATION_BLOOD_BROTHER_WITH_TARGET: "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] to bracia krwi"
  HAS_RELATION_NEMESIS_WITH_TARGET: "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] są [Concept('nemeses', 'śmiertelnymi wrogami')|E]"
  NOT_HAS_RELATION_NEMESIS_WITH_TARGET: "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] nie są [Concept('nemeses', 'śmiertelnymi wrogami')|E]"

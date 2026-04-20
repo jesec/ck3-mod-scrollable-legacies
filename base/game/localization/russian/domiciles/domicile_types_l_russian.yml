@@ -41,7 +41,7 @@
  DOMICILE_RESOURCE_HERD_BALANCE: "[Domicile.GetHerdResource|=0]"
  domicile_adventurer: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
  domicile_estate: "поместье дома [CHARACTER.GetHouse.GetNameNoTooltip]"
- DOMICILE_HERD_TITLE: "[herd|E]: [Domicile.GetHerd|V0]/[Domicile.GetHerdLimit]"
+ DOMICILE_HERD_TITLE: "[herd|E]: [Domicile.GetHerd|V0]/[Domicile.GetHerdLimit|0]"
  DOMICILE_HERD_MONTHLY_CHANGE: "Изменение за месяц"
  DOMICILE_HERD_BREAKDOWN_GAIN: "Прирост стад"
  DOMICILE_HERD_BREAKDOWN_LOSS: "Уменьшение стад"

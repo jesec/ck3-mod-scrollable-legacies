@@ -98,8 +98,8 @@
  natural_disaster.6911.minister_of_justice: "$natural_disaster.6911.a.minister_censor$"
  natural_disaster.6911.minister_of_works: ""Resettlement of the victims is a top priority.""
  natural_disaster.6911.a: ""Expenses run high, I need the treasury.""
- natural_disaster_recovery_minister_of_revenue_tt: "Prevent all negative [tax|E] [modifiers|E] from [contributions|E] in [great_project.GetName]"
- natural_disaster_recovery_minister_of_works_tt: "Prevent all negative [domain|E] [modifiers|E] from [contributions|E] in [great_project.GetName]"
+ natural_disaster_recovery_minister_of_revenue_tt: "Prevent all negative [tax|E] [modifiers|E] from [great_project_contributions|E] in [great_project.GetName]"
+ natural_disaster_recovery_minister_of_works_tt: "Prevent all negative [domain|E] [modifiers|E] from [great_project_contributions|E] in [great_project.GetName]"
  minister_has_aidee_to_send_tt: "Employs [GetCourtPositionType( 'minister_bureaucrat_court_position' ).GetName]"
 
  # WARNING

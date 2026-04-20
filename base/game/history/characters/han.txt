@@ -18085,6 +18085,7 @@ han_8052 = {
 	culture = "han"
 	father = han_6262
 	mother = han_7083
+	health = 2
 	trait = diligent
 	trait = depressed_1
 	trait = humble

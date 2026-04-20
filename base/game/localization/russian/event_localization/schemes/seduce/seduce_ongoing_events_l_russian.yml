@@ -471,7 +471,7 @@
  seduce_ongoing.5301.c: "Ужасно не хочется портить такой прекрасный вечер."
  seduce_ongoing.5301.c.tt: "#F Будут и другие возможности. [Select_CString(target.IsFemale, 'Моя', 'Мой' )] [THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))] никуда не денется.#!"
  seduce_ongoing.5301.success_tt: "Если [target.GetFirstName] ответит взаимностью:"
- seduce_ongoing.5302.desc: "Это так естественно, что сначала я даже не замечаю. Мы сидим у камина, и [Select_CString(owner.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] берет меня за руку крепче, чем подобает.\n\nЯ чувствую, как от страсти [target.GetHerHis] сердце начинает биться быстрее."
+ seduce_ongoing.5302.desc: "Это так естественно, что сначала я даже не замечаю. Мы сидим у камина, и [Select_CString(owner.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] берет меня за руку крепче, чем подобает.\n\nЯ чувствую, как от страсти [owner.GetHerHis] сердце начинает биться быстрее."
  seduce_ongoing.5302.a: "Я не верю, что мои чувства порочны."
  seduce_ongoing.5302.b: "Мне приятен твой интерес, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], но нет."
  seduce_ongoing.5303.desc: "[SCOPE.sC('target').GetFirstName] даже не вздрагивает, когда я беру [SCOPE.sC('target').GetHersHis] руку, хотя мы прекрасно знаем, к чему я веду. Разговор продолжается, а [SCOPE.sC('target').GetHerHis] сердце бьется все чаще и чаще. Капельки пота проступают у меня на запястье, а дыхание учащается, и вдруг...\n#EMP Что это было?#! А, просто слуга.\n\n[Select_CString(target.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] и я прощаемся и расходимся. В разные стороны."

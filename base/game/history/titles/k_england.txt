@@ -593,6 +593,7 @@ d_northumberland = {
 	}
 	862.1.1 = {
 		holder = 163103
+		succession_laws = { saxon_elective_succession_law }
 	}
 	875.1.1 = {
 		holder = 0
@@ -1514,6 +1515,7 @@ d_norfolk = {
 	}
 	855.1.8 = {
 		holder = 163064
+		succession_laws = { saxon_elective_succession_law }
 	}
 	879.1.1 = {
 		holder = 168650
@@ -1741,6 +1743,7 @@ d_hereford = { # Mercia
 	}
 	852.1.1 = {
 		holder = 163102
+		succession_laws = { saxon_elective_succession_law }
 	}
 	1066.1.1 = {
 		liege = "k_england"
@@ -3015,6 +3018,7 @@ d_somerset = {
 	}
 	865.1.1 = {
 		holder = 33358 # Aethelraed
+		succession_laws = { saxon_elective_succession_law }
 	}
 	871.4.24 = {
 		holder = 7627 # Alfred the Great

@@ -39,7 +39,7 @@ restore_roman_empire_decision = {
 
 	is_valid = {
 		prestige_level >= max_prestige_level
-
+		restore_roman_empire_decision_religion_culture_trigger = yes
 		completely_controls = title:d_latium
 		completely_controls = title:d_venice
 		completely_controls = title:d_romagna
@@ -62,13 +62,6 @@ restore_roman_empire_decision = {
 		is_capable_adult = yes
 		is_imprisoned = no
 		top_liege = this
-
-		OR = {
-			religion = { is_in_family = rf_abrahamic }
-			religion = religion:hellenism_religion
-			culture = { has_cultural_pillar = heritage_latin }
-			culture = { has_cultural_pillar = heritage_byzantine }
-		}
 	}
 
 	effect = {
@@ -151,6 +144,7 @@ restore_roman_empire_holy_decision = {
 
 	is_valid = {
 		prestige_level >= max_prestige_level
+		restore_roman_empire_decision_religion_culture_trigger = yes
 		completely_controls = title:d_latium
 		completely_controls = title:d_venice
 		completely_controls = title:d_romagna
@@ -173,13 +167,6 @@ restore_roman_empire_holy_decision = {
 		is_capable_adult = yes
 		is_imprisoned = no
 		top_liege = this
-
-		OR = {
-			religion = { is_in_family = rf_abrahamic }
-			religion = religion:hellenism_religion
-			culture = { has_cultural_pillar = heritage_latin }
-			culture = { has_cultural_pillar = heritage_byzantine }
-		}
 	}
 
 	effect = {
@@ -263,7 +250,7 @@ restore_roman_empire_italian_decision = {
 
 	is_valid = {
 		prestige_level >= max_prestige_level
-		
+		restore_roman_empire_decision_religion_culture_trigger = yes
 		completely_controls = title:d_latium
 		completely_controls = title:d_venice
 		completely_controls = title:d_romagna
@@ -286,13 +273,6 @@ restore_roman_empire_italian_decision = {
 		is_capable_adult = yes
 		is_imprisoned = no
 		top_liege = this
-
-		OR = {
-			religion = { is_in_family = rf_abrahamic }
-			religion = religion:hellenism_religion
-			culture = { has_cultural_pillar = heritage_latin }
-			culture = { has_cultural_pillar = heritage_byzantine }
-		}
 	}
 
 	effect = {
@@ -907,7 +887,7 @@ restore_pope_in_rome_decision = {
 		}
 		NOT = { title:c_roma.holder = { has_title = title:k_papal_state } }
 		NOT = { capital_county = { this = title:c_roma } }
-		title:k_papal_state.holder = {
+		title:k_papal_state.holder ?= {
 			NOT = { 	
 				has_opinion_modifier = { #Not accepting it if you conquered it yourself.
 					target = root

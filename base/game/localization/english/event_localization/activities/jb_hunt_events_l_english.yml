@@ -136,6 +136,7 @@
  hunt.8570.a:0 ""I'm coming!""
  hunt.8570.a.success:0 "You rescue [stampede_victim.GetHerHim] unscathed"
  hunt.8570.a.failure:0 "You rescue [stampede_victim.GetHerHim] with injuries"
+ hunt.8570.a.failure_2:0 "You failed to rescue [stampede_victim.GetHerHim]"
  hunt.8570.a.crit_failure:0 "You die in your attempt"
  hunt.8570.b:0 "Perhaps I can redirect the stampede."
  hunt.8570.b.success:0 "You redirect the stampede"

@@ -64,7 +64,7 @@
  pledge_loyalty_to_liege.0101.smooth.contract: "«Ваша служба бесценна, [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip]»."
  # Activity End: Vassal learns that liege refuses to hear petition
  pledge_loyalty_to_liege.0009.opening: "[pledge_loyalty_to_liege_scope.Custom2('AppropriateGreeting', ROOT.Char )]"
- pledge_loyalty_to_liege.0009.desc: "Меня не так просто одурачить, [pledge_loyalty_to_liege_vassal.Custom2('InsultAdjective', SCOPE.sC('pledge_loyalty_to_liege_scope'))] вы [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'обманщица', 'обманщик' )]. Ваша присяга для меня пустой звук!"
+ pledge_loyalty_to_liege.0009.desc: "Меня не так просто одурачить, [pledge_loyalty_to_liege_vassal.Custom2('InsultAdjective', SCOPE.sC('pledge_loyalty_to_liege_scope'))][Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'ая', 'ый' )] вы [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'обманщица', 'обманщик' )]. Ваша присяга для меня пустой звук!"
  pledge_loyalty_to_liege.0009.a: "Это возмутительно!"
  # Vassal Event: Vassal hears how it went
  pledge_loyalty_to_liege.0201.t: "Присяга в верности: Преклонение колена"

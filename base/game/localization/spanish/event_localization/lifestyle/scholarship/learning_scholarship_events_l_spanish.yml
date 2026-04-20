@@ -34,6 +34,18 @@
  learning_scholarship.3001.c.tt2: "No consigo ganarme a [chaplain.GetFirstName]"
  learning_scholarship.3001.c.toast.tt2: "[chaplain.GetFirstName] rechazó mis razones"
  #Translate a Great Work, by Petter Vilberg
+ #story cycle loc
+ book_translation_story: "Traducir una gran obra"
+ book_translation_story_desc: "Traducir una gran obra facultará a otros para beneficiarse de su sabiduría. Lograr esta ambiciosa hazaña intelectual será un reflejo de tu radiante brillantez; fracasar te señalará como un[ROOT.Char.Custom('ES_XA')] zoquete."
+ TRANSLATION_STORY: "Traduces [Story.GetOwner.Custom('TranslationBookLong')]"
+ TRANSLATION_QUALITY: "Calidad de la traducción"
+ POOR_TRANSLATION: "Escasa"
+ EXCELLENT_TRANSLATION: "Excelente"
+ DURATION_LEFT: "Duración restante"
+ PROGRESS_TOWARDS_CYNICISM: "Progreso hacia el cinismo"
+ CYNICISM: "Cinismo"
+ ZEALOTRY: "Fanatismo"
+ #event loc
  learning_scholarship_special.2001.t: "Una nueva traducción"
  learning_scholarship_special.2001.desc: "Antes que nada, mi búsqueda para ser un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] instruid[ROOT.Char.Custom('ES_OA')] me está enseñando lo mucho que desconoaco aún. Es más, debe de haber muchos conocimientos que se hayan perdido con el paso de los años, según los libros se van deshaciendo y las lenguas se olvidan…\n\nTal vez podría contribuir haciendo una nueva traducción de una de las obras clásicas.\n\nPero ¿qué podría traducir?…"
  learning_scholarship_special.2001.regula_pastoralis: "El Regula Pastoralis, sobre cómo llevar una buena vida."

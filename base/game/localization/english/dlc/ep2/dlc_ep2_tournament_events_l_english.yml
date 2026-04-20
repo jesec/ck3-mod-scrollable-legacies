@@ -154,6 +154,10 @@
  ep2_tournament_events.1005.t:1 "$tournament_contest_header$ Going for the Throat"
  ep2_tournament_events.1005.desc:0 "Around me, [ROOT.Char.GetWomenMen] fall out of the churning brawl with blood running freely from their limbs. Shields lie broken in twain alongside shattered spears and discarded swords, littering the field of battle.\n\nA faceless opponent advances on me and I parry [ROOT.Char.GetHerHis] blow, the vibration traveling up my arm. I weave past the next strike, miss with my own, #X step in#! to follow up and-\n\nTheir riposte has gone right under my chin. Had I stayed where I was, it would have missed. Instead, I find myself smashed in the throat. Staggering out of the brawl, I paw helplessly at the wound, sinking to my knees."
  ep2_tournament_events.1005.a:0 "...hurk!"
+ ep2_tournament_events.1005.b:0 "Yield! I yield..."
+ ep2_tournament_events.1005.success: "Just a flesh wound, after all"
+ ep2_tournament_events.1005.fail: "A pathetic end"
+ ep2_tournament_events.1005.resign: "#V You#! resign from the tournament"
 
  ep2_tournament_events.1006.t:0 "$tournament_header$ Captured"
  ep2_tournament_events.1006.start:0 "I batter at [surrendering_knight.GetFirstName] with my sword, sparks flying off the blade as it rents [surrendering_knight.GetHerHis] armor. Forced backwards and down by the hammering blows, [surrendering_knight.GetSheHe] eventually throws [surrendering_knight.GetHerHis] weapon down and raises an arm in a sign of surrender.\n\n"
@@ -641,6 +645,12 @@
  tournament_melee_death_log_title:0 "Melee Death"
  tournament_melee_death_log:0 "[CHARACTER.GetTitledFirstName] met an unfortunate end in the Melee"
 
+ tournament_melee_wounded_log_title:0 "$tournament_wounded_quit_log_title$"
+ tournament_melee_wounded_log:0 "[CHARACTER.GetTitledFirstName] resigned due to wounds"
+
+ tournament_accident_wounded_log_title: "Resilient Spirit"
+ tournament_accident_wounded_log: "[CHARACTER.GetTitledFirstName] was accidentally wounded, but keeps on fighting"
+
  tournament_wounded_quit_log_title:0 "Quit from Wounds"
  tournament_wounded_quit_log:0 "[CHARACTER.GetTitledFirstName] acquiesced to [TARGET_CHARACTER.GetTitledFirstNamePossessive] request to resign due to wounds"
 
@@ -754,6 +764,9 @@
 
  tournament_joust_injury_log_title:0 "Jousting Injury"
  tournament_joust_injury_log:0 "[CHARACTER.GetTitledFirstName] sustained a nasty injury during the Joust"
+
+ tournament_melee_injury_log_title:0 "Melee Injury"
+ tournament_melee_injury_log:0 "[CHARACTER.GetTitledFirstName] sustained a nasty injury during the Melee"
 
  tournament_mercy_pass_log_title:0 "Mercy Pass"
  tournament_mercy_pass_log:0 "[TARGET_CHARACTER.GetTitledFirstName] requested a mercy pass during their Joust against [CHARACTER.GetTitledFirstName]"

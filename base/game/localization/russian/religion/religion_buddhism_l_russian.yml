@@ -51,8 +51,8 @@
  buddhism_religious_text: "Буддхавачана"
  buddhism_religious_text_2: "$buddhism_religious_text$" #Optional translation alt
  buddhism_religious_text_3: "$buddhism_religious_text$" #Optional translation alt
- buddhism_religious_head_title: "лама"
- buddhism_religious_head_title_name: "Инкарнация ламы"
+ buddhism_religious_head_title: "Стхавира"
+ buddhism_religious_head_title_name: "Сангха"
  buddhism_devotee_male: "бхикшу"
  buddhism_devotee_male_plural: "бхикшу"
  buddhism_devotee_female: "бхикшуни"
@@ -196,6 +196,8 @@
  maitreya_adherent: "Майтреянист"
  maitreya_adherent_plural: "Майтреянисты"
  maitreya_desc: "Эра Будды Шакьямуни закончилась, в мир явился Будда Майтрея. Во всяком случае, так верят те, кто почитает Майтрею как предреченного спасителя. Мир можно спасти только через разрушение старого порядка."
+ maitreya_religious_head_title: "Иерарх" #教主
+ maitreya_religious_head_title_name: "Религиозный орден"
  acharya: "Ачарск"
  acharya_adj: "Ачарья"
  acharya_adherent: "Ачарья-буддист"

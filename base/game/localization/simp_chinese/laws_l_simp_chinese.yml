@@ -386,7 +386,7 @@
  meritocratic_bureaucracy_2_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 非[governor|E][vassals|E]不能发动任何[war|E]，除非使用对[liege|E]#!的[hook|E]"
  meritocratic_bureaucracy_3: "天命在我"
  meritocratic_bureaucracy_3_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 非[governor|E][vassals|E]永远不能发动[war|E]#!"
- CONFUCIAN_BUREAUCRACY_IS_ON_COOLDOWN: "你最近更改了[meritocratic_bureaucracy|E]。[GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperia l_bureaucracy_cooldown') )]后可以再次更改。"
+ CONFUCIAN_BUREAUCRACY_IS_ON_COOLDOWN: "你最近更改了[meritocratic_bureaucracy|E]。[GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperial_bureaucracy_cooldown') )]后可以再次更改。"
  #Japanese bureauracy
  japanese_bureaucracy: "[japanese_bureaucracy|E]"
  japanese_bureaucracy_0: "地方自治"

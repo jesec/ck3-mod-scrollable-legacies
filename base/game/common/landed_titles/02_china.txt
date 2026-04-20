@@ -8,6 +8,8 @@ h_china = {
 
 	capital = c_bianzhou # Kaifeng
 
+	disable_regnal_numbers = yes
+
 	can_create = {
 		custom_tooltip = {
 			text = dynastic_cycle.tt.forbid_title_creation

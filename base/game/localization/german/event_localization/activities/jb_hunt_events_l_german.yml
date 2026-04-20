@@ -136,6 +136,7 @@
  hunt.8570.a: "„Ich komme!“"
  hunt.8570.a.success: "Ihr rettet [stampede_victim.Custom('DE_PRO_PER_S_3P_A')] unversehrt"
  hunt.8570.a.failure: "Ihr rettet [stampede_victim.Custom('DE_PRO_PER_S_3P_A')] mit Verletzungen"
+ hunt.8570.a.failure_2: "Ihr scheitertet daran, [stampede_victim.Custom('DE_PRO_PER_S_3P_A')] zu retten"
  hunt.8570.a.crit_failure: "Ihr sterbt bei Eurem Versuch"
  hunt.8570.b: "Vielleicht kann ich die panischen Tiere ja umlenken."
  hunt.8570.b.success: "Ihr lenkt die panischen Tiere um"

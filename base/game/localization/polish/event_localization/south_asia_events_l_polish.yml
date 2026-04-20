@@ -105,7 +105,7 @@
  south_asia.0050.desc: "Maurjowie, Kuszanowie, Guptowie, Palowie czy Pratiharowie – przez tysiące lat Nizina Hindustańska była zarówno domem, jak i miejscem bitew dla wielu wielkich imperiów. Niektórzy rządzący pochodzili z obcych krajów, ale znaczna większość władców była mieszkańcami subkontynentu.\n\nRód [founder.GetHouse.GetNameNoTooltip] nie wywodzi się z aż tak starożytnych czasów, ale tam, gdzie inne dynastie zawiodły, nam udało się stworzyć własne państwo. Przyszedł czas, abyśmy stworzyli imperium i rząd, który będzie władał niezliczoną liczbą zamieszkujących te ziemie ludzi różnych wyznań."
  south_asia.0050.a: "To Delhi będzie nową stolicą!"
  south_asia.0050.b: "Uczynimy Lahaur centrum imperium"
- south_asia.0050.c: "Imperium będzie zarządzane z miejsca znanego jako [ROOT.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ south_asia.0050.c: "Imperium będzie zarządzane z miejsca znanego jako [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
  south_asia.0051.t: "[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] jako sułtanat"
  south_asia.0051.desc: "Dotarły do nas wieści, że ród [founder.GetHouse.GetNameNoTooltip] umocnił swoje panowanie na Nizinie Hindustańskiej, tworząc nowe Imperium Islamskie na ruinach pozostałych po hinduistycznych i buddyjskich dynastiach sprzed lat.\n\nOsoba znana jako [founder.GetFirstNameNoTooltip], która przybrała imię [founder.GetFullName], ma imperialne ambicje, by rządzić całymi Indiami z miejsca o nazwie [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], i szybko staje się kimś równie podziwianym, co wzbudzającym strach."
  south_asia.0051.a: "$middle_europe_decisions.0016.a$"

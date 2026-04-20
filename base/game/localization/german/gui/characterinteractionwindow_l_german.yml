@@ -5,6 +5,8 @@
  CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_TYPE: "#S $NAME$-Komplott#!"
  SHOW_MORE_INTERACTIONS_TT: "#T Mehr [CharacterInteractionCategory.GetDescription] anzeigen#!"
  PIN_TT: "#T [Select_CString(Character.IsPinned, 'Lösen', 'Anheften')]\n#!Behaltet diesen Charakter im Auge, indem Ihr [Character.Custom('DE_PRO_PER_S_3P_A')] an die Pinnwand auf der rechten Seite anheftet"
+ TITLE_PIN_TT: "#T [Select_CString(Title.IsPinned, 'Lösen', 'Anheften')]\n#!Behaltet diesen Titel im Auge, indem Ihr ihn an die Pinnwand auf der rechten Seite anheftet"
+ PROVINCE_PIN_TT: "#T [Select_CString(Province.IsPinned, 'Lösen', 'Anheften')]\n#!Behaltet dieses Besitztum im Auge, indem Ihr es an die Pinnwand auf der rechten Seite anheftet"
  interaction_category_favorites: "Favoriten"
  interaction_category_diplomacy: "Diplomatie"
  interaction_category_friendly: "Persönlich"

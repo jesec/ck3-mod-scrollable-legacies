@@ -1996,7 +1996,7 @@ extra_ghurids_3 = { #attested by medieval chroniclers
 
 fictional_ghurids_1 = {#to solve the inconsistency between a Suri being the father of Muhammad (1239317) and at at the same time contemporaneous with Amir Ya'qub of the Saffarids, which would otherwise mean that Suri must have been over 80 when Muhammad was born. 
 	name = "Suri"	
-	dynasty = 791
+	dynasty_house = house_ghurid # Ghurid
 	religion = mahayana
 	culture = "tajik"
 	father = 1230316

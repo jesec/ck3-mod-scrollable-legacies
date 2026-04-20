@@ -972,22 +972,15 @@ claimant_faction = {
 					# Ministers cannot be claimants unless we are targeting h_china
 					trigger_if = {
 						limit = {
-							OR = {
-								has_title = title:e_minister_chancellor
-								has_title = title:e_minister_censor
-								has_title = title:e_minister_grand_marshal
-								has_title = title:e_minister_of_personnel
-								has_title = title:e_minister_of_revenue
-								has_title = title:e_minister_of_rites
-								has_title = title:e_minister_of_war
-								has_title = title:e_minister_of_justice
-								has_title = title:e_minister_of_works
-							}
+							tgp_has_minister_title = yes
 						}
 						custom_description = {
 							text = target_is_a_minister_desc
 							subject = this
-							root.special_title = { this = title:h_china }
+							any_held_title = {
+								tgp_is_minister_title = yes
+								de_jure_liege = root.special_title
+							}
 						}
 					}
 				}

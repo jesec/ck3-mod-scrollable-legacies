@@ -76,7 +76,7 @@
  funeral.0010.t: "Прибытие"
  funeral.0010.desc_intro: "[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly] — последнее пристанище, которое обретет [deceased.GetFirstNamePossessive],"
  funeral.0010.self: "и у меня есть время побыть в одиночестве, собраться с мыслями и приготовиться к прибытию скорбящих."
- funeral.0010.dislikes_host: "где меня встречает [host.Custom2('InsultAdjective', ROOT.Char)] [host.Custom2('InsultNoun', ROOT.Char)] [host.GetName]. Хотя мне ненавистна сама мысль о [Select_CString(host.IsFemale, 'ее', 'его' )] обществе, причиной моего прибытия является не [Select_CString(host.IsFemale, 'она', 'он' )], а [deceased.GetName]. Это мой шанс"
+ funeral.0010.dislikes_host: "где меня встречает [host.Custom2('InsultAdjective', ROOT.Char)][Select_CString(host.IsFemale, 'ая', 'ый' )] [host.Custom2('InsultNoun', ROOT.Char)] [host.GetName]. Хотя мне ненавистна сама мысль о [Select_CString(host.IsFemale, 'ее', 'его' )] обществе, причиной моего прибытия является не [Select_CString(host.IsFemale, 'она', 'он' )], а [deceased.GetName]. Это мой шанс"
  funeral.0010.likes_host: "где меня встречает [Select_CString(host.IsFemale, 'великодушная', 'великодушный' )] [host.GetName]. Хорошо, что я смогу насладиться [Select_CString(host.IsFemale, 'ее', 'его' )] обществом, хотя главной причиной моего прибытия является [deceased.GetName]. Это мой последний шанс"
  funeral.0010.neutral: "где меня встречает [host.GetName]. [Select_CString(host.IsFemale, 'Ее', 'Его' )] общество мне безразлично, ведь сегодня в центре внимания находится [deceased.GetName], и это мой последний шанс"
  funeral.0010.disrespect: "посмеяться над презренным отродьем."

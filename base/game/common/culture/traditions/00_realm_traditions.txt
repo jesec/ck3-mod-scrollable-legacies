@@ -841,7 +841,6 @@ tradition_collective_lands = {
 	parameters = {
 		grants_to_lowborns_bonuses = yes
 		collective_lands_farms_bonuses = yes
-		peasant_leader_is_inherited = yes
 	}
 	county_modifier = {
 		development_growth_factor = 0.1

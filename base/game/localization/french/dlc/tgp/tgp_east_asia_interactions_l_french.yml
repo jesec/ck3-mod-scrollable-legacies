@@ -31,7 +31,7 @@
  tributary_mandala_common_desc: "En contrepartie, le [suzerain|El] protège son tributaire lorsqu’il est attaqué par des envahisseurs étrangers."
  tributary_wanua: "Tributaire wanua"
  tributary_wanua_desc: "Un [tributary|El] [wanua|El] fournit régulièrement à son [suzerain|El] de l’[gold|El], du [prestige|El] ou même des [barter_goods|El]. Le [tributary_contract|El] est hérité lors de la succession."
- wasted_our_efforts: "Efforts gâchés"
+ wasted_our_efforts: "A réduit nos efforts à néant"
  tgp_mandala_send_missionary_interaction: "Envoyer un missionnaire"
  tgp_mandala_send_missionary_interaction_desc: "Un missionnaire dévoué de votre pays arrive à la Cour [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName] et pourrait convertir votre [tributary|El] à votre [faith|El] ou vous faire gagner de la [piety|El] en raison des relations avec la Cour de votre tributaire."
  tgp_mandala_send_missionary_interaction_tt: "Un missionnaire [actor.GetFaith.GetAdherentName] de culture [actor.GetCulture.GetNameNoTooltip] fera son apparition à la Cour [recipient.Custom('FR_du_Char_Pi')][recipient.GetTitledFirstName]"

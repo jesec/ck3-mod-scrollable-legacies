@@ -44,7 +44,7 @@
  death_management.1007.a: "Jedna opowieść się kończy, a inna zaczyna."
  death_management.1007.a.tt: "Osoba znana jako [dead_character.GetTitledFirstName], która dziedziczyć miała twoją władzę, [dead_character.GetDeathReasonHideKiller]."
  death_management.1006.t: "Klątwa zdjęta"
- death_management.1006.desc: "Los nie zawsze mi sprzyjał – na miłość [ROOT.Char.GetFaith.HighGodNamePossessive], przeklinam dzień, w którym przyszło mi spotkać osobę znaną jako [dead_character.GetTitledFirstName]. Jednakże dzisiaj klątwa została zdjęta! Fortuna uśmiechnęła się do mnie i sprawiła, że [dead_character.Custom2('InsultNoun', ROOT.Char)] spoczywa już w grobie!"
+ death_management.1006.desc: "Los nie zawsze mi sprzyjał – na miłość [ROOT.Char.GetFaith.HighGodNamePossessive], przeklinam dzień, w którym przyszło mi spotkać osobę znaną jako [dead_character.GetTitledFirstName].\n\nJednakże dzisiaj klątwa została zdjęta! Fortuna uśmiechnęła się do mnie i sprawiła, że [dead_character.Custom2('InsultNoun', ROOT.Char)] spoczywa już w grobie!"
  death_management.1006.a.tt: "Osoba znana jako [dead_character.GetFullName], twój [rival|El], [dead_character.GetDeathReasonHideKiller]."
  death_management.parent.desc: "Tw[Select_CString( dead_character.IsFemale, 'oja', 'ój' )] [Select_CString( dead_character.IsFemale, 'matka', 'ojciec' )], [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.sibling.desc: "Tw[Select_CString( dead_character.IsFemale, 'oja', 'ój' )] [Select_CString( dead_character.IsFemale, 'siostra', 'brat' )], [dead_character.GetFullName], [dead_character.GetDeathReason]."

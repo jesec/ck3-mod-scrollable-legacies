@@ -1,5 +1,6 @@
 ﻿l_japanese:
  sponsor_inspiration_debug: "着想への支援"
+ complete_inspiration_debug: "着想の完成"
  I_CAN_SPONSOR_OWN_INSPIRATION: "あなたは自らの着想を支援できます"
  NOT_I_CAN_SPONSOR_OWN_INSPIRATION: "あなたは自らの着想を支援#bold できません#! "
  THEY_CAN_SPONSOR_OWN_INSPIRATION: "[CHARACTER.GetUIName]は自らの着想を支援できます"

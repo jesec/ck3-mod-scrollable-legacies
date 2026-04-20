@@ -68,7 +68,7 @@
  TITLE_VIEW_USURP_TITLE: "簒奪"
  USURP_TITLE_TITLE: "[TITLE.GetBaseNameNoTooltip]を簒奪"
  USURP_TITLE_TOOLTIP_TITLE: "#T [TITLE.GetBaseName]の簒奪#!"
- USURP_TITLE_TEXT: "[TITLE.GetHolder.GetUIName]から[TITLE.GetName]を簒奪します。\nコスト：\n[SelectLocalization(GetPlayer.GetGovernment.IsType('meritocratic_government'), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\nあなたは[prestige_i]$PRESTIGE|0V$を得る\n\n[TITLE.GetHolder.GetUIName]は[legitimacy|E]を失う"
+ USURP_TITLE_TEXT: "[TITLE.GetHolder.GetUIName]から[TITLE.GetName]を簒奪します。\nコスト：\n[SelectLocalization( Or( GetPlayer.GetGovernment.IsType( 'celestial_government' ), Or(GetPlayer.GetGovernment.IsType( 'meritocratic_government' ), GetPlayer.GetGovernment.IsType( 'administrative_government' ))), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\nあなたは[prestige_i]$PRESTIGE|0V$を得る\n\n[TITLE.GetHolder.GetUIName]は[legitimacy|E]を失う"
  USURP_TITLE_DESC_GOLD: "[gold_i]"
  USURP_TITLE_DESC_TREASURY: "[treasury_i]"
  USURP_TITLE_ACCEPT: "簒奪"

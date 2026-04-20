@@ -145,7 +145,7 @@ tgp_japan_poetic_to_the_powerful_modifier = {
 }
 
 tgp_japan_ushiwakamaru = {
-	icon = prowess_positive
+	icon = prowess_mixed
 
 	prowess_no_portrait = 1
 	legitimacy_gain_mult = -0.25
@@ -153,7 +153,7 @@ tgp_japan_ushiwakamaru = {
 }
 
 tgp_japan_ushiwakamaru_2 = {
-	icon = prowess_positive
+	icon = prowess_mixed
 
 	prowess_no_portrait = 4
 	legitimacy_gain_mult = -0.25
@@ -161,7 +161,7 @@ tgp_japan_ushiwakamaru_2 = {
 }
 
 tgp_japan_ushiwakamaru_3 = {
-	icon = prowess_positive
+	icon = prowess_mixed
 
 	prowess_no_portrait = 8
 	legitimacy_gain_mult = -0.25
@@ -169,7 +169,7 @@ tgp_japan_ushiwakamaru_3 = {
 }
 
 tgp_japan_ushiwakamaru_4 = {
-	icon = prowess_positive
+	icon = prowess_mixed
 
 	prowess_no_portrait = 12
 	legitimacy_gain_mult = -0.25

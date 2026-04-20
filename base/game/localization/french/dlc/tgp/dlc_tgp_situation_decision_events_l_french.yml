@@ -67,6 +67,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "Alors que la fortune d’une personne diminue, celle d’une autre augmente, car même les rois et les empereurs ne sont pas à l’abri des caprices du destin.\n\n[GetTitleByKey('h_china').GetHolder.Custom('FR_le_Char_Pi')|U][GetTitleByKey('h_china').GetHolder.GetTitledFirstName] a revendiqué le mandat du Ciel et l’on attend de chacun qu’il s’incline devant [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale,'cette nouvelle souveraine','ce nouveau souverain')]."
  tgp_dynastic_cycle.0062.desc.uninvolved: "Les empires vont et viennent, et l’ancien fait place au nouveau. Le trône de [GetTitleByKey('h_china').GetNameNoTierNoTooltip] est désormais celui [GetTitleByKey('h_china').GetHolder.Custom('FR_du_Char_Pi')][GetTitleByKey('h_china').GetHolder.GetTitledFirstName], et chacun doit reconnaître ce nouveau chef, qu’il se trouve à l’intérieur ou à l’extérieur de son pays.\n\nDe tels changements dans les vents du destin ne doivent pas être pris à la légère."
  tgp_dynastic_cycle.0062.a: "Nous devons évaluer ses capacités avec soin."
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
  tgp_dynastic_cycle.0071.t: "Après la pluie, le beau temps"
  tgp_dynastic_cycle.0071.desc: "Les nuages orageux persistants se sont dissipés et un ciel clair est à nouveau visible au-dessus de la [GetTitleByKey('h_china').GetNameNoTierNoTooltip]. J’ai surmonté les épreuves qui m’ont été imposées et désormais personne ne peut nier ou douter que j’ai vraiment été choisi[ROOT.Char.Custom('FR_E')] par le Ciel.\n\nLe temps des privations est derrière nous. Je dois trouver une nouvelle voie pour l’avenir, afin que nous puissions tous nous unir derrière un seul et même objectif."
@@ -80,6 +81,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "En temps de paix, les braves ont peu d’occasions de se distinguer, mais d’autres opportunités d’avancement peuvent désormais se présenter."
  tgp_dynastic_cycle.0072.desc.uninvolved: "Il semble que la dynastie [GetTitleByKey('h_china').GetHolder.GetDynastyName] ait encore de la ressource."
  tgp_dynastic_cycle.0072.a: "Une brise printanière souffle et l’herbe repousse."
+ tgp_dynastic_cycle.0072.b: "La seule solution est de se plier à la volonté du Ciel."
+ tgp_china_consolidation.remain_independent: "Rester un [independent_ruler|El]"
  ### ENTER CONSOLIDATION ###
  tgp_dynastic_cycle.0081.t: "L’empire longtemps uni doit se diviser"
  tgp_dynastic_cycle.0081.desc: "En un instant, le Ciel tremble et le monde est sens dessus dessous.\n\nDes ministres fidèles s’enfuient à la recherche de nouveaux maîtres, des soldats manquent à leurs devoirs, et maintenant, même les paysans quittent mon pays par peur des troubles à venir.\n\nTous les maux sont attribués à mon règne inique, et l’on proclame partout que j’ai perdu le mandat du Ciel !"

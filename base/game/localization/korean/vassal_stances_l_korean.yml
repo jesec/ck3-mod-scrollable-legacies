@@ -60,7 +60,7 @@
  zealot_levy_contribution_add: "$zealot_vassal$ [levy|E] [modifier_base_contribution|E]"
  zealot_levy_contribution_mult: "$zealot_vassal$ [levy|E] [modifier_contribution|E]"
  minority: "소수파"
- minority_desc: "$minority$ [vassals|E]은 자신들의 [faith|E]이나 [culture|E]가 [liege|E]에 의해 소외당하고 있다고 여깁니다. [cultural_acceptance|E]이 30% 미만인 적대 [faiths|E] 또는 [cultures|E]에 속한 봉신이 흔히 이 [vassal_stance|E]을 취하는 편입니다.\n\n#low $minority$ 봉신은 아래와 같은 주군에게 호감을 느낍니다.#!\n$EFFECT_LIST_BULLET$$task_accept_culture$ [councillor_task|E] 실행\n#weak (문화 관용이 30%를 넘어가면 높은 확률로 관점이 바뀝니다.)#!\n\n#low $minority$ 봉신은 아래와 같은 주군에게 불만을 느낍니다.#!\n$EFFECT_LIST_BULLET$[Concept( 'counties', '영지' )|E]의 신앙 또는 문화 전향(개종)\n$EFFECT_LIST_BULLET$높은 [crown_authority|E] 보유\n\n이들 봉신은 명예롭고 연민 어리며, 현재 주군과 신앙이나 문화가 다른 [heirs|E]를 선호합니다."
+ minority_desc: "$minority$ [vassals|E]은 자신들의 [faith|E]이나 [culture|E]가 [liege|E]에 의해 소외당하고 있다고 여깁니다. [cultural_acceptance|E]이 30% 미만인 적대 [faiths|E] 또는 [cultures|E]에 속한 봉신이 흔히 이 [vassal_stance|E]을 취하는 편입니다.\n\n#low $minority$ 봉신은 아래와 같은 주군에게 호감을 느낍니다.#!\n$EFFECT_LIST_BULLET$$task_accept_culture$ [councillor_task|E] 실행\n#weak (문화 관용이 30%를 넘어가면 높은 확률로 관점이 바뀝니다.)#!\n\n#low $minority$ 봉신은 아래와 같은 주군에게 불만을 느낍니다.#!\n$EFFECT_LIST_BULLET$[Concept( 'county', '영지' )|E]의 신앙 또는 문화 전향(개종)\n$EFFECT_LIST_BULLET$높은 [crown_authority|E] 보유\n\n이들 봉신은 명예롭고 연민 어리며, 현재 주군과 신앙이나 문화가 다른 [heirs|E]를 선호합니다."
  minority_filter_option: "$minority$"
  minority_filter_option_desc: "[GetVassalStance( 'minority' ).GetName] [vassal_stance|E]을 보유한 인물만 표시합니다."
  minority_vassal: "[GetVassalStance( 'minority' ).GetTextIcon][GetVassalStance( 'minority' ).GetName] [vassal|E]"

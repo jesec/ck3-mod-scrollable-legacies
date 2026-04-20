@@ -275,3 +275,4 @@
  REBUILD_GREAT_BUILDING_EFFECT: "$EFFECT_LIST_BULLET$Здание [BUILDING.GetName] в провинции [PROVINCE.GetName] восстановлено"
  REBUILD_GREAT_BUILDING_CONFIRMATION_ACCEPT: "Восстановить"
  REBUILD_GREAT_BUILDING_CANNOT_AFFORD: "@warning_icon! #X Недостаточно средств: #! $COST$"
+ YOUR_NEXT_HOLDING: "#T Перейти к следующему [Concept('holding', 'владению')|E]#!"

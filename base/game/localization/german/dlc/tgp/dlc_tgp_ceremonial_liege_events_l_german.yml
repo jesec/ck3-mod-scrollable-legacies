@@ -35,7 +35,7 @@
  tgp_power_undermined_modifier_tt: "[GetModifier('tgp_power_undermined_modifier').GetNameWithTooltip|U]: #P +25#!"
  tgp_ceremonial_liege_events.0020.c: "Übermittelt [opposing_power.Custom('DE_PRO_PER_S_3P_D')] meine besten Wünsche."
  tgp_ceremonial_liege_events.0030.t: "Die Gedenkschrift [Select_CString(scholar.IsFemale, 'einer', 'eines')] Gelehrten"
- tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName|U] stellt eine gut geschriebene Gedenkschrift zur Geschichte des Reichs ([ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]) vor.\n\nIn der Gedenkschrift"
+ tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName|U] stellt eine gut geschriebene Gedenkschrift zur Geschichte des Reichs ([ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName]) vor.\n\nIn der Gedenkschrift"
  tgp_ceremonial_liege_events.0030.regent: "wird [opposing_power.GetFirstName] oft und detailliert erwähnt, und [scholar.GetFirstNameNoTooltip] beschreibt Einzelheiten über das Haus von [opposing_power.GetFirstNameNoTooltip]: [opposing_power.GetHouse.GetName].\n\nEs wird heikel, als ich beschrieben werde, und zwar als [ROOT.Char.Custom('InsultAdjective')|l], und [opposing_power.GetFirstNameNoTooltip] hingegen als recht [ROOT.Char.Custom('ComplimentAdjective')|l] …"
  tgp_ceremonial_liege_events.0030.liege: "werde ich oft und in vielen Einzelheiten beschrieben, und [scholar.GetFirstNameNoTooltip] erwähnt Details über mein Haus: [ROOT.Char.GetHouse.GetName].\n\nWas allerdings wirklich meine Aufmerksamkeit erregt, ist, als ich als [ROOT.Char.Custom('ComplimentAdjective')|l] beschrieben werde und [opposing_power.GetFirstNameNoTooltip] hingegen als recht [opposing_power.Custom('InsultAdjective')|l] …"
  tgp_ceremonial_liege_events.0030.a: "Hervorragende Arbeit!"

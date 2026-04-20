@@ -217,3 +217,18 @@ if_byz_dissolves_tt = {
 	third = if_byz_dissolves_tt
 	global = if_byz_dissolves_tt
 }
+
+contract_assistance_interaction_condition_tt = {
+	first = contract_assistance_interaction_condition_tt
+	third = contract_assistance_interaction_condition_tt
+	global = contract_assistance_interaction_condition_tt
+}
+
+ep3_hire_laamp_mercs_payment_tt = {
+	first = ep3_hire_laamp_mercs_payment_tt
+	first_past = ep3_hire_laamp_mercs_payment_tt
+	third = ep3_hire_laamp_mercs_payment_tt
+	third_past = ep3_hire_laamp_mercs_payment_tt
+	global = ep3_hire_laamp_mercs_payment_tt
+	global_past = ep3_hire_laamp_mercs_payment_tt
+}

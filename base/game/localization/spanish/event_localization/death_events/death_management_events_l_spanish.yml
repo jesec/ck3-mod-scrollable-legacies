@@ -44,7 +44,7 @@
  death_management.1007.a: "Una historia termina, otra comienza."
  death_management.1007.a.tt: "Tu [Select_CString( dead_character.IsFemale, 'heredera', 'heredero' )], [dead_character.Custom('ES_ElLa')] [dead_character.GetTitledFirstName|l], [dead_character.GetDeathReasonHideKiller]."
  death_management.1006.t: "Una maldición deshecha"
- death_management.1006.desc: "Los vaivenes del destino no han estado siempre a mi favor… [ROOT.Char.GetFaith.HighGodName] sabe que quedé maldit[ROOT.Char.Custom('ES_OA')] el día que conocí [dead_character.Custom('ES_AlAla')] [dead_character.GetTitledFirstName|l]. ¡Pero hoy la maldición se ha roto! ¡La fortuna me ha sonreído y se llevado a semejante [dead_character.Custom2('InsultNoun', ROOT.Char)] [dead_character.Custom2('InsultAdjective', ROOT.Char)] a su tumba!"
+ death_management.1006.desc: "Los vaivenes del destino no han estado siempre a mi favor… [ROOT.Char.GetFaith.HighGodName] sabe que quedé maldit[ROOT.Char.Custom('ES_OA')] el día que conocí [dead_character.Custom('ES_AlAla')] [dead_character.GetTitledFirstName|l].\n\n¡Pero hoy la maldición se ha roto! ¡La fortuna me ha sonreído y se llevado a semejante [dead_character.Custom2('InsultNoun', ROOT.Char)] [dead_character.Custom2('InsultAdjective', ROOT.Char)] a su tumba!"
  death_management.1006.a.tt: "Tu [rival|lE], [dead_character.GetFullName|l], [dead_character.GetDeathReasonHideKiller]."
  death_management.parent.desc: "Tu [dead_character.Custom('MotherFather')], [dead_character.GetFullName], [dead_character.GetDeathReason]"
  death_management.sibling.desc: "Tu [dead_character.Custom('SisterBrother')], [dead_character.GetFullName], [dead_character.GetDeathReason]."

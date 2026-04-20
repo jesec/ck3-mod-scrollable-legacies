@@ -82,7 +82,7 @@
  will_not_convert_away_tt: "Will not willingly Convert away from [actor.GetFaith.GetName] unless forced"
  unwanted_religious_conversion_opinion: "Unwanted Conversion Attempt"
  religious_rebel_opinion: "Religious Rebel"
- showed_me_the_light_opinion: "Showed me the Light"
+ showed_me_the_light_opinion: "Showed Me the Light"
  you_will_gain_prestige_and_piety_tt: "[actor.GetShortUIName|U] will gain [prestige_i][prestige|E] and [piety_i][piety|E] based on [recipient.GetShortUINamePossessive] [rank|E]"
  adventurer_discount_desc: "[GetPerk('clerical_justifications_perk').GetName(GetPlayer)]"
  accomplished_forger_perk_adventurer_name: "Run Away With Me"

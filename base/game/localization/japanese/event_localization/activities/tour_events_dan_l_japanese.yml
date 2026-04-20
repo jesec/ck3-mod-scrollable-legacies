@@ -11,7 +11,7 @@
  tour_travel.3001.a.drunkard: "#EMP 私は何をした？#!"
  tour_travel.3001.b: "いいや、私は汚らわしい農民などと結婚しない。"
  tour_travel.3002.t: "征服の代償"
- tour_travel.3002.desc: "「私の兄弟も、父も、夫も、皆#EMPyour 戦争#!で死んでしまった」村の広場の向こうで、農民の1人が叫んでいる。\n\n「[battle_memory.GetSecondPerspectiveDescription]の時、あなたにとっては勝利の日でしょうが、私にとっては3人の家族が亡くなった日なのです」\n\n彼女の怒りは涙に変わり、次に発した言葉はかろうじて聞き取れる程度だった。\n\n「あなたは私の[ROOT.Char.GetTitleAsNameNoTooltip|l]などではない」"
+ tour_travel.3002.desc: "「私の[widow_peasant.Custom2( 'RelationToMeShort', widow_father )]も、[widow_peasant.Custom2( 'RelationToMeShort', widow_husband )]も、[widow_peasant.Custom2( 'RelationToMeShort', widow_son )]も、皆#EMP あなたの戦争#!で死んでしまった」村の広場の向こうで、農民の1人が叫んでいる。\n\n「[battle_memory.GetSecondPerspectiveDescription]時、あなたにとっては勝利の日でしょうが、私にとっては3人の家族が亡くなった日なのです」\n\n[widow_peasant.GetHerHis|U]の怒りは涙に変わり、次に発した言葉はかろうじて聞き取れる程度だった。\n\n「あなたは私の[ROOT.Char.GetTitleAsNameNoTooltip|l]などではない」"
  tour_travel.3002.a: "「彼らを蘇らせることはできないが、金を出してやることはできる」"
  tour_travel.3002.b: "「あれは私が為すべきことのための犠牲だったのだ」"
  tour_travel.3003.t: "不快な生物"

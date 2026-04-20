@@ -44,7 +44,7 @@
  death_management.1007.a: "ひとつの物語が終わり、次の物語が始まる。"
  death_management.1007.a.tt: "あなたの後継者、[dead_character.GetTitledFirstName]は[dead_character.GetDeathReasonHideKiller]。"
  death_management.1006.t: "解けた呪い"
- death_management.1006.desc: "運命の紆余曲折は、必ずしも良い方向に進むとは限らない。初めて[dead_character.GetTitledFirstName]に出会った日、私は呪われた。だが、今日その呪いがついに解けた！運命が私に微笑み、あの[dead_character.Custom2('InsultAdjective', ROOT.Char)][dead_character.Custom2('InsultNoun', ROOT.Char)]を墓地送りにした！"
+ death_management.1006.desc: "運命の紆余曲折は、必ずしも良い方向に進むとは限らない。初めて[dead_character.GetTitledFirstName]に出会った日、私は呪われた。\n\nだが、今日その呪いがついに解けた！運命が私に微笑み、あの[dead_character.Custom2('InsultAdjective', ROOT.Char)][dead_character.Custom2('InsultNoun', ROOT.Char)]を墓地送りにした！"
  death_management.1006.a.tt: "あなたの[rival|E]、[dead_character.GetTitledFirstName]は[dead_character.GetDeathReasonHideKiller]。"
  death_management.parent.desc: "あなたの[dead_character.Custom('MotherFather')]、[dead_character.GetFullName]は[dead_character.GetDeathReason]。"
  death_management.sibling.desc: "あなたの[dead_character.Custom('SisterBrother')]、[dead_character.GetFullName]は[dead_character.GetDeathReason]。"

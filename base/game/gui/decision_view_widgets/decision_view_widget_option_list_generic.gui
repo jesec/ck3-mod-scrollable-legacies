@@ -23,6 +23,7 @@ vbox = {
 	scrollbox = {
 		layoutpolicy_horizontal = expanding
 		layoutpolicy_vertical = expanding
+		size = { 470 166 }
 
 		blockoverride "scrollbox_content" {
 			vbox = {

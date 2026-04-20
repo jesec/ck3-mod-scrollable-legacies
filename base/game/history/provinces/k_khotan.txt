@@ -183,16 +183,6 @@
 	848.1.1 = {		#Gansu Yughur Kingdom
 		culture = uyghur
 	}
-	
-	effect = {
-		if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-			}
-			add_special_building_slot = dunhuang_market_01
-			add_special_building = dunhuang_market_01
-		}
-	}
 }
 
 # 7958 - Yengisar

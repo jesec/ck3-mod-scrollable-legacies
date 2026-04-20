@@ -200,6 +200,6 @@
  councillor_is_available_for_disaster_recovery_entourage: "Un membre de votre [entourage|El]"
  councillor_is_available_for_disaster_recovery_steward: "[Concept( 'steward', ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName )|E]"
  SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS_HEADER: "#bold #italic Effets#!#!"
- SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS: "$BULLET$#weak Des événements entraînant potentiellement des #N morts#! se produiront#!\n$BULLET$#weak Des événements entraînant potentiellement une #N perte de $game_concept_development|l$#! se produiront#!"
+ SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS: "$BULLET$#weak Événements potentiellement #N mortels#!#!\n$BULLET$#weak Événements avec une #N perte de $game_concept_development|l$#! potentielle#!"
  SITUATION_NATURAL_DISASTER_PARTICIPANT_WINDOW_HEADER_SINGLE_SUBREGION: "Personnages affectés par [Situation.GetNameNoTooltip]"
  SITUATION_NATURAL_DISASTER_PARTICIPANT_GROUPS_TITLE: "Personnages affectés"

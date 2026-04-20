@@ -15,6 +15,8 @@
  COURT_EVENT_ITEM_TOOLTIP:0 "#T $EVENT_TITLE$#!\n#S Participants:#!\n$PARTICIPANT_LIST$\n\n#I Click to make a decision#!"
  ROYAL_COURT_TAB_THRONE:0 "#T Throne Room#!"
  ROYAL_COURT_TAB_COURT_GRANDEUR:0 "#T Court Grandeur#!"
+ ROYAL_COURT_TAB_COURT_VISUALS: "#T Court Visuals#!"
+ COURT_VISUALS: "Court Visuals"
  ROYAL_COURT_TAB_COURT_ARTIFACTS:0 "#T Court Artifacts#!"
 
  COURT_LANGUAGE_LABEL:1 "[court_language|E]"

@@ -73,6 +73,9 @@
  legend_tab_distant: "Distant Legends"
  legend_tab_library: "Legend Library"
  legend_tab_seeds: "Legend Seeds"
+ CREATE_LEGEND_TAB_FAMED: "Famed"
+ CREATE_LEGEND_TAB_ILLUSTRIOUS: "Illustrious"
+ CREATE_LEGEND_TAB_MYTHICAL: "Mythical"
 
  REALM_COMPLETED_LEGENDS: "Completed Legends #weak ([GetDataModelSize( LegendsWindow.GetRealmCompletedLegends )])#!"
  REALM_COMPLETED_LEGENDS_TT: "Completed Legends"

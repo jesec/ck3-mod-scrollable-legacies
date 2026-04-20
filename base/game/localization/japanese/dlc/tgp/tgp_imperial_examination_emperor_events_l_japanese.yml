@@ -45,7 +45,7 @@
  emperor_imperial_examination.800.c: "その者は取っておけ。"
  becomes_imperial_examiner.tt: "試験官になる"
  emperor_imperial_examination.900.t: "[examination_character_2.Custom('ComplimentAdjective')|U]しもべ"
- emperor_imperial_examination.900.desc: "「神聖なる[ROOT.Char.GetTitleAsNameNoTooltip]よ、饗宴に感謝いたします」と、私の[ROOT.Char.Custom2('RelationToMeShort', examination_character_1)]である[examination_character_1.GetTitledFirstName]が、従者を伴い、深く頭を垂れて言った。「これは私の[examination_character_1.Custom2('RelationToMeShort', examination_character_2)]、[examination_character_2.GetFirstName]と申します。この者が、我が故郷[origin_county.GetNameNoTier]からのささやかな贈り物、[examination_character_1.Custom('GetExpensiveDrink')]をお持ちしました」\n\n「ですが、この贈り物だけではなく、[examination_character_2.GetHerHis]自身を献上いたします。[examination_character_2.GetHerHis|U] の[examination_character_2.Custom('highest_skill_noun')]に関する知識が、宮殿のお役に立つでしょう」"
+ emperor_imperial_examination.900.desc: "「神聖なる[ROOT.Char.GetTitleAsNameNoTooltip]よ、饗宴に感謝いたします」と、私の[ROOT.Char.Custom2('RelationToMeShort', examination_character_1)]である[examination_character_1.GetTitledFirstName]が、従者を伴い、深く頭を垂れて言った。「これは私の[examination_character_1.Custom2('RelationToMeShort', examination_character_2)]、[examination_character_2.GetFirstName]と申します。この者が、我が故郷[origin_county.GetNameNoTier]からのささやかな贈り物、[examination_character_1.Custom('GetExpensiveDrink')]をお持ちしました」\n\n「ですが、この贈り物だけではなく、[examination_character_2.GetHerHis]自身を献上いたします。[examination_character_2.GetHerHis|U]の[examination_character_2.Custom('highest_skill_noun')]に関する知識が、宮殿のお役に立つでしょう」"
  emperor_imperial_examination.900.a: "[examination_character_2.GetHerHis|U]の能力は歓迎だ。"
  emperor_imperial_examination.900.b: "[examination_character_2.GetSheHe|U]の力はそちらの方が役立てられるだろう。"
  emperor_imperial_examination.1000.t: "異国の才能"

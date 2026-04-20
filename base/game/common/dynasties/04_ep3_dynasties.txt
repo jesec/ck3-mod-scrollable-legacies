@@ -259,11 +259,6 @@ greek_lampardas = {
 	culture = greek
 }
 
-greek_rogerios_dalassenos = {
-	name = "dynn_Rogerios_Dalassenos"
-	culture = greek
-}
-
 greek_areobindenos = {
 	name = "dynn_Areobindenos"
 	culture = greek

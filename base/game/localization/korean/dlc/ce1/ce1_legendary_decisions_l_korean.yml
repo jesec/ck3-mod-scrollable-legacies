@@ -103,6 +103,6 @@
  unlock_legendary_pacifism_spread_tt: "당신의 [faith|E]을 국경을 맞댄 외국 봉역으로 전파할 수 있는 #EMP $legendary_pacifism_spread$#! [decision|E] 사용 가능"
  unlock_legendary_holy_war_tt: "$major_religious_war$ [casus_belli|E]을 추가로 1회 사용 가능한 #EMP $legendary_holy_war$#! [decision|E] 사용 가능"
  non_true_faith_neighbour: "당신의 [faith|E]에 속하지 않는 하나 이상의 인접한 영주가 존재해야 함"
- leg_conv_valid_county: "당신의 [realm|E]에 당신의 [faith|E]에 속하지 않는 하나 이상의 [Concept( 'counties', '영지' )|E]가 존재해야 함"
+ leg_conv_valid_county: "당신의 [realm|E]에 당신의 [faith|E]에 속하지 않는 하나 이상의 [Concept( 'county', '영지' )|E]가 존재해야 함"
  every_same_faith_vassal: "당신의 [faith|E]에 속한 모든 [vassal|E]"
- every_same_faith_county_in_realm: "당신의 [faith|E]에 속한 모든 [realm|E] 내 [Concept( 'counties', '영지' )|E]"
+ every_same_faith_county_in_realm: "당신의 [faith|E]에 속한 [realm|E] 내 모든 [Concept( 'county', '영지' )|E]"

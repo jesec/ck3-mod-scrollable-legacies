@@ -1196,15 +1196,15 @@
 	martial = 12
 	diplomacy = 5
 	intrigue = 4
-	stewardship = 7
-	learning = 8
+	stewardship = 5
+	learning = 5
 	prowess = 12
 	religion = "catholic"
 	culture = "czech"
 	trait = just
 	trait = diligent
 	trait = wrathful
-	trait = education_stewardship_4
+	trait = education_stewardship_5
 	sexuality = heterosexual
 	father = 518
 	mother = 1437
@@ -1224,21 +1224,27 @@
 			refund_all_perks = yes
 			remove_all_perk_lifestyle_traits_effect = yes
 			add_stewardship_lifestyle_perk_points = -10
-			add_perk = golden_obligations_perk
-			add_perk = heregeld_perk
-			add_perk = detailed_ledgers_perk
-			add_perk = war_profiteer_perk
-			add_perk = fearful_troops_perk
-			add_perk = it_is_my_domain_perk
-			add_perk = golden_aplomb_perk
-			add_perk = at_any_cost_perk
-			add_perk = avaricious_perk
-			add_trait = avaricious
-			add_perk = tax_man_perk
+			
+			# Scholar
 			add_perk = pedagogy_perk
+
+			# Architect 
+			add_perk = tax_man_perk
+			add_perk = defensive_measures_perk
+			add_perk = organized_muster_rolls_perk
 			add_perk = cutting_corners_perk
 			add_perk = professional_workforce_perk
 			add_perk = centralization_perk
+			add_perk = popular_figurehead_perk
+			add_perk = divided_attention_perk
+			add_perk = architect_perk
+
+			# Avaricious
+			add_perk = golden_obligations_perk
+			add_perk = heregeld_perk
+			add_perk = detailed_ledgers_perk
+			add_perk = it_is_my_domain_perk
+
 			add_prestige_level = 1
 			set_relation_rival = { target = character:528 reason = rival_historical } # constantly fought each other
 			set_relation_friend = { reason = friend_generic_history target = character:john_monk }
@@ -1316,6 +1322,9 @@ john_monk = { # John, a monk of Břevnov
 	mother = 1437
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1066.1.1 = {
+		give_council_position = councillor_court_chaplain
 	}
 	1090.6.26 = {
 		death = "1090.6.26"

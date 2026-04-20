@@ -185,7 +185,7 @@
  clan_unity_stop_defender_vassal_war.desc: "戦争で[unity_target.GetNamePossessive]の降伏を要求した"
  clan_unity_aided_in_war.desc: "戦争で[unity_target.GetName]を支援した"
  clan_unity_pardon_granted.desc: "[unity_target.GetName]に[unity_character.GetHerHis]の犯罪を許させた"
- clan_unity_refused_pardon.desc: "[unity_character.GetNamePossessive]の犯罪の恩赦を拒否した"
+ clan_unity_refused_pardon.desc: "[unity_character.GetNamePossessive]の犯罪の赦免を拒否した"
  clan_unity_refused_release_request.desc: "[unity_target.GetName]のために[prisoner.GetName]を解放することを拒否した"
  clan_unity_grant_prisoner_release.desc: "[unity_target.GetName]のために[prisoner.GetName]を解放した"
  clan_unity_nepotism_removed_from_post.desc: "[unity_target.GetNamePossessive]の[unity_target.Custom2('RelationToMe', SCOPE.sC('beneficiary_of_nepotism'))]を解雇した"

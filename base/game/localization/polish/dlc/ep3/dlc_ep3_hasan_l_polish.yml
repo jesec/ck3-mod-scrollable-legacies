@@ -20,6 +20,11 @@
  hasan_expand_the_assassins_desc: "Potrzebujemy więcej posiadłości, aby rozszerzyć wpływy zabójców. Dzięki temu będziemy mogli doprowadzić do upadku bluźnierców."
  hasan_expand_the_assassins_tooltip: "Rozbuduj [holy_order|El]"
  hasan_expand_the_assassins_confirm: "Nowy dom"
+ #Story Cycle
+ ULTIMATE_FOE: "Twój największy wróg"
+ story_hasan: "Legenda Hasana Sabbaha"
+ story_hasan_desc: "Siła wiary, silniejsza niż armie, może obalić imperia i stworzyć nową historię! Powołasz krąg zabójców i uwolnisz swój lud spod seldżuckiego jarzma? Czy zdołasz stać się Starcem z Gór?"
+ PROGRESS_TOWARDS_ASSASSIN_PATH: "Postęp w kierunku ścieżki zabójcy"
  #Events
  hasan_sabbah.1000.t: "Kaznodzieje wiary znanej jako [GetFaithByKey('ismaili').GetNameNoTooltip|l]"
  hasan_sabbah.1000.desc: "Wśród wyznawców i zwolenników egipskiego kalifa wyróżnia się osoba znana jako [amira.GetName], która naucza nieortodoksyjnego podejścia do islamu w sercu miejsca znanego jako [location.GetNameNoTier]. Niezachwianie wierzę w prawdę islamu i [ROOT.Char.GetFaith.HighGodNamePossessive] i do tej pory nie było dla mnie wątpliwości, że ta prawda nie może zostać odnaleziona poza wiarą znaną jako [ROOT.Char.GetFaith.GetName|l]. [amira.GetFirstNameNoTooltip] jednak sprawia, że brzmi to inaczej.\n\n[amira.GetFirstNameNoTooltip] poświęca mi resztę dnia i wspólnie omawiamy treści świętych ksiąg i hadisów. Po raz pierwszy dostrzegam prawdę w filozofii wiary znanej jako [GetFaithByKey('ismaili').GetName|l]."

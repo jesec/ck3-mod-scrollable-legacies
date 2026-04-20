@@ -27,16 +27,18 @@
 		}
 		add = {
 			value = learning
-			multiply = 0.5
+			multiply = 1.75
 			max = 50
 			desc = court_position_skill_learning
 		}
+		# Confucian Education
 		if = {
 			limit = {
 				has_trait = confucian_education
 			}
 			add = {
-				value = 10
+				value = "has_trait_xp(confucian_education)"
+				floor = yes
 				desc = court_position_confucian_education_trait
 			}
 		}
@@ -81,7 +83,7 @@
 				has_trait = intellect_good_3
 			}
 			add = {
-				value = 10
+				value = 15
 				desc = court_position_intellect_good_3_trait
 			}
 		}
@@ -157,21 +159,8 @@
 				desc = court_position_infirm_trait
 			}
 		}
-		# Seneschal
-		if = {
-			limit = {
-				liege.court_position:seneschal_court_position ?= {
-					has_variable = performing_improve_court
-				}
-			}
-			add = {
-				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
-				desc = seneschal_improve_court_aptitude_desc
-			}
-		}
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus
 	}
 
 	# Is this an available position for this court? (root is court owner)
@@ -364,16 +353,18 @@ grand_mentor_court_position = {
 		}
 		add = {
 			value = learning
-			multiply = 0.5
+			multiply = 1.75
 			max = 50
 			desc = court_position_skill_learning
 		}
+		# Confucian Education
 		if = {
 			limit = {
 				has_trait = confucian_education
 			}
 			add = {
-				value = 10
+				value = "has_trait_xp(confucian_education)"
+				floor = yes
 				desc = court_position_confucian_education_trait
 			}
 		}
@@ -494,21 +485,8 @@ grand_mentor_court_position = {
 				desc = court_position_infirm_trait
 			}
 		}
-		# Seneschal
-		if = {
-			limit = {
-				liege.court_position:seneschal_court_position ?= {
-					has_variable = performing_improve_court
-				}
-			}
-			add = {
-				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
-				desc = seneschal_improve_court_aptitude_desc
-			}
-		}
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus
 	}
 
 	# Is this an available position for this court? (root is court owner)
@@ -706,16 +684,18 @@ grand_guardian_court_position = {
 		}
 		add = {
 			value = martial
-			multiply = 0.5
+			multiply = 1.75
 			max = 50
 			desc = court_position_skill_martial
 		}
+		# Confucian Education
 		if = {
 			limit = {
 				has_trait = confucian_education
 			}
 			add = {
-				value = 10
+				value = "has_trait_xp(confucian_education)"
+				floor = yes
 				desc = court_position_confucian_education_trait
 			}
 		}
@@ -836,21 +816,8 @@ grand_guardian_court_position = {
 				desc = court_position_infirm_trait
 			}
 		}
-		# Seneschal
-		if = {
-			limit = {
-				liege.court_position:seneschal_court_position ?= {
-					has_variable = performing_improve_court
-				}
-			}
-			add = {
-				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
-				desc = seneschal_improve_court_aptitude_desc
-			}
-		}
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus
 	}
 
 	# Is this an available position for this court? (root is court owner)
@@ -1039,6 +1006,7 @@ fire_dragon_engineer_court_position = {
 		# Skill
 		add = {
 			value = learning
+			multiply = 1.75
 			max = 50
 			desc = court_position_skill_learning
 		}
@@ -1106,9 +1074,8 @@ fire_dragon_engineer_court_position = {
 			desc = court_position_military_engineer_trait
 		}
 			
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus
 	}
 
 	is_shown = {
@@ -1290,13 +1257,13 @@ keeper_of_the_harem_court_position = {
 		value = 1
 		add = {
 			value = diplomacy
-			multiply = 0.25
+			multiply = 1.75
 			max = 50
 			desc = court_position_skill_diplomacy
 		}
 		add = {
 			value = intrigue
-			multiply = 0.25
+			multiply = 1.75
 			max = 50
 			desc = court_position_skill_intrigue
 		}
@@ -1408,18 +1375,9 @@ keeper_of_the_harem_court_position = {
 				desc = court_position_infirm_trait
 			}
 		}
-		# Seneschal
-		if = {
-			limit = {
-				liege.court_position:seneschal_court_position ?= {
-					has_variable = performing_improve_court
-				}
-			}
-			add = {
-				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
-				desc = seneschal_improve_court_aptitude_desc
-			}
-		}
+
+		#add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus
 	}
 
 	# Is this an available position for this court? (root is court owner)
@@ -1624,7 +1582,7 @@ favored_minister_court_position = {
 			}
 			add = {
 				value = diplomacy
-				multiply = 0.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_diplomacy
 			}
@@ -1638,7 +1596,7 @@ favored_minister_court_position = {
 			}
 			add = {
 				value = martial
-				multiply = 0.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_martial
 			}
@@ -1652,7 +1610,7 @@ favored_minister_court_position = {
 			}
 			add = {
 				value = stewardship
-				multiply = 0.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_stewardship
 			}
@@ -1663,7 +1621,7 @@ favored_minister_court_position = {
 			}
 			add = {
 				value = intrigue
-				multiply = 0.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_intrigue
 			}
@@ -1677,7 +1635,7 @@ favored_minister_court_position = {
 			}
 			add = {
 				value = learning
-				multiply = 0.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_learning
 			}
@@ -1721,21 +1679,8 @@ favored_minister_court_position = {
 			}
 		}
 		
-		# Seneschal
-		if = {
-			limit = {
-				liege.court_position:seneschal_court_position ?= {
-					has_variable = performing_improve_court
-				}
-			}
-			add = {
-				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
-				desc = seneschal_improve_court_aptitude_desc
-			}
-		}
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_family_business_value
 		#add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus
 	}
 
 	# Is this an available position for this court? (root is court owner)
@@ -1884,7 +1829,7 @@ minister_bureaucrat_court_position = {
 			}
 			add = {
 				value = diplomacy
-				multiply = 1.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_diplomacy
 			}
@@ -1900,7 +1845,7 @@ minister_bureaucrat_court_position = {
 			}
 			add = {
 				value = martial
-				multiply = 1.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_martial
 			}
@@ -1916,7 +1861,7 @@ minister_bureaucrat_court_position = {
 			}
 			add = {
 				value = stewardship
-				multiply = 1.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_stewardship
 			}
@@ -1927,7 +1872,7 @@ minister_bureaucrat_court_position = {
 			}
 			add = {
 				value = intrigue
-				multiply = 1.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_intrigue
 			}
@@ -1943,7 +1888,7 @@ minister_bureaucrat_court_position = {
 			}
 			add = {
 				value = learning
-				multiply = 1.5
+				multiply = 1.75
 				max = 50
 				desc = court_position_skill_learning
 			}
@@ -2149,50 +2094,17 @@ minister_bureaucrat_court_position = {
 			}
 		}
 		
-		# Seneschal
-		if = {
-			limit = {
-				liege.court_position:seneschal_court_position ?= {
-					has_variable = performing_improve_court
-				}
-			}
-			add = {
-				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
-				desc = seneschal_improve_court_aptitude_desc
-			}
-		}
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_family_business_value
 		#add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus
 	}
 
 	# Is this an available position for this court? (root is court owner)
 	is_shown = {
-		OR = {
-			has_title = title:e_minister_chancellor
-			has_title = title:e_minister_censor
-			has_title = title:e_minister_grand_marshal
-			has_title = title:e_minister_of_personnel
-			has_title = title:e_minister_of_revenue
-			has_title = title:e_minister_of_rites
-			has_title = title:e_minister_of_war
-			has_title = title:e_minister_of_justice
-			has_title = title:e_minister_of_works
-		}
+		tgp_has_minister_title = yes
 	}
 
 	valid_position = {
-		OR = {
-			has_title = title:e_minister_chancellor
-			has_title = title:e_minister_censor
-			has_title = title:e_minister_grand_marshal
-			has_title = title:e_minister_of_personnel
-			has_title = title:e_minister_of_revenue
-			has_title = title:e_minister_of_rites
-			has_title = title:e_minister_of_war
-			has_title = title:e_minister_of_justice
-			has_title = title:e_minister_of_works
-		}
+		tgp_has_minister_title = yes
 	}
 
 	is_shown_character = {

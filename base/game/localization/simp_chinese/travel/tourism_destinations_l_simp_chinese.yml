@@ -255,6 +255,7 @@
  building_sado_mines_destination_desc: "这里看似不起眼、荒凉且偏僻的地方，但在地下，[GetBuilding('sado_mines_01').GetName]的矿工们正忙碌地开采着岛屿深处埋藏的宝藏。"
  building_tada_mines_destination_desc: "在摄津森林覆盖的群山间，[GetBuilding('tada_mines_01').GetName]回荡着铜矿工人们忙碌的声响，他们正开采着大地蕴藏的财富。"
  building_mozu_tombs_destination_desc: "[GetBuilding('mozu_tombs').GetName]是一处奇观。据说这里安葬着上古天皇，周濠围出的前方后圆古坟令人印象深刻，塑造了此地的自然景观，同时也影响着人们的精神风貌。"
+ building_trosky_castle_01_destination_desc: "雄伟的[GetBuilding('trosky_castle_01').GetName]矗立于两块巨大的玄武岩岩层间，据年长者们说，这两块巨岩是休眠的火山。虽然它的名字因岩石的外观而被戏谑地称为“废墟”，但城堡本身绝非如此。"
  legendary_watchtower_destination_desc: "[GetBuilding('legendary_watchtower').GetName]高耸入云，用坚定不移的目光审视着这片土地。它令人敬畏的结构成了周围几里地的灯塔，印证了其创造者的警惕。它不仅充当了一处瞭望台，也象征着对任何胆敢威胁领地和平之人的防备。"
  legendary_hunting_ground_destination_desc: "[GetBuilding('legendary_hunting_lodge').GetName]是一片野性至上的领域。其广阔的场地上遍布多种多样的动植物群，为高贵的狩猎艺术提供了一处原始的保护区。传统与自然交织于此，为那些寻求在荒野中测试自身技能的人提供了一种既有挑战又有回报的体验。"
  legendary_palace_destination_desc: "笼罩在宏伟气象中的[GetBuilding('legendary_palace').GetName]是一座建筑杰作，令所有踏入其领域的人为之着迷。其奢华的殿堂和花园证明了艺术成就的巅峰。这座宫殿作为权力与美观的中心，启发了访客心中的敬畏和惊奇。"

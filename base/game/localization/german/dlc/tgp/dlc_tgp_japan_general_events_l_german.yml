@@ -63,7 +63,7 @@
  tgp_japan_general.9550.desc.fam: "\n\nMeine Familie und ich scharen uns umeinander."
  tgp_japan_general.9550.desc.end: "Mit jedem Wimpernschlag kommen die Füchse jenem gefangenen Vogel näher, zu dem wir geworden sind.\n\nWie werden wir, das Haus [ROOT.Char.GetHouse.GetNameNoTooltip], unseren letzten Augenblicken begegnen?"
  every_close_family_house_member_in_court: "Ihr und alle [spouse|E] und [close_family|El], die [house|E]-Mitglieder sind, am [court|E] von [loser.GetShortUIName]"
- every_house_member_in_court: "[spouse|E] von [loser.GetShortUIName] und jedes [house|E]-Mitglied am [court|E] von [loser.GetShortUIName]"
+ every_house_member_in_court: "[spouses|E] von [loser.GetShortUIName] und alle [house|E]-Mitglieder an [loser.Custom('DE_PRO_POS_S_3P')]em [court|E]"
  is_killed_by_you_and_you_kill_self: "@death_icon! wird den Freitod wählen, um einer Entehrung durch [winner.GetShortUIName] zu entgehen"
  tgp_japan_general.9550.a.alone: "Ich werde keinen unwürdigen Tod erleiden!"
  tgp_japan_general.9550.a.alone.flavor: "Ich sterbe durch meine Hand allein"

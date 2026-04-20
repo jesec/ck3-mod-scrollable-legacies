@@ -1,4 +1,4 @@
-
+﻿
 ######################################################
 ################ BACKGROUND TEMPLATES ################
 ######################################################
@@ -834,4 +834,28 @@ template Mask_Rough_Edges
 template Background_Alternate_Datamodel
 {
 	visible = "[EqualTo_int32( Modulo_int32( PdxGuiWidget.GetIndexInDataModel, '(int32)2' ), '(int32)0' )]"
+}
+
+template Story_Cycle_Background
+{
+    spriteType = Corneredtiled
+    alpha = 0.3
+    texture = "gfx/interface/colors/white.dds"
+    using = Mask_Rough_Edges
+    using = Color_Blue
+    modify_texture = {
+        name = "mask"
+        texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+        spriteType = Corneredstretched
+        spriteborder = { 0 0 }
+        blend_mode = alphamultiply
+        mirror = horizontal
+    }
+    modify_texture = {
+        texture = "gfx/interface/skinned/mask_pattern.dds"
+        texture_density = 3
+        spriteType = Corneredtiled
+        blend_mode = alphamultiply
+        alpha = 0.2
+    }
 }

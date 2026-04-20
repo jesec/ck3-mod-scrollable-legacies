@@ -60,7 +60,7 @@
 
  scheme_title_changed_holder: "The [target.GetBaseName] changed holder"
  scheme_great_project_is_funded: "Your [great_project|E] has no unfunded [great_project_contributions|E] left"
- attempted_to_coerce_contribution_from_my_realm_opinion: "Attempted to Coerce Contribution From My Realm"
+ attempted_to_coerce_contribution_from_my_realm_opinion: "Attempted to Coerce Contribution from My Realm"
  
  #Leverage Contribution Scheme
  leverage_contribution: "Leverage Contribution"

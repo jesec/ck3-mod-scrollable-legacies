@@ -2287,7 +2287,7 @@ festival.022 = {
 				tags = { good }
 				character = root
 				root = {
-					add_gold = minor_gold_loss
+					remove_short_term_gold = minor_gold_value
 				}
 				scope:activity.activity_location.county = {
 					add_county_modifier = {
@@ -3414,6 +3414,7 @@ festival.102 = {
 		scope:activity = {
 			every_attending_character = {
 				limit = {
+					this != root
 					is_ai = yes
 					OR = {
 						has_trait = temperate

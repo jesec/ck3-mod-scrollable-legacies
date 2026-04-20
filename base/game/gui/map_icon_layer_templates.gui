@@ -172,13 +172,16 @@ types MapIcons {
 	type container_supply_icon = widget {
 		size = { 35 30 }
 		name = "supplies"
-		visible = "[UnitItem.ShowSupplyIcon]"
+		block "show_army_supply" {
+			visible = "[UnitItem.ShowSupplyIcon]"
+		}
 		
 		icon = {
 			name = "bg"
 			position = { 0 0 }
 			size = { 30 30 }
-			texture = "gfx/interface/icons/icon_bg_small.dds"
+			texture = "gfx/interface/icons/icon_bg_small.dds"	
+			
 		}
 		
 		icon = {
@@ -188,7 +191,7 @@ types MapIcons {
 			size = { 25 25 }
 			frame = "[UnitItem.GetSupplyStateFrame]"
 			texture = "gfx/interface/icons/icon_supplies_small.dds"
-		}
+		}		
 		
 		icon = {
 			name = "supply_trend_icon"
@@ -239,6 +242,15 @@ types MapIcons {
 			allow_outside = yes
 			
 			ignoreinvisible = yes
+			
+			# only overriding them here, so the tooltip always shows all items
+			blockoverride "visible_army_details_zoom" {
+				using = Visible_Army_Details_Zoom
+			}
+			
+			blockoverride "show_army_supply" {
+				visible = "[Or(GreaterThan_int32(UnitItem.GetSupplyStateFrame, '(int32)1'), LessThan_int32( GetZoomLevel, '(int32)6' ))]"
+			}
 			
 			container_allied_unit_icon_item = {}
 			
@@ -351,16 +363,20 @@ types MapIcons {
 						ignoreinvisible = yes
 						
 						block "unit_items" {
-							
-							text_single = {
-								visible = "[GreaterThanOrEqualTo_int32(UnitMapIcon.GetShownCount, '(int32)2')]"
-								text = "UNIT_ITEMS"
+							container = {
+								ignoreinvisible = yes
+								block "visible_army_details_zoom" {}
 								
-								default_format = "#medium;bold;glow_color:{0.1,0.1,0.1,1.0}"
-								margin_top = 2
-								
-								snap_to_pixels = no
-							}
+								text_single = {
+									visible = "[GreaterThanOrEqualTo_int32(UnitMapIcon.GetShownCount, '(int32)2')]"
+									text = "UNIT_ITEMS"
+									
+									default_format = "#medium;bold;glow_color:{0.1,0.1,0.1,1.0}"
+									margin_top = 2
+									
+									snap_to_pixels = no
+								}
+							}							
 						}
 						
 						text_single = {
@@ -387,6 +403,7 @@ types MapIcons {
 						
 						widget = {
 							size = { 22 22 }
+							block "visible_army_details_zoom" {}
 							
 							icon_unit_quality = {
 								parentanchor = vcenter
@@ -401,7 +418,8 @@ types MapIcons {
 					button_group = {
 						name = "rally_point"
 						size = { 34 34 }
-						
+						datacontext = "[UnitItem.GetOwner]" # This datacontext is required for 'coa_realm_tiny' below, else it will have a wrong data-context order, somehow.
+
 						army_automation_on_big = {
 							size = { 36 36 }
 							position = { -28 -2 }
@@ -431,6 +449,7 @@ types MapIcons {
 							visible = "[And(Not(UnitItem.IsOnlyHiredTroops), UnitItem.IsUnitItemMine)]"
 							datacontext = "[UnitItem.GetOwner]"
 							tooltip_visible = no
+							alwaystransparent = "[IsGameViewOpen('army')]"
 						}
 						
 						button = {
@@ -448,7 +467,8 @@ types MapIcons {
 			{
 				widget = {
 					size = { 32 32 }
-					
+					datacontext = "[UnitItem.GetOwner]" # This datacontext is required for 'coa_realm_tiny' below, else it will have a wrong data-context order, somehow.
+
 					icon = {
 						name = "ally_war_icon"
 						visible = "[UnitItem.IsUnitItemAlly]"
@@ -532,9 +552,13 @@ types MapIcons {
 					visible = "[And(UnitItem.IsGathering, UnitItem.IsUnitItemHostile)]"
 					using = Unit_Bg_Gathering
 				}
+				spacer = {
+					size = { 3 0  }
+				}
 				
 				widget = {
 					size = { 22 22 }
+					block "visible_army_details_zoom" {}
 					
 					icon_unit_quality = {
 						parentanchor = vcenter
@@ -543,14 +567,19 @@ types MapIcons {
 				}
 				
 				block "unit_items" {
-					text_single = {
-						visible = "[GreaterThanOrEqualTo_int32(GetDataModelSize(UnitMapIcon.GetUnitItems), '(int32)2')]"
-						text = "UNIT_ITEMS"
-						default_format = "#medium;bold;glow_color:{0.1,0.1,0.1,1.0}"
-						margin_top = 2
-						
-						snap_to_pixels = no
-					}
+					container = {
+						ignoreinvisible = yes
+						block "visible_army_details_zoom" {}
+						text_single = {
+							visible = "[GreaterThanOrEqualTo_int32(UnitMapIcon.GetShownCount, '(int32)2')]"
+							text = "UNIT_ITEMS"
+							
+							default_format = "#medium;bold;glow_color:{0.1,0.1,0.1,1.0}"
+							margin_top = 2
+							
+							snap_to_pixels = no
+						}
+					}							
 				}
 				
 				text_single = {
@@ -561,6 +590,7 @@ types MapIcons {
 					snap_to_pixels = no
 					margin_bottom = 1
 				}
+				
 			}
 			
 			block "siege_window"
@@ -568,7 +598,8 @@ types MapIcons {
 				widget = {
 					allow_outside = yes
 					size = { 32 32 }
-					
+					datacontext = "[UnitItem.GetOwner]" # This datacontext is required for 'coa_realm_tiny' below, else it will have a wrong data-context order, somehow.
+
 					icon_raider = {
 						position = { 2 -22 }
 					}
@@ -588,6 +619,7 @@ types MapIcons {
 						position = { 5 2 }
 						datacontext = "[UnitItem.GetOwner]"
 						allow_outside = yes
+						alwaystransparent = "[IsGameViewOpen('army')]"
 					}
 				}
 				
@@ -1010,4 +1042,12 @@ types MapIconTempateTypes {
 			}
 		}
 	}
+}
+
+template Visible_Army_Details_Zoom {
+	visible = "[LessThan_int32( GetZoomLevel, '(int32)6' )]"
+}
+
+template Not_Visible_Army_Details_Zoom {
+	visible = "[Not(LessThan_int32( GetZoomLevel, '(int32)6' ))]"
 }

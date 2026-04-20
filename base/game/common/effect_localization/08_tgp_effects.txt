@@ -106,3 +106,21 @@ tgp_create_meritocratic_ruling_regent_title_effect = {
 	first = tgp_create_meritocratic_ruling_regent_title_effect
 	third = tgp_create_meritocratic_ruling_regent_title_effect
 }
+
+add_barter_goods = {
+	first_past = I_GAINED_BARTER_GOODS_EFFECT
+	third_past = THEY_GAINED_BARTER_GOODS_EFFECT
+	global_past = GAINED_BARTER_GOODS_EFFECT
+	first = I_GAIN_BARTER_GOODS_EFFECT
+	third = THEY_GAIN_BARTER_GOODS_EFFECT
+	global = GAIN_BARTER_GOODS_EFFECT
+}
+
+remove_barter_goods = {
+	first_past = I_LOST_BARTER_GOODS_EFFECT
+	third_past = THEY_LOST_BARTER_GOODS_EFFECT
+	global_past = LOST_BARTER_GOODS_EFFECT
+	first = I_LOSE_BARTER_GOODS_EFFECT
+	third = THEY_LOSE_BARTER_GOODS_EFFECT
+	global = LOSE_BARTER_GOODS_EFFECT
+}

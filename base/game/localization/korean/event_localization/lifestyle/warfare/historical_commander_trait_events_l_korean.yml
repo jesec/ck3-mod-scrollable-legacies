@@ -17,8 +17,8 @@
  historical_commander_trait.0002.c: "실패를 무릅써 결국 성과를 올렸군!"
  historical_commander_trait.0002.d: "요즘 세상에 누가 저런 식으로 싸우나..."
  #Alexander
- historical_commander_trait.0003.t: "누구도 막지 못한 알렉산더 대왕"
- historical_commander_trait.0003.desc: "옛 장군의 전술을 면밀히 살펴보던 도중 알렉산더 대왕이 메소포타미아 정복 중에 세운 공적에 대해 알게 되어 [ROOT.Char.Custom('surprised_reaction')]을 금치 못했다.\n\n#F 티레를 공성하던 중 알렉산더 대왕은 근처 마을을 전복시켜 요새 섬을 공격했다. 그 후 돌무더기로 본토에서 티레의 성벽까지 이어지는 방죽길을 만들어 공성 병기가 적의 성채를 바로 공격할 수 있도록 만들었다. 결국 빈틈을 만든 것은 해군이긴 했지만 말이다.#!"
+ historical_commander_trait.0003.t: "누구도 막지 못한 알렉산드로스 대왕"
+ historical_commander_trait.0003.desc: "옛 장군의 전술을 면밀히 살펴보던 도중 알렉산드로스 대왕이 메소포타미아 정복 중에 세운 공적에 대해 알게 되어 [ROOT.Char.Custom('surprised_reaction')]을 금치 못했다.\n\n#F 티레를 공성하던 중 알렉산드로스 대왕은 근처 마을을 전복시켜 요새 섬을 공격했다. 그 후 돌무더기로 본토에서 티레의 성벽까지 이어지는 방죽길을 만들어 공성 병기가 적의 성채를 바로 공격할 수 있도록 만들었다. 결국 빈틈을 만든 것은 해군이긴 했지만 말이다.#!"
  historical_commander_trait.0003.a: "물조차 내 군대를 막을 수는 없으리라!"
  historical_commander_trait.0003.b: "방죽길이라니, 정말 독창적인 전술이군."
  historical_commander_trait.0003.c: "적의 자원을 역이용하다니 정말 대단하군!"

@@ -1,5 +1,6 @@
 ﻿l_spanish:
  sponsor_inspiration_debug: "Financiar la inspiración"
+ complete_inspiration_debug: "Inspiración completa"
  I_CAN_SPONSOR_OWN_INSPIRATION: "Puedo financiar mi propia inspiración"
  NOT_I_CAN_SPONSOR_OWN_INSPIRATION: "#bold No#! puedo financiar mi propia inspiración"
  THEY_CAN_SPONSOR_OWN_INSPIRATION: "[CHARACTER.GetUIName] se puede financiar su inspiración"

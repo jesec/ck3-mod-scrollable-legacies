@@ -1,4 +1,4 @@
-﻿l_english: 
+﻿l_english:
  debug.0002.t:0 "Prepare the Stork(s)"
  debug.0002.desc:1 "[mother.GetShortUIName|U] will become pregnant with [father.GetShortUIName] as the father."
  debug.0002.a:0 "Old fashioned pregnancy please"
@@ -19,7 +19,7 @@
  debug_generic_option_can_disable:0 "$debug_generic_option$$debug_generic_option_can_disable_text$"
  debug_generic_option_shortened_trigger:0 "#D This trigger was made shorter because you have debug enabled#!"
  debug_generic_option_shortened_trigger_can_disable:0 "$debug_generic_option_shortened_trigger$$debug_generic_option_can_disable_text$"
- 
+
  interaction_debug_main: "#D DEBUG: #BER Main#!#!"
  debug_main:0 "#D DEBUG Main#!"
  interaction_debug_relations: "#D DEBUG Relations#!"
@@ -204,7 +204,19 @@
  give_away_random_artifact_interaction: "Give to Random Neighbor"
  take_artifact_interaction: "Take Artifact"
 
-
+ # Impact House Relation (debug interaction)
+ debug_impact_house_relation_interaction: "Impact House Relation"
+ debug_impact_house_relation_interaction_desc: "Improve or worsen the [house_relation|E] between [house|E] [actor.GetHouse.GetName] and [recipient.GetHouse.GetName]."
+ debug_impact_house_relation_for_the_significantly_better: "Significantly #P improve#! [house_relation|E] (+300%)"
+ debug_impact_house_relation_for_the_noticeably_better: "Noticeably #P improve#! [house_relation|E] (+100%)"
+ debug_impact_house_relation_for_the_slightly_better:  "Slightly #P improve#! [house_relation|E] (+30%)"
+ debug_impact_house_relation_by_setting_to_neutral: "#M Create/Set Neutral#!"
+ debug_impact_house_relation_for_the_slightly_worse: "Slightly #N worsen#! [house_relation|E] (-30%)"
+ debug_impact_house_relation_for_the_noticeably_worse: "Noticeably #N worsen#! [house_relation|E] (-100%)"
+ debug_impact_house_relation_for_the_significantly_worse: "Significantly #N worsen#! [house_relation|E] (-300%)"
+ debug_impact_house_relation_by_clearing_it: "#V Clear [house_relation|E] (next tick)#!"
+ debug_impact_house_relation_by_starting_a_feud: "#DIE1 Start Feud#!"
+ debug_impact_house_relation_change_description: "[house_relation|E] changed by #D debug interaction#!."
 
  inspire_interaction:0 "Inspire"
  inspire_interaction_book:0 "Becomes inspired to write a book"
@@ -348,7 +360,7 @@
  set_relationship_debug_nemesis_remove:0 "Remove Nemesis"
 
  set_relationship_debug_nevermind:0 "Nevermind"
- 
+
  EVENT_DEBUG_TOOLTIP:0 "#P Click to open Event Script in associated editor#!\n#weak (remember that you can change the default Editor!)#!"
 
 
@@ -380,14 +392,14 @@
  debug.511.a: "Set rabbinism as secret faith for [ROOT.Char.GetName]"
  debug.511.b: "Remove [ROOT.Char.GetSecretFaith.GetName] as [ROOT.Char.GetName] secret faith"
  debug.512.a: "[ROOT.Char.GetName] has [ROOT.Char.GetSecretFaith.GetName] as their secret faith"
- 
+
  change_hunt_success_chance:0 "Change Hunt Success Chance"
  ERROR_FLAG_INDEX:0 "-"
  BETA_BUILD: "In development build. Don't share"
  BETA_PROMPT_TITLE: "Welcome to the CK3 Beta!"
  BETA_PROMPT_MESSAGE: "This is a beta build of upcoming CK3 content. Do NOT share any information from this build publicly. This build handles a minimal amount of personal data in order to track down potential leaks."
 
- 
+
  debug_destroy_artifact_interaction: "Destroy/Damage Artifact"
  destroy_artifact: "Destroy"
  damage_artifact: "Damage (Halve [durability|E])"
@@ -395,9 +407,6 @@
  debug_travel_to_ruler_interaction: "Travel to Ruler"
  designate_diarch_interaction: "Designate Diarch"
  debug_give_animal_interaction: "Start Pet Story"
- story_cycle_pet_dog: "Pet Dog"
- story_cycle_pet_cat: "Pet Cat"
- story_cycle_pet_eagle: "Hunting Eagle"
 
  had_sex_with_effect.log.root_cheated_inappropriately:0 "had_sex_with_effect: root cheated on a partner that they wouldn't have\nCheater: [THIS.Char.GetShortUIName]\nWith: [PREV.Char.GetShortUIName]"
  had_sex_with_effect.log.target_cheated_inappropriately:0 "had_sex_with_effect: target cheated on a partner that they wouldn't have\nCheater: [THIS.Char.GetShortUIName]\nWith: [PREV.Char.GetShortUIName]"
@@ -409,7 +418,7 @@
 
  steam_rich_presence_debug_t: "Test your steam rich presence"
  steam_rich_presence_debug_desc: "You: [GetPlayer.Custom('rich_presence_flavor_status')] [GetPlayer.GetFullName]\n\nA sayyid: [sayyid.Custom('rich_presence_flavor_status')] [sayyid.GetFullName]\n\nA Caliph detractor: [fp3_struggle_detractor.Custom('rich_presence_flavor_status')] [fp3_struggle_detractor.GetFullName]\n\nA Caliph Supporter: [fp3_struggle_supporter.Custom('rich_presence_flavor_status')] [fp3_struggle_supporter.GetFullName]\n\nThe Caliph in 867: [sus_caliph.Custom('rich_presence_flavor_status')] [sus_caliph.GetFullName]\n\nIberian Struggle: [iberian_struggle.Custom('rich_presence_flavor_status')] [iberian_struggle.GetFullName]\n\nPersian Struggle: [persian_struggle.Custom('rich_presence_flavor_status')] [persian_struggle.GetFullName]"
- 
+
  spawn_epidemic_interaction_measles: "[GetTrait('measles').GetName( GetNullCharacter )]"
  spawn_epidemic_interaction_consumption: "[GetTrait('consumption').GetName( GetNullCharacter )]"
  spawn_epidemic_interaction_smallpox: "[GetTrait('smallpox').GetName( GetNullCharacter )]"
@@ -421,7 +430,7 @@
  spawn_minor_epidemic_interaction: "#BOLD #M Minor#!#!"
  spawn_major_epidemic_interaction: "#BOLD #color_red Major#!#!"
  spawn_apocalyptic_epidemic_interaction: "#BOLD #difficulty_easy A#!#P p#!#difficulty_easy o#!#P c#!#difficulty_easy a#!#P l#!#difficulty_easy y#!#P p#!#difficulty_easy t#!#P i#!#difficulty_easy c#!#!"
- 
+
  spawn_legend_interaction: "Get Legend Seeds"
  spawn_legend_interaction_heroic: "heroic"
  spawn_legend_interaction_holy: "holy"
@@ -505,7 +514,7 @@
  antagonise_court_antagonise_all: "Antagonize All"
 
  debug_military_power_tt: "#D Military power: $CURRENT|0$/$CURRENT|0$#!"
- 
+
  start_diarchy_interaction: "Start #BOLD #M Diarchy#!#!"
  take_hostage_interaction: "Take Hostage"
  spawn_courtier_interaction: "Spawn [recipient.Custom('GetCourtier')|U]"
@@ -516,7 +525,7 @@
  destroy_title_interaction: "Destroy Title"
  debug_top_title_interaction: "Only Top Title"
  debug_all_title_interaction: "All Realm Titles"
- 
+
  debug_situation.0001.t: "#D Situation Phase Started"
  debug_situation.0001.desc: "#D Situation Phase Started"
  debug_situation.0002.t: "#D Situation Phase Ended"
@@ -551,8 +560,8 @@
  DEBUG_TOOLTIP_WAR_COORDINATOR_WOULD_START_SIEGE: "Would start siege"
  DEBUG_TOOLTIP_WAR_COORDINATOR_TARGET_CLOSE_TO_WAR_GOAL: "Proximity to war goal"
  DEBUG_TOOLTIP_WAR_COORDINATOR_ADJACENCY_SCORE: "Adjacency score"
- 
- debug_change_the_great_steppe: "Change #bold Steppe Season#!" 
+
+ debug_change_the_great_steppe: "Change #bold Steppe Season#!"
  debug_change_steppe_grazing: "Abundant Grazing"
  debug_change_steppe_drought: "Severe Drought"
  debug_change_steppe_white_zud: "White Zud"
@@ -590,15 +599,6 @@
  debug_change_dynastic_cycle_instability: "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]"
  debug_change_dynastic_cycle_chaos: "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]"
 
- debug_change_house_relation: "Change House Relation"
- debug_neutral_house_relation: "#M Create/Set Neutral#!"
- debug_increase_house_relation: "#P Increase Level#!"
- debug_improve_house_relation: "#P Improve#!"
- debug_damage_house_relation: "#N Damage#!"
- debug_decrease_house_relation: "#N Decrease Level#!"
- debug_clear_house_relation: "#V Clear#!"
- debug_start_feud: "#DIE1 Start Feud#!"
-
  debug_spawn_natural_disaster: "Spawn Natural Disaster"
  debug_sub_realm_earthquake: "Earthquake in Recipient Sub Realm"
  debug_random_earthquake: "Random Global Earthquake"
@@ -607,7 +607,7 @@
  debug_sub_realm_flood_tt: "[recipient.GetShortUIName|U] must hold land on a major river which is not currently flooded"
 
  CONFEDERATION_HOUSE_NAME: "[bloc_creator.GetBaseNameNoTooltip] Bloc"
- 
+
  debug_set_mandala_aspect: "Set #BOLD #M Mandala Aspect#! #!"
  debug_set_mandala_aspect_desc: "Set the [mandala_aspect|E] of [recipient.GetShortUINamePossessive] [house|E]"
  debug_set_mandala_aspect_none: "No Aspect"
@@ -633,3 +633,18 @@
  debug_set_mandala_aspect_trickery_05: "Trickery 05"
 
  debug_change_bloc_cohesion: "$adjust_confederation_cohesion_decision$"
+ debug_improve_block_cohesion: "#P Improve#! Cohesion"
+ debug_damage_block_cohesion: "#N Damage#! Cohesion"
+
+ debug_option_1: "First option"
+ debug_option_2: "Smart option"
+ debug_option_3: "Lose stress"
+ debug_option_4: "Scary book"
+ debug_option_5: "Take me back"
+ debug_option_6: "option 6"
+ debug_option_7: "option 7"
+ debug_option_8: "option 8"
+ debug_option_9: "option 9"
+ debug_option_10: "option 10"
+ debug_option_11: "option 11"
+ debug_option_12: "option 12"

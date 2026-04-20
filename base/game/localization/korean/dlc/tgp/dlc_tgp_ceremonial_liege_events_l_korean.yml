@@ -35,7 +35,7 @@
  tgp_power_undermined_modifier_tt: "[GetModifier('tgp_power_undermined_modifier').GetNameWithTooltip]: #P +25#!"
  tgp_ceremonial_liege_events.0020.c: "[opposing_power.GetHerHim]에게 내 인사를 전한다."
  tgp_ceremonial_liege_events.0030.t: "학자의 회고록"
- tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName](이)가 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]의 역사를 담은 훌륭한 기념을 써냈다.\n\n회고록에는"
+ tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName](이)가 [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName]의 역사를 담은 훌륭한 기념을 써냈다.\n\n회고록에는"
  tgp_ceremonial_liege_events.0030.regent: "[opposing_power.GetFirstName](이)가 꽤 자주 등장하는 것은 물론, 자세하게 언급되었다. [scholar.GetFirstNameNoTooltip](은)는 [opposing_power.GetFirstNamePossessiveNoTooltip] 가문인 [opposing_power.GetHouse.GetName]에 대해서도 상세히 기록해 두었다.\n\n그런데 문제가 있었다. 나는 [ROOT.Char.Custom('InsultAdjective')] 사람으로 묘사됐지만, [opposing_power.GetFirstNameNoTooltip](은)는 꽤 [ROOT.Char.Custom('ComplimentAdjective')] 사람으로 기록되었다는 점이었다..."
  tgp_ceremonial_liege_events.0030.liege: "내가 꽤 자주 등장하는 것은 물론, 자세하게 언급되었다. [scholar.GetFirstNameNoTooltip](은)는 내 가문인 [ROOT.Char.GetHouse.GetName]에 대해서도 상세히 기록해 두었다.\n\n그런데 내가 [ROOT.Char.Custom('ComplimentAdjective')] 사람으로 묘사됐지만, [opposing_power.GetFirstNameNoTooltip](은)는 꽤 [opposing_power.Custom('InsultAdjective')] 사람으로 기록되었다는 점이 눈길을 끌었다..."
  tgp_ceremonial_liege_events.0030.a: "훌륭한 작품이다!"

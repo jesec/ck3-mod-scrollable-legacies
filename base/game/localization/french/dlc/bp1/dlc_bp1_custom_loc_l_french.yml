@@ -8,7 +8,7 @@
  partner_opinion_desc_sweet: "ch[ROOT.Char.Custom('FR_ErEre')]"
  partner_opinion_desc_lovely: "charmant[ROOT.Char.Custom('FR_E')]"
  #PartnerOpinionLowDescription
- partner_opinion_desc_esteemed: "estimable"
+ partner_opinion_desc_esteemed: "respectable"
  partner_opinion_desc_imposing: "remarquable"
  partner_opinion_desc_respectable: "respectable"
  #RandomJewelry

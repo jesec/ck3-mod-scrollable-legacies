@@ -135,6 +135,7 @@ window = {
 									onclick = "[ActivityIntentSelectionWindow.SelectIntent( ActivityIntent.Self )]"
 									onclick = "[VariableSystem.ClearIf( 'activity_intent_selection_target_list', Not( ActivityIntent.HasTarget ) )]"
 									enabled = "[ActivityIntentSelectionWindow.CanPickIntent( ActivityIntent.Self )]"
+									using = SubTabShortcut
 
 									tooltip = "ACTIVITY_CHANGE_INTENT_TOOLTIP"
 

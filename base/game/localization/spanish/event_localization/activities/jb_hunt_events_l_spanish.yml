@@ -136,6 +136,7 @@
  hunt.8570.a: "«¡Ya voy!»."
  hunt.8570.a.success: "[stampede_victim.GetHerHim|U] rescatas iles[stampede_victim.Custom('ES_OA')]"
  hunt.8570.a.failure: "[stampede_victim.GetHerHim|U] rescatas con heridas"
+ hunt.8570.a.failure_2: "No logras rescatar[stampede_victim.GetHerHim]"
  hunt.8570.a.crit_failure: "Mueres en el intento"
  hunt.8570.b: "Tal vez pueda redirigir la estampida."
  hunt.8570.b.success: "Rediriges la estampida"

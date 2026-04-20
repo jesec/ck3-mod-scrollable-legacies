@@ -373,8 +373,8 @@
  game_concept_house_feud_desc: "時折、特定の[house|E]との敵対関係が確執に変わることがあります。\n\n#help 対象となる[house|E]の一員に対する殺害、[torturing|E]、寝取り、強盗、[wars|E]の勝利によりあなたの一家のスコアが上昇します。一方、こうした行動の被害者になった場合は減少します。\n\n確執が存在すると、[house|E]の全員が対象の[house|E]に対する[hostile_schemes|E]ボーナスを獲得します。また、その一家を対象にする可能性が高くなります。\n\n確執が終了すると、あなたの[house|E]は敵から受けた[GetModifier('house_feud_terrible_modifier').GetNameWithTooltip]から[GetModifier('house_feud_excellent_modifier').GetNameWithTooltip]までの相対的損害に応じて報酬を受け取ります。"
  #Important Action
  action_ongoing_house_feud: "続く家[house_feud|E]"
- action_ongoing_house_feud_label: "@dynasty_icon! あなたの一家は[recipient.GetHouse.GetBaseNameNoTooltip]と確執がある"
- action_ongoing_house_feud_desc: "あなたの一家は[recipient.GetHouse.GetBaseName]家を敵とみなしており、彼らを打ち負かすと報酬が得られます。\n\n#help その一家に対する殺害、[torturing|E]、寝取り、強盗、[wars|E]の勝利によりあなたの一家のスコアが上昇します。一方、こうした行動の被害者になった場合は減少します。#!\n\n#help $house_feud_balance_action_tt$#!\n"
+ action_ongoing_house_feud_label: "@dynasty_icon! あなたの家は[recipient.GetHouse.GetBaseNameNoTooltip]と確執がある"
+ action_ongoing_house_feud_desc: "あなたの一族は[recipient.GetHouse.GetBaseName]家を敵とみなしており、彼らを打ち負かすと報酬が得られます。\n\n#help この一族の成員に対する殺害、[torturing|E]、寝取り、強盗、[wars|E]の勝利によりあなたの家のスコアが上昇します。一方、こうした行動の被害者になった場合は減少します。#!\n"
  action_ongoing_house_feud_click: "#I クリックして[house_feud|E]家長を表示#!"
  action_ongoing_house_feud_unimportant: "@warning_icon! #N あなたの家は現在、[house_feud|E]に負けつつあります#!"
  swap_feud_tt: "[house|E]、[house_feud_existing.GetBaseName]で[house_feud|E]を終わらせる"

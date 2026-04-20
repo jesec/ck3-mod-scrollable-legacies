@@ -184,7 +184,7 @@
  UPGRADE_HORDE_TOOLTIP: "#T Ulepsz [regiment|El] hordy koczowniczej#!\n#weak Zapłacisz w [Concept('gold', 'złocie')|E] za zamianę swojej [Concept('horde', 'hordy koczowniczej')|E] w [Concept('men_at_arms', 'zbrojnych')|E]#!"
  MV_REGIMENT_START_SIZE_NOMAD: "Rozpocznie w pełni sił ([MenAtArmsType.GetStackSize])"
  RECRUIT_FROM_SUBJECTS_LABEL: "Werbunek poddanych"
- RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T Werbunek w państwach poddańczych#!\n#weak Płacąc [Concept('gold', 'złotem')|E], rekrutujesz [Concept('men_at_arms', 'zbrojnych')|E] typu dostępnego dla twojego [Concept('subject', 'państwa poddańczego')|E], ale nie dla ciebie#!"
+ RECRUIT_FROM_SUBJECTS_TOOLTIP: "#T Werbunek spośród poddanych#!\n#weak Płacąc [Concept('gold', 'złotem')|E], rekrutujesz [Concept('men_at_arms', 'zbrojnych')|E] typu dostępnego dla twojego [Concept('subject', 'poddanego')|E], ale nie dla ciebie#!"
  RECRUIT_FROM_SUBJECTS_ICON: "@recruit_from_subjects_icon!"
  CELESTIAL_REQUEST_MILITARY_AID_NAME: "$celestial_request_military_aid_interaction$"
  MY_PROVINCIAL_ARMIES_TITLE: "Twoje [GetPlayer.Custom( 'GetProvincialArmiesConcept' )|l]"

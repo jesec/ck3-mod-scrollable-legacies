@@ -219,7 +219,7 @@
  SUCCESSION_EVENT_WINDOW_GAME_OVER_LOW_SPLENDOR_SHORT: "Elle est restée insignifiante et ne laissera aucune trace durable dans l’Histoire"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR: "Elle est restée méconnue et sera rapidement oubliée"
  #########################################
- SUCCESSION_EVENT_WINDOW_DEAD_DESC: "[CHARACTER.Custom('DeathMessageIntro')] [CHARACTER.Custom('DeathMessageReason')] [CHARACTER.Custom('DeathMessageOutro')]"
+ SUCCESSION_EVENT_WINDOW_DEAD_DESC: "[Character.Custom('DeathMessageIntro')][Character.Custom('NicknameReason')] [Character.Custom('DeathMessageReason')] [Character.Custom('DeathMessageOutro')]"
  SUCCESSION_EVENT_WINDOW_HEIR_DESC: "[CHARACTER.Custom('FR_le_Char_Pi')|U][CHARACTER.GetTitledFirstNameNoTooltip] [CHARACTER.Custom('GetSuccessionHeirMotion')]. [CHARACTER.Custom('HeirMessageInterface')]"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_DESC: "[CHARACTER.Custom('GameOverMessageInterface')]. [CHARACTER.Custom('GameOverMessageInterfaceDuration')] [CHARACTER.Custom('GameOverMessageInterfaceSplendor')].[CHARACTER.Custom('GameOverMessageNotableAchievements')]"
  SUCCESSION_EVENT_WINDOW_END_DATE_DESC: "La date de fin de la partie a été atteinte.\n\n[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceDuration')] [SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceSplendor')].[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageNotableAchievements')]"
@@ -299,3 +299,5 @@
  #Variable loc for lamp
  succession_heir_throne: "accède au trône"
  succession_heir_leader: "se présente en tant que chef"
+ #Nicknames
+ SUCCESSION_EVENT_WINDOW_NICKNAME: " Connu[ROOT.Char.Custom('FR_E')] de son vivant sous le nom de [ROOT.Char.GetNickname]."

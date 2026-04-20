@@ -26,6 +26,7 @@
  TITLE_GAME_DESIGN:1 "#credits_subheader Game Design#!"
  TITLE_ADDITIONAL_DESIGN:1 "#credits_subheader Additional Design#!"
  TITLE_UX_DESIGN:1 "#credits_subheader UX Design#!"
+ TITLE_ADDITIONAL_UX_DESIGN: "#credits_subheader Additional UX Design#!"
  TITLE_CONTENT_DESIGN:1 "#credits_subheader Content Design#!"
  TITLE_EXTERNAL_CONTENT_DESIGN:1 "#credits_subheader External Content Design#!"
  TITLE_ADDITIONAL_CONTENT_DESIGN:1 "#credits_subheader Additional Content Design#!"
@@ -69,6 +70,17 @@
  HEADER_MUSIC:1 "#credits_header MUSIC#!"
  TITLE_HEAD_OF_MUSIC:1 "#credits_subheader Head of Music#!"
  TITLE_MUSIC_COMPOSER_AND_PRODUCER:1 "#credits_subheader Music Composer and Producer#!"
+ TITLE_MUSIC_COMPOSER: "#credits_subheader Music Composer#!"
+ TITLE_MUSIC_PRODUCER: "#credits_subheader Music Producer#!"
+ TITLE_SOLOISTS: "#credits_subheader Soloists#!"
+ TITLE_FLUTE: "#credits_subheader Flute#!"
+ TITLE_FIDDLE: "#credits_subheader Fiddle#!"
+ TITLE_LUTE_GUITAR: "#credits_subheader Lute / Guitar#!"
+ TITLE_PERCUSSION_KEYS_PROGRAMMING: "#credits_subheader Percussion / Keys / Programming#!"
+ TITLE_VOCALS: "#credits_subheader Vocals#!"
+ TITLE_RECORDING_AND_MIXING_ENGINEER: "#credits_subheader Recording & Mixing Engineer#!"
+ TITLE_ORCHESTRATION: "#credits_subheader Orchestration#!"
+ TITLE_SCORE_AND_PARTS_PREPARATION: "#credits_subheader Score and Parts Preparation#!"
  TITLE_ADDITIONAL_MUSIC:1 "#credits_subheader Additional Music#!"
  TITLE_MUSICIANS:1 "#credits_subheader Musicians#!"
  TITLE_KALABALIK:1 "#credits_subheader Kalabalik#!"
@@ -286,6 +298,7 @@
  HEADER_SPECIAL_THANKS:0 "#credits_header Special thanks to all our forum members, partners, and supporters — you mean the world to us!#!"
 
  TITLE_SPECIAL_THANKS:0 "#credits_subheader Special Thanks#!"
+ TITLE_SPECIAL_THANKS_MESSAGE: "To our community, for making this game such a joy to create, and for all your encouragement, feedback, and support.\nThank you for playing!"
 
  HEADER_CRUSADER_KINGS_3_NORTHERN_LORDS:1 "#credits_title CRUSADER KINGS III: NORTHERN LORDS#!"
  TITLE_VIKING_CHOIR:1 "#credits_subheader Viking Choir#!"
@@ -307,6 +320,7 @@
  HEADER_CRUSADER_KINGS_3_FRIENDS_AND_FOES:0 "#credits_title CRUSADER KINGS III: FRIENDS & FOES#!"
 
  HEADER_CRUSADER_KINGS_3_ROBE:0 "#credits_title CRUSADER KINGS III: ROBE#!"
+ HEADER_CRUSADER_KINGS_3_SCRIBE_UPDATE: "#credits_title CRUSADER KINGS III: SCRIBE#!"
 
  HEADER_CRUSADER_KINGS_3_TOURS_AND_TOURNAMENTS:0 "#credits_title CRUSADER KINGS III: TOURS AND TOURNAMENTS#!"
 

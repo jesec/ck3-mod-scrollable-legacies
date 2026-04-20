@@ -81,9 +81,10 @@
  CANCEL_TRAVEL_PLAN_ACTIVE_CONTRACT: "Cannot cancel travel plan, you have accepted a contract"
 
  TRAVEL_EDIT_ROUTE_HEADER:1 "Customize Route"
- TRAVEL_EDIT_ROUTE_TT:0 "Select waypoints on the map to change the path of your journey.\n\n#I Click to customize route#!"
+ TRAVEL_EDIT_ROUTE_TT: "Select waypoints on the map to change the path of your journey.\n\n#I Click to customize route#!\n#I Hold shift to enter quick-edit mode#!"
  TRAVEL_EDIT_ROUTE_SELECT_PROVINCE:1 "Select a location on the map..."
- TRAVEL_EDIT_ROUTE_INSTRUCTION:0 "To customize your route, add detours between each destination"
+ TRAVEL_EDIT_ROUTE_INSTRUCTION:0 "To customize your route, add detours between each destination. Hold shift for quick-edit mode."
+ TRAVEL_EDIT_ROUTE_QUICK_EDIT_INSTRUCTION: "Left-click: Add waypoint or select starting waypoint\nRight-click: Remove existing waypoint"
  TRAVEL_EDIT_ROUTE_DETOUR_LABEL:0 "via [Province.GetNameNoTooltip]"
  TRAVEL_EDIT_ROUTE_FIXED_SUB_LABEL:0 "[Select_CString(ObjectsEqual(TravelPlanDestination.GetProvince, GetPlayer.GetCapitalLocation),'Your Capital','Destination')]"
  TRAVEL_EDIT_ROUTE_FIXED_SUB_LABEL_DEPARTURE:0 "Departure location"

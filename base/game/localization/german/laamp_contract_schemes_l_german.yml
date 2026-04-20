@@ -339,7 +339,7 @@
  laamp_base_6031_request: "Dieser [task_contract|E] erfordert, dass Ihr ein „[GetScheme('laamp_base_6031_contract_scheme').GetTypeName]“-[scheme|E] abschließt"
  laamp_base_6031_desc_title: "Höret, sofern Ihr standhaft seid!"
  laamp_base_6031_desc: "Die große Brücke im Land ([TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier]) ist weiterhin ungeschützt. Eine Zurschaustellung der Macht ist notwendig, um Banditen zu verscheuchen. [TaskContract.GetEmployer.GetTitledFirstNameNoTooltip|U] wird jene belohnen, der ihnen bang macht."
- laamp_base_contract_schemes.6031.t: "$laamp_base_6021_contract_scheme$"
+ laamp_base_contract_schemes.6031.t: "$laamp_base_6031_contract_scheme$"
  laamp_base_contract_schemes.6031.desc: "[employer.GetTitledFirstName|U] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('employer'))], während [employer.Custom('DE_PRO_PER_S_3P_N')] sich einen Weg durch das Lager bahnt.\n\n„Einen wunderbaren Morgen haben wir hier“, beginnt [employer.Custom('DE_PRO_PER_S_3P_N')]. „Die bestmögliche Gelegenheit, diesen Raufbolden zu zeigen, was ein wahrer $knight_culture_player_no_tooltip$ wert ist. Wisst Ihr, es gibt eine Brücke, die geradewegs nach [ROOT.Char.GetCurrentLocation.GetName] führt. Alle möglichen Schurken, Narren und Trottel treiben sich dort herum.\n\nJemand sollte sich darum kümmern.“"
  laamp_base_contract_schemes.6031.a: "Ich werde dreihundert Lanzen brechen!"
  laamp_base_contract_schemes.6031.b: "Das wird ein paar Tage dauern."

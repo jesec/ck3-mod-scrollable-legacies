@@ -111,6 +111,7 @@ window = {
 					margin_bottom = 10
 
 					button_tab = {
+						shortcut = "tab_1"
 						layoutpolicy_horizontal = expanding
 						onclick = "[GetVariableSystem.Set( 'culture_creation_tab', 'pillars' )]"
 						down = "[GetVariableSystem.HasValue( 'culture_creation_tab', 'pillars' )]"
@@ -124,6 +125,7 @@ window = {
 					}
 
 					button_tab = {
+						shortcut = "tab_2"
 						layoutpolicy_horizontal = expanding
 						onclick = "[GetVariableSystem.Set( 'culture_creation_tab', 'traditions' )]"
 						down = "[GetVariableSystem.HasValue( 'culture_creation_tab', 'traditions' )]"
@@ -137,6 +139,7 @@ window = {
 					}
 
 					button_tab = {
+						shortcut = "tab_3"
 						layoutpolicy_horizontal = expanding
 						onclick = "[GetVariableSystem.Set( 'culture_creation_tab', 'aesthetics' )]"
 						down = "[GetVariableSystem.HasValue( 'culture_creation_tab', 'aesthetics' )]"

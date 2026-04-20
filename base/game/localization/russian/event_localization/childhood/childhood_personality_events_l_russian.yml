@@ -96,7 +96,7 @@
  child_personality.0027.a: "Я просто пойду спать дальше."
  child_personality.0028.desc: "Мои дни за решеткой лениво тянутся один за другим. Я просыпаюсь, брожу туда-сюда, если повезет — ем...\n\nЧтобы наполнить свои дни хоть чем-то, я даю себе задания и выполняю их."
  child_personality.0028.a: "Главное — усердие!"
- child_personality.0029.desc: "Ухмыляющиеся стражники следят за каждым моим движением, [Select_CString(imprisoner.IsFemale, 'эта', 'этот' )] [imprisoner.Custom2('InsultAdjective', ROOT.Char)] [imprisoner.Custom2('InsultNoun', ROOT.Char)] [imprisoner.GetTitledFirstName] держит меня взаперти, крысы шныряют по углам... В моей душе нарастает гнев, который становится сильнее с каждым днем!"
+ child_personality.0029.desc: "Ухмыляющиеся стражники следят за каждым моим движением, [Select_CString(imprisoner.IsFemale, 'эта', 'этот' )] [imprisoner.Custom2('InsultAdjective', ROOT.Char)][Select_CString(imprisoner.IsFemale, 'ая', 'ый' )] [imprisoner.Custom2('InsultNoun', ROOT.Char)] [imprisoner.GetTitledFirstName] держит меня взаперти, крысы шныряют по углам... В моей душе нарастает гнев, который становится сильнее с каждым днем!"
  child_personality.0029.a: "Я... просто... АР-Р-Р!"
  child_personality.0030.desc: "Я мало что могу сделать, чтобы изменить свое положение, как в отношении повседневной рутины, так и в более широком смысле. Нечего делать и нечего сказать."
  child_personality.0030.a: "Я умею принимать это."

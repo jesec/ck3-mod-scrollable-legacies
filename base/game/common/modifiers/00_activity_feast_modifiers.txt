@@ -11,7 +11,7 @@ murder_feast_murderer_modifier = {
 }
 
 murder_feast_great_murderer_modifier = {
-	icon = feast_positive
+	icon = feast_mixed
 	diplomacy = -1
 	hostile_scheme_phase_duration_add = major_scheme_phase_duration_bonus_value
 }
@@ -60,7 +60,7 @@ feast_higher_standards_modifier = {
 }
 
 feast_scholarly_confidence_modifier = {
-	icon = feast_positive
+	icon = feast_mixed
 	stress_gain_mult = -0.25
 	learning = -1
 }
@@ -180,7 +180,7 @@ feast_moonlight_shadow_modifier = {
 }
 
 feast_observed_modifier = {
-	icon = intrigue_negative
+	icon = intrigue_mixed
 	stress_gain_mult = 0.2
 	enemy_hostile_scheme_phase_duration_add = major_scheme_phase_duration_malus_value
 }
@@ -248,21 +248,21 @@ feast_7201_goh_honoured_modifier = {
 }
 
 feasts_mischievous_t1_modifier = {
-	icon = mask_positive
+	icon = mask_mixed
 	stress_loss_mult = 0.1
 	general_opinion = -1
 	child_opinion = 5
 }
 
 feasts_mischievous_t2_modifier = {
-	icon = mask_positive
+	icon = mask_mixed
 	stress_loss_mult = 0.2
 	general_opinion = -2
 	child_opinion = 10
 }
 
 feasts_mischievous_t3_modifier = {
-	icon = mask_positive
+	icon = mask_mixed
 	stress_loss_mult = 0.3
 	general_opinion = -4
 	child_opinion = 20
@@ -326,4 +326,3 @@ bad_influence_modifier = {
 	owned_personal_scheme_success_chance_add = 10
 	monthly_prestige = -0.5
 }
-

@@ -75,7 +75,11 @@
 
 			### TOOLTIP FILLED/EMPLOYED
 			vbox = {
-				visible = "[CourtPosition.IsValid]"
+				block "filled_position_tooltip_visibility"
+				{
+					visible = "[CourtPosition.IsValid]"
+				}
+
 				layoutpolicy_horizontal = expanding
 
 				margin = { 20 0 }
@@ -85,12 +89,6 @@
 					text = "[GetCommandDesc( CourtPosition.ToggleTaskCmd(  CourtPositionTaskType.Self ) )]"
 
 					using = court_position_tooltip_text_format
-				}
-
-				text_multi = {
-					visible = "[CourtPositionTaskType.HasEmployerCourtModifiers]"
-
-					text = COURT_POSITION_TASK_EMPLOYER_COURT_EFFECTS
 				}
 
 				text_multi = {
@@ -156,7 +154,11 @@
 
 			### TOOLTIP EMPTY/UNEMPLOYED
 			vbox = {
-				visible = "[Not( CourtPosition.IsValid )]"
+				block "empty_position_tooltip_visibility"
+				{
+					visible = "[Not( CourtPosition.IsValid )]"
+				}
+
 				layoutpolicy_horizontal = expanding
 
 				margin = { 20 0 }
@@ -228,7 +230,10 @@
 			size = { 40 40 }
 			parentanchor = center
 
-			enabled = "[IsValidCommand( CourtPosition.ToggleTaskCmd( CourtPositionTaskType.Self ) )]"
+			block "enable_task_button"
+			{
+				enabled = "[IsValidCommand( CourtPosition.ToggleTaskCmd( CourtPositionTaskType.Self ) )]"
+			}
 
 			texture = "gfx/interface/buttons/button_round_frame.dds"
 

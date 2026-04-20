@@ -11,9 +11,8 @@
  travel_danger_events.2001.a:0 "Save the supplies!"
  travel_danger_events.2001.b:0 "Save [flood_victim.GetFirstNameNoTooltip]!!"
 
- burned_my_jungle_opinion:0 "Burned my Jungle"
+ burned_my_jungle_opinion:0 "Burned My Jungle"
 
  travel_lost_supplies:0 "Lost Supplies"
  travel_lost_supplies_desc:0 "This character is feeling the affects of losing supplies during travel."
-
 

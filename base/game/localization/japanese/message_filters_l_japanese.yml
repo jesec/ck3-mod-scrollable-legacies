@@ -105,6 +105,8 @@
  message_filter_house_unity_stage_desc: "あなたの[house_unity_level|E]が変わる"
  message_filter_dynasty_child_of_age: "@dynasty_icon_alt! 成人"
  message_filter_dynasty_child_of_age_desc: "あなたの[dynasty|E]の[child|E]があなたの[court|E]で成人を迎える"
+ message_filter_child_of_age: "@child_icon! あなたの子供が成人する"
+ message_filter_child_of_age_desc: "あなたの[children|E]の一人が成人する"
  #DEATH
  message_filter_death_family: "@death_icon! 近親者"
  message_filter_death_family_desc: "[close_family|E]者が死亡する"
@@ -297,6 +299,10 @@
  message_filter_accolade_rank_desc: "所有している[accolade|E]のランクが変わる"
  message_filter_accolade_succession: "@accolade_icon! 騎士継承"
  message_filter_accolade_succession_desc: "あなたの[acclaimed_knight|E]が変わる"
+ message_filter_accolade_eligibility: "@accolade_icon! [accolade_type|E]を得る資格を持つ騎士"
+ message_filter_accolade_eligibility_desc: "[knight|E]に新たな[accolade_type|E]の[accolade|E]を授与できる"
+ message_filter_squire_training: "@accolade_icon! [acclaimed_knight|E]が従者を訓練した"
+ message_filter_squire_training_desc: "[accolade|E]の[accolade_squires|E]適性により、[courtier|E]の能力が向上する"
  #ACTIVITY
  message_filter_tournament_arrival: "@tournament_icon! 統治者到着"
  message_filter_tournament_arrival_desc: "著名な[ruler|E]が[activity_guest|E]としてあなたの[GetActivityType( 'activity_tournament' ).GetName]に到着する"

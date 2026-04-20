@@ -66,15 +66,6 @@
 	}
 }
 
-364 = { # de Clare
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	color2 = "red"
-	colored_emblem = {
-		texture = "ce_ordinary_chevron_3.dds"
-		color1 = "red"
-	}
-}
 370 = c_dunbar # "Dunbar"
 house_british_isles_dunbar = 370
 
@@ -87,6 +78,16 @@ house_british_isles_dunbar = 370
 		color2 = "red"
 		color3 = "white"
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
+house_clare = { # de Clare
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_chevron_3.dds"
+		color1 = "red"
 	}
 }
 
@@ -3914,7 +3915,7 @@ house_boulogne = { # Boulogne # EE
 	}
 }
 
-272 = { # Bragança
+house_braganza = { # Bragança
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	color2 = "blue"
@@ -9786,7 +9787,7 @@ house_chiny = { # Chiny NB : cadets of Carolingian counts of Vermandois
 	}
 }
 
-736 = { # Chalon
+house_chalon = { # Chalon
 	pattern = "pattern_solid.dds"
 	color1 = "red"
 	color2 = "yellow"
@@ -21517,6 +21518,31 @@ viet_ngo={
 		}
 	}
 }
+viet_than={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=red
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_lotus.dds"
+		instance={
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_seal_pictorial_frame_circle.dds"
+		instance={
+			position={ 0.510000 0.520000 }
+			scale={ 0.500000 0.500000 }
+			depth=2.010000
+		}
+	}
+}
 viet_ha_thuongoai={
 	pattern="pattern_solid.dds"
 	color1=blue
@@ -21692,3 +21718,39 @@ korean_wang_seohae={
 		}
 	}
 }
+
+vanity_ceanneidigh={
+	pattern="pattern_solid.dds"
+	color1=black
+	colored_emblem={
+		color1=white
+		color2=yellow
+		color3=black
+		texture="ce_sugarloaf_helmet.dds"
+		instance={
+			position={ 0.300000 0.3000000 }
+			scale={ 0.400000 0.400000 }
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=yellow
+		color3=black
+		texture="ce_sugarloaf_helmet.dds"
+		instance={
+			position={ 0.700000 0.3000000 }
+			scale={ 0.400000 0.400000 }
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=yellow
+		color3=black
+		texture="ce_sugarloaf_helmet.dds"
+		instance={
+			position={ 0.500000 0.7500000 }
+			scale={ 0.400000 0.400000 }
+		}
+	}
+}
+

@@ -167,7 +167,7 @@
  ep3_laamps.8105.a.desc: "あなたは戦争の準備をする期間を延長してもらうよう頼む。"
  ep3_laamps.8105.a.success: "あなたは[claimed_title.GetName]奪取まで8年間の猶予がある"
  ep3_laamps.8105.a.failure: "あなたは[claimed_title.GetName]奪取まで4年間の猶予がある"
- ep3_laamps.8105.b: "[claimed_title.GetName]の未来に！"
+ ep3_laamps.8105.b: "[claimed_title.GetNameNoTooltip]の未来に！"
  ep3_laamps.8105.b.desc: "あなたは取引の条件に同意する。$ep3_laamps.8105.a.failure$"
  ep3_laamps.8105.c: "時間の無駄だった。"
  ep3_laamps.8105.c.desc: "@warning_icon! #color_red あなたは交渉を打ち切ります。#! [petitioned_ruler.GetName]は支援をやめ、確実にあなたに対する評価を下げます。"

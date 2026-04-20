@@ -33,7 +33,7 @@
  martial_authority.2050.desc.ending: "[right_hand_person.GetSheHe]를 내 오른팔로 삼아 내 [ROOT.Char.Custom('GetRealmOrDomicile')|l](을)를 통치하는 데 좀 더 적극적인 역할을 맡게 하면 안 될까?"
  martial_authority.2050.a: "아주 좋은 생각이야!"
  martial_authority.2050.a.tt: "[right_hand_person.GetShortUIName](와)과 더 많은 시간을 보낼 것임"
- martial_authority.2050.b: "내 [marshal.Custom2('RelationToMeShort', ROOT.Char)] [marshal.GetFirstNameNoTooltip]도 괜찮지 않을까."
+ martial_authority.2050.b: "내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))] [marshal.GetFirstNameNoTooltip]도 괜찮지 않을까."
  martial_authority.2050.c: "내가 더 열심히 일하면 돼!"
  martial_authority.2050.toast.title: "[right_hand_person.GetShortUIName](이)가 이제 당신의 오른팔이 됨"
  martial_authority.2051.t: "일손을 더하다"

@@ -233,11 +233,11 @@
  tooltip.intrigue_dread.2001.c.duel_failure:1 "[loved_one.GetFirstName] openly defies you"
  intrigue_protected_by_loved_one_modifier:1 "Protected By A Loved One"
  intrigue_protected_by_loved_one_modifier_desc:0 "This person has a loved one who would do #EMP anything#! to protect them."
- intrigue_defied_loved_one_opinion:1 "Defied a loved one"
+ intrigue_defied_loved_one_opinion:1 "Defied a Loved One"
 
  # Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t:0 "Rumors About [family_member.GetFirstNameNoTooltip]"
- intrigue_dread.2101.desc.intro:0 ""Those foul rumors about your [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]... I have traced them to the source." [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] pats a bundle of letters.\n\nThe letters prove that [hater.GetName] has been trying to drag [family_member.GetFirstNamePossessive] name through the mud. "
+ intrigue_dread.2101.desc.intro:0 ""Those foul rumors about your [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] [family_member.GetTitledFirstName]... I have traced them to the source." [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U] pats a bundle of letters.\n\nThe letters prove that [hater.GetName] has been trying to drag [family_member.GetFirstNamePossessive] name through the mud. "
  intrigue_dread.2101.desc.failed_assassination:0 "[hater.GetSheHe|U] even accuses [family_member.GetFirstName] of trying to have [hater.GetHerHim] killed!"
  intrigue_dread.2101.desc.committed_adultery:0 "[hater.GetSheHe|U] claims that [family_member.GetFirstName] was an unfaithful [family_member.GetWifeHusband], and recounts lurid tales of [family_member.GetHerHis]!"
  intrigue_dread.2101.desc.bullied_me:0 "[hater.GetSheHe|U] claims that [family_member.GetFirstName] has had the seed of evil in [family_member.GetHerHim] since childhood, when [family_member.GetSheHe] bullied [hater.GetNameNoTooltip] viciously."
@@ -267,7 +267,7 @@
  intrigue_bumbling_tyrant_modifier:0 "Bumbling Tyrant"
  intrigue_blanket_of_fear_modifier:0 "Blanket of Fear"
  intrigue_controlling_the_narrative_modifier:0 "Controlling the Narrative"
- intrigue_thrown_under_the_carriage_opinion:0 "Distanced From Me"
+ intrigue_thrown_under_the_carriage_opinion:0 "Distanced from Me"
  intrigue_made_me_sound_scary_opinion:0 "Made Me Sound Scary"
 
  # Councillor is too scared to speak their mind, by Luke Bean
@@ -298,7 +298,7 @@
  intrigue_doing_stewards_job_modifier:0 "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_marshals_job_modifier:0 "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_court_chaplains_job_modifier:0 "$intrigue_doing_spymasters_job_modifier$"
- intrigue_position_is_safe_opinion:0 "Assured that my position is safe"
+ intrigue_position_is_safe_opinion:0 "Assured That My Position Is Safe"
 
  # Your court thinks you're soft, by Luke Bean
  intrigue_dread.2301.t:0 "Show Them Who You Are"

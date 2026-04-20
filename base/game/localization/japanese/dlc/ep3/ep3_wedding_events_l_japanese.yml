@@ -1,7 +1,7 @@
 ﻿l_japanese:
  ep3_wedding.0001.t: "[other_family_spouse.Custom('GetBrideGroom')|U]にふさわしくない"
  ep3_wedding.0001.desc: "舞踏会が始まった！音楽が激流のように響き渡り、まるで巨大な木々すら揺らす突風のようだ。[flirting_in_law.GetName]、[other_family_spouse.Custom('GetBrideGroom')]の[other_family_spouse.Custom2('RelationToMeShort', SCOPE.sC('flirting_in_law'))]はほかの者に混じって、風になびく木の葉のように踊る。[flirting_in_law.GetHerHis|U]の目はほかの踊り子ではなく…私に釘付けになっている。#EMP 誘うような視線だ。#!\n\n夜がさらに深まる。[flirting_in_law.GetFirstNamePossessiveNoTooltip]は情熱的な目で私を見つめながら、ときおり、そっとこちらに触れてくる。[flirting_in_law.GetHerHis]が腰をくねらせると、私の中の何かが沸き立ってくる。"
- ep3_wedding.0001.desc_own_wedding: "私の[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('other_family_spouse'))]、[other_family_spouse.GetFirstName]が見当たらない今、[other_family_spouse.GetHerHis]一族の麗人に対して私は#EMP こんなこと#!をしていいものだろうか…？\n\n自分の結婚式で？#EMP 私の[other_family_spouse.Custom('WifeHusband')]の[other_family_spouse.Custom2('RelationToMeShort', SCOPE.sC('flirting_in_law'))]と！？#!"
+ ep3_wedding.0001.desc_own_wedding: "私の[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('other_family_spouse'))]、[other_family_spouse.GetFirstName]が見当たらない今、[other_family_spouse.GetHerHis]の一族の麗人に対して私は#EMP こんなこと#!をしていいものだろうか…？\n\n自分の結婚式で？#EMP 私の[other_family_spouse.Custom('WifeHusband')]の[other_family_spouse.Custom2('RelationToMeShort', SCOPE.sC('flirting_in_law'))]と！？#!"
  ep3_wedding.0001.desc_guest: "今日は別に#EMP 我々#!が神聖な結婚をするわけではない！\n\n暗がりであれば、性にだらしない奴がいてもいいだろう…"
  ep3_wedding.0001.a_non_spouse: "今日この日は、[same_family_spouse.GetFirstNameNoTooltip]のためだけにあるのだ！"
  ep3_wedding.0001.a_spouse: "今日この日は、[other_family_spouse.GetFirstNameNoTooltip]のためだけにあるのだ！"
@@ -20,7 +20,7 @@
  ep3_wedding.0002.intro: "[flirting_in_law.GetName]、[other_family_spouse.Custom('GetBrideGroom')]の美しい[other_family_spouse.Custom2('RelationToMeShort', SCOPE.sC('flirting_in_law'))]は踊りつづけていた。[flirting_in_law.GetFirstNameNoTooltip]が温かい体を私に押しつけると、[flirting_in_law.GetHerHis]の豪華な結婚式衣装が一つずつ闇の中へ落ちていく… [flirting_in_law.GetHerHis]はますます強く、必死に体を揺らした。\n\n行為を終え、私は有頂天になり思わず笑ってしまう。"
  ep3_wedding.0002.own_wedding: "私の[other_family_spouse.Custom('WifeHusband')]の[other_family_spouse.Custom2('RelationToMeShort', SCOPE.sC('flirting_in_law'))]は最後にもう一度、その裸体をよじらせる。\n\n私の新しい[other_family_spouse.Custom('WifeHusband')]が待っている…"
  ep3_wedding.0002.others_wedding: "私の情事の相方は最後にもう一度、その裸体をよじらせる。\n\n結婚式が待っている…"
- ep3_wedding.0002.lowborn: "だが[other_family_spouse.GetHerHis]一族の者との遊びを楽しめた。"
+ ep3_wedding.0002.lowborn: "だが[other_family_spouse.GetHerHis]の一族の者との遊びを楽しめた。"
  ep3_wedding.0002.highborn: "だが[other_family_spouse.GetHouse.GetName]一族の者との遊びを楽しめた。"
  ep3_wedding.0002.a: "「私は…君を愛しているのだと思う、[flirting_in_law.GetFirstNameNoTooltip]」"
  ep3_wedding.0002.a.flavor: "私は自分の新しい[other_family_spouse.Custom('WifeHusband')]に対して重大な罪を犯したが、愛という大義名分がある！"

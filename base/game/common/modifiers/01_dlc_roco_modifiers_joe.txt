@@ -12,7 +12,7 @@ hold_court_8010_vassal_modifier = {
 }
 
 hold_court_8080_prison_modifier = {
-	icon = prison_positive
+	icon = prison_mixed
 	republic_government_vassal_opinion = -10
 	republic_government_tax_contribution_mult = -0.1
 	dread_baseline_add = 10
@@ -24,13 +24,13 @@ hold_court_8090_favorites_modifier = {
 }
 
 hold_court_8110_common_modifier = {
-	icon = social_positive
+	icon = social_mixed
 	county_opinion_add = 20
 	vassal_opinion = -5
 }
 
 hold_court_8110_haughty_modifier = {
-	icon = social_negative
+	icon = social_mixed
 	county_opinion_add = -20
 	vassal_opinion = 5
 }
@@ -100,7 +100,7 @@ feeling_unwell_modifier = {
 harbors_criminals_modifier = {
 	icon = intrigue_positive
 	enemy_hostile_scheme_success_chance_add = -10
-	scheme_discovery_chance_mult = 0.1
+	enemy_scheme_secrecy_add = -10
 	different_faith_opinion = 5
 }
 
@@ -385,7 +385,7 @@ hold_court_8080_granted_modifier = {
 }
 
 hold_court_8080_compromise_modifier = {
-	icon = county_modifier_development_positive
+	icon = county_modifier_development_mixed
 	development_growth_factor = small_development_growth_gain
 	tax_mult = -0.2
 }
@@ -415,7 +415,7 @@ hold_court_8110_jester_modifier = {
 }
 
 hold_court_8120_tax_modifier = {
-	icon = stewardship_positive
+	icon = stewardship_mixed
 	tax_mult = 0.15
 	development_growth_factor = tiny_development_growth_loss
 }

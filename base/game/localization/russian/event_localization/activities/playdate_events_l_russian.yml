@@ -34,7 +34,7 @@
  playdate.2003.a: "Почему никто не приехал?"
  playdate.2501.t: "Теплый прием"
  playdate.2501.likes_host: "Все собрались в зале, и [host.GetTitledFirstNameNoTooltip] приветствует нас на встрече ровесников!"
- playdate.2501.dislikes_host: "Все собрались в зале, и [host.Custom2('InsultAdjective', ROOT.Char)] [host.GetTitledFirstNameNoTooltip] приветствует нас на встрече ровесников!"
+ playdate.2501.dislikes_host: "Все собрались в зале, и [host.Custom2('InsultAdjective', ROOT.Char)][Select_CString(host.Custom2.IsFemale, 'ая', 'ый' )] [host.GetTitledFirstNameNoTooltip] приветствует нас на встрече ровесников!"
  playdate.2501.a: "Жду не дождусь!"
  playdate.2501.a_dislike: "Давайте уже закончим это."
  playdate.0020.t: "$playdate_header$ Конец игры"

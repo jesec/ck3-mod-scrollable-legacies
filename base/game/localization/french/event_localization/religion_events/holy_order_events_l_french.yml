@@ -8,7 +8,7 @@
  holy_order.new_lease: "[holy_order.GetName] prend maintenant à bail [barony.GetName] [former_holder.Custom('FR_du_Char_Pi')][former_holder.GetTitledFirstName]"
  holy_order.0001.t: "Ordre sacré"
  holy_order.0001.desc_opening: "[recipient.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] se tient dehors à m’attendre, alors que ses affaires et sa suite sont prêtes pour le départ.\n\n"
- holy_order.0001.desc: "« Donc, [root.Char.Custom('FR_MonseigneurMadame')|U], où ce voyage me mènera-t-il ? »"
+ holy_order.0001.desc: "« Donc, [ROOT.Char.Custom('FR_MonseigneurMadame')|U], où ce voyage me mènera-t-il ? »"
  holy_order.0001.desc_relation: "« Donc, [recipient.Custom2('RelationToMeShort', ROOT.Char)], où ce voyage me mènera-t-il ? »"
  holy_order.0001.a: "Vous allez au [holy_order_1.GetName]."
  holy_order.0001.b: "Le [holy_order_2.GetName] est votre destination."

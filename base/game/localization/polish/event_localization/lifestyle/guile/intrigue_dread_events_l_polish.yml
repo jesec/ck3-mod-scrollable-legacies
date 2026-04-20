@@ -209,7 +209,7 @@
  intrigue_defied_loved_one_opinion: "Sprzeciw wobec ukochanej osoby"
  #Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t: "Plotki na temat postaci o imieniu [family_member.GetFirstNameNoTooltip]"
- intrigue_dread.2101.desc.intro: "– Udało mi się dotrzeć do źródła plotek krążących na temat osoby, którą jest [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)], a dla ciebie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))]. – [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] rzuca na stół kilka listów.\n\nIch treść jasno dowodzi, że to [hater.GetName] pragnie zbrukać dobre imię członka twojego rodu – osoby o imieniu [family_member.GetFirstName]."
+ intrigue_dread.2101.desc.intro: "– Udało mi się dotrzeć do źródła plotek, których tematem jest [family_member.GetTitledFirstName], a dla ciebie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))]. – [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U] rzuca na stół kilka listów.\n\nIch treść jasno dowodzi, że to [hater.GetName] pragnie zbrukać dobre imię członka twojego rodu – osoby o imieniu [family_member.GetFirstName]."
  intrigue_dread.2101.desc.failed_assassination: "Ta kreatura twierdzi wręcz, że postać o imieniu [family_member.GetFirstName] chciała [hater.Custom('PL_go_ja')] zabić!"
  intrigue_dread.2101.desc.committed_adultery: "Zarzeka się [hater.GetSheHe], iż [family_member.GetFirstName] nie dotrzymuje ślubowań jako [family_member.GetWifeHusband], i opowiada sprośne historie na swój temat!"
  intrigue_dread.2101.desc.bullied_me: "Zarzeka się [hater.GetSheHe], iż [family_member.GetFirstName] już od dziecka ma przegniłe do cna serce, będące źródłem okrutnych prześladowań postaci o imieniu [hater.GetNameNoTooltip]."

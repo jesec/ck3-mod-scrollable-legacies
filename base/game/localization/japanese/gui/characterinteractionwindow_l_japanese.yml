@@ -5,6 +5,8 @@
  CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_TYPE: "#S $NAME$工作#!"
  SHOW_MORE_INTERACTIONS_TT: "#T そのほかの[CharacterInteractionCategory.GetDescription]を表示#!"
  PIN_TT: "#T [Select_CString( Character.IsPinned, '固定解除', '固定' )]\n#!画面右の一覧枠に固定し、この人物を追跡できるようにする"
+ TITLE_PIN_TT: "#T [Select_CString( Title.IsPinned, '固定解除', '固定' )]\n#!画面右の一覧枠に固定し、この称号を追跡できるようにする"
+ PROVINCE_PIN_TT: "#T [Select_CString( Province.IsPinned, '固定解除', '固定' )]\n#!画面右の一覧枠に固定し、この領分を追跡できるようにする"
  interaction_category_favorites: "お気に入り"
  interaction_category_diplomacy: "外交"
  interaction_category_friendly: "対人"

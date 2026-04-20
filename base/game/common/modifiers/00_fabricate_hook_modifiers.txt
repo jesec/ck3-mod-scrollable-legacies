@@ -25,13 +25,13 @@ fabricate_hook_careful_study_modifier = {
 }
 
 fabricate_hook_gossip_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	scheme_success_chance = 10
 	scheme_secrecy = -5
 }
 
 fabricate_hook_servant_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	scheme_success_chance = 5
 	scheme_secrecy = -5
 }

@@ -33,7 +33,7 @@
  martial_authority.2050.desc.ending: "Pourrait-[right_hand_person.Custom('FR_IlElle')] me servir de bras droit et jouer un rôle plus actif dans l’administration de mon [ROOT.Char.Custom('GetRealmOrDomicile')] ?"
  martial_authority.2050.a: "Oui, [right_hand_person.Custom('FR_IlElle')] me servira bien !"
  martial_authority.2050.a.tt: "Vous passerez plus de temps avec [right_hand_person.Custom('FR_le_Char_U_Pi')][right_hand_person.GetShortUIName]"
- martial_authority.2050.b: "M[marshal.Custom2( 'FR_RelationToMeShort_OnA', ROOT.Char)] [marshal.GetFirstNameNoTooltip] peut gérer ces problèmes."
+ martial_authority.2050.b: "M[ROOT.Char.Custom2('FR_RelationToMeShort_OnA', SCOPE.sC('marshal'))] [marshal.GetFirstNameNoTooltip] peut gérer ces problèmes."
  martial_authority.2050.c: "Je peux tout gérer moi-même si je travaille plus dur !"
  martial_authority.2050.toast.title: "[right_hand_person.Custom('FR_le_Char_U_Pi')|U][right_hand_person.GetShortUIName] est désormais votre bras droit"
  martial_authority.2051.t: "Un coup de main"

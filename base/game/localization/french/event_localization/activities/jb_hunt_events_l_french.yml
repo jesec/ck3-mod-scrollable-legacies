@@ -136,6 +136,7 @@
  hunt.8570.a: "« J’arrive ! »"
  hunt.8570.a.success: "Vous [stampede_victim.Custom('FR_LeLa')] secourez. [stampede_victim.GetSheHe|U] est [Select_CString(stampede_victim.IsFemale, 'saine et sauve', 'sain et sauf')]"
  hunt.8570.a.failure: "Vous [stampede_victim.Custom('FR_LeLa')] secourez, mais [stampede_victim.GetSheHe] est blessé[stampede_victim.Custom('FR_E')]"
+ hunt.8570.a.failure_2: "Vous ne parvenez pas à [stampede_victim.Custom('FR_LeLa')] secourir"
  hunt.8570.a.crit_failure: "Vous périssez"
  hunt.8570.b: "Peut-être que je peux les diriger autre part ?"
  hunt.8570.b.success: "Vous redirigez le troupeau"

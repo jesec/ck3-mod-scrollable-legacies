@@ -1,8 +1,8 @@
 ﻿l_polish:
  shintoism_religion: "Szintoizm" # 神道
  shintoism_religion_adj: "Szintoistyczny"
- shintoism_religion_adherent: "Szintoista"
- shintoism_religion_adherent_plural: "Szintoiści"
+ shintoism_religion_adherent: "szintoista"
+ shintoism_religion_adherent_plural: "szintoiści"
  shintoism_religion_desc: "Szintoizm obejmuje ludowe wierzenia wysp japońskich sprzed ery buddyzmu. U jego podstaw leży uznanie żywych duchów świata przyrody, czyli kami, oraz potrzeba pokornego zabiegania o ich względy, by uniknąć boskiego gniewu i otrzymać ich błogosławieństwo."
  shintoism_high_god_name: "Amaterasu" # 天照
  shintoism_high_god_name_2: "$shintoism_high_god_name$"
@@ -71,14 +71,14 @@
  # Shinto
  shinto: "Shintō" # 神道
  shinto_adj: "Szintoistyczna"
- shinto_adherent: "Szintoista"
- shinto_adherent_plural: "Szintoiści"
+ shinto_adherent: "szintoista"
+ shinto_adherent_plural: "szintoiści"
  shinto_desc: "Świat duchowy otacza nas ze wszystkich stron, a duchy zamieszkują każdą część świata. Nadprzyrodzone siły mogą przenikać wszystko – łóżko, górę, a nawet burzę z deszczem. Ważne jest utrzymywanie harmonii ze światem duchowym oraz okazywanie mu należnego szacunku i uznania."
  # Shugendo
  shugendo: "Shugendō" # 修験道
  shugendo_adj: "Shugendōistyczna"
- shugendo_adherent: "Shugendōista"
- shugendo_adherent_plural: "Shugendōiści"
+ shugendo_adherent: "shugendōista"
+ shugendo_adherent_plural: "shugendōiści"
  shugendo_desc: "Droga do siły duchowej wiedzie przez dyscyplinę. Aby zrozumieć świat duchowy, wyznawcy shugendō przestrzegają wielu rytuałów i poszukują najświętszych miejsc, w których granica między światem ludzkim a światem duchowym jest najcieńsza."
  shugendo_devotee: "yamabushi" # 山伏
  shugendo_devoteeplural: "yamabushi"

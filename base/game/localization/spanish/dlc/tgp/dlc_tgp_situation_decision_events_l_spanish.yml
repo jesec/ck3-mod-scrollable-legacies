@@ -67,6 +67,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "Al tiempo que la fortuna otorgada a un[GetTitleByKey('h_china').GetHolder.Custom('ES_XA')] [GetTitleByKey('h_china').GetHolder.Custom('WomanMan')] decae, la de otra persona aumenta y ni reyes ni emperadores son inmunes a los caprichos del destino.\n\n[GetTitleByKey('h_china').GetHolder.Custom('ES_ElLa')|U] [GetTitleByKey('h_china').GetHolder.GetTitledFirstName|l] ha reclamado el Mandato del Cielo y se espera que todos se postren a los pies [GetTitleByKey('h_china').GetHolder.Custom('ES_DelDela')] nuev[GetTitleByKey('h_china').GetHolder.Custom('ES_OA')] soberan[GetTitleByKey('h_china').GetHolder.Custom('ES_OA')]."
  tgp_dynastic_cycle.0062.desc.uninvolved: "Los imperios se alzan y caen y lo viejo da paso a lo nuevo. El trono de [GetTitleByKey('h_china').GetNameNoTierNoTooltip] ha caído en manos [GetTitleByKey('h_china').GetHolder.Custom('ES_DelDela')] [GetTitleByKey('h_china').GetHolder.GetTitledFirstName|l] y todo el mundo debe tener en cuenta a est[GetTitleByKey('h_china').GetHolder.Custom('ES_EA')] nuev[GetTitleByKey('h_china').GetHolder.Custom('ES_OA')] soberan[GetTitleByKey('h_china').GetHolder.Custom('ES_OA')], ya estén en sus dominios o no.\n\nTales cambios en los vientos del destino no se pueden tomar a la ligera."
  tgp_dynastic_cycle.0062.a: "Debemos evaluar sus capacidades con cuidado."
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
  tgp_dynastic_cycle.0071.t: "Después de la lluvia sale el sol"
  tgp_dynastic_cycle.0071.desc: "Las persistentes nubes de tormenta se han dispersado y un cielo despejado despunta sobre [GetTitleByKey('h_china').GetNameNoTierNoTooltip]. He conseguido superar todas las pruebas que se me presentaron y ahora nadie puede negar o dudar de que soy de verdad [ROOT.Char.Custom('ES_ElLa')] [ROOT.Char.Custom('GetDaughterSon')] elegid[ROOT.Char.Custom('ES_OA')] del Cielo.\n\nAhora que las penalidades han quedado atrás, debo trazar un nuevo rumbo hacia el futuro para que todos puedan unirse tras un propósito singular."
@@ -80,6 +81,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "Los tiempos de paz proporcionan a los héroes valientes pocas oportunidades de distinguirse, pero ahora puede que se presenten solas otras vías para progresar."
  tgp_dynastic_cycle.0072.desc.uninvolved: "Parece que a la dinastía [GetTitleByKey('h_china').GetHolder.GetDynastyName] aún le quedan algunas fuerzas."
  tgp_dynastic_cycle.0072.a: "La brisa primaveral sopla y la hierba crece de nuevo."
+ tgp_dynastic_cycle.0072.b: "El único sendero es seguir la voluntad del Cielo."
+ tgp_china_consolidation.remain_independent: "Seguir siendo un [independent_ruler|El]"
  ### ENTER CONSOLIDATION ###
  tgp_dynastic_cycle.0081.t: "El imperio, largo tiempo unido, debe dividirse"
  tgp_dynastic_cycle.0081.desc: "En un instante, el Cielo retumba y el mundo queda del revés.\n\nLos ministros fieles huyen en busca de nuevos señores, los soldados desatienden su deber y, ahora, hasta los campesinos abandonan sus tierras por miedo al caos venidero.\n\nTodos los males se imputan a mi reinado #EMP inicuo#!, ¡y se proclama por doquier que he perdido el Mandato del Cielo!"

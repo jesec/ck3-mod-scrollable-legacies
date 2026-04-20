@@ -160,3 +160,4 @@
  ACTIVITY_GUEST_VERY_SHORT_TRIP: "[ROOT.Char.GetSheHe|U]有一段极其短程的旅途：$VALUE|=+0$"
  ACTIVITY_GUEST_NO_TRAVEL: "[ROOT.Char.GetSheHe|U]生活在该地：$VALUE|=+0$"
  ACTIVITY_GUEST_COURTIER: "你的[courtier|E]：$VALUE|=+0$"
+ ACTIVITY_GUEST_ACCLAIMED_KNIGHT_REASON: "[ROOT.Char.GetSheHe|U]是[acclaimed_knight|E]：$VALUE|=+0$"

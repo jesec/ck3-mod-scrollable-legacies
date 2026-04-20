@@ -35,6 +35,7 @@
 
 209503 = {
 	name = "Afonso" # Afonso I Henriques the Conqueror
+	dna = 209503_afonso
 	dynasty_house = house_borgonha # de Bourgogne
 	religion = catholic
 	culture = portuguese
@@ -75,7 +76,10 @@
 				limit = { has_realm_law = crown_authority_0 }
 				add_realm_law = crown_authority_2
 			}
-			add_realm_law = high_partition_succession_law
+			if = {
+				limit = { NOT = { has_realm_law = high_partition_succession_law } }
+				add_realm_law = high_partition_succession_law
+			}
 		}
 	}
 	1185.12.6 = {
@@ -169,7 +173,7 @@
 209531 = {
 	name = "Fruilhe" # Fruilhe Nunes
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	trait = bastard
@@ -1333,7 +1337,7 @@
 
 142021 = {
 	name = "FernA_o" # Fernão Mendes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142141
@@ -1463,7 +1467,7 @@
 
 142012 = {
 	name = "Pedro" # Pedro Fernandes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142021
@@ -1611,7 +1615,7 @@
 
 142013 = {
 	name = "Garcia" # Garcia Pires
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142012
@@ -1629,7 +1633,7 @@
 
 142014 = {
 	name = "FernA_o" # Fernão Pires
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142012
@@ -1647,7 +1651,7 @@
 
 142015 = {
 	name = "Vasco" # Vasco Pires
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = "catholic"
 	culture = "portuguese"
 	father = 142012
@@ -1666,7 +1670,7 @@
 142017 = {
 	name = "Sancha" # Sancha Pires
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = "catholic"
 	culture = "portuguese"
 	father = 142012
@@ -1682,7 +1686,7 @@
 142018 = {
 	name = "Teresa" # Teresa Pires
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = "catholic"
 	culture = "portuguese"
 	father = 142012
@@ -1859,7 +1863,7 @@
 142029 = {
 	name = "Urraca" # Urraca Vasques de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142015
@@ -1876,7 +1880,7 @@
 142030 = {
 	name = "Urraca" # Urraca Nunes de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 209540
@@ -3736,7 +3740,7 @@
 
 142141 = {
 	name = "Mem" # Mem Fernandes Antas
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142140
@@ -3770,7 +3774,7 @@
 
 142144 = {
 	name = "Rui" # Rui Mendes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142141
@@ -3786,7 +3790,7 @@
 142145 = {
 	name = "Urraca" # Urraca Mendes
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142141
@@ -3801,7 +3805,7 @@
 
 142146 = {
 	name = "Nuno" # Nuno Mendes de Caria
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142141
@@ -3819,7 +3823,7 @@
 
 142148 = {
 	name = "FernA_o" # Fernão Fernandes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142021
@@ -3834,7 +3838,7 @@
 
 142159 = {
 	name = "Nuno" # Nuno Vasques de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142015
@@ -3853,7 +3857,7 @@
 142160 = {
 	name = "Sancha" # Sancha Vasques de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142015
@@ -3869,7 +3873,7 @@
 142161 = {
 	name = "Elvira" # Elvira Vasques de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142015
@@ -3885,7 +3889,7 @@
 142162 = {
 	name = "Maria" # Maria Vasques de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142015
@@ -3900,7 +3904,7 @@
 
 142163 = {
 	name = "Rui" # Rui Nunes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	trait = bastard
@@ -4629,7 +4633,7 @@
 142382 = {
 	name = "AldonC_a" # Aldonça Martins Tavaia
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142444
@@ -7396,7 +7400,7 @@
 
 142444 = {
 	name = "Martim" # Martim Pires Tavaia
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	trait = bastard
@@ -7430,7 +7434,7 @@
 142447 = {
 	name = "Teresa" # Teresa Pires de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142441
@@ -7446,7 +7450,7 @@
 
 142448 = {
 	name = "Garcia" # Garcia Pires de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142441
@@ -7461,7 +7465,7 @@
 
 142449 = {
 	name = "Pero" # Pero Fernandes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	trait = bastard
@@ -7477,7 +7481,7 @@
 142451 = {
 	name = "Elvira" # Elvira Garcia de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142013
@@ -7521,7 +7525,7 @@
 142456 = {
 	name = "Urraca" # Urraca Nunes de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142159
@@ -7536,7 +7540,7 @@
 
 142457 = {
 	name = "GonC_alo" # Gonçalo Nunes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142159
@@ -7552,7 +7556,7 @@
 142458 = {
 	name = "Urraca" # Urraca Nunes de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142146
@@ -9498,7 +9502,7 @@
 
 142592 = {
 	name = "Mendo" # Mendo Nunes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142146
@@ -9513,7 +9517,7 @@
 
 142593 = {
 	name = "Sancho" # Sancho Nunes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142146
@@ -9529,7 +9533,7 @@
 142594 = {
 	name = "Teresa" # Teresa Nunes de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142146
@@ -9544,7 +9548,7 @@
 
 142595 = {
 	name = "Mendo" # Mendo Mendes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142141
@@ -9562,7 +9566,7 @@
 
 142596 = {
 	name = "PO_ncio" # Pôncio Mendes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142595
@@ -9594,7 +9598,7 @@
 
 142598 = {
 	name = "PO_ncio" # Pôncio Ponces de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142596
@@ -9610,7 +9614,7 @@
 142599 = {
 	name = "Gontroda" # Gontrode Mendes de Bragança
 	female = yes
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142595
@@ -9625,7 +9629,7 @@
 
 142600 = {
 	name = "JoA_o" # João Vasques de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	trait = bastard
@@ -9657,7 +9661,7 @@
 
 142601 = {
 	name = "EstE_vA_o" # Estêvão Vasques de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	trait = bastard
@@ -9672,7 +9676,7 @@
 
 142602 = {
 	name = "Rui" # Rui de Antas
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	trait = bastard
@@ -9690,7 +9694,7 @@
 
 142606 = {
 	name = "EstE_vA_o" # Estêvão Anes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142600
@@ -9736,7 +9740,7 @@
 
 142613 = {
 	name = "EstE_vA_o" # Estêvão Rodrigues de Antas
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142602
@@ -9751,7 +9755,7 @@
 
 142614 = {
 	name = "FernA_o" # Fernão Rodrigues de Antas
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142602
@@ -9766,7 +9770,7 @@
 
 142607 = {
 	name = "Mendo" # Mendo Esteves de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142606
@@ -9784,7 +9788,7 @@
 
 142608 = {
 	name = "GonC_alo" # Gonçalo Esteves de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142606
@@ -9830,7 +9834,7 @@
 
 142611 = {
 	name = "JoA_o" # João Mendes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142607
@@ -9845,7 +9849,7 @@
 
 142612 = {
 	name = "A_lvaro" # Álvaro Mendes de Bragança
-	dynasty = 272 # de Bragança
+	dynasty_house = house_braganza # de Bragança
 	religion = catholic
 	culture = portuguese
 	father = 142607

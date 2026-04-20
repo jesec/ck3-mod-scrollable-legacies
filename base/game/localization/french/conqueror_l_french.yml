@@ -33,7 +33,7 @@
  conqueror.1100.c: "[generous_vassal.GetFirstNameNoTooltip] est [Select_CString(generous_vassal.IsFemale,'généreuse','généreux')], mais je n’ai pas besoin de vous."
  maa_recruitment_boon: "Recrutement efficace d’hommes d’armes"
  maa_recruitment_boon_desc: "Ce personnage reçoit l’aide de ses vassaux pour recruter des soldats professionnels."
- war_war_war_opinion: "La guerre, la guerre, la guerre !"
+ war_war_war_opinion: "Le chemin de la guerre"
  conqueror.1200.t: "$conqueror_prefix$ le chemin de la gloire"
  conqueror.1200.desc: "Des chants appelant à la guerre sont scandés dans tout le pays.\n\nMes vassaux, avides de gloire, me pressent de faire couler le sang de mes ennemis et de nous apporter une gloire prédestinée.\n\nLeur soutien est inextinguible."
  conqueror.1200.a: "Je ne les décevrai pas !"

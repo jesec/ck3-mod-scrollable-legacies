@@ -136,6 +136,7 @@
  hunt.8570.a: "“我来了！”"
  hunt.8570.a.success: "你毫发无伤地救下了[stampede_victim.GetHerHim]"
  hunt.8570.a.failure: "你救下了[stampede_victim.GetHerHim]但是受伤了"
+ hunt.8570.a.failure_2: "你没能救下[stampede_victim.GetHerHim]"
  hunt.8570.a.crit_failure: "你死在了尝试中"
  hunt.8570.b: "也许我可以改变踩踏的方向。"
  hunt.8570.b.success: "你改变了踩踏的方向。"

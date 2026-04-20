@@ -115,7 +115,7 @@
  catalyst_convert_local_culture_faith_desc: "Conversion à la [culture|El] ou à la foi [faith|El] [Concept('struggle_involved','impliquée')|E] locale"
  catalyst_raided_involved: "[struggle_catalyst_catalyst|E] – A pillé un [ruler|El] [struggle_involved|El]"
  catalyst_raided_involved_desc: "Mener à bien un [raid|El] contre un [ruler|El] [struggle_involved|El]"
- catalyst_populist_uprise: "[struggle_catalyst_catalyst|E] – A connu un soulèvement populiste ou paysan "
+ catalyst_populist_uprise: "[struggle_catalyst_catalyst|E] – A connu un soulèvement populiste ou paysan"
  catalyst_populist_uprise_desc: "Avoir un [Concept('civil_wars','soulèvement populiste ou paysan')|E] en tant que [ruler|El] [struggle_involved|El]"
  catalyst_revoke_title: "[struggle_catalyst_catalyst|E] – A révoqué un [title|l]"
  catalyst_revoke_title_desc: "[Concept('revoke', 'Révoquer')|E] un [title|El] ([titles|El] [Concept('leased', 'baillés à rente')|El] compris)"

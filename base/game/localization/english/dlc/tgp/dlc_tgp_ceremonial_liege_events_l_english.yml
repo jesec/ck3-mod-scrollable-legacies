@@ -38,7 +38,7 @@
  tgp_ceremonial_liege_events.0020.c: "Send [opposing_power.GetHerHim] my best wishes."
 
  tgp_ceremonial_liege_events.0030.t: "A Scholar's Memorial"
- tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName] presents well-written memorial about the history of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName].\n\nIn the memorial,"
+ tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName] presents a well-written memorial about the history of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName].\n\nIn the memorial,"
  tgp_ceremonial_liege_events.0030.regent: "[opposing_power.GetFirstName] is mentioned often and in detail, with [scholar.GetFirstNameNoTooltip] making sure to include details about [opposing_power.GetFirstNamePossessiveNoTooltip] house, [opposing_power.GetHouse.GetName].\n\nThe problem is apparent when I am described as [ROOT.Char.Custom('InsultAdjective')], and [opposing_power.GetFirstNameNoTooltip] as quite [ROOT.Char.Custom('ComplimentAdjective')]..."
  tgp_ceremonial_liege_events.0030.liege: "I am mentioned often and in detail, with [scholar.GetFirstNameNoTooltip] making sure to include details about my house, [ROOT.Char.GetHouse.GetName].\n\nWhat really caught my attention is when I am described as [ROOT.Char.Custom('ComplimentAdjective')], and [opposing_power.GetFirstNameNoTooltip] as quite [opposing_power.Custom('InsultAdjective')]..."
  tgp_ceremonial_liege_events.0030.a: "Excellent work!"

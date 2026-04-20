@@ -62,7 +62,7 @@
  intrigue_dread_special.1301.d: "Occupez-vous de vos affaires !"
  #Cannibal cook, by Linnéa Thimrén
  intrigue_dread.1501.t: "Le repas du soir"
- intrigue_dread.1501.desc: "« Comment trouvez-vous le ragoût, [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ? »\n\nDes morceaux de légumes se mêlent à de la viande grasse, la texture filandreuse est interrompue par ce qui semble être une fourrure courte et clairsemée. Tandis que je pose des questions sur les ingrédients, mon cuisinier personnel, [cannibal_cook.Custom('FR_le_Char_Pi')][cannibal_cook.GetTitledFirstName], ne fait que sourire et essayer de m’apaiser.\n\n« Mon seul souhait est de vous servir, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. »"
+ intrigue_dread.1501.desc: "« Comment trouvez-vous le ragoût, [ROOT.Char.Custom('FR_MonseigneurMadame')|U] ? »\n\nParmi les morceaux de légumes se trouvent des morceaux de viande gras, dont la texture filandreuse est ponctuée de ce qui semble être des poils courts et clairsemés. Tandis que je pose des questions sur les ingrédients, mon cuisinier personnel, [cannibal_cook.Custom('FR_le_Char_Pi')][cannibal_cook.GetTitledFirstName], ne fait que sourire et essayer de m’apaiser.\n\n« Mon seul souhait est de vous servir, [ROOT.Char.Custom('FR_MonseigneurMadame')|U]. »"
  intrigue_dread.1501.a: "Le contenu exact de mes repas n’a pas d’importance."
  intrigue_dread.1501.b: "[cannibal_cook.GetSheHe|U] pense pouvoir #EMP me#! cacher quelque chose ?"
  intrigue_dread.1501.b.flavor: "L’ignorance c’est peut-être le bonheur, mais je #EMP dois#! savoir"
@@ -209,7 +209,7 @@
  intrigue_defied_loved_one_opinion: "A défié un être cher"
  #Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t: "Les rumeurs sur [family_member.GetFirstNameNoTooltip]"
- intrigue_dread.2101.desc.intro: "« J’ai remonté à la source les rumeurs nauséabondes sur votre [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] », dit [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] en tapotant une liasse de lettres.\n\nLes lettres prouvent que [hater.Custom('FR_le_Char_Pi')][hater.GetTitledFirstName] a essayé de [family_member.Custom('FR_LeLa')] traîner dans la boue. "
+ intrigue_dread.2101.desc.intro: "« J’ai remonté à la source les rumeurs nauséabondes sur votre [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))], [family_member.Custom('FR_le_Char_Pi')][family_member.GetTitledFirstName] », dit [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] en tapotant une liasse de lettres.\n\nCes lettres prouvent que [hater.Custom('FR_le_Char_Pi')][hater.GetTitledFirstName] a essayé de [family_member.Custom('FR_LeLa')] traîner dans la boue. "
  intrigue_dread.2101.desc.failed_assassination: "[hater.Custom('FR_IlElle')|U] accuse même [family_member.GetFirstName] de vouloir [hater.Custom('FR_LeLa')] faire tuer !"
  intrigue_dread.2101.desc.committed_adultery: "[hater.Custom('FR_IlElle')|U] prétend que [family_member.GetFirstName] est un[family_member.Custom('FR_E')] [family_member.GetWifeHusband] infidèle et raconte des histoires abjectes à son sujet !"
  intrigue_dread.2101.desc.bullied_me: "[hater.Custom('FR_IlElle')|U] affirme que [family_member.GetFirstName] porte en [family_member.Custom('FR_LuiElle')] la graine du mal depuis l’enfance, lorsqu’[family_member.Custom('FR_IlElle')] [hater.Custom('FR_LeLa')] malmenait."
@@ -267,7 +267,7 @@
  intrigue_doing_stewards_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_marshals_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_court_chaplains_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
- intrigue_position_is_safe_opinion: "A reçu la garantie de conserver son poste"
+ intrigue_position_is_safe_opinion: "A assuré que mon poste n’était pas menacé"
  #Your court thinks you're soft, by Luke Bean
  intrigue_dread.2301.t: "Leur montrer qui je suis"
  intrigue_dread.2301.desc.a: "« Quelle chance que notre [ROOT.Char.Custom('GetCourtOwner')] soit si paisible et tendre ! » s’exclame [smirking_courtier.Custom('FR_le_Char_Pi')][smirking_courtier.GetTitledFirstName] en souriant d’un air satisfait. « Nous sommes chanceux de vivre [ROOT.Char.Custom('FR_GetCourt_Au')] où nous sommes libérés de la peur ! »"

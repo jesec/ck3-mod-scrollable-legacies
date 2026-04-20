@@ -139,7 +139,7 @@
  appointment_succession_law_subname: "점수가 가장 높은 후보가 상속"
  appointment_succession_law_effects: "\n#V [appointment_succession_law|E]의 한 유형입니다. $appointment_succession_law$ 시행 시, [title|E] 및 관련 [holdings|E]는 [candidate_score|E]가 가장 높은 후보가 상속하게 됩니다.\n\n[realm|E] 내 [adult|E]이라면 누구든 [scheming|E]부터 [influence|E] 소모 등의 수단으로 [governorship|E] 획득을 노려볼 수 있습니다.\n#!"
  #Acclamation Succession Law (Byzantium, EP3)
- acclamation_succession_law: "구두 투표 승계"
+ acclamation_succession_law: "추대 승계"
  acclamation_succession_law_subname: "$appointment_succession_law_subname$"
  acclamation_succession_law_effects: "\n#V [appointment_succession_law|E]의 한 유형입니다. $acclamation_succession_law$ 시행 시 [empire|E] [title|E]와 관련 [holdings|E]는 [candidate_score|E]가 가장 높은 후보가 상속하게 됩니다.\n\n후보 목록에는 [realm|E]의 [noble_families|E]의 [house_heads|E], [governors|E], 가족 구성원이 포함됩니다.\n#!"
  #Descs used in calculating the candidate scores
@@ -252,7 +252,7 @@
  has_trait_education_martial_4: "[GetTrait('education_martial_4').GetName( GetNullCharacter )]"
  has_trait_education_martial_5: "[GetTrait('education_martial_5').GetName( GetNullCharacter )]"
  number_of_commander_traits_desc: "[commander_traits|E] 숫자"
- has_warfare_legacy_track_desc: "$warfare_legacy_track_name$ [Concept( 'dynasty_perk', 'Legacy Track' )|E] #weak (+10/유산)#!"
+ has_warfare_legacy_track_desc: "$warfare_legacy_track_name$ [Concept( 'dynasty_perk', '가문 유산 계통' )|E] #weak (+10/유산)#!"
  cannot_be_commander: "[commander|E]이 되는 것이 허락되지 #bold 않음#!"
  governor_of_same_or_higher_tier_desc: "[rank|E]가 같거나 더 높은 [governor|E]임"
  celestial_appointment_allowed_desc: "당신의 [GetPlayer.Custom('GetProvinceAdministrationConcept')](은)는 시민 [governorship|E]이 #bold 아님#!"

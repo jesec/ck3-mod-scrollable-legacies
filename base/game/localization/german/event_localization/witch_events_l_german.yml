@@ -44,6 +44,7 @@
  witch.2004.discovered.desc: "[target.GetFirstNameNoTooltip] kneift die Augen zusammen. „[ROOT.Char.GetFirstNameNoTooltip], seid Ihr das? [owner.GetFaith.WitchGodName|U]? Was soll dieser Unfug?!“"
  witch.2004.not_discovered.desc: "[target.GetFirstNameNoTooltip] springt eilig aus dem Bett und greift nach etwas auf [target.Custom('DE_PRO_POS_S_3P')]em Nachttisch. Das kann nichts Gutes bedeuten. „Ich will nichts mit Euch oder Euren Lügen zu tun haben! Schafft Euch fort, Dämonenbrut!“, schreit [target.GetFirstNameNoTooltip], und ich gehorche zügig."
  witch.2004.a: "Falsches [target.Custom('GetChamber')]! Verzeiht!"
+ witch.2005.toast: "Hexe entdeckt"
  witch.2005.end.desc: "„[ROOT.Char.GetFirstNameNoTooltip], seid Ihr das? [owner.GetFaith.WitchGodName|U]? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] wird von Eurer Blasphemie hören!“"
  witch.2005.a: "Bitte! Es ist nicht so, wie Ihr denkt!"
  witch.2005.a.tt: "Eigentlich könnte es #EMP haargenau so#! sein, wie [target.Custom('DE_PRO_PER_S_3P_N')] denkt …"

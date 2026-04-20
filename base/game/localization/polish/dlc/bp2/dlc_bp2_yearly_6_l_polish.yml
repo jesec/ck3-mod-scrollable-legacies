@@ -73,7 +73,7 @@
  bp2_yearly.6010.desc: "#EMP – Przyjaciół mam wielu, lecz krążę tu bez celu…#!– śpiewa [sad_boi.GetFirstName] głosem łamiącym się od emocji.\n\n[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))|U] odrzuca instrument na bok i woła: – [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] to miejsce, którego mam serdecznie dość!"
  bp2_yearly.6010.adult: "Nie ma tu jakichkolwiek wygód.\n\n[sad_boi.GetFirstName] patrzy na mnie krytycznym spojrzeniem i dodaje: – Ta piosenka stanowi moje wezwanie o pomoc w smutnej niewoli. Proszę o drobne datki… o ile moi ludzie wciąż jakkolwiek o mnie dbają."
  bp2_yearly.6010.child: "Och, jakże trawi mnie tu nieszczęście…\n\n[sad_boi.Custom('GirlBoy')|U] podnosi na mnie załzawione oczy i dodaje: – Kiedy moi krewni usłyszą tę pieśń, zmięknie im serce. Wyślą tu coś, aby uczynić me #EMP wygnanie#! nieco bardziej znośnym… Jeżeli ich jeszcze obchodzę, rzecz jasna…"
- bp2_yearly.6010.outro: "\n\n[sad_boi.GetFirstName] raz jeszcze wznosi smutną pieśń, a w [sad_boi.Custom('PL_jego_jej')] oczach majaczy ziemia znana jako [home_court_liege.GetPrimaryTitle.GetNameNoTier]."
+ bp2_yearly.6010.outro: "\n\nRaz jeszcze wznosi smutną pieśń, a w [sad_boi.Custom('PL_jego_jej')] oczach majaczy dom położony daleko stąd."
  bp2_yearly.6010.a: "Tak, zobaczmy, jakie „datki” zdoła zebrać…"
  bp2_yearly.6010.a.tt: "…do mojego skarbca."
  bp2_yearly.6010.b: "Cóż to za smutek?! #EMP Czy mogę ci jakoś pomóc?#!"

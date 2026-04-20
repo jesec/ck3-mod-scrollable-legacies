@@ -236,7 +236,7 @@
  court_ongoing.1116.a: "По крайней мере, [competitor.GetSheHe] больше не будет докучать своими ухаживаниями."
  #Boring party guest
  court_ongoing.1120.t: "$court_event_title$ $court_ongoing.1121.t$"
- court_ongoing.1120.desc: "Я прибываю на танцы, чтобы [target.GetTitledFirstName] и я могли провести больше времени вместе. Мое сердце выпрыгивает из груди от одной только мысли о том, что мы сможем соприкоснуться руками! Но по прибытии я замечаю, как [target.GetHerHim] докучает [unpleasant_guest.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].\n\n[Select_CString(unpleasant_guest.IsFemale, 'Эта', 'Этот' )] [unpleasant_guest.Custom2('InsultAdjective', ROOT.Char)] [unpleasant_guest.GetWomanMan] все бубнит и бубнит, не замечая, что [target.GetFirstNameNoTooltip] от этого только смущается."
+ court_ongoing.1120.desc: "Я прибываю на танцы, чтобы [target.GetTitledFirstName] и я могли провести больше времени вместе. Мое сердце выпрыгивает из груди от одной только мысли о том, что мы сможем соприкоснуться руками! Но по прибытии я замечаю, как [target.GetHerHim] докучает [unpleasant_guest.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].\n\n[Select_CString(unpleasant_guest.IsFemale, 'Эта', 'Этот' )] [unpleasant_guest.Custom2('InsultAdjective', ROOT.Char)][Select_CString(unpleasant_guest.IsFemale, 'ая', 'ый' )] [unpleasant_guest.GetWomanMan] все бубнит и бубнит, не замечая, что [target.GetFirstNameNoTooltip] от этого только смущается."
  court_ongoing.1120.a: "Сейчас #EMP «отвлечение»#! будет весьма уместным."
  court_ongoing.1120.a.failure: "Этот разговор до невозможности скучен"
  court_ongoing.1120.b: "Мое обаяние сделает интереснее любой разговор!"

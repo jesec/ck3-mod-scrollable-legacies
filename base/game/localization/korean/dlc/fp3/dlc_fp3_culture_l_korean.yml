@@ -52,7 +52,7 @@
  tradition_fp3_pragmatic_creed_desc: "해당 문화의 전사들은 화려함에 얽매이지 않습니다. 전형적인 정예 기병을 포기한 대신 일반 병사의 가치와 적응력에 중점을 둡니다."
  tradition_fp3_fierce_independence_name: "흉포한 독립성"
  tradition_fp3_fierce_independence_desc: "오랜 세월 수많은 폭군이 해당 문화를 없애려고 했습니다. 하지만 해당 문화는 끈기와 군사적 역량으로 살아남았습니다."
- not_of_central_asian_heritage_desc: "[culture|E]가 이란, 토하라, 투르크 또는 몽골 [heritage|E]에 속하지 않음"
+ not_of_central_asian_heritage_desc: "[culture|E]가 이란, 토하라, 튀르크 또는 몽골 [heritage|E]에 속하지 않음"
  culture_on_eastern_frontier_desc: "[culture|E]에 속한 [Concept( 'counties', '영지' )|E]의 #V 20%#!가 [GetGeographicalRegion('world_transoxiana').GetName], [GetGeographicalRegion('world_khorasan').GetName], 또는 [GetGeographicalRegion('world_steppe_tarim').GetName] 내에 있지 않음"
  culture_not_iranian_desc: "[culture|E]가 이란 [heritage|E]에 속하지 않음"
  steppe_or_desert_percentage_desc: "[culture|E]에 속한 [Concept( 'counties', '영지' )|E]의 #V 30%#!가 초원 또는 사막 [terrain|E] 내에 있지 않음"

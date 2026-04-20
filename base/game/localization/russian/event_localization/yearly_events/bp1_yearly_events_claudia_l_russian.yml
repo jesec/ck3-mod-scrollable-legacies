@@ -51,7 +51,7 @@
  bp1_yearly.1021.c: "Покойся с миром, [Select_CString(friend.IsFemale, 'моя дорогая', 'мой дорогой' )] [friend.GetFirstNameNoTooltip]."
  #Till the Bitter End
  bp1_yearly.1030.t: "До самого конца"
- bp1_yearly.1030.desc: "\n\n«Ха! Взгляни на себя! Что, уже не [Select_CString(ROOT.Char.IsFemale, 'такая грозная', 'такой грозный' )]? Даже не узнаешь меня, ты, [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('rival'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rival'))]? Это я, [rival.GetFirstName]! О, как же мне хотелось увидеть тебя [Select_CString(ROOT.Char.IsFemale, 'сломленной', 'сломленным' )]!»"
+ bp1_yearly.1030.desc: "\n\n«Ха! Взгляни на себя! Что, уже не [Select_CString(ROOT.Char.IsFemale, 'такая грозная', 'такой грозный' )]? Даже не узнаешь меня, ты, [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('rival'))][Select_CString(rival.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rival'))]? Это я, [rival.GetFirstName]! О, как же мне хотелось увидеть тебя [Select_CString(ROOT.Char.IsFemale, 'сломленной', 'сломленным' )]!»"
  bp1_yearly.1030.desc_nemesis: "\n\n«Нет, не только», — отвечает [nemesis.GetSheHe]. Я даже не замечаю опасный отблеск в [nemesis.GetHerHis] глазах, когда [nemesis.GetFirstNameNoTooltip] приближается к моей постели с леденящей улыбкой на лице."
  bp1_yearly.1030.desc_nemesis_guard: "Казалось, все пропало, но в этот миг в комнату врывается [Select_CString(guard.IsFemale, 'моя', 'мой' )] [GetCourtPositionType('bodyguard_court_position').GetName()] [guard.GetFirstName]!"
  bp1_yearly.1030.desc_nemesis_no_guard: "Я пытаюсь пошевелиться, убежать, закричать, #EMP что угодно#!, но мое слабое тело больше мне не подчиняется..."
@@ -71,7 +71,7 @@
  bp1_yearly.1030.c_killed: "Вы убиты"
  bp1_yearly.1031.desc: "С того дня как мне сообщили, что [rival.GetTitledFirstName] болеет, я никак не могу обрести покой. Мне нужно было увидеть это своими глазами. Теперь же, когда я смотрю на [rival.GetHerHis] слабое и почти неподвижное тело на постели, отчаянно цепляющееся за жизнь остатками сил, меня переполняют противоречивые чувства."
  bp1_yearly.1031.desc_nemesis: "\n\nНе проще ли просто отбросить и забыть боль и злость? И все же [nemesis.GetFirstNameNoTooltip] выглядит так слабо, уязвимо... Настолько слабо, что я могу #EMP сломить#! [nemesis.GetHerHis] голыми руками..."
- bp1_yearly.1031.desc_rival: "\n\n«Ты хотя бы узнаешь меня, ты, [rival.Custom2('InsultAdjective', ROOT.Char)] [rival.Custom2('InsultNoun', ROOT.Char)]?» — на мгновение [rival.GetHerHis] лицо принимает осмысленное выражение, а глаза начинают лихорадочно искать меня, но так и не находят."
+ bp1_yearly.1031.desc_rival: "\n\n«Ты хотя бы узнаешь меня, ты, [rival.Custom2('InsultAdjective', ROOT.Char)][Select_CString(rival.IsFemale, 'ая', 'ый' )] [rival.Custom2('InsultNoun', ROOT.Char)]?» — на мгновение [rival.GetHerHis] лицо принимает осмысленное выражение, а глаза начинают лихорадочно искать меня, но так и не находят."
  bp1_yearly.1031.desc_guard: "Погрузившись в раздумья, я краем глаза замечаю, что [nemesis.GetHerHis] [GetCourtPositionType('bodyguard_court_position').GetName()], [guard.GetTitledFirstName], пристально следит за мной из угла комнаты."
  bp1_yearly.1031.a: "Теперь все кажется таким бессмысленным, не так ли?"
  bp1_yearly.1031.b: "Поделом тебе."
@@ -97,7 +97,7 @@
  #Annoying Company
  bp1_yearly.1050.t: "Неприятное общество"
  bp1_yearly.1050.desc: "Я с комфортом отмокаю в бане, наслаждаясь заслуженным отдыхом, как вдруг неторопливое течение моих мыслей прерывает до боли неприятный голос.\n\n«Ха, видали [ROOT.Char.GetHerHis]?.. И этот #EMP крошечный#!?..» Чуть дальше в помещении сидит [new_rival.GetTitledFirstName] в окружении смеющихся прихлебал и делает крайне непристойные жесты. Трудно не заметить, что все они смотрят на меня."
- bp1_yearly.1050.desc_nemesis: "\n\nНУ ВСЕ! Довольно этой чепухи! [new_rival.GetFirstNameNoTooltip] слишком долго ищет со мной вражды, а теперь еще и нарушает мой отдых в бане?! На редкость [new_rival.Custom2('InsultAdjective', ROOT.Char)] [new_rival.Custom2('InsultNoun', ROOT.Char)]! Проклятье на тебя, [new_rival.GetFirstNameNoTooltip]!"
+ bp1_yearly.1050.desc_nemesis: "\n\nНУ ВСЕ! Довольно этой чепухи! [new_rival.GetFirstNameNoTooltip] слишком долго ищет со мной вражды, а теперь еще и нарушает мой отдых в бане?! На редкость [new_rival.Custom2('InsultAdjective', ROOT.Char)][Select_CString(new_rival.IsFemale, 'ая', 'ый' )] [new_rival.Custom2('InsultNoun', ROOT.Char)]! Проклятье на тебя, [new_rival.GetFirstNameNoTooltip]!"
  bp1_yearly.1050.desc_rival: "\n\nЯ едва [new_rival.GetHerHis] знаю, а уже ненавижу. Да как [new_rival.GetFirstNameNoTooltip] #EMP смеет#! открыто насмехаться надо мной?! Этого я не забуду..."
  bp1_yearly.1050.a: "[new_rival.GetSheHe|U] за это заплатит."
  bp1_yearly.1050.b: "Убейте [new_rival.GetHerHis]. #EMP НЕМЕДЛЯ#!."
@@ -147,5 +147,5 @@
  bp1_yearly.1081.a: "Давай устроим твой развод, #EMP сейчас же#!."
  bp1_yearly.1081.b: "Расскажи мне о своих горестях..."
  bp1_yearly.1081.c: "Говоришь, #EMP пока смерть не разлучит нас#!?.."
- bp1_yearly.1082.desc: "Недавно мне открылось, что [Select_CString(spouse.IsFemale, 'моя жена', 'мой муж' )] [spouse.GetFirstName] — [spouse.Custom2('InsultAdjective', SCOPE.sC('relative'))] [spouse.Custom2('InsultNoun', SCOPE.sC('relative'))] — скрывает еще один грязный секрет! Я помню, как вы помогли мне избежать несчастливого брака, и в знак благодарности хочу поделиться им. Это немного, но, надеюсь, пригодится."
+ bp1_yearly.1082.desc: "Недавно мне открылось, что [Select_CString(spouse.IsFemale, 'моя жена', 'мой муж' )] [spouse.GetFirstName] — [spouse.Custom2('InsultAdjective', SCOPE.sC('relative'))][Select_CString(spouse.IsFemale, 'ая', 'ый' )] [spouse.Custom2('InsultNoun', SCOPE.sC('relative'))] — скрывает еще один грязный секрет! Я помню, как вы помогли мне избежать несчастливого брака, и в знак благодарности хочу поделиться им. Это немного, но, надеюсь, пригодится."
  bp1_yearly.1082.a: "Превосходно..."

@@ -60,7 +60,7 @@
  meshefaresism: "Meszefareszyzm"
  meshefares_adj: "Meszefareszycka"
  meshefaresism_adj: "$meshefares_adj$"
- meshefares_adherent: "Meszefareta"
+ meshefares_adherent: "meszefareta"
  meshefaresism_adherent: "$meshefares_adherent$"
  meshefares_adherent_plural: "meszefareci"
  meshefaresism_adherent_plural: "$meshefares_adherent_plural$"

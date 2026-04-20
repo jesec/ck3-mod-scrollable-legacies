@@ -6,7 +6,7 @@ outside_help_modifier = {
 }
 
 extra_careful_modifier = {
-	icon = learning_positive
+	icon = learning_mixed
 	scheme_success_chance = 5
 	scheme_phase_duration = microscopic_scheme_phase_duration_malus_value
 }
@@ -231,7 +231,7 @@ agent_events_2021_competing_agents_encouraged_friendship_modifier = {
 }
 
 agent_events_2021_competing_agents_left_alone_modifier = {
-	icon = learning_positive
+	icon = learning_mixed
 	scheme_success_chance_max = 5
 	scheme_phase_duration = 10
 }
@@ -269,7 +269,7 @@ agent_events_3011_pushed_relation_away_hard_modifier = {
 }
 
 agent_events_3011_pushed_relation_away_slightly_modifier = {
-	icon = love_negative
+	icon = love_positive
 	scheme_success_chance_max = 5
 }
 

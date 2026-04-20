@@ -670,5 +670,5 @@
  language_yurt_3_unlock: "あなたは少なくとも3つの[languages|E]を話す必要がある"
  fishing_yurt_01_unlock: "この[domicile_building|E]をアンロックするには、[domicile|E]を水源のそばに設置し、人々が関心を持つのを待つ必要がある。"
  paiza_metal_trade_yurt_flag_desc: "この[domicile_building|E]は[decision|E]「[GetDecisionWithKey('mpo_call_for_merchants_decision').GetName]」を通してのみ建築できる"
- paiza_metal_yurt_smol_block: "この[domicile_building|E]のさらなるアップグレードは[decision|E]「#V $mpo_call_for_merchants_decision$#!」を通してのみ可能であり、これには[ghurkan|E]の称号が必要となる"
+ paiza_metal_yurt_smol_block: "この[domicile_building|E]のさらなるアップグレードは[decision|E]「#V $mpo_call_for_merchants_decision$#!」を通してのみ可能であり、これには[gurkhan|E]の称号が必要となる"
  domicile_building_parameter_paiza_metal_iron_cavalry_unlock: "[tradition|E]「[GetCultureTradition('tradition_mpo_iron_cavalry').GetName]」をアンロックする"

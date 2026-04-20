@@ -51,8 +51,8 @@
  buddhism_religious_text: "le Buddhavacana"
  buddhism_religious_text_2: "au Buddhavacana" #Optional translation alt
  buddhism_religious_text_3: "du Buddhavacana" #Optional translation alt
- buddhism_religious_head_title: "Lama"
- buddhism_religious_head_title_name: "Incarnation du Lama"
+ buddhism_religious_head_title: "Sthavira"
+ buddhism_religious_head_title_name: "Samgha"
  buddhism_devotee_male: "bhikkhu"
  buddhism_devotee_male_plural: "bhikkhus"
  buddhism_devotee_female: "bhikkhuni"
@@ -196,6 +196,8 @@
  maitreya_adherent: "maitreyaniste"
  maitreya_adherent_plural: "maitreyanistes"
  maitreya_desc: "L’ère du Bouddha Sakyamuni est terminée et le Bouddha Maitreya est descendu dans le monde, du moins c’est ce que croient ceux qui considèrent Maitreya comme leur sauveur prophétisé. Seule la destruction de l’ordre ancien peut sauver le monde."
+ maitreya_religious_head_title: "Hiérarque" #教主
+ maitreya_religious_head_title_name: "Ordres religieux"
  acharya: "Âchârya"
  acharya_adj: "acharyiste"
  acharya_adherent: "acharyiste"

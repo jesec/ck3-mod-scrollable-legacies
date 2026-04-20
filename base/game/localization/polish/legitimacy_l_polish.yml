@@ -43,4 +43,4 @@
  legitimacy_high_modifier_tt: "Wysoka [legitimacy|El]"
  legitimacy_low_modifier_tt: "Niska [legitimacy|El]"
  legitimacy_on_level_entered: "#S Przy zmianie poziomu:#!\n"
- legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Aktywuje [situation_dynastic_cycle_catalyst|El]: utrata [Concept('mandate_of_heaven', 'mandatu niebios')|E], który sprawi, że [dynastic_cycle|El] przejdzie w [Concept('situation_dynastic_cycle_phase', 'epokę cyklu dynastii')|E], którą jest [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName|l]#!"
+ legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Aktywuje [situation_dynastic_cycle_catalyst|El]: utrata [Concept('mandate_of_heaven', 'mandatu niebios')|E], który sprawi, że [dynastic_cycle|El] przejdzie w [Concept('situation_dynastic_cycle_phase', 'epokę cyklu dynastii')|E], którą jest [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName|l]#!\n"

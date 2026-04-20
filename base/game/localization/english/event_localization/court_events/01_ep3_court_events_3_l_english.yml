@@ -98,7 +98,7 @@
  court_events.3110.b: "Fine [vassal.GetHerHim] heavily."
  court_events.3110.b.tt: "I'm sure [vassal.GetSheHe] must have broken some law at some point!"
  court_events.3110.c: "Good for [vassal.GetHerHim], I guess."
- MODIFIER_DEFINITION_VALUE_ARCHITECT_SCALE: " \t#weak Increase per [aptitude_level|E] of your [GetCourtPositionType('royal_architect_court_position').GetName()]#!"
+ MODIFIER_DEFINITION_VALUE_ARCHITECT_SCALE: " \t#weak Increase per [aptitude|E] level of your [GetCourtPositionType('royal_architect_court_position').GetName()]#!"
  court_events.3110.a.success: "Your building program starts successfully"
  court_events.3110.a.failure: "Your building program fails"
  court_events.3110.a.success.tt: "Building Program Started"

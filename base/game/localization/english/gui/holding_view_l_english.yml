@@ -287,3 +287,5 @@ province_razed_toast_title: "[province.GetNameNoTooltip] Razed"
  REBUILD_GREAT_BUILDING_EFFECT: "$EFFECT_LIST_BULLET$[BUILDING.GetName] is rebuilt in [PROVINCE.GetName]"
  REBUILD_GREAT_BUILDING_CONFIRMATION_ACCEPT: "Rebuild"
  REBUILD_GREAT_BUILDING_CANNOT_AFFORD: "@warning_icon! #X Cannot afford: #! $COST$"
+
+ YOUR_NEXT_HOLDING: "#T Go to your next [holding|e]#!"

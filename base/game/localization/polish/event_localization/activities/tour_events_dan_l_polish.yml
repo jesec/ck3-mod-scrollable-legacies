@@ -11,7 +11,7 @@
  tour_travel.3001.a.drunkard: "#EMP Co tu się wydarzyło?#!"
  tour_travel.3001.b: "Nie, ktoś taki jak ja nie poślubiłby tak plugawej i nisko urodzonej osoby."
  tour_travel.3002.t: "Cena podboju"
- tour_travel.3002.desc: "– Mój brat, mój ojciec i mój mąż, wszyscy zginęli w #EMP twojej wojnie#! – chłopka krzyczy do mnie przez cały rynek.\n\n– Kiedy [battle_memory.GetSecondPerspectiveDescription], dla ciebie było to zwycięstwem, a dla mnie dniem, w którym umarły trzy pokolenia mojej rodziny.\n\nJej gniew zamienił się w płacz, a słowa, które z siebie wyrzucała, ledwie docierały do moich uszu.\n\n– Co z ciebie za [ROOT.Char.GetTitleAsNameNoTooltip]."
+ tour_travel.3002.desc: "– Moi bliscy –[widow_peasant.Custom2( 'RelationToMeShort', widow_father )], [widow_peasant.Custom2( 'RelationToMeShort', widow_husband )], [widow_peasant.Custom2( 'RelationToMeShort', widow_son )] – nie żyją! Do tego doprowadziła #EMP twoja wojna#!! – krzyczy do mnie przez cały rynek [widow_peasant.GetWomanMan] chłopskiego pochodzenia.\n\n– Kiedy [battle_memory.GetSecondPerspectiveDescription], dla ciebie było to zwycięstwem, a dla mnie dniem, w którym umarły trzy pokolenia mojej rodziny.\n\n[widow_peasant.Custom('PL_jego_jej')|U] gniew przeradza się w płacz, a wyrzucane przez [widow_peasant.Custom('PL_niego_nia')] słowa ledwo docierają do moich uszu.\n\n– Co z ciebie za [ROOT.Char.GetTitleAsNameNoTooltip]?"
  tour_travel.3002.a: "– Nie przywrócę im życia, ale może trochę złota ukoi twój ból."
  tour_travel.3002.b: "– To było niezbędne poświęcenie."
  tour_travel.3003.t: "Obrzydliwe stworzenia"

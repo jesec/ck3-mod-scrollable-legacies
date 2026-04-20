@@ -68,7 +68,7 @@
  TITLE_VIEW_USURP_TITLE: "Übernehmen"
  USURP_TITLE_TITLE: "[TITLE.GetBaseNameNoTooltip] übernehmen"
  USURP_TITLE_TOOLTIP_TITLE: "#T [TITLE.GetBaseName] übernehmen#!"
- USURP_TITLE_TEXT: "„[TITLE.GetName|U]“ von [TITLE.GetHolder.GetUIName] übernehmen.\nKosten:\n[SelectLocalization(GetPlayer.GetGovernment.IsType('meritocratic_government'), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\nIch erhalte [prestige_i]$PRESTIGE|0V$\n\n[TITLE.GetHolder.GetUIName|U] verliert [legitimacy|E]."
+ USURP_TITLE_TEXT: "„[TITLE.GetName|U]“ von [TITLE.GetHolder.GetUIName] übernehmen.\nKosten:\n[SelectLocalization(Or(GetPlayer.GetGovernment.IsType('celestial_government'), Or(GetPlayer.GetGovernment.IsType('meritocratic_government'), GetPlayer.GetGovernment.IsType('administrative_government'))), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\nIch gewinne [prestige_i]$PRESTIGE|0V$\n\n[TITLE.GetHolder.GetUIName|U] verliert [legitimacy|E]."
  USURP_TITLE_DESC_GOLD: "[gold_i]"
  USURP_TITLE_DESC_TREASURY: "[treasury_i]"
  USURP_TITLE_ACCEPT: "Übernehmen"

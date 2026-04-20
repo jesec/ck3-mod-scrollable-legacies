@@ -25,6 +25,7 @@
  LEAVE_COUNCIL_CONFIRMATION: "Erhält nicht mehr die Vorteile, die ein [CHARACTER.GetCouncilTitle] im [council|E] von [CHARACTER.GetLiege.GetUIName] genießt."
  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "Verlassen"
  decision_tab_great_projects: "Vorhaben"
+ GREAT_PROJECTS_TAB: "Großvorhaben"
  AVAILABLE_DECISIONS_VIEW_PROJECTS: "Verfügbare [great_projects|E]"
  DECISIONS_VIEW_EMPTY_PROJECTS: "Keine verfügbaren [great_projects|E]"
  DECISIONS_VIEW_PLANNED_PROJECTS: "Geplante [great_projects|E]"

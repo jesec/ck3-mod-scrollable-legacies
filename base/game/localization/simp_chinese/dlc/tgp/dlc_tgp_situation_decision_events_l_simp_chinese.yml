@@ -67,6 +67,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "天命此消彼长，王侯将相也难以逃脱命运的变幻莫测。\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName]已自号天命所归，众人皆需匍匐于新的君王脚下。"
  tgp_dynastic_cycle.0062.desc.uninvolved: "王朝兴衰更替，旧朝让位于新朝。[GetTitleByKey('h_china').GetNameNoTierNoTooltip]的皇位现在已由[GetTitleByKey('h_china').GetHolder.GetTitledFirstName]夺得，四海内外都必须承认这位新的君王。\n\n命运之风已经变换，切不可等闲视之。"
  tgp_dynastic_cycle.0062.a: "我们将对[GetTitleByKey('h_china').GetHolder.GetHerHis]详加审度。"
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
  tgp_dynastic_cycle.0071.t: "雨霁云开"
  tgp_dynastic_cycle.0071.desc: "久久盘旋的暴风乌云已经消散，[GetTitleByKey('h_china').GetNameNoTierNoTooltip]大地上再次迎来天光。朕克服了面前的试炼，如今再无人敢质疑朕为真龙天子。\n\n艰难的时刻已经过去，朕需为今后指明新的方向，使万民再次团结在同一个目标下。"
@@ -80,6 +81,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "和平时期很少给英雄崭露头角的机会，但即便如此，其他晋升之路仍可能出现。"
  tgp_dynastic_cycle.0072.desc.uninvolved: "看起来，[GetTitleByKey('h_china').GetHolder.GetDynastyName]氏王朝气数仍然未尽。"
  tgp_dynastic_cycle.0072.a: "野火烧不尽，春风吹又生。"
+ tgp_dynastic_cycle.0072.b: "惟奉天命，方为正途。"
+ tgp_china_consolidation.remain_independent: "保持[independent_ruler|E]"
  ### ENTER CONSOLIDATION ###
  tgp_dynastic_cycle.0081.t: "天下大势，合久必分"
  tgp_dynastic_cycle.0081.desc: "顷刻间，天地变色，世间诸事大乱。\n\n忠臣另觅新主，士兵逃离职务，如今连黎民百姓也因惧怕即将到来的动乱，纷纷背弃朕之疆土。\n\n一切祸端都被归咎于朕的#EMP 暴虐#!统治，天下传言朕已经失去了天命！"

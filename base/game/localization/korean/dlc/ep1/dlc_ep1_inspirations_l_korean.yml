@@ -1,5 +1,6 @@
 ﻿l_korean:
  sponsor_inspiration_debug: "영감 후원"
+ complete_inspiration_debug: "영감 완료"
  I_CAN_SPONSOR_OWN_INSPIRATION: "나의 영감에 후원 가능"
  NOT_I_CAN_SPONSOR_OWN_INSPIRATION: "나의 영감에 후원 #bold 불가능#!"
  THEY_CAN_SPONSOR_OWN_INSPIRATION: "[CHARACTER.GetUIName](이)가 자신의 영감에 후원 가능"

@@ -85,6 +85,7 @@
  court.3031.a: "Verbessert mein Ansehen bei meinen Vasallen aus Minderheiten."
  court.3031.b: "LegT bei den Baronen ein gutes Wort für mich ein."
  court.3031.c: "Die [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip] sind es, zu denen ich mir eine bessere Beziehung wünsche."
+ every_culture_county_3031: "Alle [Concept('realm', 'Reichs')|E]-[Concept('county', 'Gemeinden')|E] der [reference_county.GetCulture.GetName|l]en [culture|E]"
  court.3031.d: "Mir ist es einerlei, was andere denken."
  #Homesickness
  court.3040.t: "[homesick_parent.GetMotherFather|U] hat Heimweh"

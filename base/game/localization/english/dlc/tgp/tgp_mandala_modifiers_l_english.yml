@@ -81,6 +81,6 @@
  is_disbelieved_mandala: "You are a [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]: $VALUE|=+0$"
 
  base_with_value: "Base: $VALUE|=+0$"
- has_aspect_of_serenity: "$aspect_of_serenity_house_power$: $VALUE|=+0$"
+ has_aspect_of_serenity: "$aspect_of_serenity_house_aspiration$: $VALUE|=+0$"
 
  mandala_ai_godking_modifier: "Is an aspiring Devaraja: $VALUE|=+0$"

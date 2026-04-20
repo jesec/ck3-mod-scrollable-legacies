@@ -53,11 +53,16 @@ form_portugal_decision = {
 		}
 
 		highest_held_title_tier < tier_kingdom
+		
+		any_held_title = {
+			count >= 2
+			tier = tier_duchy
+		}
 
-		has_title = title:d_porto
-		has_title = title:d_coimbra
-		has_title = title:d_beja
-		has_title = title:d_algarve
+		completely_controls = title:d_porto
+		completely_controls = title:d_coimbra
+		completely_controls = title:d_beja
+		completely_controls = title:d_algarve
 	}
 	
 	is_valid_showing_failures_only = {

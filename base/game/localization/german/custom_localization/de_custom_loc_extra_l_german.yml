@@ -17,7 +17,7 @@ l_german:
  CustomLoc_DE_2_signature_weapon_crush:0 "zu zermalmen"
  CustomLoc_DE_2_signature_weapon_pierce:0 "zu bohren"
  CustomLoc_DE_3_signature_weapon_slash:0 "n"
- CustomLoc_DE_3_signature_sweapon_crush:0 "m"
+ CustomLoc_DE_3_signature_weapon_crush:0 "m"
  CustomLoc_DE_3_signature_weapon_pierce:0 "n"
  CustomLoc_DE_4_signature_weapon_slash:0 ""
  CustomLoc_DE_4_signature_weapon_crush:0 "em"

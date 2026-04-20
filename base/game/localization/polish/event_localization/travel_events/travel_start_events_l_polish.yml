@@ -234,3 +234,6 @@
  travel_start_event.1120.pro_hegemon: "Poprowadzi nas grupa o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip]!"
  travel_start_event.1120.pro_hegemon.tt: "Dołączasz do grupy o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]"
  travel_start_event.1120.bye: "Nie chcę dołączyć do żadnego z tych ruchów."
+ travel_starts: "Początek podróży"
+ travel_destination_activity: "Twój cel podróży to [location.GetName], gdzie weźmiesz udział w następującym wydarzeniu: [host.GetInvolvedActivity.GetName|l]"
+ travel_destination_location: "Twój cel podróży to [location.GetName]"

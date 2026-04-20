@@ -11,7 +11,7 @@
  tour_travel.3001.a.drunkard: "#EMP Qu’ai-je fait ?#!"
  tour_travel.3001.b: "Non, je ne me marie pas avec de sales paysans, malhonnêtes de surcroît !"
  tour_travel.3002.t: "Le prix de la conquête"
- tour_travel.3002.desc: "« Mon frère, mon père et mon mari sont morts pour #EMP votre guerre#! ! » s’écrie une paysanne en me suivant à travers tout le village.\n\n« Quand [battle_memory.GetSecondPerspectiveDescription], vous avez fêté votre victoire, mais pour moi c’est le jour où trois générations de ma famille sont mortes. »\n\nSa colère vire aux larmes et je distingue à peine ses paroles suivantes.\n\n« Je ne veux plus de vous pour suzerain. »"
+ tour_travel.3002.desc: "« M[widow_peasant.Custom2( 'FR_RelationToMeShort_OnA', widow_father )], m[widow_peasant.Custom2( 'FR_RelationToMeShort_OnA', widow_husband )] et m[widow_peasant.Custom2( 'FR_RelationToMeShort_OnA', widow_son )] ont perdu la vie pour #EMP votre guerre#! ! » s’écrie [Select_CString(widow_peasant.IsFemale,'une paysanne','un paysan')] en me suivant à travers tout le village.\n\n« Quand [battle_memory.GetSecondPerspectiveDescription], vous avez fêté votre victoire, mais pour moi c’est le jour où trois générations de ma famille sont mortes. »\n\nSa colère vire aux larmes et je distingue à peine ses paroles suivantes.\n\n« Je ne veux plus de vous comme [ROOT.Char.GetTitleAsNameNoTooltip|l]. »"
  tour_travel.3002.a: "« Rien ne vous les ramènera, mais peut-être que cet or pourrait soulager vos tracas ? »"
  tour_travel.3002.b: "« Leur sacrifice en valait la peine. »"
  tour_travel.3003.t: "Créatures répugnantes"

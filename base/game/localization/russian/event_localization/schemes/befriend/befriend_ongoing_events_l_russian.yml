@@ -338,7 +338,7 @@
  befriend_ongoing.9001.a: "Собирайте свиту, мы немедленно отправляемся!"
  befriend_ongoing.9001.b: "Боюсь, сейчас не самое удачное время..."
  befriend_ongoing.9100.t: "Сближение: сдерживающие моменты"
- befriend_ongoing.9100.desc: "Мне только что сообщили весьма тревожные новости! [Select_CString(scoped_rival.IsFemale, 'Моя', 'Мой' )] [scoped_rival.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_rival') )] [scoped_rival.GetTitledFirstName] распространяет обо мне грязные сплетни! Якобы [target.GetFirstName] для меня — лишь инструмент, и я будто бы пытаюсь цинично [target.GetHerHis] использовать, пытаясь заручиться [target.GetHerHis] доверием."
+ befriend_ongoing.9100.desc: "Мне только что сообщили весьма тревожные новости! [Select_CString(scoped_rival.IsFemale, 'Моя', 'Мой' )] [scoped_rival.Custom2('InsultAdjective', ROOT.Char)][Select_CString(scoped_rival.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_rival') )] [scoped_rival.GetTitledFirstName] распространяет обо мне грязные сплетни! Якобы [target.GetFirstName] для меня — лишь инструмент, и я будто бы пытаюсь цинично [target.GetHerHis] использовать, пытаясь заручиться [target.GetHerHis] доверием."
  befriend_ongoing.9100.a: "Какая нелепость! Никто не поверит в эту ложь."
  befriend_ongoing.9100.b: "Я не позволю [scoped_rival.GetHerHim] пятнать мое доброе имя!"
  befriend_ongoing.9100.b.success.desc.tt: "Пусть [target.GetFirstNameNoTooltip] только меня выслушает"

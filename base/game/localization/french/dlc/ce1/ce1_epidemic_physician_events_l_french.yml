@@ -1,6 +1,6 @@
 ﻿l_french:
  physician_epidemic_events.1000.t: "Traitement non orthodoxe"
- physician_epidemic_events.1000.desc: "[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] et [zealous_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] sont en désaccord sur la manière de gérer la propagation de l’effroyable [epidemic_scope.GetName]. « Je suis médecin, insiste Talāra. Laissez-moi purger ce fléau ! »\n\n« Hérésie ! grogne Mahakala. Nous devons oindre les morts et leur offrir le rituel [zealous_courtier.GetFaith.GetAdherentName] qui leur est dû. »"
+ physician_epidemic_events.1000.desc: "[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] et [zealous_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] sont en désaccord sur la manière de gérer la propagation de l’effroyable [epidemic_scope.GetName]. « Je suis médecin, insiste [physician.GetFirstNameNoTooltip]. Laissez-moi purger ce fléau ! »\n\n« Hérésie ! grogne [zealous_courtier.GetFirstNameNoTooltip]. Nous devons oindre les morts et leur offrir le rituel [zealous_courtier.GetFaith.GetAdherentName] qui leur est dû. »"
  physician_epidemic_events.1000.a: "Nous devrions peut-être tenir les vivants à distance des corps."
  physician_epidemic_events.1000.b: "Nous devons tout faire pour mettre un terme à ce fléau."
  physician_epidemic_events.1000.b.success: "Le traitement fonctionne"

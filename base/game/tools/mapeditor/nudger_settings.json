@@ -1313,6 +1313,10 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -27525,7 +27529,7 @@
 				"key":	"buildings"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"locator",
 					"key":	"buildings"
@@ -34760,7 +34764,7 @@
 				}, {
 					"locked":	false
 				}, {
-					"locked":	false
+					"locked":	true
 				}, {
 					"locked":	false
 				}, {
@@ -50139,6 +50143,8 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -119480,6 +119486,8 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -146028,6 +146036,8 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false

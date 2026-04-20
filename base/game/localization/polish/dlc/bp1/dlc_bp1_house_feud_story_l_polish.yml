@@ -374,7 +374,7 @@
  #Important Action
  action_ongoing_house_feud: "Trwająca [house_feud|El] z innym rodem"
  action_ongoing_house_feud_label: "@dynasty_icon! Twój ród zwaśniony jest z rodem [recipient.GetHouse.GetBaseNameNoTooltip]"
- action_ongoing_house_feud_desc: "Twoja rodzina postrzega ród [recipient.GetHouse.GetBaseName] jako wrogów i będzie nagradzana za pokonywanie jego członków.\n\n#help Zabójstwa, [Concept( 'torturing', 'tortury' )|E], przyprawianie rogów, kradzieże czy wygrywanie [Concept( 'wars', 'wojen' )|E] – takie działania przeciwko członkom zwaśnionego [Concept( 'house', 'rodu' )|E] działają na korzyść wyniku twojego rodu, podczas gdy stanie się ofiarą go pomniejsza.#!\n\n$house_feud_balance_action_tt$\n"
+ action_ongoing_house_feud_desc: "Twoja rodzina postrzega ród [recipient.GetHouse.GetBaseName] jako wrogów i będzie nagradzana za pokonywanie jego członków.\n\n#help Zabójstwa, [torturing|El], przyprawianie rogów, rabowanie czy wygrywanie [Concept('wars', 'wojen')|E] – takie działania przeciwko członkom zwaśnionego rodu działają na korzyść wyniku twojego rodu. Padnięcie ofiarą takich działań będzie go pomniejszać.#!\n"
  action_ongoing_house_feud_click: "#I Kliknij, aby wyświetlić głowę [Concept( 'house_feud', 'zwaśnionego rodu' )|E]#!"
  action_ongoing_house_feud_unimportant: "@warning_icon! #N Twój ród obecnie przegrywa [house_feud|El]#!"
  swap_feud_tt: "Zakończ [Concept( 'house_feud', 'waśń' )|E] z [Concept( 'house', 'rodem' )|E] [house_feud_existing.GetBaseName]"

@@ -386,7 +386,7 @@
  meritocratic_bureaucracy_2_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 [Concept('vassals', 'Вассалы')|E], не являющиеся [Concept('governor', 'губернаторами')|E], не могут начинать никакие [Concept('war', 'войны')|E], если [Concept('liege', 'сюзерен')|E] у них не [Concept('hook', 'на крючке')|E].#!"
  meritocratic_bureaucracy_3: "Божественный мандат"
  meritocratic_bureaucracy_3_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 [Concept('vassals', 'Вассалы')|E], не являющиеся [Concept('governor', 'губернаторами')|E], не могут начинать никакие [Concept('war', 'войны')|E].#!"
- CONFUCIAN_BUREAUCRACY_IS_ON_COOLDOWN: "Уровень [Concept('meritocratic_bureaucracy', 'меритократической бюрократии')|E] был недавно изменен. Повторно изменить его можно будет не раньше чем через [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperia l_bureaucracy_cooldown') )]"
+ CONFUCIAN_BUREAUCRACY_IS_ON_COOLDOWN: "Уровень [Concept('meritocratic_bureaucracy', 'меритократической бюрократии')|E] был недавно изменен. Повторно изменить его можно будет не раньше чем через [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperial_bureaucracy_cooldown') )]"
  #Japanese bureauracy
  japanese_bureaucracy: "[Concept('japanese_bureaucracy', 'Японская бюрократия')|E]"
  japanese_bureaucracy_0: "Автономные губернаторы"

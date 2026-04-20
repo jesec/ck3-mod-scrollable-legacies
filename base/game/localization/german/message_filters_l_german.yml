@@ -105,6 +105,8 @@
  message_filter_house_unity_stage_desc: "Eure [house_unity_level|E] ändert sich"
  message_filter_dynasty_child_of_age: "@dynasty_icon_alt! Erwachsenwerden"
  message_filter_dynasty_child_of_age_desc: "Ein [child|E] Eurer [dynasty|E] wird an Eurem [court|E] volljährig"
+ message_filter_child_of_age: "@child_icon! Euer Kind wird volljährig"
+ message_filter_child_of_age_desc: "Eines Eurer [children|E] wird volljährig"
  #DEATH
  message_filter_death_family: "@death_icon! Nahe Verwandtschaft"
  message_filter_death_family_desc: "Ein Mitglied der [Concept('close_family', 'nahen Verwandtschaft')|E] stirbt"
@@ -297,6 +299,10 @@
  message_filter_accolade_rank_desc: "Eine [accolade|E] ändert ihren Rang"
  message_filter_accolade_succession: "@accolade_icon! Ritternachfolge"
  message_filter_accolade_succession_desc: "Euer [acclaimed_knight|El] ändert sich"
+ message_filter_accolade_eligibility: "@accolade_icon! Ritter zulässig für [accolade_type|E]"
+ message_filter_accolade_eligibility_desc: "Einem [knight|E] kann eine neue [accolade|E] mit einem neuen [accolade_type|E] verliehen werden"
+ message_filter_squire_training: "@accolade_icon! [acclaimed_knight|EU] hat einen Knappen ausgebildet"
+ message_filter_squire_training_desc: "Die Werte eines [Concept('courtier', 'Höflings')|E] verbessern sich aufgrund der [accolade_squires|E]-Eignung einer [accolade|E]"
  #ACTIVITY
  message_filter_tournament_arrival: "@tournament_icon! Herrscherankunft"
  message_filter_tournament_arrival_desc: "Ein bemerkenswerter [ruler|E] trifft als [activity_guest|E] bei Eurem [GetActivityType('activity_tournament').GetName] ein"

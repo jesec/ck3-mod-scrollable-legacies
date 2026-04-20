@@ -217,7 +217,7 @@
  friend_tsagaan_sar_compliment: "[CHARACTER.GetShortUIName|U](와) [TARGET_CHARACTER.GetShortUIName](은)는 [CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUINamePossessive|U] 의복을 칭찬한 후 서로 친구가 되었음"
  feast_tsagaan_sar_events.0270.t: "잔의 도전"
  feast_tsagaan_sar_events.0270.desc: "[drinker.GetName](이)가 [Glossary( '아이락', 'AIRAG_GLOSS' )] 한 잔을 손에 든 채 비틀거리며 걸어왔다. [drinker.GetSheHe|U]는 씩 웃으며 잔을 들어 건배했다. \"[ROOT.Char.GetFirstNameNoTooltip], 그대를 위해 건배!\" [drinker.GetFirstNameNoTooltip](이)가 외쳤다.\n\n나는 잔을 들어 입술로 가져갔다. 아이락의 술맛은 강했다. 그 효과가 곧바로 느껴질 정도였다. \"술이라면 내가 그쪽보다 훨씬 더 잘 마시는데.\" [drinker.GetFirstNameNoTooltip](이)가 도발했다."
- AIRAG_GLOSS: "#bold 아이락#! 또는 #bold 쿠미스#!는 몽골 및 투르크의 전통 음료로, 발효된 말의 젖으로 만들어집니다."
+ AIRAG_GLOSS: "#bold 아이락#! 또는 #bold 쿠미스#!는 몽골 및 튀르크의 전통 음료로, 발효된 말의 젖으로 만들어집니다."
  feast_tsagaan_sar_events.0270.win: "당신이 [drinker.GetFirstNameNoTooltip]보다 더 마심"
  feast_tsagaan_sar_events.0270.win_price: "당신이 [drinker.GetFirstNameNoTooltip]보다 더 마시지만 대가를 치름"
  feast_tsagaan_sar_events.0270.lose: "[drinker.GetFirstNameNoTooltip](이)가 당신에게 본때를 보여줌"

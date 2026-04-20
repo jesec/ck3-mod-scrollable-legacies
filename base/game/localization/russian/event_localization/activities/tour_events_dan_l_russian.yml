@@ -11,7 +11,7 @@
  tour_travel.3001.a.drunkard: "#EMP Что же это такое?!#!"
  tour_travel.3001.b: "Нет! Я не венчаюсь с грязными холопами."
  tour_travel.3002.t: "Цена побед"
- tour_travel.3002.desc: "«У меня вся семья полегла на твоей #EMP войне#! — и брат, и отец, и муж!» — кричит мне с деревенской площади какая-то крестьянка.\n\n«Помнишь, как [battle_memory.GetSecondPerspectiveDescription]?! Тоже мне победа! Тебе-то хорошо, а я своими руками три поколения похоронила!».\n\nОт гнева и отчаяния она заходится слезами, и следующие слова уже едва можно разобрать.\n\n«Ты мне не [ROOT.Char.GetTitleAsNameNoTooltip|l]!»."
+ tour_travel.3002.desc: "«У меня вся семья полегла на #EMP твоей войне#!: и [widow_peasant.Custom2( 'RelationToMeShort', widow_father )], и [widow_peasant.Custom2( 'RelationToMeShort', widow_husband )], и [widow_peasant.Custom2( 'RelationToMeShort', widow_son )]!» — кричит мне с деревенской площади [Select_CString(widow_peasant.IsFemale, 'какая-то крестьянка', 'какой-то крестьянин' )].\n\n«Помнишь, как [battle_memory.GetSecondPerspectiveDescription]?! Тоже мне победа! Тебе-то хорошо, а я своими руками три поколения [Select_CString(widow_peasant.IsFemale, 'похоронила', 'похоронил' )]!»\n\nОт гнева и отчаяния [widow_peasant.GetSheHe] заходится слезами, и следующие слова уже едва можно разобрать.\n\n«Ты мне не [ROOT.Char.GetTitleAsNameNoTooltip|l]!»"
  tour_travel.3002.a: "«Мертвых не вернуть, но я могу дать немного денег»."
  tour_travel.3002.b: "«Эту жертву мне пришлось принять»."
  tour_travel.3003.t: "Отвратительные существа"

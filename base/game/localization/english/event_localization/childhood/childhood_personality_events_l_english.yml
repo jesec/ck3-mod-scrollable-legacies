@@ -371,6 +371,7 @@
  child_personality.112.impatient_change:0 "If it was a chore, then you should simply have left."
  child_personality.112.shy_change:0 "It is a duty to be seen, whether you want to or not!"
  child_personality.112.gluttonous_change:0 "Focus on the food if the company bothers you."
+
  child_personality.2001.t:0 "Lost Track"
  child_personality.2001.desc:0 "I like playing around with [child.GetTitledFirstName], letting [child.GetHerHim] know when [child.GetSheHe] acts weird, occasionally pushing [child.GetHerHim] around a little."
  child_personality.2001.craven:0 "\n\nI swear, if I didn't know better I'd say [child.GetSheHe] was hiding from me."

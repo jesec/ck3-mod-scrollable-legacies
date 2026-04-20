@@ -1,6 +1,7 @@
 ﻿l_french:
  death_natural_causes: "a péri dans son sommeil"
  death_old_age: "est mort[CHARACTER.Custom('FR_E')] de vieillesse"
+ death_broken_bones: "est mort[CHARACTER.Custom('FR_E')] après s’être cassé[CHARACTER.Custom('FR_E')] plusieurs de ses os fragiles en trébuchant"
  death_bubonic_plague: "est mort[CHARACTER.Custom('FR_E')] de la [GetTrait('bubonic_plague').GetName( CHARACTER.Self )|l]"
  death_smallpox: "est mort[CHARACTER.Custom('FR_E')] de la [GetTrait('smallpox').GetName( CHARACTER.Self )|l]"
  death_measles: "est mort[CHARACTER.Custom('FR_E')] de la [GetTrait('measles').GetName( CHARACTER.Self )|l]"
@@ -266,7 +267,7 @@
  death_tournament_pas_darmes_defend_killer: "est mort[CHARACTER.Custom('FR_E')] de blessures infligées en se défendant au pas d’armes contre [TARGET_CHARACTER.Custom('FR_le_Char_U_P')][TARGET_CHARACTER.GetUIName]"
  death_tournament_pas_darmes_challenge: "est mort[CHARACTER.Custom('FR_E')] de blessures infligées après avoir défié quelqu’un au pas d’armes"
  death_tournament_pas_darmes_challenge_killer: "est mort[CHARACTER.Custom('FR_E')] de blessures infligées après avoir défié [TARGET_CHARACTER.Custom('FR_le_Char_U_P')][TARGET_CHARACTER.GetUIName] au pas d’armes"
- death_wild_animal: "a été déchiqueté[CHARACTER.Custom('FR_E')] vivant[CHARACTER.Custom('FR_E')] par une bête sauvage"
+ death_wild_animal: "a été déchiqueté[CHARACTER.Custom('FR_E')] par une bête sauvage"
  death_tournament_archery_fall: "est mort[CHARACTER.Custom('FR_E')] après être tombé[CHARACTER.Custom('FR_E')] d’un cheval lors d’une compétition de tir à l’arc à cheval"
  death_tournament_quintain_hit: "est mort[CHARACTER.Custom('FR_E')] après qu’une quintaine l’ait fait tomber de son cheval pendant un tournoi"
  death_tournament_piledriver: "est tombé[CHARACTER.Custom('FR_E')] sur la tête lors d’un tournoi de lutte"
@@ -334,6 +335,7 @@
  death_poisonous_forage: "a mangé des plantes vénéneuses par erreur"
  death_drowning_in_terrain: "a été entraîné[CHARACTER.Custom('FR_E')] par son propre cheval et s’est noyé[CHARACTER.Custom('FR_E')] en essayant de le sauver"
  death_drowning_in_terrain_killer: "a été entraîné[CHARACTER.Custom('FR_E')] par le cheval [TARGET_CHARACTER.Custom('FR_du_Char_U_P')][TARGET_CHARACTER.GetUIName] et s’est noyé[CHARACTER.Custom('FR_E')] en essayant de le sauver"
+ death_lost_in_rainstorm: "a péri pendant un orage torrentiel"
  #BP2
  death_hostage_execution: "a été exécuté[CHARACTER.Custom('FR_E')] alors qu’[CHARACTER.Custom('FR_IlElle')] était pris[CHARACTER.Custom('FR_E')] en otage"
  death_hostage_execution_killer: "a été exécuté[CHARACTER.Custom('FR_E')] alors qu’[CHARACTER.Custom('FR_IlElle')] était l’otage [TARGET_CHARACTER.Custom('FR_du_Char_U_P')][TARGET_CHARACTER.GetUIName]"
@@ -390,3 +392,5 @@
  death_avoid_dishonor_killer: "$death_avoid_dishonor$ infligé par [TARGET_CHARACTER.Custom('FR_le_Char_U_P')][TARGET_CHARACTER.GetUIName]"
  death_eradicated: "a été exécuté[CHARACTER.Custom('FR_E')] ainsi que toute sa Maison"
  death_eradicated_killer: "$death_eradicated$ par [TARGET_CHARACTER.Custom('FR_le_Char_U_P')][TARGET_CHARACTER.GetUIName]"
+ #TGP
+ death_ritual_suicide: "s’est suicidé[CHARACTER.Custom('FR_E')] rituellement"

@@ -145,8 +145,8 @@
  bp1_yearly.2070.c:0 "You and I both know that is for the best."
  bp1_yearly.2070.c_tt:0 "This world is a terrible place."
 
- primary_heir_replaced_opinion:0 "Removed As Heir"
- parent_primary_heir_replaced_opinion:0 "Child Removed As Heir"
+ primary_heir_replaced_opinion:0 "Removed as Heir"
+ parent_primary_heir_replaced_opinion:0 "Child Removed as Heir"
 
  bp1_yearly_2023_honorable_modifier:0 "Honorable"
  bp1_yearly_2023_honorable_modifier_desc:0 "This character honorably respected a partner's wish."

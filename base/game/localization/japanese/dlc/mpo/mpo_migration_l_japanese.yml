@@ -13,7 +13,7 @@
  MIGRATION_WINDOW_DEJURE_KINGDOM_BLOCKED: "@warning_icon! #X [GetLaw('nomadic_authority_3').GetName]以上が必要です#!"
  MIGRATION_WINDOW_DEJURE_EMPIRE_BLOCKED: "@warning_icon! #X [GetLaw('nomadic_authority_4').GetName]以上が必要です#!"
  MIGRATION_COLOR_SELECTOR_REALMS: "[realms|E]を表示"
- MIGRATION_COLOR_SELECTOR_FERTILITY: "[fertility|E]を表示"
+ MIGRATION_COLOR_SELECTOR_FERTILITY: "[county_fertility|E]を表示"
  MIGRATION_WINDOW_NOMAD_INFO: "最も強力な統治者があなたの移住を受け入れるかを決定する。"
  MIGRATION_WINDOW_ALL_NOMADS_BUTTON: "統治者をすべて表示：#weak ([MigrationWindow.GetInvolvedCharacterList.GetTotalNumber])#!"
  MIGRATION_INVOLVED_CHARACTERS_HEADER: "関与している人物"

@@ -1,6 +1,7 @@
 ﻿l_korean:
  death_natural_causes: "취침 중 사망"
  death_old_age: "노령으로 사망"
+ death_broken_bones: "비틀거리다 연약한 뼈가 여럿 부러진 끝에 사망"
  death_bubonic_plague: "[GetTrait('bubonic_plague').GetName( CHARACTER.Self )]으로 사망"
  death_smallpox: "[GetTrait('smallpox').GetName( CHARACTER.Self )]로 사망"
  death_measles: "[GetTrait('measles').GetName( CHARACTER.Self )](으)로 인해 사망"
@@ -266,7 +267,7 @@
  death_tournament_pas_darmes_defend_killer: "무기의 길 결투 중 [TARGET_CHARACTER.GetUIName](을)를 상대로 방어전을 치르다 입은 부상으로 사망"
  death_tournament_pas_darmes_challenge: "무기의 길 도전 중 입은 부상으로 사망"
  death_tournament_pas_darmes_challenge_killer: "[TARGET_CHARACTER.GetUINamePossessive] 무기의 길 도전 중 입은 부상으로 사망"
- death_wild_animal: "맹수에게 산 채로 짓이겨져 사망"
+ death_wild_animal: "맹수에게 짓이겨져 사망"
  death_tournament_archery_fall: "기마 궁술 시합에서 낙마한 후 사망"
  death_tournament_quintain_hit: "토너먼트 중 퀸튼 과녁에 걸려 완전히 낙마한 후 사망"
  death_tournament_piledriver: "토너먼트 레슬링 경기 중 머리부터 떨어져 사망"
@@ -334,6 +335,7 @@
  death_poisonous_forage: "실수로 독초를 섭취해 사망"
  death_drowning_in_terrain: "[CHARACTER.GetHerHis] 말을 구하려다가 함께 끌려가서 익사"
  death_drowning_in_terrain_killer: "[TARGET_CHARACTER.GetUINamePossessive] 말을 구하려다가 함께 끌려가서 익사"
+ death_lost_in_rainstorm: "폭우 속에서 길을 잃었다가 사망"
  #BP2
  death_hostage_execution: "볼모로 잡혀 있던 중 처형당해 사망"
  death_hostage_execution_killer: "[TARGET_CHARACTER.GetUINamePossessive] 볼모로 잡혀 있던 중 처형당해 사망"
@@ -388,5 +390,7 @@
  death_crowd_stampede_killer: "[TARGET_CHARACTER.GetUIName] 대관식 도중 $death_slain_in_riot$"
  death_avoid_dishonor: "명예를 지키려 자살"
  death_avoid_dishonor_killer: "[TARGET_CHARACTER.GetUIName]의 손으로 $death_avoid_dishonor$"
- death_eradicated: "또한 집안 사람 모두가 처형되어 사망"
+ death_eradicated: "[CHARACTER.GetHerHis] 집안 전체와 함께 사망"
  death_eradicated_killer: "[TARGET_CHARACTER.GetUIName]에 의해 $death_eradicated$"
+ #TGP
+ death_ritual_suicide: "자살 의식으로 인해 사망"

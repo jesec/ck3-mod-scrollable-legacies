@@ -8,3 +8,4 @@
  refused_pay_homage_opinion: "服従することを拒んだ"
  restored_ritsuryo_opinion: "律令政府を復活させた"
  refused_pledge_loyalty_to_liege_opinion: "頭を下げることを拒んだ"
+ pledged_loyalty_to_me_opinion: "$msg_pledged_loyalty_to_liege$"

@@ -1464,3 +1464,7 @@ tgp_chinese_shield_01_a_portrait_right = {
 tgp_japanese_cup_01_a = {
 	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "tgp_cup_01_a_entity" }
 }
+
+pdt_crutch_01_a_portrait = {
+	entity = {	required_tags = ""        node = "bn_l_prop"		entity = "pdt_crutch_01_a_portrait_entity" }
+}

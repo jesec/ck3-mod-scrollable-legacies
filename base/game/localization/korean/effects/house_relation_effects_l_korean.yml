@@ -13,6 +13,13 @@
  change_house_relation_global: "$change_house_relation_third$"
  change_house_relation_third_past: "$change_house_relation_third$"
  change_house_relation_global_past: "$change_house_relation_third_past$"
+ # Effect: impact_house_relation
+ impact_house_relation_to_be_established_global: "[DYNASTY_HOUSE.GetName] 및 [DYNASTY_HOUSE_2.GetName] 사이에 [HOUSE_RELATION_LEVEL.GetName] 초기 단계의 [house_relation|E]를 수립"
+ impact_house_relation_to_change_level_global: "[HOUSE_RELATION.GetName] [house_relation|E]가 [OLD_HOUSE_RELATION_LEVEL.GetName]에서 [NEW_HOUSE_RELATION_LEVEL.GetName] 방향으로 [Select_CString( GreaterThan_CFixedPoint( '(CFixedPoint)$STEPS|q$', '(CFixedPoint)0.0'), '#P 개선됨#!', '#N 악화됨#!' )] ($STEPS|+=%^$)"
+ impact_house_relation_to_progress_towards_level_global: "[HOUSE_RELATION.GetName] [house_relation|E]가 [HOUSE_RELATION.GetLevel.GetName]에서 [HOUSE_RELATION_LEVEL.GetName] 방향으로 [Select_CString( GreaterThan_CFixedPoint( '(CFixedPoint)$STEPS|q$', '(CFixedPoint)0.0'), '#P 개선됨#!', '#N 악화됨#!' )] ($STEPS|+=%^$)"
+ impact_house_relation_to_be_established_third: "$impact_house_relation_to_be_established_global$"
+ impact_house_relation_to_change_level_third: "$impact_house_relation_to_change_level_global$"
+ impact_house_relation_to_progress_towards_level_third: "$impact_house_relation_to_progress_towards_level_global$"
  I_CLEAR_HOUSE_RELATION_EFFECT: "[DYNASTY_HOUSE.GetName]-[DYNASTY_HOUSE_2.GetName] [house_relation|E] 종료"
  THEY_CLEAR_HOUSE_RELATION_EFFECT: "$I_CLEAR_HOUSE_RELATION_EFFECT$"
  CLEAR_HOUSE_RELATION_EFFECT: "$I_CLEAR_HOUSE_RELATION_EFFECT$"

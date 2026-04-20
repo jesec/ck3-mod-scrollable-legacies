@@ -87,7 +87,7 @@
  child_personality.7041.lustful: "이 음란한 녀석아! 어른이 될 때까지 참아라!"
  child_personality.7041.chaste: "필요 이상으로 친해지지 않으면 아이에게 도움이 될 것이다."
  child_personality.7041.change.lustful: "겁먹지 말 거라! 어른이 되면 이해할 거다!"
- child_personality.7041.change.chaste: "자제해라! [child.GetLadyLord]가 해서는 안 될 짓이야!"
+ child_personality.7041.change.chaste: "자제해라! [child.GetLadyLord](이)가 해서는 안 될 짓이야!"
  child_personality.7050.t: "돈에서 얻은 교훈"
  child_personality.7050.desc: "\"세금이 없다면, 왕실 국고는 바닥날 것입니다. 충성스러운 봉신은 기꺼이 더 많이 낼 것입니다.\" 내 선생님인 [teacher.GetFirstName](이)가 그렇게 말한 후 [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('teacher'))].\n\n\"따라서 백성들을 계속 만족시키는 것이 가장 중요합니다. 너무 과하지도 적지도 않게 세금을 부과해서 영주님이 자기만족에 빠져 있지 않은 것처럼 보여야 합니다.\" [teacher.GetFirstNameNoTooltip](은)는 페이지를 넘기며 말을 이어 나갔다.\n\n\"가장 높은 [ROOT.Char.GetTitleTierName]부터 가장 낮은 [ROOT.Char.Custom('lowly_servant_type')]까지, 모두가 제 역할을 해야 합니다.\" [teacher.GetSheHe|U]가 책을 덮으며 말했다. \"수업은 끝났습니다. 이제 가셔도 됩니다.\""
  child_personality.7050.a: "공정하지 않으면, 봉역이 흔들릴 거야!"

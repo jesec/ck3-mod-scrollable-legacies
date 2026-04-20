@@ -2156,7 +2156,7 @@
  rival_tried_to_have_me_disinherited: "[CHARACTER.GetShortUIName|U]は[TARGET_CHARACTER.GetShortUIName|U]が自分の相続権を奪うどころか、殺そうとまでしていたのを暴いた。"
  rival_tried_to_have_me_disinherited_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]は[CHARACTER.GetShortUIName|U]が自分の相続権を奪うどころか、殺そうとまでしていたのを暴いた。"
  rival_conquered_me: "[CHARACTER.GetShortUIName|U]が[TARGET_CHARACTER.GetShortUINamePossessive|U]の領国を征服した。"
- rival_conquered_me_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U]の領国は[CHARACTER.GetShortUIName|U]によって征服された。"
+ rival_conquered_me_corresponding: "[CHARACTER.GetShortUINamePossessive|U]の領国は[TARGET_CHARACTER.GetShortUIName|U]によって征服された。"
  friend_opened_up: "[CHARACTER.GetShortUIName|U]は[TARGET_CHARACTER.GetShortUIName]に心の奥に秘めていた問題を打ち明けた。"
  friend_opened_up_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]は[CHARACTER.GetShortUIName]から心の奥に秘めていた問題について聞かされた。"
  bp3_progress_towards_rival_stole_loot: "[TARGET_CHARACTER.GetShortUIName|U]は[CHARACTER.GetShortUIName]から不正品を盗んだ。"
@@ -2329,3 +2329,4 @@
  friend_courtiers_bonded_on_festival: "[CHARACTER.GetShortUIName|U]と[TARGET_CHARACTER.GetShortUIName]は祝祭の場で絆を深めた"
  lover_courtiers_bonded_on_festival: "[CHARACTER.GetShortUIName|U]と[TARGET_CHARACTER.GetShortUIName]は祝祭の場で情熱の夜を過ごした"
  rival_courtiers_friction_on_festival: "[CHARACTER.GetShortUIName|U]と[TARGET_CHARACTER.GetShortUIName]は祝祭の場で不倶戴天の敵同士になった"
+ friend_supported_child: "[CHARACTER.GetShortUINameNoTooltip]は弓の練習をしている[TARGET_CHARACTER.GetShortUIName|U]に声援を送った。"

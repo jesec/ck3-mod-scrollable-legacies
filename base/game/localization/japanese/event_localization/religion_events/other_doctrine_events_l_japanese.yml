@@ -62,7 +62,7 @@
  false_conversion.2001.desc_grief: "[deceased_character.GetTitledFirstName]思い出さない日はない。[deceased_character.GetHerHis]の痕跡に触れるたび、新たな悲しみが湧き上がってくる。"
  false_conversion.2001.desc_depression: "私の周りの人々から新たな喜びや悲しみがもたらされる日々が果てしなく続く。しかし、私は灰色の海に迷い込み、この[vulnerable_relation.GetAge]年間ずっと溺れたままだ。"
  false_conversion.2001.desc_stress: "体が無意識に痙攣するようになってしまった。爪を噛み、歯を食いしばり、疲れ切った体で落ち着きなく歩き回ってからベッドに入るが、眠りが訪れることはない。それでもなお、自分の理解を超えたストレスに圧倒されている。"
- false_conversion.2001.desc_outro: "\n\nこんな状態でどうやって生きていけばいいのか考えていると、[vulnerable_relation.Custom2('RelationToMeAddress', owner)]が私の耳元で囁いた。「[owner.Custom2('RelationToMeAddress', vulnerable_relation)]よ、[owner.GetSecretFaith.GetName]の癒しの力を受け入れれば、その苦悩を忘れることができるだろう。」"
+ false_conversion.2001.desc_outro: "\n\nこんな状態でどうやって生きていけばいいのか考えていると、[owner.Custom2('RelationToMeAddress', vulnerable_relation)]が私の耳元で囁いた。「[vulnerable_relation.Custom2('RelationToMeAddress', owner)]よ、[owner.GetSecretFaith.GetName]の癒しの力を受け入れれば、その苦悩を忘れることができるだろう」"
  false_conversion.2001.a: "ならば心から[owner.GetSecretFaith.GetNameNoTooltip]を受け入れよう！"
  false_conversion.2001.b: "[owner.GetTitledFirstNameNoTooltip]よ、何が言いたいのです？"
  false_conversion.2001.b_flavor: "[owner.GetTitledFirstNameNoTooltip]はそれ以上何も言わない…少なくとも今のところは。"

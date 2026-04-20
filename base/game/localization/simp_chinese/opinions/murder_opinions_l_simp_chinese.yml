@@ -35,3 +35,4 @@
  attempted_abduct_close_family_crime: "$attempted_abduct_close_family$"
  attempted_abduct_me: "绑架未遂"
  attempted_abduct_me_crime: "$attempted_abduct_me$"
+ abducted_close_relation_opinion: "$abducted_close_family$"

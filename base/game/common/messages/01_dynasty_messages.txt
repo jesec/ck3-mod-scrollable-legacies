@@ -42,6 +42,13 @@ msg_dynasty_child_of_age = {
 	style = neutral
 	message_filter_type = dynasty_child_of_age
 }
+msg_child_of_age = {
+	icon = "child"
+	title = event_message_title
+	desc = event_message_effect_and_text
+	style = neutral
+	message_filter_type = child_of_age
+}
 
 ### PERKS
 

@@ -280,3 +280,5 @@
  game_concept_appointment_level: "임명 단계"
  game_concept_appointment_levels: "임명 단계"
  game_concept_appointment_level_desc: "$game_concept_appointment_level$는 일부 [appointment_succession_laws|E]에서 [characters|E]이 후보 자격을 얻기 위한 조건으로 사용됩니다.\n\n이 단계는 특정 재화 수준에 따라 결정되며, 각 법마다 요구하는 재화가 다를 수 있습니다. 상위 품계 [title|E]일수록 더 높은 단계가 요구됩니다.\n\n#weak 예시: [GetLaw('celestial_appointment_succession_law').GetName](은)는 [merit|E] 요구 - [duchy|E]은 [GetModifier( 'merit_level_3' ).GetNameWithTooltip|L] 이상, [kingdom|E]은 [GetModifier( 'merit_level_5' ).GetNameWithTooltip|L] 이상의 [merit_level|E]를 요구합니다.#!"
+ game_concept_seize_peripheral_duchy: "주변 공작령 점령"
+ game_concept_seize_peripheral_duchy_desc: "[government_bureaucratic_type|E] [government_form|E] 체제로 통치되는 [realm|E]과 인접한 [rulers|E]가 사용할 수 있는 [casus_belli|E]입니다.\n\n공격자는 방어자의 수도 [de_jure|E] 체계에 속하지 않은 인접한 [duchy|E]을 점령할 수 있습니다."

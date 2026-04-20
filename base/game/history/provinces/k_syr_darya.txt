@@ -39,6 +39,7 @@
 	1178.1.1 = {
 		culture = karluk
 		religion = maturidi
+		holding = nomad_holding
 	}
 }
 7119 = {	#Aq-Masjid
@@ -65,7 +66,6 @@
 	1178.1.1 = {
 		culture = karluk
 		religion = maturidi
-		holding = herder_holding
 	}
 }
 7118 = {	#Telegul
@@ -198,7 +198,7 @@
 		religion = maturidi
 		culture = karluk
 	}
-	1178.1.1 = {
+	1066.1.1 = {
 		holding = herder_holding
 	}
 	1181.1.13 = {
@@ -288,9 +288,6 @@
 	culture = karluk
 	religion = tengri_pagan
 	holding = tribal_holding
-	#1134.1.1 = {
-	#	culture = khitan
-	#}
 	840.1.1 = {
 		holding = nomad_holding
 	}
@@ -302,6 +299,11 @@
 			longhouses_01
 			palisades_01
 		}
+	}
+	1134.1.1 = { # Kara-Khitai conquest and capital establishment
+		holding = castle_holding
+		culture = khitan
+		religion = avatamsaka
 	}
 }
 7152 = {	#Narïn/Narin
@@ -358,8 +360,8 @@
 	#1134.1.1 = {
 	#	culture = khitan
 	#}
-	1158.1.1 = {
-		holding = herder_holding
+	1178.1.1 = {
+		holding = castle_holding
 	}
 }
 7146 = {	#Merke	AKA Merki
@@ -380,9 +382,10 @@
 	934.1.1 = {
 		religion = maturidi
 	}
-	#1134.1.1 = {
-	#	culture = khitan
-	#}
+	1137.1.1 = {
+		#culture = khitan
+		holding = castle_holding
+	}
 }
 7149 = {	#Tinimseyit/Tinimseyit
 	#Some locals name Tinimseyit lived there

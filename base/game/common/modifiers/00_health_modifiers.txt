@@ -13,6 +13,14 @@ rejected_from_marriage_bed_modifier = {
 	fertility = -100
 }
 
+partially_mute_modifier = {
+	icon = social_negative
+	diplomacy = -5
+	intrigue = -5
+	learning = -5
+	personal_scheme_phase_duration_add = 100
+}
+
 #RANDOM HARM
 
 aging_gracefully_modifier = {
@@ -88,7 +96,7 @@ risky_wound_treatment_failure_modifier = {
 }
 
 chastised_physician_modifier = {
-	icon = learning_positive
+	icon = learning_mixed
 	learning = 1
 	monthly_prestige = -1
 }
@@ -105,13 +113,13 @@ low_social_energy_modifier = {
 }
 
 lunatic_made_of_glass_modifier = {
-	icon = health_positive
+	icon = health_mixed
 	health = 2
 	prowess = -4
 }
 
 lunatic_bat_ravings_modifier = {
-	icon = stress_negative
+	icon = stress_mixed
 	courtier_and_guest_opinion = -10
 	enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
 }

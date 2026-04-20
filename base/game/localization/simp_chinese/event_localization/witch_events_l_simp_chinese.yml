@@ -44,6 +44,7 @@
  witch.2004.discovered.desc: "[target.GetFirstNameNoTooltip]眯眼道。“[ROOT.Char.GetFirstNameNoTooltip]，是你吗？‘[owner.GetFaith.WitchGodName|U]’？那是什么鬼？！"
  witch.2004.not_discovered.desc: "[target.GetFirstNameNoTooltip]爬下床，伸手去拿[target.GetHerHis]旁边桌上的东西。大概不是什么好家伙。“我可不想和你或者你的谎言扯上关系！滚开，恶魔！”[target.GetFirstNameNoTooltip]叫道，而我很快顺从了。"
  witch.2004.a: "走错[target.Custom('GetChamber')]了，抱歉！"
+ witch.2005.toast: "发现巫师"
  witch.2005.end.desc: "[ROOT.Char.GetFirstNameNoTooltip]，是你吗？‘[owner.GetFaith.WitchGodName|U]’？[target.GetLiege.Custom2('MyCharacterIntroduction', target)|U]会知道你的亵渎行为！”"
  witch.2005.a: "求你了，事情不是你想象的那样！"
  witch.2005.a.tt: "事实上，事情可能#EMP 正如#![target.GetSheHe]所想……"

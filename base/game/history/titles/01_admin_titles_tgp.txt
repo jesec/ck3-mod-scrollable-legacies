@@ -6518,6 +6518,17 @@ c_nf_lu_9678_2 = {
 	868.1.1 = {
 		holder = 0
 	}
+	1066.1.1 = {
+		holder = han_6311
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		liege = h_china
+	}
+	1066.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.1.1 }
+		}
+	}
 	1178.1.1 = {
 		holder = han_11658
 		government = celestial_government

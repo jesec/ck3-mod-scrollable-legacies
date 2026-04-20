@@ -248,7 +248,7 @@
  tgp_japan_yearly_events.1140.t: "Arrêtés sur la route du clan"
  tgp_japan_yearly_events.1140.desc: "Lorsque nous arrivons dans les terres de [local_county.GetNameNoTier], notre voyage est interrompu par un groupe d’hommes armés.\n\n« Au nom [local_ruler.Custom('FR_du_Char_L')][local_ruler.GetTitleAsName|l], je dois percevoir une petite taxe », dit-[toll_warrior.Custom('FR_IlElle')]. Voyant ma confusion, [toll_warrior.Custom('FR_IlElle')] ajoute : « Ce n’est pas une route impériale. Ici, seule la volonté [local_ruler.Custom('FR_du_Char_L')][local_ruler.GetTitleAsName|l] prévaut. »"
  tgp_japan_yearly_events.1140.a: "Qu’[toll_warrior.Custom('FR_IlElle')] prenne son péage, mais ce ne sera pas oublié."
- tgp_japan_yearly_events.1140.b: "Savez-vous qui je suis ?!"
+ tgp_japan_yearly_events.1140.b: "« Savez-vous qui je suis ?! »"
  tgp_japan_yearly_events.1140.b.tt: "Vous tentez d’obtenir le respect [toll_warrior.Custom('FR_du_Char_Pi')][toll_warrior.GetTitledFirstNameNoTooltip]"
  tgp_japan_yearly_events.1140.tt.success: "Vous influencez les guerriers"
  tgp_japan_yearly_events.1140.tt.failure: "Vous êtes contraints de trouver un autre itinéraire"

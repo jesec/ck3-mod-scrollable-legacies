@@ -419,10 +419,10 @@
  fund_inspiration.2080.antiquarian: "「ふざけるな！」[rival.GetTitledFirstName]が抗議する。「[ROOT.Char.GetTitleAsNamePossessiveNoTooltip]の個人的な収集物の管理人として、私には君の作品の品質を確保する責任がある！」"
  fund_inspiration.2080.artificer: "「ふざけるな！」[rival.GetTitledFirstName]が抗議する。「私は[ROOT.Char.GetTitleAsNameNoTooltip]の信頼ある職人だ！君が作品を見せてくれなければ力は貸せない！」"
  fund_inspiration.2080.desc: "\n\n「お見せするのは完成してからだ！」[inspiration_owner.GetTitledFirstName]が反論する。「王族にふさわしい[inspiration_owner.Custom('InspirationTypeDescriptionFuturePresent')]するときは、任された職人にあれこれ口を出すべきではない！」"
- fund_inspiration.2080.a: "「[inspiration_owner.GetFirstNameNoTooltip]よ、[antiquarian.GetFirstNameNoTooltip]は#EMP 必ず#! 品質を保証してくれるのだぞ」"
- fund_inspiration.2080.b: "「[antiquarian.GetFirstNameNoTooltip]よ、自らの持ち場に戻るのだ」"
- fund_inspiration.2080.success: "[antiquarian.GetFirstNameNoTooltip]が[inspiration_owner.GetFirstNamePossessiveNoTooltip]の仕事を改善します"
- fund_inspiration.2080.failure: "[antiquarian.GetFirstNameNoTooltip]が[inspiration_owner.GetFirstNameNoTooltip]の発想を縛ります"
+ fund_inspiration.2080.a: "「[inspiration_owner.GetFirstNameNoTooltip]よ、[rival.GetFirstNameNoTooltip]は#EMP 必ず#! 品質を保証してくれる」"
+ fund_inspiration.2080.b: "「[rival.GetFirstNameNoTooltip]よ、己の務めに専念せよ」"
+ fund_inspiration.2080.success: "[rival.GetFirstNameNoTooltip]が[inspiration_owner.GetFirstNamePossessiveNoTooltip]の作品を改善する"
+ fund_inspiration.2080.failure: "[rival.GetFirstNameNoTooltip]が[inspiration_owner.GetFirstNameNoTooltip]のひらめきを封じる"
  fund_inspiration.2080.c: "とりあえず、新鮮な空気で深呼吸でもしてこい。"
  fund_inspiration.2090.t: "$fund_inspiration.title$[event_spouse.GetWifeHusband|U]の介入"
  fund_inspiration.2090.desc: "[event_spouse.GetWifeHusband]の[event_spouse.GetFirstName]が興奮して[inspiration_owner.GetTitledFirstName]と話をしている。[inspiration_owner.GetHerHis]の[inspiration_owner.Custom('GetInspirationTypeObject')]に対する考えや提案を列挙しているのだ。[inspiration_owner.Custom('GetInspirationOwnerType')]は嘲りをほとんど隠そうともせず、我が配偶者の介入に明らかな苛立ちを見せている。\n\n「…それに、あなたは[inspiration_owner.Custom('InspirationTypeDescription')]している」[event_spouse.GetSheHe]が続ける。「私の祖[event_spouse.GetMotherFather]の古い[inspiration_owner.Custom('GetInspirationTypeObject')]と似合うものにしないと！」\n\n[inspiration_owner.GetFirstNamePossessiveNoTooltip]は参ってしまっているようだ。"
@@ -663,7 +663,7 @@
  fund_inspiration.6102.failure_toast: "頑固な模型"
  fund_inspiration.6102.failure_toast_desc: "腕の一部があなたの足の裏の肉の奥にとり残されます"
  #Being shown the tiny cabinet
- fund_inspiration.6103.desc: "[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U]がお辞儀をする。「[ROOT.Char.Custom('FormOfAddressForLiege')]、私がいま製作中の飾り棚について、ぜひともご意見ををお聞かせいただけませんか」\n\n[inspiration_owner.GetSheHe|U]は私を[inspiration_owner.GetHerHis]の作業場へと案内する。気掛かりなのは、そこには、埃をかぶったボロボロの食器棚だけが置かれていることだ。\n\n「ああ、それではございませんよ」[inspiration_owner.GetSheHe|U]がそのボロボロの食器棚を開けると、中には小さな飾り棚の模型が入っている。装飾が施され、宝石や金箔で飾られてはいるが、私の指ほどの大きさしかない。「いかがですか？」"
+ fund_inspiration.6103.desc: "[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U]がお辞儀をする。「[ROOT.Char.Custom('FormOfAddressForLiege')]、私がいま製作中の飾り棚について、ぜひともご意見をお聞かせいただけませんか」\n\n[inspiration_owner.GetSheHe|U]は私を[inspiration_owner.GetHerHis]の作業場へと案内する。気掛かりなのは、そこには、埃をかぶったボロボロの食器棚だけが置かれていることだ。\n\n「ああ、それではございませんよ」[inspiration_owner.GetSheHe|U]がそのボロボロの食器棚を開けると、中には小さな飾り棚の模型が入っている。装飾が施され、宝石や金箔で飾られてはいるが、私の指ほどの大きさしかない。「いかがですか？」"
  fund_inspiration.6103.a: "そなたのために言うが、これはあくまで模型以上のものではない。"
  fund_inspiration.6103.b: "おお、完璧ではないか！ 気に入った！"
  #Artisan gives you the tiny throne

@@ -6,14 +6,14 @@ murder_trusted_advice_modifier = {
 }
 
 scheme_drunkard_murder_target_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	scheme_phase_duration = miniscule_scheme_phase_duration_bonus_value
 	scheme_secrecy = -10
 	scheme_success_chance = 5
 }
 
 scheme_drunkard_murdering_drunkard_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	scheme_phase_duration = miniscule_scheme_phase_duration_bonus_value
 	scheme_success_chance = 5
 	scheme_secrecy = -10

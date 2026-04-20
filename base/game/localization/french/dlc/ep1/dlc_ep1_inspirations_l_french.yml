@@ -1,5 +1,6 @@
 ﻿l_french:
- sponsor_inspiration_debug: "Sponsor Inspiration"
+ sponsor_inspiration_debug: "Financer l’inspiration"
+ complete_inspiration_debug: "Achever l’inspiration"
  I_CAN_SPONSOR_OWN_INSPIRATION: "Je peux commanditer ma propre inspiration"
  NOT_I_CAN_SPONSOR_OWN_INSPIRATION: "Je ne peux pas commanditer ma propre inspiration"
  THEY_CAN_SPONSOR_OWN_INSPIRATION: "[CHARACTER.Custom('FR_le_Char_U_P')|U][CHARACTER.GetUIName] peut commanditer sa propre inspiration"

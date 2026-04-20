@@ -206,10 +206,10 @@
  tooltip.intrigue_dread.2001.c.duel_failure: "[loved_one.GetFirstName]はあからさまにあなたを拒絶している"
  intrigue_protected_by_loved_one_modifier: "恋人の庇護"
  intrigue_protected_by_loved_one_modifier_desc: "この人物には、この人物を守るためなら#EMP 何でも#!する恋人がいる。"
- intrigue_defied_loved_one_opinion: "恋人を拒絶した"
+ intrigue_defied_loved_one_opinion: "愛する人に逆らった"
  #Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t: "[family_member.GetFirstNameNoTooltip]の噂"
- intrigue_dread.2101.desc.intro: "「あなたの[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))]、[family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]の悪いうわさについてですが…その出所を突き止めました」[spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)]は手紙の束を軽く叩く。\n\n手紙の内容から、[hater.GetName]が[family_member.GetFirstNamePossessive]の名を汚そうとしていたことがわかる。 "
+ intrigue_dread.2101.desc.intro: "「あなたの[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))]、[family_member.GetTitledFirstName]の悪いうわさについてですが…その出所を突き止めました」[spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U]は手紙の束を軽く叩く。\n\n手紙の内容から、[hater.GetName]が[family_member.GetFirstNamePossessive]の名を汚そうとしていたことがわかる。 "
  intrigue_dread.2101.desc.failed_assassination: "[hater.GetSheHe|U]は[family_member.GetFirstName]に殺されそうになったとまで言っている！"
  intrigue_dread.2101.desc.committed_adultery: "[hater.GetSheHe|U]は[family_member.GetFirstName]が不貞な[family_member.GetWifeHusband]であると主張し、[family_member.GetHerHis]ゾッとするような話を物語る！"
  intrigue_dread.2101.desc.bullied_me: "[hater.GetSheHe|U]は、[hater.GetNameNoTooltip]が[family_member.GetSheHe]から悪質ないじめを受けた子供の時から、[family_member.GetFirstName]は悪の種を持っていたと主張している。"
@@ -267,7 +267,7 @@
  intrigue_doing_stewards_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_marshals_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_court_chaplains_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
- intrigue_position_is_safe_opinion: "私の地位は安全であると断言した"
+ intrigue_position_is_safe_opinion: "私の立場は安泰であると断言した"
  #Your court thinks you're soft, by Luke Bean
  intrigue_dread.2301.t: "真の姿の誇示"
  intrigue_dread.2301.desc.a: "「これほど寛大で、純粋な[ROOT.Char.Custom('GetCourtOwner')]がいることがどんなに幸運なことか！」ニヤニヤと笑う[smirking_courtier.GetNamePossessive]の顔が目に浮かぶ。「恐怖とは無縁の[ROOT.Char.Custom('GetCourt')]に住める我々は恵まれている！」"

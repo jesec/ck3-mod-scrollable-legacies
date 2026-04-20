@@ -4,8 +4,11 @@
 # Empire
 
 e_japan = { # Kampaku/Shogun
+	# Feudal + primogeniture-style title succession for bookmark load when TGP/AuH is off or incomplete.
+	# All Under Heaven: on_game_start upgrades the Kampaku back to Ritsuryō + regency realm law.
 	500.1.1 = {
-		government = japan_administrative_government
+		government = feudal_government
+		succession_laws = { single_heir_succession_law }
 	}
 	593.1.1 = { holder = japanese_yamato_200 } # Emperor Shotoku
 	622.1.1 = { holder = 0 }
@@ -479,6 +482,7 @@ c_tosa = { # Tosa
 	}
 	756.1.1 = { holder = japanese_tomo_25 } # Koshibi - Kami
 	839.2.18 = { holder = japanese_funya_24 } # Kasashina
+	845.3.5 = { holder = japanese_ono_33 } # Chikubu - Kami
 	853.1.16 = { holder = japanese_tomo_23 } # Sugao_2
 	867.1.1 = { holder = japanese_onakatomi_1 } # Oyoshi - actually his son Okayoshi (japanese_onakatomi_2)
 	930.1.1 = { holder = japanese_ki_303 } # Tsurayuki
@@ -703,6 +707,7 @@ c_osumi = { # Osumi
 	867.1.1 = { holder = japanese_ariwara_5 } # Yoshifuchi
 	878.4.22 = { holder = japanese_kasuga_1 } # Yakanari
 	995.1.1 = { holder = japanese_kiyohara_hirozumi_2 } # Hirozumi_2 - Kami
+	1004.1.1 = { holder = japanese_okura_11 } # Shigetada - Kami
 	1036.1.1 = {
 		liege = e_japan
 		holder = japanese_kimotsuki_1 # Kanetoshi
@@ -1011,6 +1016,8 @@ c_bitchu = { # Bitchu
 	}
 	758.4.14 = { holder = japanese_fujiwara_91 } # Uona
 	774.3.5 = { holder = japanese_onakatomi_25 } # Tsugumaro
+	839.9.7 = { holder = japanese_ono_33 } # Chikubu - Kami
+	840.8.22 = { holder = japanese_ono_33 } # Chikubu - Kami
 	#866.1.1 = { holder = japanese_fujiwara_1044 } # Yasunori
 	866.1.1 = { holder = japanese_fujiwara_847 } # Arisada - Kami
 	#873.1.13 = { holder = japanese_fujiwara_1492 } # Morokuzu - Gon no Kami
@@ -1049,6 +1056,7 @@ c_bizen = { # Bizen
 	708.3.13 = { holder = japanese_kudara_10 } # Nanten
 	785.1.15 = { holder = japanese_kudara_15 } # NinjO_
 	798.7.27 = { holder = japanese_fujiwara_420 } # Sadatsugu_2
+	854.11.2 = { holder = japanese_ono_33 } # Chikubu - Kami
 	859.1.13 = { holder = japanese_fujiwara_175 } # Harutsugu
 	863.2.10 = { holder = japanese_fujiwara_94 } # Naomichi
 	867.1.1 = { holder = japanese_minamoto_saga_65 } # Konomu - Kami
@@ -1079,6 +1087,7 @@ c_harima = { # Harima - 播磨 (播州)
 	826.1.1 = { holder = japanese_funya_25 } # Otonao
 	828.1.13 = { holder = japanese_minamoto_saga_23 } # Makoto
 	844.1.1 = { holder = japanese_wake_3 } # Nakayo - Kami
+	860.6.5 = { holder = japanese_ono_33 } # Chikubu - Kami
 	861.1.13 = { holder = japanese_fujiwara_1199 } # Akio
 	865.1.27 = { holder = japanese_mihara_3 } # Nagamichi
 	865.3.9 = { holder = japanese_oe_1 } # Otondo
@@ -2092,7 +2101,13 @@ k_chrysanthemum_throne = { # Ceremonial Emperor/Ten'nō
 	858.10.7 = { holder = japanese_yamato_30 } # Seiwa (Korehito)
 	867.1.1 = {
 		effect = {
-			add_title_law = single_heir_succession_law # Regency inherited separately
+			if = {
+				limit = {
+					has_dlc_feature = all_under_heaven
+					NOT = { has_title_law = single_heir_succession_law }
+				}
+				add_title_law = single_heir_succession_law # Regency inherited separately (AuH only; avoids duplicate-law errors when title is destroyed without AuH)
+			}
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
 		}
 	}

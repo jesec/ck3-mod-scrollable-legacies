@@ -37,7 +37,8 @@
 
 1044.1.1 = {
 	# First edition of the Wujing Zongyao and the first written formulation of weaponized gunpowder
-	discover_innovation = innovation_fire_medicine
+	# added via on_game_start effect (TGP / silk road pipeline; gated by has_tgp_dlc_trigger)
+	# discover_innovation = innovation_fire_medicine
 }
 
 1050.1.1 = {

@@ -84,4 +84,5 @@
  ep3_laamp_peasant_war: "Крестьянский бунт"
  ep3_laamp_peasant_war.peasant_army: "Крестьяне во всех графствах восстанут в качестве [Concept('levies', 'ополчения')|E] и примкнут к вашей стороне"
  ep3_join_war_payment_tt: "Из-за [Concept('task_contract', 'контракта')|E] «[GetTaskContractType('laamp_join_war_contract').GetName]»:"
- ep3_hire_laamp_mercs_payment_tt: "Из-за работы [Concept('mercenary', 'наемником')|E]:"
+ ep3_hire_laamp_mercs_payment_tt: "Из-за того, что [TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'выполнили', Select_CString(CHARACTER.IsFemale, 'выполнила', 'выполнил' ))] свой контракт [Concept('mercenary', 'наемника')|E]:"
+ ep3_hire_laamp_mercs_payment_later_tt: "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'продолжите', 'продолжит' )] сражаться в других [Concept('wars', 'войнах')|E] [Select_CString(THIS.Char.MakeScope.Var('joined_as_mercenary').Char.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', THIS.Char.MakeScope.Var('joined_as_mercenary').Char.GetShortUIName))] как [Concept('mercenary', 'наемник')|E]-[Concept('adventurer', 'авантюрист')|E]"

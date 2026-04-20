@@ -37,7 +37,7 @@
  tributary_wanua: "Wanua Tributary"
  tributary_wanua_desc: "A [wanua|E] [tributary|E] provides their [suzerain|E] with [gold|E], [prestige|E] or even [barter_goods|E] on a regular basis. The [tributary_contract|E] is inherited upon succession."
 
- wasted_our_efforts: "Wasted our efforts"
+ wasted_our_efforts: "Wasted Our Efforts"
 
  tgp_mandala_send_missionary_interaction: "Send Missionary"
  tgp_mandala_send_missionary_interaction_desc: "A devoted missionary from your realm arrives at the court of [recipient.GetShortUIName], who may convert your [tributary|E] to your [faith|E] or generate [piety|E] for you from dealings with your tributary's court"

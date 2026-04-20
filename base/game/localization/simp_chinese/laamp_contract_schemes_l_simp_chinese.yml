@@ -339,7 +339,7 @@
  laamp_base_6031_request: "该[task_contract|E]需要你完成[GetScheme('laamp_base_6031_contract_scheme').GetTypeName][scheme|E]"
  laamp_base_6031_desc_title: "坚定者注意了！"
  laamp_base_6031_desc: "[TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier]的桥梁依然无人守护。为了赶走强盗，必须展示武力。[TaskContract.GetEmployer.GetTitledFirstNameNoTooltip]将奖励阻拦强盗的人。"
- laamp_base_contract_schemes.6031.t: "$laamp_base_6021_contract_scheme$"
+ laamp_base_contract_schemes.6031.t: "$laamp_base_6031_contract_scheme$"
  laamp_base_contract_schemes.6031.desc: "[employer.GetTitledFirstName]走进营地，[employer.GetSheHe][ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('employer'))]。\n\n“我们在这里度过了一个美好的早晨，”[employer.GetSheHe]开口说道，“这是一个向那些恶棍展示真正$knight_culture_player_no_tooltip$价值的绝佳机会。你看，有一座桥直通[ROOT.Char.GetCurrentLocation.GetName]。那里到处都是各种各样的不法之徒、蠢货和白痴。”\n\n“应该有人来处理。”"
  laamp_base_contract_schemes.6031.a: "我要折断三百杆长枪！"
  laamp_base_contract_schemes.6031.b: "这需要几天时间。"

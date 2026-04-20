@@ -1329,6 +1329,8 @@
  dynn_Ce: "契"
  dynn_Cea: "塞阿"
  dynn_Ceanadach: "卡纳达赫"
+ dynn_Ceanneidigh: "基安尼迪"
+ dynn_ceanneidigh_motto: "坚守美德"
  dynn_Cearbhaill: "卡罗尔"
  dynn_Ceardadh: "卡尔达赫"
  dynn_Ceballos: "塞瓦略斯"
@@ -10674,6 +10676,10 @@
  dynn_freddi: "弗雷迪"
  dynn_collinder: "科林德"
  dynn_tosunyan: "托苏尼扬"
+ dynn_skalitz: "斯卡利茨"
+ dynn_kobyla: "科比拉"
+ dynn_skalitz_motto: "我饿了"
+ dynn_kobyla_motto: "人生就是一连串需要解决的问题。你解决的问题越多，你就越能成为一个真正的男人。"
  #TGP
  dynn_Tang: "汤"
  dynn_Kediri: "谏义里"
@@ -11275,6 +11281,7 @@
  dynn_Takezaki: "竹崎" #竹崎
  dynn_Tamura: "田村" #田村
  dynn_Tana_JP: "多名" #多名
+ dynn_Tanba: "丹波" #丹波
  dynn_Tanaka: "田中" #田中
  dynn_Tashiro: "田代" #田代
  dynn_Tatara: "多多良" #多々良
@@ -11773,103 +11780,213 @@
  dynn_An_694A: "杨" #楊 (안)
  dynn_Bae_88F5: "裴" #裵 (배)
  dynn_Baek_767D: "白" #白 (백)
+ dynn_Baek_Balhae: "银州$dynn_Baek_767D$"
+ dynn_Baek_Daeheung: "大兴$dynn_Baek_767D$" #大興白 (대흥백)
+ dynn_Baek_Jiksan: "稷山$dynn_Baek_767D$" #稷山白 (직산백)
  dynn_Bak_6734: "朴" #朴 (박) - aka Park
+ dynn_Bak_Gyeongju: "庆州$dynn_Bak_6734$"
+ dynn_Bak_Jukbang: "竹房$dynn_Bak_6734$"
+ dynn_Bak_Juksan: "竹山$dynn_Bak_6734$" #竹山朴 (죽산박)
+ dynn_Bak_Milyang: "密城$dynn_Bak_6734$" #密城朴 (밀성박)
+ dynn_Bak_Pyeongjangsa: "平章事$dynn_Bak_6734$"
+ dynn_Bak_Pyeongsan: "平山$dynn_Bak_6734$" #平山朴 (평산박)
+ dynn_Bak_Seungju: "升州$dynn_Bak_6734$" #順天朴 (순천박)
+ dynn_Bak_Ulleong: "郁陵$dynn_Bak_6734$"
  dynn_Bok_535C: "卜" #卜 (복)
+ dynn_Bok_Myeoncheon: "沔川$dynn_Bok_535C$" #沔川卜 (면천복)
  dynn_Bu_BD80: "夫" #부
  dynn_Buyeo: "扶余" #夫餘 (부여)
  dynn_Chae_8521: "蔡" #蔡 (채)
+ dynn_Chae_Eumseong: "阴城$dynn_Chae_8521$" #陰城蔡 (음성채)
+ dynn_Chae_Pyeonggang: "平康$dynn_Chae_8521$" #平康蔡 (평강채)
  dynn_Cheok_62D3: "拓" #拓 (척)
+ dynn_Cheok_Goksan: "谷州$dynn_Cheok_62D3$" #谷山拓 (곡산척)
  dynn_Choe_5D14: "崔" #崔 (최)
+ dynn_Choe_Chungju: "忠州$dynn_Choe_5D14$" #忠州崔 (충주최)
+ dynn_Choe_Dongju: "东州$dynn_Choe_5D14$" #東州崔 (동주최)
+ dynn_Choe_Gyeongju: "庆州$dynn_Choe_5D14$" #慶州崔 (경주최)
+ dynn_Choe_Haeju: "海州$dynn_Choe_5D14$" #海州崔 (해주최)
+ dynn_Choe_Jiksan: "稷山$dynn_Choe_5D14$" #稷山崔 (직산최)
+ dynn_Choe_Suwon: "水州$dynn_Choe_5D14$" #水州崔 (수주최)
+ dynn_Choe_Ubong: "牛峰$dynn_Choe_5D14$" #牛峰崔 (우봉최)
  dynn_Chong_8471: "葱" #葱 (총)
  dynn_Da_591A: "多" #多 (다)
  dynn_Dae_5927: "大" #大 (대)
+ dynn_Dae_Balhae: "渤海大" #渤海大 (발해대)
  dynn_Dal_9054: "达" #達 (달)
  dynn_Dong_seong: "东城"
+ dynn_Dong_seong_Balhae: "显德东城"
  dynn_Du_8C46: "豆" #豆 (두)
+ dynn_Du_Dureung: "杜陵$dynn_Du_675C_KO$" #杜陵杜 (두릉두)
+ dynn_Du_Pyeongju: "平州$dynn_Du_8C46$"
  dynn_Du_675C_KO: "杜" #杜 (두)
  dynn_Eok_rye: "忆礼"
  dynn_Eun_96B1: "隐" #隱 (은)
  dynn_Gang_59DC: "姜" #姜 (강)
  dynn_Gang_5EB7: "康" #康 (강)
- dynn_Geom_7434: "琴" #琴 (검)
+ dynn_Gang_Geumcheon: "衿川$dynn_Gang_59DC$" #衿川姜 (금천강)
+ dynn_Gang_Jinju: "晋州$dynn_Gang_59DC$" #晉州姜 (진주강)
+ dynn_Gang_Sincheon: "信川$dynn_Gang_5EB7$" #信川康 (신천강)
+ dynn_Geom_7434: "琴" #琴 (검) - actually Geum
+ dynn_Geom_Bonghwa: "奉化$dynn_Geom_7434$" #奉化琴 (봉화금)
+ dynn_Geom_Nakrang: "乐浪$dynn_Geom_7434$"
  dynn_Gi_7B95: "箕" #箕 (기)
+ dynn_Gi_Jikju: "竹州$dynn_Gi_7B95$"
  dynn_Gim_91D1: "金" #金 (김) - aka Gim, localised as Kim despite RR for clarity
+ dynn_Gim_Ansan: "安山$dynn_Gim_91D1$" #安山金 (안산김)
+ dynn_Gim_Dangak: "唐岳$dynn_Gim_91D1$" #唐岳金 (당악김)
+ dynn_Gim_Eonyang: "彦阳$dynn_Gim_91D1$" #彦陽金 (언양김)
+ dynn_Gim_Gangneung: "江陵$dynn_Gim_91D1$" #江陵金 (강릉김)
+ dynn_Gim_Gimhae: "金海$dynn_Gim_91D1$" #金海金 (김해김)
+ dynn_Gim_Gwangsan: "光山$dynn_Gim_91D1$" #光山金 (광산김)
+ dynn_Gim_Pungsang: "丰山$dynn_Gim_91D1$" #豊山金 (풍산김)
+ dynn_Gim_Silla: "庆州$dynn_Gim_91D1$"
+ dynn_Gim_Suncheon: "顺天$dynn_Gim_91D1$"
+ dynn_Gim_Yeonan: "延安$dynn_Gim_91D1$" #延安金 (연안김)
+ dynn_Gim_Yeongdong: "永同$dynn_Gim_91D1$" #永同金 (영동김)
+ dynn_Gim_Yeonggwang: "灵光$dynn_Gim_91D1$" #靈光金 (영광김)
+ dynn_Gim_Ulleong: "郁陵$dynn_Gim_91D1$"
  dynn_Go_53E4: "古" #古 (고)
  dynn_Go_9AD8: "高" #高 (고)
+ dynn_Go_Balhae: "神阳$dynn_Go_9AD8$"
+ dynn_Go_Goguryeo: "高句丽$dynn_Go_9AD8$"
+ dynn_Go_Jeju: "济州$dynn_Go_9AD8$" #濟州高 (제주고)
  dynn_Gong_516C: "公" #公 (공)
  dynn_Guk: "国" #國 (국)
  dynn_Gwak_90ED: "郭" #郭 (곽)
+ dynn_Gwak_Cheongju: "清州$dynn_Gwak_90ED$"
  dynn_Gwi_sil: "鬼室" #鬼室 (귀실)
  dynn_Gwon_6B0A: "权" #權 (권)
+ dynn_Gwon_Andong: "安东$dynn_Gwon_6B0A$"
  dynn_Gyeon_7504: "甄" #甄 (견)
+ dynn_Gyeon_Gaeunhyeon: "尚州$dynn_Gyeon_7504$"
  dynn_Gyeong_6176: "庆" #慶 (경)
+ dynn_Gyeong_Cheongju: "清州$dynn_Gyeong_6176$"
  dynn_Ha_590F: "夏" #夏 (하)
  dynn_Ha_8CC0: "贺" #賀 (하)
  dynn_Han_97D3_KO: "韩" #韓 (한)
+ dynn_Han_Daeheung: "大兴$dynn_Han_97D3_KO$" #大興韓 (대흥한)
+ dynn_Han_Gaeseong: "开城$dynn_Han_97D3_KO$"
+ dynn_Han_Giju: "基州$dynn_Han_97D3_KO$"
  dynn_Hae_89E3: "解" #解 (해)
  dynn_Heo_8F09: "许" #許 (허)
+ dynn_Heo_Gongam: "孔岩$dynn_Heo_8F09$" #孔巖許 (공암허)
  dynn_Heuk_chi: "黑齿" #黑齒 (흑치)
  dynn_Hong_6D2A: "洪" #洪 (홍)
+ dynn_Hong_Namyang: "南阳$dynn_Hong_6D2A$" #南陽洪 (남양홍)
  dynn_Hwangbo: "皇甫" #皇甫 (황보)
+ dynn_Hwangbo_Hwangju: "黄州$dynn_Hwangbo$" #黃州皇甫 (황주황보)
  dynn_I_5DF2: "已" #已 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_I_674E: "李" #李 (이) - aka Lee/I, localised as Yi despite RR for clarity
+ dynn_I_Cheongju: "清州$dynn_I_674E$" #旌善李 (정선이)
+ dynn_I_Gyeongwon: "庆原$dynn_I_674E$" #仁川李 (인천이)
+ dynn_I_Jeongseon: "旌善$dynn_I_674E$" #旌善李 (정선이)
+ dynn_I_Jeonju: "全州$dynn_I_674E$" #全州李 (전주이)
+ dynn_I_Gwangjeong: "广定$dynn_I_674E$"
+ dynn_I_Gwangsan: "光山$dynn_I_674E$"
+ dynn_I_Soeong: "开城$dynn_I_674E$"
+ dynn_I_Suju: "树州$dynn_I_674E$" #樹州李 (수주이)
  dynn_Il_58F9: "壹" #壹 (일)
- dynn_Ho_seung_864E_50E7: "虎僧" #(虎僧)
+ dynn_Ho_seung_864E_50E7: "虎僧" #虎僧
  dynn_Im_4EFB: "任" #任 (임)
+ dynn_Im_Jangheung: "长兴$dynn_Im_4EFB$" #長興任 (장흥임)
  dynn_Jae_C7AC: "载" #재
  dynn_Jang_5F35: "张" #張 (장)
+ dynn_Jang_Andong: "安东$dynn_Jang_5F35$" #安東張 (안동장)
  dynn_Jeo: "郑"
  dynn_Jeok: "赤" #(적)
  dynn_Jeol_C815: "郑" #정
  dynn_Jeong_912D: "郑" #鄭 (정)
+ dynn_Jeong_Cheongju: "清州$dynn_Jeong_912D$" #淸州鄭 (청주정)
+ dynn_Jeong_Dongrae: "东莱$dynn_Jeong_912D$" #東萊鄭 (동래정)
+ dynn_Jeong_Haeju: "海州$dynn_Jeong_912D$" #海州鄭 (해주정)
  dynn_Ji_667A: "智" #智 (지)
  dynn_Jin_C9C4: "陈" #진
  dynn_Jo_8D99: "赵" #趙 (조)
+ dynn_Jo_Hanyang: "汉阳$dynn_Jo_8D99$" #漢陽趙 (한양조)
+ dynn_Jo_Hoengcheon: "横川$dynn_Jo_8D99$"
+ dynn_Jo_Wonju: "原州$dynn_Jo_8D99$" #橫城趙 (횡성조)
  dynn_Ju_5468: "周" #周 (주)
  dynn_Ju_6731: "朱" #朱 (주)
  dynn_Ma_99AC_KO: "马" #馬 (마) (Mǎ)
  dynn_Min_9594: "闵" #閔 (민)
+ dynn_Min_Hwangryeo: "黄骊$dynn_Min_9594$" #驪興閔 (여흥민)
  dynn_Mo_5192: "冒" #冒 (모)
  dynn_Mo_6155: "慕" #慕 (모)
  dynn_Mok_6728: "木" #木 (목)
+ dynn_Mok_Balhae: "铜州木"
  dynn_Mun_6587: "文" #文 (문)
  dynn_Mun_9580: "门" #門 (문)
+ dynn_Mun_Balhae: "贵德州$dynn_Mun_6587$"
+ dynn_Mun_Gangneung: "江陵$dynn_Mun_6587$" #江陵文 (강릉문)
+ dynn_Mun_Nampyeong: "南平$dynn_Mun_6587$" #南平文 (남평문)
  dynn_Myeong_660E: "明" #明 (명)
+ dynn_Myeong_Gangseo: "三和明"
  dynn_Myo_536F: "卯" #卯 (묘)
  dynn_Nan: "南"
+ dynn_Nan_Balhae: "叠州$dynn_Nan$"
  dynn_O_5433: "吴" #吳 (오) - aka O, localised as Oh despite RR for clarity
  dynn_O_70CF: "乌" #烏 (오) - aka O, localised as Oh despite RR for clarity
+ dynn_O_Balhae: "扶余$dynn_O_70CF$"
+ dynn_O_Gochang: "高敞$dynn_O_5433$" #高敞吳 (고창오)
+ dynn_O_Naju: "罗州$dynn_O_5433$" #羅州吳 (나주오)
  dynn_Pung_99AE: "冯" #馮 (풍)
  dynn_Pyeong_5E73: "平" #平 (평)
+ dynn_Pyeong_Chungju: "忠州$dynn_Pyeong_5E73$" #忠州平 (충주평)
  dynn_Ra_7F85: "罗" #羅 (라)
  dynn_Rim_6797: "林" #林 (림)
  dynn_Ryu_67F3: "柳" #柳 (류)
+ dynn_Ryu_Jeongju: "贞州柳" #貞州柳 (정주류)
+ dynn_Ryu_Yeomju: "盐州柳" #鹽州柳 (염주류)
  dynn_Ryul_807F: "聿" #聿 (률)
  dynn_Sa_53F2: "史" #史 (사)
  dynn_Seo_5F90: "徐" #徐 (서)
  dynn_Seo_80E5: "胥" #胥 (서)
+ dynn_Seo_Icheon: "永昌$dynn_Seo_80E5$" #利川徐 (이천서)
  dynn_Seok_C11D: "昔" #석
  dynn_Seop_651D: "摄" #攝 (섭)
+ dynn_Seop_Balhae: "华州摄"
  dynn_Sin_7533: "申" #申 (신)
  dynn_Sin_8F9B: "辛" #辛 (신)
+ dynn_Sin_Pyeongsan: "平山$dynn_Sin_7533$" #平山申 (평산신)
  dynn_So_8607: "苏" #蘇 (소)
  dynn_Song_5B8B_KO: "宋" #宋 (송)
+ dynn_Song_Ulju: "蔚州$dynn_Song_5B8B_KO$"
  dynn_Su_53D7: "受" #受 (수)
  dynn_Tae_592A: "泰" #太 (태)
  dynn_Tak_5353: "卓" #卓 (탁)
+ dynn_Tak_Gwangsan: "光山$dynn_Tak_5353$" #光山卓 (광산탁)
  dynn_U_4E8E: "于" #于 (우) - aka U, localised as Wu despite RR for clarity
+ dynn_U_Mokcheon: "木川$dynn_U_4E8E$"
  dynn_Wi_885B: "卫" #衛 (위)
+ dynn_Wi_Balhae: "长静$dynn_Wi_885B$"
  dynn_Yang_6881: "杨" #梁 (양)
  dynn_Yang_694A_KO: "杨" #楊 (양)
+ dynn_Yang_Anak: "安岳$dynn_Yang_694A_KO$"
+ dynn_Yang_Balhae: "西京$dynn_Yang_6881$"
+ dynn_Yang_Wonju: "原州$dynn_Yang_6881$"
+ dynn_Ye_Balhae: "辰州芮"
  dynn_Yeo_5442: "吕" #呂 (여)
  dynn_Yeo_8339: "茹" #茹 (여)
  dynn_Yeol_5217: "列" #列 (열)
+ dynn_Yeol_Balhae: "南京$dynn_Yeol_5217$"
  dynn_Yeom_5EC9: "廉" #廉 (염)
+ dynn_Yeom_Paju: "坡平$dynn_Yeom_5EC9$"
  dynn_Yeon_6DF5: "渊" #淵 (연)
+ dynn_Yeon_Balhae: "长岭燕"
+ dynn_Yeon_Goguryeo: "高句丽延" #淵 (연)
  dynn_Yu_5289: "刘" #劉 (유)
  dynn_Yu_5EBE: "庾" #庾 (유)
+ dynn_Yu_Chungju: "忠州$dynn_Yu_5289$" #忠州劉 (충주유)
+ dynn_Yu_Goryeo: "开城$dynn_Yu_5EBE$"
+ dynn_Yu_Pyeongsan: "平山$dynn_Yu_5EBE$" #平山庾 (평산유)
  dynn_Yun_5C39: "尹" #尹 (윤)
+ dynn_Yun_Papyeong: "坡平$dynn_Yun_5C39$" #坡平尹 (파평윤)
  dynn_Wang_738B_KO: "王" #王 (왕)
+ dynn_Wang_Haeju: "海州$dynn_Wang_738B_KO$" #海州王 (해주왕)
+ dynn_Wang_Gangneung: "江陵$dynn_Wang_738B_KO$" #江陵王 (강릉왕)
+ dynn_Wang_Goryeo: "开城$dynn_Wang_738B_KO$" #開城王 (개성왕)
+ dynn_Wang_Seohae: "西海$dynn_Wang_738B_KO$" #西海王 (서해왕)
  dynn_Lao: "卢"
  dynn_lu: "吕"
  dynn_yuan: "袁"
@@ -12045,6 +12162,7 @@
  dynn_Utthada: "乌塔达"
  dynn_Thadon: "达东"
  dynn_Sittha: "悉陀"
+ dynn_Nga_8036: "耶" #耶
  #Tai
  dynn_Nenphon: "嫩蓬"
  dynn_Phuchaikat: "普猜甲"

@@ -30,7 +30,9 @@
  faith_must_be_dharmic_family_tt: "[faith|E] must be part of the [GetReligionFamily('rf_eastern').GetName] [religious_family|E]"
  faith_must_be_pagan_family_tt: "[faith|E] must be part of the [GetReligionFamily('rf_pagan').GetName] [religious_family|E]"
  not_changed_government_recently_tt: "You have changed [government|E] recently and need to wait until [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.MakeScope, 'changed_government_recently') )] to change [government|E] again"
-
+ convert_to_mandala_government_decision_is_tribal_holding_tt: "Is a [tribal_holding|E]"
+ convert_to_mandala_government_decision_has_no_holding_tt: "Does not contain a [holding|E]"
+ convert_to_mandala_government_decision_is_temple_citadel_holding_tt: "Is a [temple_citadel_holding|E]"
 
  assimilate_to_mandala_decision: "Assimilate to Mandala Rule"
  assimilate_to_mandala_decision_government_desc: "A divine walking the earth, the organization of such a government only seems beneficial to our existence. Let's see what we can learn as we assimilate to this way of rule."

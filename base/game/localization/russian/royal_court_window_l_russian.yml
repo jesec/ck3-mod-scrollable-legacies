@@ -13,6 +13,8 @@
  COURT_EVENT_ITEM_TOOLTIP: "#T $EVENT_TITLE$#!\n#S Участники:#!\n$PARTICIPANT_LIST$\n\n#I Щелкните, чтобы принять решение#!"
  ROYAL_COURT_TAB_THRONE: "#T Тронный зал#!"
  ROYAL_COURT_TAB_COURT_GRANDEUR: "#T Величие двора#!"
+ ROYAL_COURT_TAB_COURT_VISUALS: "#T Оформление двора#!"
+ COURT_VISUALS: "Оформление двора"
  ROYAL_COURT_TAB_COURT_ARTIFACTS: "#T Придворные артефакты#!"
  COURT_LANGUAGE_LABEL: "[court_language|E]"
  COURT_LANGUAGE_NAME: "[CulturePillar.GetNameNoTooltip]"

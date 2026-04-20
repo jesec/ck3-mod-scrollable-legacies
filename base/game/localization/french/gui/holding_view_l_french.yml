@@ -275,3 +275,4 @@
  REBUILD_GREAT_BUILDING_EFFECT: "$EFFECT_LIST_BULLET$Le bâtiment [BUILDING.GetName] est reconstruit en [PROVINCE.GetName]"
  REBUILD_GREAT_BUILDING_CONFIRMATION_ACCEPT: "Reconstruire"
  REBUILD_GREAT_BUILDING_CANNOT_AFFORD: "@warning_icon! #X Ne peut pas se le permettre : #! $COST$"
+ YOUR_NEXT_HOLDING: "#T Aller à votre [holding|el] suivante#!"

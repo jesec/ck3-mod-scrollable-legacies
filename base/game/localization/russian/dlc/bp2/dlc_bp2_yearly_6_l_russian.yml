@@ -73,7 +73,7 @@
  bp2_yearly.6010.desc: "«#EMP Друзей у меня много, но с дарами вот беда...#!» — поет [sad_boi.GetFirstName], и голос [sad_boi.GetHerHis] подрагивает от нахлынувших чувств.\n\n[Select_CString(sad_boi.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))] отшвыривает инструмент и кричит: «Всё, хватит! Только не [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]!"
  bp2_yearly.6010.adult: "Здесь даже не слыхали об элементарных удобствах».\n\nИспепеляя меня взглядом, [sad_boi.GetSheHe] добавляет: «Пусть эта песня станет моей мольбой о помощи в ужасном плену. О помощи небольшой и... денежной... если мой народ, конечно, меня не забыл...»"
  bp2_yearly.6010.child: "Я здесь постоянно [Select_CString(sad_boi.IsFemale, 'несчастна', 'несчастен' )]».\n\nГлядя на меня со слезами на глазах, [sad_boi.Custom('GirlBoy')] добавляет: «Если мои родные услышат эту песню, они не останутся равнодушными! И пришлют что-нибудь, от чего моя #EMP ссылка#! станет не такой мучительной... если, конечно, я им все еще [Select_CString(sad_boi.IsFemale, 'дорога', 'дорог' )]...»"
- bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U] еще раз играет печальную мелодию, и в глазах [sad_boi.GetHerHis] отражается [home_court_liege.GetPrimaryTitle.GetNameNoTier]."
+ bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U] еще раз играет печальную мелодию, и в глазах [sad_boi.GetHerHis] стоит образ родного дома."
  bp2_yearly.6010.a: "Что ж, посмотрим, сколько они соберут «пожертвований»..."
  bp2_yearly.6010.a.tt: "...в мой кошелек."
  bp2_yearly.6010.b: "Тебе плохо?! #EMP Я могу помочь?#!"

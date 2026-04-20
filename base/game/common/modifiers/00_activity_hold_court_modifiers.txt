@@ -24,7 +24,7 @@ hold_court_free_labor = {
 }
 
 hold_court_ploughs_to_swords = {
-	icon = goods_positive
+	icon = goods_mixed
 	tax_mult = -0.2
 	levy_size = 0.2
 	travel_danger = -5
@@ -66,7 +66,7 @@ hold_court_written_language_men_advanced_modifier = {
 }
 
 3020_own_culture_monument = {
-	icon = stewardship_mixed
+	icon = stewardship_negative
 	county_opinion_add = -15
 	travel_danger = 5
 }
@@ -82,13 +82,13 @@ hc_7000_dev_reduction = {
 	county_fertility_growth_mult = -0.15
 }
 hc_7010_holy_war = {
-	icon = martial_positive
+	icon = martial_mixed
 	tolerance_advantage_mod = 10
 	different_faith_opinion = -10
 	different_faith_county_opinion_mult = -0.25
 }
 hc_7010_tolerance = {
-	icon = county_modifier_opinion_positive
+	icon = county_modifier_opinion_mixed
 	different_faith_opinion = 10
 	different_faith_county_opinion_mult = 0.25
 }

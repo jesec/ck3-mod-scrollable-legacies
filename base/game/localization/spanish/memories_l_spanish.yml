@@ -1106,7 +1106,7 @@
  hostage_spared_desc_1: "He perdonado a mi cautiv[hostage.Custom('ES_OA')], [hostage.Custom('ES_ElLa')] [hostage.GetTitledFirstName|l], [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [home_court.Custom('ES_DelDela')] [home_court.GetTitledFirstName|l], a quien se iba a ejecutar"
  hostage_spared_desc_second_perspective_1: "Has perdonado a tu cautiv[hostage.Custom('ES_OA')], [hostage.Custom('ES_ElLa')] [hostage.GetTitledFirstName|l], [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [home_court.Custom('ES_DelDela')] [home_court.GetTitledFirstName|l], a quien se iba a ejecutar"
  hostage_spared_desc_third_perspective_1: "[owner.Custom('ES_ElLa')|U] [owner.GetTitledFirstName|l] ha perdonado a su cautiv[hostage.Custom('ES_OA')], [hostage.Custom('ES_ElLa')] [hostage.GetTitledFirstName|l], [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [home_court.Custom('ES_DelDela')] [home_court.GetTitledFirstName|l], a quien se iba a ejecutar"
- hostage_died: "cautivo muerto"
+ hostage_died: "Cautivo muerto"
  hostage_died_desc_1: "mi cautiv[hostage.Custom('ES_OA')], [hostage.GetFirstName], [hostage.GetDeathReasonHideKiller]"
  hostage_died_desc_1_known_killer: "mi cautiv[hostage.Custom('ES_OA')], [hostage.GetFirstName], [hostage.GetDeathReason]"
  hostage_died_desc_second_perspective_1: "tu cautiv[hostage.Custom('ES_OA')], [hostage.GetFirstName], [hostage.GetDeathReasonHideKiller]"

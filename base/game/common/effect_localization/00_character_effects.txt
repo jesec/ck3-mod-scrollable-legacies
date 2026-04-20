@@ -469,7 +469,7 @@ start_scheme_against_character ={
 	global_past = STARTED_SCHEME_AGAINST_CHARACTER_EFFECT_GLOBAL
 }
 start_scheme_against_title ={
-	global = START_SCHEME_AGAINST_TITLE_EFFECT 
+	global = START_SCHEME_AGAINST_TITLE_EFFECT
 	first = START_SCHEME_AGAINST_TITLE_EFFECT
 	first_past = STARTED_SCHEME_AGAINST_TITLE_EFFECT
 	third = THEY_START_SCHEME_AGAINST_TITLE_EFFECT
@@ -502,7 +502,7 @@ add_scheme_modifier_duration = {
 
 set_focus = {
 	global = SET_FOCUS_EFFECT
-	
+
 }
 
 set_focus_no = {
@@ -1611,7 +1611,7 @@ change_government = {
 	third = CHANGE_THEIR_GOVERNMENT
 	global = CHANGE_GOVERNMENT
 }
- 
+
 add_house_modifier = {
 	first_past = MY_HOUSE_RECEIVED_MODIFIER_EFFECT
 	third_past = THEIR_HOUSE_RECEIVED_MODIFIER_EFFECT
@@ -1988,7 +1988,9 @@ set_subject_contract_modification_blocked = {
 	first = CONTRACT_MODIFICATION_BLOCKED_FIRST
 	first_past = CONTRACT_MODIFICATION_BLOCKED_FIRST_PAST
 	third = CONTRACT_MODIFICATION_BLOCKED_THIRD
+	third_neg = CONTRACT_MODIFICATION_BLOCKED_THIRD_NEG
 	third_past = CONTRACT_MODIFICATION_BLOCKED_THIRD_PAST
+	third_past_neg = CONTRACT_MODIFICATION_BLOCKED_THIRD_PAST_NEG
 }
 
 copy_localized_text = {

@@ -67,6 +67,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "Gdy jeden człowiek traci pomyślność, którą dotąd się cieszył, inny ją zyskuje, bowiem nawet królowie i cesarze podlegają zmiennym kolejom losu.\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName] przejmuje Mandat Niebios. Teraz wszyscy mają złożyć pokłon u stóp nowego władcy."
  tgp_dynastic_cycle.0062.desc.uninvolved: "Imperia powstają i upadają, a stare ustępuje nowemu. [GetTitleByKey('h_china').GetHolder.GetTitledFirstName] przejmuje tron w miejscu znanym jako [GetTitleByKey('h_china').GetNameNoTierNoTooltip] i wszyscy muszą obdarzyć tę osobę uwagą – czy to w państwie, czy poza nim.\n\nTakich zmian przyniesionych przez wichry przeznaczenia nie wolno lekceważyć."
  tgp_dynastic_cycle.0062.a: "Musimy ostrożnie ocenić, jakie możliwości ma [GetTitleByKey('h_china').GetHolder.GetTitledFirstName]."
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
  tgp_dynastic_cycle.0071.t: "Po deszczu przychodzi słońce"
  tgp_dynastic_cycle.0071.desc: "Burzowe chmury odeszły: nad miejscem znanym jako [GetTitleByKey('h_china').GetNameNoTierNoTooltip] znów rozciąga się czyste niebo. Udało mi się przejść wszystkie próby i nikt nie powinien już wątpić, że jestem wybrańcem niebios.\n\nCiężkie czasy są za nami, muszę więc wytyczyć nowy kurs na przyszłość, by wszystkich poddanych zjednoczył wspólny cel."
@@ -80,6 +81,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "W czasach pokoju dzielni śmiałkowie mają niewiele szans, by się wykazać, ale istnieją inne drogi, które pozwalają awansować w świecie."
  tgp_dynastic_cycle.0072.desc.uninvolved: "Wydaje się, że dynastia [GetTitleByKey('h_china').GetHolder.GetDynastyName] wciąż ma w sobie nieco werwy."
  tgp_dynastic_cycle.0072.a: "Wieje wiosenny wiatr i trawa znów rośnie."
+ tgp_dynastic_cycle.0072.b: "Jedyna właściwa droga to podążanie za wolą Niebios."
+ tgp_china_consolidation.remain_independent: "Pozostań jako [independent_ruler|El]"
  ### ENTER CONSOLIDATION ###
  tgp_dynastic_cycle.0081.t: "Czas podzielić od dawna zjednoczone cesarstwo"
  tgp_dynastic_cycle.0081.desc: "Niebo drży i świat w mgnieniu oka staje na głowie.\n\nWierni ministrowie uciekają w poszukiwaniu nowych panów, żołnierze porzucają służbę – a teraz już nawet chłopi opuszczają moje ziemie w obawie przed nadchodzącymi zamieszkami.\n\nWszystkie bolączki przypisuje się moim #EMP niesprawiedliwym#! rządom. Ludzie w każdym zakątku cesarstwa głoszą, że nie mam już mandatu niebios!"

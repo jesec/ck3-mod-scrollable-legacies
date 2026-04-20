@@ -63,7 +63,7 @@
  tgp_japan_general.9550.desc.fam: "\n\n가족과 나는 서로 끌어안았다."
  tgp_japan_general.9550.desc.end: "우리는 새장 속 닭이 되었고, 시간이 흐를수록 여우 떼가 점점 다가온다.\n\n우리 [ROOT.Char.GetHouse.GetNameNoTooltip](은)는 최후의 순간에 과연 어떻게 맞설 것인가?"
  every_close_family_house_member_in_court: "당신과 [loser.GetShortUINamePossessive] [court|E] 내 모든 [spouse|E] 및 [close_family|E] [house|E] 구성원"
- every_house_member_in_court: "[loser.GetShortUINamePossessive] [spouse|E] 및 모든 [loser.GetShortUINamePossessive] [court|E] 내 모든 [house|E] 구성원"
+ every_house_member_in_court: "[loser.GetShortUINamePossessive] [spouses|E] 및 [loser.GetHerHis] [court|E] 내 모든 [house|E] 구성원"
  is_killed_by_you_and_you_kill_self: "@death_icon! [winner.GetShortUIName]의 손에서 명예를 지키려 자살할 것임"
  tgp_japan_general.9550.a.alone: "나는 치욕스러운 죽음을 맞지 않으리!"
  tgp_japan_general.9550.a.alone.flavor: "내 손으로 죽고 말리라."

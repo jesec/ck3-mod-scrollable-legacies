@@ -2611,6 +2611,30 @@ c_nf_okawa = { # Okawa
 	}
 }
 
+c_nf_okura = { # Okura
+	867.1.1 = {
+		liege = e_japan
+		holder = japanese_okura_1 # Yoshiyuki_2
+		government = japan_administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1066.1.1 = {
+		holder = japanese_okura_23
+		government = japan_feudal_government
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1178.1.1 = { holder = 0 }
+}
+
 c_nf_omiwa = { # Taguchi
 	867.1.1 = {
 		liege = e_japan
@@ -2754,7 +2778,7 @@ c_nf_saeki_2 = { # Saeki
 	867.1.1 = {
 		liege = e_japan
 		holder = japanese_saeki_2_10 # Sadamochi
-		government = japan_feudal_government # Saeki fief
+		government = japan_administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
 	867.1.1 = {
@@ -2956,12 +2980,18 @@ c_nf_tachibana = { # Tachibana
 }
 
 c_nf_tachibana_tokai = { # Tachibana Tokai
-	1178.1.1 = {
+	1066.1.1 = {
 		liege = e_japan
-		holder = japanese_tachibana_143 # TO_mochi
+		holder = japanese_tachibana_181 # Kin_tO__2
 		government = japan_feudal_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1178.1.1 = { holder = japanese_tachibana_143 } # TO_mochi
 	1178.10.1 = {
 		effect = {
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 }
@@ -3034,6 +3064,21 @@ c_nf_takashina = { # Takashina
 	}
 }
 
+c_nf_tanba = { # Tanba
+	1066.1.1 = { holder = japanese_tanba_6 } # Masatada_4
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1178.1.1 = { holder = japanese_tanba_15 } # Yorimoto
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+}
+
 c_nf_tatara = { # Tatara
 	867.1.1 = {
 		liege = e_japan
@@ -3090,7 +3135,18 @@ c_nf_wake = { # Wake
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
 		}
 	}
-	1066.1.1 = { holder = 0 }
+	1066.1.1 = { holder = japanese_wake_23 } # Akichika_2
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1178.1.1 = { holder = japanese_wake_27 } # Tokinari_2
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
 }
 
 c_nf_yokoyama = { # Yokoyama

@@ -43,4 +43,4 @@
  legitimacy_high_modifier_tt: "Высокая [Concept( 'legitimacy', 'легитимность' )|E]"
  legitimacy_low_modifier_tt: "Низкая [Concept( 'legitimacy', 'легитимность' )|E]"
  legitimacy_on_level_entered: "#S При изменении уровня:#!\n"
- legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Активирует $catalyst_hegemon_lost_mandate_of_heaven|l$, который сместит [Concept('dynastic_cycle', 'династический цикл')|E] в [Concept('situation_dynastic_cycle_phase', 'эру')|E] «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]»#!"
+ legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Активирует $catalyst_hegemon_lost_mandate_of_heaven|l$, который сместит [Concept('dynastic_cycle', 'династический цикл')|E] в [Concept('situation_dynastic_cycle_phase', 'эру')|E] «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]»#!\n"

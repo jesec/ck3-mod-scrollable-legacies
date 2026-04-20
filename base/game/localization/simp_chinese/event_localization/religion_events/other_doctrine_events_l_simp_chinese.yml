@@ -62,7 +62,7 @@
  false_conversion.2001.desc_grief: "我没有一天不怀念[deceased_character.GetTitledFirstName]的。而每次一想起[deceased_character.GetHerHis]就会在我心中挖出一口新的悲伤之井。"
  false_conversion.2001.desc_depression: "日子无休止地过着，周围的人给我带来了新的欢乐和悲伤。然而我仍然在这里，迷失在灰色的海洋中，被淹没在过去的[vulnerable_relation.GetAge]年里。"
  false_conversion.2001.desc_stress: "我养成了不由自主抽搐的习惯。我咬指甲，磨牙，疲惫地走来走去然后清醒地躺在床上。然而，我仍然被我无法理解的压力淹没了。"
- false_conversion.2001.desc_outro: "\n\n正当我不知道该怎么坚持下去时，[vulnerable_relation.Custom2('RelationToMeAddress', owner)]在我耳侧悄声说道。“你只需要拥抱[owner.GetSecretFaith.GetName]的治愈之力，[owner.Custom2('RelationToMeAddress', vulnerable_relation)]，然后你就能忘却所有不幸。”"
+ false_conversion.2001.desc_outro: "\n\n正当我不知道该怎么坚持下去时，[owner.Custom2('RelationToMeAddress', vulnerable_relation)]在我耳侧悄声说道。“你只需要拥抱[owner.GetSecretFaith.GetName]的治愈之力，[vulnerable_relation.Custom2('RelationToMeAddress', owner)]，然后你就能忘却所有不幸。”"
  false_conversion.2001.a: "那么我将全身心地拥抱[owner.GetSecretFaith.GetNameNoTooltip]！"
  false_conversion.2001.b: "你在暗示什么，[owner.GetTitledFirstNameNoTooltip]？"
  false_conversion.2001.b_flavor: "[owner.GetTitledFirstNameNoTooltip]暂时不再说什么了"

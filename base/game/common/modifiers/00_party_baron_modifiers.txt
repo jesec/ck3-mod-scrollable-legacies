@@ -1,14 +1,14 @@
 ﻿# Party Baron modifiers
 
 party_baron_beloved_by_all_modifier = {
-	icon = family_positive
+	icon = family_mixed
 	general_opinion = 10
 	enemy_hostile_scheme_phase_duration_add = massive_scheme_phase_duration_malus_value
 	dread_gain_mult = -1 # Party Baron would never be Dreadful
 }
 
 party_baron_beloved_by_all_except_modifier = {
-	icon = family_positive
+	icon = family_mixed
 	general_opinion = 10
 	enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
 	dread_gain_mult = -1 # Party Baron would never be Dreadful
@@ -47,7 +47,7 @@ party_baron_condemned_pb_modifier = {
 }
 
 party_baron_praised_pb_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	direct_vassal_opinion = 10
 	stress_gain_mult = 0.1
 }

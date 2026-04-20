@@ -97,7 +97,7 @@
  BattlePoIHistoricalNameSufuku: "巢伏之战"
  BattlePoIHistoricalDescSufuku: "#emp 胜者：胆泽虾夷人\n败者：[GetScriptedCharacterByHistoryID( 'japanese_iruma_1' ).GetFullName]\n日期：公元789年#!\n#weak 一场日本征服虾夷过程中的重要战役。\n\n日本朝廷的军队起初兵分两路，沿北上川两岸行进，追击撤退的虾夷人。虾夷散兵阻止了官军渡河，将大量士兵逼到了山河之间的狭窄地带。\n\n随后的溃败令朝廷颜面尽失，许多士兵赤身渡河逃亡。军队溃散，[GetScriptedCharacterByHistoryID( 'japanese_yamato_24' ).GetFullName]对其将领进行了叱责。#!"
  BattlePoIHistoricalNameBaekgang: "白江口之战"
- BattlePoIHistoricalDescBaekgang: "#emp 胜者：唐朝与新罗王国联军\n败者：[GetScriptedCharacterByHistoryID( 'japanese_abe_36' ).GetFullName]\n日期：公元663年#!\n#weak 一场决定性的海战，唐朝与新罗联军同百济复国势力及其日本盟友展开交锋。\n\n战斗主要在白马江展开。尽管日本军队人数占优，但唐朝海军坚守阵地，最终发起反击，包围并击败了日本舰队。\n\n此战标志着百济和日本在高丽半岛影响力的终结。#!"
+ BattlePoIHistoricalDescBaekgang: "#emp 胜者：唐朝与新罗王国联军\n败者：[GetScriptedCharacterByHistoryID( 'japanese_abe_36' ).GetFullName]\n日期：公元663年#!\n#weak 一场决定性的海战，唐朝与新罗联军同百济复国势力及其日本盟友展开交锋。\n\n战斗主要在白马江展开。尽管日本军队人数占优，但唐朝海军坚守阵地，最终发起反击，包围并击败了日本舰队。\n\n唐朝新罗联军的决定性胜利迫使日本完全退出高丽半岛事务，复兴百济的愿景随之破灭。#!"
  BattlePoIHistoricalNamePalembang: "珠利耶进攻巴林冯"
  BattlePoIHistoricalDescPalembang: "#emp 胜者：[GetScriptedCharacterByHistoryID( '189038' ).GetFullName]\n败者：[GetScriptedCharacterByHistoryID( 'javanese_sailendra_25' ).GetFullName]\n日期：公元1025年#!\n#weak 珠利耶军队对室利佛逝首都巴林冯发起的突袭。\n\n珠利耶军队渡海而来，迅速攻陷室利佛逝首都，在此过程中大肆劫掠破坏。\n\n巴林冯的陷落导致室利佛逝帝国全面崩溃，珠利耶之后对该地区的控制持续了数十年之久。#!"
  BattlePoIHistoricalNameAngkor: "禄兀之围"

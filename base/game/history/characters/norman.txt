@@ -3520,7 +3520,7 @@
 
 41012 = {
 	name = "Godfrey"
-	dynasty_house = house_brionne
+	dynasty = 752
 	martial = 8
 	diplomacy = 4
 	intrigue = 7
@@ -3538,7 +3538,10 @@
 		add_spouse = 41235
 	}
 	1000.1.2 = {
-		death = "1000.1.2"
+		dynasty_house = house_brionne
+	}
+	1015.1.2 = {
+		death = "1015.1.2"
 	}
 }
 
@@ -3565,7 +3568,7 @@
 
 41014 = {
 	name = "Richard" # de Tonbridge FitzGilbert de Clare
-	dynasty_house = house_brionne # may need changing to Clare if later start dates are introduced
+	dynasty_house = house_brionne
 	religion = "catholic"
 	culture = "norman"
 	father = 41013
@@ -3574,6 +3577,7 @@
 	}
 	1058.1.1 = {
 		add_spouse = 41015 #Rohese Giffard
+		dynasty_house = house_clare
 	}
 	1066.1.1 = {
 		employer = 140
@@ -3601,7 +3605,7 @@
 
 41017 = {
 	name = "Robert"
-	dynasty_house = house_brionne # may need changing to Clare if later start dates are introduced
+	dynasty_house = house_clare
 	martial = 9
 	diplomacy = 4
 	intrigue = 8
@@ -6513,7 +6517,7 @@
 41210 = {
 	name = "Avice"
 	female = yes
-	dynasty_house = house_brionne # may need changing to Clare if later start dates are introduced
+	dynasty_house = house_clare
 	father = 41014 #Richard de Tonbridge FitzGilbert de Clare
 	mother = 41015 #Rohese Giffard
 	religion = "catholic"
@@ -6796,7 +6800,7 @@
 
 204792 = {
 	name = "Gilbert"
-	dynasty_house = house_brionne # may need changing to Clare if later start dates are introduced
+	dynasty_house = house_clare
 	martial = 7
 	diplomacy = 5
 	intrigue = 7
@@ -6846,7 +6850,7 @@
 
 204794 = {
 	name = "Richard"
-	dynasty = 364
+	dynasty_house = house_clare
 	martial = 7
 	diplomacy = 5
 	intrigue = 7

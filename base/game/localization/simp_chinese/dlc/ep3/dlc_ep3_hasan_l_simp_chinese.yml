@@ -20,6 +20,11 @@
  hasan_expand_the_assassins_desc: "我们需要更多据点来扩大阿萨辛的影响力。如此，我们可以见证亵渎者的倒台。"
  hasan_expand_the_assassins_tooltip: "扩充你的[holy_order|E]"
  hasan_expand_the_assassins_confirm: "新家园"
+ #Story Cycle
+ ULTIMATE_FOE: "你的终极敌人"
+ story_hasan: "哈桑·萨巴赫的传奇"
+ story_hasan_desc: "信仰的力量胜过千军万马，足以推翻帝国，书写新的历史！你愿意建立刺客组织，将你的人民从塞尔柱王朝的枷锁中解放出来吗？你能崛起成为山中老人吗？"
+ PROGRESS_TOWARDS_ASSASSIN_PATH: "通往阿萨辛之路的进度"
  #Events
  hasan_sabbah.1000.t: "[GetFaithByKey('ismaili').GetAdjectiveNoTooltip|U]传教士"
  hasan_sabbah.1000.desc: "[amira.GetName|U]，埃及哈里发的信徒和追随者，在[location.GetName]的中心传播着[amira.GetHerHis]的非正统伊斯兰教义。我对伊斯兰教和[ROOT.Char.GetFaith.HighGodName|U]的真理深信不疑，我从未怀疑过这样的真理只能在[ROOT.Char.GetFaith.GetName]中找到，但[amira.GetFirstNamePossessiveNoTooltip]的话语给我带来了不同的感觉。\n\n在这天剩下的大部分时间里，我一直与[amira.GetFirstNameNoTooltip]讨论圣书和圣训，我第一次聆听了[GetFaithByKey('ismaili').GetAdjective|U]思想的真理。"

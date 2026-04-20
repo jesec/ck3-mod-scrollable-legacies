@@ -916,6 +916,9 @@
  ## Imperial Prince ##
  prince_empire: "Prince"
  princess_empire: "Princesse"
+ ## Carthaginian Princess and Princess ##
+ banim: "Banim"
+ banut: "Banut"
  ####################################################
  #Special titles
  ecumenical_patriarch: "Patriarche oecuménique"
@@ -941,6 +944,21 @@
  duke_feudal_brittany: "$duke$"
  duke_feudal_brittany_female: "$duke_female$"
  duchy_feudal_brittany: "$duchy$"
+ emperor_male_carthaginian: "Shofet"
+ emperor_female_carthaginian: "Shofet"
+ king_male_carthaginian: "Adirim"
+ king_female_carthaginian: "Adirima"
+ duke_male_carthaginian: "Rab"
+ duke_female_carthaginian: "Raba"
+ count_male_carthaginian: "Baal"
+ count_female_carthaginian: "Baalat"
+ baron_male_carthaginian: "Adonis"
+ baron_female_carthaginian: "Adonia"
+ empire_carthaginian: "Sofetut"
+ kingdom_carthaginian: "Adirut"
+ duchy_carthaginian: "Rabbut"
+ county_carthaginian: "Baalut"
+ barony_carthaginian: "Adonut"
  dauphin_male_french: "Dauphin"
  dauphin_female_french: "Dauphine"
  dauphinate_french: "Dauphiné"
@@ -1211,6 +1229,14 @@
  hegemon_celestial_female_chinese: "$hegemon_celestial_male_chinese$"
  spouse_hegemon_celestial_male_chinese: "Húangfū"
  spouse_hegemon_celestial_female_chinese: "Húanghòu"
+ hegemon_male_chinese: "$hegemon_celestial_male_chinese$"
+ hegemon_female_chinese: "$hegemon_celestial_male_chinese$"
+ spouse_hegemon_male_chinese: "$spouse_hegemon_celestial_male_chinese$"
+ spouse_hegemon_female_chinese: "$spouse_hegemon_celestial_female_chinese$"
+ emperor_male_chinese_independent: "$hegemon_celestial_male_chinese$" #皇帝
+ emperor_female_chinese_independent: "$hegemon_celestial_male_chinese$"
+ spouse_emperor_male_chinese_independent: "$spouse_hegemon_celestial_male_chinese$" #皇夫
+ spouse_emperor_female_chinese_independent: "$spouse_hegemon_celestial_female_chinese$" #皇后
  emperor_celestial_male_chinese_civilian_governor: "Coordonnateur"
  emperor_celestial_male_chinese_military_governor: "Commandant suprême"
  emperor_celestial_male_chinese_protectorate_governor: "Grand protecteur général"

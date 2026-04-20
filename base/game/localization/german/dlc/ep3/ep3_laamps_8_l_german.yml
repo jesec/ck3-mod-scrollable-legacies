@@ -167,7 +167,7 @@
  ep3_laamps.8105.a.desc: "Ihr werdet um mehr Zeit bitten, damit Ihr Euch besser auf den Krieg vorbereiten könnt."
  ep3_laamps.8105.a.success: "Euch bleiben 8 Jahre, um „[claimed_title.GetName]“ zu beanspruchen"
  ep3_laamps.8105.a.failure: "Euch bleiben 4 Jahre, um „[claimed_title.GetName]“ zu beanspruchen"
- ep3_laamps.8105.b: "Auf die Zukunft von [claimed_title.GetName]!"
+ ep3_laamps.8105.b: "Auf die Zukunft von [claimed_title.GetNameNoTooltip]!"
  ep3_laamps.8105.b.desc: "Ihr erklärt Euch mit den Bedingungen einverstanden. $ep3_laamps.8105.a.failure$"
  ep3_laamps.8105.c: "Das war Zeitverschwendung."
  ep3_laamps.8105.c.desc: "@warning_icon! #color_red Ihr brecht die Verhandlungen ab.#![petitioned_ruler.GetName|U] wird Euch nicht unterstützen und hält jetzt auf jeden Fall weniger von Euch."

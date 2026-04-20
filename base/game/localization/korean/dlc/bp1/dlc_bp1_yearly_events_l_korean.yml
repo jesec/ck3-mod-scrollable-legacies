@@ -325,7 +325,7 @@
  bp1_yearly.8000.desc_foreign: "[bp1_8000_new_rival.GetTitleAsNameNoTooltip]의 [bp1_8000_new_rival.GetPrimaryTitle.GetBaseNameNoTier]인 [bp1_8000_new_rival.GetFirstName](이)가 적대감을 품고 영주님을 찾아왔다는 소문이 돕니다...\""
  bp1_yearly.8000.desc_single: "\n\n\"자신의 정당한 영지와 수입을 약탈하는 '위법적인 [bp1_8000_claimed_title.GetNameNoTier]의 [ROOT.Char.GetTitleAsNameNoTooltip]'에 대해 날마다 공공연히 말하고 다니는 모양입니다.\""
  bp1_yearly.8000.desc_multi: "\n\n\"자신의 정당한 영지를 영주님께서 계속 지배하고 있는 상황이 개인적으로 섭섭하다는 태도를 고수하고 있습니다. 특히 [bp1_8000_claimed_title.GetNameNoTier](으)로서 말입니다.\""
- bp1_yearly.8000.a: "하! 그 악랄한 [bp1_8000_new_rival.Custom2('InsultNoun', ROOT.Char)] 자식이!"
+ bp1_yearly.8000.a: "하! 그 악랄한 [bp1_8000_new_rival.Custom2('InsultNoun', ROOT.Char)]!"
  bp1_yearly.8000.b: "당장 [bp1_8000_new_rival.GetFirstNameNoTooltip]에게 보낼 글을 써야겠군."
  bp1_yearly.8000.b.success: "당신의 편지가 [bp1_8000_new_rival.GetTitledFirstNameNoTooltip](을)를 누그러뜨림"
  bp1_yearly.8000.b.failure: "[bp1_8000_new_rival.GetTitledFirstNameNoTooltip](이)가 당신의 편지를 무시함"

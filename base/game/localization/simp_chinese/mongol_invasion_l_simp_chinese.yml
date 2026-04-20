@@ -5,7 +5,7 @@
  submit_to_the_great_khan_decision_tooltip: "你成为最伟大的汗的封臣"
  mongol_invasion.1001.title: "大汗死了！"
  mongol_invasion.1001.generic.desc: "[ROOT.Char.GetFaith.HighGodName]真是太善了，即使最强者也会倒在[ROOT.Char.GetFaith.DeathDeityName]面前！好消息：马王兼掠夺者[old_khan.GetTitledFirstNameNicknamed][old_khan.GetDeathReasonHideKiller|l]。\n\n谈到[new_khan.GetPrimaryTitle.GetNameNoTier]的新主人，我们仍心有余悸……不过这个[new_khan.GetTitledFirstNameNicknamed]#EMP 说不定#!不会像[new_khan.GetHerHis]的前人一样可怕……\n\n也许这标志着[new_khan.GetPrimaryTitle.GetAdjectiveNoTooltip]征服的终结？"
- mongol_invasion.1001.sympathetic.desc: "#EMP 噢，恸哭啊！悲泣啊！#!上天选中要征服大地的人，伟大的[old_khan.GetTitledFirstNameNicknamed]，已不在人世。据说[old_khan.GetTitleAsNameNoTooltip][old_khan.GetDeathReasonHideKiller|l]。\n\n随着旧主人的离世，[new_khan.GetPrimaryTitle.GetName]召开盛大的#EMP 忽里勒台#!，拥立了一位新的[new_khan.GetTitleAsNameNoTooltip]。\n\n因此，当[old_khan.GetFirstNameNoTooltip]永远在天空中驰骋时，[new_khan.GetTitledFirstNameNicknamed]将统治整个大地！"
+ mongol_invasion.1001.sympathetic.desc: "#EMP 噢，恸哭啊！悲泣啊！#!上天选中要征服大地的人，伟大的[old_khan.GetTitledFirstNameNicknamed]，已不在人世。据说[old_khan.GetTitleAsNameNoTooltip][old_khan.GetDeathReasonHideKiller|l]。\n\n随着旧主人的离世，[new_khan.GetPrimaryTitle.GetDefinitiveName]召开盛大的#EMP 忽里勒台#!，拥立了一位新的[new_khan.GetTitleAsNameNoTooltip]。\n\n因此，当[old_khan.GetFirstNameNoTooltip]永远在天空中驰骋时，[new_khan.GetTitledFirstNameNicknamed]将统治整个大地！"
  mongol_invasion.1001.a: "然而，我的手仍在颤抖……"
  mongol_invasion.1001.b: "伟大的[new_khan.GetPrimaryTitle.GetTierAsNameNoTooltip]还活着。"
  mongol_invasion.1001.c: "[old_khan.GetFirstNameNoTooltip]已在[ROOT.Char.GetFaith.NegativeAfterLife]得到一席之位。"

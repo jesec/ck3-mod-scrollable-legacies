@@ -200,8 +200,7 @@
  cultural_festival.2110.e: "Je dois rester à ma place."
  cultural_festival_2110_d_tt: "Vous bottez le chien"
  cultural_festival_2110_d_opinion_tt: "Tous les personnages de l’assistance qui ne sont pas sans cœur ni sadiques"
- available_because_intent_tt: "#EMP #low Cette option est disponible en raison de votre intention ([THIS.Char.GetInvolvedActivityIntent.GetName|l])#!#!"
- event_triggered_because_intent_tt: "#EMP #low Cette option est disponible en raison de votre intention ([THIS.Char.GetInvolvedActivityIntent.GetName|l])#!#!"
+ available_because_intent_tt: "#EMP #low Cette option est disponible en raison de votre [intent|El] ([THIS.Char.GetInvolvedActivityIntent.GetName|Vl])#!#!"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "La grande pièce"
  cultural_festival.3000.desc: "Une grande opportunité s’offre à moi avec la visite de [Select_CString(visiting_liege.IsFemale,'ma dame','mon seigneur')] lige [visiting_liege.Custom('FR_le_Char_Pi')][visiting_liege.GetTitledFirstName]. Je pourrais certainement profiter de cette rencontre pour gagner sa sympathie et probablement obtenir plus facilement ce que je veux...\n\nPeut-être pourrais-je organiser une pièce de théâtre qui dépeindrait ses grandes actions ? "
@@ -334,7 +333,7 @@
  regional_farm_animal_grunting_camel: "$regional_farm_animal_camel$ blatère"
  regional_farm_animal_whinnying_horse: "$regional_farm_animal_horse$ hennit"
  cultural_festival.3040.t: "La lame dans la pierre"
- cultural_festival.3040.desc: "J’entends une voix familière alors que je me promène dans les rues festives de [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] : « Qu’est-ce que je suis censé faire avec cette pierre, hein ? Vous voulez que je m’assoie dessus ? »\n\n[marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] montre un gros bloc de pierre qu’un maçon a laissé devant [marshal.Custom('FR_LuiElle')].\n\n« C’est pour l’épreuve de force », explique le maçon en haussant les épaules. « Quelle épreuve de force ? C’est impossible à soulever ! », réplique [marshal.Custom('FR_le_Char_Pi')][marshal.GetTitledFirstNameNoTooltip]."
+ cultural_festival.3040.desc: "J’entends une voix familière alors que je me promène dans les rues festives de [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] : « Que suis-je censé[marshal.Custom('FR_E')] faire avec cette pierre, hein ? Vous voulez que je m’assoie dessus ? »\n\n[marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] montre un gros bloc de pierre qu’un maçon a laissé devant [marshal.Custom('FR_LuiElle')].\n\n« C’est pour l’épreuve de force », explique le maçon en haussant les épaules. « Quelle épreuve de force ? C’est impossible à soulever ! », réplique [marshal.Custom('FR_le_Char_Pi')][marshal.GetTitledFirstNameNoTooltip]."
  cultural_festival.3040.a: "« Vous n’êtes pas censé le soulever. »"
  cultural_festival.3040.flavor: "Personne ne pourra retirer la lame de la pierre !"
  cultural_festival.3040.a.tt: "@warning_icon! #X Vous pourriez perdre cet artefact#!"

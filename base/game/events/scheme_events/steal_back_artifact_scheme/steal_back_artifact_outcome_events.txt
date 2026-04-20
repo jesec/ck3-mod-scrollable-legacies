@@ -74,7 +74,7 @@ steal_back_artifact_outcome.1001 = {
 # Generic successful heist notification event to scheme target
 steal_back_artifact_outcome.1002 = {
 	type = character_event
-	window = scheme_target_event
+	window = scheme_conclusion_event_no_header
 	title = steal_back_artifact_outcome.1002.t
 	desc = steal_back_artifact_outcome.1002.desc
 	theme = generic_intrigue_scheme

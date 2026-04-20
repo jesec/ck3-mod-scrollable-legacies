@@ -43,7 +43,7 @@
  dynn_title_min_adj: "Миньск"
  dynn_title_chu: "Чу"
  dynn_title_chu_adj: "Чуск"
- dynn_title_liang: "Лян"
+ dynn_title_liang: "Лян" # 梁
  dynn_title_liang_adj: "Лянск"
  dynn_title_dai: "Дай"
  dynn_title_dai_adj: "Дайск"
@@ -128,7 +128,7 @@
  dynn_title_quan: "Куан"
  dynn_title_quan_adj: "Куанск"
  dynn_title_rui: "Жуй"
- dynn_title_rui_adj: "Жуйск"
+ dynn_title_rui_adj: "Жуйск" #芮
  dynn_title_ruo: "Жо"
  dynn_title_ruo_adj: "Жоск"
  dynn_title_xi: "Си"
@@ -145,3 +145,57 @@
  dynn_title_liao_adj: "Ляоск"
  dynn_title_zou: "Цзоу"
  dynn_title_zou_adj: "Цзоуйск"
+ dynn_title_bao: "Бао" #宝
+ dynn_title_bao_adj: "Баоск" #宝
+ dynn_title_cheng: "Чэн" #成
+ dynn_title_cheng_adj: "Чэнск" #成
+ dynn_title_di: "Ди" #翟
+ dynn_title_di_adj: "Диск" #翟
+ dynn_title_guo: "Го" #虢
+ dynn_title_guo_adj: "Го" #虢
+ dynn_title_han_henan: "Хань" #韩
+ dynn_title_han_henan_adj: "Ханьск" #韩
+ dynn_title_ji_hebei: "Цзи" #冀
+ dynn_title_ji_hebei_adj: "Цзиск" #冀
+ dynn_title_jiao: "Цзяо" #交
+ dynn_title_jiao_adj: "Цзяоск" #交
+ dynn_title_kang: "Кан" #康
+ dynn_title_kang_adj: "Канск" #康
+ dynn_title_liang_west: "Лян" #凉
+ dynn_title_liang_west_adj: "Лянск" #凉
+ dynn_title_ou: "Оу" #瓯
+ dynn_title_ou_adj: "Оуск" #瓯
+ dynn_title_qi_guannei: "Ци" #歧
+ dynn_title_qi_guannei_adj: "Циск" #歧
+ dynn_title_qiong: "Цюн" #琼
+ dynn_title_qiong_adj: "Цюнск" #琼
+ dynn_title_xu_shandong: "Сюй" #徐
+ dynn_title_xu_shandong_adj: "Сюйск" #徐
+ dynn_title_yuan_ferghana: "Юань" #宛
+ dynn_title_yuan_ferghana_adj: "Юаньск" #宛
+ dynn_title_yue_2: "Юэ" #粤
+ dynn_title_yue_2_adj: "Юэск" #粤
+ dynn_title_you: "Ю" #幽
+ dynn_title_you_adj: "Юск" #幽
+ dynn_title_he: "Хэ" #和
+ dynn_title_he_adj: "Хэск" #和
+ dynn_title_zhuang_li: "Ли" #历
+ dynn_title_zhuang_li_adj: "Лиск" #历
+ dynn_title_bo: "Бо" #蕃
+ dynn_title_bo_adj: "Боск" #蕃
+ dynn_title_zhen: "Чжэнь" #震
+ dynn_title_zhen_adj: "Чжэньск" #震
+ dynn_title_li: "Ли" #理
+ dynn_title_li_adj: "Лиск" #理
+ dynn_title_fu: "Фу" #福
+ dynn_title_fu_adj: "Фуск" #福
+ dynn_title_han_korea: "Хань" #韩
+ dynn_title_han_korea_adj: "Ханьск" #韩
+ dynn_title_miao: "Мяо" #苗
+ dynn_title_miao_adj: "Мяоск" #苗
+ dynn_title_luo: "Ло" #罗
+ dynn_title_luo_adj: "Лоск" #罗
+ dynn_title_le: "Лэ" #泐
+ dynn_title_le_adj: "Лэск" #泐
+ dynn_title_zhan: "Чжань" #占
+ dynn_title_zhan_adj: "Чжаньск" #占

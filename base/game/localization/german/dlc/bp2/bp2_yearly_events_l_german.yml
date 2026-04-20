@@ -1,7 +1,7 @@
 ﻿l_german:
  #Pet Rock events
  pet_rock.0001.t: "Trittsteine"
- pet_rock.0001.desc: " #EMP Plink!#!\n\nIch schlendere dahin, als mein Schuh gegen einen kleinen Stein stößt. Der Kiesel prallt klappernd von ein paar seiner Artgenossen ab und kommt in einiger Entfernung von mir zum Liegen. Von einem Anflug von Neugierde gepackt hebe ich ihn auf. Sein zerklüftetes [ROOT.Char.Custom('RockColor')|l]es Äußeres fühlt sich sonderbar warm an.\n\nPlötzlich weiß ich genau, was er will. Der Stein strahlt eine #EMP freundliche#! Aura aus. Als ich auf ihn hinunterschaue, fühlt sich sein Gewicht in meiner Handfläche beruhigend und anregend zugleich an."
+ pet_rock.0001.desc: " #EMP Plink!#!\n\nIch schlendere dahin, als mein Schuh gegen einen kleinen Stein stößt. Der Kiesel prallt klappernd von ein paar seiner Artgenossen ab und kommt in einiger Entfernung von mir zum Liegen. Von einem Anflug von Neugierde gepackt hebe ich ihn auf. Sein zerklüftetes Äußeres fühlt sich sonderbar warm an.\n\nPlötzlich weiß ich genau, was er will. Der Stein strahlt eine #EMP freundliche#! Aura aus. Als ich auf ihn hinunterschaue, fühlt sich sein Gewicht in meiner Handfläche beruhigend und anregend zugleich an."
  pet_rock.0001.a: "Wir werden beste Freunde werden!"
  pet_rock.0001.a.tt: "Eure gemeinsamen Abenteuer beginnen!"
  pet_rock.0001.b: "Was denke ich denn da gerade?"

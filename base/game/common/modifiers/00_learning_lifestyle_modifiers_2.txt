@@ -1,5 +1,5 @@
 ﻿hallucinogenic_visions_terrifying_modifier = {
-	icon = magic_positive
+	icon = magic_mixed
 	learning = 6
 	health = -2
 }

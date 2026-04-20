@@ -11,7 +11,7 @@
  tour_travel.3001.a.drunkard: "#EMP 我做了什么？#!"
  tour_travel.3001.b: "不，我不会和下流、肮脏的农民结婚。"
  tour_travel.3002.t: "征服的代价"
- tour_travel.3002.desc: "“我的兄弟，我的父亲，我的丈夫都死在了#EMP 你的战争#!中。”一个农民在村庄广场的另一边对我尖叫。\n\n“[battle_memory.GetSecondPerspectiveDescription]的时候，对你来说是一场胜利，但对我来说，那是我家三代人都死去的日子。”\n\n她的愤怒变成了眼泪，她接下来说的话我几乎听不清。\n\n“你不配当我的[ROOT.Char.GetTitleAsNameNoTooltip|l]。”"
+ tour_travel.3002.desc: "“我的[widow_peasant.Custom2( 'RelationToMeShort', widow_father )]，我的[widow_peasant.Custom2( 'RelationToMeShort', widow_husband )]，我的[widow_peasant.Custom2( 'RelationToMeShort', widow_son )]都死在了#EMP 你的战争#!中。”一个农民在村庄广场的另一边对我尖叫。\n\n“[battle_memory.GetSecondPerspectiveDescription]的时候，对你来说是一场胜利，但对我来说，那是我家三代人都死去的日子。”\n\n[widow_peasant.GetHerHis|U]的愤怒变成了眼泪，[widow_peasant.GetSheHe]接下来说的话我几乎听不清。\n\n“你不配当我的[ROOT.Char.GetTitleAsNameNoTooltip|l]。”"
  tour_travel.3002.a: "“我无法让他们起死回生，不过这些钱或许能帮上你。”"
  tour_travel.3002.b: "“这是我愿意做出的牺牲。”"
  tour_travel.3003.t: "恶心的生物"

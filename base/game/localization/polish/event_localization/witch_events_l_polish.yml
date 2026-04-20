@@ -44,6 +44,7 @@
  witch.2004.discovered.desc: "[target.GetFirstNameNoTooltip] mruży oczy. – Czy to ty, [ROOT.Char.GetFirstNameNoTooltip]? „[owner.GetFaith.WitchGodName|U]”? Co to za bzdury?!"
  witch.2004.not_discovered.desc: "[target.GetFirstNameNoTooltip] zwleka się z łóżka, sięgając po coś na szafce nocnej. Prawdopodobnie nic dobrego. – Nie chcę mieć nic wspólnego z tobą ani z twoimi kłamstwami! Odejdź, demonie! – krzyczy [target.GetFirstNameNoTooltip], a ja nie ociągam się z posłuszeństwem."
  witch.2004.a: "Pomyłka, przepraszam!"
+ witch.2005.toast: "Wykryto wiedźmę"
  witch.2005.end.desc: "– [ROOT.Char.GetFirstNameNoTooltip], czy to ty? „[owner.GetFaith.WitchGodName|U]”? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] usłyszy o twoim bluźnierstwie!"
  witch.2005.a: "Proszę, to nie jest to, co myślisz!"
  witch.2005.a.tt: "Właściwie, to może być #EMP dokładnie#! to, co [target.GetSheHe] myśli…"

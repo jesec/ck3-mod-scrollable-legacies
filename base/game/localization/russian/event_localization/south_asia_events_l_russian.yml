@@ -105,7 +105,7 @@
  south_asia.0050.desc: "Империя Маурьев, Кушанское царство, государство Гуптов, Пала и Пратихара… За тысячи лет на Индо-Гангской равнине сменилось немало великих империй. Зачастую их правителями были иноземцы, однако иные державы древности основывали и выходцы из самого Индостана.\n\nИ пусть династия [founder.GetHouse.GetNameNoTooltip] не настолько древняя, мы сумели создать собственное царство там, где потерпели неудачу все великие династии прошлого. Пришло время построить настоящую империю с полноценным государственным аппаратом, способным обуздать бесчисленное множество племен и конфессий, которые населяют эти земли."
  south_asia.0050.a: "Новая столица будет в Дели!"
  south_asia.0050.b: "Центром империи станет Лахор."
- south_asia.0050.c: "[ROOT.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] — вот будущее сердце империи."
+ south_asia.0050.c: "[founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] — вот будущее сердце империи."
  south_asia.0051.t: "[founder.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip]ий султанат"
  south_asia.0051.desc: "До нас дошли вести, что династия [founder.GetHouse.GetNameNoTooltip] заметно укрепила свою власть над Индо-Гангской равниной. На руинах индуистских и буддийских династий былых веков возникла новая исламская империя.\n\n[founder.GetFullName] — так теперь величает себя [founder.GetFirstNameNoTooltip] — [Select_CString(founder.IsFemale, 'провозгласила', 'провозгласил' )] своей столицей город [founder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. [Select_CString(founder.IsFemale, 'Она', 'Он' )] не скрывает своего стремления завладеть всей Индией — к вящей радости подданных и на страх соседям."
  south_asia.0051.a: "$middle_europe_decisions.0016.a$"

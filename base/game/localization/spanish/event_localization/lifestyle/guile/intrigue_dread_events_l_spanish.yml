@@ -206,10 +206,10 @@
  tooltip.intrigue_dread.2001.c.duel_failure: "[loved_one.GetFirstName] te desafía abiertamente"
  intrigue_protected_by_loved_one_modifier: "Protegido por un ser amado"
  intrigue_protected_by_loved_one_modifier_desc: "Esta persona tiene un ser querido que haría #EMP lo que fuera#! para protegerla."
- intrigue_defied_loved_one_opinion: "Desafió a un ser amado"
+ intrigue_defied_loved_one_opinion: "Desafío a un ser amado"
  #Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t: "Rumores sobre [family_member.GetFirstNameNoTooltip]"
- intrigue_dread.2101.desc.intro: "«Esos rumores asquerosos sobre vuestr[family_member.Custom('ES_OA')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]… Los he rastreado hasta su origen». [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] palmea un fajo de cartas.\n\nLas misivas demuestran que [hater.GetName] ha estado intentando ensuciar el buen nombre de [family_member.GetFirstName]."
+ intrigue_dread.2101.desc.intro: "«Esos rumores asquerosos sobre vuestr[family_member.Custom('ES_OA')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))], [family_member.Custom('ES_ElLa')] [family_member.GetTitledFirstName|l]… Los he rastreado hasta su origen». [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] palmea un fajo de cartas.\n\nLas misivas demuestran que [hater.GetName] ha estado intentando ensuciar el buen nombre de [family_member.GetFirstName]. "
  intrigue_dread.2101.desc.failed_assassination: "¡Incluso acusa a [family_member.GetFirstName] de intentar matar[hater.GetHerHim]!"
  intrigue_dread.2101.desc.committed_adultery: "¡Afirma que [family_member.GetFirstName] fue un[family_member.Custom('ES_XA')] [family_member.GetWifeHusband] infiel, y relata historias escabrosas sobre [family_member.GetSheHe]!"
  intrigue_dread.2101.desc.bullied_me: "Afirma que [family_member.GetFirstName] ha llevado la semilla del mal en su interior desde la infancia, cuando acosó a [hater.GetNameNoTooltip] con saña."
@@ -267,7 +267,7 @@
  intrigue_doing_stewards_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_marshals_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_court_chaplains_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
- intrigue_position_is_safe_opinion: "Me aseguró que mi puesto está a salvo"
+ intrigue_position_is_safe_opinion: "Garantizó la seguridad de mi puesto"
  #Your court thinks you're soft, by Luke Bean
  intrigue_dread.2301.t: "Mostrarles quién eres"
  intrigue_dread.2301.desc.a: "«¡Qué fortuna la nuestra de tener un ejemplo de [ROOT.Char.Custom('GetCourtOwner')] gentil, un modelo de compasión y pureza!». La sonrisita de [smirking_courtier.GetName] flota ante mí. «¡Es una bendición vivir en una [ROOT.Char.Custom('GetCourt')] donde estamos libres del miedo!»."

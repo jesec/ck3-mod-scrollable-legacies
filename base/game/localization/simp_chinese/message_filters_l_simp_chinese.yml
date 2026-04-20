@@ -105,6 +105,8 @@
  message_filter_house_unity_stage_desc: "你的[house_unity_level|E]改变了"
  message_filter_dynasty_child_of_age: "@dynasty_icon_alt!成年"
  message_filter_dynasty_child_of_age_desc: "你[dynasty|E]的一名[child|E]在你的[court|E]里成年"
+ message_filter_child_of_age: "@child_icon!你的孩子成年"
+ message_filter_child_of_age_desc: "你的一个[Concept('children', '孩子')|E]成年了"
  #DEATH
  message_filter_death_family: "@death_icon!至亲死亡"
  message_filter_death_family_desc: "一位[close_family|E]死亡了"
@@ -297,6 +299,10 @@
  message_filter_accolade_rank_desc: "拥有的一个[accolade|E]的等级改变了"
  message_filter_accolade_succession: "@accolade_icon!勋号骑士继承"
  message_filter_accolade_succession_desc: "你的[acclaimed_knight|E]改变了"
+ message_filter_accolade_eligibility: "@accolade_icon!骑士适格[accolade_type|E]"
+ message_filter_accolade_eligibility_desc: "一名[knight|E]可以被授予新[accolade_type|E]的[accolade|E]"
+ message_filter_squire_training: "@accolade_icon![acclaimed_knight|E]训练了扈从"
+ message_filter_squire_training_desc: "一名[courtier|E]的能力由于[accolade|E]的[accolade_squires|E]资质提高"
  #ACTIVITY
  message_filter_tournament_arrival: "@tournament_icon!统治者抵达"
  message_filter_tournament_arrival_desc: "一位重要[ruler|E]作为[activity_guest|E]抵达你的[GetActivityType( 'activity_tournament' ).GetName]"

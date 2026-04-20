@@ -1,7 +1,7 @@
-version="1.0.1"
+version="1.0.2"
 tags={
 	"Graphics"
 	"Utilities"
 }
 name="Scrollable Legacies"
-supported_version="1.18.*"
+supported_version="1.19.*"

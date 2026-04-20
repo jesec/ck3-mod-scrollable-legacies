@@ -138,7 +138,7 @@ albanian = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_swords_for_hire
-		tradition_hill_dwellers
+		tradition_mountain_homes
 		tradition_wedding_ceremonies
 	}
 	

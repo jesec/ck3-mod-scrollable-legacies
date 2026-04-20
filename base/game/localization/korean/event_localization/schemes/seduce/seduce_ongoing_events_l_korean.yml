@@ -471,7 +471,7 @@
  seduce_ongoing.5301.c: "이렇게 멋들어진 저녁을 망치고 싶지는 않은데."
  seduce_ongoing.5301.c.tt: "#F [THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))](이)가 사라지진 않을 테니, 다른 기회가 찾아오리라고 생각함#!"
  seduce_ongoing.5301.success_tt: "[target.GetFirstName]가 내 유혹에 화답할 경우:"
- seduce_ongoing.5302.desc: "가슴에 뚫린 구멍이 채워지는 것 같은 기분이다. 처음엔 딱히 신경도 쓰지 않았는데. 함께 벽난로 앞에 앉아 있던  [owner.GetFirstName](이)가 내 손을 잡았다. [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))](이)가 베푸는 격려라고 하기에는 너무 진지했다.\n\n[target.GetHerHis] 맥박이 욕망에 젖어 빠르게 약동하는 게 느껴졌다."
+ seduce_ongoing.5302.desc: "가슴에 뚫린 구멍이 채워지는 것 같은 기분이다. 처음엔 딱히 신경도 쓰지 않았는데. 함께 벽난로 앞에 앉아 있던  [owner.GetFirstName](이)가 내 손을 잡았다. [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))](이)가 베푸는 격려라고 하기에는 너무 진지했다.\n\n[owner.GetHerHis] 맥박이 욕망에 젖어 빠르게 약동하는 게 느껴졌다."
  seduce_ongoing.5302.a: "내가 느끼는 감정이 잘못된 것은 아닐 거야."
  seduce_ongoing.5302.b: "관심은 기쁘네요, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))]. 하지만 거절할게요."
  seduce_ongoing.5303.desc: "[target.GetFirstName](은)는 손을 잡아도 미동조차 하지 않았다. 그게 무슨 뜻인지는 우리 모두가 알고 있는데도 말이다. 대화가 이어질수록 [target.GetHerHis] 맥박이 빨라지는 것이 느껴진다. 손에 땀이 난다. 숨이 얕아진다. 그리고...\n#EMP 방금 뭐였지?#! 아, 그냥 하인이었군.\n\n[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))](와)과 나는 핑계를 대고는 서로 멀찌감치 떨어진 채로 자리를 벗어났다."

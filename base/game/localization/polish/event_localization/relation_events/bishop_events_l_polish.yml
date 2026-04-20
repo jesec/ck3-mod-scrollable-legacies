@@ -1,6 +1,8 @@
 ﻿l_polish:
  bishop.1001.opening: "[bishop.Custom2('AppropriateGreeting', ROOT.Char)]"
- bishop.1001.desc: "Moim obowiązkiem jest poinformowanie Cię, że przedstawiono niezbite dowody świadczące o tym, iż Twoje małżeństwo z [spouse.GetTitledFirstName] jest związkiem pomiędzy krewnymi. Ta informacja pozostanie między nami, jeśli natychmiast zakończysz ten niegodziwy związek."
+ bishop.1001.desc: "Mam obowiązek poinformować Cię, iż przedstawiono niezbite dowody pokrewieństwa między tobą a poślubioną przez Ciebie osobą znaną jako [spouse.GetTitledFirstName].\n\n"
+ bishop.1001.desc.actually_incestuous: "Ta informacja pozostanie między nami, jeśli natychmiast zakończysz ten niegodziwy związek."
+ bishop.1001.desc.made_up: "Ten… #EMP niepodważalny#! fakt pozostanie między nami, jeśli natychmiast zakończysz ten #EMP jawnie#! niegodziwy związek."
  bishop.1001.a: "Oczywiście, [bishop.GetTitledFirstNameNoTooltip]."
  bishop.1001.a.tt: "@warning_icon! #X Ty i [spouse.GetUINameNotMe] rozwiedziecie się#!"
  bishop.1001.b: "Nasze małżeństwo nie zostanie rozdzielone przez tak oczywiste kłamstwo!"

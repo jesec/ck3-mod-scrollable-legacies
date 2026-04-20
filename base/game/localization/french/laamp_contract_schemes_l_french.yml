@@ -339,7 +339,7 @@
  laamp_base_6031_request: "Ce [task_contract|El] requiert que vous exécutiez un [scheme|El] [GetScheme('laamp_base_6031_contract_scheme').GetTypeName]"
  laamp_base_6031_desc_title: "Si vous êtes robuste, prêtez attention !"
  laamp_base_6031_desc: "Le pont de [TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier] reste non protégé. Une démonstration de force est nécessaire pour continuer à effrayer les bandits. [TaskContract.GetEmployer.Custom('FR_le_Char_Pi')|U][TaskContract.GetEmployer.GetTitledFirstNameNoTooltip] saura récompenser quiconque les mettra en fuite."
- laamp_base_contract_schemes.6031.t: "$laamp_base_6021_contract_scheme$"
+ laamp_base_contract_schemes.6031.t: "$laamp_base_6031_contract_scheme$"
  laamp_base_contract_schemes.6031.desc: "[employer.Custom('FR_le_Char_Pi')|U][employer.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('employer'))] en traversant le camp.\n\n« Quelle belle journée nous avons aujourd’hui, commence-t-[employer.GetSheHe], l’occasion parfaite de montrer à ces voyous la valeur d’un véritable $knight_culture_player_no_tooltip|l$. Un pont mène en [ROOT.Char.GetCurrentLocation.GetName], voyez-vous. Toutes sortes de mécréants, voyous et autres imbéciles y traînent. »\n\n« Quelqu’un devrait s’en occuper. »"
  laamp_base_contract_schemes.6031.a: "J’y briserai trois cents lances !"
  laamp_base_contract_schemes.6031.b: "Cela nécessitera quelques jours."

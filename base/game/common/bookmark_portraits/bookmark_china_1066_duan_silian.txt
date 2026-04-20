@@ -117,7 +117,7 @@ bookmark_china_1066_duan_silian={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
 		clothes={ "ccp9_dal_nob_01_clothes" 91 "most_clothes" 0 }
-    	headgear={ "ccp9_dali_high_nobility_headgear" 166 "no_headgear" 0 }
+    	headgear={ "ccp9_high_nobility_headgear" 166 "no_headgear" 0 }
  		gene_balding_hair_effect={ "baldness_stage_1" 255 "no_baldness" 0 }
  }
 	entity={ 807438772 807438772 }

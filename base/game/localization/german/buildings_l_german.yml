@@ -2596,3 +2596,7 @@
  building_type_mozu_tombs_desc: "$building_mozu_tombs_desc$"
  building_mozu_tombs: "Mozu-Grabmäler"
  building_mozu_tombs_desc: "In den schlüssellochförmigen Hügelgräbern von Mozu sollen alte Kaiser ruhen. Für die Schiffe in der nahen Bucht sind sie eine wichtige Landmarke sowie ein Andenken an vergangene Zeiten."
+ building_type_trosky_castle_01: "$building_trosky_castle_01$"
+ building_type_trosky_castle_01_desc: "$building_trosky_castle_01_desc$"
+ building_trosky_castle_01: "Burg Trosky"
+ building_trosky_castle_01_desc: "Die Burg Trosky ist zwischen zwei Basaltgesteinsformationen eines lange erloschenen Vulkans errichtet. Die Burg hat ihren Namen von der Form der Felsen, die an die Ruinen einer eingestürzten Burg erinnert."

@@ -263,3 +263,7 @@
  travel_start_event.1120.pro_hegemon: "The [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip] will guide us!"
  travel_start_event.1120.pro_hegemon.tt: "You join the [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]"
  travel_start_event.1120.bye: "I have no desire to join any of these."
+ 
+ travel_starts: "Travel Begins"
+ travel_destination_activity: "You are going to the [location.GetName], for [host.GetInvolvedActivity.GetName]"
+ travel_destination_location: "You are going to the [location.GetName]"

@@ -12,15 +12,19 @@
 	using = Window_Background
 	using = Window_Decoration
 
-	oncreate = "[BindTabsContext]"
-	oncreate = "[PdxGuiTabs.AddTab( 'overview' )]"
-	oncreate = "[PdxGuiTabs.AddTab( 'appointment' )]"
-
 	state = {
 		name = _show
 		using = Animation_FadeIn_Quick
 		position_x = -610
 		on_start = "[PdxGuiTabs.SetTabByKey( SelectLocalization( GetVariableSystem.Exists( 'AdminVassalDetailAppointment' ), 'appointment', 'overview' ) )]"
+	}
+
+	state = {
+		name = on_create
+		trigger_on_create = yes
+
+		on_start = "[GetVariableSystem.Set( 'overview', 'true'  )]"
+		on_start = "[GetVariableSystem.Clear( 'appointment' )]"
 	}
 
 	state = {
@@ -142,23 +146,68 @@
 					}
 				}
 
-				hbox_tab_buttons = {
+				### Tabs
+				hbox = {
 					name = "province_window_tabs"
+					layoutpolicy_horizontal = expanding
 
-					blockoverride "tab_name"
-					{
-						text = "[PdxGuiTabItem.LocalizeTab( 'admin_vassal_tab' )]"
+					button_tab = {
+						name = "overview_tab"
+						shortcut = "tab_1"
+
+						down = "[GetVariableSystem.Exists( 'overview' )]"
+
+						onclick = "[GetVariableSystem.Set( 'overview', 'true' )]"
+						onclick = "[GetVariableSystem.Clear( 'appointment' )]"
+
+						alwaystransparent = "[GetVariableSystem.Exists( 'overview' )]"
+
+						blockoverride "tab_label"
+						{
+							text = "admin_vassal_tab_overview"
+							max_width = 220
+						}
+
+						blockoverride "icon_visible" {}
+
+						blockoverride "tab_icon"
+						{
+							texture = "gfx/interface/icons/flat_icons/outliner.dds"
+							down = "[GetVariableSystem.Exists( 'overview' )]"
+						}
 					}
 
-					blockoverride "on_click"
-					{
+					button_tab = {
+						name = "appointment_tab"
+						shortcut = "tab_2"
+
+						down = "[GetVariableSystem.Exists( 'appointment' )]"
+
+						onclick = "[GetVariableSystem.Set( 'appointment', 'true' )]"
+						onclick = "[GetVariableSystem.Clear( 'overview' )]"
+
+						alwaystransparent = "[GetVariableSystem.Exists( 'appointment' )]"
+
+						blockoverride "tab_label"
+						{
+							text = "admin_vassal_tab_appointment"
+							max_width = 220
+						}
+
+						blockoverride "icon_visible" {}
+
+						blockoverride "tab_icon"
+						{
+							texture = "gfx/interface/icons/flat_icons/flat_appointment_score.dds"
+							down = "[GetVariableSystem.Exists( 'appointment' )]"
+						}
 					}
 				}
 
 				## Appointment Tab
 				vbox = {
 					name = "appointment"
-					visible = "[PdxGuiTabs.IsTabSet( 'appointment' )]"
+					visible = "[GetVariableSystem.Exists( 'appointment' )]"
 					layoutpolicy_horizontal = expanding
 
 					using = Animation_Tab_Switch
@@ -308,7 +357,7 @@
 				## Overview Tab
 				vbox = {
 					name = "overview"
-					visible = "[PdxGuiTabs.IsTabSet( 'overview' )]"
+					visible = "[GetVariableSystem.Exists( 'overview' )]"
 					layoutpolicy_horizontal = expanding
 
 					using = Animation_Tab_Switch
@@ -708,7 +757,7 @@ types AdminVassalDetails
 
 					text_single = {
 						name = "character_relation_to_you"
-						max_width = 360
+						max_width = 323
 						layoutpolicy_horizontal = expanding
 
 						text = "[Character.GetRelationToString( GetPlayer )]"

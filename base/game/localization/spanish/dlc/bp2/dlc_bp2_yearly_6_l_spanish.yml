@@ -73,7 +73,7 @@
  bp2_yearly.6010.desc: "«#EMP Tengo muchos amigos, pero pocos regalos suyos…#!», canta [sad_boi.GetFirstName], con la voz quebrada por el sentimiento.\n\nMi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))] tira su instrumento a un lado, gritando: «¡Estoy hart[sad_boi.Custom('ES_OA')] de [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]!"
  bp2_yearly.6010.adult: "Carece de toda comodidad».\n\nMe lanza una mirada fulminante y añade: «Esta canción será mi súplica de ayuda para superar este infeliz cautiverio. Algunos dineros… si mi gente aún se preocupa por mí…»."
  bp2_yearly.6010.child: "Aquí soy tan infeliz.»\n\nMirándome con lágrimas en los ojos, añade: «¡Escuchar esta canción conmoverá a mi familia! Me enviarán algo para hacer mi #EMP exilio#! soportable, si… si aún se preocupan por mí…»."
- bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U] retoma la triste melodía, con la lejanía de [home_court_liege.GetPrimaryTitle.GetNameNoTier] en sus ojos."
+ bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U] retoma la triste melodía, con la lejanía del hogar en sus ojos."
  bp2_yearly.6010.a: "Sí, veamos cuánta «caridad» reúnen…"
  bp2_yearly.6010.a.tt: "… para mi bolsa."
  bp2_yearly.6010.b: "¡¿Infeliz?! #EMP ¿Puedo ayudar?#!"

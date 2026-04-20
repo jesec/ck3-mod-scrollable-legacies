@@ -401,7 +401,7 @@
 11688 = {	#Heilonglin
 	culture = mohe
 	religion = tengri_pagan
-	holding = herder_holding
+	holding = nomad_holding
 	1066.1.1 = {
 		culture = shiwei
 		holding = nomad_holding

@@ -2,7 +2,7 @@
  #Common Islam Localization
  islam_religion: "Islam"
  islam_religion_adj: "Muzułmańska"
- islam_religion_adherent: "Muzułmanin"
+ islam_religion_adherent: "muzułmanin"
  islam_religion_adherent_plural: "muzułmanie"
  islam_religion_desc: "Islam jest ostatnim objawieniem wiary Abrahama, kierowanej słowem Bożym, które zostało objawione prorokowi Mahometowi. Koncentruje się na dobrym życiu w służbie jednemu i jedynemu miłosiernemu Bogu."
  islam_high_god_name: "Allah"

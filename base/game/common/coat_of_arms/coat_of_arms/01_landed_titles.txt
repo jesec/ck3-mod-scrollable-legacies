@@ -6182,6 +6182,46 @@ k_switzerland = {
 	}
 }
 
+k_carantania = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=blue
+	colored_emblem={
+		color1=yellow
+		texture="ce_crown_random.dds"
+		instance={
+			position={ 0.500000 0.150000 }
+			scale={ 0.190000 0.200000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=red
+		texture="ce_crescent_bone_checkered.dds"
+		instance={
+			position={ 0.500000 0.380000 }
+			scale={ 0.500000 0.500000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=red
+		color3=white
+		texture="ce_eagle.dds"
+		instance={
+			position={ 0.500000 0.560000 }
+			depth=2.010000
+		}
+
+	}
+}
+
+
 ## Existing entries, no change
 
 # I like those, they are more unique than the attributed arms for Widukind and the saxons (horse salient)
@@ -26042,6 +26082,50 @@ k_mann_the_isles_alternate = {
 	}
 }
 
+k_cumbria = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	colored_emblem={
+		color1=blue
+		color2=red
+		color3=black
+		texture="ce_lion_rampant_crown.dds"
+	}
+
+}
+
+
+d_cumbria = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=blue
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_checky_04.dds"
+		instance={
+			position={ 0.500000 1.050000 }
+			depth=1.010000
+		}
+
+		instance={
+			depth=2.010000
+		}
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=red
+		texture="ce_ordinary_fess_5.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+		}
+
+	}
+}
+
+
 #### FP1
 # NB includes new modified for those existing entries d_the_isles, c_isle_of_man, c_varmland, c_narke, c_upland (all removed from above to keep things clean)
 
@@ -31547,7 +31631,7 @@ d_yideng = {
 
 	colored_emblem={
 		color1=white
-		texture="ce_seal_name_ding_589a.dds"
+		texture="ce_seal_name_ding_5b9a.dds"
 		instance={
 			position={ 0.500000 0.480000 }
 			scale={ 0.700000 0.700000 }
@@ -33563,6 +33647,122 @@ d_yinsheng = {
 			depth=1.010000
 		}
 	}
+}
+e_carthage = { 
+	pattern="pattern__solid_designer.dds"
+	color1=purple
+	color2=white
+	color3=green
+
+	colored_emblem={
+		color1=white
+		texture="ce_tamgha_regular_circle_frame.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_tanit.dds"
+		instance={
+			scale={ 0.620000 0.620000 }
+			depth=1.010000
+		}
+
+	}
+}
+k_carthage = {
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 203 189 174 }
+	color2=white
+	color3=green
+
+	colored_emblem={
+		color1=green
+		texture="ce_tanit.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.580000 0.580000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=green
+		texture="ce_block_04.dds"
+		instance={
+			position={ 0.520000 0.850000 }
+		}
+
+		instance={
+			position={ 0.500000 0.170000 }
+			depth=2.010000
+		}
+
+	}
+}
+k_tripolitania = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 55 26 89 }
+	color2=white
+	color3=black
+	color4=blue
+
+	colored_emblem={
+		color1=white
+		color2=blue
+		texture="ce_religion_islam_asharism.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+			rotation=271
+		}
+	}
+}
+k_mauretania = {
+	pattern="pattern_horizontal_split_02.dds"
+	color1=rgb { 148 70 27 }
+	color2=rgb { 220 208 189 }
+	color3=blue
+
+	colored_emblem={
+		color1=rgb { 220 207 183 }
+		texture="ce_tanit.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ 0.510000 0.510000 }
+		}
+	}	
+}
+k_carthago_nova = {
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 5 29 53 }
+	color2=white
+	color3=green
+
+	colored_emblem={
+		color1=white
+		texture="ce_block_04.dds"
+		instance={
+			position={ 0.520000 0.850000 }
+		}
+		instance={
+			position={ 0.500000 0.170000 }
+			depth=2.010000
+		}
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_tanit.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.580000 0.580000 }
+			depth=1.010000
+		}
+	}	
 }
 
 e_jin = {

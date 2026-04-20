@@ -23,7 +23,7 @@
  ach_balanced_budget_modifier_desc: "Ta postać czerpie korzyści z bardzo dobrego zarządzania finansami."
  ach_yearly_events.1002.t: "Armia szczurów"
  ach_yearly_events.1002.desc: "Jako [Concept( 'chancellor', GetPlayer.GetCouncillorPosition( 'councillor_chancellor' ).GetPositionName )|l] miejsca znanego jako [liege.GetPrimaryTitle.GetNameNoTier], mam obowiązek przeciwstawiać się krnąbrnym wasalom i dopilnować, by nie padło ono ofiarą plugastwa, które się w nim szerzy…\n\nFrakcja o nazwie [faction.GetName] gromadzi swoje siły, a opozycjoniści, tacy jak [faction_member.GetName], podróżują do najdalszych zakątków kraju i przekonują do siebie podatnych na wpływy ludzi.\n\n– [unjoined_vassal.GetPrimaryTitle.GetNameNoTier] to miejsce silne i głodne – przekonuje zdrajca swojego zwierzchnika, którym jest [unjoined_vassal.GetTitleAsNameNoTooltip] [unjoined_vassal.GetFirstName] – trzeba zaufać tej sile i temu głodowi… Musimy też zaufać sobie."
- ach_yearly_events.1002.a: "Należy wyizolować przyczynę robactwa."
+ ach_yearly_events.1002.a: "Należy wyizolować szkodniki."
  ach_yearly_events.1002.b: "$ach_yearly_events.1002.a$"
  ach_yearly_events.1002.b.success: "Odrzucasz ideę buntu"
  ach_yearly_events.1002.b.failure: "Twoja szydercza krytyka zawodzi"

@@ -1,5 +1,6 @@
-﻿l_english:
+﻿l_english: 
  sponsor_inspiration_debug:0 "Sponsor Inspiration"
+ complete_inspiration_debug: "Complete Inspiration"
 
  I_CAN_SPONSOR_OWN_INSPIRATION:0 "I can sponsor my own inspiration"
  NOT_I_CAN_SPONSOR_OWN_INSPIRATION:0 "I can #bold not#! sponsor my own inspiration"

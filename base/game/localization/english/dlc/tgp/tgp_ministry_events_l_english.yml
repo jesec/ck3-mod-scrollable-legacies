@@ -13,7 +13,7 @@
  tgp_china_ministry.0004.a: "Consider [target_title.GetNameNoTierNoTooltip] to be under the Heaven."
  grand_campaign_added_war_target_tt: "[target_title.GetName] was added as a contested [title|E] and war goal to the #V [grand_campaign_war.GetName]#! [war|E]"
  tgp_china_ministry.0005.t: "$great_project_type_grand_campaign_project$: Sunset"
- tgp_china_ministry.0005.desc_won: "[great_project.GetName] was a great success. The lands of [target_kingdom.GetName] are now an integral part of the [GetTitleByKey('h_china').GetName]\n\n"Expected outcome, but a reason to celebrate nonetheless." The emperor rejoices, "Let the people know that the [ROOT.Char.GetPrimaryTitle.GetName] is the greates under the Heaven!""
+ tgp_china_ministry.0005.desc_won: "[great_project.GetName] was a great success. The lands of [target_kingdom.GetName] are now an integral part of the [GetTitleByKey('h_china').GetName]\n\n"Expected outcome, but a reason to celebrate nonetheless." The emperor rejoices, "Let the people know that the [ROOT.Char.GetPrimaryTitle.GetName] is the greatest under the Heaven!""
  tgp_china_ministry.0005.desc_lost: "[great_project.GetName] was a terrible disaster. The lands of [target_kingdom.GetName] resisted the might of [GetTitleByKey('h_china').GetName]\n\n"Unexpected outcome." The [owner.GetTitleAsName] holds [owner.GetHerHis] anger, "Let the people know that the [ROOT.Char.GetPrimaryTitle.GetName] brought a great shame upon the Heavens!""
  tgp_china_ministry.0005.a_win: "Great effort!"
  tgp_china_ministry.0005.a_lost: "The whole [GetTitleByKey('h_china').GetNameNoTooltip] should be ashamed."

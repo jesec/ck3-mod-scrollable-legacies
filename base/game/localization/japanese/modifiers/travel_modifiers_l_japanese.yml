@@ -198,3 +198,5 @@
  whipped_soldiers_desc: "この領分の連隊は日々訓練を行っている。"
  reluctant_recruits: "やる気のない新兵"
  reluctant_recruits_desc: "この人物の厳しい、ときに命取りになる規律のため、新兵の徴兵には費用がかかる。"
+ intrepid_traveler_travel_modifier: "勇敢な旅人"
+ intrepid_traveler_travel_modifier_desc: "指導者の勇気に鼓舞され、一行は高揚した気分のまま旅を続けている。"

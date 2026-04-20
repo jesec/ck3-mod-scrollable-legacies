@@ -118,7 +118,7 @@
  may_gain_merit_desc: "Kann [merit_i][merit|E] erhalten"
  cannot_compete_for_lower_rank_titles_tt: "[governors|E] können nicht um [titles|E] konkurrieren, die im [title_tier|E] tiefer stehen als ihr derzeitiges [governorship|E]"
  tgp_is_above_retirement_age_law_not_set: "Es gibt kein [GetLawGroup('celestial_retirement_law').GetName]-[law|E]"
- tgp_is_above_retirement_age_5: "[GetLawGroup('celestial_retirement_law').GetName]-[law|E] ist „[GetLaw('celestial_retirement_law_5').GetName]“ und erlaubt keinen vorgezogenen Ruhestand"
+ tgp_is_above_retirement_age_5: "[GetLawGroup('celestial_retirement_law').GetName]-[law|E] ist „[GetLaw('celestial_retirement_law_5').GetName]“ und erlaubt den Ruhestand im beliebigen Alter"
  tgp_is_above_retirement_age_0: "[GetLawGroup('celestial_retirement_law').GetName]-[law|E] ist „[GetLaw('celestial_retirement_law_0').GetName]“ und erlaubt [Concept('governors', 'Statthaltern')|E] den Ruhestand, wenn sie älter als 50 Jahre sind"
  tgp_is_above_retirement_age_1: "[GetLawGroup('celestial_retirement_law').GetName]-[law|E] ist „[GetLaw('celestial_retirement_law_1').GetName]“ und erlaubt [Concept('governors', 'Statthaltern')|E] den Ruhestand, wenn sie älter als 60 Jahre sind"
  tgp_is_above_retirement_age_2: "[GetLawGroup('celestial_retirement_law').GetName]-[law|E] ist „[GetLaw('celestial_retirement_law_2').GetName]“ und erlaubt [Concept('governors', 'Statthaltern')|E] den Ruhestand, wenn sie älter als 70 Jahre sind"

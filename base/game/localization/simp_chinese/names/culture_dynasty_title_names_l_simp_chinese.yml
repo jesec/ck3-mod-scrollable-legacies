@@ -43,7 +43,7 @@
  dynn_title_min_adj: "闽"
  dynn_title_chu: "楚"
  dynn_title_chu_adj: "楚"
- dynn_title_liang: "梁"
+ dynn_title_liang: "梁" # 梁
  dynn_title_liang_adj: "梁"
  dynn_title_dai: "代"
  dynn_title_dai_adj: "代"
@@ -128,7 +128,7 @@
  dynn_title_quan: "权"
  dynn_title_quan_adj: "权"
  dynn_title_rui: "芮"
- dynn_title_rui_adj: "芮"
+ dynn_title_rui_adj: "芮" #芮
  dynn_title_ruo: "鄀"
  dynn_title_ruo_adj: "鄀"
  dynn_title_xi: "息"
@@ -145,3 +145,57 @@
  dynn_title_liao_adj: "辽"
  dynn_title_zou: "邹"
  dynn_title_zou_adj: "邹"
+ dynn_title_bao: "宝" #宝
+ dynn_title_bao_adj: "宝" #宝
+ dynn_title_cheng: "成" #成
+ dynn_title_cheng_adj: "成" #成
+ dynn_title_di: "翟" #翟
+ dynn_title_di_adj: "翟" #翟
+ dynn_title_guo: "虢" #虢
+ dynn_title_guo_adj: "虢" #虢
+ dynn_title_han_henan: "韩" #韩
+ dynn_title_han_henan_adj: "韩" #韩
+ dynn_title_ji_hebei: "冀" #冀
+ dynn_title_ji_hebei_adj: "冀" #冀
+ dynn_title_jiao: "交" #交
+ dynn_title_jiao_adj: "交" #交
+ dynn_title_kang: "康" #康
+ dynn_title_kang_adj: "康" #康
+ dynn_title_liang_west: "凉" #凉
+ dynn_title_liang_west_adj: "凉" #凉
+ dynn_title_ou: "瓯" #瓯
+ dynn_title_ou_adj: "瓯" #瓯
+ dynn_title_qi_guannei: "歧" #歧
+ dynn_title_qi_guannei_adj: "歧" #歧
+ dynn_title_qiong: "琼" #琼
+ dynn_title_qiong_adj: "琼" #琼
+ dynn_title_xu_shandong: "徐" #徐
+ dynn_title_xu_shandong_adj: "徐" #徐
+ dynn_title_yuan_ferghana: "宛" #宛
+ dynn_title_yuan_ferghana_adj: "宛" #宛
+ dynn_title_yue_2: "粤" #粤
+ dynn_title_yue_2_adj: "粤" #粤
+ dynn_title_you: "幽" #幽
+ dynn_title_you_adj: "幽" #幽
+ dynn_title_he: "和" #和
+ dynn_title_he_adj: "和" #和
+ dynn_title_zhuang_li: "历" #历
+ dynn_title_zhuang_li_adj: "历" #历
+ dynn_title_bo: "蕃" #蕃
+ dynn_title_bo_adj: "蕃" #蕃
+ dynn_title_zhen: "震" #震
+ dynn_title_zhen_adj: "震" #震
+ dynn_title_li: "理" #理
+ dynn_title_li_adj: "理" #理
+ dynn_title_fu: "福" #福
+ dynn_title_fu_adj: "福" #福
+ dynn_title_han_korea: "韩" #韩
+ dynn_title_han_korea_adj: "韩" #韩
+ dynn_title_miao: "苗" #苗
+ dynn_title_miao_adj: "苗" #苗
+ dynn_title_luo: "罗" #罗
+ dynn_title_luo_adj: "罗" #罗
+ dynn_title_le: "泐" #泐
+ dynn_title_le_adj: "泐" #泐
+ dynn_title_zhan: "占" #占
+ dynn_title_zhan_adj: "占" #占

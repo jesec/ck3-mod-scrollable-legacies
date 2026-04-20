@@ -471,7 +471,7 @@
  seduce_ongoing.5301.c: "破坏这样一个美好的夜晚氛围会成为我的奇耻大辱。"
  seduce_ongoing.5301.c.tt: "#F 还会有其他机会。我的[THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))]哪里也不会去。#!"
  seduce_ongoing.5301.success_tt: "如果[target.GetFirstName]回应了我的追求："
- seduce_ongoing.5302.desc: "气氛很好，虽然我一开始还没注意到，但是当我们坐在篝火前时，我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))][owner.GetFirstName]握紧了我的手，紧紧地，远超过[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))]的安全感。\n\n我能够感受到[target.GetHerHis]的心跳因为情欲愈发变快。"
+ seduce_ongoing.5302.desc: "气氛很好，虽然我一开始还没注意到，但是当我们坐在篝火前时，我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))][owner.GetFirstName]握紧了我的手，紧紧地，远超过[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))]的安全感。\n\n我能够感受到[owner.GetHerHis]的心跳因为情欲愈发变快。"
  seduce_ongoing.5302.a: "我拒绝相信我感受到的是错误的。"
  seduce_ongoing.5302.b: "这份注目让我受宠若惊，[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))]，但是我拒绝。"
  seduce_ongoing.5303.desc: "当我的手攥住[target.GetHersHis]的时，[target.GetFirstName]甚至没有一丁点畏惧，哪怕我们双方都知道这意味着什么。我能够感受到，随着谈话推进，[target.GetHerHis]的心跳在不断加快。我的手掌开始出汗，我的呼吸比之前要更浅——\n#EMP 那是什么？#!啊，只是一个仆人。\n\n我的[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))]和我找了个借口，然后离开了。分别离开。"

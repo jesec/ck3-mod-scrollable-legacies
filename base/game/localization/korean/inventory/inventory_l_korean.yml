@@ -255,5 +255,5 @@
  ARTIFACT_EFFECT_REQUIREMENT_TT: "[Artifact.GetCanBenefitPlayerDesc]"
  artifact_bowl: "그릇"
  artifact_plate: "접시"
- artifact_urn: "단지"
+ artifact_urn: "항아리"
  artifact_tun_barrel: "포도주통"

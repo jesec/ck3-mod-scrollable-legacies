@@ -63,7 +63,7 @@
  tgp_japan_general.9550.desc.fam: "\n\n私は家族と身を寄せ合う。"
  tgp_japan_general.9550.desc.end: "檻の中の鶏になり果てた我々に、刻一刻と狐たちが接近する。\n\n我ら[ROOT.Char.GetHouse.GetNameNoTooltip]一族は、どのようにして最期の瞬間と向き合えばいいのだろうか。"
  every_close_family_house_member_in_court: "あなたと[spouse|E]、[loser.GetShortUINamePossessive]の[court|E]にいる[close_family|E]の[house|E]の成員すべて"
- every_house_member_in_court: "[loser.GetShortUINamePossessive]の[spouse|E]および[loser.GetShortUINamePossessive]の[court|E]にいる[house|E]の成員すべて"
+ every_house_member_in_court: "[loser.GetShortUINamePossessive]の[spouses|E]とその[court|E]内のすべての[house|E]の成員"
  is_killed_by_you_and_you_kill_self: "@death_icon! [winner.GetShortUIName]の手によって名誉を失うことを避けるために自害する"
  tgp_japan_general.9550.a.alone: "不名誉な死に方はしない！"
  tgp_japan_general.9550.a.alone.flavor: "私は自害する"

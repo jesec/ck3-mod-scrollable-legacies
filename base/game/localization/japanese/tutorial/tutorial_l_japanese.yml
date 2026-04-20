@@ -187,7 +187,7 @@
  lesson_basics_web_of_titles_desc: "さあ、それでは#EMP ゲーム#!について説明していきましょう！すべての出来事は目の前の地図上で繰り広げられます。この世界は、大小さまざまな大きさの領土から構成されています。そして領土に紐づいた[titles|E]は数多くの[rulers|E]によって保持されています。\n\n#TUT $game_concept_titles$は精細な紋章によって表されており、地図上ではアイコンとして表示されています。\n\nあなたの[realm|E]を表しているアイコンは、あなたの[primary_title|E]のものです。主要称号とは、あなたが保持する称号のなかで最も重要かつ権威のある$game_concept_title$のことです。#!"
  #\n\n@coa_icon!"
  lesson_basics_realm: "国境 ($lesson_basics_map$)"
- lesson_basics_realm_desc: "あなたのキャラクターの肖像にカーソルを合わせると、[realm_capital|E]($cn_luimneach$)の上に表示されている紋章が光り輝き、あなたの[realm|E]全体がハイライトされます。マンスターはあなたの[primary_title|E]です。あなたの$game_concept_realm$の名称がマンスターなのは、それがあなたの主要称号だからです。\n\nあなたはほかにも、ソーモンド伯爵統治領を別の$game_concept_title$として保持しています。\n\n#TUT ズームアウトすると地図のこの地域には「マンスター」と書かれています。これは、この地域の最上位の統治者があなただからです。#!"
+ lesson_basics_realm_desc: "あなたのキャラクターの画像にカーソルを合わせると、[realm_capital|E]($cn_luimneach$)の上に表示されている紋章が光り輝き、あなたの[realm|E]全体がハイライトされます。マンスターはあなたの[primary_title|E]です。あなたの$game_concept_realm$の名称がマンスターなのは、それがあなたの主要称号だからです。\n\nあなたはほかにも、ソーモンド伯爵統治領を別の$game_concept_title$として保持しています。\n\n#TUT ズームアウトすると地図のこの地域には「マンスター」と書かれています。これは、この地域の最上位の統治者があなただからです。#!"
  lesson_basics_map_modes: "人の上に立つ ($lesson_basics_map$)"
  lesson_basics_map_modes_desc: "[ruler|E]であるあなた自身で所有できる領土には限りがあるため、ほかの$game_concept_rulers$に領土（[titles|E]）を持たせ、[vassals|E]にすることで、[realm|E]の管理を手伝ってもらうことが多くなるでしょう。\n\n#TUT 自分の領土である[domain|E]を探すには、ホームキーを押し、拡大してください。近くに寄って見れば、あなたが所有する[baronies|E]に青いラベルが付いているのがわかるはずです（この場合は$cn_luimneach$と$cn_inis$）。\n\n伯爵統治領$c_ormond$はあなたの封臣が所有しています。#!"
  ### What makes a ruler
@@ -222,9 +222,9 @@
  lesson_basics_lifestyles_2_b_desc: "すでに推測済みのことかもしれませんが、[focus|E]を選択したことで、あなたの[character|E]は時間の経過とともに[lifestyle_experience|E]を獲得していきます。$lesson_basics_lifestyles_2_reuse$"
  #Interacting
  lesson_basics_interacting_1: "ほかのキャラクター ($lesson_basics_interacting$)"
- lesson_basics_interacting_1_desc: "[focus|E]を選択したので、これでほかの人に移せます。ほかの[characters|E]と交流することは『Crusader Kings III 』で大事な要素で、方法もたくさんあります。\n\n#TUT 自身と交流したいキャラクターアイコン上で右クリックすると、実行可能な[interactions|E]リストが表示されます。[marriage|E]の準備や[scheme|E]を開始させることができます。[wars|E]を起こす場所でもありますが、また後ほど説明します。#!"
+ lesson_basics_interacting_1_desc: "[focus|E]を選択したので、これでほかの人に移せます。ほかの[characters|E]と交流することは『Crusader Kings III 』で大事な要素で、方法もたくさんあります。\n\n#TUT 自身と交流したいキャラクター画像上で右クリックすると、実行可能な[interactions|E]リストが表示されます。[marriage|E]の準備や[scheme|E]を開始させることができます。[wars|E]を起こす場所でもありますが、また後ほど説明します。#!"
  lesson_basics_open_character_view_tt: "あなたのキャラクターのキャラクター画面を開いてみましょう"
- lesson_basics_open_interactions_tt: "[player_heir|E]の$game_concept_character$ポートレートを右クリックすると、利用可能な行動を見ることができます"
+ lesson_basics_open_interactions_tt: "[player_heir|E]の$game_concept_character$画像を右クリックすると、利用可能な行動を見ることができます"
  lesson_basics_interacting_2: "贈り物 ($lesson_basics_interacting$)"
  lesson_basics_interacting_2_desc: "まずは基本から始めましょう。この世に金が嫌いな人はいませんね！試しに、[player_heir|E]に賄賂を贈ってみましょう。\n\n#TUT ほとんどの[interactions|E]は、選択時に詳細な情報が書かれた二つめのウィンドウを表示します。あなたはそのウィンドウで行動を実行もしくはキャンセルするかを選ぶことができます。#!"
  lesson_basics_send_gift_tt: "#TUT_KW 贈り物#!を実行してみましょう$game_concept_heir$に行動を起こしてみましょう"
@@ -324,7 +324,7 @@
  lesson_basics_council_concept_desc: "[realm|E]の運営は大変な仕事です。[ruler|E]として、あなたは[council|E]を活用できます。評議会は[vassals|E]もしくは[court|E]に所属するキャラクターによって構成され、頼りになる顧問として働いてくれます。\n\n#TUT 評議会には各[skill|E]に対応する役職が存在し、既婚の[rulers|E]の場合はその[spouse|E]も評議会に加わります。#!"
  lesson_basics_council_view_tt: "評議会画面を開いてみましょう（ハイライトされています）"
  lesson_basics_council_tasks: "評議会任務 ($lesson_basics_council$)"
- lesson_basics_council_tasks_desc: "[councillors|E]には任務を任せることが可能で、任務はそれぞれに異なった効果があります！\n\n評議員のタスクを変更するには、評議会画面で評議員のポートレートの近くにあるボタンをクリックします。\n\n#TUT 評議員は名誉ある地位です。[powerful_vassals|E]は評議員への任命を期待し、罷免されると不満を持ちます。#!"
+ lesson_basics_council_tasks_desc: "[councillors|E]には任務を任せることが可能で、任務はそれぞれに異なった効果があります！\n\n評議員のタスクを変更するには、評議会画面で評議員の画像の近くにあるボタンをクリックします。\n\n#TUT 評議員は名誉ある地位です。[powerful_vassals|E]は評議員への任命を期待し、罷免されると不満を持ちます。#!"
  #Schemes & Hooks
  lesson_basics_schemes_concept: "工作 ($lesson_basics_schemes$)"
  lesson_basics_schemes_concept_complete: "$lesson_basics_schemes_concept$"
@@ -342,7 +342,7 @@
  lesson_basics_hooks: "秘密 ($lesson_basics_schemes$)"
  lesson_basics_hooks_desc: "時々、[schemes|E]は[secrets|E]を生じさせることがあります。もし誰かが[GetScheme('murder').GetTypeName]に及ぼうとしていることを知った場合、恐らくはあなたに黙っていてもらうのが彼らにとって好都合でしょう。\n\nそうしたとき、あなたはそのキャラクターを[blackmail|E]して、[hook|E]を手に入れることができます！ $game_concept_hooks$は特定の[character|E]に対する「貸し」や影響力を表したもので、これを使ってそのキャラクターにあなたの命令の実行を促す（または強要する）ことができます。\n\nゲームのプレイを通じて、$game_concept_hooks$は様々な形で入手したり使用したりできることが分かってくるはずです。いろいろと試してみてください！\n\n#TUT 次は、[vassals|E]の一人に[hook|E]を獲得したものとして進めていきましょう…#!"
  lesson_basics_hooks_complete: "フック ($lesson_basics_schemes$)"
- lesson_basics_hooks_complete_desc: "この[weak_hook|E]はさまざまなことに利用することができます。たとえば、[GetGovernment('feudal_government').GetName]の[vassal|E]との[vassal_contract|E]で定められた[obligations|E]を増やすことができます。\n\n#TUT 封臣契約を変更するメニューを利用するには、領国画面の封臣リストへ行くか、肖像画を右クリックして#TUT_KW 封臣契約を修正#!を選択してください。\n\n一部の「行動」はその場で画面に表示されません。利用できる数が増えてくると、[character|E]行動メニューには頻繁に使用されるものしか表示されなくなります。\n\n画面上にないものを表示するには、カテゴリー内の「その他…」ボタンをクリックしてください。#!"
+ lesson_basics_hooks_complete_desc: "この[weak_hook|E]はさまざまなことに利用することができます。たとえば、[GetGovernment('feudal_government').GetName]の[vassal|E]との[vassal_contract|E]で定められた[obligations|E]を増やすことができます。\n\n#TUT 封臣契約を変更するメニューを利用するには、領国画面の封臣リストへ行くか、画像を右クリックして#TUT_KW 封臣契約を修正#!を選択してください。\n\n一部の「行動」はその場で画面に表示されません。利用できる数が増えてくると、[character|E]行動メニューには頻繁に使用されるものしか表示されなくなります。\n\n画面上にないものを表示するには、カテゴリー内の「その他…」ボタンをクリックしてください。#!"
  #Culture
  lesson_basics_culture_open_view: "文化"
  lesson_basics_culture_open_view_desc: "すべての[character|E]（および[county|E]）は一つの[culture|E]に属しています。[SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_open_view_desc_INGAME', '' )]"
@@ -428,5 +428,5 @@
  lesson_war_final_notes_invalidated_step_1: "戦争はうやむやな結果に終わりました"
  lesson_war_final_notes_invalidated_step_1_desc: "ここにおいででしたか！素晴らしい！しかし、戦争の根拠が無くなるとは、不思議なこともあるものです。$lesson_war_final_notes_reuse$"
  lesson_guided_final_notes_mission_step_1: "これから何をするの？"
- lesson_guided_final_notes_mission_step_1_desc: "基本のシステム紹介は一通り終わり、これで色々な行動ができるようになりました。『Crusader Kings III 』は自分で目標を設定することが一番大事です！\n\nアドバイスが必要であれば、$k_ireland$の王または女王になることをお勧めします！[war|E]は唯一の方法ではありません。\n\n上にある#bold 現在の状況#!をクリックし、気になる提案や状況がないか確認することもできます！"
+ lesson_guided_final_notes_mission_step_1_desc: "基本のシステム紹介は一通り終わり、これで色々な行動ができるようになりました。『Crusader Kings III 』では、自分で目標を設定することが一番大切です。\n\nアドバイスが必要であれば、$k_ireland$の王または女王になることをお勧めします。[war|E]は唯一の方法ではありません。\n\n上にある#bold ヒント#!ボタンをクリックして、気になるアイテムがないか確認することもできます。"
  lesson_open_war_overview_tt: "戦争画面を開いてみましょう（ハイライトされています）"

@@ -136,6 +136,7 @@
  hunt.8570.a: "\"내가 구해주겠네!\""
  hunt.8570.a.success: "무탈하게 [stampede_victim.Custom2('MyCharacterIntroduction', ROOT.Char)](을)를 구출함"
  hunt.8570.a.failure: "부상을 입고 [stampede_victim.Custom2('MyCharacterIntroduction', ROOT.Char)](을)를 구출함"
+ hunt.8570.a.failure_2: "[stampede_victim.GetHerHim]를 구하는 데 실패함"
  hunt.8570.a.crit_failure: "구출 시도 중 사망함"
  hunt.8570.b: "쇄도하는 짐승들의 방향을 바꿀 수 있을지도."
  hunt.8570.b.success: "짐승 쇄도의 방향을 바꿈"

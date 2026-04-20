@@ -223,8 +223,8 @@ types CourtPositionButton
 							align = nobaseline
 						}
 						text_single = {
-							visible = "[Not(ObjectsEqual( GetPlayer.Self, CharacterInteractionConfirmationWindow.GetActor.Self ))]"
-							datacontext = "[CharacterInteractionConfirmationWindow.GetRecipient]"
+							visible = "[Not(ObjectsEqual( GetPlayer.Self, CharacterInteractionConfirmationWindow.GetRecipient.GetLiege.Self ))]"
+							datacontext = "[CharacterInteractionConfirmationWindow.GetActor]"
 							layoutpolicy_horizontal = expanding
 							margin_top = -2
 							margin_left = 2
@@ -235,7 +235,7 @@ types CourtPositionButton
 							align = nobaseline
 						}
 						text_single = {
-							visible = "[ObjectsEqual( GetPlayer.Self, CharacterInteractionConfirmationWindow.GetActor.Self )]"
+							visible = "[ObjectsEqual( GetPlayer.Self, CharacterInteractionConfirmationWindow.GetRecipient.GetLiege.Self )]"
 							datacontext = "[CharacterInteractionConfirmationWindow.GetRecipient]"
 							layoutpolicy_horizontal = expanding
 							margin_top = -2

@@ -1072,7 +1072,7 @@
 	holding = none
 }
 10780 = {
-	holding = tribal_holding
+	holding = none
 }
 10781 = {
 	holding = none

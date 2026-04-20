@@ -20,6 +20,11 @@
  hasan_expand_the_assassins_desc: "Precisamos de más posesiones para extender la influencia de los Asesinos. Desde ahí podremos quizá contemplar la caída de los blasfemos."
  hasan_expand_the_assassins_tooltip: "Ampliar tu [holy_order|lE]"
  hasan_expand_the_assassins_confirm: "Un nuevo hogar"
+ #Story Cycle
+ ULTIMATE_FOE: "Tu enemigo final"
+ story_hasan: "La leyenda de Hasan Sabbah"
+ story_hasan_desc: "¡Más que los ejércitos, la fuerza de la fe puede derribar imperios y tejer nuevas historias! ¿Fundarás a los Asesinos y liberarás a tu pueblo del yugo selyúcida? ¿Ascenderás para convertirte en el nuevo Viejo de la montaña?"
+ PROGRESS_TOWARDS_ASSASSIN_PATH: "Progreso hacia el camino de los Asesinos"
  #Events
  hasan_sabbah.1000.t: "Predicadores [GetFaithByKey('ismaili').GetAdherentNamePluralNoTooltip]"
  hasan_sabbah.1000.desc: "[amira.GetName|U], creyente y seguidor[amira.Custom('ES_XA')] del califa egipcio, ha estado predicando una visión suya poco ortodoxa del islam en el corazón de [location.GetName]. No dudo de la verdad del islam y de [ROOT.Char.GetFaith.HighGodName|U], y nunca antes había dudado de que tal verdad pudiera encontrarse en otro lugar que no fuera el [ROOT.Char.GetFaith.GetName|l], pero las palabras de [amira.GetFirstNameNoTooltip] resuenan de forma diferente en mis oídos.\n\nPaso gran parte del resto del día discutiendo sobre libros sagrados y hadices con [amira.GetFirstNameNoTooltip] y, por vez, primera escucho la verdad en la filosofía [GetFaithByKey('ismaili').GetAdjective]."

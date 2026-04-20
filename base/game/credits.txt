@@ -1,4 +1,446 @@
-﻿$HEADER_CRUSADER_KINGS_3_NORTH_PACIFIC_ATTIRE$
+﻿$HEADER_CRUSADER_KINGS_3_SCRIBE_UPDATE$
+
+$HEADER_PROJECT_LEADS$
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_PRODUCERS$
+Lucia Dzediti
+
+$TITLE_TECHNICAL_DIRECTOR$
+Jimmy Selling
+
+
+$HEADER_DESIGN$
+$TITLE_GAME_DESIGN_DEPUTY$
+Riad Deneche
+
+$TITLE_GAME_DESIGN$
+Jason Cantalini
+Arkadiusz Majewski
+Saltfish
+
+$TITLE_ADDITIONAL_DESIGN$
+Linda Allansson
+Jacob Blakey
+Arthur Rangel Diniz
+Joachim Holmsen
+Ali Kara
+Laurence Kennedy
+Nicholas Legault
+Henrik Lohmander
+Verónica Pazos
+Emil Tisander
+Alexander Windahl
+
+$TITLE_UX_DESIGN$
+Agami
+
+$TITLE_ADDITIONAL_UX_DESIGN$
+Matias Laborde
+Jonas Wickerström
+Ellinor Zetterman
+
+
+$HEADER_PROGRAMMING$
+$TITLE_CODE_OWNER$
+Jimmy Selling
+
+$TITLE_PROGRAMMERS$
+Oscar Andersson
+Jonathan Lidberg Collinder
+Petter Hansson
+Johan Lerström
+Carl-Henrik Skårstedt
+Chad Uhl
+
+$TITLE_ADDITIONAL_PROGRAMMERS$
+Axel Aronsson
+Daan Broekhof
+Jakob Eklund
+Jacopo Freddi
+Joel Hansson
+Jens Hedenskog
+Carl-Henrik Skårstedt
+Anton Sorokin
+Liana Tosunyan
+Max Villing
+
+
+$HEADER_ART$
+$TITLE_ADDITIONAL_2D_ART$
+Jon Astrup Hällkvist
+Anton Holmqvist
+Celiné Jensen
+Nicolas Lennman
+Lucas Ribeiro
+
+$TITLE_3D_CHARACTER_ART$
+Joakim Hammarslätt
+
+$TITLE_3D_ENVIRONMENT_ART$
+Joacim Carlberg
+Anton Leirnes
+
+$TITLE_TECH_ART$
+Lova Carlsson
+Wei-Lune Tang
+
+$TITLE_ANIMATION$
+Emelie Verdugo
+
+$HEADER_QA$
+$TITLE_QA_TEAM_LEAD$
+Lucia Dzediti
+
+$TITLE_EMBEDDED_QA_ANALYST$
+Paweł Kucal
+
+$TITLE_EMBEDDED_QA_TESTERS$
+Fabian Franzén
+
+$TITLE_COMMUNITY_MANAGER$
+Jacob Blakey
+
+$HEADER_AUDIO$
+$TITLE_AUDIO_DIRECTOR$
+Ernesto Lopez
+
+$TITLE_AUDIO_PRODUCER$
+Samet Atasoy
+
+
+$HEADER_MUSIC$
+
+$TITLE_MUSIC_COMPOSER$
+Andreas Waldetoft
+Philip Wareborn
+Public Domain
+
+$TITLE_MUSIC_PRODUCER$
+Philip Wareborn
+
+$TITLE_SOLOISTS$
+
+$TITLE_FLUTE$
+Joel Hagen
+
+$TITLE_FIDDLE$
+Erika Risinger
+
+$TITLE_LUTE_GUITAR$
+Herald Nilsson
+
+$TITLE_PERCUSSION_KEYS_PROGRAMMING$
+Philip Wareborn
+
+$TITLE_VOCALS$
+Joel Hagen
+Tamir Hargana
+Herald Nilsson
+Erika Risinger
+Philip Wareborn
+
+$TITLE_RECORDING_AND_MIXING_ENGINEER$
+Philip Wareborn
+
+$TITLE_ORCHESTRATION$
+Philip Wareborn
+
+$TITLE_SCORE_AND_PARTS_PREPARATION$
+Philip Wareborn
+
+$TITLE_PROJECT_LOCALIZATION_PRODUCER$
+Nick Citkoŭ
+Marcus Westerlund
+
+$HEADER_EXTERNAL_QA_PARTNERS$
+$TITLE_QLOC_SA$
+
+$TITLE_FQA_PROJECT_MANAGER$
+Kacper Bugaj
+
+$TITLE_QA_TEAM_LEAD$
+Marcin Oprządek
+Michał Staniszewski
+
+$TITLE_QA_TESTERS_DEDICATED$
+Shehabulddin Alessawey
+Kacper Banachowicz
+Andrzej Bar
+Damian Głogowski
+Wojciech Krukowski
+Maksymilian Nowakowski
+Jakub Płomin
+Michał Świtalski
+Piotr Szmil
+
+$HEADER_LOCALIZATION_VENDORS_FREELANCERS$
+
+$TITLE_GENERAL_ADMIN_MANAGEMENT$
+Native Prime SAS
+
+$TITLE_SENIOR_PROJECT_MANAGER$
+Friedrich Klemme
+Julia Othlinghaus-Wulhorst
+
+$TITLE_PROJECT_MANAGER$
+Franz Kamchen
+Dieter Pfeil
+
+$TITLE_LOCALIZATION_TOOLS$
+Friedrich Klemme
+Julia Othlinghaus-Wulhorst
+Dieter Pfeil
+Michael Waaler
+Xavier Zimmerman
+
+$TITLE_FRENCH$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Carine Mathey
+
+$TITLE_TRANSLATOR$
+Xavier Zimmermann
+
+$TITLE_PROOFREADERS_EDITORS$
+Morgane Le Boucher
+
+$TITLE_SIMPLIFIED_CHINESE$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+LangLink Localization Solutions 
+
+$TITLE_PROJECT_MANAGEMENT$
+Troy Ye
+
+$TITLE_TEAM$
+Shaoyang
+ol123489
+心急的鱼
+懒惰的胖鲁斯
+机智的布鲁斯
+Haximodor He
+yinzhang1017
+
+$TITLE_RUSSIAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+The Most Games
+
+$TITLE_PROJECT_MANAGEMENT$
+Alexander Loktionov 
+
+$TITLE_LEAD_EDITOR$
+Irina Shobukhova
+
+$TITLE_SENIOR_TRANSLATORS$
+Anrey Cherkovskiy
+Dmitriy Donskoy
+
+$TITLE_PROOFREADERS_EDITORS$
+Izmailova Yulia
+
+$TITLE_SPECIAL_THANKS$
+Shogin Nikita (Sshready)
+
+$TITLE_KOREAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+LOGOS GLOBAL
+
+$TITLE_PROJECT_MANAGEMENT$
+Sun Dong Hwang (H2Interactive)
+Sang Won Lee (H2Interactive)
+
+$TITLE_TRANSLATOR$
+Ji Seung Hyuk
+Kim Dong Woo
+Lee Jae Hun
+Thomas Oh
+Song Hye Su
+
+$TITLE_REVIEWER$
+Harriet Kim
+Derek Kim
+Runo Lee
+Thomas Oh
+
+$TITLE_PROOFREADERS_EDITORS$
+Thomas Oh
+
+$TITLE_GERMAN$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Julia Othlinghaus-Wulhorst
+
+$TITLE_LEAD_TRANSLATOR$
+Ole Johan Christiansen
+
+$TITLE_PROOFREADERS_EDITORS$
+Thomas Christiansen
+
+$TITLE_SPANISH$
+$TITLE_LOCALIZATION_SERVICE_PROVIDER$
+Native Prime SAS
+
+$TITLE_PROJECT_MANAGEMENT$
+Andrés Sánchez Cubero
+
+$TITLE_LEAD_TRANSLATOR$
+Jaime Ortega
+
+$TITLE_PROOFREADERS_EDITORS$
+Pedro Peláez Cornejo
+
+$TITLE_JAPANESE$
+Active Gaming Media, Inc.
+
+$TITLE_TRANSLATOR$
+Michiko Igarashi
+Maki.M
+Keiichi Morimoto
+Erika Siffert
+
+$TITLE_PROOFREADERS_EDITORS$
+Keiko Kuroda
+
+$TITLE_EDITOR$
+Yo Shin
+
+$TITLE_PROJECT_MANAGER$
+James Davis
+Clément Sonntag
+
+
+$TITLE_SPECIAL_THANKS$
+$TITLE_SPECIAL_THANKS_MESSAGE$
+
+
+
+$HEADER_PARADOX_DEVELOPMENT_STUDIO_BLACK$
+
+$TITLE_COO$
+Noelia Almanza
+
+$TITLE_CREATIVE_DIRECTOR$
+Henrik Fåhraeus
+
+$TITLE_STUDIO_MANAGER$
+Johanna Uddståhl
+
+$TITLE_PRODUCERS$
+Thea Ariëns
+Lucia Dzediti
+Martin Tosta
+Alexander Windahl
+
+$TITLE_PROJECT_LEAD_GAME_DIRECTOR$
+Alexander Oltner
+
+$TITLE_DESIGN_MANAGERS$
+Mikael Andersson
+Riad Deneche
+
+$TITLE_GAME_DESIGN$
+Linda Allanson
+Jason Cantalini
+Arthur Rangel Diniz
+Joachim Holmsen
+Johan Husén
+Anna Johansson
+Ali Kara
+Laurence Kennedy
+Filippa Gannholm Kirsten
+Henrik Lohmander
+Arkadiusz Majewski
+Axel Näslund
+Joe Parkin
+Verónica Pazos
+Björn Sundström
+Emil Tisander
+
+$TITLE_UX_DESIGNERS$
+Matias Laborde
+Jonas Wickerström
+Ellinor Zetterman
+
+$TITLE_TECHNICAL_DIRECTOR$
+Jimmy Selling
+
+$TITLE_PROJECT_LEAD_TECH_LEAD$
+Joel Hansson
+
+$TITLE_PROGRAMMERS$
+Oscar Andersson
+Axel Aronsson
+Daan Broekhof
+Jonathan Lidberg Collinder
+Jakob Eklund
+Jacopo Freddi
+Jens Hedenskog
+Johan Lerström
+Carl-Henrik Skårstedt
+Anton Sorokin
+Liana Tosunyan
+Chad Uhl
+Max Villing
+
+$TITLE_ART_DIRECTOR$
+Petter Lundh
+
+$TITLE_ART_MANAGERS$
+Petter Lundh
+Lucas Ribeiro
+
+$TITLE_2D_ARTISTS$
+Alva Granholm
+Anton Holmqvist
+Celine Jensen
+Nicolas Lennman
+
+$TITLE_CONCEPT_ARTISTS$
+Alessandro Bragalini
+Pavel Golovii
+Jon Astrup Hällkvist
+
+$TITLE_3D_ARTISTS$
+Akash Garg
+Joakim Hammarslätt
+Elisabeth Jönsson
+Maija Eriksson Kukkonen
+Anton Leirnes
+Andrey Zaykov
+		
+$TITLE_TECH_ART$
+Lova Carlsson
+Wei-Lune Tang
+
+$TITLE_ANIMATORS$
+Emelie Verdugo
+
+$TITLE_QA_MANAGER$
+Lucia Dzediti
+
+$TITLE_EMBEDDED_QA_ANALYST$
+Joanna Janiak
+Artur Kacprzak
+Pawel Kucal
+
+$TITLE_EMBEDDED_QA_TESTERS$
+Fabian Franzén
+
+$TITLE_COMMUNITY_MANAGER$
+Jacob Blakey
+
+
+
+
+
+
+
+$HEADER_CRUSADER_KINGS_3_NORTH_PACIFIC_ATTIRE$
 $TITLE_CCP_CREATOR$
 Adrian 'AJ' Kamil
 

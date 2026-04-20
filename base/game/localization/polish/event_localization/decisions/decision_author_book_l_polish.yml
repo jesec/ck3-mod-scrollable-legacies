@@ -98,7 +98,7 @@
  prose_theme_philosophy: "filozofia"
  prose_topic_history: "historia"
  prose_book_description: "Dłuższa rozprawa, której motywem przewodnim jest [SCOPE.Custom('GetProseTheme')], a autorem – [author.GetFirstName]. Utwór demonstruje [author.Custom('PL_jego_jej')] wiedzę w dziedzinie, którą jest [SCOPE.Custom('GetProseTopic')], a także stylistyczną biegłość.\n[SCOPE.Custom('GetProseQuality')]"
- prose_name: "[author.GetFirstNameNoTooltip] – refleksje"
+ prose_name_hashcollision: "[author.GetFirstNameNoTooltip] – refleksje"
  #Philosophy
  prose_theme_comentary: "komentarz na temat czterech ksiąg"
  prose_theme_logic: "ogólne zastosowanie ścisłej logiki"
@@ -126,7 +126,7 @@
  writing_monograph: "Pisanie monografii"
  writing_monograph_desc: "Ta postać jest obecnie pochłonięta badaniami i pisaniem nowej monografii"
  monograph_description_full: "To obszerny tom, którego motywem przewodnim jest [SCOPE.Custom('GetMonographTheme')], a autorem – uczony znany jako [author.GetName]. Dzieło czerpie z [author.Custom('PL_jego_jej')] rozległych badań w dziedzinie, którą jest [SCOPE.Custom('GetMonographTopic')].\n\n[SCOPE.Custom('GetMonographQuality')]"
- monograph_name: "Tom, którego tematem jest [SCOPE.Custom('GetMonographTopic')]"
+ monograph_name_hashcollision: "Tom, którego tematem jest [SCOPE.Custom('GetMonographTopic')]"
  monograph_topic_mathematics: "matematyka"
  monograph_topic_geography: "geografia"
  monograph_theme_home_duchy: "krajobraz w miejscu o nazwie [author.GetCapitalLocation.GetTitle.GetDeJureLiegeOfTier('duchy').GetBaseNameNoTierNoTooltip]"

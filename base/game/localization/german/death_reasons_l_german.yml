@@ -1,6 +1,7 @@
 ﻿l_german:
  death_natural_causes: "starb im Schlaf"
  death_old_age: "starb an Altersschwäche"
+ death_broken_bones: "starb als viele der eigenen zerbrechlichen Knochen bei einem Stolpern brachen"
  death_bubonic_plague: "starb an der [GetTrait('bubonic_plague').GetName(CHARACTER.Self)]"
  death_smallpox: "starb an den [GetTrait('smallpox').GetName(CHARACTER.Self)]"
  death_measles: "starb an [GetTrait('measles').GetName(CHARACTER.Self)]"
@@ -266,7 +267,7 @@
  death_tournament_pas_darmes_defend_killer: "starb an [CHARACTER.Custom('DE_PRO_POS_S_3P')]en Wunden, nachdem [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] sich in einem Waffengang gegen [TARGET_CHARACTER.GetUIName] verteidigt hatte"
  death_tournament_pas_darmes_challenge: "starb an [CHARACTER.Custom('DE_PRO_POS_S_3P')]en Wunden nach der Herausforderung in einem Waffengang"
  death_tournament_pas_darmes_challenge_killer: "starb an [CHARACTER.Custom('DE_PRO_POS_S_3P')]en Wunden nach der Herausforderung von [TARGET_CHARACTER.GetUIName] in einem Waffengang"
- death_wild_animal: "wurde bei lebendigem Leib von einer wilden Bestie zerfleischt"
+ death_wild_animal: "wurde von einer wilden Bestie zerfleischt"
  death_tournament_archery_fall: "starb nach dem Sturz vom Pferd bei einem Wettkampf im Reitschießen"
  death_tournament_quintain_hit: "starb, als [CHARACTER.Custom('DE_PRO_PER_S_3P_A')] eine Stechpuppe während eines Turniers vom Pferd stieß"
  death_tournament_piledriver: "fiel während eines Turniers im Ringkampf auf den Kopf"
@@ -334,6 +335,7 @@
  death_poisonous_forage: "aß versehentlich eine giftige Pflanze"
  death_drowning_in_terrain: "wurde vom eigenen Pferd in die Tiefe hinabgezogen und ertrank, als [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] das Tier retten wollte."
  death_drowning_in_terrain_killer: "wurde vom Pferd von [TARGET_CHARACTER.GetUIName] in die Tiefe hinabgezogen und ertrank, als [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] das Tier retten wollte."
+ death_lost_in_rainstorm: "verirrte sich in einem sintflutartigen Regensturm"
  #BP2
  death_hostage_execution: "wurde als Geisel hingerichtet"
  death_hostage_execution_killer: "wurde als Geisel von [TARGET_CHARACTER.GetUIName] hingerichtet"
@@ -388,5 +390,7 @@
  death_crowd_stampede_killer: "$death_slain_in_riot$ während der Krönung von [TARGET_CHARACTER.GetUIName]"
  death_avoid_dishonor: "wählte den Freitod, um einer Entehrung zu entgehen"
  death_avoid_dishonor_killer: "$death_avoid_dishonor$, durch die Hand von [TARGET_CHARACTER.GetUIName]"
- death_eradicated: "und das ganze eigene Haus wurden hingerichtet"
+ death_eradicated: "wurde zusammen mit dem gesamten eigenen Haus ausgelöscht"
  death_eradicated_killer: "$death_eradicated$ von [TARGET_CHARACTER.GetUIName]"
+ #TGP
+ death_ritual_suicide: "beging rituellen Selbstmord"

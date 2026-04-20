@@ -10,7 +10,7 @@
  let_me_keep_my_job_opinion: "Ließ mich meinen Posten behalten"
  rejected_my_enemy_opinion: "Verweigerte meinem Feind die Gastfreundschaft"
  failed_comfort_opinion: "Tröstete mich nicht ordentlich"
- listened_opinion: "Hat mir zugehört"
+ listened_opinion: "Hörte mir zu"
  made_amends_opinion: "Wiedergutmachungen geleistet"
  blames_for_death_of_relative_opinion: "Schuld am Mord eines Verwandten"
  avenged_relative_opinion: "Meinen Verwandten gerächt"
@@ -18,3 +18,4 @@
  ignored_demands_opinion: "Ignorierte meine Forderungen"
  happy_opinion: "Glücklich"
  privileges_to_people_opinion: "Hat dem Volk Privilegien eingeräumt"
+ opinion_welcomed_with_tea: "Mit Tee willkommen geheißen"

@@ -1,12 +1,12 @@
 {
-  "version": "1.18.4",
-  "version_name": "Crane",
-  "updated": "2026-03-04T11:44:16.000Z",
+  "version": "1.19.0.3",
+  "version_name": "Scribe",
+  "updated": "2026-04-14T23:56:22.000Z",
   "release_notes": {
-    "title": "Out Now: North Pacific Attire, East Asian Wonders, & Celestial Court Attire",
-    "date": "2026-03-11",
-    "file": "release-notes/1_18_4_0_2026-03-11.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/534377648529342527"
+    "title": "1.19 \"Scribe\" Update - Available Now",
+    "date": "2026-04-20",
+    "file": "release-notes/1_19_0_0_2026-04-20.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/552395313313219108"
   },
   "depots": {
     "228981": {
@@ -18,16 +18,16 @@
       "updated": "2022-05-04T21:41:13.000Z"
     },
     "1158311": {
-      "manifest": "898637053609717566",
-      "updated": "2026-03-04T11:42:57.000Z"
+      "manifest": "8827815058408290475",
+      "updated": "2026-04-14T23:51:55.000Z"
     },
     "1158312": {
-      "manifest": "6187909801574663713",
-      "updated": "2026-03-04T11:44:16.000Z"
+      "manifest": "2869489218510308348",
+      "updated": "2026-04-14T23:53:47.000Z"
     },
     "1158315": {
-      "manifest": "3944603068272440229",
-      "updated": "2026-02-18T18:05:24.000Z"
+      "manifest": "1790161383438836713",
+      "updated": "2026-04-14T23:56:22.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",
@@ -39,28 +39,28 @@
       "updated": "2021-02-26T09:43:59.000Z"
     },
     "1303182": {
-      "manifest": "2134240088881590924",
-      "updated": "2025-03-17T09:39:37.000Z",
+      "manifest": "8349193067317801238",
+      "updated": "2026-04-01T05:28:03.000Z",
       "name": "Royal Court"
     },
     "1303183": {
-      "manifest": "6244820763626721895",
-      "updated": "2025-10-06T19:13:49.000Z",
+      "manifest": "319832865587329166",
+      "updated": "2026-04-01T05:28:00.000Z",
       "name": "Northern Lords"
     },
     "1303184": {
-      "manifest": "8175095033579928386",
-      "updated": "2025-10-06T19:13:54.000Z",
+      "manifest": "5526476400820247778",
+      "updated": "2026-04-01T05:28:06.000Z",
       "name": "Fate of Iberia"
     },
     "2114760": {
-      "manifest": "5586811822863938551",
-      "updated": "2025-03-17T09:39:42.000Z",
+      "manifest": "3994555691751599121",
+      "updated": "2026-04-01T05:28:09.000Z",
       "name": "Friends & Foes"
     },
     "2311920": {
-      "manifest": "2798209139550673960",
-      "updated": "2025-03-17T09:39:45.000Z",
+      "manifest": "369571786361796926",
+      "updated": "2026-04-01T05:28:13.000Z",
       "name": "Tours & Tournaments"
     },
     "2311930": {
@@ -69,13 +69,13 @@
       "name": "Elegance of the Empire"
     },
     "2313540": {
-      "manifest": "7098254977422141787",
-      "updated": "2025-10-06T19:14:03.000Z",
+      "manifest": "5292219204640282308",
+      "updated": "2026-04-01T05:28:26.000Z",
       "name": "Legacy of Persia"
     },
     "2313541": {
-      "manifest": "1973333297323428354",
-      "updated": "2025-03-17T09:39:49.000Z",
+      "manifest": "3449603529685425916",
+      "updated": "2026-04-01T05:28:23.000Z",
       "name": "Wards & Wardens"
     },
     "2671030": {
@@ -89,13 +89,13 @@
       "name": "Couture of the Capets"
     },
     "2671060": {
-      "manifest": "720600870912683724",
-      "updated": "2025-03-17T09:39:54.000Z",
+      "manifest": "4277321347182715431",
+      "updated": "2026-04-01T05:28:29.000Z",
       "name": "Legends of the Dead"
     },
     "2671070": {
-      "manifest": "6229768758234671161",
-      "updated": "2025-10-06T19:14:11.000Z",
+      "manifest": "7287565713113083837",
+      "updated": "2026-04-01T05:28:42.000Z",
       "name": "Roads to Power"
     },
     "2671080": {
@@ -119,8 +119,8 @@
       "name": "Crowns of the World"
     },
     "3315510": {
-      "manifest": "3823692710053837808",
-      "updated": "2025-10-06T19:14:23.000Z",
+      "manifest": "3363609404063344386",
+      "updated": "2026-04-01T05:29:12.000Z",
       "name": "Khans of the Steppe"
     },
     "3315520": {
@@ -129,8 +129,8 @@
       "name": "Coronations"
     },
     "3315530": {
-      "manifest": "6421997741920874889",
-      "updated": "2025-11-12T15:16:33.000Z",
+      "manifest": "8595022041963600613",
+      "updated": "2026-04-01T05:29:24.000Z",
       "name": "All Under Heaven"
     },
     "3315540": {
@@ -139,8 +139,8 @@
       "name": "Creator Pack: Medieval Monuments"
     },
     "3315550": {
-      "manifest": "3811676699583608116",
-      "updated": "2025-10-06T19:14:19.000Z",
+      "manifest": "2840621713410264825",
+      "updated": "2026-04-01T05:29:02.000Z",
       "name": "Creator Pack: Arctic Attire"
     },
     "3315560": {

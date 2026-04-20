@@ -670,5 +670,5 @@
  language_yurt_3_unlock: "Tienes que hablar al menos 3 [languages|lE]"
  fishing_yurt_01_unlock: "Para desbloquear este [domicile_building|lE], tienes que poner el [domicile|lE] cerca de una fuente de agua y esperar a que tu gente se interese."
  paiza_metal_trade_yurt_flag_desc: "Este [domicile_building|lE] solo se puede construir mediante la [decision|lE] [GetDecisionWithKey('mpo_call_for_merchants_decision').GetName]"
- paiza_metal_yurt_smol_block: "Solo se pueden hacer más mejoras en este [domicile_building|lE] mediante la [decision|lE] #V $mpo_call_for_merchants_decision$#!, la cual requiere el título de [ghurkan|lE]"
+ paiza_metal_yurt_smol_block: "Solo se pueden hacer más mejoras en este [domicile_building|lE] mediante la [decision|lE] #V $mpo_call_for_merchants_decision$#!, la cual requiere el título de [gurkhan|lE]"
  domicile_building_parameter_paiza_metal_iron_cavalry_unlock: "Desbloquea la [tradition|lE] [GetCultureTradition('tradition_mpo_iron_cavalry').GetName]"

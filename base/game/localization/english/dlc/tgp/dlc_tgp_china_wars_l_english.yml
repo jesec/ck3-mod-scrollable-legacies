@@ -30,7 +30,7 @@
 
  # CONSOLIDATION WAR
  chinese_consolidation_cb: "$CHINESE_CONSOLIDATION_WAR_NAME$"
- CHINESE_CONSOLIDATION_WAR_NAME: "Hegemonic Consolidation War"
+ CHINESE_CONSOLIDATION_WAR_NAME: "Chinese Consolidation War"
  CHINESE_CONSOLIDATION_WAR_NAME_BASE: "$CHINESE_CONSOLIDATION_WAR_NAME$"
  CHINESE_CONSOLIDATION_CB_NAME: "Consolidate Land Under Heaven ([dynastic_cycle|E])"
  chinese_consolidation_cb_victory_desc_attacker: "You take all [defender.GetShortUINamePossessive] [titles|E] of the same or higher [title_tier|E] than your [primary_title|E] and vassalize all vassals of [defender.GetShortUINameNoTooltip] that are part of the [de_jure|E] [GetTitleByKey('h_china').GetDefinitiveName]."

@@ -248,7 +248,7 @@
  tgp_japan_yearly_events.1140.t: "Zatrzymanie na drodze klanowej"
  tgp_japan_yearly_events.1140.desc: "Gdy wkraczamy na tereny znane jako [local_county.GetNameNoTier], zatrzymuje nas grupa uzbrojonych ludzi.\n\n– [local_ruler.GetName] żąda niewielkiej opłaty – oznajmia jeden z jej członków. – To nie są już drogi cesarskie. Tu władzę sprawuje tylko [local_ruler.GetTitleAsName] – dodaje, wyczuwając moją konsternację."
  tgp_japan_yearly_events.1140.a: "Niech weźmie daninę, ale zapamiętam to sobie."
- tgp_japan_yearly_events.1140.b: "Masz ty pojęcie, kim jestem?!"
+ tgp_japan_yearly_events.1140.b: "– Masz ty pojęcie, kim jestem?!"
  tgp_japan_yearly_events.1140.b.tt: "Próbujesz sprawić, by osoba znana jako [toll_warrior.GetNameNoTooltip] ustąpiła ze względu na szacunek dla twojego statusu"
  tgp_japan_yearly_events.1140.tt.success: "Przekonujesz wojowników do ustąpienia"
  tgp_japan_yearly_events.1140.tt.failure: "Musisz znaleźć inną trasę"

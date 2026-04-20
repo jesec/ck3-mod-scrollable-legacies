@@ -2156,7 +2156,7 @@
  rival_tried_to_have_me_disinherited: "[CHARACTER.GetShortUIName|U] fand heraus, dass [TARGET_CHARACTER.GetShortUIName|U] versuchte, [CHARACTER.Custom('DE_PRO_PER_S_3P_A')] zu enterben oder gar zu ermorden."
  rival_tried_to_have_me_disinherited_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] fand heraus, dass [CHARACTER.GetShortUIName|U] versucht hatte, [TARGET_CHARACTER.Custom('DE_PRO_PER_S_3P_A')] zu enterben oder gar zu ermorden."
  rival_conquered_me: "[CHARACTER.GetShortUIName|U] eroberte das Reich von [TARGET_CHARACTER.GetUIName]."
- rival_conquered_me_corresponding: "Das Reich von [TARGET_CHARACTER.GetShortUIName|U] wurde von [CHARACTER.GetShortUIName] erobert."
+ rival_conquered_me_corresponding: "Das Reich von [CHARACTER.GetShortUIName|U] wurde von [TARGET_CHARACTER.GetShortUIName|U] erobert"
  friend_opened_up: "[CHARACTER.GetShortUIName|U] öffnete sich gegenüber [TARGET_CHARACTER.GetShortUIName] bezüglich der eigenen innersten Sorgen."
  friend_opened_up_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] hörte [CHARACTER.GetShortUIName] zu, als [CHARACTER.Custom('DE_PRO_PER_S_3P_N')] über die eigenen innersten Sorgen sprach."
  bp3_progress_towards_rival_stole_loot: "[TARGET_CHARACTER.GetShortUIName|U] stahl verbotene Güter von [CHARACTER.GetShortUIName]."
@@ -2329,3 +2329,4 @@
  friend_courtiers_bonded_on_festival: "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] knüpften während eines Fests Bande."
  lover_courtiers_bonded_on_festival: "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] verbrachten während eines Fests eine leidenschaftliche Nacht miteinander."
  rival_courtiers_friction_on_festival: "[CHARACTER.GetShortUIName|U] und [TARGET_CHARACTER.GetShortUIName] wurden während eines Fests zu Todfeinden."
+ friend_supported_child: "[CHARACTER.GetShortUINameNoTooltip] feuerte [TARGET_CHARACTER.GetShortUIName] bei Übungen im Bogenschießen an."

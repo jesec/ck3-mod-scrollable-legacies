@@ -98,7 +98,7 @@
  prose_theme_philosophy: "哲学"
  prose_topic_history: "歴史"
  prose_book_description: "[author.GetFirstName]による[SCOPE.Custom('GetProseTheme')]に関する長文の論説。[author.GetHerHis]の[SCOPE.Custom('GetProseTopic')]への深い理解と文才が感じられる。\n[SCOPE.Custom('GetProseQuality')]"
- prose_name: "[author.GetFirstNameNoTooltip]の見解"
+ prose_name_hashcollision: "[author.GetFirstNameNoTooltip]の見解"
  #Philosophy
  prose_theme_comentary: "四書についての考察"
  prose_theme_logic: "厳密な論理の一般的利用方法"
@@ -126,7 +126,7 @@
  writing_monograph: "専門書の執筆"
  writing_monograph_desc: "この人物は現在、新たな専門書の執筆と研究に夢中である"
  monograph_description_full: "[SCOPE.Custom('GetMonographTheme')]を主題にした分厚い本。学者で役人でもある[author.GetName]が書いたものであり、[SCOPE.Custom('GetMonographTopic')]について広く研究した内容が記されている。\n\n[SCOPE.Custom('GetMonographQuality')]"
- monograph_name: "[SCOPE.Custom('GetMonographTopic')]の研究書"
+ monograph_name_hashcollision: "[SCOPE.Custom('GetMonographTopic')]の研究書"
  monograph_topic_mathematics: "数学"
  monograph_topic_geography: "地理学"
  monograph_theme_home_duchy: "[author.GetCapitalLocation.GetTitle.GetDeJureLiegeOfTier('duchy').GetBaseNameNoTierNoTooltip]の土地"

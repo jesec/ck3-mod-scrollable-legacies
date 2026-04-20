@@ -1,7 +1,7 @@
 ﻿l_polish:
  buddhism_religion: "Buddyzm"
  buddhism_religion_adj: "Buddyjska"
- buddhism_religion_adherent: "Buddysta"
+ buddhism_religion_adherent: "buddysta"
  buddhism_religion_adherent_plural: "buddyści"
  buddhism_religion_desc: "Buddyzm podąża za naukami Gautamy Buddy i kolejnych „oświeconych”, aby przezwyciężyć cierpienie istnienia, zadawane przez niekończący się cykl śmierci i odrodzenia. Osiągnięcie oświecenia jest ścieżką do wyzwolenia się spod sansary, w kierunku osiągnięcia stanu „nie-istnienia” – nirwany."
  buddhism_high_god_name: "Buddha"
@@ -51,8 +51,8 @@
  buddhism_religious_text: "Buddhawacana"
  buddhism_religious_text_2: "$buddhism_religious_text$" #Optional translation alt
  buddhism_religious_text_3: "$buddhism_religious_text$" #Optional translation alt
- buddhism_religious_head_title: "lama"
- buddhism_religious_head_title_name: "Wcielenie Lamy"
+ buddhism_religious_head_title: "Sthavira"
+ buddhism_religious_head_title_name: "Samgha"
  buddhism_devotee_male: "bhikku"
  buddhism_devotee_male_plural: "bhikkhusi"
  buddhism_devotee_female: "bhikkuni"
@@ -116,7 +116,7 @@
  #Tibetan Buddhism
  lamaism: "Nang Cz’os"
  lamaism_adj: "Nang Cz’os"
- lamaism_adherent: "Nangchospo"
+ lamaism_adherent: "nangchospo"
  lamaism_adherent_plural: "nangchospowie"
  lamaism_desc: "Buddyzm w Tybecie nazywany jest Nang Cz’os, czyli „Dharmą Wtajemniczonych”. W Imperium Tybetańskim wierzenia i praktyki wadżrajany i mahajany przeplatają się z tradycyjnymi tybetańskimi wierzeniami, praktykami i bóstwami, a różne szkoły nieustannie walczą ze sobą o kontrolę nad światem doczesnym."
  lamaism_house_of_worship: "gompa"
@@ -193,9 +193,11 @@
  mantrayana_desc: "Wyznawcy buddyzmu mantrajana pogłębiają swoje zrozumienie duchowej głębi i przyspieszają wewnętrzną podróż za sprawą ezoterycznych rytuałów oraz mistycznych narzędzi."
  maitreya: "Majtreja"
  maitreya_adj: "Majtrejańska"
- maitreya_adherent: "Majtrejanista"
- maitreya_adherent_plural: "Majtrejaniści"
+ maitreya_adherent: "majtrejanista"
+ maitreya_adherent_plural: "majtrejaniści"
  maitreya_desc: "Era Buddy Siakjamuniego dobiegła końca i na świat zstąpił Budda Majtreja – a przynajmniej tak uważają ci, którzy sławią Majtreję jako przepowiedzianego zbawcę. Ich zdaniem świat może zostać ocalony tylko poprzez zniszczenie starego porządku."
+ maitreya_religious_head_title: "Hierarcha" #教主
+ maitreya_religious_head_title_name: "Zakony religijne"
  acharya: "Acharya"
  acharya_adj: "Acharyańska"
  acharya_adherent: "acharyanista"

@@ -221,7 +221,7 @@
  tribute_mission.1006.grant.tt: "[scribe_character.GetShortUIName] will craft a [seal_of_investiture|E] for [tributary_scope.GetTitledFirstName]"
  tribute_mission.1006.decline.no_money: "The imperial treasury cannot bear the expense."
  tribute_mission.1006.decline.dont_wanna: "[tributary_scope.GetSheHe|U] does not deserve such honor."
- refused_seal_of_investiture_opinion: "Refused granting a [seal_of_investiture|E]"
+ refused_seal_of_investiture_opinion: "Refused Granting a [seal_of_investiture|E]"
 
  tribute_mission.1007.t: "$tribute_mission_header$ Seal of Investiture"
  tribute_mission.1007.desc: "After a pregnant pause, [receiving_character.GetTitledFirstName] rises ceremoniously. On cue, the imperial scribe [scribe_character.GetShortUIName] emerges from the crowd, carrying a finely crafted $game_concept_seal_of_investiture$ — with my name on it!\n\n[receiving_character.GetTitledFirstName] retrieves it gingerly and begs me to rise. The audience is rapt in attention.\n\nAs I receive the Son of Heaven's blessing, a thought strikes me: what new doors might this precious contract open?"
@@ -314,7 +314,7 @@
  tribute_mission_notification.new_overlord.desc: "Your [tribute_mission|E] Suzerain changed to [new_overlord.GetShortUIName]"
 
 #OPINIONS
-slated_for_castration_opinion: "Slated For Castration"
+slated_for_castration_opinion: "Slated for Castration"
 
 #MODIFIERS
 suzerain_trade_post_modifier: "Suzerain Trade Posts"

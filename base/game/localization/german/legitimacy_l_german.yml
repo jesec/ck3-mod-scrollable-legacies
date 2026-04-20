@@ -43,4 +43,4 @@
  legitimacy_high_modifier_tt: "Hohe [legitimacy|E]"
  legitimacy_low_modifier_tt: "Niedrige [legitimacy|E]"
  legitimacy_on_level_entered: "#S Bei Stufenänderung:#!\n"
- legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Aktiviert den $catalyst_hegemon_lost_mandate_of_heaven$, was den [dynastic_cycle|E] in die [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]s-[situation_dynastic_cycle_phase|E] wechseln lässt#!"
+ legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Aktiviert den $catalyst_hegemon_lost_mandate_of_heaven$, was den [dynastic_cycle|E] in die [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]s-[situation_dynastic_cycle_phase|E] wechseln lässt#!\n"

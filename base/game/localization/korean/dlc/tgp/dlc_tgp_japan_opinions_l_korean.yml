@@ -8,3 +8,4 @@
  refused_pay_homage_opinion: "복종 거부"
  restored_ritsuryo_opinion: "율령 정부 복원"
  refused_pledge_loyalty_to_liege_opinion: "복종을 거부함"
+ pledged_loyalty_to_me_opinion: "$msg_pledged_loyalty_to_liege$"

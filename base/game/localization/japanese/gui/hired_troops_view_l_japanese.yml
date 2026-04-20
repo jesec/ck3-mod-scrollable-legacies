@@ -78,7 +78,7 @@
  HIRED_TROOPS_VIEW_HR_STATUS_AT_WAR_AGAINST_YOU: "#X あなたと戦争中#!"
  HIRED_TROOPS_VIEW_HR_STATUS_AT_WAR: "#X 戦争中#!"
  HIRED_TROOPS_VIEW_HR_STATUS_BUSY: "#X 活動中#!"
- HIRED_TROOPS_VIEW_HR_COST: "@gold_icon! $COST|0$"
+ HIRED_TROOPS_VIEW_HR_COST: "[SelectLocalization( GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!' )]$COST|0$"
  TITLE_TROOPS_MAPMODE_TOOLTIP_STATUS: "#weak ステータス：#! [Title.GetAdministrativeArmyStatus]"
  TITLE_TROOPS_MAPMODE_TOOLTIP_TROOPS_FROM: "以下からの部隊："
  TITLE_TROOPS_MAPMODE_TOOLTIP_CURRENT_ARMY_SIZE: "#weak 軍勢の規模：#! [Title.GetTotalTitleMAATroopsDesc]"

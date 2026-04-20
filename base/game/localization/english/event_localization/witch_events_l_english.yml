@@ -52,6 +52,7 @@
  witch.2004.discovered.desc:0 "[target.GetFirstNameNoTooltip] squints. "[ROOT.Char.GetFirstNameNoTooltip], is that you? '[owner.GetFaith.WitchGodName|U]'? What is this nonsense?!"
  witch.2004.not_discovered.desc:0 "[target.GetFirstNameNoTooltip] scrambles out of bed, reaching for something on [target.GetHerHis] bedside table. Probably nothing good. "I want nothing to do with you or your lies! Begone, demon!" [target.GetFirstNameNoTooltip] shouts, and I am not slow to obey."
  witch.2004.a:0 "Wrong [target.Custom('GetChamber')], sorry!"
+ witch.2005.toast: "Witch Discovered"
 
  witch.2005.end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip], is that you? '[owner.GetFaith.WitchGodName|U]'? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] will hear of your blasphemy!""
  witch.2005.a:0 "Please, it is not what you think!"

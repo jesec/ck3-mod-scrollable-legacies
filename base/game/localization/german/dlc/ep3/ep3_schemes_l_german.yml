@@ -86,6 +86,8 @@
  scheme_critical_moments.1153.desc_secret: "\n\nWenigstens wird niemand von meinem Scheitern erfahren."
  scheme_critical_moments.1153.a: "Enttäuschend."
  SCHEME_TARGET_IS_A_KINGDOM: "„[target.GetName|U]“ ist ein [kingdom|E]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_AN_EMPIRE: "[target.GetName|U] ist ein [empire|E]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_A_HEGEMONY: "[target.GetName|U] ist eine [hegemony|E]: $VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_HOLDER: "Ihr seid [spymaster|E] des derzeitigen [Concept('governor','Statthalters')|E]: $VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_LIEGE_OF_HOLDER: "Ihr seid [spymaster|E] des [Concept('liege', 'Lehnsherrn')|E] des derzeitigen [Concept('governor','Statthalters')|E]: $VALUE|+0=$"
  SCHEME_I_AM_DIARCH_OF_HOLDER: "Ihr seid [diarch|E] des derzeitigen [Concept('governor','Statthalters')|E]: $VALUE|+0=$"

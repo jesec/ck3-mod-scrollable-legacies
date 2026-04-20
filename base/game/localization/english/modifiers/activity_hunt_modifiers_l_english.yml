@@ -136,7 +136,7 @@ tgp_hunt_burnt_local_crops_desc: "This character burnt the field of local peasan
  hunt_left_in_trap_modifier_desc:0 "This character was left in a hunting trap far longer than was good for their well-being."
  
  hunt_punished_trappers_modifier:0 "Punished Trappers"
- hunt_punished_trappers_modifier_desc:0 "The hunting traps of this county's peasants incurred the wrath of it's owner."
+ hunt_punished_trappers_modifier_desc:0 "The hunting traps of this county's peasants incurred the wrath of its owner."
  
  hunt_witch_suspicion_modifier:0 "Aspersions of Witchcraft"
  hunt_witch_suspicion_modifier_desc:0 "This character's interest in nature has raised questions about their loyalty to the true god."
@@ -187,6 +187,7 @@ tgp_hunt_burnt_local_crops_desc: "This character burnt the field of local peasan
  hunt_success_chance.visegrad_castle_01: "$building_type_visegrad_castle_01$ [building|E]"
  hunt_success_chance.logging_camps:0 "$building_type_logging_camps_01$ [building|E]"
  hunt_success_chance.royal_forest:0 "$building_type_royal_forest_01$ [building|E]"
+ hunt_success_chance.legendary_hunting_lodge: "$building_legendary_hunting_lodge$ [building|E]"
  hunt_success_chance.culture:0 "[ROOT.Activity.GetHost.GetCulture.GetName] [culture_traditions|E]"
  hunt_success_chance.events:0 "Events"
  hunt_success_chance.sighting:0 "[ROOT.Activity.Custom('GetAnimalType')|U] [hunt_sighting_no_prefix|E]"
@@ -199,3 +200,9 @@ tgp_hunt_burnt_local_crops_desc: "This character burnt the field of local peasan
  hunt_medicinal_herbs_modifier_desc:0 "$useful_herbs_desc$"
  hunt_poisonous_herbs_modifier:0 "$poisonous_plants$"
  hunt_poisonous_herbs_modifier_desc:0 "$poisonous_plants_desc$"
+
+ hunt_carving_into_bark_modifier: "Love Eternal"
+ hunt_carving_into_bark_modifier_desc: "This character carved the initials of their loved one into the bark of a majestic tree."
+
+ hunt_ending_dog_suffering_modifier: "Friends Until the End"
+ hunt_ending_dog_suffering_modifier_desc: "This character took the difficult decision to end their loyal companion's life who was on the brink of death."

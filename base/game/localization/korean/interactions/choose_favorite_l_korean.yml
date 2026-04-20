@@ -12,5 +12,6 @@
  no_republic_or_theocracy_tt: "#X [theocracy|E] 또는 [republic|E]의 영주가 될 수 없음#!"
  cant_already_be_your_heir: "#X 이미 당신의 [primary_heir|E]가 될 수 없음#!"
  cant_be_hostage_tt: "#X [hostage|E]이 될 수 없음#!"
+ recently_sent_to_exam_tt: "#X 최근 시험에 보내졌음#!"
  cant_be_another_player_tt: "#X 다른 플레이어가 될 수 없음#!"
  must_be_direct_descendant_tt: "#X 당신의 직계비속(자녀, 손주, 증손주)이어야 함#!"

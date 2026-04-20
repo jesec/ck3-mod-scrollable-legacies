@@ -79,9 +79,9 @@ seduce_rested_modifier = {
 	stress_loss_mult = 0.25
 }
 
-seduce_obvisouly_courted_modifier = {
-	icon = love_positive
-	monthly_piety = 0.5
+seduce_obviously_courted_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.25
 }
 
 seduce_figting_modifier = {

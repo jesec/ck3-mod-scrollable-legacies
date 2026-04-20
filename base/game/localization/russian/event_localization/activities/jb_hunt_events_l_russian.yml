@@ -136,6 +136,7 @@
  hunt.8570.a: "«Я иду!»"
  hunt.8570.a.success: "Вы спасаете [Select_CString(stampede_victim.IsFemale, 'ее', 'его' )] в целости и сохранности"
  hunt.8570.a.failure: "Вы спасаете [Select_CString(stampede_victim.IsFemale, 'ее', 'его' )], хотя травм избежать не удалось"
+ hunt.8570.a.failure_2: "Вам не удается [Select_CString(stampede_victim.IsFemale, 'ее', 'его' )] спасти"
  hunt.8570.a.crit_failure: "Вы пытаетесь и погибаете"
  hunt.8570.b: "Возможно, я смогу направить бегство в другую сторону"
  hunt.8570.b.success: "Вы перенаправляете бегущих животных"

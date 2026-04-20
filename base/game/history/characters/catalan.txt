@@ -2009,7 +2009,7 @@ barcelona_00004 = {
 
 71654 = {
 	name = "Hug-JofrE_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72248
@@ -6076,7 +6076,7 @@ barcelona_00004 = {
 
 72237 = {
 	name = "Berenguer-Renard"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 110585
@@ -6091,7 +6091,7 @@ barcelona_00004 = {
 
 72238 = {
 	name = "JofrE_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 110585
@@ -6109,7 +6109,7 @@ barcelona_00004 = {
 
 72239 = {
 	name = "Ermessenda"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6125,7 +6125,7 @@ barcelona_00004 = {
 
 72240 = {
 	name = "Guillem"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 110585
@@ -6140,7 +6140,7 @@ barcelona_00004 = {
 
 72241 = {
 	name = "Toda"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6156,7 +6156,7 @@ barcelona_00004 = {
 
 72242 = {
 	name = "Berenguer"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_1
@@ -6206,7 +6206,7 @@ barcelona_00004 = {
 
 72245 = {
 	name = "Dalmau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72238
@@ -6224,7 +6224,7 @@ barcelona_00004 = {
 
 72246 = {
 	name = "Ermessenda"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6253,7 +6253,7 @@ barcelona_00004 = {
 
 72248 = {
 	name = "JofrE_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72245
@@ -6271,7 +6271,7 @@ barcelona_00004 = {
 
 72249 = {
 	name = "Ramon"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_1
@@ -6300,7 +6300,7 @@ barcelona_00004 = {
 
 72251 = {
 	name = "Dalmau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72248
@@ -6318,7 +6318,7 @@ barcelona_00004 = {
 
 72252 = {
 	name = "Ramon"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_1
@@ -6347,7 +6347,7 @@ barcelona_00004 = {
 
 72254 = {
 	name = "JofrE_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72251
@@ -6365,7 +6365,7 @@ barcelona_00004 = {
 
 72255 = {
 	name = "Guerau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72251
@@ -6380,7 +6380,7 @@ barcelona_00004 = {
 
 72256 = {
 	name = "Renard"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72251
@@ -6395,7 +6395,7 @@ barcelona_00004 = {
 
 72257 = {
 	name = "Arnau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72251
@@ -6410,7 +6410,7 @@ barcelona_00004 = {
 
 72258 = {
 	name = "Benet"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_1
@@ -6426,7 +6426,7 @@ barcelona_00004 = {
 
 72259 = {
 	name = "Sibil_la"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6455,7 +6455,7 @@ barcelona_00004 = {
 
 72261 = {
 	name = "Dalmau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72254
@@ -6479,7 +6479,7 @@ barcelona_00004 = {
 
 72262 = {
 	name = "Guerau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72254
@@ -6494,7 +6494,7 @@ barcelona_00004 = {
 
 72263 = {
 	name = "JofrE_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72254
@@ -6522,7 +6522,7 @@ barcelona_00004 = {
 
 72265 = {
 	name = "JofrE_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72261
@@ -6540,7 +6540,7 @@ barcelona_00004 = {
 
 72266 = {
 	name = "Pere"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_1
@@ -6556,7 +6556,7 @@ barcelona_00004 = {
 
 72267 = {
 	name = "GalcerA_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72261
@@ -6571,7 +6571,7 @@ barcelona_00004 = {
 
 72268 = {
 	name = "Guerau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72261
@@ -6589,7 +6589,7 @@ barcelona_00004 = {
 
 72269 = {
 	name = "Alamanda"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6647,7 +6647,7 @@ barcelona_00004 = {
 
 72273 = {
 	name = "Elisenda"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6663,7 +6663,7 @@ barcelona_00004 = {
 
 72274 = {
 	name = "Beatriu"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6679,7 +6679,7 @@ barcelona_00004 = {
 
 72275 = {
 	name = "PonC_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72261
@@ -6697,7 +6697,7 @@ barcelona_00004 = {
 
 72276 = {
 	name = "Dalmau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72261
@@ -6754,7 +6754,7 @@ barcelona_00004 = {
 
 72280 = {
 	name = "ConstanC_a"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6771,7 +6771,7 @@ barcelona_00004 = {
 
 72281 = {
 	name = "Marquesa"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6788,7 +6788,7 @@ barcelona_00004 = {
 
 72282 = {
 	name = "Guillem"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_1
@@ -6804,7 +6804,7 @@ barcelona_00004 = {
 
 72283 = {
 	name = "Dalmau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_2
@@ -6820,7 +6820,7 @@ barcelona_00004 = {
 
 72284 = {
 	name = "Dalmau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72265
@@ -6838,7 +6838,7 @@ barcelona_00004 = {
 
 72285 = {
 	name = "Guerau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_1
@@ -6854,7 +6854,7 @@ barcelona_00004 = {
 
 72286 = {
 	name = "Galceranda"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6871,7 +6871,7 @@ barcelona_00004 = {
 
 72287 = {
 	name = "Alamanda"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6888,7 +6888,7 @@ barcelona_00004 = {
 
 72288 = {
 	name = "Gueraua"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -6904,7 +6904,7 @@ barcelona_00004 = {
 
 72289 = {
 	name = "JofrE_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	trait = education_learning_2 #Knight of Saint John of Jerusalem
@@ -6923,7 +6923,7 @@ barcelona_00004 = {
 
 72290 = {
 	name = "Bernat-Hug"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72265
@@ -6968,7 +6968,7 @@ barcelona_00004 = {
 
 72293 = {
 	name = "JofrE_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72284
@@ -6986,7 +6986,7 @@ barcelona_00004 = {
 
 72294 = {
 	name = "Guillem-GalcerA_"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72284
@@ -7004,7 +7004,7 @@ barcelona_00004 = {
 
 72295 = {
 	name = "Timbor"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	female = yes
 	religion = catholic
 	culture = catalan
@@ -7036,7 +7036,7 @@ barcelona_00004 = {
 
 72297 = {
 	name = "Felip-Dalmau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72293
@@ -7051,7 +7051,7 @@ barcelona_00004 = {
 
 72298 = {
 	name = "Benet"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72293
@@ -7066,7 +7066,7 @@ barcelona_00004 = {
 
 72299 = {
 	name = "Joan-Guerau"
-	dynasty = 392
+	dynasty_house = house_rocaberti
 	religion = catholic
 	culture = catalan
 	father = 72293
@@ -8731,7 +8731,7 @@ barcelona_00004 = {
 110583 = {
 	name = "Arsenda" # Arsenda de Rocaberti, wife of Berenguer d'Empuries (110582)
 	female = yes
-	dynasty = 392 # Rocaberti Dynasty
+	dynasty_house = house_rocaberti # Rocaberti Dynasty
 	martial = 5
 	diplomacy = 4
 	intrigue = 5
@@ -8790,7 +8790,7 @@ barcelona_00004 = {
 	}
 	1098.1.1 = {
 		name = "Dalmau"
-		dynasty_house = house_rocaberti-empuries # House of Rocaberti-Empuries
+		dynasty_house = house_rocaberti # House of Rocaberti-Empuries
 	}
 	1137.1.1 = {
 		death = yes
@@ -9752,7 +9752,10 @@ barcelona_00004 = {
 				limit = { has_realm_law = crown_authority_0 }
 				add_realm_law = crown_authority_2
 			}
-			add_realm_law = high_partition_succession_law
+			if = {
+				limit = { NOT = { has_realm_law = high_partition_succession_law } }
+				add_realm_law = high_partition_succession_law
+			}
 		}
 	}
 	1195.4.25 = {
@@ -13040,7 +13043,7 @@ catalan0072 = {
 
 catalan0073 = {
 	name = "Guillem" # Guillem de Rocaberti
-	dynasty = 392 # Rocaberti Dynasty
+	dynasty_house = house_rocaberti # Rocaberti Dynasty
 	religion = catholic
 	culture = catalan
 	trait = education_stewardship_1
@@ -13075,7 +13078,7 @@ catalan0074 = {
 
 catalan0075 = {
 	name = "Ramon-Guillem" # Ramon Guillem de Rocaberti
-	dynasty = 392 # Rocaberti Dynasty
+	dynasty_house = house_rocaberti # Rocaberti Dynasty
 	religion = catholic
 	culture = catalan
 	trait = education_stewardship_2
@@ -13093,7 +13096,7 @@ catalan0075 = {
 
 catalan0076 = {
 	name = "Dalmau" # Dalmau (II) de Rocaberti
-	dynasty = 392 # Rocaberti Dynasty
+	dynasty_house = house_rocaberti # Rocaberti Dynasty
 	religion = catholic
 	culture = catalan
 	trait = education_diplomacy_2
@@ -13111,7 +13114,7 @@ catalan0076 = {
 
 catalan0077 = {
 	name = "Guerau" # Guerau de Rocaberti
-	dynasty = 392 # Rocaberti Dynasty
+	dynasty_house = house_rocaberti # Rocaberti Dynasty
 	religion = catholic
 	culture = catalan
 	trait = education_stewardship_1

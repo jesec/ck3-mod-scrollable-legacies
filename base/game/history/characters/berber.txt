@@ -359,13 +359,13 @@
 	stewardship = 5
 	religion = "ashari"
 	culture = baranis
-	trait = greedy
+	trait = forgiving
+	trait = ambitious
+	trait = lifestyle_poet
 	trait = education_martial_3
+	trait = brave
 	father = 20935
-	# 1062.1.1 = { # These are the years of his reign, not his birth year
-	# 	birth = yes
-	# }
-	1046.1.1 = {
+	1031.7.6 = {
 		birth = yes
 	}
 	1108.1.1 = {
@@ -1323,7 +1323,7 @@
 	culture = baranis
 	trait = education_martial_3
 	father = 20825
-	1062.1.1 = {
+	1065.11.28 = {
 		birth = yes
 	}
 	1116.1.1 = {
@@ -7668,8 +7668,8 @@ baranis0027 = {
 	culture = baranis
 	trait = deceitful
 	trait = education_martial_3
-	father = 20825 # Tamin
-	1062.1.1 = {
+	father = 20825 # Tamim
+	1047.8.1 = { # as early as possible due to his father's birthday
 		birth = yes
 	}
 	1063.1.1 = {

@@ -11,11 +11,13 @@ types Settings
 		state = {
 			name = _show
 			using = Animation_FadeIn_Quick
+			on_finish = "[GetVariableSystem.Set('pause_submenu', 'settings')]"
 		}
 
 		state = {
 			name = _hide
 			using = Animation_FadeOut_Quick
+			on_finish = "[GetVariableSystem.Clear('pause_submenu')]"
 		}
 		using = Background_Full_Dim
 
@@ -26,7 +28,7 @@ types Settings
 
 		widget = {
 			parentanchor = center
-			size = { 970 700 }
+			size = { 800 90% }
 			alwaystransparent = no
 			
 			using = Window_Background
@@ -50,50 +52,30 @@ types Settings
 				}
 
 				## CONTENT WINDOW ##
-				hbox = {
+				vbox = {
 					layoutpolicy_vertical = expanding
 					layoutpolicy_horizontal = expanding
 
-					vbox = {
-						layoutpolicy_vertical = expanding
-						margin_left = 20
-						margin_right = -3
-
-						vbox = {
-							datamodel = "[JominiSettingsWindow.AccessPages]"
-
-							item = {
-								widget = {
-									size = { 200 48 }
-
-									button = {
-										size = { 200 48 }
-										visible = "[SettingsPage.IsSelected]"
-										text = "[SettingsPage.GetName]"
-										default_format = "#low"
-
-										frame = 4
-										alwaystransparent = yes
-
-										texture = "gfx/interface/buttons/button_tab_vertical.dds"
-										spriteType = Corneredtiled
-										spriteborder = { 10 10 }
-										framesize = { 202 48 }
-									}
-
-									button_tab_vertical = {
-										visible = "[Not(SettingsPage.IsSelected)]"
-										size = { 200 48 }
-
-										text = "[SettingsPage.GetName]"
-										onclick = "[SettingsPage.OnClick]"
-										upframe = "[Select_int32(SettingsPage.IsSelected,'(int32)2','(int32)1')]"
-									}
-								}
+					hbox = {
+						datamodel = "[JominiSettingsWindow.AccessPages]"
+						layoutpolicy_horizontal = expanding
+						
+						item = {
+							button_tab = {
+								size = { 0 48 }
+								using = MenuShortcut
+								layoutpolicy_horizontal = expanding
+								tooltip = "[SettingsPage.GetName]"
+								# using = tooltip_ws
+								down = "[SettingsPage.IsSelected]"
+								
+								text = "[SettingsPage.GetName]"
+								elide = right
+								margin = { 10 0 }
+								onclick = "[SettingsPage.OnClick]"
+								# upframe = "[Select_int32(SettingsPage.IsSelected,'(int32)2','(int32)1')]"
 							}
 						}
-
-						expand = {}
 					}
 
 					scrollbox = {
@@ -115,56 +97,57 @@ types Settings
 						}
 					}
 				}
-
-				hbox = {
+				
+				vbox = {
 					layoutpolicy_horizontal = expanding
 					margin = { 15 10 }
-					spacing = 5
-
-					# jomini_settings_restart_required_indicator = {
-					# 	tooltip = "REQUIRES_RESTART"
-					# 	visible = "[JominiSettingsWindow.RequireRestart]"
-					# }
-
-					button_tertiary = {
-						text = "SETTINGS_DISCARD_CHANGES"
-						onclick = "[JominiSettingsWindow.Restore]"
-						visible = "[JominiSettingsWindow.HasChanged]"
-						min_width = 200
-					}
-
-					expand = {
-						visible = "[Not(JominiSettingsWindow.RequireRestart)]"
-					}
-
-					text_single = {
+					spacing = 10
+										
+					hbox = {
 						layoutpolicy_horizontal = expanding
 						visible = "[JominiSettingsWindow.RequireRestart]"
-						max_width = 400
-						margin_right = 10
-						autoresize = yes
-						align = nobaseline|right
-						text = "REQUIRE_RESTART_DESCRIPTION"
-						block "require_restart_description" {}
-					}
-
+						margin = { 0 5 }
 					
-
-					# This button is hidden, it is just a trap that resets your settings
-					#button_standard = {
-					#	text = "CANCEL"
-					#	onclick = [JominiSettingsWindow.Hide]
-					#	onclick = "[ClearResetReactiveTutorialPopup]"
-					#	default_format = "#low"
-					#}
-
-					button_primary = {
-						text = "SAVE_AND_CLOSE"
-						onclick = "[JominiSettingsWindow.SaveAndClose]"
-						enabled = "[Not( HasOpenResetReactiveTutorialPopup )]"
-						shortcut = close_window
+						text_single = {
+							layoutpolicy_horizontal = expanding
+							max_width = 650
+							margin_left = 10
+							align = nobaseline
+							text = "REQUIRE_RESTART_DESCRIPTION"
+							block "require_restart_description" {}
+						}
+						
+						expand = {}
+					}
+					
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						
+						spacing = 5
+						
+						# jomini_settings_restart_required_indicator = {
+						# 	tooltip = "REQUIRES_RESTART"
+						# 	visible = "[JominiSettingsWindow.RequireRestart]"
+						# }
+						
+						button_tertiary = {
+							text = "SETTINGS_DISCARD_CHANGES"
+							onclick = "[JominiSettingsWindow.Restore]"
+							visible = "[JominiSettingsWindow.HasChanged]"
+							min_width = 200
+						}
+						
+						expand = {}
+						
+						button_primary = {
+							text = "SAVE_AND_CLOSE"
+							onclick = "[JominiSettingsWindow.SaveAndClose]"
+							enabled = "[Not( HasOpenResetReactiveTutorialPopup )]"
+							shortcut = close_window
+						}
 					}
 				}
+
 			}
 		}
 	}

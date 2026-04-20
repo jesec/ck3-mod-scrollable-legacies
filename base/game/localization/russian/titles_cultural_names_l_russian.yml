@@ -2748,6 +2748,14 @@
  cn_okjeo_adj: "$cn_okjeo$"
  cn_pungju: "Пунджу" #豐州 (풍주)
  cn_pungju_adj: "$cn_pungju$"
+ cn_eunju: "Ынджу" #은주
+ cn_eunju_adj: "$cn_eunju$"
+ cn_cheopju: "Чхопчу" #첩주
+ cn_cheopju_adj: "$cn_cheopju$"
+ cn_gwideokju: "Квидокчу" #귀덕주
+ cn_gwideokju_adj: "$cn_gwideokju$"
+ cn_simyang: "Симъян" #심양
+ cn_simyang_adj: "$cn_simyang$"
  #Japan
  cn_east_hokkaido: "Восточное Хоккайдо"
  cn_east_hokkaido_adj: "Восточнохоккайдск"
@@ -2758,7 +2766,7 @@
  cn_nishi: "Ниси" #爾志
  cn_kayabe: "Каябэ" #茅部
  cn_otaru: "Отару" #小樽
- cn_setana: "Сэтана"
+ cn_setana: "Сетана" #瀬棚
  cn_abuta: "Абута" #虻田
  cn_yoichi: "Ёити" #余市
  cn_oshima: "Осима" #渡島
@@ -2923,3 +2931,45 @@
  cn_michuan: "Мичуань" #米川
  cn_juyan: "Цзюйянь" #居延
  cn_tongcheng: "Тунчэн" #同城
+ cn_luopubo: "Лобупо" #罗布泊
+ #Carthaginian
+ cn_carthage: "Карфаген"
+ cn_lilybaeum: "Лилибей"
+ cn_panormus: "Панорм"
+ cn_maleth: "Малет"
+ cn_agragant: "Акрагант"
+ cn_sicilia: "Сицилия"
+ cn_sardinia: "Сардиния"
+ cn_caralis: "Каралис"
+ cn_tibia: "Тибия"
+ cn_hadrumetum: "Гадрумет"
+ cn_thabraca: "Табрака"
+ cn_hippo: "Гиппон"
+ cn_tabrua: "Табруа"
+ cn_girba: "Гирба"
+ cn_syrtis: "Сирт"
+ cn_charax: "Харакс"
+ cn_icosium: "Икосий"
+ cn_saldae: "Салда"
+ cn_quinea: "Кинея"
+ cn_iol: "Иол"
+ cn_siga: "Сига"
+ cn_tingis: "Тингий"
+ cn_abdyla: "Абдила"
+ cn_sala: "Сала"
+ cn_ilecarvones: "Илеркаоны"
+ cn_saguntum: "Сагунт"
+ cn_cartalias: "Карталия"
+ cn_carthago_nova: "Новый Карфаген"
+ cn_bastetani: "Бастетаны"
+ cn_basti: "Басти"
+ cn_malaca: "Малака"
+ cn_calpe: "Кальпа"
+ cn_gades: "Гадес"
+ cn_tudetani: "Турдетаны"
+ cn_hispalis: "Гиспалий"
+ cn_herna: "Герна"
+ cn_cirta: "Цирта"
+ cn_sufetula: "Суфетула"
+ cn_zama: "Зама"
+ cn_rusaddir: "Русаддир"

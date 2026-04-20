@@ -113,9 +113,9 @@
  manichean_religious_head_title_name: "Jamagat"
  #Mandeanism
  mandeaism: "Mandaizm"
- mandeaism_adj: "Mandajska"
- mandeaism_adherent: "mandajczyk"
- mandeaism_adherent_plural: "mandajczycy"
+ mandeaism_adj: "Mandejski"
+ mandeaism_adherent: "Mandejczyk"
+ mandeaism_adherent_plural: "Mandejczycy"
  mandeaism_desc: "Mandaizm wywodzi swoją historię od Adama, uważając Jana Chrzciciela za największego proroka. Świat składa się ze światła i ciemności, a wszystkie śmiertelne dusze z czasem zostaną osądzone, czy są godne powrotu do wiecznego światła."
  mandeaism_high_god_name: "Pierwsze Światło"
  mandeaism_high_god_name_2: "$mandeaism_high_god_name$" #Optional translation alt
@@ -251,8 +251,8 @@
  #Mingism
  mingism: "Mingizm"
  mingism_adj: "Mingijska"
- mingism_adherent: "Mingista"
- mingism_adherent_plural: "Mingiści"
+ mingism_adherent: "mingista"
+ mingism_adherent_plural: "mingiści"
  mingism_desc: "Zgodnie z doktryną Buddy Móní niebiańskie Królestwo Światła jest oblegane przez Królestwo Ciemności i wszyscy wyczekują dnia, w którym Promienny Pan, obiekt hołdów słońca i księżyca, wyśle swoich posłańców na ziemię, aby szerzyli oświecenie i wyzwolili ludzi z cierpienia."
  mingism_high_god_name: "Míngzūn"
  mingism_high_god_name_2: "$mingism_high_god_name$"

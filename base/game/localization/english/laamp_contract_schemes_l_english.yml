@@ -402,7 +402,7 @@
  
  laamp_base_6031_desc_title: "If you be stalwart: take heed!"
  laamp_base_6031_desc: "The bridge of [TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier] remains unprotected. A show of force is necessary to keep bandits away. [TaskContract.GetEmployer.GetTitledFirstNameNoTooltip] shall reward whoever dissuades them."
- laamp_base_contract_schemes.6031.t: "$laamp_base_6021_contract_scheme$"
+ laamp_base_contract_schemes.6031.t: "$laamp_base_6031_contract_scheme$"
  laamp_base_contract_schemes.6031.desc: "[employer.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('employer'))] as [employer.GetSheHe] makes [employer.GetHerHis] way through the camp.\n\n"Wonderful morning we have here," [employer.GetSheHe] starts, "a perfect chance to show those ruffians the value of a true $knight_culture_player_no_tooltip$. You see, there's a bridge that goes right into [ROOT.Char.GetCurrentLocation.GetName]. All manners of miscreants, fools and idiots hang about there."\n\n"Someone should take care of that.""
  laamp_base_contract_schemes.6031.a: "I shall break three hundred lances!"
  laamp_base_contract_schemes.6031.b: "It will take a couple of days."

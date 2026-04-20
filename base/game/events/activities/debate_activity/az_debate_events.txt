@@ -1386,16 +1386,16 @@ az_debate.0006 = {
                 is_ai = yes
             }
         }
-        scope:activity = {
+		scope:activity = {
             any_attending_character = {
                 is_ai = yes
-                age >= 70
-                has_relation_elder = root
-                save_temporary_scope_as = current_elder
+                age >= 60
+                has_relation_disciple = root
+                save_temporary_scope_as = current_elder_temp
             }
             any_attending_character = {
                 is_ai = yes
-                this != scope:current_elder
+                this != scope:current_elder_temp
                 sum_of_all_skills_value > root.sum_of_all_skills_value
                 eligible_for_elder_trigger = {
 					DISCIPLE = root
@@ -1411,8 +1411,8 @@ az_debate.0006 = {
             random_attending_character = {
             	limit = {
             		is_ai = yes
-                    age >= 70
-	                has_relation_elder = root
+                    age >= 60
+	                has_relation_disciple = root
             	}
                 save_scope_as = current_elder
             }
@@ -1523,7 +1523,7 @@ az_debate.0006 = {
         }
         set_variable = {
             name = new_elder
-            value = scope:elder
+            value = scope:new_elder
         }
         stress_impact = {
             ambitious = minor_stress_impact_loss
@@ -1551,7 +1551,7 @@ az_debate.0006 = {
         name = az_debate.0006.b
         scope:current_elder = {
         	add_opinion = {
-	            target = scope:current_elder
+	            target = root
 	            modifier = flattered_opinion 
 	            opinion = 30
 	        }
@@ -2043,7 +2043,7 @@ az_debate.0008 = {
             name = debate_disciples
             target = scope:neutral_scholar
         }
-        scope:rival_elder = {
+        scope:rival_leader = {
 	        progress_towards_nemesis_effect = {
 				REASON = nemesis_poached_disciple
 				CHARACTER = root

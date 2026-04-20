@@ -607,7 +607,10 @@
 				limit = { has_realm_law = crown_authority_0 }
 				add_realm_law = crown_authority_1
 			}
-			add_realm_law = high_partition_succession_law
+			if = {
+				limit = { NOT = { has_realm_law = high_partition_succession_law } }
+				add_realm_law = high_partition_succession_law
+			}
 			set_relation_rival = { target = character:202971 } # Domnall mac Uilleim
 		}
 	}

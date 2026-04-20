@@ -479,6 +479,7 @@ c_sambhupura = {	#Bhavapura
 		holder = khmer_kaundinya_3
 	}
 	1177.1.1 = {
+		liege = 0
 		holder = khmer_bhavapura_10_fic	#fictional
 		tributary_of = {
 			suzerain = c_angkor	#Khmer empire in shambles from 1177-1181
@@ -500,6 +501,7 @@ c_prea_vihear = {
 		holder = khmer_kaundinya_3
 	}
 	1177.1.1 = {
+		liege = 0
 		holder = khmer_preavihear_01_fic	#fictional
 		tributary_of = {
 			suzerain = c_angkor	#Khmer empire in shambles from 1177-1181
@@ -521,6 +523,7 @@ c_koh_ker = {
 		holder = khmer_kaundinya_3
 	}
 	1177.1.1 = {
+		liege = 0
 		holder = khmer_kohker_01_fic	#fictional
 		tributary_of = {
 			suzerain = c_angkor	#Khmer empire in shambles from 1177-1181

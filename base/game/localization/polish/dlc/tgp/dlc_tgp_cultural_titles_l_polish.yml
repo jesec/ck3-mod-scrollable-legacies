@@ -18,7 +18,7 @@
  duke_administrative_female_japanese: "$count_administrative_female_japanese$"
  duchy_administrative_japanese: "Chihō" # 地方
  king_administrative_male_japanese: "Sochi" # 帥
- king_administraiive_female_japanese: "$king_administrative_male_japanese$"
+ king_administrative_female_japanese: "$king_administrative_male_japanese$"
  kingdom_administrative_japanese: "Fu" # 府
  # Sōryō
  count_feudal_male_japanese: "Sōryō" # 惣領
@@ -169,9 +169,66 @@
  prince_female_tangut: "Królewna"
  # HAN
  king_male_chinese: "Wáng" # 王
- king_female_chinese: "Nuwáng" # 女王
+ king_female_chinese: "Nyuwáng" # 女王
  spouse_king_male_chinese: "Wángfū" # 王夫
  spouse_king_female_chinese: "Wánghòu" # 王后
+ duke_independent_male_feudal_chinese: "Wáng" # 王
+ spouse_duke_independent_female_feudal_chinese: "Wánghòu" # 王后
+ duke_independent_female_feudal_chinese: "Wáng" # 王
+ spouse_duke_independent_male_feudal_chinese: "Wángfū" # 王夫
+ duke_male_feudal_chinese: "Gōng" # 公
+ spouse_duke_female_feudal_chinese: "Fūrén" # 夫人
+ duke_female_feudal_chinese: "Gōng" # 公
+ spouse_duke_male_feudal_chinese: "Xiànggōng" # 相公
+ duchy_feudal_chinese_independent: "Zhèn" # 镇
+ count_independent_male_feudal_chinese: "Jiāngjūn" # 将军
+ spouse_count_independent_female_feudal_chinese: "Fūrén" # 夫人
+ count_independent_female_feudal_chinese: "Jiāngjūn" # 将军
+ spouse_count_independent_male_feudal_chinese: "Xiànggōng" # 相公
+ count_male_feudal_chinese: "Hóu" # 侯
+ spouse_count_female_feudal_chinese: "Fūrén" # 夫人
+ count_female_feudal_chinese: "Hóu" # 侯
+ spouse_count_male_feudal_chinese: "Xiànggōng" # 相公
+ county_feudal_chinese: "Jùn" # 郡
+ baron_male_feudal_chinese: "Bó" # 伯
+ spouse_baron_female_feudal_chinese: "Fūrén" # 夫人
+ baron_female_feudal_chinese: "Bó" # 伯
+ spouse_baron_male_feudal_chinese: "Xiànggōng" # 相公
+ barony_feudal_chinese: "Xiàn" # 县
+ prince_duchy_chinese: "Gōngzi" # 公子
+ princess_duchy_chinese: "Gōngnyu" # 公女
+ prince_kingdom_feudal_chinese: "Wángzi" # 王子
+ princess_kingdom_feudal_chinese: "Jùnzhu" # 郡主
+ prince_empire_chinese: "Huángzi" # 皇子
+ princess_empire_chinese: "Huángnyu" # 皇女
+ prince_empire_celestial_chinese: "Gōngzi" # 公子
+ princess_empire_celestial_chinese: "Gōngnyu" # 公女
+ prince_kingdom_celestial_chinese: "Gōngzi" # 公子
+ princess_kingdom_celestial_chinese: "Gōngnyu" # 公女
+ prince_hegemony_chinese: "Huángzi" # 皇子
+ princess_hegemony_chinese: "Huángnyu" # 皇女
+ duke_male_chinese_independent: "Jiédùshi" # 节度使
+ spouse_duke_female_chinese_independent: "Fūrén" # 夫人
+ duke_female_chinese_independent: "Jiédùshi" # 节度使
+ spouse_duke_male_chinese_independent: "Xiànggōng" # 相公
+ prince_kingdom_celestial_chinese_independent: "Wángzi" # 王子
+ princess_kingdom_celestial_chinese_independent: "Jùnzhu" # 郡主
+ duchy_celestial_chinese_independent: "Jūn" # 军
+ kingdom_celestial_chinese_independent: "Guó" # 国
+ empire_celestial_chinese_independent: "Guó" # 国
+ march_duke_male_feudal_chinese: "Biānjiāng" # 边将
+ march_duke_female_feudal_chinese: "Biānjiāng" # 边将
+ march_king_male_feudal_chinese: "Fānwáng" # 藩王
+ march_king_female_feudal_chinese: "Fānwáng" # 藩王
+ march_emperor_male_feudal_chinese: "Fāngbó" # 方伯
+ march_emperor_female_feudal_chinese: "Fāngbó" # 方伯
+ emperor_male_feudal_chinese: "Guózhu" # 国主
+ emperor_female_feudal_chinese: "Guózhu" # 国主
+ empire_feudal_chinese: "Guó" # 国
+ march_duchy_feudal_chinese: "Jūn" # 军
+ march_kingdom_feudal_chinese: "Fān" # 藩
+ spouse_emperor_female_feudal_chinese: "Fūrén" # 夫人
+ spouse_emperor_male_feudal_chinese: "Xiànggōng" # 相公
  # KOREAN CHAPLAINS
  councillor_court_chaplain_buddhist_korean_county: "Daesa" # 大師
  councillor_court_chaplain_buddhist_korean_duchy: "Jungdaesa" # 重大師

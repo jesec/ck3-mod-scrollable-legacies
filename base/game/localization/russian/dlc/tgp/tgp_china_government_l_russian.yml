@@ -118,7 +118,7 @@
  may_gain_merit_desc: "Возможность получить [merit_i][Concept('merit', 'заслуги')|E]"
  cannot_compete_for_lower_rank_titles_tt: "[Concept('governors', 'Губернаторы')|E] не могут соперничать за [Concept('titles', 'титулы')|E], [Concept('title_tier', 'уровень')|E] которых ниже текущего [Concept('governorship', 'губернаторства')|E]"
  tgp_is_above_retirement_age_law_not_set: "Отсутствует [Concept('law', 'закон')|E] «[GetLawGroup('celestial_retirement_law').GetName]»"
- tgp_is_above_retirement_age_5: "[Concept('law', 'Закон')|E] «[GetLawGroup('celestial_retirement_law').GetName]» не предполагает сложения полномочий, поэтому в настоящее время [GetLaw('celestial_retirement_law_5').GetName|l]"
+ tgp_is_above_retirement_age_5: "[Concept('law', 'Закон')|E] «[GetLawGroup('celestial_retirement_law').GetName]» предполагает, что [GetLaw('celestial_retirement_law_5').GetName|l], и позволяет сложить полномочия в любом возрасте"
  tgp_is_above_retirement_age_0: "[Concept('law', 'Закон')|E] «[GetLawGroup('celestial_retirement_law').GetName]» предполагает [GetLaw('celestial_retirement_law_0').GetName|l], поэтому [Concept('governors', 'губернаторы')|E] могут сложить полномочия по достижении 50 лет"
  tgp_is_above_retirement_age_1: "[Concept('law', 'Закон')|E] «[GetLawGroup('celestial_retirement_law').GetName]» предполагает [GetLaw('celestial_retirement_law_1').GetName|l], поэтому [Concept('governors', 'губернаторы')|E] могут сложить полномочия по достижении 60 лет"
  tgp_is_above_retirement_age_2: "[Concept('law', 'Закон')|E] «[GetLawGroup('celestial_retirement_law').GetName]» предполагает [GetLaw('celestial_retirement_law_2').GetName|l], поэтому [Concept('governors', 'губернаторы')|E] могут сложить полномочия по достижении 70 лет"

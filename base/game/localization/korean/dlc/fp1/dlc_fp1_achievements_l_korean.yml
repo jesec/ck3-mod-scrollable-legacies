@@ -18,7 +18,7 @@
  ACHIEVEMENT_DESC_faster_than_the_fox_achievement: "$north_germanic_group$ 출신의 $norse_pagan_adherent$로 시작하여, 해당 조건을 유지한 채로 1047년이 되기 전에 $k_sicily$ [kingdom|E]을 [completely_control|E]하십시오. $rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_volva_achievement: "$north_germanic_group$ 출신의 $norse_pagan_adherent$로 시작하여, 해당 조건을 유지한 채로 $found_witch_coven_decision$ [decision|E]을 실행하십시오."
  ACHIEVEMENT_DESC_saga_in_stone_achievement: "[dynasty|E]의 이름을 내세워 룬돌을 백 개 세우십시오."
- ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement: "$north_germanic_group$ 출신의 인물로 시작하여, 공격 측의 입장에서 최초로 진행되는 천주교 십자군에 참여하십시오."
+ ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement: "$north_germanic_group$ 출신의 인물로 시작하여, 공격 측의 입장에서 최초로 진행되는 가톨릭 십자군에 참여하십시오."
  ACHIEVEMENT_DESC_vladimirs_second_choice_achievement: "$north_germanic_group$ 출신의 $norse_pagan_adherent$로 시작하여, 아무 이슬람 [faith|E]으로 개종하십시오. 또한 [GetGeographicalRegion('dlc_fp1_achievement_vladimirs_second_choice').GetName][region|E] 전역을 이슬람 $game_concept_faith$으로 개종해야 합니다."
  ACHIEVEMENT_DESC_a_dangerous_business_achievement: "난쟁이로 유럽 외부에서 [varangian_adventure|E] [war|E]을 성공적으로 완수하십시오."
  #Locked Achievement Desc

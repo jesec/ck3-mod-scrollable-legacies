@@ -25,6 +25,7 @@
  LEAVE_COUNCIL_CONFIRMATION: "[CHARACTER.GetCouncilTitle]の[council|E]で[CHARACTER.GetLiege.GetUIName]を務めることによって受けていた恩恵を失いました"
  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "脱退"
  decision_tab_great_projects: "計画"
+ GREAT_PROJECTS_TAB: "大事業"
  AVAILABLE_DECISIONS_VIEW_PROJECTS: "利用可能な[great_projects|E]"
  DECISIONS_VIEW_EMPTY_PROJECTS: "利用可能な[great_projects|E]がない"
  DECISIONS_VIEW_PLANNED_PROJECTS: "計画された[great_projects|E]"

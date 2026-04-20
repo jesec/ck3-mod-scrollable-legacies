@@ -298,9 +298,9 @@
  relation_acquaintance_female: "지인" #formerly #D debug
  relation_acquaintance_male: "지인" #formerly #D debug
  relation_count: "백작"
- relation_countess: "백작부인"
+ relation_countess: "여백작"
  relation_duke: "공작"
- relation_duchess: "공작부인"
+ relation_duchess: "여공작"
  relation_king: "왕"
  relation_queen: "여왕"
  relation_daughters: "딸들"
@@ -433,9 +433,9 @@
  relation_acquaintance_female_possessive: "지인의"
  relation_acquaintance_male_possessive: "지인의"
  relation_count_possessive: "백작의"
- relation_countess_possessive: "백작부인의"
+ relation_countess_possessive: "여백작의"
  relation_duke_possessive: "공작의"
- relation_duchess_possessive: "공작부인의"
+ relation_duchess_possessive: "여공작의"
  relation_king_possessive: "왕의"
  relation_queen_possessive: "여왕의"
  relation_daughters_possessive: "딸의"

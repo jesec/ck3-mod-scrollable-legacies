@@ -200,8 +200,7 @@
  cultural_festival.2110.e: "Debo mantenerme en mi lugar."
  cultural_festival_2110_d_tt: "Pateas al perro"
  cultural_festival_2110_d_opinion_tt: "Todo personaje asistente no insensible ni sádico"
- available_because_intent_tt: "#EMP #low Esta opción está disponible por tu intención de [THIS.Char.GetInvolvedActivityIntent.GetName|l]#!#!"
- event_triggered_because_intent_tt: "#EMP #low Esta opción está disponible por tu [intent|lE] de [THIS.Char.GetInvolvedActivityIntent.GetName|l]#!#!"
+ available_because_intent_tt: "#EMP #low Esta opción está disponible por tu [intent|El] de [THIS.Char.GetInvolvedActivityIntent.GetName|V]#!#!"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "La gran obra"
  cultural_festival.3000.desc: "Se me presenta una gran oportunidad con la visita de mi [visiting_liege.GetLadyLord], [visiting_liege.Custom('ES_ElLa')] [visiting_liege.GetTitledFirstName|l]. Podría utilizar este encuentro propiciado por el destino para ganarme su simpatía y que probablemente me resulte más fácil conseguir lo que quiero…\n\n¿Quizás yo podría organizar una obra de teatro que muestre sus grandes hazañas? "

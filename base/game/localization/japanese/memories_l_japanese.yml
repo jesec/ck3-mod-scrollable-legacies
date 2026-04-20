@@ -1106,7 +1106,7 @@
  hostage_spared_desc_1: "私は[home_court.GetTitledFirstName]の[home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]である人質の[hostage.GetTitledFirstName]を処刑から助けた"
  hostage_spared_desc_second_perspective_1: "あなたは[home_court.GetTitledFirstName]の[home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]である人質の[hostage.GetTitledFirstName]を処刑から助けた"
  hostage_spared_desc_third_perspective_1: "[owner.GetTitledFirstNamePossessive]は[home_court.GetTitledFirstName]の[home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]である人質の[hostage.GetTitledFirstName]を処刑から助けた"
- hostage_died: "人質が亡くなった"
+ hostage_died: "人質が死亡"
  hostage_died_desc_1: "私の人質、[hostage.GetFirstName]は、[hostage.GetDeathReasonHideKiller]"
  hostage_died_desc_1_known_killer: "私の人質、[hostage.GetFirstName]は、[hostage.GetDeathReason]"
  hostage_died_desc_second_perspective_1: "あなたの人質、[hostage.GetFirstName]は、[hostage.GetDeathReasonHideKiller]"

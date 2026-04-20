@@ -5,6 +5,8 @@
  CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_TYPE: "#S Complot de $NAME|l$#!"
  SHOW_MORE_INTERACTIONS_TT: "#T Afficher davantage [CharacterInteractionCategory.GetDescription]#!"
  PIN_TT: "#T [Select_CString( Character.IsPinned, 'Détacher', 'Épingler' )]\n#!Gardez un oeil sur ce personnage en l’épinglant dans le tableau de bord sur le côté droit de l’écran"
+ TITLE_PIN_TT: "#T [Select_CString( Title.IsPinned, 'Détacher', 'Épingler' )]\n#!Gardez un œil sur ce titre en l’épinglant dans le tableau de bord sur le côté droit de l’écran"
+ PROVINCE_PIN_TT: "#T [Select_CString( Province.IsPinned, 'Détacher', 'Épingler' )]\n#!Gardez un œil sur cette propriété en l’épinglant dans le tableau de bord sur le côté droit de l’écran"
  interaction_category_favorites: "Favoris"
  interaction_category_diplomacy: "Diplomatie"
  interaction_category_friendly: "Personnel"

@@ -5,7 +5,7 @@
 ########
 
 tax_collector_free_rein_modifier = {
-	icon = stewardship_negative
+	icon = stewardship_mixed
 	clan_government_tax_contribution_add = 0.05
 	clan_government_levy_contribution_add = 0.05
 	clan_government_vassal_opinion = -5
@@ -68,13 +68,13 @@ steward_de_jure_denied_modifier = {
 }
 
 steward_redoubled_taxation_modifier = {
-	icon = county_modifier_development_negative
+	icon = county_modifier_development_mixed
 	tax_mult = 0.2
 	development_growth_factor = small_development_growth_loss
 }
 
 steward_redoubled_development_modifier = {
-	icon = county_modifier_development_positive
+	icon = county_modifier_development_mixed
 	tax_mult = -0.2
 	development_growth_factor = medium_development_growth_gain
 }

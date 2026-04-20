@@ -113,6 +113,18 @@ msg_stops_being_malnourished = {
 }
 
 ######################
+### HEALTH
+######################
+
+msg_health_change = {
+	icon = "health_mixed"
+	style = bad
+	title = event_message_title
+	desc = event_message_effect
+	message_filter_type = character_health
+}
+
+######################
 ### HEIR
 ######################
 

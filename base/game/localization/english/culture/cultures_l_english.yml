@@ -730,6 +730,10 @@
  macedonian: "Macedonian"
  macedonian_prefix: "Diadochi"
  macedonian_collective_noun: "Macedonians"
+ carthaginian: "Carthaginian"
+ carthaginian_prefix: "Carthaginian"
+ carthaginian_collective_noun: "Carthaginians"
+
  turkmen: "Turkmen"
  turkmen_prefix: "Turkmen"
  turkmen_collective_noun: "Turkmen"
@@ -945,3 +949,11 @@
  maluku: "Moluccan"
  maluku_prefix: "Moluccano"
  maluku_collective_noun: "Moluccans"
+
+ kazak: "Kazak"
+ kazak_prefix: "Kazak"
+ kazak_collective_noun: "Kazaks"
+
+ cossack: "Cossack"
+ cossack_prefix: "Cossack"
+ cossack_collective_noun: "Cossacks"

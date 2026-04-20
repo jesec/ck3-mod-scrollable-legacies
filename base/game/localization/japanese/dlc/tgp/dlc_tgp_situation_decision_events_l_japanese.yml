@@ -67,6 +67,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "ある人に与えられた幸運が減れば、別の人の幸運は増える。王や皇帝でさえ、運命の気まぐれとは無縁ではない。\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName]が天命を受けたと主張した。すべての人々はこの新たな君主の足元にひれ伏すことを求められている。"
  tgp_dynastic_cycle.0062.desc.uninvolved: "帝国は興亡を繰り返し、古い国は新しい国に屈する。[GetTitleByKey('h_china').GetHolder.GetTitledFirstName]が[GetTitleByKey('h_china').GetNameNoTierNoTooltip]の王位に就いた今、人々は皆、国の内外を問わず、この新たな君主を無視することはできなくなった。\n\nこのような運命の風の変化を軽視することはできない。"
  tgp_dynastic_cycle.0062.a: "[GetTitleByKey('h_china').GetHolder.GetHerHis]の力を慎重に見極めるべきだ。"
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
  tgp_dynastic_cycle.0071.t: "雨上がりの太陽"
  tgp_dynastic_cycle.0071.desc: "長く垂れ込めていた嵐雲が去り、[GetTitleByKey('h_china').GetNameNoTierNoTooltip]に再び晴れ渡った空が広がる。天は数々の厳しい試練を私に与えたが、私はすべてを乗り越えた。私が天に選ばれし[ROOT.Char.Custom('GetDaughterSon')]であることに、もはや誰も疑念を抱くことも異論を唱えることもできはしない。\n\n苦難の時を乗り越えた今、私は未来に向けて新たな道を切り開き、ひとつの目標に向かって人々を団結させねばならない。"
@@ -80,6 +81,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "平和な時代には、勇敢な英雄が頭角を現す機会はほとんどないが、別の立身出世の道が開かれる可能性がある。"
  tgp_dynastic_cycle.0072.desc.uninvolved: "[GetTitleByKey('h_china').GetHolder.GetDynastyName]王朝はまだ活力を残していたようだ。"
  tgp_dynastic_cycle.0072.a: "春風が吹き、緑がまた生い茂る。"
+ tgp_dynastic_cycle.0072.b: "天の意志に従うしか道はない。"
+ tgp_china_consolidation.remain_independent: "[independent_ruler|E]のままでいる"
  ### ENTER CONSOLIDATION ###
  tgp_dynastic_cycle.0081.t: "合すること久しければ必ず分る"
  tgp_dynastic_cycle.0081.desc: "一瞬にして天は震え、世界は覆った。\n\n忠臣が新たな主君を求めて逃亡し、兵士が職務を放棄し、今や農民までもが、迫りくる動乱の時代を恐れて国を見捨てた。\n\nすべての災いが私の#EMP 不正な支配#!のせいということにされ、私は天命を失ったという話が広がってしまった！"

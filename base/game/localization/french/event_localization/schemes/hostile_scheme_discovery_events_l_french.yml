@@ -56,5 +56,5 @@
  hostile_scheme_discovery.4001.opening: "Mon complot contre m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('target'))] [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] a été découvert !"
  hostile_scheme_discovery.4001.end: "\n\nMême mes propres [ROOT.Char.Custom('GetCourtierPlural')|l] murmurent derrière mon dos. La révélation a fait voler en éclats la confiance et l’affection qu’ils me portaient."
  hostile_scheme_discovery.4002.opening: "Mon plan visant à voir mort[target.Custom('FR_E')] m[ROOT.Char.Custom2('FR_RelationToMe_OnA', SCOPE.sC('target'))] [target.Custom('FR_le_Char_Pi')][target.GetTitledFirstName] a été découvert ! Tout le monde est au courant !"
- hostile_scheme_discovery.4001.a: "C’est tout un gros malentendu !"
+ hostile_scheme_discovery.4001.a: "C’est un gros malentendu !"
  hostile_scheme_discovery.4001.b: "Oh, je vais leur montrer jusqu’où je peux aller."

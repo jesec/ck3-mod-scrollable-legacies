@@ -2992,7 +2992,10 @@
 				limit = { has_realm_law = crown_authority_0 }
 				add_realm_law = crown_authority_2
 			}
-			add_realm_law = high_partition_succession_law
+			if = {
+				limit = { NOT = { has_realm_law = high_partition_succession_law } }
+				add_realm_law = high_partition_succession_law
+			}
 		}
 	}
 	1179.1.1 = {
@@ -5019,13 +5022,13 @@
 
 205920 = {
 	name = "Henri"
-	dynasty = 752
+	dynasty_house = house_eu
 	martial = 4
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 6
 	religion = "catholic"
-	culture = french
+	culture = norman
 	trait = arbitrary
 	trait = education_intrigue_2
 	father = 32214
@@ -30734,9 +30737,9 @@
 138000 = {
 	name = "Alice" #Alice d'Eu
 	female = yes
-	dynasty = 752
+	dynasty_house = house_eu
 	religion = "catholic"
-	culture = french
+	culture = norman
 	father = 205920 #Henri d'Eu
 	mother = 204634
 	1181.1.1 = {
@@ -32135,9 +32138,9 @@
 
 32219 = {
 	name = "Raoul"
-	dynasty = 752
+	dynasty_house = house_eu
 	religion = "catholic"
-	culture = french
+	culture = norman
 	father = 205920 #Henri d'Eu
 	mother = 204634
 	1180.1.1 = {
@@ -32150,9 +32153,9 @@
 
 32220 = {
 	name = "Guy"
-	dynasty = 752
+	dynasty_house = house_eu
 	religion = "catholic"
-	culture = french
+	culture = norman
 	father = 205920 #Henri d'Eu
 	mother = 204634
 	1182.1.1 = {
@@ -47090,6 +47093,11 @@ deols_1 = {
 	father = 303432
 	1173.1.1 = {
 		birth = yes
+	}
+	1177.1.1 = {
+		effect = {
+			create_betrothal = character:204658
+		}
 	}
 	1207.1.1 = {
 		death = yes

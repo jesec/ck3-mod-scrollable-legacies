@@ -84,7 +84,7 @@
  building_type_gunung_api_01_desc: "$building_gunung_api_01_desc$"
  building_gunung_api_01: "Gunung Api"
  building_gunung_api_01_desc: "Cette montagne qui s’élève au milieu de la jungle sauvage est sacrée pour les habitants locaux. Dans l’humidité et la brume, ses pentes sont couvertes de pics calcaires impressionnants et de grottes profondes que l’eau a sculptées au fil des siècles."
- #Suwalesi Megaliths
+ #Sulawesi Megaliths
  building_type_suwalesi_megaliths_01: "$building_suwalesi_megaliths_01$"
  building_type_suwalesi_megaliths_01_desc: "$building_suwalesi_megaliths_01_desc$"
  building_suwalesi_megaliths_01: "Mégalithes de Sulawesi"

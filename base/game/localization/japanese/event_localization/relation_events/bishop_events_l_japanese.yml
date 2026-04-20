@@ -1,6 +1,8 @@
 ﻿l_japanese:
  bishop.1001.opening: "[bishop.Custom2('AppropriateGreeting', ROOT.Char)]"
- bishop.1001.desc: "私は自らの責務に従ってお伝えします。あなた様と[spouse.GetTitledFirstName]との婚姻が、実際は近親婚であることを示す動かぬ証拠が明らかとなりましてございます。あなた様がこの神聖ならざる婚姻を直ちに終わらせるのであれば、この秘密は我々二人だけのものとして伏せておきましょう。"
+ bishop.1001.desc: "私は自らの責務に従ってお伝えします。あなたと[spouse.GetTitledFirstName]との婚姻が、実際は近親婚であることを示す動かぬ証拠が明らかとなりました。\n\n"
+ bishop.1001.desc.actually_incestuous: "あなたがこの神聖ならざる婚姻を直ちに終わらせるのであれば、この秘密は我々二人だけのものとして伏せておきましょう。"
+ bishop.1001.desc.made_up: "あなたがこの#EMP 明らかに#!不道徳な婚姻を直ちに終わらせるのであれば、この#EMP 議論の余地のない#!事実は我々二人だけのものとして伏せておきましょう。"
  bishop.1001.a: "もちろんそうしよう。"
  bishop.1001.a.tt: "@warning_icon!#X [spouse.GetUIName]と離婚します#!"
  bishop.1001.b: "我々の契りはそんなあからさまな嘘によって引き裂かれはしない！"

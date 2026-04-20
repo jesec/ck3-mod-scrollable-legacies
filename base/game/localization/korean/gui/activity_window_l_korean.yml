@@ -102,7 +102,7 @@
  activity_window_character_noble_student: "귀족 학생\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_student: "학생\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_teacher: "교사\n[Character.GetShortUINameNoTooltip|U]"
- ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "점수: [ActivityWindow.GetSpecialProgressValue|^V]"
+ ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "#ts 점수: [ActivityWindow.GetSpecialProgressValue|^V]#!"
  ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP: "#T [ActivityPhase.GetName]#!\n마지막 활동: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\n다음 [activity_phase_action|E] 기회까지 [Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V]일\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE: "없음"
  ACTIVITY_TIME_UNTIL_PROGRESS: " ([Select_CString(Activity.IsCurrentPhaseActive, '종료', '시작')]까지 [Activity.GetEstimatedProgressPhaseDate.GetTimeToDate])"

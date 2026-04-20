@@ -46,7 +46,7 @@ proven_adult_modifier = {
 }
 
 child_like_parent_modifier = {
-	icon = dread_positive
+	icon = dread_mixed
 	dread_gain_mult = 0.1
 	dread_baseline_add = 10
 	child_opinion = -20
@@ -58,7 +58,7 @@ close_tutelage = {
 	stress_gain_mult = -0.25
 }
 close_tutelage_tutor = {
-	icon = stress_negative
+	icon = stress_mixed
 	stress_gain_mult = 0.1
 	monthly_learning_lifestyle_xp_gain_mult = 0.05
 }
@@ -91,28 +91,28 @@ besotted_modifier = {
 	personal_scheme_phase_duration_add = microscopic_scheme_phase_duration_bonus_value
 }
 defender_of_bellicose_ways_modifier = {
-	icon = prowess_positive
+	icon = prowess_mixed
 	same_culture_opinion = 10
 	glory_hound_opinion = 15
 	minority_opinion = -10
 }
 
 defender_of_bureaucratic_ways_modifier = {
-	icon = stewardship_positive
+	icon = stewardship_mixed
 	same_culture_opinion = 10
 	parochial_opinion = 15
 	minority_opinion = -10
 }
 
 defender_of_communal_ways_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	same_culture_opinion = 10
 	dynasty_house_opinion = 15
 	minority_opinion = -10
 }
 
 defender_of_courtly_ways_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	same_culture_opinion = 10
 	courtly_opinion = 15
 	minority_opinion = -10
@@ -125,7 +125,7 @@ defender_of_egalitarian_ways_modifier = {
 }
 
 defender_of_spiritual_ways_modifier = {
-	icon = learning_positive
+	icon = learning_mixed
 	same_culture_opinion = 10
 	zealot_opinion = 15
 	minority_opinion = -10
@@ -138,13 +138,13 @@ defender_of_stoic_ways_modifier = {
 }
 
 enforcing_cultural_values_modifier = {
-	icon = social_negative
+	icon = social_mixed
 	different_culture_opinion = -20
 	same_culture_opinion = 10
 }
 
 rejecting_bellicose_ways_modifier = {
-	icon = prowess_negative
+	icon = prowess_mixed
 	same_culture_opinion = -15
 	men_at_arms_recruitment_cost = 0.1
 	men_at_arms_maintenance = 0.1
@@ -153,7 +153,7 @@ rejecting_bellicose_ways_modifier = {
 }
 
 rejecting_bureaucratic_ways_modifier = {
-	icon = stewardship_negative
+	icon = stewardship_mixed
 	same_culture_opinion = -15
 	cultural_head_fascination_mult = -0.05
 	monthly_lifestyle_xp_gain_mult = -0.10
@@ -162,7 +162,7 @@ rejecting_bureaucratic_ways_modifier = {
 }
 
 rejecting_communal_ways_modifier = {
-	icon = intrigue_negative
+	icon = intrigue_mixed
 	same_culture_opinion = -15
 	close_relative_opinion = -5
 	same_culture_mercenary_hire_cost_mult = 0.15
@@ -171,7 +171,7 @@ rejecting_communal_ways_modifier = {
 }
 
 rejecting_courtly_ways_modifier = {
-	icon = diplomacy_negative
+	icon = diplomacy_mixed
 	same_culture_opinion = -15
 	monthly_prestige_gain_mult = -0.1
 	court_grandeur_baseline_add = -5
@@ -180,7 +180,7 @@ rejecting_courtly_ways_modifier = {
 }
 
 rejecting_egalitarian_ways_modifier = {
-	icon = diplomacy_negative
+	icon = diplomacy_mixed
 	same_culture_opinion = -15
 	vassal_limit = -10
 	different_culture_opinion = -5
@@ -190,7 +190,7 @@ rejecting_egalitarian_ways_modifier = {
 }
 
 rejecting_spiritual_ways_modifier = {
-	icon = learning_negative
+	icon = learning_mixed
 	same_culture_opinion = -15
 	monthly_county_control_growth_factor = -0.1
 	monthly_piety_gain_mult = -0.1
@@ -199,7 +199,7 @@ rejecting_spiritual_ways_modifier = {
 }
 
 rejecting_stoic_ways_modifier = {
-	icon = martial_negative
+	icon = martial_mixed
 	same_culture_opinion = -15
 	hard_casualty_modifier = 0.15
 	stress_gain_mult = 0.15
@@ -214,7 +214,7 @@ sponsored_emissaries_modifier = {
 }
 
 raised_other_faiths_mystic_modifier = {
-	icon = piety_positive
+	icon = piety_mixed
 	faith_conversion_piety_cost_mult = -0.3
 	levy_reinforcement_rate_different_faith_even_if_baron = 0.2
 	different_faith_opinion = 15
@@ -222,7 +222,7 @@ raised_other_faiths_mystic_modifier = {
 }
 
 insisting_on_norms_modifier = {
-	icon = social_positive
+	icon = social_mixed
 	same_culture_opinion = 10
 	monthly_county_control_growth_add = 0.1
 	courtier_and_guest_opinion = -5
@@ -262,21 +262,21 @@ bp2_uni_connections_modifier = {
 }
 
 bp2_uni_isolation_modifier = {
-	icon = social_negative
+	icon = social_mixed
 	learning = 1
 	intrigue = -1
 	stress_gain_mult = 0.1
 }
 
 teeming_horde_of_cats_modifier = {
-	icon = cat_positive
+	icon = cat_mixed
 	courtly_opinion = 10
 	glory_hound_opinion = -15
 	negate_health_penalty_add = minor_health_bonus
 }
 
 loyal_pack_of_hounds_modifier = {
-	icon = dog_positive
+	icon = dog_mixed
 	glory_hound_opinion = 10
 	courtly_opinion = -15
 	enemy_hostile_scheme_phase_duration_add = major_scheme_phase_duration_malus_value
@@ -391,7 +391,7 @@ bp2_cowardly_modifier = {
 }
 
 bp2_disrespects_elderly_modifier = {
-	icon = social_negative
+	icon = social_mixed
 	child_opinion = 30
 	parochial_opinion = -10
 }
@@ -413,7 +413,7 @@ bp2_self_preserving_modifier = {
 }
 
 devoted_to_tradition_modifier = {
-	icon = martial_positive
+	icon = martial_mixed
 	same_culture_opinion = 10
 	different_culture_opinion = -20
 	same_culture_mercenary_hire_cost_mult = -0.25
@@ -451,7 +451,7 @@ loyal_realm_nobility_modifier = {
 
 ### Imaginary Friend Modifiers
 imaginary_friend_modifier = {
-	icon = county_modifier_opinion_positive
+	icon = county_modifier_opinion_mixed
 	learning = 5
 	diplomacy = -2
 	vassal_opinion = -10
@@ -472,7 +472,7 @@ imaginary_friend_mad_modifier = {
 ### END Imaginary Friend Modifiers
 
 adapted_rituals_modifier = {
-	icon = piety_positive
+	icon = piety_mixed
 	different_faith_opinion = 20
 	zealot_same_faith_opinion = -20
 }
@@ -508,7 +508,7 @@ common_noble_cause_modifier = {
 }
 
 a_cultures_great_defender_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	same_culture_opinion = 20
 	parochial_same_culture_opinion = 10
 	different_culture_opinion = -10
@@ -522,7 +522,7 @@ inspired_defenders_modifier = {
 }
 
 uniter_and_conqueror_modifier = {
-	icon = martial_positive
+	icon = martial_mixed
 	glory_hound_same_culture_opinion = 15
 	courtly_same_culture_opinion = 15
 	same_culture_opinion = 10
@@ -563,7 +563,7 @@ assault_on_tradition_modifier = {
 }
 
 lifting_the_burden_modifier = {
-	icon = piety_positive
+	icon = piety_mixed
 	stress_gain_mult = 0.2
 	monthly_piety = 2
 }
@@ -593,14 +593,14 @@ bp2_tool_of_fate_modifier = {
 }
 
 hostages_accepted_into_family_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	hostage_renown_mult = 0.5
 	dynasty_house_opinion = -10
 	monthly_court_grandeur_change_mult = 0.1
 }
 
 eschews_flaunting_of_hostages_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	hostage_prestige_mult = -0.5
 	hostage_piety_mult = 1
 	tyranny_loss_mult = 0.1
@@ -645,7 +645,7 @@ bp2_solid_foundations_modifier = {
 }
 
 bp2_valued_friendship_modifier = {
-	icon = rock_positive
+	icon = rock_mixed
 	stress_gain_mult = -0.2
 	monthly_prestige_gain_mult = -0.05
 }
@@ -700,7 +700,7 @@ parent_helped_grief_modifier = {
 }
 
 wet_nurse_bonding_modifier = {
-	icon = family_positive
+	icon = family_mixed
 	same_faith_opinion = 10
 	same_culture_opinion = 10
 	different_faith_opinion = -5
@@ -708,13 +708,13 @@ wet_nurse_bonding_modifier = {
 }
 
 wet_nurse_faith_bonding_modifier = {
-	icon = family_positive
+	icon = family_mixed
 	same_faith_opinion = 20
 	different_faith_opinion = -10
 }
 
 wet_nurse_cultural_bonding_modifier = {
-	icon = family_positive
+	icon = family_mixed
 	same_culture_opinion = 20
 	different_culture_opinion = -10
 }
@@ -748,7 +748,7 @@ attacked_home_court = {
 }
 
 bp2_strong_willed_modifier = {
-	icon = social_positive
+	icon = social_mixed
 	councillor_opinion = -10
 	child_opinion = 20
 }
@@ -803,7 +803,7 @@ lavish_care_modifier = {
 }
 
 trained_by_the_uncivilized_modifier = {
-	icon = martial_positive
+	icon = martial_mixed
 	supply_duration = 0.33
 	maa_screen_mult = 0.25
 	different_culture_opinion = 5
@@ -816,14 +816,14 @@ united_family_modifier = {
 }
 
 dearth_of_intellectuals_modifier = {
-	icon = learning_negative
+	icon = learning_mixed
 	piety_level_impact_mult = 0.5
 	cultural_head_fascination_mult = -0.5
 	learning = -2
 }
 
 bereft_of_intellectuals_modifier = {
-	icon = learning_negative
+	icon = learning_mixed
 	piety_level_impact_mult = 0.75
 	cultural_head_fascination_mult = -0.75
 	learning = -3
@@ -856,7 +856,7 @@ tough_and_confident_modifier = {
 }
 
 peace_over_honor_modifier = {
-	icon = social_positive
+	icon = social_mixed
 	parochial_opinion = 15
 	glory_hound_opinion = -10
 }

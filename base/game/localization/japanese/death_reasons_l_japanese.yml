@@ -1,6 +1,7 @@
 ﻿l_japanese:
  death_natural_causes: "睡眠中に死亡した"
  death_old_age: "老衰で死亡した"
+ death_broken_bones: "転んで何か所も骨折し、その傷がもとで死亡した"
  death_bubonic_plague: "[GetTrait('bubonic_plague').GetName( CHARACTER.Self )]により死亡した"
  death_smallpox: "[GetTrait('smallpox').GetName( CHARACTER.Self )]により死亡した"
  death_measles: "[GetTrait('measles').GetName( CHARACTER.Self )]により死亡した"
@@ -266,7 +267,7 @@
  death_tournament_pas_darmes_defend_killer: "[TARGET_CHARACTER.GetUIName]とのパダルム防衛中に負った傷が原因で死亡した"
  death_tournament_pas_darmes_challenge: "パダルム挑戦中に負った傷が原因で死亡した"
  death_tournament_pas_darmes_challenge_killer: "[TARGET_CHARACTER.GetUINamePossessive]のパダルム挑戦中に負った傷が原因で死亡した"
- death_wild_animal: "野生の獣に生きたまま食われた"
+ death_wild_animal: "野生の獣に食われた"
  death_tournament_archery_fall: "騎射大会中に落馬して死亡した"
  death_tournament_quintain_hit: "競技会中、練習用の的に馬から弾き落とされ、死亡した"
  death_tournament_piledriver: "競技会のレスリング試合中に頭から落ちて死亡した"
@@ -334,6 +335,7 @@
  death_poisonous_forage: "誤って毒のある植物を食べた"
  death_drowning_in_terrain: "[CHARACTER.GetHerHis]の馬を救おうとしたが、引きずり込まれて溺死した"
  death_drowning_in_terrain_killer: "[TARGET_CHARACTER.GetUINamePossessive]の馬を救おうとしたが、引きずり込まれて溺死した"
+ death_lost_in_rainstorm: "豪雨の中で行方知れずとなった"
  #BP2
  death_hostage_execution: "人質でいる間に処刑された"
  death_hostage_execution_killer: "[TARGET_CHARACTER.GetUINamePossessive]の人質でいる間に処刑された"
@@ -388,5 +390,7 @@
  death_crowd_stampede_killer: "[TARGET_CHARACTER.GetUIName]の戴冠式中に、$death_slain_in_riot$"
  death_avoid_dishonor: "名誉を失うことを避けるために自殺した"
  death_avoid_dishonor_killer: "[TARGET_CHARACTER.GetUIName]によって$death_avoid_dishonor$"
- death_eradicated: "そして、その一族は全員処刑された"
+ death_eradicated: "一族もろとも殲滅された"
  death_eradicated_killer: "$death_eradicated$。[TARGET_CHARACTER.GetUIName]によって"
+ #TGP
+ death_ritual_suicide: "儀礼的自殺を行った"

@@ -1930,6 +1930,8 @@ character_this_not_equal = {
 
 character_this_equal = {
 	global = character_this_equal_global
+	first = character_this_equal_global
+	third = character_this_equal_global
 }
 
 realm_law_group_at_minimum_level = {

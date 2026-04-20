@@ -237,7 +237,7 @@
  legend_of_genghis_desc: "하늘 아래 모든 것은 가장 위대한 칸의 것이다. 몽골 민족이 [founder.GetTitleAsNameNoTooltip|U] 뒤로 하나로 단결한 지금, 늑대가 포효하고 독수리는 부르짖는다. 칭기즈 칸이 세상에 이름을 화인과도 같이 새겨 넣으리라."
  new_title_desc: "새로운 [founder.GetTitleAsNameNoTooltip|U](이)가 잿더미를 딛고 일어나 자비로운 통치로 번영을 가져오리라."
  jewish_priesthood_desc: "디아스포라는 영원할 것만 같았다. 그러나 [founder.GetName] 아래 새로운 고위 사제단이 탄생하였으니, [faith.GetName] 민족을 찬란하게 빛나는 신시대로 이끌 것이다."
- zoroast_priesthood_desc: "조로아스터교 신앙은 과거 위대한 마기들이 이끌었으나, 질서가 흐트러지고 말았다. 그러나 아후라마즈다와 아나히타, 미스라의 은총 아래 [protagonist.GetName](이)가 마기를 재건하였노라."
+ zoroast_priesthood_desc: "조로아스터교 신앙은 과거 위대한 마기들이 이끌었으나, 질서가 흐트러지고 말았다. 그러나 아후라마즈다와 아나히타, 미트라의 은총 아래 [protagonist.GetName](이)가 마기를 재건하였노라."
  priesthood_restoration_desc: "[faith.GetName](은)는 잔인한 세월의 손길에 의해 잿더미로 변하고 말았다. 하지만 지금, [founder.GetName](이)가 [faith.HighGodName|U]의 은총 아래 새로운 사제단을 세우노라."
  iberian_ender_desc: "이베리아 귀족들의 항쟁은 막을 내렸고 [struggle_ender.GetFirstName](은)는 구세주로 등극했도다. [struggle_ender.GetTitleAsNameNoTooltip|U](은)는 승리하리라."
  struggle_conclusion_desc: "마침내 [Localize(struggle.GetString)|U](이)가 막을 내렸고, [struggle_ender.GetFirstName](이)가 새로운 시대를 열어갈 영웅으로 거듭났노라."

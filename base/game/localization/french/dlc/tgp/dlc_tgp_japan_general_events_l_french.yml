@@ -63,7 +63,7 @@
  tgp_japan_general.9550.desc.fam: "\n\nMa famille et moi nous blottissons ensemble."
  tgp_japan_general.9550.desc.end: "À chaque instant, les renards se rapprochent de la volaille en cage que nous sommes devenus.\n\nComment nous, les membres de la Maison [ROOT.Char.GetHouse.GetNameNoTooltip], allons-nous affronter nos derniers instants ?"
  every_close_family_house_member_in_court: "Vous et chaque membre de la [house|E] qui est un [spouse|El] ou de la [close_family|El] à [Select_CString(loser.IsLocalPlayer,'votre','la')] [court|E][loser.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')]"
- every_house_member_in_court: "[spouse|E] [loser.Custom('FR_du_Char_U_Pi')][loser.GetShortUIName] et chaque membre de la [house|E] à [Select_CString(loser.IsLocalPlayer,'votre','la')] [court|E][loser.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')]"
+ every_house_member_in_court: "[spouses|E] [loser.Custom('FR_du_Char_U_Pi')][loser.GetShortUIName] et chaque membre de la [house|E] à [Select_CString(loser.IsLocalPlayer,'votre','la')] [court|E][loser.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')]"
  is_killed_by_you_and_you_kill_self: "@death_icon! Se suicidera pour éviter le déshonneur infligé par [winner.Custom('FR_le_Char_U_Pi')][winner.GetShortUIName]"
  tgp_japan_general.9550.a.alone: "Je ne connaîtrai pas une mort ignoble !"
  tgp_japan_general.9550.a.alone.flavor: "Je mourrai de ma propre main"

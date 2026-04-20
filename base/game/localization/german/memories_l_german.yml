@@ -1106,7 +1106,7 @@
  hostage_spared_desc_1: "Ich verschonte meine Geisel [hostage.GetTitledFirstName]([home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] von [home_court.GetTitledFirstName]) vor der Hinrichtung"
  hostage_spared_desc_second_perspective_1: "Ihr verschontet Eure Geisel [hostage.GetTitledFirstName] ([home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] von [home_court.GetTitledFirstName]) vor der Hinrichtung"
  hostage_spared_desc_third_perspective_1: "[owner.GetTitledFirstName] verschonte die eigene Geisel [hostage.GetTitledFirstName] ([home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] von [home_court.GetTitledFirstName]) vor der Hinrichtung"
- hostage_died: "Geisel gestorben"
+ hostage_died: "Gestorbene Geisel"
  hostage_died_desc_1: "[hostage.GetFirstName], meine Geisel, [hostage.GetDeathReasonHideKiller]"
  hostage_died_desc_1_known_killer: "[hostage.GetFirstName], meine Geisel, [hostage.GetDeathReason]"
  hostage_died_desc_second_perspective_1: "[hostage.GetFirstName], Eure Geisel, [hostage.GetDeathReasonHideKiller]"

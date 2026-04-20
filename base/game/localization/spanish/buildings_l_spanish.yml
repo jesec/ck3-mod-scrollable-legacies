@@ -2596,3 +2596,7 @@
  building_type_mozu_tombs_desc: "$building_mozu_tombs_desc$"
  building_mozu_tombs: "Tumbas de Mozu"
  building_mozu_tombs_desc: "Se dice que los montículos en forma de ojos de cerradura de Mozu alojan a emperadores de antaño. Para los barcos de la bahía cercana, son un punto de referencia notable, así como un recordatorio de tiempos pretéritos."
+ building_type_trosky_castle_01: "$building_trosky_castle_01$"
+ building_type_trosky_castle_01_desc: "$building_trosky_castle_01_desc$"
+ building_trosky_castle_01: "Castillo de Trosky"
+ building_trosky_castle_01_desc: "El castillo de Trosky se ha construido entre dos formaciones basálticas de un volcán extinguido hace mucho. Su nombre proviene de la forma de la roca, que parece las ruinas de un castillo derruido."

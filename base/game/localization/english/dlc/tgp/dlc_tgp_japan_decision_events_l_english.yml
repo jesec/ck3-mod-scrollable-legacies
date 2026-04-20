@@ -112,7 +112,7 @@
 
  # tgp_japan_restore_japanese_monarchy_decision
  tgp_japan_decision.9901.t: "Yamato Ten'nō Restored"
- tgp_japan_decision.9901.desc: "The Ten'nō stands strong, and the Chrysanthemum Throne returns to it's rightful heir. This rule is not merely of a noble title or status, but reflects the ancient connection of the Yamato to these lands."
+ tgp_japan_decision.9901.desc: "The Ten'nō stands strong, and the Chrysanthemum Throne returns to its rightful heir. This rule is not merely of a noble title or status, but reflects the ancient connection of the Yamato to these lands."
  tgp_japan_decision.9901.a: "It will be honor to advise [scion.GetHerHim]."
  tgp_japan_decision.9901.a.scion: "At long last."
  tgp_japan_decision.9902.desc: "The sacred Yamato bloodline exudes its presence in the Imperial Palace once more. A child of Amaterasu, [scion.GetName] stands as its heir, just as in the days of old.\n\nWith this return to tradition, the realm may flourish again under the glistening light of the Chrysanthemum Throne."

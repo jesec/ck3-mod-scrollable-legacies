@@ -367,7 +367,7 @@
  #Religion
  lesson_basics_religion_1: "신앙 및 종교"
  lesson_basics_religion_1_read_only: "$lesson_basics_religion_1$"
- lesson_basics_religion_1_desc: "모든 [characters|E]은 어떤 [religion|E]에 속한 [faith|E]을 신봉하기 마련입니다. 예를 들어 여러분은 지금 $christianity_religion$에 속한 $game_concept_faith$, 천주교를 신봉하고 있죠.\n\n그리고 $game_concept_faith$들에는 서로를 구별 짓는 차이점이 존재합니다. 그럼 어디 한 번 살펴보도록 합시다."
+ lesson_basics_religion_1_desc: "모든 [characters|E]은 어떤 [religion|E]에 속한 [faith|E]을 신봉하기 마련입니다. 예를 들어 여러분은 지금 $christianity_religion$에 속한 $game_concept_faith$, 가톨릭을 신봉하고 있죠.\n\n그리고 $game_concept_faith$들에는 서로를 구별 짓는 차이점이 존재합니다. 그럼 어디 한 번 살펴보도록 합시다."
  lesson_basics_religion_click_religion_tt: "강조된 신앙 화면을 열기"
  lesson_basics_religion_2: "교리 ($lesson_basics_religion$)"
  lesson_basics_religion_2_desc: "여러분이 믿는 [faith|E]에는 몇 가지 [doctrines|E]가 존재합니다. $game_concept_doctrines$는 $game_concept_faith$의 구성원들이 따라야 할 규칙이라 할 수 있죠. 예를 들어 어떤 성별 [succession_laws|E]을 도입할 수 있는지, 어떤 인물이 [temple_holdings|E]를 보유할 수 있는지를 정하기도 합니다.\n\n상단에서 볼 수 있는 [core_tenets|E]는 명상을 하거나 [great_holy_wars|E]에 참전할 수 있는지를 정해주는 등, 인물에게 혜택이나 어떤 선택지를 제공하는 특별 $game_concept_doctrines$라고 생각하시면 됩니다.\n\n#TUT 더불어 모든 신앙에는 [sins|E]과 [virtues|E]이 존재합니다. 이를 보고 같은 신앙을 숭배하는 이들이 어떤 행동에 눈살을 찌푸리는지, 또 어떤 행동에 감탄하는지를 알 수 있습니다.#!"
@@ -428,5 +428,5 @@
  lesson_war_final_notes_invalidated_step_1: "전쟁 무효화"
  lesson_war_final_notes_invalidated_step_1_desc: "잘 싸우고 계시는군요! 훌륭합니다! 이상하게도 전쟁이 무효로 돌아가고 말았지만요.$lesson_war_final_notes_reuse$"
  lesson_guided_final_notes_mission_step_1: "이제 어떻게 할까요?"
- lesson_guided_final_notes_mission_step_1_desc: "여러분은 게임의 필수적인 요소들 극히 일부분에 발가락을 살짝 담그셨을 뿐, 아직도 많은 것들이 여러분을 기다리고 있습니다. 크루세이더 킹즈 III는 여러분이 여러분만의 목표를 세우고 나아가는 게임이니까요.\n\n조언을 드려보자면, $k_ireland$의 왕이나 여왕을 목표로 삼아보시는 건 어떨지요! [war|E]만이 유일한 방법은 아니랍니다...\n\n아니면 화면 상단의 #bold 현재 상황#! 버튼을 클릭해 제안이나 현재 상황을 보고 맘에 드는 것이 있으신지 확인해보시길 바랍니다!"
+ lesson_guided_final_notes_mission_step_1_desc: "필수 시스템에 일부나마 발을 담가봤으니, 다음은 수많은 콘텐츠를 즐길 차례입니다. Crusader Kings III는 자신만의 목표를 세우고 나아가는 게임입니다.\n\n어찌해야 할지를 모르겠다면, $k_ireland$ 전체의 왕이나 여왕을 목표로 삼으시길 바랍니다! 물론 [war|E]만이 유일한 방법은 아닙니다...\n\n또는 상단의 #bold 팁#!을 클릭해 관심 가는 항목이 있는지 확인해 보십시오!"
  lesson_open_war_overview_tt: "강조된 전쟁 화면 열기"

@@ -1,6 +1,7 @@
 ﻿l_simp_chinese:
  death_natural_causes: "在睡梦中去世"
  death_old_age: "死于年迈"
+ death_broken_bones: "死于不慎摔倒后的多处骨骼断裂"
  death_bubonic_plague: "死于[GetTrait('bubonic_plague').GetName( CHARACTER.Self )]"
  death_smallpox: "死于[GetTrait('smallpox').GetName( CHARACTER.Self )]"
  death_measles: "死于[GetTrait('measles').GetName( CHARACTER.Self )]"
@@ -266,7 +267,7 @@
  death_tournament_pas_darmes_defend_killer: "在守卫[CHARACTER.GetHerHis]的闯关比武时死于[TARGET_CHARACTER.GetUIName]造成的创伤"
  death_tournament_pas_darmes_challenge: "在挑战闯关比武时死于受伤"
  death_tournament_pas_darmes_challenge_killer: "在挑战闯关比武时死于[TARGET_CHARACTER.GetUINamePossessive]造成的创伤"
- death_wild_animal: "被野兽活生生咬死"
+ death_wild_animal: "被野兽咬死"
  death_tournament_archery_fall: "在一次骑射竞赛中坠马身亡"
  death_tournament_quintain_hit: "在比武大会中被枪靶击中坠马后死去"
  death_tournament_piledriver: "在比武大会的摔跤比赛中头着地摔倒"
@@ -334,6 +335,7 @@
  death_poisonous_forage: "误食了一些有毒的植物"
  death_drowning_in_terrain: "在尝试拯救[CHARACTER.GetHerHis]的马时被它连带着拽入水中溺死了"
  death_drowning_in_terrain_killer: "在尝试拯救[TARGET_CHARACTER.GetUINamePossessive]的马时被它连带着拽入水中溺死了"
+ death_lost_in_rainstorm: "失踪在暴雨中"
  #BP2
  death_hostage_execution: "在充当人质时被处决"
  death_hostage_execution_killer: "在充当[TARGET_CHARACTER.GetUINamePossessive]的人质时被处决"
@@ -388,5 +390,7 @@
  death_crowd_stampede_killer: "在[TARGET_CHARACTER.GetUIName]的加冕礼期间$death_slain_in_riot$"
  death_avoid_dishonor: "为免受屈辱而自尽"
  death_avoid_dishonor_killer: "落入[TARGET_CHARACTER.GetUIName]手中$death_avoid_dishonor$"
- death_eradicated: "全族被处决"
+ death_eradicated: "连同其全族一道被处决了"
  death_eradicated_killer: "全族被[TARGET_CHARACTER.GetUIName]处决"
+ #TGP
+ death_ritual_suicide: "死于施行自杀圣礼"

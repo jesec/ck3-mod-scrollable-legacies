@@ -13,6 +13,13 @@
  change_house_relation_global: "$change_house_relation_third$"
  change_house_relation_third_past: "$change_house_relation_third$"
  change_house_relation_global_past: "$change_house_relation_third_past$"
+ # Effect: impact_house_relation
+ impact_house_relation_to_be_established_global: "[Concept('house_relation', 'Отношения между домами')|E] [DYNASTY_HOUSE.GetName] и [DYNASTY_HOUSE_2.GetName] устанавливаются на изначальном уровне «[HOUSE_RELATION_LEVEL.GetName]»"
+ impact_house_relation_to_change_level_global: "[Concept('house_relation', 'Отношения с домом')|E] [HOUSE_RELATION.GetName] [Select_CString( GreaterThan_CFixedPoint( '(CFixedPoint)$STEPS|q$', '(CFixedPoint)0.0'), '#P улучшаются#!', '#N ухудшаются#!' )] с уровня «[OLD_HOUSE_RELATION_LEVEL.GetName]» до значения «[NEW_HOUSE_RELATION_LEVEL.GetName]» ($STEPS|+=%^$)"
+ impact_house_relation_to_progress_towards_level_global: "[Concept('house_relation', 'Отношения с домом')|E] ([HOUSE_RELATION.GetName]) [Select_CString( GreaterThan_CFixedPoint( '(CFixedPoint)$STEPS|q$', '(CFixedPoint)0.0'), '#P улучшаются#!', '#N ухудшаются#!' )] с уровня [HOUSE_RELATION.GetLevel.GetName] в сторону значения «[HOUSE_RELATION_LEVEL.GetName]» ($STEPS|+=%^$)"
+ impact_house_relation_to_be_established_third: "$impact_house_relation_to_be_established_global$"
+ impact_house_relation_to_change_level_third: "$impact_house_relation_to_change_level_global$"
+ impact_house_relation_to_progress_towards_level_third: "$impact_house_relation_to_progress_towards_level_global$"
  I_CLEAR_HOUSE_RELATION_EFFECT: "[Concept('house_relation', 'Отношения')|E] между домами [DYNASTY_HOUSE.GetName] и [DYNASTY_HOUSE_2.GetName] прекращаются"
  THEY_CLEAR_HOUSE_RELATION_EFFECT: "$I_CLEAR_HOUSE_RELATION_EFFECT$"
  CLEAR_HOUSE_RELATION_EFFECT: "$I_CLEAR_HOUSE_RELATION_EFFECT$"

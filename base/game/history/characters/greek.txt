@@ -3696,7 +3696,7 @@
 
 215010 = {
 	name = "Andronikos"
-	dynasty = greek_rogerios_dalassenos
+	dynasty_house = house_rogerios_dalassenos
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -5017,7 +5017,7 @@
 215534 = {
 	name = "Anna"
 	female = yes
-	dynasty = greek_rogerios_dalassenos
+	dynasty_house = house_rogerios_dalassenos
 	martial = 4
 	diplomacy = 6
 	intrigue = 7
@@ -5490,7 +5490,7 @@
 231057 = {
 	name = "Ioannes"
 	# AKA: Ioannes Rogerios
-	dynasty = greek_rogerios_dalassenos
+	dynasty_house = house_rogerios_dalassenos
 	martial = 4
 	diplomacy = 7
 	intrigue = 4
@@ -5659,7 +5659,7 @@
 232505 = {
 	name = "Theodora"
 	female = yes
-	dynasty = greek_rogerios_dalassenos
+	dynasty_house = house_rogerios_dalassenos
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -5681,7 +5681,7 @@
 
 232506 = {
 	name = "Alexios"
-	dynasty = greek_rogerios_dalassenos
+	dynasty_house = house_rogerios_dalassenos
 	martial = 4
 	diplomacy = 4
 	intrigue = 4

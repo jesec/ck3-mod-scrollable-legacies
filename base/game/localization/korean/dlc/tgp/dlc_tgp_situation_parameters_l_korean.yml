@@ -109,7 +109,7 @@
  chancellor_integrate_title_dynastic_cycle_bonus_desc: "[GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip] [situation_dynastic_cycle_phase|E]"
  dynastic_cycle_locks_title_integration_tt: "[dynastic_cycle|E]가 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] [situation_dynastic_cycle_phase|E]에 있어야 함"
  situation_parameter_dynastic_cycle_offensive_wars_ban: "[son_of_heaven|E]는 [GetCasusBelliType('chinese_consolidation_cb').GetName] [casus_belli|E] 및 [GetGreatProjectType('grand_campaign_project').GetName] [great_project|E] 관련이 아닌 한, 공격 [wars|E]을 선포할 수 없음"
- situation_parameter_dynastic_cycle_can_build_in_tributaries: "[son_of_heaven|E] 및 [minister_of_works|E]가 $house_power_parameter_can_build_in_tributaries|l$"
+ situation_parameter_dynastic_cycle_can_build_in_tributaries: "[son_of_heaven|E] 및 [minister_of_works|E]가 $house_aspiration_parameter_can_build_in_tributaries|l$"
  dynastic_cycle_offensive_wars_ban_tt: "[GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip] [situation_dynastic_cycle_phase|E] 동안, $situation_parameter_dynastic_cycle_offensive_wars_ban$"
  situation_parameter_dynastic_cycle_great_projects_increased_legitimacy: "[great_projects|E] 완료로 [legitimacy|E] 증가: #P +100%#!"
  situation_parameter_dynastic_cycle_reclaim_mandate_decision: "[GetDecision('situation_dynastic_cycle_claim_mandate_decision').GetName] [decision|E] 잠금 해제"

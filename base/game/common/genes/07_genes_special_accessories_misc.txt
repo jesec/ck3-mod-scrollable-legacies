@@ -360,7 +360,7 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-		
+
 		ccp7_emishi_nob_legwear = {
 			index = 26
 			male = {
@@ -390,7 +390,7 @@ accessory_genes = {
 		}
 
 	}
-	
+
 
 	special_legwear = {
 
@@ -447,7 +447,8 @@ accessory_genes = {
 				1 = m_cloaks_sec_ep2_western_travel_01
 				1 = m_cloaks_sec_ep2_mena_travel_01
 				1 = m_cloaks_sec_fp4_western_era3_nob_01
-				1 = m_cloaks_sec_fp4_western_era3_nob_02
+				1 = m_cloaks_sec_fp4_western_era3_nob_02_a
+				1 = m_cloaks_sec_fp4_western_era3_nob_02_b
 				1 = m_cloaks_sec_ep3_byzantine_era2_imp_01_loros
 				1 = m_cloaks_sec_sp3_western_roy_01
 				1 = m_cloaks_ep3_byzantine_era1_nob_01
@@ -469,7 +470,8 @@ accessory_genes = {
 				1 = f_cloaks_sec_ep2_western_travel_01
 				1 = f_cloaks_sec_ep2_mena_travel_01
 				1 = f_cloaks_sec_fp4_western_era3_nob_01
-				1 = f_cloaks_sec_fp4_western_era3_nob_02
+				1 = f_cloaks_sec_fp4_western_era3_nob_02_a
+				1 = f_cloaks_sec_fp4_western_era3_nob_02_b
 				1 = f_cloaks_sec_afr_common_01
 				1 = f_cloaks_sec_afr_low_nob_01
 				1 = f_cloaks_sec_afr_high_nob_01
@@ -626,11 +628,13 @@ accessory_genes = {
 				index = 13
 				male = {
 					1 = m_cloaks_sec_fp4_western_era3_nob_01
-					1 = m_cloaks_sec_fp4_western_era3_nob_02
+					1 = m_cloaks_sec_fp4_western_era3_nob_02_a
+					1 = m_cloaks_sec_fp4_western_era3_nob_02_b
 				}
 				female = {
 					1 = f_cloaks_sec_fp4_western_era3_nob_01
-					1 = f_cloaks_sec_fp4_western_era3_nob_02
+					1 = f_cloaks_sec_fp4_western_era3_nob_02_a
+					1 = f_cloaks_sec_fp4_western_era3_nob_02_b
 				}
 				boy = male
 				girl = female
@@ -1720,6 +1724,15 @@ props_left = {
 			3 = ccp5_french_marshal_sword_01_left
 			3 = ccp5_french_marshal_sword_02_left
 			2 = western_sword_02_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	pdt_crutch_01_a = {
+		index = 103
+		male = {
+			1 = pdt_crutch_01_a_portrait
 		}
 		female = male
 		boy = male

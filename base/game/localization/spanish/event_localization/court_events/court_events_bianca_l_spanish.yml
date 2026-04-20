@@ -85,6 +85,7 @@
  court.3031.a: "Mejorad mi posición con mis vasallos de las minorías."
  court.3031.b: "Hablad bien de mí entre los barones."
  court.3031.c: "Deseo mejorar mi relación con los [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]."
+ every_culture_county_3031: "Todo [county|El] del [realm|El] de [culture|El] [reference_county.GetCulture.GetName]"
  court.3031.d: "No me importa qué piensen los demás."
  #Homesickness
  court.3040.t: "La morriña de mi [homesick_parent.GetMotherFather]"

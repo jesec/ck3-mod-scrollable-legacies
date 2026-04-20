@@ -175,7 +175,7 @@ digging_for_secrets_modifier = {
 
 councillor_spouse_defuses_scheme_modifier = {
 	icon = intrigue_positive
-	scheme_resistance = 15
+	scheme_success_chance_max = -50
 }
 
 councillor_spouse_espionage_support_modifier = {

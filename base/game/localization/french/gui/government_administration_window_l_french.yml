@@ -177,4 +177,4 @@
  ADMIN_WINDOW_MERIT_POOLS_APPOINTMENT_SCORE_TT_TITLE: "#T Score de candidature : $SCORE|V0$#!"
  ADMIN_WINDOW_MERIT_POOLS_CANDIDATE_RANKING: "[merit_pool|E]"
  ADMIN_WINDOW_MERIT_POOLS_CANDIDATE_RANKING_DESC: "Les candidats sont classés par [merit_level|El] et par [candidate_score|El] dans chaque rang."
- ADMIN_WINDOW_FAMILY_RANK_TOOLTIP: "#T Rang de $game_concept_powerful_family|l$ : [RankedHouseItem.GetRank|Vl]#!\nLa Maison [DynastyHouse.GetNameNoTooltip] a le [powerful_family_rating_mid|El] de [RankedHouseItem.GetRank|Vl] le plus haut en [GetPlayer.GetTopLiege.GetPrimaryTitle.GetName]\n\nLes [GetDefine('NHouse', 'POWERFUL_HOUSE_MAX_COUNT')|V] premières [houses|E] sont considérées comme des [powerful_families|El]"
+ ADMIN_WINDOW_FAMILY_RANK_TOOLTIP: "#T Rang de $game_concept_powerful_family|l$ : [RankedHouseItem.GetRank|Vl]#!\nLa Maison [DynastyHouse.GetNameNoTooltip] est [Concept('powerful_family_rating_mid', 'classée')|E] [RankedHouseItem.GetRank|Vl] en [GetPlayer.GetTopLiege.GetPrimaryTitle.GetName]\n\nLes [GetDefine('NHouse', 'POWERFUL_HOUSE_MAX_COUNT')|V] premières [houses|E] sont considérées comme des [powerful_families|El]"

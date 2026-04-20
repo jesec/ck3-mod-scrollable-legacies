@@ -65,7 +65,6 @@
  dynn_Diwu_7B2C_4E94: "제오"
  dynn_Dong_8463: "동" # 董
  dynn_Dou_7AC7: "두"
- dynn_Doulu_8C46: "두"
  dynn_Doulu_8C46_76E7: "두로"
  dynn_Du_675C: "두" # 杜
  dynn_Du_7368: "독" # 獨
@@ -132,7 +131,6 @@
  dynn_Huang_7687: "황" # 皇
  dynn_Huang_9EC3: "황" # 黃
  dynn_Huang_9EC4: "황"
- dynn_Huangfu_7687: "황"
  dynn_Huangfu_7687_752B: "황보"
  dynn_Hui_60E0: "혜"
  dynn_Huo_970D: "곽" # 霍
@@ -337,7 +335,6 @@
  dynn_Shi_91CA: "석"
  dynn_Shi_91CB: "석" # 釋
  dynn_Shima_77F3: "석"
- dynn_Shiqi_4F8D: "시"
  dynn_Shiqi_4F8D_5176: "시기"
  dynn_Shizhan_77F3_76DE: "석잔"
  dynn_Shu_18: "서"
@@ -345,11 +342,8 @@
  dynn_Shu_8212: "서" # 舒
  dynn_Shulv_8FF0: "술"
  dynn_Si_53F8: "사" # 司
- dynn_Sikong_53F8: "사"
  dynn_Sikong_53F8_7A7A: "사공"
- dynn_Sima_53F8: "사"
  dynn_Sima_53F8_99AC: "사마" # 司馬
- dynn_Situ_53F8: "사"
  dynn_Situ_53F8_5F92: "사도"
  dynn_Song_5B8B: "송" # 宋
  dynn_Su_40: "소"
@@ -397,7 +391,6 @@
  dynn_Wen_6EAB: "온"
  dynn_Wen_805E: "문"
  dynn_Weng_7FC1: "옹" # 翁
- dynn_Wenren_805E: "문"
  dynn_Wenren_805E_4EBA: "문인"
  dynn_Wong_7FC1: "옹"
  dynn_Wu_169: "오"
@@ -426,7 +419,6 @@
  dynn_Xiang_9879: "항"
  dynn_Xiangli_76F8: "상"
  dynn_Xiangli_76F8_91CC: "상리"
- dynn_Xianyu_9BAE: "선"
  dynn_Xianyu_9BAE_4E8E: "선우"
  dynn_Xiao_66C9: "효"
  dynn_Xiao_8427: "소" # 萧
@@ -535,7 +527,6 @@
  dynn_Zhu_7AFA: "축"
  dynn_Zhu_8AF8: "제" # 諸
  dynn_Zhuang_838A: "장" # 莊
- dynn_Zhuge_8AF8: "제"
  dynn_Zhuge_8AF8_845B: "제갈"
  dynn_Zhuo_5353: "탁" # 卓
  dynn_Zhuye_6731_90AA: "주사" # 竺邪

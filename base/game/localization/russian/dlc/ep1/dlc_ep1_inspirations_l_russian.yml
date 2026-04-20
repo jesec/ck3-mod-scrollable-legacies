@@ -1,5 +1,6 @@
 ﻿l_russian:
  sponsor_inspiration_debug: "Поддержать вдохновение"
+ complete_inspiration_debug: "Завершить вдохновение"
  I_CAN_SPONSOR_OWN_INSPIRATION: "Я могу поддержать собственное вдохновение"
  NOT_I_CAN_SPONSOR_OWN_INSPIRATION: "Я #bold не#! могу поддержать собственное вдохновение"
  THEY_CAN_SPONSOR_OWN_INSPIRATION: "[CHARACTER.GetUIName] может поддержать свое вдохновение"

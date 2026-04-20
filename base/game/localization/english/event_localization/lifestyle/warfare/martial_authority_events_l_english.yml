@@ -37,7 +37,7 @@
  martial_authority.2050.desc.ending:0 "Could [right_hand_person.GetSheHe] serve as my right-hand [right_hand_person.GetWomanMan] and take a more active role in administering my [ROOT.Char.Custom('GetRealmOrDomicile')|l]?"
  martial_authority.2050.a:0 "Yes, [right_hand_person.GetSheHe] will serve me well!"
  martial_authority.2050.a.tt:1 "You will spend more time together with [right_hand_person.GetShortUIName]"
- martial_authority.2050.b:1 "My [marshal.Custom2('RelationToMeShort', ROOT.Char)] [marshal.GetFirstNameNoTooltip] can handle those problems."
+ martial_authority.2050.b:1 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))] [marshal.GetFirstNameNoTooltip] can handle those problems."
  martial_authority.2050.c:0 "I can handle everything myself if I work harder!"
  martial_authority.2050.toast.title:0 "[right_hand_person.GetShortUIName] is now serving as your right-hand [right_hand_person.GetWomanMan]"
 

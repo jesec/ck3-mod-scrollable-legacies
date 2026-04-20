@@ -24,7 +24,7 @@ tour_paraded_prisoners_modifier = {
 }
 
 tour_dragged_prisoners_modifier = {
-	icon = dread_positive
+	icon = dread_mixed
 	dread_gain_mult = 0.25
 	dread_decay_mult = -0.25
 	personal_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
@@ -38,25 +38,25 @@ tour_dragged_prisoners_through_holding_modifier = {
 }
 
 tour_vassal_cat_killer_modifier = {
-	icon = cat_negative
+	icon = cat_mixed
 	diplomacy = -1
 	dread_decay_mult = -0.1
 }
 
 tour_liege_cat_killer_modifier = {
-	icon = cat_negative
+	icon = cat_mixed
 	diplomacy = -2
 	dread_decay_mult = -0.2
 }
 
 tour_vassal_dog_killer_modifier = {
-	icon = dog_negative
+	icon = dog_mixed
 	diplomacy = -1
 	dread_decay_mult = -0.1
 }
 
 tour_liege_dog_killer_modifier = {
-	icon = dog_negative
+	icon = dog_mixed
 	diplomacy = -2
 	dread_decay_mult = -0.2
 }
@@ -96,7 +96,7 @@ tour_scheme_excellent_secrecy_modifier = {
 }
 
 tour_liege_extra_taxation_county_modifier = {
-	icon = stewardship_positive
+	icon = stewardship_mixed
 	tax_mult = 0.2
 	county_opinion_add = -10
 }

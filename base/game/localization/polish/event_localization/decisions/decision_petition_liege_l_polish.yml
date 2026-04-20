@@ -117,12 +117,12 @@
  petition_liege_decision_effects_house_fief: "Może uznać legalność [Concept('decision', 'decyzji')|E] #TUT_KW „Ustanów lenno rodowe”#!"
  petition_liege_house_fief_allowed: "Od teraz [decision|El] „[GetDecisionWithKey('tgp_japan_establish_house_fief_decision').GetName|V]” nie będzie uznawana za [crime_i|E] [crime|El] przez #V 10 lat#!\n[petition_liege.GetTitledFirstName] przez #V 10 lat#! nie może odebrać ci nowego lenna, o ile nie jesteś [Concept('criminal', 'przestępcą')|E]"
  #Wedding
- petition_liege_decision_option_wedding: "Małżeństwo królewskie\n#low Poślub członka [Concept('ceremonial_house', 'ceremonialnego rodu')|E]"
+ petition_liege_decision_option_wedding: "Małżeństwo królewskie\n#low Poślub członka [Concept('ceremonial_house', 'rodu ceremonialnego')|E]"
  petition_liege_wedding_desc: "Wystąp do osoby znanej jako [ROOT.Char.GetLiege.GetTitledFirstName] o zgodę na [marriage|El] z członkiem cesarskiej dynastii tej osoby"
  petition_liege_wedding_tooltip: "$petition_liege_decision_second_tooltip$"
  petition_liege_wedding_tt: "Twój [house|El] nie ma odpowiedniego kandydata"
- petition_liege_decision_effects_wedding: "Może udzielić zgody na [marriage|El] z członkiem [Concept('ceremonial_house', 'ceremonialnego rodu')|E]"
- petition_liege_wedding_permission: "Akceptacja [Concept('marriage', 'małżeństwa')|E] członka rodu [THIS.Char.GetHouse.GetName] z członkiem [Concept('ceremonial_house', 'ceremonialnego rodu')|E]: +#P 50#!"
+ petition_liege_decision_effects_wedding: "Może udzielić zgody na [marriage|El] z członkiem [Concept('ceremonial_house', 'rodu ceremonialnego')|E]"
+ petition_liege_wedding_permission: "Akceptacja [Concept('marriage', 'małżeństwa')|E] członka rodu [THIS.Char.GetHouse.GetName] z członkiem [Concept('ceremonial_house', 'rodu ceremonialnego')|E]: +#P 50#!"
  #Shared
  petition_liege_faith_tt: "#X Nie wyznajesz tej samej [faiths|El] co twój [liege|El]#!"
  petition_liege_holding_tt: "#X Twojego [Concept( 'liege', 'seniora' )|E] nie stać na zbudowanie tej [Concept( 'holding', 'posiadłości')|E]#!"
@@ -134,7 +134,7 @@
  petition_liege_decision_desc_non_royal: "Mogę prosić osobę, którą jest [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip], o pomoc w sprostaniu wyzwaniom, z którymi się borykam. Szczere prośby, które mają na względzie dobro państwa, są często spełniane."
  petition_liege_decision_tooltip_non_royal: "Złóż [Concept('petition_liege', 'prośbę o audiencję')|E] u [Concept('ceremonial_regent', 'regenta panującego')|E] w sprawie podarunku lub przysługi"
  petition_ceremonial_liege_decision_title: "Wystąp z prośbą do osoby, którą jest [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]"
- petition_ceremonial_liege_decision: "Wystąp z prośbą do ceremonialnego seniora"
+ petition_ceremonial_liege_decision: "Wystąp z prośbą do monarchy ceremonialnego"
  petition_ceremonial_liege_decision_desc: "Mogę prosić mojego [Concept('ceremonial_liege', 'monarchę ceremonialnego')|E] o pomoc w sprostaniu wyzwaniom, z którymi się borykam. Szczere prośby, które mają na względzie dobro państwa, są często spełniane."
  petition_ceremonial_liege_decision_effects: "Podróżujesz na dwór należący do osoby znanej jako [ceremonial_liege.GetShortUINameNotMe], aby dostarczyć [Concept('petition_liege', 'prośbę o audiencję')|E]"
  tgp_is_ceremonial_petition_shown_tt: "[THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUINameNotMe] musi znajdować się na miejscu"
@@ -149,8 +149,8 @@
  petition_ceremonial_liege_decision_option_appointment: "Awans rodu\n#low Popraw swój [candidate_score|El]#!"
  petition_ceremonial_liege_appointment_tooltip: "$petition_liege_decision_second_tooltip$"
  #Wedding
- petition_ceremonial_liege_wedding_desc: "Poproś osobę znaną jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUINameNotMe] o poparcie [Concept('marriage', 'małżeństwa')|E] zawartego przez członka twojego [Concept('house', 'rodu')|E] i członka [Concept('ceremonial_house', 'ceremonialnego rodu')|E]"
- petition_ceremonial_liege_decision_option_wedding: "Małżeństwo królewskie\n#low [Concept('marry', 'Poślub')|E] członka [Concept('ceremonial_house', 'ceremonialnego rodu')|E]#!"
+ petition_ceremonial_liege_wedding_desc: "Poproś osobę znaną jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUINameNotMe] o poparcie [Concept('marriage', 'małżeństwa')|E] zawartego przez członka twojego [Concept('house', 'rodu')|E] i członka [Concept('ceremonial_house', 'rodu ceremonialnego')|E]"
+ petition_ceremonial_liege_decision_option_wedding: "Małżeństwo królewskie\n#low [Concept('marry', 'Poślub')|E] członka [Concept('ceremonial_house', 'rodu ceremonialnego')|E]#!"
  petition_ceremonial_liege_wedding_tooltip: "$petition_liege_decision_second_tooltip$"
  #Privilege
  petition_ceremonial_liege_privilege_desc: "Poproś osobę znaną jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUINameNotMe] o uznanie godności [Concept('house', 'rodu')|E] [ROOT.Char.GetHouse.GetName]"

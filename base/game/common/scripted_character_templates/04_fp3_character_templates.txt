@@ -71,6 +71,7 @@ fp3_raging_ghazi_character = {
 fp3_chinese_grand_old_lady = {
 	#General
 	age = { 50 75 }
+	dynasty = none
 	gender = female
 	faith = faith:zhengyi
 	culture = culture:han
@@ -111,6 +112,7 @@ fp3_chinese_grand_old_lady = {
 fp3_chinese_eunuch_envoy = {
 	#General
 	age = { 20 55 }
+	dynasty = none
 	gender = male
 	faith = faith:mahayana
 	culture = culture:han
@@ -149,6 +151,7 @@ fp3_chinese_eunuch_envoy = {
 
 fp3_gnostic_paragon = {
 	age = { 30 60 }
+	dynasty = none
 	faith = faith:manichean
 	culture = culture:levantine
 	#Education
@@ -204,6 +207,7 @@ fp3_gnostic_paragon = {
 
 fp3_sufi_mystic = {
 	age = { 30 80 }
+	dynasty = none
 	faith = root.faith
 	culture = root.culture
 	#Education
@@ -261,6 +265,7 @@ fp3_sufi_mystic = {
 
 fp3_zoroastrian_armed_pilgrim = {
 	age = { 20 50 }
+	dynasty = none
 	#Education
 	random_traits_list = {
 		education_learning_2 = {
@@ -378,7 +383,7 @@ fp3_turkic_traveler = {
 	#General
 	age = { 24 40 }
 	culture = culture:turkish
-	dynasty = generate
+	dynasty = none
 	#Education
 	random_traits_list = {
 		education_martial_2 = {
@@ -673,6 +678,7 @@ fp3_ferdowsi_template = {
 fp3_skilled_outsider_template = {
 	# General
 	age = { 30 60 }
+	dynasty = none
 	# Education
 	## We give out random low tier education traits, and we'll upgrade them later if we're in batch B.
 	random_traits_list = {

@@ -26,6 +26,7 @@
  building_type_legendary_statue_desc: "$building_legendary_statue_desc$"
  building_type_legendary_watchtower_desc: "$building_legendary_watchtower_desc$"
  building_type_legendary_hunting_lodge_desc: "$building_legendary_hunting_lodge_desc$"
+ building_type_legendary_hunting_lodge_effect: "#flavor 解锁：#!\n$ep2_activities_legacy_4_hunts_up_legendary_hunt_sightings_effect$\n提高在该[county|E]举办的[GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName]的成功率：#P +20#!"
  shrine_of_highgod: "[ROOT.Province.GetCounty.GetFaith.HighGodName|U]圣堂"
  province_shrine: "[ROOT.Province.GetNameNoTooltip|U]大圣堂"
  shrine_of_healthgod: "[ROOT.Province.GetCounty.GetFaith.HealthGodNamePossessive|U]的大圣堂"

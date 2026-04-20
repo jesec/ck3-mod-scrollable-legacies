@@ -463,6 +463,8 @@ tgp_medieval_medicine = { #Treating the Unfortunate
 		medical_assistance_failure = {
 			visible = no
 			effect = {
+				task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_failure_on_contract" }
+				save_scope_as = task_contract
 				task_contract_taker ?= {
 					send_interface_toast = {
 						title = tgp_natural_disaster_contract_event.0011.b.tt.failure

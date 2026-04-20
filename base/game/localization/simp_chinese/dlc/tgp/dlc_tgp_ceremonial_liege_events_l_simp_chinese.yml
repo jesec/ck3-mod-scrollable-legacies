@@ -35,7 +35,7 @@
  tgp_power_undermined_modifier_tt: "[GetModifier('tgp_power_undermined_modifier').GetNameWithTooltip]: #P +25#!"
  tgp_ceremonial_liege_events.0020.c: "给[opposing_power.GetHerHim]送上我最诚挚的祝福。"
  tgp_ceremonial_liege_events.0030.t: "文人的奏疏"
- tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName]呈上了一篇关于[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]历史的精心奏疏。\n\n在奏疏中，"
+ tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName]呈上了一篇关于[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName]历史的精心奏疏。\n\n在奏疏中，"
  tgp_ceremonial_liege_events.0030.regent: "[opposing_power.GetFirstName]被频繁且详细地提及，[scholar.GetFirstNameNoTooltip]确保写入了关于[opposing_power.GetFirstNamePossessiveNoTooltip]家族，[opposing_power.GetHouse.GetName]的细节。\n\n问题显而易见，我被形容为[ROOT.Char.Custom('InsultAdjective')]人，而[opposing_power.GetFirstNameNoTooltip]却被称赞为[ROOT.Char.Custom('ComplimentAdjective')]人……"
  tgp_ceremonial_liege_events.0030.liege: "我被频繁且详细地提及，[scholar.GetFirstNameNoTooltip]确保写入了关于我的家族，[ROOT.Char.GetHouse.GetName]。\n\n真正引起我注意的是，我被形容为[opposing_power.Custom('InsultAdjective')]人，而[opposing_power.GetFirstNameNoTooltip]却被称赞为[ROOT.Char.Custom('ComplimentAdjective')]人……"
  tgp_ceremonial_liege_events.0030.a: "做得很好！"

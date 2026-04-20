@@ -34,6 +34,18 @@
  learning_scholarship.3001.c.tt2: "J’échoue à convaincre [chaplain.GetFirstName]"
  learning_scholarship.3001.c.toast.tt2: "[chaplain.GetFirstName] a rejeté mes raisons"
  #Translate a Great Work, by Petter Vilberg
+ #story cycle loc
+ book_translation_story: "Traduire une grande œuvre"
+ book_translation_story_desc: "Traduire une grande œuvre permettra à d’autres de bénéficier de sa sagesse. Réussir cet ambitieux exploit intellectuel reflétera votre intelligence brillante, tandis qu’échouer vous fera passer pour un imbécile."
+ TRANSLATION_STORY: "Vous traduisez [Story.GetOwner.Custom('TranslationBookLong')]"
+ TRANSLATION_QUALITY: "Qualité de la traduction"
+ POOR_TRANSLATION: "Mauvaise"
+ EXCELLENT_TRANSLATION: "Excellente"
+ DURATION_LEFT: "Durée restante"
+ PROGRESS_TOWARDS_CYNICISM: "Progression vers le cynisme"
+ CYNICISM: "Cynisme"
+ ZEALOTRY: "Fanatisme"
+ #event loc
  learning_scholarship_special.2001.t: "Une nouvelle traduction"
  learning_scholarship_special.2001.desc: "Ma quête visant à devenir un[ROOT.Char.Custom('FR_E')] érudit[ROOT.Char.Custom('FR_E')] m’apprend par-dessus tout à quel point il me reste des choses à savoir. Il doit y avoir tellement de connaissances qui ont été perdues au cours des siècles avec les livres ou les langues oubliés...\n\nPeut-être pourrais-je apporter ma contribution en traduisant une des œuvres classiques ?\n\nMais que pourrais-je même traduire ?"
  learning_scholarship_special.2001.regula_pastoralis: "#italic La Règle pastorale#!, sur la façon de mener une bonne vie."

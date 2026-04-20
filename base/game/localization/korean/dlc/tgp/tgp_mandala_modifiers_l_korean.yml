@@ -60,5 +60,5 @@
  is_mandala_government: "[mandalas|E]가 [tributaries|E]이 되길 선호: $VALUE|=+0$"
  is_disbelieved_mandala: "당신이 [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]임: $VALUE|=+0$"
  base_with_value: "기본: $VALUE|=+0$"
- has_aspect_of_serenity: "$aspect_of_serenity_house_power$: $VALUE|=+0$"
+ has_aspect_of_serenity: "$aspect_of_serenity_house_aspiration$: $VALUE|=+0$"
  mandala_ai_godking_modifier: "데바라자가 되기를 열망함: $VALUE|=+0$"

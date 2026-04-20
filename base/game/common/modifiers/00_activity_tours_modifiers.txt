@@ -299,7 +299,7 @@ local_saint_modifier = {
 }
 
 super_sleuth_modifier = {
-	icon = rock_positive
+	icon = rock_mixed
 	county_opinion_add = 10
 	learning = 1
 	stewardship = 1

@@ -11,7 +11,7 @@
  FP1_VARANGIAN_ADVENTURER_CB_NAME: "[varangian_adventure|E] przeciwko wojownikom z ziem znanych jako [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  FP1_VARANGIAN_ADVENTURER_CB_SPECIFIC_NAME: "[varangian_adventure|E] przeciwko [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
  FP1_VARANGIAN_ADVENTURER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][varangian_adventure|El] (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName]; cel: [DEFENDER.GetPrimaryTitle.GetNameNoTier])"
- FP1_VARANGIAN_ADVENTURER_WAR_NAME_BASE: "[DEFENDER.GetPrimaryTitle.GetName] [ATTACKER.GetPrimaryTitle.GetAdjective]"
+ FP1_VARANGIAN_ADVENTURER_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  VIKING_STATE_TITLE_NAME: "[target_duchy.GetNameNoTierNoTooltip] Wikingów"
  NORDIC_STATE_TITLE_NAME: "[target_duchy.GetNameNoTierNoTooltip] Nordów"
  VARYAG_STATE_TITLE_NAME: "[target_duchy.GetNameNoTierNoTooltip] Waregów"

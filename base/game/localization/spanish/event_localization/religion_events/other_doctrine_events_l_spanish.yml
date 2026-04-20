@@ -62,7 +62,7 @@
  false_conversion.2001.desc_grief: "No pasa un día sin que recuerde [deceased_character.Custom('ES_AlAla')] [deceased_character.GetTitledFirstName|l]. Cada recuerdo de su vida en este mundo hace manar una nueva fuente de dolor."
  false_conversion.2001.desc_depression: "Los días se eternizan con nuevas alegrías y penas de todos quienes me rodean. Sin embargo, aquí sigo, a la deriva en un mar gris, en el cual me he ahogado durante los últimos [vulnerable_relation.GetAge] años."
  false_conversion.2001.desc_stress: "He desarrollado hábitos involuntarios de crispación. Me muerdo las uñas, rechino los dientes, camino con agotamiento antes de tumbarme sobre el lecho, insomne. Y aun así, me abruma un estrés que va más allá de mi comprensión."
- false_conversion.2001.desc_outro: "\n\nJusto cuando me pregunto cómo podré seguir adelante, [vulnerable_relation.Custom2('RelationToMeAddress', owner)] me susurra al oído. «Solo necesitáis abrazar el poder curativo del [owner.GetSecretFaith.GetName|l], [owner.Custom2('RelationToMeAddress', vulnerable_relation)], y vuestras penas quedarán olvidadas»."
+ false_conversion.2001.desc_outro: "\n\nJusto cuando me pregunto cómo podré seguir adelante, [owner.Custom2('RelationToMeAddress', vulnerable_relation)] me susurra al oído. «Solo abrazad el poder curativo del [owner.GetSecretFaith.GetName|l], [vulnerable_relation.Custom2('RelationToMeAddress', owner)], y vuestras penas quedarán olvidadas»."
  false_conversion.2001.a: "¡Entonces abrazaré el [owner.GetSecretFaith.GetNameNoTooltip|l] de todo corazón!"
  false_conversion.2001.b: "¿Qué insinuáis, [owner.GetTitledFirstNameNoTooltip|l]?"
  false_conversion.2001.b_flavor: "[owner.Custom('ES_ElLa')|U] [owner.GetTitledFirstNameNoTooltip|l] no dice nada más… por ahora"

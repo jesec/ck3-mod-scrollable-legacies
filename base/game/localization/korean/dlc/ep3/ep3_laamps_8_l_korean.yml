@@ -167,7 +167,7 @@
  ep3_laamps.8105.a.desc: "전쟁을 준비할 시간을 더 달라고 요청합니다."
  ep3_laamps.8105.a.success: "[claimed_title.GetName](을)를 차지할 시간이 8년 주어짐"
  ep3_laamps.8105.a.failure: "[claimed_title.GetName](을)를 차지할 시간이 4년 주어짐"
- ep3_laamps.8105.b: "[claimed_title.GetName]의 미래를 위해!"
+ ep3_laamps.8105.b: "[claimed_title.GetNameNoTooltip]의 미래를 위해!"
  ep3_laamps.8105.b.desc: "당신은 조건에 동의합니다. $ep3_laamps.8105.a.failure$"
  ep3_laamps.8105.c: "괜히 시간만 낭비했군."
  ep3_laamps.8105.c.desc: "@warning_icon! #color_red 당신은 협상을 파기했습니다.#! [petitioned_ruler.GetName](이)가 당신을 지지하지 않으며, 당신을 나쁘게 보기 시작합니다."

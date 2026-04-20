@@ -68,6 +68,8 @@
  bp1_relaxing_room_western: "西方休息室"
  study_physician: "医生的书房"
  tavern: "酒馆"
+ bp1_crossroads_inn: "十字路口客栈"
+ bp1_wine_cellar: "酒窖"
  genericcamp: "军营"
  fp1_runestone: "符文石"
  fp1_runestone_circle: "石阵"

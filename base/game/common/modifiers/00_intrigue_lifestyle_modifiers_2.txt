@@ -21,31 +21,31 @@ saucy_reputation_03_modifier = {
 }
 
 licentious_01_modifier = {
-	icon = fertility_positive
+	icon = fertility_mixed
 	attraction_opinion = 15
 	courtier_opinion = -5
 }
 
 licentious_02_modifier = {
-	icon = fertility_positive
+	icon = fertility_mixed
 	attraction_opinion = 20
 	courtier_opinion = -10
 }
 
 licentious_03_modifier = {
-	icon = fertility_positive
+	icon = fertility_mixed
 	attraction_opinion = 30
 	courtier_opinion = -15
 }
 
 licentious_04_modifier = {
-	icon = fertility_positive
+	icon = fertility_mixed
 	attraction_opinion = 40
 	courtier_opinion = -20
 }
 
 licentious_05_modifier = {
-	icon = fertility_positive
+	icon = fertility_mixed
 	attraction_opinion = 50
 	courtier_opinion = -25
 }
@@ -68,21 +68,21 @@ malignant_hearsay_modifier = {
 }
 
 forest_of_corpses_1_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	county_opinion_add = -30
 	monthly_county_control_growth_add = 0.5
 	tax_mult = 0.1
 }
 
 forest_of_corpses_2_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	county_opinion_add = -20
 	monthly_county_control_growth_add = 0.8
 	tax_mult = 0.1
 }
 
 forest_of_corpses_3_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	county_opinion_add = -15
 	monthly_county_control_growth_add = 1
 	tax_mult = 0.2
@@ -102,7 +102,7 @@ intrigue_fooled_by_enemy_modifier = {
 }
 
 intrigue_protected_by_loved_one_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	enemy_hostile_scheme_phase_duration_add = major_scheme_phase_duration_malus_value
 	stress_loss_mult = -0.15
 }
@@ -175,31 +175,31 @@ intrigue_trusty_court_chaplain_modifier = {
 }
 
 intrigue_doing_spymasters_job_modifier = {
-	icon = intrigue_positive
+	icon = intrigue_mixed
 	intrigue = 2
 	stress_gain_mult = 0.15	
 }
 
 intrigue_doing_chancellors_job_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	diplomacy = 2
 	stress_gain_mult = 0.15	
 }
 
 intrigue_doing_stewards_job_modifier = {
-	icon = stewardship_positive
+	icon = stewardship_mixed
 	stewardship = 2
 	stress_gain_mult = 0.15
 }
 
 intrigue_doing_marshals_job_modifier = {
-	icon = martial_positive
+	icon = martial_mixed
 	martial = 2
 	stress_gain_mult = 0.15	
 }
 
 intrigue_doing_court_chaplains_job_modifier = {
-	icon = learning_positive
+	icon = learning_mixed
 	learning = 2
 	stress_gain_mult = 0.15
 }
@@ -236,7 +236,7 @@ intrigue_horrifying_executions_modifier = {
 }
 
 intrigue_relaxed_oversight_modifier = {
-	icon = county_modifier_control_negative
+	icon = county_modifier_control_mixed
 	monthly_county_control_decline_add = -0.1
 	development_growth_factor = tiny_development_growth_gain
 }

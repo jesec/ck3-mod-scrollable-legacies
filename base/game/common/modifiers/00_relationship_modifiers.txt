@@ -17,7 +17,7 @@ impromptu_venison_feast_modifier = {
 
 #Lovers
 aloof_but_alluring_modifier = {
-	icon = health_negative
+	icon = health_mixed
 	attraction_opinion = 20
 	monthly_intrigue_lifestyle_xp_gain_mult = -0.2
 	monthly_diplomacy_lifestyle_xp_gain_mult = -0.2
@@ -32,7 +32,7 @@ driven_by_vengeance_modifier = {
 }
 
 focused_on_revenge_modifier = {
-	icon = blood_positive
+	icon = blood_mixed
 	prowess = 2
 	owned_hostile_scheme_success_chance_add = 10
 	stress_gain_mult = 0.2
@@ -40,7 +40,7 @@ focused_on_revenge_modifier = {
 }
 
 cruel_upbringing_modifier = {
-	icon = blood_positive
+	icon = blood_mixed
 	opinion_of_parents = -100
 	owned_hostile_scheme_success_chance_add = 5
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.05

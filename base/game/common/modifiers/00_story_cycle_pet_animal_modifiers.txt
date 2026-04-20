@@ -74,7 +74,7 @@ cat_ill_modifier = {
 }
 
 cat_lover_modifier = {
-	icon = cat_positive
+	icon = cat_mixed
 	stress_loss_mult = 0.10
 	councillor_opinion = -5
 }

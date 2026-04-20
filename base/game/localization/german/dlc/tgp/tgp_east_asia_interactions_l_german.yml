@@ -31,7 +31,7 @@
  tributary_mandala_common_desc: "Im Gegenzug beschützt der [suzerain|E] den Tributzahler, sollte er von Invasoren angegriffen werden."
  tributary_wanua: "Wanua-Tributzahler"
  tributary_wanua_desc: "Ein [wanua|E]-[tributary|E] versorgt seinen [suzerain|E] in regelmäßigen Abständen mit [gold|E], [prestige|E] oder sogar [barter_goods|E]. Die [tributary_contract|E] vererben sich bei der Nachfolge."
- wasted_our_efforts: "Verschwendete Mühen"
+ wasted_our_efforts: "Vergeudete unsere Mühen"
  tgp_mandala_send_missionary_interaction: "Missionar entsenden"
  tgp_mandala_send_missionary_interaction_desc: "Ein frommer Missionar aus unserem Reich trifft am Hof von [recipient.GetShortUIName] ein, wo er Euren [tributary|E] zu Eurem [Concept('faith', 'Glauben')|E] bekehren oder mit Angelegenheiten am Hof des Tributzahlers [piety|E] für Euch erzeugen kann"
  tgp_mandala_send_missionary_interaction_tt: "Ein [actor.GetCulture.GetNameNoTooltip|l]er und [actor.GetFaith.GetAdjective|l]er Missionar erscheint am Hof von [recipient.GetName]"

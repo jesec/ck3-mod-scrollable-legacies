@@ -31,6 +31,9 @@
 
 	valid = {
 		scope:target = scope:owner
+		NOT = {
+			has_character_modifier = partially_mute_modifier
+		}
 		is_imprisoned = no
 		NOT = { has_trait = incapable }
 	}

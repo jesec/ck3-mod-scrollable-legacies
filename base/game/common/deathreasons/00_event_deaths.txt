@@ -520,11 +520,6 @@ death_laughter = {
 	icon = "death_natural.dds"
 }
 
-death_heart_attack = {
-	public_knowledge = yes
-	icon = "death_natural.dds"
-}
-
 death_nailed_in_cabinet = {
 	public_knowledge = yes
 	icon = "death_murder.dds"
@@ -692,6 +687,11 @@ death_flogged_by_censors = {
 death_trampled = {
 	public_knowledge = yes
 	icon = "death_murder.dds"
+}
+
+death_lost = {
+	public_knowledge = yes
+	icon = "death_natural.dds"
 }
 
 death_lost_in_the_forest = {
@@ -918,6 +918,11 @@ death_fallen_from_a_mountain = {
 	icon = "death_natural.dds"
 }
 
+death_lost_in_rainstorm = {
+	public_knowledge = yes
+	icon = "death_natural.dds"
+}
+
 death_mountain_rescue_operation = {
 	public_knowledge = yes
 	icon = "death_natural.dds"
@@ -1009,6 +1014,11 @@ death_sea_storm = {
 }
 
 death_poisonous_forage = {
+	public_knowledge = yes
+	icon = "death_natural.dds"
+}
+
+death_best_sex_of_their_life = {
 	public_knowledge = yes
 	icon = "death_natural.dds"
 }
@@ -1190,4 +1200,7 @@ death_eradicated = {
 	public_knowledge = yes
 	icon = "death_murder.dds"
 }
-
+death_ritual_suicide = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}

@@ -1386,6 +1386,171 @@ camera_lifestyles = {
 	unknown = camera_torso
 }
 
+@up_rdesigner = -33
+@down_rdesigner = 36
+
+camera_head_designer_-30 = {
+	camera = {
+		position = cylindrical{	150 3 -30 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_head_designer_-30_up = {
+	camera = {
+		position = cylindrical{	150 @up_rdesigner -30 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_head_designer_-30_down = {
+	camera = {
+		position = cylindrical{	150 @down_rdesigner -30 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_head_designer_up = {
+	camera = {
+		position = cylindrical{	150 @up_rdesigner  0 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_head_designer = {
+	camera = {
+		position = cylindrical{	150 3  0 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_head_designer_down = {
+	camera = {
+		position = cylindrical{	150 @down_rdesigner  0 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_head_designer_30 = {
+	camera = {
+		position = cylindrical{	150 3 30 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_head_designer_30_up = {
+	camera = {
+		position = cylindrical{	150 @up_rdesigner 30 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_head_designer_30_down = {
+	camera = {
+		position = cylindrical{	150 @down_rdesigner 30 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
 camera_ruler_designer = {
 	camera = {
 		position = cylindrical{ 390 -22 0 } # Radius, height, angle
@@ -1440,6 +1605,100 @@ camera_ruler_designer_head_profile = {
 	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
 
 	unknown = camera_body
+}
+
+camera_ruler_designer_head_profile_up = {
+	camera = {
+		position = cylindrical{	150 -17 50 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 800 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+
+	unknown = camera_body
+}
+
+camera_ruler_designer_head_profile_down = {
+	camera = {
+		position = cylindrical{	150 20 50 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 800 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+
+	unknown = camera_body
+}
+
+camera_ruler_designer_head_profile_90 = {
+	camera = {
+		position = cylindrical{	150 3 90 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_ruler_designer_head_profile_90_up = {
+	camera = {
+		position = cylindrical{	150 @up_rdesigner 90 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
+}
+
+camera_ruler_designer_head_profile_90_down = {
+	camera = {
+		position = cylindrical{	150 @down_rdesigner 90 } # Radius,	height, angle
+		position_node = {
+			default = camera_torso_look_at
+		}
+
+		look_at = {	0 3 0 } # L/R, U/D, F/B
+		look_at_node = {
+			default = bn_h_head_mid
+		}
+		fov = 20
+		camera_near_far = { 50 400 }
+	}
+
+	unknown = "gfx/portraits/unknown_portraits/unknown_head.dds"
 }
 
 camera_event_duel_left = {
@@ -2614,10 +2873,10 @@ portrait_editor = {
 
 camera_main_menu_heir = {
 	camera = {
-		position = cylindrical{ 780 @frontend_camera_height 0 } # Radius, height, angle
+		position = cylindrical{ 765 @frontend_camera_height 0 } # Radius, height, angle
 		# position = cylindrical{ 1720 @frontend_camera_height -36 } # Perspective matching
 
-		look_at = { -135 @frontend_camera_look_at_height 0 } # L/R, U/D, F/B
+		look_at = { 0 @frontend_camera_look_at_height 0 } # L/R, U/D, F/B
 		# look_at = { 210 @frontend_camera_look_at_height 0 } # Perspective matching
 		fov = @frontend_camera_fov
 		camera_near_far = { 5 5000 }
@@ -2628,10 +2887,10 @@ camera_main_menu_heir = {
 
 camera_main_menu_heir_sitting_child = {
 	camera = {
-		position = cylindrical{ 680 @frontend_camera_height 0 } # Radius, height, angle
+		position = cylindrical{ 670 @frontend_camera_height 0 } # Radius, height, angle
 		# position = cylindrical{ 1720 @frontend_camera_height -36 } # Perspective matching
 
-		look_at = { -115 @[frontend_camera_look_at_height-20] 0 } # L/R, U/D, F/B
+		look_at = { 0 @[frontend_camera_look_at_height-20] 0 } # L/R, U/D, F/B
 		# look_at = { 210 @frontend_camera_look_at_height 0 } # Perspective matching
 		fov = @frontend_camera_fov
 		camera_near_far = { 5 5000 }
@@ -2642,10 +2901,10 @@ camera_main_menu_heir_sitting_child = {
 
 camera_main_menu_main = {
 	camera = {
-		position = cylindrical{ 720 @frontend_camera_height 0 } # Radius, height, angle
+		position = cylindrical{ 715 @frontend_camera_height 0 } # Radius, height, angle
 		# position = cylindrical{ 810 @frontend_camera_height -30.4 } # Perspective matching
 
-		look_at = { -80 @frontend_camera_look_at_height 0 } # L/R, U/D, F/B
+		look_at = { 0 @frontend_camera_look_at_height 0 } # L/R, U/D, F/B
 		# look_at = { -10 @frontend_camera_look_at_height 0 } # Perspective matching
 		fov = @frontend_camera_fov
 		camera_near_far = { 5 5000 }
@@ -2659,7 +2918,7 @@ camera_main_menu_main_sitting_child = {
 		position = cylindrical{ 720 @frontend_camera_height 0 } # Radius, height, angle
 		# position = cylindrical{ 810 @frontend_camera_height -30.4 } # Perspective matching
 
-		look_at = { -80 @[frontend_camera_look_at_height-5] 0 } # L/R, U/D, F/B
+		look_at = { 0 @[frontend_camera_look_at_height-4] 0 } # L/R, U/D, F/B
 		# look_at = { -10 @frontend_camera_look_at_height 0 } # Perspective matching
 		fov = @frontend_camera_fov
 		camera_near_far = { 5 5000 }
@@ -2673,7 +2932,7 @@ camera_main_menu_secondary = {
 		position = cylindrical{ 780 @frontend_camera_height 0 } # Radius, height, angle
 		# position = cylindrical{ 1800 @frontend_camera_height -28.6 } # Perspective matching
 
-		look_at = { -40 @frontend_camera_look_at_height 0 } # L/R, U/D, F/B
+		look_at = { 0 @frontend_camera_look_at_height 0 } # L/R, U/D, F/B
 		# look_at = { -150 @frontend_camera_look_at_height 0 } # Perspective matching
 		fov = @frontend_camera_fov
 		camera_near_far = { 5 10000 }
@@ -2687,7 +2946,7 @@ camera_main_menu_secondary_sitting_child = {
 		position = cylindrical{ 780 @frontend_camera_height 0 } # Radius, height, angle
 		# position = cylindrical{ 1800 @frontend_camera_height -28.6 } # Perspective matching
 
-		look_at = { -40 @[frontend_camera_look_at_height-5] 0 } # L/R, U/D, F/B
+		look_at = { 0 @[frontend_camera_look_at_height-5] 0 } # L/R, U/D, F/B
 		# look_at = { -150 @frontend_camera_look_at_height 0 } # Perspective matching
 		fov = @frontend_camera_fov
 		camera_near_far = { 5 10000 }

@@ -160,3 +160,4 @@
  ACTIVITY_GUEST_VERY_SHORT_TRIP: "Son voyage est très court : $VALUE|=+0$"
  ACTIVITY_GUEST_NO_TRAVEL: "[ROOT.Char.GetSheHe|U] vit sur place : $VALUE|=+0$"
  ACTIVITY_GUEST_COURTIER: "Votre [courtier|El] : $VALUE|=+0$"
+ ACTIVITY_GUEST_ACCLAIMED_KNIGHT_REASON: "[ROOT.Char.GetSheHe|U] est un [acclaimed_knight|El] : $VALUE|=+0$"

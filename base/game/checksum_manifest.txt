@@ -26,5 +26,9 @@ directory
 name = data_binding
 sub_directories = yes
 
+directory
+name = gfx/court_scene/scene_settings
+sub_directories = yes
+
 file
 name = paths_checksummed.settings

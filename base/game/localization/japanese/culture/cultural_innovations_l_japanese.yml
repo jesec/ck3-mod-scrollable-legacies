@@ -134,7 +134,7 @@
  innovation_burhs_chinese: "塢壁" #塢壁
  innovation_burhs_chinese_desc: "田園地帯に点在する塢壁は、軍隊を集めるための要塞化された重要拠点であるほか、行政の中心地としての役割も果たしている。"
  innovation_burhs_anglo_saxon: "バーフ"
- innovation_burhs_anglo_saxon_desc: "田園地帯に点在するブルスは、軍隊を集めるための要塞化された重要拠点であるほか、行政の中心地としての役割も果たしている。"
+ innovation_burhs_anglo_saxon_desc: "田園地帯に点在するバーフは、軍隊を集めるための要塞化された重要拠点であるほか、行政の中心地としての役割も果たしている。"
  innovation_burhs_latin: "カストラ"
  innovation_burhs_latin_desc: "古来の要塞の原則は今日でも有用である。こうした要塞化された拠点は軍隊の集結場所として、また行政の中心地としても活用することができる。"
  innovation_house_soldiers: "近衛兵"
@@ -330,10 +330,10 @@
  ##################
  #TGP Siege Units Unlock
  ##################
- unlock_siege_maa_first_level: "[SelectLocalization( Or( Or( ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('han').GetHeritage.GetName ), ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('goryeo').GetHeritage.GetName ) ), ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('japanese').GetHeritage.GetName ) ), 'unlock_maa_ballista','unlock_maa_onager')]"
- unlock_siege_maa_second_level: "[SelectLocalization( Or( Or( ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('han').GetHeritage.GetName ), ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('goryeo').GetHeritage.GetName ) ), ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('japanese').GetHeritage.GetName ) ), 'unlock_maa_cloud_ladder','unlock_maa_mangonel')]"
- unlock_siege_maa_third_level: "[SelectLocalization( Or( Or( ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('han').GetHeritage.GetName ), ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('goryeo').GetHeritage.GetName ) ), ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('japanese').GetHeritage.GetName ) ), 'unlock_maa_siege_tower','unlock_maa_trebuchet')]"
- unlock_siege_maa_fourth_level: "[SelectLocalization( Or( Or( ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('han').GetHeritage.GetName ), ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('goryeo').GetHeritage.GetName ) ), ObjectsEqual( GetPlayer.GetCulture.GetHeritage.GetName, GetCultureByKey('japanese').GetHeritage.GetName ) ), 'unlock_maa_cannon','unlock_maa_bombard')]"
+ unlock_siege_maa_first_level: "[GetPlayer.Custom('GetRegionalSiegeLevel1MAA')]"
+ unlock_siege_maa_second_level: "[GetPlayer.Custom('GetRegionalSiegeLevel2MAA')]"
+ unlock_siege_maa_third_level: "[GetPlayer.Custom('GetRegionalSiegeLevel3MAA')]"
+ unlock_siege_maa_fourth_level: "[GetPlayer.Custom('GetRegionalSiegeLevel4MAA')]"
  unlock_maa_ballista: "[GetMaA('ballista').GetName]を[men_at_arms|E]に採用できる"
  unlock_maa_cloud_ladder: "[GetMaA('cloud_ladder').GetName]を[men_at_arms|E]に採用できる"
  unlock_maa_siege_tower: "[GetMaA('siege_tower').GetName]を[men_at_arms|E]に採用できる"

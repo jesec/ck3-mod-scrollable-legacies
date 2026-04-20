@@ -1822,6 +1822,19 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			### SP5 ###	
+			sp5_hairstyles = {
+				index = 83
+				male = {
+					1 = m_hair_sp5_western_01
+					
+				}
+				female = {
+				}
+
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

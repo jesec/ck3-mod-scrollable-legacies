@@ -33,7 +33,7 @@
  martial_authority.2050.desc.ending: "Könnte [right_hand_person.Custom('DE_PRO_PER_S_3P_N')] als meine rechte Hand dienen und eine tatkräftigere Rolle bei der Verwaltung [SelectLocalization(IsLandlessAdventurer(ROOT.Char), 'meines Besitzes', 'meines Reichs')] einnehmen?"
  martial_authority.2050.a: "Ja, [right_hand_person.Custom('DE_PRO_PER_S_3P_N')] wird mir gute Dienste leisten!"
  martial_authority.2050.a.tt: "Ihr werdet mehr Zeit mit [right_hand_person.GetShortUIName] verbringen"
- martial_authority.2050.b: "Mein [marshal.Custom2('RelationToMeShort', ROOT.Char)] [marshal.GetFirstNameNoTooltip] wird mit diesen Schwierigkeiten fertig."
+ martial_authority.2050.b: "[marshal.GetFirstNameNoTooltip|U] als [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))] kann sich um diese Widrigkeiten kümmern."
  martial_authority.2050.c: "Ich werde mit allem selbst fertig, wenn ich mich nur mehr anstrenge!"
  martial_authority.2050.toast.title: "[right_hand_person.GetShortUIName] dient jetzt als Eure rechte Hand"
  martial_authority.2051.t: "Eine helfende Hand"

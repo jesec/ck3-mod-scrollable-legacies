@@ -35,7 +35,7 @@
  tgp_power_undermined_modifier_tt: "[GetModifier('tgp_power_undermined_modifier').GetNameWithTooltip]: #P +25#!"
  tgp_ceremonial_liege_events.0020.c: "Dadle muchos recuerdos de mi parte."
  tgp_ceremonial_liege_events.0030.t: "El memorial de un erudito"
- tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName] presenta un memorial bien redactado sobre la historia de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName].\n\nEn este,"
+ tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName] presenta un memorial bien redactado sobre la historia de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName].\n\nEn este,"
  tgp_ceremonial_liege_events.0030.regent: "se menciona a menudo y con detalle a [opposing_power.GetFirstName], y [scholar.GetFirstNameNoTooltip] se encarga de incluir pormenores sobre la casa de [opposing_power.GetFirstNameNoTooltip], los [opposing_power.GetHouse.GetName].\n\nEl problema se hace patente cuando a mí se me describe como [ROOT.Char.Custom('InsultAdjective')] y a [opposing_power.GetFirstNameNoTooltip] como bastante [ROOT.Char.Custom('ComplimentAdjective')]…"
  tgp_ceremonial_liege_events.0030.liege: "se me menciona a menudo y con detalle, y [scholar.GetFirstNameNoTooltip] se encarga de incluir pormenores sobre mi casa, los [ROOT.Char.GetHouse.GetName].\n\nLo que de verdad me llama la atención es que se me describe como [ROOT.Char.Custom('ComplimentAdjective')] y a [opposing_power.GetFirstNameNoTooltip] como bastante [ROOT.Char.Custom('InsultAdjective')]…"
  tgp_ceremonial_liege_events.0030.a: "¡Un trabajo excelente!"

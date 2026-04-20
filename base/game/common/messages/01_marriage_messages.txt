@@ -20,7 +20,9 @@ msg_betrothal_invalidated = {
 }
 msg_break_betrothal = {
 	icon = "marriage"
-	style = bad 
+	style = bad
+	title = event_message_title
+	desc = event_message_effect
 	message_filter_type = marriage_ended
 }
 msg_betrothal_invalidated_player_heir = {
@@ -30,7 +32,9 @@ msg_betrothal_invalidated_player_heir = {
 }
 msg_break_betrothal_player_heir = {
 	icon = "marriage"
-	style = bad 
+	style = bad
+	title = event_message_title
+	desc = event_message_effect
 	message_filter_type = marriage_ended_heir
 }
 msg_betrothal_fulfilled = {
@@ -55,7 +59,7 @@ msg_spouse_invalidated = {
 }
 msg_spouse_invalidated_player_heir = {
 	icon = "marriage"
-	style = bad 
+	style = bad
 	message_filter_type = marriage_ended_heir
 }
 msg_marriage_forced = {

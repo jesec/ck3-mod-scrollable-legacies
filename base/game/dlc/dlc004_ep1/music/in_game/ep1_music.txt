@@ -29,8 +29,6 @@ mep1_mood_01 = {
 	music = "event:/DLC/EP1/MX/Moodtracks/mx_mep1_mood_01"
 	pause_factor = 15
 	group = group_roco
-
-	is_valid = { has_ep1_dlc_trigger = yes }
 }
 
 mep1_mood_02 = {
@@ -38,8 +36,6 @@ mep1_mood_02 = {
 	music = "event:/DLC/EP1/MX/Moodtracks/mx_mep1_mood_02"
 	pause_factor = 15
 	group = group_roco
-
-	is_valid = { has_ep1_dlc_trigger = yes }
 }
 
 mep1_mood_03 = {
@@ -47,8 +43,6 @@ mep1_mood_03 = {
 	music = "event:/DLC/EP1/MX/Moodtracks/mx_mep1_mood_03"
 	pause_factor = 15
 	group = group_roco
-
-	is_valid = { has_ep1_dlc_trigger = yes }
 }
 
 mep1_mood_04 = {
@@ -56,15 +50,15 @@ mep1_mood_04 = {
 	music = "event:/DLC/EP1/MX/Moodtracks/mx_mep1_mood_04"
 	pause_factor = 15
 	group = group_roco
-
-	is_valid = { has_ep1_dlc_trigger = yes }
 }
 
 group_roco = {
- 	#subsequent_playback_chance = { 0.65 0.35 0.1 }
  	mood = yes
 	can_be_interrupted = yes
- 	trigger_prio_override = no
 
-	is_valid = { has_ep1_dlc_trigger = yes }
+	is_valid = {
+		has_ep1_dlc_trigger = yes
+		should_not_use_bespoke_music_trigger = yes
+		should_not_be_valid_if_asian_music_is_valid_trigger = yes
+	}
 }

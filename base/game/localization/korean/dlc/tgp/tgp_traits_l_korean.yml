@@ -1,7 +1,7 @@
 ﻿l_korean:
- trait_former_emperor: "전임 천황"
- trait_former_emperor_male: "전임 천황"
- trait_former_emperor_female: "전임 천황"
+ trait_former_emperor: "태상왕"
+ trait_former_emperor_male: "태상왕"
+ trait_former_emperor_female: "태상왕"
  trait_former_tenno: "$emperor_joko_male_japanese$"
  trait_former_tenno_male: "$emperor_joko_male_japanese$"
  trait_former_tenno_female: "$emperor_joko_female_japanese$"

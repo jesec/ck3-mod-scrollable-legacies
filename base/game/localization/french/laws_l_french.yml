@@ -399,7 +399,7 @@
  japanese_bureaucracy_3: "Gouvernance centralisée"
  japanese_bureaucracy_3_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Les [vassals|El] non [governors|El] ne peuvent jamais déclarer de [war|El]#!"
  JAPANESE_BUREAUCRACY_IS_ON_COOLDOWN: "Vous avez récemment changé l’[japanese_bureaucracy|El]. Vous pourrez le refaire dans [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperial_bureaucracy_cooldown') )]"
- border_wars_laws: "Politique des guerres frontalières"
+ border_wars_laws: "Politique de guerre frontalière"
  border_wars_laws_singular: "$border_wars_laws$"
  top_liege_redirected_to_border_wars_law: "Protection garantie"
  top_liege_redirected_to_border_wars_law_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Le [top_liege|El] sera toujours le [war_leader|El] défensif dans les [wars|El] pour un [title|El] dans son [realm|El]#!"

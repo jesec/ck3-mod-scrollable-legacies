@@ -206,10 +206,10 @@
  tooltip.intrigue_dread.2001.c.duel_failure: "[loved_one.GetFirstName] widersetzt sich Euch offen"
  intrigue_protected_by_loved_one_modifier: "Von einem geliebten Menschen geschützt"
  intrigue_protected_by_loved_one_modifier_desc: "Dieser Charakter hat einen geliebten Menschen, der #EMP alles#! tun würde, um ihn zu schützen."
- intrigue_defied_loved_one_opinion: "Sich einem geliebten Menschen widersetzt"
+ intrigue_defied_loved_one_opinion: "Widersetzte sich einem geliebten Menschen"
  #Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t: "Gerüchte über [family_member.GetFirstNameNoTooltip]"
- intrigue_dread.2101.desc.intro: "„Diese elenden Gerüchte über Euer Familienmitglied ([ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))]) … wurden zu ihrer Quelle zurückverfolgt.“ [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U] tätschelt ein Bündel Briefe.\n\nDiese Schreiben beweisen, dass [hater.GetName] versucht, den Namen von [family_member.GetFirstName] in den Dreck zu ziehen."
+ intrigue_dread.2101.desc.intro: "„Diese elenden Gerüchte, die [Select_CString(family_member.IsFemale, 'Eure', 'Euer')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] [family_member.GetTitledFirstName] ertragen muss … wurden zu ihrer Quelle zurückverfolgt.“ [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U] tätschelt ein Bündel Briefe.\n\nDiese Schreiben beweisen, dass [hater.GetName] versucht, den Namen von [family_member.GetFirstName] in den Dreck zu ziehen."
  intrigue_dread.2101.desc.failed_assassination: "[hater.Custom('DE_PRO_PER_S_3P_N')|U] bezichtigt [family_member.GetFirstName] sogar, einen Mordversuch gegen [hater.Custom('DE_PRO_PER_S_3P_A')] unternommen zu haben!"
  intrigue_dread.2101.desc.committed_adultery: "[hater.Custom('DE_PRO_PER_S_3P_N')|U] behauptet, [family_member.GetFirstName] wäre dem eigenen Ehepartner gegenüber untreu gewesen – und erzählt darüber reißerische Geschichten!"
  intrigue_dread.2101.desc.bullied_me: "[hater.Custom('DE_PRO_PER_S_3P_N')|U] behauptet, [family_member.GetFirstName] trüge schon von Kindesbeinen an die Saat des Bösen in sich, da [family_member.GetNameNoTooltip] [hater.Custom('DE_PRO_PER_S_3P_A')] damals schon grausam quälte."
@@ -267,7 +267,7 @@
  intrigue_doing_stewards_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_marshals_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_court_chaplains_job_modifier: "$intrigue_doing_spymasters_job_modifier$"
- intrigue_position_is_safe_opinion: "Garantie, dass der eigene Posten sicher ist"
+ intrigue_position_is_safe_opinion: "Garantierte, dass mein Amt sicher ist"
  #Your court thinks you're soft, by Luke Bean
  intrigue_dread.2301.t: "Zeigt ihnen, wer Ihr seid"
  intrigue_dread.2301.desc.a: "„Was für ein Glück, dass wir [Select_CString(ROOT.Char.IsFemale, 'eine so sanfte, weichherzige und reine Herrin', 'einen so sanften, weichherzigen und reinen Herrn')] haben!“ Vor mir schwebt das grinsende Gesicht von [smirking_courtier.GetName]. „Wir sind damit gesegnet, [SelectLocalization(IsLandlessAdventurer(ROOT.Char), 'in einem Lager', 'an einem Hof')] zu sein, wo wir frei von Angst leben können!“"

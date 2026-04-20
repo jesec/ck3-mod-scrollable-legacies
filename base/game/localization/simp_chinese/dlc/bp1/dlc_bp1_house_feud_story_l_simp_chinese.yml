@@ -374,7 +374,7 @@
  #Important Action
  action_ongoing_house_feud: "正在持续的家族[house_feud|E]"
  action_ongoing_house_feud_label: "@dynasty_icon!你的家族与[recipient.GetHouse.GetBaseNameNoTooltip]家族是世仇"
- action_ongoing_house_feud_desc: "你的家族视[recipient.GetHouse.GetBaseName]家族为死敌，击败他们将获得奖励。\n\n#help 杀死、[torturing|E]该家族的成员，给该家族的成员戴绿帽，劫取该家族成员的财物，赢得针对该家族成员的[wars|E]会提高你的分数，反过来，成为这些行动的受害者会降低分数。#!\n\n#help $house_feud_balance_action_tt$。#!\n"
+ action_ongoing_house_feud_desc: "你的家族视[recipient.GetHouse.GetBaseName]家族为死敌，击败他们将获得奖励。\n\n#help 杀死、[torturing|E]该家族的成员，给该家族的成员戴绿帽，劫取该家族成员的财物，赢得针对该家族成员的[wars|E]会提高你的分数，反过来，成为这些行动的受害者会降低分数。#!\n"
  action_ongoing_house_feud_click: "#I 点击查看[house_feud|E]家主#!"
  action_ongoing_house_feud_unimportant: "@warning_icon!#N 你的家族目前正在失去[house_feud|E]#!"
  swap_feud_tt: "结束与[house_feud_existing.GetBaseName][house|E]的[house_feud|E]"

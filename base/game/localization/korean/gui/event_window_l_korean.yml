@@ -124,7 +124,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_CELESTIAL_MILITARY_APPOINTMENT: "당신의 @celestial_military_administration! 군사 행정 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_MOVEMENT: "당신이 [GetPlayer.Custom('GetMyMovement')]에 속한 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_ADVANCEMENT_PHASE: "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] [situation_dynastic_cycle_phase|E] 덕분에 이 선택지를 사용할 수 있음"
- EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "당신의 $learned_philosophers_house_power$ [powerful_family_attribute|E] 덕분에 이 선택지를 사용할 수 있음"
+ EVENT_WINDOW_OPTION_LEARNED_PHILOSOPHERS_ATTRIBUTE: "당신의 $learned_philosophers_house_aspiration$ [powerful_family_attribute|E] 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE_FOCUS: "당신의 [GetPlayer.GetFocus.GetName] 덕분에 이 선택지를 사용할 수 있음"
  EVENT_WINDOW_OPTION_AVAILABLE_LIFESTYLE: "당신의 [lifestyle|E] 덕분에 이 선택지를 사용할 수 있음"
  EVENT_OPTION_NO_LONGER_AVAILABLE: "@warning_icon! #X 더는 이용 불가함#!"
@@ -143,3 +143,36 @@
  TRAVEL_EVENT_WINDOW_CURRENT_LOCATION: "현재 위치:"
  TRAVEL_EVENT_WINDOW_NEXT_DESTINATION: "다음 목적지: ~[TravelPlanData.GetNextDestination.GetEstimatedArrivalDate.GetTimeToDate]"
  EVENT_CONTENT_SOURCE_TT: "이벤트 출처: [EventWindowData.GetContentSourceDlc.GetName|V]"
+ #tooltip with Shift shortcut
+ EVENT_TOOLTIP_SHORTCUT: "[EventOption.GetTooltip]$EVENT_SHORTCUT$"
+ EVENT_SHORTCUT: "#bold;low $select_event$#!"
+ #low looks better in event options, normal brightness attracts too much attention
+ #if the option is enabled and not dangerous and we haven't disabled shortcuts
+ #add two linebreaks to separate it from the main tooltip + shift + index
+ select_event: "[AddTextIf(And(And(EventOption.IsValid, Not(EventOption.HasFlag('dangerous'))), Not(IsGameSettingOptionSelected('show_event_shortcuts', 'nowhere'))), Concatenate('\n\n', Localize(Concatenate('event_option_', IntToString(Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1'))))))]"
+ #EVENT_SHORTCUT_NO_BREAK: "#bold;low $select_event_no_break$#!"
+ event_option_1: "$shift_key_plus$1"
+ event_option_2: "$shift_key_plus$2"
+ event_option_3: "$shift_key_plus$3"
+ event_option_4: "$shift_key_plus$4"
+ event_option_5: "$shift_key_plus$5"
+ event_option_6: "$shift_key_plus$6"
+ event_option_7: "$shift_key_plus$7"
+ event_option_8: "$shift_key_plus$8"
+ event_option_9: "$shift_key_plus$9"
+ event_option_10: "$shift_key_plus$0"
+ event_option_11: "$shift_key_plus$-"
+ event_option_12: "$shift_key_plus$="
+ event_option_13: "$shift_key_plus$BACKSPACE"
+ event_option_14: ""
+ #Alt+number to preview or select an option
+ CONFIRM_EVENT_OPTION: "#bold;low $preview_event$#!"
+ preview_event: "[Concatenate(Localize('alt_key_plus'), IntToString(Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1')))]"
+ #tooltip when hovering over the number
+ EVENT_NUMBER_TIP: "#I $select_event_no_break$[AddLocalizationIf(And(EventOption.IsValid, Not(EventOption.HasFlag('dangerous'))), 'select_this_option')]$preview_event$ 미리보기 및 확인\nAlt+E 모든 옵션 미리보기#!"
+ #shift+ without two linebreaks in front
+ select_event_no_break: "[AddTextIf(And(EventOption.IsValid, Not(EventOption.HasFlag('dangerous'))), Concatenate(Localize('shift_key_plus'), IntToString(Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1'))))]"
+ select_this_option: " 이 옵션 선택\n"
+ EVENT_NUMBER_TIP_SHORT: "#I $select_event_no_break$[AddLocalizationIf(And(EventOption.IsValid, Not(EventOption.HasFlag('dangerous'))), 'select_this_option')]"
+ alt_key_plus: "Alt+"
+ shift_key_plus: "Shift+"

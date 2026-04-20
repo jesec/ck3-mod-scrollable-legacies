@@ -1329,6 +1329,8 @@
  dynn_Ce: "Цэ"
  dynn_Cea: "Сеа"
  dynn_Ceanadach: "Канадах"
+ dynn_Ceanneidigh: "Кяннеди"
+ dynn_ceanneidigh_motto: "Предан доблести"
  dynn_Cearbhaill: "Карвалл"
  dynn_Ceardadh: "Кердай"
  dynn_Ceballos: "Себальос"
@@ -10674,6 +10676,10 @@
  dynn_freddi: "Фредди"
  dynn_collinder: "Коллиндер"
  dynn_tosunyan: "Тосунян"
+ dynn_skalitz: "Скалиц"
+ dynn_kobyla: "Кобыла"
+ dynn_skalitz_motto: "Я очень голоден"
+ dynn_kobyla_motto: "Жизнь —это один длинный ряд испытаний, которые нужно решить. Чем больше ты решаешь, тем лучшим становишься человеком."
  #TGP
  dynn_Tang: "Тан"
  dynn_Kediri: "Кедири"
@@ -11275,6 +11281,7 @@
  dynn_Takezaki: "Такэдзаки" #竹崎
  dynn_Tamura: "Тамура" #田村
  dynn_Tana_JP: "Тана" #多名
+ dynn_Tanba: "Тамба" #丹波
  dynn_Tanaka: "Танака" #田中
  dynn_Tashiro: "Тасиро" #田代
  dynn_Tatara: "Татара" #多々良
@@ -11773,103 +11780,213 @@
  dynn_An_694A: "Ан" #楊 (안)
  dynn_Bae_88F5: "Пэ" #裵 (배)
  dynn_Baek_767D: "Пэк" #白 (백)
+ dynn_Baek_Balhae: "Ынджу $dynn_Baek_767D$"
+ dynn_Baek_Daeheung: "Тэхын $dynn_Baek_767D$" #大興白 (대흥백)
+ dynn_Baek_Jiksan: "Чиксан $dynn_Baek_767D$" #稷山白 (직산백)
  dynn_Bak_6734: "Пак" #朴 (박) - aka Park
+ dynn_Bak_Gyeongju: "Кёнджу $dynn_Bak_6734$"
+ dynn_Bak_Jukbang: "Чукпан $dynn_Bak_6734$"
+ dynn_Bak_Juksan: "Чуксан $dynn_Bak_6734$" #竹山朴 (죽산박)
+ dynn_Bak_Milyang: "Мильсон $dynn_Bak_6734$" #密城朴 (밀성박)
+ dynn_Bak_Pyeongjangsa: "Пхёнджанса $dynn_Bak_6734$"
+ dynn_Bak_Pyeongsan: "Пхёнсан $dynn_Bak_6734$" #平山朴 (평산박)
+ dynn_Bak_Seungju: "Сынджу $dynn_Bak_6734$" #順天朴 (순천박)
+ dynn_Bak_Ulleong: "Уллон $dynn_Bak_6734$"
  dynn_Bok_535C: "Пок" #卜 (복)
+ dynn_Bok_Myeoncheon: "Мёнчхон $dynn_Bok_535C$" #沔川卜 (면천복)
  dynn_Bu_BD80: "Пу" #부
  dynn_Buyeo: "Пуё" #夫餘 (부여)
  dynn_Chae_8521: "Чхэ" #蔡 (채)
+ dynn_Chae_Eumseong: "Ымсон $dynn_Chae_8521$" #陰城蔡 (음성채)
+ dynn_Chae_Pyeonggang: "Пхёнган $dynn_Chae_8521$" #平康蔡 (평강채)
  dynn_Cheok_62D3: "Чхок" #拓 (척)
+ dynn_Cheok_Goksan: "Кокчу $dynn_Cheok_62D3$" #谷山拓 (곡산척)
  dynn_Choe_5D14: "Чхве" #崔 (최)
+ dynn_Choe_Chungju: "Чхунджу $dynn_Choe_5D14$" #忠州崔 (충주최)
+ dynn_Choe_Dongju: "Тонджу $dynn_Choe_5D14$" #東州崔 (동주최)
+ dynn_Choe_Gyeongju: "Кёнджу $dynn_Choe_5D14$" #慶州崔 (경주최)
+ dynn_Choe_Haeju: "Хэджу $dynn_Choe_5D14$" #海州崔 (해주최)
+ dynn_Choe_Jiksan: "Чиксан $dynn_Choe_5D14$" #稷山崔 (직산최)
+ dynn_Choe_Suwon: "Суджу $dynn_Choe_5D14$" #水州崔 (수주최)
+ dynn_Choe_Ubong: "Убон $dynn_Choe_5D14$" #牛峰崔 (우봉최)
  dynn_Chong_8471: "Чхон" #葱 (총)
  dynn_Da_591A: "Та" #多 (다)
  dynn_Dae_5927: "Тэ" #大 (대)
+ dynn_Dae_Balhae: "Пархэ Тэ" #渤海大 (발해대)
  dynn_Dal_9054: "Таль" #達 (달)
  dynn_Dong_seong: "Тонсон"
+ dynn_Dong_seong_Balhae: "Хёндок Тонсон"
  dynn_Du_8C46: "Ту" #豆 (두)
+ dynn_Du_Dureung: "Турын $dynn_Du_675C_KO$" #杜陵杜 (두릉두)
+ dynn_Du_Pyeongju: "Пхёнджу $dynn_Du_8C46$"
  dynn_Du_675C_KO: "Ту" #杜 (두)
  dynn_Eok_rye: "Окрье"
  dynn_Eun_96B1: "Ын" #隱 (은)
  dynn_Gang_59DC: "Кан" #姜 (강)
  dynn_Gang_5EB7: "Кан" #康 (강)
- dynn_Geom_7434: "Ком" #琴 (검)
+ dynn_Gang_Geumcheon: "Кымчхон $dynn_Gang_59DC$" #衿川姜 (금천강)
+ dynn_Gang_Jinju: "Чинджу $dynn_Gang_59DC$" #晉州姜 (진주강)
+ dynn_Gang_Sincheon: "Синчхон $dynn_Gang_5EB7$" #信川康 (신천강)
+ dynn_Geom_7434: "Кым" #琴 (검) - actually Geum
+ dynn_Geom_Bonghwa: "Понхва $dynn_Geom_7434$" #奉化琴 (봉화금)
+ dynn_Geom_Nakrang: "Наннан $dynn_Geom_7434$"
  dynn_Gi_7B95: "Ки" #箕 (기)
+ dynn_Gi_Jikju: "Чикчу $dynn_Gi_7B95$"
  dynn_Gim_91D1: "Ким" #金 (김) - aka Gim, localised as Kim despite RR for clarity
+ dynn_Gim_Ansan: "Ансан $dynn_Gim_91D1$" #安山金 (안산김)
+ dynn_Gim_Dangak: "Танак $dynn_Gim_91D1$" #唐岳金 (당악김)
+ dynn_Gim_Eonyang: "Онъян $dynn_Gim_91D1$" #彦陽金 (언양김)
+ dynn_Gim_Gangneung: "Каннын $dynn_Gim_91D1$" #江陵金 (강릉김)
+ dynn_Gim_Gimhae: "Кимхэ $dynn_Gim_91D1$" #金海金 (김해김)
+ dynn_Gim_Gwangsan: "Квансан $dynn_Gim_91D1$" #光山金 (광산김)
+ dynn_Gim_Pungsang: "Пхунсан $dynn_Gim_91D1$" #豊山金 (풍산김)
+ dynn_Gim_Silla: "Кёнджу $dynn_Gim_91D1$"
+ dynn_Gim_Suncheon: "Сунчхон $dynn_Gim_91D1$"
+ dynn_Gim_Yeonan: "Ёнан $dynn_Gim_91D1$" #延安金 (연안김)
+ dynn_Gim_Yeongdong: "Ёндон $dynn_Gim_91D1$" #永同金 (영동김)
+ dynn_Gim_Yeonggwang: "Ёнгван $dynn_Gim_91D1$" #靈光金 (영광김)
+ dynn_Gim_Ulleong: "Уллон $dynn_Gim_91D1$"
  dynn_Go_53E4: "Ко" #古 (고)
  dynn_Go_9AD8: "Ко" #高 (고)
+ dynn_Go_Balhae: "Синъян $dynn_Go_9AD8$"
+ dynn_Go_Goguryeo: "Когурё $dynn_Go_9AD8$"
+ dynn_Go_Jeju: "Чеджу $dynn_Go_9AD8$" #濟州高 (제주고)
  dynn_Gong_516C: "Кон" #公 (공)
  dynn_Guk: "Кук" #國 (국)
  dynn_Gwak_90ED: "Квак" #郭 (곽)
+ dynn_Gwak_Cheongju: "Чхонджу $dynn_Gwak_90ED$"
  dynn_Gwi_sil: "Квисиль" #鬼室 (귀실)
  dynn_Gwon_6B0A: "Квон" #權 (권)
+ dynn_Gwon_Andong: "Андон $dynn_Gwon_6B0A$"
  dynn_Gyeon_7504: "Кён" #甄 (견)
+ dynn_Gyeon_Gaeunhyeon: "Санджу $dynn_Gyeon_7504$"
  dynn_Gyeong_6176: "Кён" #慶 (경)
+ dynn_Gyeong_Cheongju: "Чхонджу $dynn_Gyeong_6176$"
  dynn_Ha_590F: "Ха" #夏 (하)
  dynn_Ha_8CC0: "Ха" #賀 (하)
  dynn_Han_97D3_KO: "Хан" #韓 (한)
+ dynn_Han_Daeheung: "Тэхын $dynn_Han_97D3_KO$" #大興韓 (대흥한)
+ dynn_Han_Gaeseong: "Кэсон $dynn_Han_97D3_KO$"
+ dynn_Han_Giju: "Киджу $dynn_Han_97D3_KO$"
  dynn_Hae_89E3: "Хэ" #解 (해)
  dynn_Heo_8F09: "Хон" #許 (허)
+ dynn_Heo_Gongam: "Конам $dynn_Heo_8F09$" #孔巖許 (공암허)
  dynn_Heuk_chi: "Хыкчхи" #黑齒 (흑치)
  dynn_Hong_6D2A: "Хон" #洪 (홍)
+ dynn_Hong_Namyang: "Намъян $dynn_Hong_6D2A$" #南陽洪 (남양홍)
  dynn_Hwangbo: "Хванбо" #皇甫 (황보)
+ dynn_Hwangbo_Hwangju: "Хванджу $dynn_Hwangbo$" #黃州皇甫 (황주황보)
  dynn_I_5DF2: "И" #已 (이) - aka Lee/I, localised as Yi despite RR for clarity
  dynn_I_674E: "Иск" #李 (이) - aka Lee/I, localised as Yi despite RR for clarity
+ dynn_I_Cheongju: "Чхонджу $dynn_I_674E$" #旌善李 (정선이)
+ dynn_I_Gyeongwon: "Кёнвон $dynn_I_674E$" #仁川李 (인천이)
+ dynn_I_Jeongseon: "Чонсон $dynn_I_674E$" #旌善李 (정선이)
+ dynn_I_Jeonju: "Чонджу $dynn_I_674E$" #全州李 (전주이)
+ dynn_I_Gwangjeong: "Кванджон $dynn_I_674E$"
+ dynn_I_Gwangsan: "Квансан $dynn_I_674E$"
+ dynn_I_Soeong: "Кэсон $dynn_I_674E$"
+ dynn_I_Suju: "Суджу $dynn_I_674E$" #樹州李 (수주이)
  dynn_Il_58F9: "Иль" #壹 (일)
- dynn_Ho_seung_864E_50E7: "Хосын" #(虎僧)
+ dynn_Ho_seung_864E_50E7: "Хосын" #虎僧
  dynn_Im_4EFB: "Им" #任 (임)
+ dynn_Im_Jangheung: "Чанхын $dynn_Im_4EFB$" #長興任 (장흥임)
  dynn_Jae_C7AC: "Чэ" #재
  dynn_Jang_5F35: "Чан" #張 (장)
+ dynn_Jang_Andong: "Андон $dynn_Jang_5F35$" #安東張 (안동장)
  dynn_Jeo: "Чо"
  dynn_Jeok: "Чок" #(적)
  dynn_Jeol_C815: "Чон" #정
  dynn_Jeong_912D: "Чон" #鄭 (정)
+ dynn_Jeong_Cheongju: "Чхонджу $dynn_Jeong_912D$" #淸州鄭 (청주정)
+ dynn_Jeong_Dongrae: "Тоннэ $dynn_Jeong_912D$" #東萊鄭 (동래정)
+ dynn_Jeong_Haeju: "Хэджу $dynn_Jeong_912D$" #海州鄭 (해주정)
  dynn_Ji_667A: "Чи" #智 (지)
  dynn_Jin_C9C4: "Чин" #진
  dynn_Jo_8D99: "Чо" #趙 (조)
+ dynn_Jo_Hanyang: "Ханъян $dynn_Jo_8D99$" #漢陽趙 (한양조)
+ dynn_Jo_Hoengcheon: "Хвенчхон $dynn_Jo_8D99$"
+ dynn_Jo_Wonju: "Вонджу $dynn_Jo_8D99$" #橫城趙 (횡성조)
  dynn_Ju_5468: "Чу" #周 (주)
  dynn_Ju_6731: "Чу" #朱 (주)
  dynn_Ma_99AC_KO: "Ма" #馬 (마) (Mǎ)
  dynn_Min_9594: "Мин" #閔 (민)
+ dynn_Min_Hwangryeo: "Хванрё $dynn_Min_9594$" #驪興閔 (여흥민)
  dynn_Mo_5192: "Мо" #冒 (모)
  dynn_Mo_6155: "Мо" #慕 (모)
  dynn_Mok_6728: "Мок" #木 (목)
+ dynn_Mok_Balhae: "Тонджу Мок"
  dynn_Mun_6587: "Мун" #文 (문)
  dynn_Mun_9580: "Мун" #門 (문)
+ dynn_Mun_Balhae: "Квидокчу $dynn_Mun_6587$"
+ dynn_Mun_Gangneung: "Каннын $dynn_Mun_6587$" #江陵文 (강릉문)
+ dynn_Mun_Nampyeong: "Нампхён $dynn_Mun_6587$" #南平文 (남평문)
  dynn_Myeong_660E: "Мён" #明 (명)
+ dynn_Myeong_Gangseo: "Самхва Мён"
  dynn_Myo_536F: "Мё" #卯 (묘)
  dynn_Nan: "Нан"
+ dynn_Nan_Balhae: "Чхопчу $dynn_Nan$"
  dynn_O_5433: "О" #吳 (오) - aka O, localised as Oh despite RR for clarity
  dynn_O_70CF: "О" #烏 (오) - aka O, localised as Oh despite RR for clarity
+ dynn_O_Balhae: "Пуё $dynn_O_70CF$"
+ dynn_O_Gochang: "Кочхан $dynn_O_5433$" #高敞吳 (고창오)
+ dynn_O_Naju: "Наджу $dynn_O_5433$" #羅州吳 (나주오)
  dynn_Pung_99AE: "Пхун" #馮 (풍)
  dynn_Pyeong_5E73: "Пхён" #平 (평)
+ dynn_Pyeong_Chungju: "Чхунджу $dynn_Pyeong_5E73$" #忠州平 (충주평)
  dynn_Ra_7F85: "Ра" #羅 (라)
  dynn_Rim_6797: "Рим" #林 (림)
  dynn_Ryu_67F3: "Рю" #柳 (류)
+ dynn_Ryu_Jeongju: "Чонджу Рю" #貞州柳 (정주류)
+ dynn_Ryu_Yeomju: "Ёмджу Рю" #鹽州柳 (염주류)
  dynn_Ryul_807F: "Рюль" #聿 (률)
  dynn_Sa_53F2: "Са" #史 (사)
  dynn_Seo_5F90: "Со" #徐 (서)
  dynn_Seo_80E5: "Со" #胥 (서)
+ dynn_Seo_Icheon: "Ёнчхан $dynn_Seo_80E5$" #利川徐 (이천서)
  dynn_Seok_C11D: "Сок" #석
  dynn_Seop_651D: "Соп" #攝 (섭)
+ dynn_Seop_Balhae: "Хваджу Соп"
  dynn_Sin_7533: "Син" #申 (신)
  dynn_Sin_8F9B: "Син" #辛 (신)
+ dynn_Sin_Pyeongsan: "Пхёнсан $dynn_Sin_7533$" #平山申 (평산신)
  dynn_So_8607: "Со" #蘇 (소)
  dynn_Song_5B8B_KO: "Сон" #宋 (송)
+ dynn_Song_Ulju: "Ульджу $dynn_Song_5B8B_KO$"
  dynn_Su_53D7: "Су" #受 (수)
  dynn_Tae_592A: "Тхэ" #太 (태)
  dynn_Tak_5353: "Тхак" #卓 (탁)
+ dynn_Tak_Gwangsan: "Квансан $dynn_Tak_5353$" #光山卓 (광산탁)
  dynn_U_4E8E: "Ву" #于 (우) - aka U, localised as Wu despite RR for clarity
+ dynn_U_Mokcheon: "Мокчхон $dynn_U_4E8E$"
  dynn_Wi_885B: "Ви" #衛 (위)
+ dynn_Wi_Balhae: "Чанджон $dynn_Wi_885B$"
  dynn_Yang_6881: "Ян" #梁 (양)
  dynn_Yang_694A_KO: "Ян" #楊 (양)
+ dynn_Yang_Anak: "Анак $dynn_Yang_694A_KO$"
+ dynn_Yang_Balhae: "Согён $dynn_Yang_6881$"
+ dynn_Yang_Wonju: "Вонджу $dynn_Yang_6881$"
+ dynn_Ye_Balhae: "Чинджу Йе"
  dynn_Yeo_5442: "Ё" #呂 (여)
  dynn_Yeo_8339: "Ё" #茹 (여)
  dynn_Yeol_5217: "Ёль" #列 (열)
+ dynn_Yeol_Balhae: "Намгён $dynn_Yeol_5217$"
  dynn_Yeom_5EC9: "Ём" #廉 (염)
+ dynn_Yeom_Paju: "Пхапхён $dynn_Yeom_5EC9$"
  dynn_Yeon_6DF5: "Ён" #淵 (연)
+ dynn_Yeon_Balhae: "Чанрён Ён"
+ dynn_Yeon_Goguryeo: "Когурё Ён" #淵 (연)
  dynn_Yu_5289: "Ю" #劉 (유)
  dynn_Yu_5EBE: "Ю" #庾 (유)
+ dynn_Yu_Chungju: "Чхунджу $dynn_Yu_5289$" #忠州劉 (충주유)
+ dynn_Yu_Goryeo: "Кэсон $dynn_Yu_5EBE$"
+ dynn_Yu_Pyeongsan: "Пхёнсан $dynn_Yu_5EBE$" #平山庾 (평산유)
  dynn_Yun_5C39: "Юн" #尹 (윤)
+ dynn_Yun_Papyeong: "Пхапхён $dynn_Yun_5C39$" #坡平尹 (파평윤)
  dynn_Wang_738B_KO: "Ван" #王 (왕)
+ dynn_Wang_Haeju: "Хэджу $dynn_Wang_738B_KO$" #海州王 (해주왕)
+ dynn_Wang_Gangneung: "Каннын $dynn_Wang_738B_KO$" #江陵王 (강릉왕)
+ dynn_Wang_Goryeo: "Кэсон $dynn_Wang_738B_KO$" #開城王 (개성왕)
+ dynn_Wang_Seohae: "Сохэ $dynn_Wang_738B_KO$" #西海王 (서해왕)
  dynn_Lao: "Лао"
  dynn_lu: "Люй"
  dynn_yuan: "Юань"
@@ -12045,6 +12162,7 @@
  dynn_Utthada: "Уттхада"
  dynn_Thadon: "Тхадон"
  dynn_Sittha: "Ситтха"
+ dynn_Nga_8036: "Нга" #耶
  #Tai
  dynn_Nenphon: "Ненпхон"
  dynn_Phuchaikat: "Пхучайкат"

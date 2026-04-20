@@ -41,7 +41,7 @@
  DOMICILE_RESOURCE_HERD_BALANCE: "[Domicile.GetHerdResource|=0]"
  domicile_adventurer: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
  domicile_estate: "[CHARACTER.GetHouse.GetNameNoTooltip] 장원"
- DOMICILE_HERD_TITLE: "[herd|E]: [Domicile.GetHerd|V0]/[Domicile.GetHerdLimit]"
+ DOMICILE_HERD_TITLE: "[herd|E]: [Domicile.GetHerd|V0]/[Domicile.GetHerdLimit|0]"
  DOMICILE_HERD_MONTHLY_CHANGE: "매달 변화치"
  DOMICILE_HERD_BREAKDOWN_GAIN: "유목 집단 획득"
  DOMICILE_HERD_BREAKDOWN_LOSS: "유목 집단 상실"

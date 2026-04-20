@@ -51,8 +51,8 @@
  buddhism_religious_text: "仏語"
  buddhism_religious_text_2: "$buddhism_religious_text$" #Optional translation alt
  buddhism_religious_text_3: "$buddhism_religious_text$" #Optional translation alt
- buddhism_religious_head_title: "ラマ"
- buddhism_religious_head_title_name: "化身ラマ"
+ buddhism_religious_head_title: "スタヴィラ"
+ buddhism_religious_head_title_name: "サンガ"
  buddhism_devotee_male: "比丘"
  buddhism_devotee_male_plural: "比丘"
  buddhism_devotee_female: "比丘尼"
@@ -196,6 +196,8 @@
  maitreya_adherent: "弥勒教徒"
  maitreya_adherent_plural: "弥勒教徒"
  maitreya_desc: "釈迦牟尼仏の時代は終わり、弥勒菩薩がこの世に降臨した。あるいは、弥勒菩薩を予言された救世主として崇め、受け入れる人々はそう信じている。古い秩序を破壊することによってのみ、世界は救われる。"
+ maitreya_religious_head_title: "教主" #教主
+ maitreya_religious_head_title_name: "宗教団体"
  acharya: "アーチャーリヤ"
  acharya_adj: "アーチャーリヤ"
  acharya_adherent: "アーチャーリヤ信者"

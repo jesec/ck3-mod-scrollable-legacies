@@ -2156,7 +2156,7 @@
  rival_tried_to_have_me_disinherited: "[CHARACTER.GetShortUINameNotMe] odkrywa, że osoba znana jako [TARGET_CHARACTER.GetShortUINameNotMe] próbowała [CHARACTER.Custom('PL_go_ja')] wydziedziczyć lub nawet zabić."
  rival_tried_to_have_me_disinherited_corresponding: "[TARGET_CHARACTER.GetShortUINameNotMe] odkrywa, że osoba znana jako [CHARACTER.GetShortUINameNotMe] próbowała [CHARACTER.Custom('PL_go_ja')] wydziedziczyć lub nawet zabić."
  rival_conquered_me: "Osoba, którą jest [CHARACTER.GetShortUINameNotMe], podbiła państwo osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]."
- rival_conquered_me_corresponding: "Państwo, którym rządzi [TARGET_CHARACTER.GetShortUINameNotMe], zostało podbite przez osobę znaną jako [CHARACTER.GetShortUINameNotMe]."
+ rival_conquered_me_corresponding: "Państwo, którym rządzi [CHARACTER.GetShortUINameNotMe], zostało podbite przez osobę znaną jako [TARGET_CHARACTER.GetShortUINameNotMe]."
  friend_opened_up: "[CHARACTER.GetShortUINameNotMe] otwiera się przed osobą znaną jako [TARGET_CHARACTER.GetShortUINameNotMe] i opowiada jej o swoich najskrytszych problemach."
  friend_opened_up_corresponding: "[TARGET_CHARACTER.GetShortUINameNotMe] wysłuchuje opowieści osoby znanej jako [CHARACTER.GetShortUINameNotMe] o jej najskrytszych problemach."
  bp3_progress_towards_rival_stole_loot: "[TARGET_CHARACTER.GetShortUINameNotMe] kradnie bezprawnie zagarnięte dobra osobie znanej jako [CHARACTER.GetShortUINameNotMe]."
@@ -2329,3 +2329,4 @@
  friend_courtiers_bonded_on_festival: "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] nawiązują więź podczas festiwalu"
  lover_courtiers_bonded_on_festival: "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] przeżywają razem namiętną noc podczas festiwalu"
  rival_courtiers_friction_on_festival: "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] stają się zaprzysiężonymi wrogami podczas festiwalu"
+ friend_supported_child: "[CHARACTER.GetShortUINameNotMeNoTooltip] wspiera osobę znaną jako [TARGET_CHARACTER.GetShortUINameNotMe] podczas ćwiczeń z łucznictwa."

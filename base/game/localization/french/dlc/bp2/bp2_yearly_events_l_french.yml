@@ -1,7 +1,7 @@
 ﻿l_french:
  #Pet Rock events
  pet_rock.0001.t: "Des pierres sur le chemin"
- pet_rock.0001.desc: "#EMP Pouc !#!\n\nMe promenant à l’extérieur, ma chaussure heurte un petit caillou. Le caillou s’entrechoque brillamment avec quelques-uns de ses congénères et s’immobilise à une courte distance de moi. Dans un élan de curiosité, je le ramasse. Son extérieur escarpé [ROOT.Char.Custom('RockColor')] me semble étrangement chaud.\n\nSoudain, je sais exactement ce qu’il veut. La pierre projette une aura amicale. Lorsque je la regarde, nichée dans la paume de ma main, son poids me rassure et m’exalte à la fois."
+ pet_rock.0001.desc: "#EMP Pouc !#!\n\nMe promenant à l’extérieur, ma chaussure heurte un petit caillou. Le caillou s’entrechoque brillamment avec quelques-uns de ses congénères et s’immobilise à une courte distance de moi. Dans un élan de curiosité, je le ramasse. Son extérieur escarpé me semble étrangement chaud.\n\nSoudain, je sais exactement ce qu’il veut. La pierre projette une aura amicale. Lorsque je la regarde, nichée dans la paume de ma main, son poids me rassure et m’exalte à la fois."
  pet_rock.0001.a: "Nous serons les meilleurs amis du monde !"
  pet_rock.0001.a.tt: "Vos aventures communes commencent !"
  pet_rock.0001.b: "Mon esprit s’égare."

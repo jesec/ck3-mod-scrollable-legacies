@@ -757,6 +757,7 @@ c_berry = {
 	}
 	1176.1.1 = {
 		holder = deols_1 # Denise de Deols
+		liege = k_england
 	}
 }
 

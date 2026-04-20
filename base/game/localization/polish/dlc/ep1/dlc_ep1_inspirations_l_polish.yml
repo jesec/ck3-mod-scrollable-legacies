@@ -1,5 +1,6 @@
 ﻿l_polish:
  sponsor_inspiration_debug: "Ufunduj inspirację"
+ complete_inspiration_debug: "Ukończ inspirację"
  I_CAN_SPONSOR_OWN_INSPIRATION: "Mogę ufundować własną inspirację"
  NOT_I_CAN_SPONSOR_OWN_INSPIRATION: "#bold Nie#! mogę ufundować własnej inspiracji"
  THEY_CAN_SPONSOR_OWN_INSPIRATION: "[CHARACTER.GetUINameNotMe] może ufundować własną inspirację"

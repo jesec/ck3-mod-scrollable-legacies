@@ -980,22 +980,7 @@ types SituationTypes
 					align = nobaseline
 				}
 
-				icon = {
-					name = "icon_soldier"
-					texture = "gfx/interface/icons/icon_soldier.dds"
-					size = { 23 23 }
-				}
-
-				text_single = {
-					text = "[ArmyComposition.GetSoldierCountString]"
-					align = nobaseline
-				}
-
-				army_quality_icon = {
-					tooltip_visible = no
-				}
-
-				tooltip = "[ArmyComposition.GetArmyCompositionTooltip]"
+				using = VisibleArmyComposition
 			}
 		}
 		expand = {}

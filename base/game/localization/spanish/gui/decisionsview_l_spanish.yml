@@ -25,6 +25,7 @@
  LEAVE_COUNCIL_CONFIRMATION: "No se recibirán más los beneficios de ser [CHARACTER.GetCouncilTitle|l] del [council|lE] de [CHARACTER.GetLiege.GetUIName]."
  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "Abandonar"
  decision_tab_great_projects: "Proyectos"
+ GREAT_PROJECTS_TAB: "Grandes proyectos"
  AVAILABLE_DECISIONS_VIEW_PROJECTS: "[great_projects|E] disponibles"
  DECISIONS_VIEW_EMPTY_PROJECTS: "Sin [great_projects|lE] disponibles"
  DECISIONS_VIEW_PLANNED_PROJECTS: "[great_projects|E] planificados"

@@ -200,8 +200,7 @@
  cultural_festival.2110.e: "我必须留在原地。"
  cultural_festival_2110_d_tt: "你踢了狗一脚"
  cultural_festival_2110_d_opinion_tt: "所有非冷酷和虐待狂的出席角色"
- available_because_intent_tt: "#EMP #low 此选项可用，因为你的[THIS.Char.GetInvolvedActivityIntent.GetName]意图#!#!"
- event_triggered_because_intent_tt: "#EMP #low 此选项可用，因为你的[THIS.Char.GetInvolvedActivityIntent.GetName]意图#!#!"
+ available_because_intent_tt: "#EMP #low 此选项可用，因为你的[THIS.Char.GetInvolvedActivityIntent.GetName|V][intent|E]#!#!"
  #Tour Cultural Festival Events - Bilateral
  cultural_festival.3000.t: "盛大演出"
  cultural_festival.3000.desc: "我的领主[visiting_liege.GetTitledFirstName]的来访给了我一个绝佳的机会。我肯定能利用这次命中注定的相逢来赢得[visiting_liege.GetHerHis]的支持，或许能更轻松地得到我想要的东西……\n\n也许我可以组织一场演出来描绘[visiting_liege.GetHerHis]的伟大事迹？ "

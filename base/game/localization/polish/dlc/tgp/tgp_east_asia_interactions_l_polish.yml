@@ -31,7 +31,7 @@
  tributary_mandala_common_desc: "W zamian [suzerain|El] będzie bronić trybutariusza w razie ataku ze strony obcych najeźdźców."
  tributary_wanua: "Trybutariusz wanua"
  tributary_wanua_desc: "[tributary|E] [wanua|El] regularnie zapewnia swojemu [Concept('suzerain', 'suzerenowi')|E] [gold|El], [prestige|El], a nawet [barter_goods|El]. [tributary_contract|E] dziedziczony jest podczas sukcesji."
- wasted_our_efforts: "Zmarnowane wysiłki"
+ wasted_our_efforts: "Zmarnowano nasze wysiłki"
  tgp_mandala_send_missionary_interaction: "Wyślij misjonarza"
  tgp_mandala_send_missionary_interaction_desc: "Na dwór postaci znanej jako [recipient.GetShortUINameNotMe] przybywa z twojego państwa oddany misjonarz, który może nawrócić [Concept('tributary', 'trybutariusza')|E] na twoją [Concept('faith', 'wiarę')|E] lub zapewnić ci wzrost [Concept('piety', 'pobożności')|E] dzięki układom na dworze trybutariusza"
  tgp_mandala_send_missionary_interaction_tt: "Na dworze postaci znanej jako [recipient.GetName] pojawi się misjonarz. Wyznawana przez niego wiara to [actor.GetFaith.GetName|l] i reprezentuje on kulturę, którą jest kultura [actor.GetCulture.GetNameNoTooltip|l]"

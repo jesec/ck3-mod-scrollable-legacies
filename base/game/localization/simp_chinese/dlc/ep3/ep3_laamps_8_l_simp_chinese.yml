@@ -167,7 +167,7 @@
  ep3_laamps.8105.a.desc: "你会要求更多备战时间。"
  ep3_laamps.8105.a.success: "你有8年时间宣称[claimed_title.GetName]"
  ep3_laamps.8105.a.failure: "你有4年时间宣称[claimed_title.GetName]"
- ep3_laamps.8105.b: "为了[claimed_title.GetName]的未来！"
+ ep3_laamps.8105.b: "为了[claimed_title.GetNameNoTooltip]的未来！"
  ep3_laamps.8105.b.desc: "你同意这些条款。$ep3_laamps.8105.a.failure$"
  ep3_laamps.8105.c: "这就是在浪费时间。"
  ep3_laamps.8105.c.desc: "@warning_icon!#color_red 你中止了谈判。#![petitioned_ruler.GetName]不会支持你，而且肯定会看轻你。"

@@ -60,5 +60,5 @@
  is_mandala_government: "[mandalas|E]倾向于成为[tributaries|E]：$VALUE|=+0$"
  is_disbelieved_mandala: "你拥有[GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]：$VALUE|=+0$"
  base_with_value: "基础：$VALUE|=+0$"
- has_aspect_of_serenity: "$aspect_of_serenity_house_power$：$VALUE|=+0$"
+ has_aspect_of_serenity: "$aspect_of_serenity_house_aspiration$：$VALUE|=+0$"
  mandala_ai_godking_modifier: "是志向高远的提婆罗阇：$VALUE|=+0$"

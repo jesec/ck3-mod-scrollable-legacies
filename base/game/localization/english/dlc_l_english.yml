@@ -45,6 +45,8 @@
  DLC025_CP7: "North Pacific Attire"
  DLC026_CP8: "East Asian Wonders"
  DLC027_CP9: "Celestial Court Attire"
+ DLC028_SP5: "Symbols of Authority"
+ DLC029_MP1: "Songs of the Realm"
 
  dlc_001:0 "$DLC001_PREORDER$"
  dlc_001_desc:0 "Immerse yourself in the Holy Roman Empire with a collection of outfits for both commoners, warriors and rulers of Central Europe."
@@ -100,3 +102,7 @@
  dlc_026_desc: "Enhance the world map with monumental buildings and sacred sites inspired by the architectural wonders of East Asia."
  dlc_027: "$DLC027_CP9$"
  dlc_027_desc: "Adorn your rulers with refined garments and ceremonial dress inspired by the splendor of imperial courts."
+ dlc_028: "$DLC028_SP5$"
+ dlc_028_desc: "Symbols of Authority includes seven new hairstyles and royal headwear, inspired by historical models, to accentuate the majesty of your characters."
+ dlc_029: "$DLC029_MP1$"
+ dlc_029_desc: "Songs of the Realm has 13 tracks to accompany your rule, from peaceful courtly melodies to rousing battle themes. Remastered Crusader Kings classics play alongside new arrangements of European folk dances, this Music Pack is the perfect soundtrack for your dynastic ambition."

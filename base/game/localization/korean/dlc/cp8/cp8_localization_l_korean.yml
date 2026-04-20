@@ -52,7 +52,7 @@
  #Yuelu Academy
  building_type_yuelu_academy_01: "$building_yuelu_academy_01$"
  building_type_yuelu_academy_01_desc: "$building_yuelu_academy_01_desc$"
- building_yuelu_academy_01: "악록 서원"
+ building_yuelu_academy_01: "악록서원"
  building_yuelu_academy_01_desc: "악록서원은 중국에서도 손꼽히는 명망 높은 학문 기관 가운데 하나로, 오랫동안 학문 연구와 과거 시험의 중심지 역할을 해 왔습니다. 서원의 배치는 중심 중정을 축으로 삼고 있으며, 그 주변으로 여러 부속 강당과 정자가 균형 잡힌 대칭을 이루며 뻗어 있습니다. 여러 세대에 걸쳐 수많은 학자가 이곳에서 관직 진출을 준비하곤 했습니다."
  #Chocolate Hills #NOTE: today are called "Chocolate" Hills, but of course chocolate didn't exist in the Philippines back then. This is a random name I thought out, but it is not based on native names (none of which seem to have survived from then)
  building_type_chocolate_hills_01: "$building_chocolate_hills_01$"
@@ -84,7 +84,7 @@
  building_type_gunung_api_01_desc: "$building_gunung_api_01_desc$"
  building_gunung_api_01: "구눙 아피"
  building_gunung_api_01_desc: "밀림의 야생 속에서 솟아오른 이 산은 지역 주민들이 신성하게 여기는 장소입니다. 습기와 안개가 감도는 가운데, 헤아릴 수 없는 세월 동안 물이 깎아 만들어 낸 인상적인 석회암 첨봉과 깊은 동굴들이 산비탈 곳곳에서 존재감을 드러냅니다."
- #Suwalesi Megaliths
+ #Sulawesi Megaliths
  building_type_suwalesi_megaliths_01: "$building_suwalesi_megaliths_01$"
  building_type_suwalesi_megaliths_01_desc: "$building_suwalesi_megaliths_01_desc$"
  building_suwalesi_megaliths_01: "술라웨시 거석"

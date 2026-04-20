@@ -708,11 +708,7 @@
 	name = "dynn_Menezes"
 	culture = "castilian"
 }
-401 = {
-	prefix = "dynnp_de"
-	name = "dynn_las_Asturias"
-	culture = "castilian"
-}
+
 #424 = { # moved to house_loon / Reginar
 #	prefix = "dynnp_van"
 #	name = "dynn_Loon"
@@ -6603,11 +6599,6 @@ bhanja_baudh_dynasty = {
 	name = "dynn_Psova"
 	culture = "czech"
 }
-272 = {
-	prefix = "dynnp_de"
-	name = "dynn_BraganC_a"
-	culture = "portuguese"
-}
 #277 = {
 #	prefix = "dynnp_de"
 #	name = "dynn_Navarra"
@@ -6651,11 +6642,7 @@ bhanja_baudh_dynasty = {
 	name = "dynn_Swanneshals"
 	culture = "anglo_saxon"
 }
-364 = {
-	prefix = "dynnp_de"
-	name = "dynn_Clare"
-	culture = "norman"
-}
+
 370 = {
 	name = "dynn_Dunbar"
 	culture = "scottish"
@@ -6674,11 +6661,6 @@ bhanja_baudh_dynasty = {
 	prefix = "dynnp_de"
 	name = "dynn_Vasconia"
 	culture = "basque"
-}
-392 = {
-	prefix = "dynnp_de"
-	name = "dynn_RocabertI_"
-	culture = "catalan"
 }
 402 = {
 	prefix = "dynnp_de"
@@ -7287,11 +7269,6 @@ bhanja_baudh_dynasty = {
 735 = {
 	prefix = "dynnp_de"
 	name = "dynn_Vergy"
-	culture = "french"
-}
-736 = {
-	prefix = "dynnp_de"
-	name = "dynn_Chalon"
 	culture = "french"
 }
 #741 = { # moved to house_bourgogne
@@ -11983,11 +11960,6 @@ easteregg_de_belfort = {
 1029144 = {
 	name = "dynn_VepsA_"
 	culture = "vepsian"
-}
-9571 = {
-	prefix = "dynnp_d_"
-	name = "dynn_Auvergne"
-	culture = "occitan"
 }
 9572 = {
 	prefix = "dynnp_de"

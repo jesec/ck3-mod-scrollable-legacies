@@ -26,6 +26,9 @@ k_zhetysu = {
 	#960 Karakhanids convert to Islam
 	#Conversion to Islam probably started before, but this year is reported as seeing mass conversions in the hundred of thousands
 	970.1.1 = {
+		holder = extra_karakhanids_10	# Hasan Bughra
+	}
+	992.8.1 = {
 		holder = 3000	#Ali Arslan Khan
 	}
 	998.1.1 = {
@@ -34,45 +37,54 @@ k_zhetysu = {
 	1017.1.1 = {
 		holder = 3004	#Mansur Arslan
 	}
-	1020.1.1 = {
-		holder = 3010	#Ali Tigin Bughra Khan, son of Mansur Arslan
+	1024.1.1 = {
+		holder = extra_karakhanids_15 # Muhammad Toghan, son of Mansur Arslan
 	}
-	1034.1.1 = {
-		holder = 144102 # Ebu Shuca
+	1026.1.1 = {
+		holder = 3008	# Yusuf Qadir
+	}
+	1033.1.1 = {
+		holder = 144102 # Sulayman II AKA Ebu Shuca
 	}
 	
 	#Split of Karakhanid khanate
 	#Western Karakhanid set to k_transoxiana, eastern Karakhanid set to k_zhetysu
-	1042.1.2 = {
-		holder = 144102 # Sulayman II AKA Ebu Shuca
-	}
 	1056.1.1 = {
-		holder = 144103	#Muhammad
+		holder = 144103	# Muhammad II
 	}
 	1057.1.1 = {
-		holder = 144104	#Ibrahim
+		holder = 144104	# Ibrahim I
 	}
 	1059.1.1 = {
-		holder = 144107 # Ebu Ali el-Hasan
+		holder = 144107 # Madmud Togrul
+	}
+	1074.1.1 = {
+		holder = 144106 # Umar
+	}
+	1075.1.1 = {
+		holder = extra_karakhanids_20 # Hasan II Bughra
+	}
+	1102.1.1 = {
+		holder = 144114 # Ahmad II
+	}
+	1128.1.1 = {
+		holder = 144115 # Ibrahim II
 	}
 	
 	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate
-	1158.1.1 = {
-		holder = 188855 # Muhammad
-		liege = e_kara_khitai
+	1137.1.1 = {
+		government = steppe_admin_government
+		holder = 188905	#Yelü Dashi = Emperor Dezong
+		de_jure_liege = e_kara_khitai
+	}
+	1143.1.1 = {
+		holder = 188907	#Yelü-Yilie = Emperor Renzong
+	}
+	1164.1.1 = {
+		holder = 188908	#Yelü Pusuwan = Regent Empress Chengtian
 	}
 	1178.1.1 = {
 		holder = 188912	#Yelü Zhilugu
-		de_jure_liege = e_kara_khitai
-	}
-	1188.1.1 = {
-		holder = 188856 # Yusuf
-	}
-	1205.1.1 = {
-		holder = 188857 # Muhammad
-	}
-	1211.1.1 = {
-		holder = 188914 # Kuchlug
 	}
 	
 	#mongols
@@ -171,49 +183,54 @@ d_zhetysu = {
 		holder = 3002
 	}
 	1017.1.1 = {
-		holder = 3004
+		holder = 3004 # Mansur Arslan
 	}
 	1024.1.1 = {
-		holder = 3010
+		holder = 3010 # Ali Tigin
 	}
-	1034.1.1 = {
-		holder = 144102 # Ebu Shuca
+	1033.1.1 = {
+		holder = 144102 # Sulayman II AKA Ebu Shuca
 	}
 	
-	#1042 Karakhanid split
-	#Eastern karakhanid = k_zhetysu
+	#Split of Karakhanid khanate
+	#Western Karakhanid set to k_transoxiana, eastern Karakhanid set to k_zhetysu
 	1056.1.1 = {
-		holder = 144103
+		holder = 144103	# Muhammad II
 	}
 	1057.1.1 = {
-		holder = 144104
+		holder = 144104	# Ibrahim I
 	}
 	1059.1.1 = {
-		holder = 144107 # Ebu Ali el-Hasan
+		holder = 144107 # Madmud Togrul
+	}
+	1074.1.1 = {
+		holder = 144106 # Umar
+	}
+	1075.1.1 = {
+		holder = extra_karakhanids_20 # Hasan II Bughra
 	}
 	1102.1.1 = {
-		holder = 144114 # Ahmad
+		holder = 144114 # Ahmad II
 	}
 	1128.1.1 = {
-		holder = 144115 # Ibrahim
+		holder = 144115 # Ibrahim II
 	}
 	
-	#1137 Kara khitai
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 0
+		liege = 0
+		#holder = 188855 # Muhammad III
 	}
-	1178.1.1 = {
-		holder = 188912	#Yelü Zhilugu
-	}
-	1188.1.1 = {
-		holder = 188856 # Yusuf
-	}
-	1205.1.1 = {
-		holder = 188857 # Muhammad
-	}
-	1211.1.1 = {
-		holder = 188914 # Kuchlug
-	}
+	#1188.1.1 = {
+	#	holder = 188856 # Yusuf II
+	#}
+	#1205.1.1 = {
+	#	holder = 188857 # Muhammad IV
+	#}
+	#1211.1.1 = {
+	#	holder = 188914 # Kuchlug
+	#}
 	
 	#Mongols
 	1218.1.1 = {
@@ -343,10 +360,11 @@ c_qayaliq = {
 		holder = 188846
 	}
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
-		holder = 188912	#Yelü Zhilugu
+		government = nomad_government
+		holder = fictional_karluks_21
 	}
 }
 
@@ -410,10 +428,12 @@ c_almaty = {
 		holder = 188846
 	}
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
-		holder = 188912	#Yelü Zhilugu
+		holder = fictional_karluks_10
+		government = nomad_government
+		liege = e_kara_khitai
 	}
 }
 
@@ -460,33 +480,44 @@ c_kopathal = {
 	1024.1.1 = {
 		holder = 3010
 	}
-	1034.1.1 = {
-		holder = 144102 # Ebu Shuca
+	1033.1.1 = {
+		holder = 144102 # Sulayman II AKA Ebu Shuca
 	}
+	
+	#Split of Karakhanid khanate
+	#Western Karakhanid set to k_transoxiana, eastern Karakhanid set to k_zhetysu
 	1056.1.1 = {
-		holder = 144103
+		holder = 144103	# Muhammad II
 	}
 	1057.1.1 = {
-		holder = 144104
+		holder = 144104	# Ibrahim I
 	}
 	1059.1.1 = {
-		holder = 144107 # Ebu Ali el-Hasan
+		holder = 144107 # Madmud Togrul
 	}
-	1065.1.1 = {
-		holder = 144114 # Ahmad
+	1074.1.1 = {
+		holder = 144106 # Umar
+	}
+	1075.1.1 = {
+		holder = extra_karakhanids_20 # Hasan II Bughra
+	}
+	1102.1.1 = {
+		holder = 144114 # Ahmad II
 	}
 	1128.1.1 = {
-		holder = 144115 # Ibrahim
+		holder = 144115 # Ibrahim II
 	}
+	
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
-		holder = 188856 # Yusuf
-		liege = k_khotan
+		holder = 188856 # Yusuf II
+		liege = e_kara_khitai
 	}
 	1205.1.1 = {
-		holder = 188857 # Muhammad
+		holder = 188857 # Muhammad IV 
 	}
 	1211.1.1 = {
 		holder = 188914 # Kuchlug
@@ -604,33 +635,44 @@ c_kaskelen = {
 	1024.1.1 = {
 		holder = 3010
 	}
-	1034.1.1 = {
-		holder = 144102 # Ebu Shuca
+	1033.1.1 = {
+		holder = 144102 # Sulayman II AKA Ebu Shuca
 	}
+	
+	#Split of Karakhanid khanate
+	#Western Karakhanid set to k_transoxiana, eastern Karakhanid set to k_zhetysu
 	1056.1.1 = {
-		holder = 144103
+		holder = 144103	# Muhammad II
 	}
 	1057.1.1 = {
-		holder = 144104
+		holder = 144104	# Ibrahim I
 	}
 	1059.1.1 = {
-		holder = 144107 # Ebu Ali el-Hasan
+		holder = 144107 # Madmud Togrul
 	}
-	1065.1.1 = {
-		holder = 144114 # Ahmad
+	1074.1.1 = {
+		holder = 144106 # Umar
+	}
+	1075.1.1 = {
+		holder = extra_karakhanids_20 # Hasan II Bughra
+	}
+	1102.1.1 = {
+		holder = 144114 # Ahmad II
 	}
 	1128.1.1 = {
-		holder = 144115 # Ibrahim
+		holder = 144115 # Ibrahim II
 	}
+	
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
-		holder = 188856 # Yusuf
+		holder = 188856 # Yusuf II
 		liege = k_khotan
 	}
 	1205.1.1 = {
-		holder = 188857 # Muhammad
+		holder = 188857 # Muhammad IV
 	}
 	1211.1.1 = {
 		holder = 188914 # Kuchlug
@@ -749,35 +791,45 @@ c_aksuyek = {
 	1024.1.1 = {
 		holder = 3010
 	}
-	1034.1.1 = {
-		holder = 144102 # Ebu Shuca
+	1033.1.1 = {
+		holder = 144102 # Sulayman II AKA Ebu Shuca
 	}
+	
+	#Split of Karakhanid khanate
+	#Western Karakhanid set to k_transoxiana, eastern Karakhanid set to k_zhetysu
 	1056.1.1 = {
-		holder = 144103
+		holder = 144103	# Muhammad II
 	}
 	1057.1.1 = {
-		holder = 144104
+		holder = 144104	# Ibrahim I
 	}
 	1059.1.1 = {
-		holder = 144107 # Ebu Ali el-Hasan
+		holder = 144107 # Madmud Togrul
 	}
-	1065.1.1 = {
-		holder = fictional_karluks_13 # fictional herder
-		government = herder_government
+	1074.1.1 = {
+		holder = 144106 # Umar
+	}
+	1075.1.1 = {
+		holder = extra_karakhanids_20 # Hasan II Bughra
+	}
+	1102.1.1 = {
+		holder = 144114 # Ahmad II
 	}
 	1128.1.1 = {
-		holder = 144115 # Ibrahim
-		# government = nomad_government
+		holder = 144115 # Ibrahim II
 	}
+	
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
-		holder = 188856 # Yusuf
-		liege = k_khotan
+		holder = fictional_kimeks_52 # Yusuf II
+		liege = 0
+		government = herder_government
 	}
 	1205.1.1 = {
-		holder = 188857 # Muhammad
+		holder = 188857 # Muhammad IV
 	}
 	1211.1.1 = {
 		holder = 188914 # Kuchlug
@@ -911,7 +963,7 @@ c_uchkul = {
 		holder = 188846
 	}
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
 		holder = fictional_karluks_8	#fictional herder
@@ -1077,7 +1129,7 @@ c_guzkol = {
 		holder = 188846
 	}
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
 		holder = fictional_karluks_22
@@ -1125,36 +1177,50 @@ c_lepsink = {
 	1024.1.1 = {
 		holder = 3010
 	}
-	1034.1.1 = {
-		holder = 144102 # Ebu Shuca
+	1033.1.1 = {
+		holder = 144102 # Sulayman II AKA Ebu Shuca
 	}
+	
+	#Split of Karakhanid khanate
+	#Western Karakhanid set to k_transoxiana, eastern Karakhanid set to k_zhetysu
 	1056.1.1 = {
-		holder = 144103
+		holder = 144103	# Muhammad II
 	}
 	1057.1.1 = {
-		holder = 144104
+		holder = 144104	# Ibrahim I
 	}
 	1059.1.1 = {
-		holder = 3022
+		holder = 144107 # Madmud Togrul
+	}
+	1066.1.1 = {
+		holder = fictional_karluks_15 # Kobyak
+	}
+	1074.1.1 = {
+		holder = 144106 # Umar
+	}
+	1075.1.1 = {
+		holder = extra_karakhanids_20 # Hasan II Bughra
 	}
 	1102.1.1 = {
-		holder = 144114 # Ahmad
+		holder = 144114 # Ahmad II
 	}
 	1128.1.1 = {
-		holder = 144115 # Ibrahim
+		holder = 144115 # Ibrahim II
 	}
+	
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
 		holder = fictional_karluks_21
 		liege = e_kara_khitai
 	}
 	1188.1.1 = {
-		holder = 188856 # Yusuf
+		holder = 188856 # Yusuf II
 	}
 	1205.1.1 = {
-		holder = 188857 # Muhammad
+		holder = 188857 # Muhammad IV
 	}
 	1211.1.1 = {
 		holder = 188914 # Kuchlug
@@ -1416,35 +1482,53 @@ c_iliq = {
 	1024.1.1 = {
 		holder = 3010
 	}
-	1034.1.1 = {
-		holder = 144102 # Ebu Shuca
+	1033.1.1 = {
+		holder = 144102 # Sulayman II AKA Ebu Shuca
 	}
+	
+	#Split of Karakhanid khanate
+	#Western Karakhanid set to k_transoxiana, eastern Karakhanid set to k_zhetysu
 	1056.1.1 = {
-		holder = 144103
+		holder = 144103	# Muhammad II
 	}
 	1057.1.1 = {
-		holder = 144104
+		holder = 144104	# Ibrahim I
 	}
 	1059.1.1 = {
-		holder = 3022
+		holder = 144107 # Mahmud Togrul
+	}
+	1066.1.1 = {
+		holder = 3022 # Yaqub
+		government = nomad_government
+		liege = 0
+	}
+	1074.1.1 = {
+		holder = 144106 # Umar
+	}
+	1075.1.1 = {
+		holder = extra_karakhanids_20 # Hasan II Bughra
 	}
 	1102.1.1 = {
-		holder = 144114 # Ahmad
+		holder = 144114 # Ahmad II
 	}
 	1128.1.1 = {
-		holder = 144115 # Ibrahim
+		holder = 144115 # Ibrahim II
 	}
+	
+	#1137 - Kara Khitai vassalizes eastern Karakhanid khanate
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
-		holder = 188912	#Yelü Zhilugu
+		holder = fictional_karluks_10
+		government = nomad_government
+		liege = e_kara_khitai
 	}
 	1188.1.1 = {
-		holder = 188856 # Yusuf
+		holder = 188856 # Yusuf II
 	}
 	1205.1.1 = {
-		holder = 188857 # Muhammad
+		holder = 188857 # Muhammad IV
 	}
 	1211.1.1 = {
 		holder = 188914 # Kuchlug
@@ -1556,6 +1640,8 @@ c_ghulja = {
 	}
 	1059.1.1 = {
 		holder = 3022 # Yaqub Karakhanid
+		government = nomad_government
+		liege = 0
 	}
 	1095.1.1 = {
 		holder = 302675	#Sotan Karakhanid
@@ -1566,7 +1652,7 @@ c_ghulja = {
 	
 	#1137 - Kara Khitai
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
 		holder = fictional_karluks_7	#fictional herder
@@ -1574,11 +1660,11 @@ c_ghulja = {
 		government = herder_government
 	}
 	1188.1.1 = {
-		holder = 188856 # Yusuf
+		holder = 188856 # Yusuf II
 		# government = nomad_government
 	}
 	1205.1.1 = {
-		holder = 188857 # Muhammad
+		holder = 188857 # Muhammad IV
 	}
 	1211.1.1 = {
 		holder = 188914 # Kuchlug
@@ -1674,20 +1760,22 @@ c_kash = {
 	
 	#1137 - Kara Khitai
 	1158.1.1 = {
-		holder = 188855 # Muhammad
+		holder = 188855 # Muhammad III
 	}
 	1178.1.1 = {
-		holder = 188912	#Yelü Zhilugu
+		holder = fictional_karluks_10
+		government = nomad_government
+		liege = e_kara_khitai
 	}
-	1188.1.1 = {
-		holder = 188856 # Yusuf
-	}
-	1205.1.1 = {
-		holder = 188857 # Muhammad
-	}
-	1211.1.1 = {
-		holder = 188914 # Kuchlug
-	}
+	#1188.1.1 = {
+	#	holder = 188856 # Yusuf II
+	#}
+	#1205.1.1 = {
+	#	holder = 188857 # Muhammad IV
+	#}
+	#1211.1.1 = {
+	#	holder = 188914 # Kuchlug
+	#}
 	
 	#Mongols
 	1218.1.1 = {

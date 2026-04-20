@@ -35,7 +35,7 @@
  UNIT_STATE_SIEGING: "Assiège"
  UNIT_STATE_EMBARKED: "Embarquée"
  UNIT_STATE_GATHERING: "Ralliement : $VALUE$ restants"
- UNIT_STATE_MOVING: "Se déplace"
+ UNIT_STATE_MOVING: "Se déplace : $DAYS_LEFT$ jours restants"
  UNIT_STATE_RAIDING: "Pille"
  UNIT_STATE_BARTERING: "Troque"
  UNIT_STATE_RETREATING: "Bat en retraite vers [PROVINCE.GetName]"

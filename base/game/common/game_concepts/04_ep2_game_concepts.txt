@@ -337,7 +337,7 @@ accolade = {
 	texture = "gfx/interface/icons/acclaimed_knight.dds"
 	requires_dlc_flag = accolades
 
-	alias = { accolades }
+	alias = { accolades acclaimed accolade_possessive }
 	texture = "gfx/interface/icons/icon_knight_acclaimed.dds"
 } 
 
@@ -345,7 +345,7 @@ acclaimed_knight = {
 	texture = "gfx/interface/icons/acclaimed_knight.dds"
 	requires_dlc_flag = accolades
 	parent = accolade
-	alias = { acclaimed_knights }
+	alias = { acclaimed_knights acclaimed_knight_possessive }
 	texture = "gfx/interface/icons/icon_knight_acclaimed.dds"
 }
 
@@ -363,7 +363,7 @@ accolade_succession = {
 
 accolade_rank = {
 	requires_dlc_flag = accolades
-	alias ={ accolade_ranks accolade_rank_short	}
+	alias = { accolade_ranks accolade_rank_short	}
 	parent = accolade
 	texture = "gfx/interface/icons/icon_knight_acclaimed.dds"
 }
@@ -375,9 +375,10 @@ accolade_type = {
 	texture = "gfx/interface/icons/icon_knight_acclaimed.dds"
 }
 
-inactive_accolade = {
+accolade_squires = {
+	alias = { accolade_squire }
 	requires_dlc_flag = accolades
-	parent = accolade
+	parent = accolades
 	texture = "gfx/interface/icons/icon_knight_acclaimed.dds"
 }
 

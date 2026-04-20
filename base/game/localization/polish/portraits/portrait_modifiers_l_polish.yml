@@ -1064,10 +1064,12 @@
  ### CE1 - Legends of the Dead ###
  ### Male ###
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_01: "@legendsofthedead_icon! Płaszcz człowieka z Bocksten"
- PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02: "@legendsofthedead_icon! Płaszcz z kapturem"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_a: "@legendsofthedead_icon! Płaszcz z opuszczonym kapturem"
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_b: "@legendsofthedead_icon! Płaszcz z naciągniętym kapturem"
  ### Female ###
  PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_01: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_01$"
- PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02$"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02_a: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_a$"
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_fp4_western_era3_nob_02_b: "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_fp4_western_era3_nob_02_b$"
  ### SP3 - Couture of the Capets ###
  ### Male ###
  PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp3_western_roy_01: "@couture_icon! Podbite futrem królewskie okrycie"
@@ -1724,9 +1726,6 @@
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_nob_01: "@allunderheaven_icon! Korona apsary"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_nob_02: "@allunderheaven_icon! Makuta"
  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_tgp_southeast_roy_01: "@allunderheaven_icon! Makuta z nagą"
- ### legwear ###
- #Male
- PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_tgp_southeast_com_01: "@allunderheaven_icon! Kben plebejusza"
  ### Hairstyles ###
  PORTRAIT_MODIFIER_custom_hair_f_hair_tgp_sea_01: "@allunderheaven_icon! Fryzura w stylu apsary 1"
  PORTRAIT_MODIFIER_custom_hair_f_hair_tgp_sea_02: "@allunderheaven_icon! Fryzura w stylu apsary 2"
@@ -1995,8 +1994,8 @@
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_dal_hi_01: "@celestial_court_attire! Dalijska korona wysokiej szlachty"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_lia_hi_01: "@celestial_court_attire! Liaońska złota korona"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_dal_lo_01: "@celestial_court_attire! Dalijski kapelusz drobnej szlachty"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_sil_roy_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_ccp9_sil_roy_01$"
- PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_roy_01: "$PORTRAIT_MODIFIER_custom_headgear_f_headgear_ccp9_uyg_roy_01$"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_sil_roy_01: "@celestial_court_attire! Korona Silly"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_roy_01: "@celestial_court_attire! Ujgurska złota korona"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_uyg_hi_01: "@celestial_court_attire! Ujgurski kapelusz szlachecki"
  PORTRAIT_MODIFIER_custom_headgear_m_headgear_ccp9_jur_nob_01: "@celestial_court_attire! Kapelusz szlachecki dynastii Jinów"
  ## Clothes ##
@@ -2008,9 +2007,9 @@
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_roy_01: "@celestial_court_attire! Tangucka szata królewska"
  PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_min_nob_01: "@celestial_court_attire! Suknia szlachecka Mingów"
  ### Male ###
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_lia_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_lia_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_lia_nob_01: "@celestial_court_attire! Liaoński strój szlachecki"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_dal_nob_01: "@celestial_court_attire! Dalijski strój szlachecki"
- PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_tan_nob_01: "$PORTRAIT_MODIFIER_custom_clothes_f_clothes_ccp9_tan_nob_01$"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_tan_nob_01: "@celestial_court_attire! Tangucki strój wysokiej szlachty"
  PORTRAIT_MODIFIER_custom_clothes_m_clothes_ccp9_min_nob_01: "@celestial_court_attire! Strój szlachecki Mingów"
  ### Hairstyles ###
  #Male
@@ -2018,6 +2017,23 @@
  #############
  ### Pants ###
  #############
+ ############
+ ### SP5  ###
+ ############
+ ### Headgear ###
+ ### Female ###
+ ### Headgear ###
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_western_roy_01: "@symbols_of_authority! Gotycka liliowa korona"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_western_roy_02: "@symbols_of_authority! Siateczka crispinette autorytetu"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp5_byzantine_roy_01: "@symbols_of_authority! Korona Katarzyny"
+ ### Male ###
+ ### Headgear ###
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp5_western_roy_01: "@symbols_of_authority! Korona Jana Chrzciciela"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp5_byzantine_roy_01: "@symbols_of_authority! Korona Konstantyna"
+ ### Hairstyles ###
+ PORTRAIT_MODIFIER_custom_hair_m_hair_sp5_western_01: "@symbols_of_authority! Loki Jana Chrzciciela"
+ ### Beards ###
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp5_western_01: "@symbols_of_authority! Broda Jana Chrzciciela"
  PORTRAIT_MODIFIER_custom_legwear: "Okrycie nóg"
  PORTRAIT_MODIFIER_custom_legwear_female_empty: "Brak okrycia nóg"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_war_01: "Nogawice wojownika z zachodu"
@@ -2140,6 +2156,7 @@
  sick_stomach: "Choroba"
  severelywounded: "Ciężkie zranienie"
  loss_1: "Przegrana w walce"
+ holding_crutch: "Trzymanie kuli"
  page_flipping: "Kartkowanie książki"
  writing: "Pisanie"
  reading: "Czytanie"

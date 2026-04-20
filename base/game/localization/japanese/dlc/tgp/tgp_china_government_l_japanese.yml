@@ -118,7 +118,7 @@
  may_gain_merit_desc: "[merit_i] [merit|E]を得る可能性がある"
  cannot_compete_for_lower_rank_titles_tt: "[governors|E]は現在の[governorship|E]より低い[title_tier|E]の[titles|E]をめぐって競うことはできない"
  tgp_is_above_retirement_age_law_not_set: "[GetLawGroup('celestial_retirement_law').GetName]の[law|E]がない"
- tgp_is_above_retirement_age_5: "[GetLawGroup('celestial_retirement_law').GetName]の[law|E]が[GetLaw('celestial_retirement_law_5').GetName]に設定されており、早期退職は許可されない"
+ tgp_is_above_retirement_age_5: "[GetLawGroup('celestial_retirement_law').GetName]の[law|E]が[GetLaw('celestial_retirement_law_5').GetName]に設定されており、年齢を問わず退職が許可される"
  tgp_is_above_retirement_age_0: "[GetLawGroup('celestial_retirement_law').GetName]の[law|E]が[GetLaw('celestial_retirement_law_0').GetName]に設定されており、50才を超える[governors|E]は退職が許可される"
  tgp_is_above_retirement_age_1: "[GetLawGroup('celestial_retirement_law').GetName]の[law|E]が[GetLaw('celestial_retirement_law_1').GetName]に設定されており、60才を超える[governors|E]は退職が許可される"
  tgp_is_above_retirement_age_2: "[GetLawGroup('celestial_retirement_law').GetName]の[law|E]が[GetLaw('celestial_retirement_law_2').GetName]に設定されており、70才を超える[governors|E]は退職が許可される"

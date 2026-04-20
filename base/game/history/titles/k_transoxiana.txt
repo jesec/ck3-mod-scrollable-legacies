@@ -60,11 +60,11 @@
 		holder = 0
 	}
 
-	1041.1.1 = {
-		holder = 3012
-	}
+	#Split of Karakhanid khanate
+	#Western Karakhanid set to k_transoxiana, eastern Karakhanid set to k_zhetysu
 	1052.1.2 = {
-		holder = 3014
+		holder = 3014 # Ibrahim II AKA Tamghach
+		liege = 0
 		effect = {
 			if = {
 				limit = {
@@ -81,26 +81,23 @@
 			}
 		}
 	}
-	1066.1.1 = {
-		liege = 0
-	}
-	
-	## Karakhanids
 	1068.1.1 = {
-		holder = 3016
+		holder = 3016 # Nasr I
 	}
 	1080.1.1 = {
-		holder = 3018
+		holder = 3018 # Khidr
 	}
 	1081.1.1 = {
-		holder = 3020
+		holder = 3020 # Ahmad II
 	}
 	1089.1.1 = {
-		holder = 3022
+		holder = 3022 # Yaqub
 	}
 	1095.1.1 = {
-		holder = 3024
+		holder = 3024 # Masud I
 	}
+
+	## Anushteginids conquest
 	1097.1.1 = {
 		holder = 144099	#Qutb al-Din Muhammad Anushteginid
 	}
@@ -134,9 +131,11 @@ d_soghd = {
 	1066.1.1 = {
 		holder = 0
 	}
-	1177.1.1 = {
-		holder = karakhanid_5 # Muhammad
-		liege = k_syr_darya
+	1171.1.1 = {
+		holder = karakhanid_5 # Muhammad III
+	}
+	1178.1.1 = {
+		holder = 144122 # Ibrahim IV b. Husayn
 	}
 }
 
@@ -202,7 +201,8 @@ c_bukhara = {
 		holder = 3014
 	}
 	1178.1.1 = {
-		holder = karakhanid_5 # Muhammad
+		holder = 144122 # Ibrahim IV b. Husayn
+		liege = "e_kara_khitai"
 	}
 	1200.1.1 = {
 		holder = 93052
@@ -240,7 +240,8 @@ c_kishsh = {
 		holder = 3016
 	}
 	1178.1.1 = {
-		holder = karakhanid_5 # Muhammad
+		holder = 144122 # Ibrahim IV b. Husayn
+		liege = "e_kara_khitai"
 	}
 	1200.1.1 = {
 		holder = 93052
@@ -277,7 +278,8 @@ c_kalif = {
 		holder = 3016
 	}
 	1178.1.1 = {
-		holder = karakhanid_5 # Muhammad
+		holder = 144122 # Ibrahim IV b. Husayn
+		liege = "e_kara_khitai"
 	}
 	1200.1.1 = {
 		holder = 93052
@@ -316,7 +318,8 @@ c_nakhshab = {
 		holder = 230000
 	}
 	1178.1.1 = {
-		holder = karakhanid_5 # Muhammad
+		holder = 144122 # Ibrahim IV b. Husayn
+		liege = "e_kara_khitai"
 	}
 	1200.1.1 = {
 		holder = 93052
@@ -360,7 +363,8 @@ c_firabr = {
 		holder = 230000
 	}
 	1178.1.1 = {
-		holder = karakhanid_5 # Muhammad
+		holder = 144122 # Ibrahim IV b. Husayn
+		liege = "e_kara_khitai"
 	}
 	1200.1.1 = {
 		holder = 93052
@@ -401,7 +405,8 @@ c_dabusiya = {
 		holder = 230000
 	}
 	1178.1.1 = {
-		holder = karakhanid_5 # Muhammad
+		holder = 144122 # Ibrahim IV b. Husayn
+		liege = "e_kara_khitai"
 	}
 	1200.1.1 = {
 		holder = 93052
@@ -459,7 +464,7 @@ c_samarkand = {
 		holder = 3020
 	}
 	1089.1.1 = {
-		holder = 3022
+		holder = 3022 # Yaqub
 	}
 	1095.1.1 = {
 		holder = 3024
@@ -501,7 +506,8 @@ c_samarkand = {
 		holder = 144121
 	}
 	1178.1.1 = {
-		holder = karakhanid_5 # Muhammad
+		holder = 144122 # Ibrahim IV b. Husayn
+		liege = "e_kara_khitai"
 	}
 	1204.1.1 = {
 		holder = 93051
@@ -1410,8 +1416,8 @@ d_ferghana = {
 	1066.1.1 = { change_development_level = 10 }
 	1178.1.1 = { change_development_level = 14 }
 	1178.1.1 = {
-		holder = karakhanid_1 # Nasr b. Husayn
-		liege = e_kara_khitai
+		holder = karakhanid_4 # Nasr b. Husayn
+		liege = 0 # moved to tributary
 	}
 	1211.1.1 = {
 		holder = 188914 # Kuchlug (de facto)
@@ -1462,7 +1468,7 @@ c_ferghana = {
 	}
 	1060.1.1={
 		holder = 144108
-		liege = k_zhetysu
+		liege = k_transoxiana
 		#Ferghana goes back and forth between Western & Eastern Karakhanids
 	}
 	1068.1.1={
@@ -1474,7 +1480,8 @@ c_ferghana = {
 		liege=d_ferghana # Kara Khitan conquest
 	}
 	1178.1.1 = {
-		holder = karakhanid_1 # Nasr b. Husayn
+		holder = karakhanid_4 # Nasr b. Husayn
+		liege = d_ferghana
 	}
 	1211.1.1={
 		holder = 188914 # Kuchlug (de facto)
@@ -1551,8 +1558,9 @@ c_khojand = {
 	1137.1.1={
 		liege=d_ferghana # Kara Khitan conquest
 	}
-	1178.1.1 = {
-		holder = karakhanid_1 # Nasr b. Husayn
+	1177.1.1 = {
+		holder = karakhanid_2 # Usman
+		liege = k_syr_darya
 	}
 	1211.1.1={
 		holder = 188914 # Kuchlug (de facto)
@@ -1623,7 +1631,7 @@ c_isfara = {
 		liege=d_ferghana # Kara Khitan conquest
 	}
 	1178.1.1 = {
-		holder = karakhanid_1 # Nasr b. Husayn
+		holder = karakhanid_4 # Muhammad
 	}
 	1211.1.1={
 		holder = 188914 # Kuchlug (de facto)
@@ -1686,7 +1694,7 @@ c_nasaiya = {
 	}
 	1060.1.1={
 		holder = 144108
-		liege = k_zhetysu
+		liege = k_transoxiana
 		#Ferghana goes back and forth between Western & Eastern Karakhanids
 	}
 	1068.1.1={
@@ -1761,7 +1769,7 @@ c_uzgend = {
 	}
 	1060.1.1={
 		holder = 144108
-		liege = k_zhetysu
+		liege = k_transoxiana
 		#Ferghana goes back and forth between Western & Eastern Karakhanids
 	}
 	1068.1.1={
@@ -1773,7 +1781,7 @@ c_uzgend = {
 		liege = d_ferghana # Kara Khitan conquest
 	}
 	1178.1.1 = {
-		holder = karakhanid_4 # Muhammad
+		holder =  217242 # Rustam (fictional)
 		liege = d_ferghana
 	}
 	1211.1.1 = {
@@ -1837,7 +1845,7 @@ c_nasrabad = {
 	}
 	1060.1.1={
 		holder = 144108
-		liege = k_zhetysu
+		liege = k_transoxiana
 		#Ferghana goes back and forth between Western & Eastern Karakhanids
 	}
 	1068.1.1={
@@ -1849,7 +1857,7 @@ c_nasrabad = {
 		liege=d_ferghana # Kara Khitan conquest
 	}
 	1178.1.1 = {
-		holder = karakhanid_1 # Nasr b. Husayn
+		holder = 188912	#Yelü Zhilugu
 	}
 	1211.1.1={
 		holder = 188914 # Kuchlug (de facto)
@@ -1971,6 +1979,9 @@ d_khorezm = {
 		holder = 93121	#Arslan Argun Seljuk prince
 		liege = e_persia	#Seljuk
 	}
+	1077.1.1 = {
+		holder = 20713 # Anushtegin
+	}
 	1097.1.1 = {
 		holder = 144099	#Qutb al-Din Muhammad Anushteginid
 	}
@@ -2072,6 +2083,10 @@ c_gurganj = {
 	}
 	1066.1.1 = {
 		holder = 93121	#Arslan Argun Seljuk prince
+	}
+	1077.1.1 = {
+		holder = 20713 # Anushtegin
+		liege = e_persia # Seljuk
 	}
 	1172.1.1 = {
 		holder = 230000	#placeholder Baybars Khori

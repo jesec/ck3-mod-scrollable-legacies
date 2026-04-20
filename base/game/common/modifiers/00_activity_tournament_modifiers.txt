@@ -151,6 +151,7 @@ tournament_allow_foreign_pas_darmes_modifier = {
 }
 
 tournament_pas_darmes_seduce_modifier = {
+	icon = social_positive
 	scheme_phase_duration = minor_scheme_phase_duration_bonus_value
 }
 
@@ -170,10 +171,12 @@ tournament_pardoned_robin_modifier = {
 }
 
 tournament_favor_scheme_modifier = {
+	icon = social_positive
 	scheme_phase_duration = minor_scheme_phase_duration_bonus_value
 }
 
 tournament_favor_rejected_scheme_modifier = {
+	icon = social_negative
 	scheme_phase_duration = minor_scheme_phase_duration_malus_value
 }
 
@@ -240,13 +243,13 @@ tournament_stands_compensated_modifier = {
 }
 
 tournament_executed_builders_modifier = {
-	icon = dread_positive
+	icon = dread_mixed
 	county_opinion_add = 10
 	build_gold_cost = 0.1
 }
 
 tournament_compensated_stands_modifier = {
-	icon = county_modifier_opinion_positive
+	icon = county_modifier_opinion_mixed
 	dread_decay_mult = 0.15
 	county_opinion_add = 10
 }
@@ -258,13 +261,13 @@ tournament_squire_riot_modifier = {
 }
 
 tournament_punished_arsonists_modifier = {
-	icon = dread_positive
+	icon = dread_mixed
 	courtier_and_guest_opinion = 10
 	knight_limit = -1
 }
 
 tournament_coddled_arsonists_modifier = {
-	icon = social_negative
+	icon = social_mixed
 	courtier_and_guest_opinion = -10
 	knight_limit = 1
 	knight_effectiveness_mult = 0.1
@@ -346,7 +349,7 @@ tournament_bracer_modifier = {
 }
 
 tournament_two_bracers_modifier = {
-	icon = prowess_positive
+	icon = prowess_mixed
 	prowess = 1
 	stress_loss_mult = 0.05
 	courtier_and_guest_opinion = -5
@@ -377,7 +380,7 @@ tournament_dice_player_modifier = {
 }
 
 tournament_lecherous_knight_modifier = {
-	icon = fertility_positive
+	icon = fertility_mixed
 	fertility = 0.2
 	attraction_opinion = 5
 	spouse_opinion = -25
@@ -404,7 +407,7 @@ tournament_well_proclaimed_modifier = {
 }
 
 tournament_foreign_knight_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	diplomacy = 1
 	different_culture_opinion = 15
 	vassal_opinion = -10
@@ -412,14 +415,14 @@ tournament_foreign_knight_modifier = {
 }
 
 tournament_star_struck_modifier = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	monthly_prestige_gain_mult = 0.1
 	glory_hound_opinion = 15
 	parochial_opinion = -15
 }
 
 tournament_grounded_modifier = {
-	icon = stress_positive
+	icon = stress_mixed
 	stress_loss_mult = 0.1
 	glory_hound_opinion = -15
 	parochial_opinion = 15
@@ -443,13 +446,13 @@ tournament_soaked_modifier = {
 }
 
 tournament_public_proselytiser_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	zealot_opinion = 25
 	barons_and_minor_landholders_opinion = -15
 }
 
 tournament_sports_enthusiast_modifier = {
-	icon = diplomacy_positive
+	icon = diplomacy_mixed
 	general_opinion = 5
 	glory_hound_opinion = 15
 	zealot_opinion = -5
@@ -492,13 +495,13 @@ tournament_village_dance_modifier = {
 }
 
 tournament_weaving_taxes_modifier = {
-	icon = stewardship_positive
+	icon = stewardship_mixed
 	tax_mult = 0.2
 	county_opinion_add = -10
 }
 
 tournament_performative_sensuousness_modifier = {
-	icon = fertility_positive
+	icon = fertility_mixed
 	zealot_opinion = -15
 	attraction_opinion = 10
 }
@@ -522,7 +525,7 @@ tournament_ambisinister_modifier = {
 }
 
 tournament_fashionable_duelist_modifier = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	prowess = -1
 	monthly_prestige_gain_mult = 0.05
 	attraction_opinion = 20
@@ -584,7 +587,7 @@ tournament_knight_humiliated_modifier = {
 }
 
 tournament_loyalty_martial_traditions_modifier = {
-	icon = martial_positive
+	icon = martial_mixed
 	same_culture_opinion = 5
 	same_culture_mercenary_hire_cost_mult = -0.25
 	same_culture_holy_order_hire_cost_mult = -0.25

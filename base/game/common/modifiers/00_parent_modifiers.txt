@@ -41,7 +41,7 @@ parent_dealing_with_courtiers_modifier = {
 }
 
 parent_events_wrangling_courtiers_modifier = {
-	icon = prestige_positive
+	icon = prestige_mixed
 	diplomacy = -1
 	monthly_prestige = 0.5
 }

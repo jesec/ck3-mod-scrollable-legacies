@@ -9,7 +9,7 @@
  has_enough_contracts_tt: "Vous avez mené à bien #V [contract_tally]/50#! [task_contracts|El] non [Concept('criminal','criminels')|E]"
  legacy_adventurer_legitimacy_on_landing: "Si un [adventurer|El] de la [house|E] [GetPlayer.GetHouse.GetBaseName] devient un [ruler|El] :\n$BULLET$ il gagnera [GetPlayer.MakeScope.ScriptValue('massive_legitimacy_gain')|+0][legitimacy_i] en [legitimacy|El]\n$BULLET$ pour chaque [follower|El] qu’il a, il gagnera #P 25#! [soldier_i] en [levies|El]"
  criminal_contracts_blocked_tt: "@warning_icon! #warning Vous ne pourrez plus accepter de [task_contracts|El] [Concept('criminal','criminels')|E]#!"
- task_successful_noncrim_contract_count_effect_tt: "Vous progressez dans la [decision|El] de $enact_legacy_of_adventurer_decision$"
+ task_successful_noncrim_contract_count_effect_tt: "Vous progressez dans la [decision|El] de $enact_legacy_of_adventurer_decision|l$"
  remnants_adventurer_army: "Vestiges de [prev_title.GetNameNoTooltip]"
  legacy_adventurer_house_modifier: "Lignée d’aventurier"
  legacy_adventurer_house_modifier_desc: "Cette Maison apprécie le style de vie d’un aventurier et le fait de ne pas avoir à se préoccuper des questions de la Cour.\n[adventurer_i] Récompenses en [prestige|El] des [task_contracts|El] : #P +15%#![prestige_i]"

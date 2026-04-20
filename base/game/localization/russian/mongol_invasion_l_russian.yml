@@ -50,7 +50,7 @@
  mongol_invasion.2002.opening: "Почтенный владыка вселенной!"
  mongol_invasion.2002.desc: "Я преклоняюсь перед твоей законной и милостивой властью. Я последую за тобой в бой против любого, кто осмелится противиться судьбе."
  mongol_invasion.2002.a: "Мудрый выбор, мой слуга."
- mongol_invasion.2003.opening: "Ты [mongol_emperor.Custom2('InsultAdjective', SCOPE.sC('demand_recipient'))] [mongol_emperor.GetTitleAsNameNoTooltip|l]!"
+ mongol_invasion.2003.opening: "Ты [mongol_emperor.Custom2('InsultAdjective', SCOPE.sC('demand_recipient'))][Select_CString(mongol_emperor.IsFemale, 'ая', 'ый' )] [mongol_emperor.GetTitleAsNameNoTooltip|l]!"
  mongol_invasion.2003.desc: "Как ты смеешь думать, что склонишь меня своими угрозами? Я покажу, что настоящий правитель может сделать с этими твоими «неуязвимыми всадниками»!"
  mongol_invasion.2003.a: "Тогда нас ждут война и смерть."
  mongol_invasion.2101.desc: "Ты всегда ведешь себя как добрый друг и слуга. Пора узаконить твою службу: присягни мне на верность как владыке вселенной."

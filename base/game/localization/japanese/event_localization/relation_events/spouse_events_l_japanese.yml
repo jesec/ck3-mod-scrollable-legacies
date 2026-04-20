@@ -103,7 +103,7 @@
  spouse.2008.desc: "どうやら[told_of_character.GetTitledFirstName]は、[spouse.GetFirstName]の話し方にいたく感銘を受けたようだ！彼らは今まで以上に仲を深めている。"
  spouse.2008.a: "私はただ本当のことを言っただけだ。"
  spouse.2009.t: "疑わしい[spouse.GetWomanMan]"
- spouse.2009.bad: "\n\n意図的なものかどうはは分からないが、[initial_spouse.GetFirstName]の話を聞いていると私は[spouse.GetFirstName]のことを過大評価していたのではないかと思うようになった。"
+ spouse.2009.bad: "\n\n意図的なものかどうかは分からないが、[initial_spouse.GetFirstName]の話を聞いていると私は[spouse.GetFirstName]のことを過大評価していたのではないかと思うようになった。"
  spouse.2009.a: "[initial_spouse.GetFirstNameNoTooltip]、紹介してくれてありがとう…"
  spouse.2010.t: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('told_of_character'))]の支え"
  spouse.2010.desc: "\n\n[initial_spouse.GetSheHe]が何を話したにせよ、[told_of_character.GetFirstName]に悪印象を残したことは間違いない。別れ際、[told_of_character.GetSheHe]はただ私のほうを見て首を振っているだけだったのだ。"

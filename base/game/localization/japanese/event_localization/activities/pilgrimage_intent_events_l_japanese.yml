@@ -54,7 +54,7 @@
  pilgrimage_intent.1040.desc.intro: "我々がこの聖なる道を歩いていると、突然、獣が道の真ん中に出てきて立ち止まる。\n\n"
  pilgrimage_intent.1040.desc.mid.pred: "力強い[ROOT.Char.Custom('GetAnimalType')]が、私と聖地の間に立ちふさがる。"
  pilgrimage_intent.1040.desc.mid.prey: "慎ましやかな[ROOT.Char.Custom('GetAnimalType')]が、我々の聖なる隊商を見つめている。"
- pilgrimage_intent.1040.desc.outro: "\n\nその獣は、何かを知っているかのような表情を浮かべている。その目の奥には、賢い老[ROOT.Char.GetWomanMan]の心が宿っているかのようだ。[ROOT.Char.GetSheHe|U]はまばたきをして、[ROOT.Char.GetHerHis]道を進む。"
+ pilgrimage_intent.1040.desc.outro: "\n\nその獣は、何かを知っているかのような表情を浮かべている。その目の奥には、賢い老[ROOT.Char.GetWomanMan]の心が宿っているかのようだ。[ROOT.Char.GetSheHe|U]はまばたきをして、[ROOT.Char.GetHerHis]の道を進む。"
  pilgrimage_intent.1040.a: "あの[ROOT.Char.Custom('GetAnimalType')]は[ROOT.Char.GetFaith.HighGodName]からの使者だ！[ROOT.Char.GetSheHe]を追いかけるのだ！"
  pilgrimage.you_lose_the_animal.t: "動物を見失う"
  pilgrimage.you_lose_the_animal.desc: "あなたは[ROOT.Char.Custom('GetAnimalType')]を見失った"
@@ -73,7 +73,7 @@
  pilgrimage_intent.1042.b: "私は鳥だ。そして私は困難な運命から逃れるだろう！"
  #Good omen (prey)
  pilgrimage_intent.1043.t: "予兆：幸せな家族"
- pilgrimage_intent.1043.desc.intro: "[ROOT.Char.Custom('GetAnimalType')]の後を、驚かせないようにずっと追いかける。やがて、[ROOT.Char.GetSheHe]は空き地でもう1匹の[ROOT.Char.Custom('GetAnimalType')]、おそらく[ROOT.Char.GetHerHis]仲間と出会う。\n\n"
+ pilgrimage_intent.1043.desc.intro: "[ROOT.Char.Custom('GetAnimalType')]の後を、驚かせないようにずっと追いかける。やがて、[ROOT.Char.GetSheHe]は空き地でもう1匹の[ROOT.Char.Custom('GetAnimalType')]、おそらく[ROOT.Char.GetHerHis]の仲間と出会う。\n\n"
  pilgrimage_intent.1043.desc.mid: "2匹は少し頭をぶつけ合うが、やがて互いにくちづけを交わし、一緒に荒野へと消えていく。"
  pilgrimage_intent.1043.a: "私にもうすぐ子供ができるのだ！"
  pilgrimage_intent.1043.b: "私は敵を味方とせねばならないのだ。"

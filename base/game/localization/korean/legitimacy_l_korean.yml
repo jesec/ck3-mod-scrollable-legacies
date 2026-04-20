@@ -1,5 +1,5 @@
 ﻿l_korean:
- default_legitimacy_level_0: "[Concept( 'legitimacy', 'Illegitimate' )|E] 지배"
+ default_legitimacy_level_0: "[Concept( 'legitimacy', '위법한' )|E] 지배"
  default_legitimacy_level_1: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_2: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_3: "[legitimacy|E] $LEVEL|V:roman$"
@@ -8,7 +8,7 @@
  default_legitimacy_level_6: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_7: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_8: "[legitimacy|E] $LEVEL|V:roman$"
- default_legitimacy_level_0_flavor: "위법자"
+ default_legitimacy_level_0_flavor: "위법한"
  default_legitimacy_level_1_flavor: "유망한"
  default_legitimacy_level_2_flavor: "인정받은"
  default_legitimacy_level_3_flavor: "정당한"
@@ -43,4 +43,4 @@
  legitimacy_high_modifier_tt: "높은 [legitimacy|E]"
  legitimacy_low_modifier_tt: "낮은 [legitimacy|E]"
  legitimacy_on_level_entered: "#S 단계 변경 시:#!\n"
- legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X \"$catalyst_hegemon_lost_mandate_of_heaven$\" 활성화, [dynastic_cycle|E]를 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName] [situation_dynastic_cycle_phase|E]으로 바꾸게 됩니다#!"
+ legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X \"$catalyst_hegemon_lost_mandate_of_heaven$\" 활성화, [dynastic_cycle|E]를 [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName] [situation_dynastic_cycle_phase|E]으로 바꾸게 됩니다#!\n"

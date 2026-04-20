@@ -160,3 +160,4 @@
  ACTIVITY_GUEST_VERY_SHORT_TRIP: "[ROOT.Char.GetSheHe|U]가 매우 짧은 여행을 함: $VALUE|=+0$"
  ACTIVITY_GUEST_NO_TRAVEL: "[ROOT.Char.GetSheHe|U]가 해당 장소에 살고 있음: $VALUE|=+0$"
  ACTIVITY_GUEST_COURTIER: "당신의 [courtier|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_ACCLAIMED_KNIGHT_REASON: "[ROOT.Char.GetSheHe|U]가 [acclaimed_knight|E]: $VALUE|=+0$"

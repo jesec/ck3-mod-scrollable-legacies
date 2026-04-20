@@ -1019,7 +1019,10 @@
 				limit = { has_realm_law = crown_authority_0 }
 				add_realm_law = crown_authority_3
 			}
-			add_realm_law = high_partition_succession_law
+			if = {
+				limit = { NOT = { has_realm_law = high_partition_succession_law } }
+				add_realm_law = high_partition_succession_law
+			}
 			imprison = {
 				target = character:219517 # his brother, Geza
 				type = house_arrest

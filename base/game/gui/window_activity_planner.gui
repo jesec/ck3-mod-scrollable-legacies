@@ -785,6 +785,7 @@ types ActivityPlannerTypes
 							button_standard_clean = {
 								name = "special_option_button"
 								size = { 100% 100% }
+								using = TabShortcut
 
 								allow_outside = yes
 
@@ -1452,6 +1453,7 @@ types ActivityPlannerNewTypes
 						size = { 270 44 }
 						datacontext = "[ActivityIntentData.GetType]"
 						visible = "[GreaterThan_int32( GetDataModelSize( ActivityType.GetHostIntents ), '(int32)1' )]"
+						shortcut = intent
 
 						onclick = "[ToggleGameViewData( 'activity_intent_selection', ActivityPlanner.AccessSelf )]"
 						tooltip = "ACTIVITY_OPEN_INTENT_WINDOW"
@@ -1661,6 +1663,7 @@ types ActivityPlannerNewTypes
 									datacontext = "[ActiveActivityOption.GetOption]"
 									visible = "[Not( ObjectsEqual( ActiveActivityOption.GetCategory, ActivityType.GetSpecialOptionCategory ) )]"
 									size = { 66 110 }
+									using = TabShortcut
 
 									onclick = "[ActivityPlanner.ToggleEditingOption( ActiveActivityOption.AccessSelf )]"
 
@@ -1894,6 +1897,7 @@ types ActivityPlannerNewTypes
 					button_radio = {
 						visible = "[ActivityOption.IsShown( GetPlayer, ActivityPlanner.GetSelectedSpecialOption )]"
 						size = { 30 30 }
+						using = SubTabShortcut
 
 						enabled = "[ActivityOption.IsValid( GetPlayer, ActivityPlanner.GetSelectedSpecialOption )]"
 						onclick = "[ActivityPlanner.SelectOption( ActivityOption.Self )]"

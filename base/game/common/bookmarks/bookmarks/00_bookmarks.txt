@@ -3048,7 +3048,7 @@ bm_867_china = {
 		title = c_nf_huang_9EC4
 		government = celestial_government
 		culture = han
-		religion = jingxue 
+		religion = dhyana 
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = bookmark_huang_chao
 		position = { 1100 500 }
@@ -3117,7 +3117,7 @@ bm_867_china = {
 		title = k_viet
 		government = celestial_government
 		culture = han
-		religion = dhyana 
+		religion = jingxue 
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = han_3310
 		position = { 980 800 }
@@ -3134,10 +3134,11 @@ bm_1066_china = {
 	requires_dlc_flag = all_under_heaven
 
 	weight = {
-		if = {
-			limit = { has_dlc_feature = all_under_heaven }
-			add = 500
-		}
+		value = 0
+		#if = {
+		#	limit = { has_dlc_feature = all_under_heaven }
+		#	add = 500
+		#}
 	}
 
 	character = {
@@ -3441,7 +3442,7 @@ bm_1066_japan = {
 		title = c_nf_minamoto_kawachi
 		government = japan_feudal_government
 		culture = japanese
-		religion = pundarika
+		religion = mantrayana
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = japanese_minamoto_seiwa_5
 		position = { 950 650 }
@@ -3455,7 +3456,7 @@ bm_1066_japan = {
 			type = male
 			birth = 1039.1.1
 			culture = japanese
-			religion = pundarika
+			religion = mantrayana
 			history_id = japanese_minamoto_seiwa_6
 			animation = personality_zealous
 		}
@@ -3467,7 +3468,7 @@ bm_1066_japan = {
 			type = male
 			birth = 999.1.1
 			culture = japanese
-			religion = pundarika
+			religion = mantrayana
 			history_id = japanese_minamoto_seiwa_21
 			animation = personality_bold
 		}
@@ -3483,7 +3484,7 @@ bm_1066_japan = {
 		title = c_nf_minamoto_murakami
 		government = japan_administrative_government
 		culture = japanese
-		religion = pundarika
+		religion = mantrayana
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = japanese_minamoto_murakami_11
 		position = { 650 820 }
@@ -3497,7 +3498,7 @@ bm_1066_japan = {
 			type = male
 			birth = 1035.1.1
 			culture = japanese
-			religion = pundarika
+			religion = mantrayana
 			history_id = japanese_minamoto_murakami_12
 			animation = personality_zealous
 		}
@@ -3509,7 +3510,7 @@ bm_1066_japan = {
 			type = male
 			birth = 1037.1.1
 			culture = japanese
-			religion = pundarika
+			religion = mantrayana
 			history_id = japanese_minamoto_murakami_13
 			animation = personality_bold
 		}
@@ -3582,7 +3583,7 @@ bm_1178_genpei = {
 		title = c_nf_minamoto_kawachi
 		government = japan_feudal_government
 		culture = japanese
-		religion = pundarika
+		religion = mantrayana
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = japanese_minamoto_seiwa_10
 		position = { 1000 600 }
@@ -3596,7 +3597,7 @@ bm_1178_genpei = {
 			type = male
 			birth = 1150.1.1
 			culture = japanese
-			religion = pundarika
+			religion = mantrayana
 			history_id = japanese_minamoto_seiwa_365
 			animation = personality_zealous
 		}
@@ -3607,7 +3608,7 @@ bm_1178_genpei = {
 			type = male
 			birth = 1159.1.1
 			culture = japanese
-			religion = pundarika
+			religion = mantrayana
 			history_id = japanese_minamoto_seiwa_139
 			animation = personality_bold
 		}
@@ -3749,7 +3750,7 @@ bm_1178_genpei = {
 		title = c_nf_minamoto_kiso
 		government = japan_feudal_government
 		culture = japanese
-		religion = pundarika
+		religion = mantrayana
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = japanese_minamoto_seiwa_207
 		position = { 670 210 }
@@ -3763,7 +3764,7 @@ bm_1178_genpei = {
 			type = male
 			birth = 1153.1.1
 			culture = japanese
-			religion = pundarika
+			religion = mantrayana
 			history_id = japanese_nakahara_kiso_5
 			animation = personality_zealous
 		}
@@ -3775,7 +3776,7 @@ bm_1178_genpei = {
 			type = male
 			birth = 1173.1.1
 			culture = japanese
-			religion = pundarika
+			religion = mantrayana
 			history_id = japanese_minamoto_seiwa_208
 			animation = personality_zealous
 		}

@@ -98,7 +98,7 @@
  prose_theme_philosophy: "filosofía"
  prose_topic_history: "historia"
  prose_book_description: "Este es un extenso tratado sobre [SCOPE.Custom('GetProseTheme')] escrito por [author.GetFirstName] que prueba su dominio sobre [SCOPE.Custom('GetProseTopic')], así como su destreza estilística.\n[SCOPE.Custom('GetProseQuality')]"
- prose_name: "Reflexiones de [author.GetFirstNameNoTooltip]"
+ prose_name_hashcollision: "Reflexiones de [author.GetFirstNameNoTooltip]"
  #Philosophy
  prose_theme_comentary: "los comentarios sobre los cuatro libros"
  prose_theme_logic: "el uso general de la lógica pura"
@@ -126,7 +126,7 @@
  writing_monograph: "Escribiendo una monografía"
  writing_monograph_desc: "Este personaje está enfrascado en investigar y escribir una nueva monografía"
  monograph_description_full: "Este es un grueso volumen sobre el tema de [SCOPE.Custom('GetMonographTheme')] escrito por [author.Custom('ES_ElLa')] funcionari[author.Custom('ES_OA')] erudit[author.Custom('ES_OA')] [author.GetName] y proviene de sus vastos estudios en el campo de [SCOPE.Custom('GetMonographTopic')].\n\n[SCOPE.Custom('GetMonographQuality')]"
- monograph_name: "Tomo sobre [SCOPE.Custom('GetMonographTopic')]"
+ monograph_name_hashcollision: "Tomo sobre [SCOPE.Custom('GetMonographTopic')]"
  monograph_topic_mathematics: "las matemáticas"
  monograph_topic_geography: "la geografía"
  monograph_theme_home_duchy: "las tierras de [author.GetCapitalLocation.GetTitle.GetDeJureLiegeOfTier('duchy').GetBaseNameNoTierNoTooltip]"

@@ -7,7 +7,7 @@ court_possessed_improved_condition_modifier = {
 
 # court.6060
 court_no_wine_modifier = {
-	icon = drink_positive
+	icon = drink_mixed
 	attraction_opinion = -5
 	health = 0.5
 	court_grandeur_baseline_add = -2
@@ -21,13 +21,13 @@ court_moderate_drinking_modifier = {
 }
 
 rivers_of_wine_modifier = {
-	icon = drink_mixed
+	icon = drink_negative
 	health = -0.5
 }
 
 # hold_court.6000
 court_tax_relief_county_modifier = {
-	icon = county_modifier_development_positive
+	icon = county_modifier_development_mixed
 	tax_mult = -0.5
 	development_growth_factor = small_development_growth_gain
 	county_opinion_add = 15
@@ -53,7 +53,7 @@ hold_court_mysterious_book_modifier = {
 
 # hold_court.6090
 court_6090_executioners_county_modifier = {
-	icon = county_modifier_control_positive
+	icon = county_modifier_control_mixed
 	monthly_county_control_growth_add = 0.2
 	county_opinion_add = -15
 }

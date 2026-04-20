@@ -8,3 +8,4 @@
  refused_pay_homage_opinion: "A refusé de ployer le genou"
  restored_ritsuryo_opinion: "Gouvernement ritsuryō restauré"
  refused_pledge_loyalty_to_liege_opinion: "Refus de s’incliner"
+ pledged_loyalty_to_me_opinion: "$msg_pledged_loyalty_to_liege$"

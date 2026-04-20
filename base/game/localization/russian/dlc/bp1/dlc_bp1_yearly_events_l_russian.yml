@@ -224,7 +224,7 @@
  bp1_yearly.5714.a.depressed: "#weak Вы впадаете в уныние#!"
  bp1_yearly.5714.b: "Нужно крепиться и жить дальше."
  bp1_yearly.5715.t: "Говорить научись, тупица"
- bp1_yearly.5715.desc: "«Нет! Так произносить нельзя! Почтенный ученый, который #EMP придумал#! это слово, говорил, что оно произносится именно так, как его произношу я...»\n\n[Select_CString(gibbet_friend.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('gibbet_friend'))] [gibbet_friend.GetFirstName] и я с головой ушли в яростный спор, который и не думает стихать. Проходя мимо шибеницы, [gibbet_friend.GetSheHe] делает какое-то замечание. Но я весьма хорошо знаю [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l] язык и потому мягко поправляю [gibbet_friend.GetHerHis] — в начале слова согласная твердая, а не мягкая, и это ясно любому #EMP разумному#! человеку! Но [gibbet_friend.GetSheHe], упорствуя в своих заблуждениях, громогласно выдвигает контраргументы, к тому же на повышенных тонах!\n\n«Поверить не могу, что ты так цепляешься за очевидный [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('gibbet_friend'))|l] лингвистический казус!» — блажит [gibbet_friend.GetSheHe]."
+ bp1_yearly.5715.desc: "«Нет! Так произносить нельзя! Почтенный ученый, который #EMP придумал#! это слово, говорил, что оно произносится именно так, как его произношу я...»\n\n[Select_CString(gibbet_friend.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('gibbet_friend'))] [gibbet_friend.GetFirstName] и я с головой ушли в яростный спор, который и не думает стихать. Проходя мимо шибеницы, [gibbet_friend.GetSheHe] делает какое-то замечание. Но я весьма хорошо знаю [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l] язык и потому мягко поправляю [gibbet_friend.GetHerHis] — в начале слова согласная твердая, а не мягкая, и это ясно любому #EMP разумному#! человеку! Но [gibbet_friend.GetSheHe], упорствуя в своих заблуждениях, громогласно выдвигает контраргументы, к тому же на повышенных тонах!\n\n«Поверить не могу, что ты так цепляешься за очевидный [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('gibbet_friend'))|l]ый лингвистический казус!» — блажит [gibbet_friend.GetSheHe]."
  bp1_yearly.5715.a: "Останемся при своем."
  bp1_yearly.5715.b: "Все так, как я говорю, и точка!"
  bp1_yearly.5715.c: "Произносится «шибеница», и я могу это доказать!"
@@ -344,7 +344,7 @@
  bp1_yearly.8010.b: "Даже не знаю, [bp1_8010_best_friend.GetFirstNameNoTooltip]..."
  #Rival of my Rival
  bp1_yearly.8020.opening: "[bp1_8020_friend.Custom2('AppropriateGreeting', ROOT.Char)]"
- bp1_yearly.8020.desc: "До меня дошли слухи, что вы и [bp1_8020_rival.Custom2('InsultAdjective', SCOPE.sC('bp1_8020_friend'))|l] [bp1_8020_rival.Custom2('InsultNoun', SCOPE.sC('bp1_8020_friend'))|l], [bp1_8020_rival.GetFirstName], презренное подобие человека, повздорили.\n\nУчитывая наши общие интересы, думаю, мы поладим, друг мой."
+ bp1_yearly.8020.desc: "До меня дошли слухи, что вы и [bp1_8020_rival.Custom2('InsultAdjective', SCOPE.sC('bp1_8020_friend'))|l][Select_CString(bp1_8020_rival.IsFemale, 'ая', 'ый' )] [bp1_8020_rival.Custom2('InsultNoun', SCOPE.sC('bp1_8020_friend'))|l], [bp1_8020_rival.GetFirstName], презренное подобие человека, повздорили.\n\nУчитывая наши общие интересы, думаю, мы поладим, друг мой."
  bp1_yearly.8020.a: "С нетерпением жду возможности обсудить это подробнее."
  bp1_yearly.8020.b: "В наши дни посланникам нельзя доверять..."
  bp1_yearly.8020.b.flavor: "Подозвать гонца. Пусть это письмо прочитает [bp1_8020_rival.GetTitledFirstNameNoTooltip]."

@@ -176,7 +176,7 @@ hegemon_female_korean = {
 }
 spouse_hegemon_male_korean = {
 	type = character
-	gender = female
+	gender = male
 	special = holder
 	tier = hegemony
 	priority = 282
@@ -339,7 +339,6 @@ duke_administrative_male_korean_military_governor = {
 	name_lists = { name_list_korean }
 	subject_contract_obligation_flags = {
 		meritocratic_province_military
-		meritocratic_province_protectorate
 	}
 	flavourization_rules = {
 		only_vassals = yes
@@ -356,7 +355,6 @@ duke_administrative_female_korean_military_governor = {
 	governments = { meritocratic_government administrative_government }
 	subject_contract_obligation_flags = {
 		meritocratic_province_military
-		meritocratic_province_protectorate
 	}
 	name_lists = { name_list_korean }
 	flavourization_rules = {

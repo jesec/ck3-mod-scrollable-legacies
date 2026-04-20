@@ -592,7 +592,7 @@
  seduce_ongoing.5301.c.tt:0 "#F There will be other times. My [THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))] is not going anywhere.#!"
  seduce_ongoing.5301.success_tt:0 "If [target.GetFirstName] returns my advances:"
 
- seduce_ongoing.5302.desc:0 "It feels so right, I do not even take note at first, but as we sit in front of the fireplace, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] clasps my hand with an intensity far beyond the assurances of a [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nI can feel [target.GetHerHis] pulse quicken with desire."
+ seduce_ongoing.5302.desc:0 "It feels so right, I do not even take note at first, but as we sit in front of the fireplace, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] clasps my hand with an intensity far beyond the assurances of a [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nI can feel [owner.GetHerHis] pulse quicken with desire."
  seduce_ongoing.5302.a:0 "I refuse to believe what I feel is wrong."
  seduce_ongoing.5302.b:0 "I'm flattered by the attention, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], but no."
 

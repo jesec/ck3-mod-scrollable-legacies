@@ -27,7 +27,7 @@
 		government_has_flag = government_is_mandala
 		custom_tooltip = {
 			text = requires_creation_aspect_tooltip
-			house = { has_house_power_parameter = aspect_of_creation }
+			house = { has_house_aspiration_parameter = aspect_of_creation }
 		}
 		is_house_head = yes
 	}

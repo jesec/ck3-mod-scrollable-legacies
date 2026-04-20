@@ -43,7 +43,7 @@ mandate_focused_on_own_training_modifier = {
 }
 
 mandate_strained_self_training_modifier = {
-	icon = martial_negative
+	icon = martial_mixed
 	prowess = minor_skill_bonus
 	health = minor_health_penalty
 }
@@ -57,7 +57,7 @@ mandate_induced_fines_to_liege_modifier = {
 }
 
 mandate_induced_fines_split_modifier = {
-	icon = stewardship_negative
+	icon = stewardship_mixed
 	tax_mult = 0.2
 	county_opinion_add = -50
 }

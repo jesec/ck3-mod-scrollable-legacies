@@ -234,3 +234,6 @@
  travel_start_event.1120.pro_hegemon: "Пусть нас ведет движение «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip]»!"
  travel_start_event.1120.pro_hegemon.tt: "Вы присоединяетесь к движению «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]»"
  travel_start_event.1120.bye: "Не имею ни малейшего желания к кому-то из них примыкать."
+ travel_starts: "Путешествие начинается"
+ travel_destination_activity: "Место вашего назначения — [location.GetName], где состоится [host.GetInvolvedActivity.GetName|l]"
+ travel_destination_location: "Место вашего назначения — [location.GetName]"

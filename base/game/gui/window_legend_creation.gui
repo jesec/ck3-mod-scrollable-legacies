@@ -17,6 +17,15 @@ window = {
 	}
 
 	state = {
+		name = on_create
+		trigger_on_create = yes
+
+		on_start = "[GetVariableSystem.Set( 'famed', 'true'  )]"
+		on_start = "[GetVariableSystem.Clear( 'illustrious' )]"
+		on_start = "[GetVariableSystem.Clear( 'mythical' )]"
+	}
+
+	state = {
 		name = _hide
 		using = Animation_FadeOut_Quick
 	}
@@ -115,30 +124,85 @@ window = {
 			}
 
 			vbox = {
+				visible = "[PdxGuiFoldOut.IsUnfolded]"
 				layoutpolicy_horizontal = expanding
 
-				visible = "[PdxGuiFoldOut.IsUnfolded]"
+				#oncreate = "[BindTabsContext]"
+				# oncreate = "[PdxGuiTabs.SetResetOnShown( '(bool)no')]"
+				# oncreate = "[PdxGuiTabs.AddTab( 'famed' )]"
+				# oncreate = "[PdxGuiTabs.AddTab( 'illustrious' )]"
+				# oncreate = "[PdxGuiTabs.AddTab( 'mythical' )]"
+				#oncreate = "[PdxGuiTabs.ListenFor( 'seed_quality' )]"
 
-				oncreate = "[BindTabsContext]"
-				oncreate = "[PdxGuiTabs.SetResetOnShown( '(bool)no')]"
-				oncreate = "[PdxGuiTabs.AddTab( 'famed' )]"
-				oncreate = "[PdxGuiTabs.AddTab( 'illustrious' )]"
-				oncreate = "[PdxGuiTabs.AddTab( 'mythical' )]"
-				oncreate = "[PdxGuiTabs.ListenFor( 'seed_quality' )]"
-
-				hbox_tab_buttons = {
+				### Tabs
+				hbox = {
 					name = "quality_tabs"
+					layoutpolicy_horizontal = expanding
 
-					blockoverride "tab_name"
-					{
-						text = "[PdxGuiTabItem.LocalizeTab( 'legend_quality' )]"
+					button_tab = {
+						name = "famed_tab"
+						shortcut = "tab_1"
+
+						down = "[GetVariableSystem.Exists( 'famed' )]"
+
+						onclick = "[GetVariableSystem.Set( 'famed', 'true' )]"
+						onclick = "[GetVariableSystem.Clear( 'illustrious' )]"
+						onclick = "[GetVariableSystem.Clear( 'mythical' )]"
+
+						alwaystransparent = "[GetVariableSystem.Exists( 'famed' )]"
+
+						blockoverride "tab_label"
+						{
+							text = "CREATE_LEGEND_TAB_FAMED"
+							max_width = 180
+						}
+					}
+
+					button_tab = {
+						name = "illustrious_tab"
+						shortcut = "tab_2"
+
+						down = "[GetVariableSystem.Exists( 'illustrious' )]"
+
+						onclick = "[GetVariableSystem.Set( 'illustrious', 'true' )]"
+						onclick = "[GetVariableSystem.Clear( 'famed' )]"
+						onclick = "[GetVariableSystem.Clear( 'mythical' )]"
+
+						alwaystransparent = "[GetVariableSystem.Exists( 'illustrious' )]"
+
+						blockoverride "tab_label"
+						{
+							text = "CREATE_LEGEND_TAB_ILLUSTRIOUS"
+							max_width = 180
+						}
+
+						
+					}
+
+					button_tab = {
+						name = "mythical_tab"
+						shortcut = "tab_3"
+
+						down = "[GetVariableSystem.Exists( 'mythical' )]"
+
+						onclick = "[GetVariableSystem.Set( 'mythical', 'true' )]"
+						onclick = "[GetVariableSystem.Clear( 'famed' )]"
+						onclick = "[GetVariableSystem.Clear( 'illustrious' )]"
+
+						alwaystransparent = "[GetVariableSystem.Exists( 'mythical' )]"
+
+						blockoverride "tab_label"
+						{
+							text = "CREATE_LEGEND_TAB_MYTHICAL"
+							max_width = 180
+						}
 					}
 				}
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
-					
+
 					scrollbox = {
 						name = "effects_scrollarea"
 						layoutpolicy_horizontal = expanding
@@ -151,7 +215,7 @@ window = {
 								layoutpolicy_horizontal = expanding
 								autoresize = yes
 								max_width = 630
-								text = "[LegendCreationWindow.GetCompletionDesc( PdxGuiTabs.GetActiveTab.GetKey )]"
+								text = "[LegendCreationWindow.GetCompletionDesc( Select_CString( GetVariableSystem.Exists('mythical'), 'mythical', Select_CString( GetVariableSystem.Exists('illustrious'), 'illustrious', 'famed' ) ) )]"
 							}
 						}
 					}

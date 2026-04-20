@@ -84,6 +84,7 @@ types TravelOptions
 			layoutpolicy_vertical = expanding
 			layoutpolicy_horizontal = expanding
 			size = { 100% 100%}
+			using = SubTabShortcut
 
 			enabled = "[TravelOptionSelectionWindow.CanSelect(TravelOption.Self)]"
 			onclick = "[TravelOptionSelectionWindow.OnClick(TravelOption.Self)]"

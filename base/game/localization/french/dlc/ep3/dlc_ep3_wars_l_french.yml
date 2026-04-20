@@ -84,4 +84,5 @@
  ep3_laamp_peasant_war: "Révolte paysanne"
  ep3_laamp_peasant_war.peasant_army: "Les paysans de chaque comté deviendront des [levies|El] et rejoindront votre camp"
  ep3_join_war_payment_tt: "En raison du [task_contract|El] [GetTaskContractType('laamp_join_war_contract').GetName] :"
- ep3_hire_laamp_mercs_payment_tt: "En raison du travail [mercenary|El] :"
+ ep3_hire_laamp_mercs_payment_tt: "En raison de l’achèvement du contrat [mercenary|El] par [TARGET_CHARACTER.Custom('FR_le_Char_U_Pi')][TARGET_CHARACTER.GetShortUIName] :"
+ ep3_hire_laamp_mercs_payment_later_tt: "L’[Concept('adventurer', Select_CString(THIS.Char.IsFemale,'aventurière','aventurier'))|E] [mercenary|El], [THIS.Char.Custom('FR_le_Char_U_Pi')][THIS.Char.GetShortUIName], restera dans les autres [wars|El] [THIS.Char.MakeScope.Var('joined_as_mercenary').Char.Custom('FR_du_Char_U_Pi')][THIS.Char.MakeScope.Var('joined_as_mercenary').Char.GetShortUIName]"

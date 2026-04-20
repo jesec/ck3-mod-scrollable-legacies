@@ -60,5 +60,5 @@
  is_mandala_government: "Les [mandalas|El] préfèrent être des [tributaries|El] : $VALUE|=+0$"
  is_disbelieved_mandala: "Vous êtes un [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|l] : $VALUE|=+0$"
  base_with_value: "Base : $VALUE|=+0$"
- has_aspect_of_serenity: "$aspect_of_serenity_house_power$ : $VALUE|=+0$"
+ has_aspect_of_serenity: "$aspect_of_serenity_house_aspiration$ : $VALUE|=+0$"
  mandala_ai_godking_modifier: "Est un aspirant Devaraja : $VALUE|=+0$"

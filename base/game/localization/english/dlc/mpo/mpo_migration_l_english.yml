@@ -15,7 +15,7 @@
  MIGRATION_WINDOW_DEJURE_KINGDOM_BLOCKED: "@warning_icon! #X You need at least [GetLaw('nomadic_authority_3').GetName]#!"
  MIGRATION_WINDOW_DEJURE_EMPIRE_BLOCKED: "@warning_icon! #X You need at least [GetLaw('nomadic_authority_4').GetName]#!"
  MIGRATION_COLOR_SELECTOR_REALMS: "Show [realms|E]"
- MIGRATION_COLOR_SELECTOR_FERTILITY: "Show [fertility|E]"
+ MIGRATION_COLOR_SELECTOR_FERTILITY: "Show [county_fertility|E]"
  MIGRATION_WINDOW_NOMAD_INFO: "The strongest Ruler will make the decision if your Migration will be accepted or not."
  MIGRATION_WINDOW_ALL_NOMADS_BUTTON: "View all Rulers #weak ([MigrationWindow.GetInvolvedCharacterList.GetTotalNumber])#!"
  MIGRATION_INVOLVED_CHARACTERS_HEADER: "Involved Characters"

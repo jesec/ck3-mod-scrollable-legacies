@@ -78,7 +78,7 @@
  HIRED_TROOPS_VIEW_HR_STATUS_AT_WAR_AGAINST_YOU: "#X 당신과 전쟁 중#!"
  HIRED_TROOPS_VIEW_HR_STATUS_AT_WAR: "#X 전쟁 중#!"
  HIRED_TROOPS_VIEW_HR_STATUS_BUSY: "#X 바쁨#!"
- HIRED_TROOPS_VIEW_HR_COST: "@gold_icon! $COST|0$"
+ HIRED_TROOPS_VIEW_HR_COST: "[SelectLocalization( GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!' )] $COST|0$"
  TITLE_TROOPS_MAPMODE_TOOLTIP_STATUS: "#weak 상태:#! [Title.GetAdministrativeArmyStatus]"
  TITLE_TROOPS_MAPMODE_TOOLTIP_TROOPS_FROM: "병력 출신:"
  TITLE_TROOPS_MAPMODE_TOOLTIP_CURRENT_ARMY_SIZE: "#weak 부대 규모:#! [Title.GetTotalTitleMAATroopsDesc]"

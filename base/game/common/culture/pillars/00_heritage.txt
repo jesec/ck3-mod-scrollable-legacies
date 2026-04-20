@@ -474,6 +474,16 @@ heritage_syriac = {
 	audio_parameter = byzantine
 }
 
+heritage_phoenician = {
+	type = heritage 
+	is_shown = { 
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_phoenician
+		}		
+	}
+	audio_parameter = byzantine
+}
+
 heritage_gothic = {
 	type = heritage
 	is_shown = {

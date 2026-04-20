@@ -382,7 +382,7 @@
  INTRIGUE_WINDOW_HOOK_SHOW_ALL: "#T Affichage des hameçons#!\n#I Cliquez pour basculer entre afficher tous les hameçons ou seulement ceux utilisables#!"
  INTRIGUE_WINDOW_AGENT_DISCOVERED: "Découvert !"
  INTRIGUE_WINDOW_AGENT_DISCOVERED_TT: "#T $INTRIGUE_WINDOW_AGENT_DISCOVERED$#!\nLes agents découverts risquent l’emprisonnement"
- INTRIGUE_WINDOW_REMOVE_AGENT_TT: "Retirer [Character.Custom('FR_le_Char_U_P')][Character.GetUIName] de sa place de [SchemeAgentSlotItem.GetSlot.GetName|l]"
+ INTRIGUE_WINDOW_REMOVE_AGENT_TT: "Retirer [Character.Custom('FR_le_Char_U_P')][Character.GetUIName] comme [SchemeAgentSlotItem.GetSlot.GetName|l]"
  #Scheme Agent Contribution tooltip variants
  INTRIGUE_WINDOW_SCHEME_CONTRIBUTION_TT: "#T Contribution :#! [SchemeAgentSlotItem.GetContributionDesc] \n [SchemeAgentSlotItem.GetContributionBreakdown]"
  INTRIGUE_WINDOW_SCHEME_CONTRIBUTION_SPEED_DESC: "#T [scheme_speed|E]#!"

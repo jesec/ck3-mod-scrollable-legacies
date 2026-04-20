@@ -35,7 +35,7 @@
  tgp_power_undermined_modifier_tt: "[GetModifier('tgp_power_undermined_modifier').GetNameWithTooltip]: #P +25#!"
  tgp_ceremonial_liege_events.0020.c: "Prześlijcie [opposing_power.Custom('PL_mu_jej')] ode mnie najlepsze życzenia."
  tgp_ceremonial_liege_events.0030.t: "Kronika uczonego"
- tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName] prezentuje umiejętnie napisaną kronikę historii miejsca znanego jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName].\n\nKronika ta"
+ tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName] prezentuje umiejętnie napisaną kronikę historii miejsca znanego jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName].\n\nKronika ta"
  tgp_ceremonial_liege_events.0030.regent: "często i w szczegółach wspomina o osobie znanej jako [opposing_power.GetFirstName], a jej autor – [scholar.GetFirstNameNoTooltip] – dba o to, aby nie zabrakło także informacji dotyczących jej krwi, czyli rodu [opposing_power.GetHouse.GetName].\n\nProblem staje się oczywisty, kiedy zauważam, że do opisania mnie autor używa epitetu „[ROOT.Char.Custom('InsultAdjective')]”, podczas gdy [opposing_power.GetFirstNameNoTooltip] to w oczach autora „[ROOT.Char.Custom('ComplimentNoun')]”…"
  tgp_ceremonial_liege_events.0030.liege: "często i w szczegółach wspomina o mnie, a jej autor – [scholar.GetFirstNameNoTooltip] – dba o to, aby nie zabrakło także informacji dotyczących mej krwi, czyli rodu [ROOT.Char.GetHouse.GetName].\n\nNajbardziej moją uwagę przykuwa to, że autor określa mnie jako „[ROOT.Char.Custom('ComplimentNoun')]”, tymczasem osobie znanej jako [opposing_power.GetFirstNameNoTooltip] przypisuje niewybredny epitet – „[opposing_power.Custom('InsultAdjective')]”…"
  tgp_ceremonial_liege_events.0030.a: "Doskonała robota!"

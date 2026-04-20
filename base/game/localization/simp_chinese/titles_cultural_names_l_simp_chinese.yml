@@ -2748,6 +2748,14 @@
  cn_okjeo_adj: "$cn_okjeo$"
  cn_pungju: "丰州" #豐州 (풍주)
  cn_pungju_adj: "$cn_pungju$"
+ cn_eunju: "银州" #은주
+ cn_eunju_adj: "$cn_eunju$"
+ cn_cheopju: "叠州" #첩주
+ cn_cheopju_adj: "$cn_cheopju$"
+ cn_gwideokju: "贵德州" #귀덕주
+ cn_gwideokju_adj: "$cn_gwideokju$"
+ cn_simyang: "沈阳" #심양
+ cn_simyang_adj: "$cn_simyang$"
  #Japan
  cn_east_hokkaido: "东北海道"
  cn_east_hokkaido_adj: "$cn_east_hokkaido$"
@@ -2758,7 +2766,7 @@
  cn_nishi: "尔志" #爾志
  cn_kayabe: "茅部" #茅部
  cn_otaru: "小樽" #小樽
- cn_setana: "濑棚"
+ cn_setana: "濑棚" #瀬棚
  cn_abuta: "虻田" #虻田
  cn_yoichi: "余市" #余市
  cn_oshima: "渡岛" #渡島
@@ -2923,3 +2931,45 @@
  cn_michuan: "米川" #米川
  cn_juyan: "居延" #居延
  cn_tongcheng: "同城" #同城
+ cn_luopubo: "罗布泊" #罗布泊
+ #Carthaginian
+ cn_carthage: "迦太基"
+ cn_lilybaeum: "利吕拜乌姆"
+ cn_panormus: "帕诺尔穆斯"
+ cn_maleth: "马莱斯"
+ cn_agragant: "阿格里根图姆"
+ cn_sicilia: "西西里"
+ cn_sardinia: "撒丁尼亚"
+ cn_caralis: "卡拉利斯"
+ cn_tibia: "提庇阿"
+ cn_hadrumetum: "哈德鲁麦图姆"
+ cn_thabraca: "塔布拉卡"
+ cn_hippo: "希波"
+ cn_tabrua: "塔布鲁阿"
+ cn_girba: "吉尔巴"
+ cn_syrtis: "叙尔提斯"
+ cn_charax: "哈拉克斯"
+ cn_icosium: "伊科西翁"
+ cn_saldae: "萨尔代"
+ cn_quinea: "居尼亚"
+ cn_iol: "伊俄尔"
+ cn_siga: "锡加"
+ cn_tingis: "廷吉斯"
+ cn_abdyla: "阿布底拉"
+ cn_sala: "萨拉"
+ cn_ilecarvones: "伊莱尔卡沃内斯"
+ cn_saguntum: "萨贡图姆"
+ cn_cartalias: "卡尔塔利亚斯"
+ cn_carthago_nova: "新迦太基"
+ cn_bastetani: "巴斯特塔尼"
+ cn_basti: "巴斯蒂"
+ cn_malaca: "马拉卡"
+ cn_calpe: "卡尔佩"
+ cn_gades: "伽得斯"
+ cn_tudetani: "图尔德塔尼"
+ cn_hispalis: "希斯帕利斯"
+ cn_herna: "赫尔纳"
+ cn_cirta: "锡尔塔"
+ cn_sufetula: "苏费图拉"
+ cn_zama: "扎马"
+ cn_rusaddir: "鲁萨迪尔"

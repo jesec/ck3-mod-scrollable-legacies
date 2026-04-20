@@ -28,7 +28,7 @@ secondary_character_stress = {
 	group = character
 }
 character_health = {
-	display = toast
+	display = feed
 	group = character
 }
 character_trait = {
@@ -139,6 +139,10 @@ dynasty_cadet_created = {
 	group = dynasty
 }
 dynasty_child_of_age = {
+	display = hidden
+	group = dynasty
+}
+child_of_age = {
 	display = hidden
 	group = dynasty
 }
@@ -625,7 +629,19 @@ accolade_rank = {
 	group = accolade
 }
 accolade_succession = {
-	display = toast
+	display = feed
+	group = accolade
+}
+accolade_eligibility = {
+	display = feed
+	group = accolade
+}
+accolade_squire_training = {
+	display = feed
+	group = accolade
+}
+accolade_knight_training = {
+	display = feed
 	group = accolade
 }
 # TOURNAMENT

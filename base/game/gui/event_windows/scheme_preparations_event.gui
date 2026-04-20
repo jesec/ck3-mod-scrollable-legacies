@@ -13,6 +13,12 @@ window = {
 
 	using = Event_Window_Debug_OptionTooltips
 	using = Event_Window_Debug_EventTools
+	blockoverride "is_event_on_top" {
+		enabled = "[EventWindow.IsOnTop]"
+	}
+	blockoverride "is_event_on_top_close" {
+		trigger_when = "[Not(EventWindow.IsOnTop)]"
+	}
 
 	state = {
 		name = _show

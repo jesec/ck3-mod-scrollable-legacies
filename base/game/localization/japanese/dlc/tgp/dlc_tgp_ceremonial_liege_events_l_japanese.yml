@@ -35,7 +35,7 @@
  tgp_power_undermined_modifier_tt: "[GetModifier('tgp_power_undermined_modifier').GetNameWithTooltip]：#P +25#!"
  tgp_ceremonial_liege_events.0020.c: "[opposing_power.GetHerHim]によろしく伝える。"
  tgp_ceremonial_liege_events.0030.t: "学者の年代記"
- tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName]が[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName]の歴史を詳しく記した年代記を提出した。\n\nこの年代記には"
+ tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName]が[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName]の歴史を詳しく記した年代記を提出した。\n\nこの年代記には"
  tgp_ceremonial_liege_events.0030.regent: "[opposing_power.GetFirstName]のことが頻繁かつ詳細に言及されており、[scholar.GetFirstNameNoTooltip]は[opposing_power.GetFirstNamePossessiveNoTooltip]の一族、[opposing_power.GetHouse.GetName]家に関する詳細を漏れなく記している。\n\n問題は、私が[ROOT.Char.Custom('InsultAdjective')]人物として表現されている一方で、[opposing_power.GetFirstNameNoTooltip]が非常に[ROOT.Char.Custom('ComplimentAdjective')]人物と評されていることだ…"
  tgp_ceremonial_liege_events.0030.liege: "私のことが頻繁かつ詳細に言及されており、[scholar.GetFirstNameNoTooltip]は我が[ROOT.Char.GetHouse.GetName]一族に関する詳細をきちんと記している。\n\n特に私の注意を引いたのは、私が[ROOT.Char.Custom('ComplimentAdjective')]人物と表現されている一方で、[opposing_power.GetFirstNameNoTooltip]が非常に[opposing_power.Custom('InsultAdjective')]人物と評されていることだ…"
  tgp_ceremonial_liege_events.0030.a: "よくやった！"

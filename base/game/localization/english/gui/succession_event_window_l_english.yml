@@ -23,7 +23,7 @@
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHRISTIANITY_1:0 "[ROOT.Char.GetFullNameNoTooltip] has found peace in Christ's embrace at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHRISTIANITY_2:0 "[ROOT.Char.GetFullNameNoTooltip] rests in the arms of the Lord at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_1:0 "[ROOT.Char.GetFullNameNoTooltip] has left the transient house at the call of the True One at [ROOT.Char.GetAge] years of age."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_2:0 "[ROOT.Char.GetFullNameNoTooltip] has abandoned this transient world​ and flown to [ROOT.Char.GetFaith.PositiveAfterLife] at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_2:0 "[ROOT.Char.GetFullNameNoTooltip] has abandoned this transient world and flown to [ROOT.Char.GetFaith.PositiveAfterLife] at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_3:0 "[ROOT.Char.GetFullNameNoTooltip] has passed on to eternity at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_NORSE_1:0 "[ROOT.Char.GetFullNameNoTooltip] has joined the feast in [ROOT.Char.GetFaith.PositiveAfterLife] at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_HELLENIC_1:0 "[ROOT.Char.GetFullNameNoTooltip] has crossed the River Styx at [ROOT.Char.GetAge] years of age."
@@ -228,7 +228,7 @@
  SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR:1 "but it has remained obscure and will soon be forgotten"
 
 #########################################
- SUCCESSION_EVENT_WINDOW_DEAD_DESC:0 "[CHARACTER.Custom('DeathMessageIntro')] [CHARACTER.Custom('DeathMessageReason')] [CHARACTER.Custom('DeathMessageOutro')]"
+ SUCCESSION_EVENT_WINDOW_DEAD_DESC:0 "[Character.Custom('DeathMessageIntro')][Character.Custom('NicknameReason')] [Character.Custom('DeathMessageReason')] [Character.Custom('DeathMessageOutro')]"
  SUCCESSION_EVENT_WINDOW_HEIR_DESC:0 "[CHARACTER.GetTitledFirstNameNoTooltip] [CHARACTER.Custom('GetSuccessionHeirMotion')]. [CHARACTER.Custom('HeirMessageInterface')]"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_DESC:4 "[CHARACTER.Custom('GameOverMessageInterface')]. [CHARACTER.Custom('GameOverMessageInterfaceDuration')] [CHARACTER.Custom('GameOverMessageInterfaceSplendor')].[CHARACTER.Custom('GameOverMessageNotableAchievements')]"
  SUCCESSION_EVENT_WINDOW_END_DATE_DESC:2 "The end date of the game has been reached.\n\n[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceDuration')] [SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceSplendor')].[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageNotableAchievements')]"
@@ -312,3 +312,6 @@
 #Variable loc for lamp
  succession_heir_throne: "ascends to the throne"
  succession_heir_leader: "steps forward as leader"
+
+ #Nicknames
+ SUCCESSION_EVENT_WINDOW_NICKNAME: " Known in life as [ROOT.Char.GetNickname]."

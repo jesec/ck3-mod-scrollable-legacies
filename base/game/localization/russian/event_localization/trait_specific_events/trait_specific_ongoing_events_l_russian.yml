@@ -204,7 +204,7 @@
  trait_specific_ongoing.3015.book.desc: "понимаю, что книга, которую нужно [SCOPE.sC('unsympathetic').GetHerHim] вернуть, осталась в покоях,"
  trait_specific_ongoing.3015.end.desc: "я точно знаю, как [unsympathetic.GetSheHe] отреагирует.\n\n«И почему это меня не удивляет?» — со вздохом говорит [unsympathetic.GetTitledFirstNameNoTooltip], и внутри меня что-то обрывается. "
  trait_specific_ongoing.3015.a: "Я [unsympathetic.GetHerHim] докажу!"
- trait_specific_ongoing.3015.b: "«Заткнись, [unsympathetic.Custom2('InsultNoun', ROOT.Char)] [unsympathetic.Custom2('InsultAdjective', ROOT.Char)]!»"
+ trait_specific_ongoing.3015.b: "«Заткнись, [unsympathetic.Custom2('InsultNoun', ROOT.Char)] [unsympathetic.Custom2('InsultAdjective', ROOT.Char)][Select_CString(unsympathetic.IsFemale, 'ая', 'ый' )]!»"
  trait_specific_ongoing.3015.c: "[unsympathetic.GetSheHe|U] [Select_CString(unsympathetic.IsFemale, 'права', 'прав' )]. От меня никакого толку..."
  trait_specific_ongoing.3015.a.success: "Я преодолеваю вялость"
  trait_specific_ongoing.3015.a.neutral: "Я все еще едва двигаюсь"

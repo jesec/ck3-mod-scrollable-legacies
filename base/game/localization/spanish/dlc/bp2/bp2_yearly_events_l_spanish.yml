@@ -1,7 +1,7 @@
 ﻿l_spanish:
  #Pet Rock events
  pet_rock.0001.t: "Piedras en el camino"
- pet_rock.0001.desc: " #EMP ¡Plic!#! \n\nDeambulo por el exterior cuando mi zapato choca con una piedrecita. El guijarro tintinea brillantemente alejándose de algunos de sus compañeros y se detiene a poca distancia de mí. Atrapad[ROOT.Char.Custom('ES_OA')] por la curiosidad, lo recojo. Su marcado exterior [ROOT.Char.Custom('RockColor')] me resulta extrañamente cálido.\n\nDe repente, sé exactamente lo que quiere. La piedra proyecta un aura #EMP amistosa#!. Cuando la contemplo, acurrucada en la palma de mi mano, su peso me tranquiliza y estimula al mismo tiempo."
+ pet_rock.0001.desc: " #EMP ¡Plic!#! \n\nDeambulo por el exterior cuando mi zapato choca con una piedrecita. El guijarro tintinea brillantemente alejándose de algunos de sus compañeros y se detiene a poca distancia de mí. Atrapad[ROOT.Char.Custom('ES_OA')] por la curiosidad, lo recojo. Su marcado exterior me resulta extrañamente cálido.\n\nDe repente, sé exactamente lo que quiere. La piedra proyecta un aura #EMP amistosa#!. Cuando la contemplo, acurrucada en la palma de mi mano, su peso me tranquiliza y estimula al mismo tiempo."
  pet_rock.0001.a: "¡Seremos los mejores amigos!"
  pet_rock.0001.a.tt: "¡Comienzan vuestras aventuras juntos!"
  pet_rock.0001.b: "¿En qué estoy pensando?"

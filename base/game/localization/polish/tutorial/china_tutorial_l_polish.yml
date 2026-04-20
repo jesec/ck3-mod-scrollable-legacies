@@ -79,7 +79,7 @@
  lesson_china_admin_open_desc: "Zwiększmy naszą [Concept('merit_level', 'rangę zasług')|E]!"
  lesson_china_admin_open_prompt: "Otwórz panel „$ADMINISTRATIVE_GOVERNMENT_HEADER$” (podświetlone)"
  lesson_china_exam: "$lesson_china_admin_intro$"
- lesson_china_exam_desc: "W cesarstwie panuje merytokracja, a [imperial_examinations|El] dają pewność, że tylko najzdolniejsi i najbardziej cnotliwi będą rządzić [Concept('provinces', 'prowincjami')|E] jako [governors|El].\n\n$activity_local_examination|V$ mogą zwiększyć twoją [Concept('merit_level', 'rangę zasług')|E], jeśli do nich przystąpisz. $activity_imperial_examination|V$ również może w tym pomóc. Pamiętaj o tych [Concept('activities', 'aktywnościach')|E].\n\n$game_concept_examinations$ organizują zarówno [governors|El], jak i [son_of_heaven|El] osobiście.\n\nGdy egzaminy zostaną zorganizowane, otrzymasz zaproszenie."
+ lesson_china_exam_desc: "W cesarstwie panuje merytokracja, a [imperial_examinations|El] dają pewność, że tylko najzdolniejsi i najbardziej cnotliwi będą rządzić [Concept('provinces', 'prowincjami')|E] jako [governors|El].\n\n$activity_local_examination|V$ może zwiększyć twoją [Concept('merit_level', 'rangę zasług')|E], jeśli do niego przystąpisz. $activity_imperial_examination|V$ również może w tym pomóc. Pamiętaj o tych [Concept('activities', 'aktywnościach')|E].\n\n$game_concept_examinations$ organizują zarówno [governors|El], jak i [son_of_heaven|El] osobiście.\n\nGdy egzaminy zostaną zorganizowane, otrzymasz zaproszenie."
  lesson_china_STUDY_SCHEME_SEGMENT: "Nauka"
  TUTORIAL_OPEN_DECISION_PANEL_PROMPT: "Otwórz panel „$DECISIONS_VIEW_TITLE$”"
  lesson_china_decisions_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"

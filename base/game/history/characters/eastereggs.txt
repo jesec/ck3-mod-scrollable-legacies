@@ -29,6 +29,10 @@ easteregg_johan_andersson = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -60,6 +64,10 @@ easteregg_thomas_johansson = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -103,6 +111,10 @@ easteregg_martin_anward = {
 		employer = 100530 # Sweden
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -143,6 +155,10 @@ easteregg_henrik_fahraeus = {
 		employer = 100546
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_reveler
 			add_trait_xp = {
 				trait = lifestyle_reveler
@@ -190,6 +206,10 @@ easteregg_olof_bjork = {
 	1066.1.1 = {
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 		employer = 100527
 		contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
@@ -232,6 +252,10 @@ easteregg_tobias_bodlund = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -275,6 +299,10 @@ easteregg_emil_tisander = {
 		employer = 100546 #Uppland
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -315,6 +343,10 @@ easteregg_alexander_oltner = {
 		employer = 100525 # Sweden
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -362,6 +394,10 @@ easteregg_linda_tiger = {
 		employer = 20015 # Lapland
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -399,6 +435,10 @@ easteregg_charna_frostwhisper = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -441,6 +481,10 @@ easteregg_lysann_schlegel = {
 		employer = 30335 # Count of Mansfeld, close to Halle
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -476,6 +520,10 @@ easteregg_sara_wendel = {
 		give_nickname = nick_the_savage
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -505,6 +553,10 @@ easteregg_pernilla_sparrhult = {
 		employer = 145655 #Axum
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -540,6 +592,10 @@ easteregg_mathilda_bjarnehed = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -569,6 +625,10 @@ easteregg_matthew_frary = {
 		employer = 5650 # Norfolk
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -618,6 +678,10 @@ easteregg_matthew_clohessy = {
 		employer = 131 # Hertfordshire
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_reveler
 			add_trait_xp = {
 				trait = lifestyle_reveler
@@ -660,14 +724,6 @@ easteregg_matthew_clohessy = {
 				}
 				add_trait = impatient
 				set_knight_status = force
-				liege = {
-					create_accolade = {
-						knight = root
-						primary = master_of_revels_attribute
-						secondary = thug_attribute
-						name = accolade_name_the_red_knight_of_harpenden
-					}
-				}
 			}
 		}
 	}
@@ -712,6 +768,10 @@ easteregg_linnea_thimren = {
 		employer = 20014
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			give_witch_secret_or_trait_effect = yes
 			if = {
 				limit = {
@@ -760,6 +820,10 @@ easteregg_flavio_verna = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -796,6 +860,10 @@ easteregg_sean_hughes = {
 		employer = 20251
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			if = {
 				limit = {
 					has_dlc_feature = royal_court
@@ -844,6 +912,10 @@ easteregg_petter_vilberg = {
 		give_nickname = nick_troublemaker
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_poet
 		}
 	}
@@ -887,6 +959,10 @@ easteregg_maximilian_olbers = {
 		give_nickname = nick_the_lawgiver
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -929,6 +1005,10 @@ easteregg_milla_lankinen = {
 		employer = 20618 #Kemi
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -963,6 +1043,10 @@ easteregg_jakub_potapczyk = {
 		employer = 762 #Poland
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = {
 				type = secret_deviant
 			}
@@ -1030,6 +1114,10 @@ easteregg_ewan_cowhig_croft = {
 		add_perk = twice_schemed_perk
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			# Create Bazcat.
 			add_character_modifier = { modifier = cat_story_modifier }
 			# Send me a-wanderin'. But, y'know, still in Gloucestershire.
@@ -1110,6 +1198,10 @@ easteregg_joacim_carlberg = {
 		give_nickname = nick_the_eager
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1129,6 +1221,10 @@ easteregg_david_horler = {
 		employer = 140 # William the Bastard
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1175,6 +1271,10 @@ easteregg_paul_depre = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_non_believer }
 		}
 	}
@@ -1231,6 +1331,10 @@ easteregg_debbie_lane = {
 		employer = 132	#Essex
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1283,6 +1387,10 @@ easteregg_petter_lundh = {
 		give_nickname = nick_the_philosopher
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 
@@ -1326,6 +1434,10 @@ easteregg_nicholas_meredith = {
 		employer = anglo_saxon_1001	#Middlesex
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_cannibal }
 			give_nickname = nick_the_girthy
 			give_witch_secret_or_trait_effect = yes
@@ -1393,6 +1505,10 @@ easteregg_william_riggott = {
 		give_nickname = nick_the_beautiful_beard
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = { death = yes }
@@ -1427,6 +1543,10 @@ easteregg_anna_johansson = {
 		give_nickname = nick_little
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_deviant }
 			add_secret = { type = secret_cannibal }
 			add_secret = { type = secret_witch }
@@ -1465,6 +1585,10 @@ easteregg_arkadiusz_majewski = {
 		employer = 764 # Kuyavia
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_witch }
 			add_trait = lifestyle_mystic
 			add_trait_xp = {
@@ -1521,6 +1645,10 @@ easteregg_artur_kacprzak = {
 		employer = 302036
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_non_believer }
 			add_trait = lifestyle_blademaster
 			add_trait_xp = {
@@ -1579,6 +1707,10 @@ easteregg_anton_leirnes = {
 		employer = norwegian.1002	#Stolsheimen
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = { death = yes }
@@ -1622,6 +1754,10 @@ easteregg_anton_sorokin = {
 
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = {
 				type = secret_witch
 			}
@@ -1667,6 +1803,10 @@ easteregg_joel_hansson = {
 		employer = 101515
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1712,6 +1852,10 @@ easteregg_nikola_stokic = {
 		add_spouse = easteregg_tamara_stokic
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1762,6 +1906,10 @@ easteregg_malin_jonsson = {
 		give_nickname = nick_the_inevitable
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1811,6 +1959,10 @@ easteregg_max_weltz = {
 	1066.1.1 = {
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_non_believer }
 		}
 		employer = 40364
@@ -1858,6 +2010,10 @@ easteregg_jonas_wickerstrom = {
 		employer = 1746 #Optimatoi
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1888,6 +2044,10 @@ easteregg_arthur_bialecki = {
 		employer = 302017 #Poznan
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1922,6 +2082,10 @@ easteregg_patrick_mauffrey = {
 		employer = 40462 # Guigues d'Albon, count of Viennois
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -1968,6 +2132,10 @@ easteregg_viktor_stadler = {
 		give_nickname = nick_the_viking
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_incest }
 		}
 		move_to_pool = yes
@@ -2003,6 +2171,10 @@ easteregg_jesse_henning = {
 		employer = fox_1
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2038,6 +2210,10 @@ easteregg_rodrigue_delrue = {
 		employer = 40406 # Amiens
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2092,6 +2268,10 @@ easteregg_hanna_lohman = {
 		employer = 20005 #Ovre Dalarna
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2141,6 +2321,10 @@ easteregg_daniel_moore = {
 		set_relation_best_friend = { reason = friend_generic_history target = character:easteregg_alexander_windahl }
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2187,6 +2371,10 @@ easteregg_bartosz_byczynski = {
 		employer = 138496 #Aberystwyth (Cardigan, its liege)
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = {
 				type = secret_witch
 			}
@@ -2236,6 +2424,10 @@ easteregg_joseph_gardener = {
 		employer = 131
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_blademaster
 			add_trait_xp = {
 				trait = lifestyle_blademaster
@@ -2287,6 +2479,10 @@ easteregg_peter_johannesson = {
 		employer = 100525 # Sweden
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_reveler
 			add_trait_xp = {
 				trait = lifestyle_reveler
@@ -2340,6 +2536,10 @@ easteregg_troy_goodfellow = {
 		employer = 6180 # Ulster
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2391,6 +2591,10 @@ easteregg_katya_boestad = {
 		employer = 100525 # Sweden
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_witch }
 			add_trait = lifestyle_mystic
 			add_trait_xp = {
@@ -2453,6 +2657,10 @@ easteregg_bianca_savazzi = {
 		employer = 7757 # Mantova
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			if = {
 				limit = {
 					has_dlc_feature = royal_court
@@ -2521,6 +2729,10 @@ easteregg_steacy_mcilwham = {
 		employer = 131002
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2563,6 +2775,10 @@ easteregg_nils_wadensten = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2612,6 +2828,10 @@ easteregg_andreas_olsson = {
 		employer = 100527 #Halsingland
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_reveler
 			add_trait_xp = {
 				trait = lifestyle_reveler
@@ -2701,6 +2921,10 @@ easteregg_henrik_lohmander = {
 		}
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2742,6 +2966,10 @@ easteregg_ismael_serrano = {
 		employer = 107520 # Viscaya
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2773,6 +3001,10 @@ easteregg_fawn_rowe = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2807,6 +3039,10 @@ easteregg_lenaic_riedinger = {
 		employer = 20112 # Rouen
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2837,6 +3073,10 @@ easteregg_niall_bird = {
 		employer = 5660 # West Riding
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_reveler
 			add_trait_xp = {
 				trait = lifestyle_reveler
@@ -2899,6 +3139,10 @@ easteregg_christian_daflos = {
 		employer = 1764
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -2950,6 +3194,10 @@ easteregg_max_collin = {
 		employer = 115
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -3000,6 +3248,10 @@ easteregg_tegan_harris = {
 		employer = 112
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_witch }
 		}
 	}
@@ -3044,6 +3296,10 @@ easteregg_wojciech_cywinski = {
 		employer = 28015
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_non_believer }
 		}
 	}
@@ -3092,6 +3348,10 @@ easteregg_nikolaos_kaltsogiannis = {
 		employer = 20517 #Count Nikephoros of Demetrias.
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -3138,6 +3398,10 @@ easteregg_pontus_olofsson = {
 		employer = 20544 # Somewhere in the Kingdom of Pontus
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_non_believer }
 			add_trait = lifestyle_mystic
 			add_trait_xp = {
@@ -3197,6 +3461,10 @@ easteregg_karl_cederslatt = {
 		employer = 168643	#Skane
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_non_believer }
 		}
 		move_to_pool = yes
@@ -3245,6 +3513,10 @@ easteregg_sebastian_borg = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -3301,6 +3573,10 @@ easteregg_elisabeth_gangenes = { #Programmer
 		give_nickname = nick_the_silly
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			give_witch_secret_or_trait_effect = yes
 
 			# I may have certain biases, my desk certainly did not have several plushies! 
@@ -3423,6 +3699,10 @@ easteregg_isabella_welch = {
 		give_nickname = nick_the_cosmic_poet
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_non_believer }
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
@@ -3472,6 +3752,10 @@ easteregg_zack_holmgren = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -3516,6 +3800,10 @@ easteregg_claudia_baldassi = {
 		employer = 7730	#Monferrato
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -3557,6 +3845,10 @@ easteregg_bjorn_blomberg = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -3610,6 +3902,10 @@ easteregg_joe_parkin = {
 		give_nickname = nick_monophthalmos
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_non_believer }
 		}
 	}
@@ -3659,6 +3955,10 @@ easteregg_krzysztof_bochenek = {
 		give_nickname = nick_the_unrestrained
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_deviant }
 		}
 	}
@@ -3712,6 +4012,10 @@ easteregg_lukasz_opara = {
 		give_nickname = nick_priest_eater
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_cannibal }
 		}
 		move_to_pool = yes
@@ -3761,6 +4065,10 @@ easteregg_mateusz_mierzwa = {
 		give_nickname = nick_the_kind
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_incest }
 		}
 		move_to_pool = yes
@@ -3812,6 +4120,10 @@ easteregg_natalia_lechnata = {
 		give_nickname = nick_the_wary
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_mystic
 			add_trait_xp = {
 				trait = lifestyle_mystic
@@ -3874,6 +4186,10 @@ easteregg_natalia_poreba = {
 		give_nickname = nick_the_truthseeker
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_cannibal }
 		}
 	}
@@ -3927,6 +4243,10 @@ easteregg_alexander_windahl = {
 		give_nickname = nick_the_black_whirlwind
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_mystic
 			add_trait_xp = {
 				trait = lifestyle_mystic
@@ -3991,6 +4311,10 @@ easteregg_struan_mccallum = {
 		employer = 994 # Atholl
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1115.1.1 = {
@@ -4043,6 +4367,10 @@ easteregg_riad_deneche = {
 		employer = 155173 # High Chiefdom of Zab
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -4091,6 +4419,10 @@ easteregg_fenni_johansson = {
 	1066.1.1 = {
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			# He knows what he did.
 			attempted_murder_opinion_effect = {
 				VICTIM = character:easteregg_jakub_potapczyk
@@ -4137,6 +4469,10 @@ easteregg_james_beaumont = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			# Jag ar Svensk jaha
 			learn_language = language_norse
 			learn_language = language_anglic
@@ -4190,6 +4526,10 @@ easteregg_bahar_shefket = {
 		employer = 302629 #Mangyshlak
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 
@@ -4267,6 +4607,10 @@ easteregg_ola_jentzsch = { # Content Design
 		employer = 206651 #the king of Western Xia
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 		move_to_pool = yes
 		death = {
@@ -4322,6 +4666,10 @@ easteregg_hugo_cortell = { # Game Designer, Paradox Thalassic
 		employer = andalusian0059 # Starting back at home
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			remove_short_term_gold = { 4 46 }
 			if = { # Book condemning the immorality of board games and their harmful effects on the youth (Source: I made it up)
 				limit = { has_dlc_feature = royal_court }
@@ -4376,6 +4724,10 @@ easteregg_alexander_newcombe = {
 		learn_language = language_arabic
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -4432,6 +4784,10 @@ easteregg_elena_zenko = {
 
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = {
 				type = secret_witch
 			}
@@ -4480,6 +4836,10 @@ easteregg_stina_arvidsson_radestig = {
 		employer = 242505
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_reveler
 			add_trait_xp = {
 				trait = lifestyle_reveler
@@ -4558,6 +4918,10 @@ easteregg_sandra_runge_moller = { #QA
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 
@@ -4604,6 +4968,10 @@ easteregg_stella_carrick = {
 		employer = 984 # King Malcolm 3 of Scotland
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 
@@ -4650,6 +5018,10 @@ easteregg_alessandro_bragalini = {
 		employer = cisalpine0661
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_blademaster
 			add_trait_xp = {
 				trait = lifestyle_blademaster
@@ -4705,6 +5077,10 @@ easteregg_jenny_wickman = {
 		give_nickname = nick_the_mountain_dweller
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_mystic
 			add_trait_xp = {
 				trait = lifestyle_mystic
@@ -4771,6 +5147,10 @@ easteregg_anna_strom = {
 		employer = 100525 # Sweden
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -4820,6 +5200,10 @@ easteregg_jon_astrup_hallkvist = {
 		employer = 100525 # Sweden
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_reveler
 			add_trait_xp = {
 				trait = lifestyle_reveler
@@ -4881,6 +5265,10 @@ easteregg_maxence_voleau = { # Game Director
 		employer = 178 #Hoël nab Judhael of Cornouaille
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_trait = lifestyle_reveler
 			add_trait_xp = {
 				trait = lifestyle_reveler
@@ -4943,6 +5331,10 @@ easteregg_fei_berg_hulthen = { # Technical Animator
 		employer = 34156 # Denmark, to be Sweden
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_deviant }
 			add_secret = { type = secret_non_believer }
 		}
@@ -4984,6 +5376,10 @@ easteregg_chad_uhl = {
 		employer = 112600	#Bavaria
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			learn_language = language_latin
 			learn_language = language_greek
 			learn_language = language_norse
@@ -5070,6 +5466,10 @@ easteregg_jason_cantalini = {
 
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 			create_artifact = {
@@ -5129,6 +5529,10 @@ easteregg_fabian_franzen = {
 		employer = 20352
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -5182,6 +5586,10 @@ easteregg_veronica_pazos = {
 
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_cannibal }
 			add_character_flag = no_headgear
 			add_character_flag = has_scripted_appearance
@@ -5255,6 +5663,10 @@ easteregg_weronika_kowalczyk = {
 		employer = 34156 #Skane
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_cannibal }
 		}
 		move_to_pool = yes
@@ -5303,6 +5715,10 @@ easteregg_jakob_jorstedt = {
 		employer = 100546 #Uppland
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_deviant }
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
@@ -5354,6 +5770,10 @@ easteregg_tess_lindholm = {
 		employer = 100525 #Västergötland
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 			add_trait = lifestyle_mystic
@@ -5403,6 +5823,10 @@ easteregg_johanna_hermansson = {
 		#}
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -5441,6 +5865,10 @@ easteregg_daan_broekhof = {
 		employer = 106520
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_secret = { type = secret_witch }
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
@@ -5481,6 +5909,10 @@ easteregg_oscar_andersson = {
 		#}
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -5531,6 +5963,10 @@ easteregg_berrak_oz = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -5562,6 +5998,10 @@ easteregg_martin_tosta = {
 		employer = 10087
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -5595,6 +6035,10 @@ easteregg_jakob_eklund = {
 		employer = 100536
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 
@@ -5652,6 +6096,10 @@ easteregg_luke_bean = {
 		employer = 929 # Ailech
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 		}
@@ -5698,6 +6146,10 @@ easteregg_ida_hedberg = {
 		employer = 20014
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -5730,6 +6182,10 @@ easteregg_lucas_ribeiro = {
 		employer = 109607 # Duke Nuno II
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 			add_trait = beauty_good_1
@@ -5776,6 +6232,10 @@ easteregg_tomas_versekys = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -5819,6 +6279,10 @@ easteregg_david_drake = {
 		employer = 5644 #Would have been Lancashire but it's under the Mercian yoke
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			give_witch_secret_or_trait_effect = yes
 		}
 		move_to_pool = yes
@@ -5853,6 +6317,10 @@ easteregg_johan_husen = {
 		employer = 100525
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 		}
@@ -5889,6 +6357,10 @@ easteregg_alva_granholm = {
 		employer = 20005 # Count Tjudmund
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 			add_trait = shrewd
@@ -5933,6 +6405,10 @@ easteregg_lucia_dzediti = {
 		employer = 302096
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -5974,6 +6450,10 @@ easteregg_ernesto_lopez = {
 		employer = 107500
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 		}
@@ -6011,6 +6491,10 @@ easteregg_daniel_velasquez = {
 		employer = 108512 #Count Rodrigo Díaz of Asturias de Oviedo
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 		}
@@ -6051,6 +6535,10 @@ easteregg_francesca_passoni = {
 		employer = cisalpine0661
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -6103,6 +6591,10 @@ easteregg_emelie_verdugo = {
 		}
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -6162,6 +6654,10 @@ easteregg_carsten_mannetje = {
 		employer = 34156
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -6205,6 +6701,10 @@ easteregg_celine_jensen = {
 		employer = 40026
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -6246,6 +6746,10 @@ easteregg_johanna_uddstahl = {
 		employer = 20014
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = no_headgear
 		}
@@ -6293,6 +6797,10 @@ easteregg_anton_holmqvist = {
 		employer = 20014
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -6331,6 +6839,10 @@ easteregg_samet_atasoy = {
 		employer = 41308
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -6379,6 +6891,10 @@ easteregg_daniel_tolman = {
 		employer = 150
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
@@ -6418,6 +6934,10 @@ easteregg_rebecca_gottfredsson = {
 				value = 100
 			}
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6458,6 +6978,10 @@ easteregg_melanie_albarn = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6495,6 +7019,10 @@ easteregg_sarah_lager = {
 		effect = {
 			add_character_modifier = { modifier = cat_story_modifier }
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6532,6 +7060,10 @@ easteregg_david_ostlund = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6569,6 +7101,10 @@ easteregg_mathias_frostewarn = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6601,6 +7137,10 @@ easteregg_richard_lindkvist = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6638,6 +7178,10 @@ easteregg_tomasz_ender = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6680,6 +7224,10 @@ easteregg_marcus_bose = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6717,6 +7265,10 @@ easteregg_philip_wessman = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6751,6 +7303,10 @@ easteregg_neyla_garcia = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6797,6 +7353,10 @@ easteregg_jacopo_freddi = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6832,6 +7392,10 @@ easteregg_jesse_kopparvall = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6865,6 +7429,10 @@ easteregg_louise_mutel = {
 		move_to_pool = yes
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6912,6 +7480,10 @@ easteregg_jonathan_collinder = {
 		employer = 34156 #Skane
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 			add_character_flag = has_scripted_appearance
 			add_character_flag = has_scripted_weight
 			add_character_flag = no_headgear
@@ -6963,9 +7535,72 @@ easteregg_liana_tosunyan = {
 		employer = 41513
 		effect = {
 			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
 		}
 	}
 	1066.9.16 = {
+		death = yes
+	}
+}
+
+#Game Designer
+easteregg_laurence_kennedy = {
+	name = "Lorcan"
+	dynasty = vanity_ceanneidigh
+	dna = easteregg_laurence_kennedy_dna
+	
+	religion = "insular_celtic"
+	culture = "irish"
+	
+	#Skills
+	diplomacy = 6
+	martial = 4
+	stewardship = 5
+	intrigue  = 10
+	learning  = 10
+	prowess  = 3
+
+	sexuality = bisexual
+
+	#Education
+	trait = education_diplomacy_3
+
+	#Personality
+	trait = generous
+	trait = gluttonous
+	trait = eccentric
+	#Other
+	trait = lifestyle_reveler
+	trait = fornicator
+	trait = lunatic_1
+	trait = lifestyle_poet
+
+	disallow_random_traits = yes
+
+	1029.11.23 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_flag = no_headgear
+			add_secret = { type = secret_deviant }
+			learn_language = language_anglic
+			learn_language = language_french
+		}
+	}
+	1066.9.15 = {
+		employer = 83355
+		effect = {
+			add_character_flag = easteregg
+			add_to_global_variable_list = {
+				name = easteregg_characters_list
+				target = root
+			}
+		}
+	}
+	1111.9.16 = {
 		death = yes
 	}
 }

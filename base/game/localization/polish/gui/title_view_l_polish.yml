@@ -68,7 +68,7 @@
  TITLE_VIEW_USURP_TITLE: "Uzurpuj"
  USURP_TITLE_TITLE: "Uzurpuj tytuł: [TITLE.GetBaseNameNoTierNoTooltip]"
  USURP_TITLE_TOOLTIP_TITLE: "#T Uzurpuj tytuł: [TITLE.GetBaseNameNoTier]#!"
- USURP_TITLE_TEXT: "Uzurpuj prawo do miejsca znanego jako [TITLE.GetName] od postaci, którą jest [TITLE.GetHolder.GetUINameNotMe].\n Koszt:\n[SelectLocalization(GetPlayer.GetGovernment.IsType('meritocratic_government'), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\nZyskam [prestige_i] $PRESTIGE|0V$\n\n[TITLE.GetHolder.GetUINameNotMe] straci [Concept('legitimacy', 'legitymację')|E]."
+ USURP_TITLE_TEXT: "Uzurpuj prawo do miejsca znanego jako [TITLE.GetName] od postaci, którą jest [TITLE.GetHolder.GetUINameNotMe].\n Koszt:\n[SelectLocalization( Or( GetPlayer.GetGovernment.IsType( 'celestial_government' ), Or(GetPlayer.GetGovernment.IsType( 'meritocratic_government' ), GetPlayer.GetGovernment.IsType( 'administrative_government' ))), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\nZyskam [prestige_i]$PRESTIGE|0V$\n\n[TITLE.GetHolder.GetUIName NotMe] straci [Concept('legitimacy', 'legitymację')|E]."
  USURP_TITLE_DESC_GOLD: "[gold_i]"
  USURP_TITLE_DESC_TREASURY: "[treasury_i]"
  USURP_TITLE_ACCEPT: "Uzurpuj"

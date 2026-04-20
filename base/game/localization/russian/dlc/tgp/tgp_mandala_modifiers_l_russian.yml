@@ -60,5 +60,5 @@
  is_mandala_government: "[Concept('mandalas', 'Мандалы')|E] предпочитают быть [Concept('tributaries', 'данниками')|E]: $VALUE|=+0$"
  is_disbelieved_mandala: "Вы — [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]: $VALUE|=+0$"
  base_with_value: "Базовое значение: $VALUE|=+0$"
- has_aspect_of_serenity: "$aspect_of_serenity_house_power$: $VALUE|=+0$"
+ has_aspect_of_serenity: "$aspect_of_serenity_house_aspiration$: $VALUE|=+0$"
  mandala_ai_godking_modifier: "Начинающий девараджа: $VALUE|=+0$"

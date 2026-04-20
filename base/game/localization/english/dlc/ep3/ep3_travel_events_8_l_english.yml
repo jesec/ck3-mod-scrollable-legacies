@@ -29,5 +29,4 @@
  rival_laamp_stole_my_child: "[TARGET_CHARACTER.GetShortUIName|U] convinced [CHARACTER.GetShortUINamePossessive] child to leave court and become an adventurer."
  rival_laamp_stole_my_child_corresponding: "[CHARACTER.GetShortUIName|U] convinced [TARGET_CHARACTER.GetShortUINamePossessive] child to leave court and become an adventurer."
  graverobber_opinion: "Grave Robber"
- laamp_claimant_opinion: "Claiming my Title"
-
+ laamp_claimant_opinion: "Claiming My Title"

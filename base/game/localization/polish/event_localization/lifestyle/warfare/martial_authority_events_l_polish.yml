@@ -33,7 +33,7 @@
  martial_authority.2050.desc.ending: "Czy sprawdzi się [right_hand_person.GetSheHe] w byciu moją prawą ręką? Czy mogę liczyć na to, że będzie aktywnie zarządzać moimi włościami?"
  martial_authority.2050.a: "Tak, [right_hand_person.GetSheHe] będzie mi dobrze służyć!"
  martial_authority.2050.a.tt: "Spędzisz więcej czasu razem z [right_hand_person.GetShortUINameNotMe]"
- martial_authority.2050.b: "[marshal.GetFirstNameNoTooltip], a dla mnie [marshal.Custom2('RelationToMeShort', ROOT.Char)], poradzi sobie z tymi problemami."
+ martial_authority.2050.b: "[marshal.GetFirstNameNoTooltip], A dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))], poradzi sobie z tymi problemami."
  martial_authority.2050.c: "Poradzę sobie ze wszystkim, jeśli będę ciężej pracować!"
  martial_authority.2050.toast.title: "[right_hand_person.GetShortUINameNotMe] służy teraz jako twoja prawa ręka."
  martial_authority.2051.t: "Dodatkowa para rąk"

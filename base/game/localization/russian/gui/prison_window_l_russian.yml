@@ -22,6 +22,6 @@
  MASS_PRISONER_ACTION_RANSOM_ACCEPT: "Отпустить за выкуп"
  MASS_PRISONER_ACTION_RELEASE_ACCEPT: "Отпустить"
  MASS_PRISONER_ACTION_EXECUTE_ACCEPT: "Казнить"
- PRISONER_IS_LOCKED_FROM_MASS_ACTION: "Щелкните, чтобы включить в массовое действие"
- PRISONER_IS_NOT_LOCKED_FROM_MASS_ACTION: "Щелкните, чтобы исключить из массовых действий"
+ PRISONER_IS_LOCKED_FROM_MASS_ACTION: "Щелкните, чтобы включить в массовые действия"
+ PRISONER_IS_NOT_LOCKED_FROM_MASS_ACTION: "Щелкните, чтобы исключить из массового действия"
  MASS_PRISONER_ADDITIONAL_REASONS: "#X ...и так далее#!"

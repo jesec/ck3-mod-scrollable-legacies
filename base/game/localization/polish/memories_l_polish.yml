@@ -1106,7 +1106,7 @@
  hostage_spared_desc_1: "przyszło mi oszczędzić życie zakładnika, osoby znanej jako [hostage.GetTitledFirstName] i [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] postaci, która zwie się [home_court.GetTitledFirstName]"
  hostage_spared_desc_second_perspective_1: "przyszło ci oszczędzić zakładnika, osobę znanej jako [hostage.GetTitledFirstName] i [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] postaci, która zwie się [home_court.GetTitledFirstName]"
  hostage_spared_desc_third_perspective_1: "postać, którą jest [owner.GetTitledFirstName], oszczędziła życie zakładnika, osoby znanej jako [hostage.GetTitledFirstName] i [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] postaci, która zwie się [home_court.GetTitledFirstName]"
- hostage_died: "śmierć zakładnika"
+ hostage_died: "Śmierć zakładnika"
  hostage_died_desc_1: "osoba o imieniu [hostage.GetFirstName], będąca moim zakładnikiem, [hostage.GetDeathReasonHideKiller]"
  hostage_died_desc_1_known_killer: "osoba o imieniu [hostage.GetFirstName], będąca moim zakładnikiem, [hostage.GetDeathReason]"
  hostage_died_desc_second_perspective_1: "osoba o imieniu [hostage.GetFirstName], będąca twoim zakładnikiem, [hostage.GetDeathReason]"

@@ -1,5 +1,5 @@
 ﻿l_polish:
- tribute_mission_header: "Misja trybutowa:"
+ tribute_mission_header: "Misja zapłaty trybutu:"
  #Tributary: Fork over Tribute
  tribute_mission_suzerain_legitimacy_gain_title: "Zyskano legitymację za trybut"
  tribute_mission_tributary_subject_standing_gain_title: "Zyskano status: [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')] [tributary_scope.Custom('SubjectStanding')|l]"

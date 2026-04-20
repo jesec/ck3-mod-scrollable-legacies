@@ -10,7 +10,7 @@
  let_me_keep_my_job_opinion: "允许我保留职位"
  rejected_my_enemy_opinion: "拒绝招待我的敌人"
  failed_comfort_opinion: "没能安慰我"
- listened_opinion: "倾听吾诉"
+ listened_opinion: "听我讲话"
  made_amends_opinion: "赔偿"
  blames_for_death_of_relative_opinion: "要为谋害我的亲人负责"
  avenged_relative_opinion: "为我的亲人报仇"
@@ -18,3 +18,4 @@
  ignored_demands_opinion: "无视我的要求"
  happy_opinion: "高兴"
  privileges_to_people_opinion: "给予人民特权"
+ opinion_welcomed_with_tea: "以茶待我"

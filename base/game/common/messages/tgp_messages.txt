@@ -35,10 +35,10 @@ msg_house_relation_level_changed_bad = {
 	message_filter_type = house_relation_changed
 	combine_into_one = yes # avoids feed spam from mass executions and family purges
 }
-msg_house_relation_cleared = {
+msg_house_relation_ended = {
 	icon = "default_house_relation_level_neutral"
-	title = event_message_title
-	desc = event_message_text
+	title = house_relation_ended_message_title
+	desc = house_relation_ended_message_desc
 	style = neutral
 	message_filter_type = house_relation_changed
 }
@@ -164,6 +164,14 @@ msg_natural_disaster_army_damaged_bad = {
 	desc = event_message_effect
 	style = bad
 	message_filter_type = natural_disaster_army_damaged
+}
+
+msg_natural_disaster_army_events = {
+	icon = "natural_disaster_generic"
+	title = event_message_title
+	desc = event_message_effect
+	style = bad
+	message_filter_type = natural_disaster_started
 }
 
 msg_tributary_capital_province_development_growth = {

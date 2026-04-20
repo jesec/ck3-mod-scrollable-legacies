@@ -5,7 +5,7 @@
  submit_to_the_great_khan_decision_tooltip: "あなたは最も偉大なるハンの封臣になる"
  mongol_invasion.1001.title: "ハンが死んだ！"
  mongol_invasion.1001.generic.desc: "[ROOT.Char.GetFaith.HighGodName]は温情に溢れ、[ROOT.Char.GetFaith.DeathDeityName]は最強の者すら倒す！よい知らせだ——馬上の王にして略奪者である[old_khan.GetTitledFirstNameNicknamed]は[old_khan.GetDeathReasonHideKiller|l]。\n\n我々は怖気を振るいつつ、すでに[new_khan.GetPrimaryTitle.GetNameNoTier]の新たな恐るべき支配者について噂しあっている。しかしこの[new_khan.GetTitledFirstNameNicknamed]が[new_khan.GetHerHis]の祖先ほど恐ろしい#EMP はずはない#!。\n\nいや、もしかすると[new_khan.GetPrimaryTitle.GetAdjectiveNoTooltip]の征服も、これで終焉を迎えるのかもしれない。"
- mongol_invasion.1001.sympathetic.desc: "#EMP ああ、この嘆きよ！この悲痛な叫びよ！#! この地上すべてを征服すべく天に選ばれた偉大なる [old_khan.GetTitledFirstNameNicknamed]はもはやこの世にはいないのだ。人々は[old_khan.GetTitleAsNameNoTooltip]は[old_khan.GetDeathReasonHideKiller|l]と言う。\n\nその主が世を去ったことで、[new_khan.GetPrimaryTitle.GetName]は高位の#EMP クリルタイ#!を招集し、新たな[new_khan.GetTitleAsNameNoTooltip]の宣言を行った。\n\nかくして[old_khan.GetFirstNameNoTooltip]は永遠の空を駆け、この地すべては[new_khan.GetTitledFirstNameNicknamed]の手に委ねられるのだ！"
+ mongol_invasion.1001.sympathetic.desc: "#EMP ああ、この嘆きよ！この悲痛な叫びよ！#! この地上すべてを征服すべく天に選ばれた偉大なる [old_khan.GetTitledFirstNameNicknamed]はもはやこの世にはいないのだ。人々は[old_khan.GetTitleAsNameNoTooltip]は[old_khan.GetDeathReasonHideKiller|l]と言う。\n\nその主が世を去ったことで、[new_khan.GetPrimaryTitle.GetDefinitiveName]は高位の#EMP クリルタイ#!を招集し、新たな[new_khan.GetTitleAsNameNoTooltip]の宣言を行った。\n\nかくして[old_khan.GetFirstNameNoTooltip]は永遠の空を駆け、この地すべては[new_khan.GetTitledFirstNameNicknamed]の手に委ねられるのだ！"
  mongol_invasion.1001.a: "それでもなお、私の手は震えている…"
  mongol_invasion.1001.b: "偉大なる[new_khan.GetPrimaryTitle.GetTierAsNameNoTooltip]は生き延びる。"
  mongol_invasion.1001.c: "[old_khan.GetFirstNameNoTooltip]は[ROOT.Char.GetFaith.NegativeAfterLife]で名誉ある地位を占める。"

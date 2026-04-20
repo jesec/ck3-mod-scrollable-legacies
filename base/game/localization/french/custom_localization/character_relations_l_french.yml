@@ -1,7 +1,7 @@
 ﻿l_french:
  OPINION_REASON_SELF: "Opinion de soi : $VALUE|=+0$"
  OPINION_REASON: "$MODIFIER$ : $VALUE|=+0$"
- OPINION_REASON_HOUSE_RELATION: "[HOUSE_RELATION.GetName] [HOUSE_RELATION.GetLevel.GetName] #weak ([house_relation|El])#! : $VALUE|=+0$"
+ OPINION_REASON_HOUSE_RELATION: "[house_relation|El] [HOUSE_RELATION.GetName] [HOUSE_RELATION.GetLevel.GetName|l] : $VALUE|=+0$"
  OPINION_REASON_EXTRA_REASON: "$MODIFIER$ : $VALUE|=+0$ #weak ($EXTRA_REASON$)#!"
  OPINION_REASON_CHANGING: "$MODIFIER$ : $VALUE|=+0$$CHANGE$"
  OPINION_REASON_UNTIL: "$MODIFIER$ : $VALUE|=+0$ #weak jusqu’au [DATE.GetStringShort|V]#!"

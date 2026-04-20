@@ -10,7 +10,7 @@
  pdi_patrilinial_marriage_as_woman: "[marriage|E] [patrilineal|El]"
  pdi_matrilinial_marriage_as_man: "[marriage|E] [matrilineal|El]"
  pdi_is_in_debt: "En [debt|El]"
- pdi_has_poor_health: "[health|E] : $action_dying$"
+ pdi_has_poor_health: "[health|E] : $action_dying|l$"
  pdi_in_regency: "Dans une [regency|El]"
  pdi_admin_without_noble_title: "Est [administrative|El] mais n’a pas de [title|El] de [noble_family|El]"
  pdi_herder_to_nomad: "#alert_trial Deviendra un [ruler|El] [GetGovernment( 'nomad_government' ).GetName|l] si choisi#!"

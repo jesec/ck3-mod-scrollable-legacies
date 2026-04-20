@@ -339,7 +339,7 @@
  laamp_base_6031_request: "이 [task_contract|E]는 당신이 [GetScheme('laamp_base_6031_contract_scheme').GetTypeName] [scheme|E]을 완료하길 요구함"
  laamp_base_6031_desc_title: "굳센 인재를 구합니다!"
  laamp_base_6031_desc: "[TaskContract.GetEmployer.GetPrimaryTitle.GetNameNoTier]의 다리가 무방비 상태에 놓여 있습니다. 도적을 막아내려면 힘을 보여주어야 합니다. [TaskContract.GetEmployer.GetTitledFirstNameNoTooltip]께서는 도적들을 막아내는 자가 누구든 보상을 지급하시겠답니다."
- laamp_base_contract_schemes.6031.t: "$laamp_base_6021_contract_scheme$"
+ laamp_base_contract_schemes.6031.t: "$laamp_base_6031_contract_scheme$"
  laamp_base_contract_schemes.6031.desc: "[employer.GetTitledFirstName](이)가 야영지를 가로질러 걸어오며 [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('employer'))].\n\n\"참으로 아름다운 아침이로군.\" [employer.GetSheHe]가 입을 열었다. \"저 불량배 놈들한테 진정한 $knight_culture_player_no_tooltip$의 가치를 보여 줄 기회가 왔네. 저쪽에 [ROOT.Char.GetCurrentLocation.GetName](으)로 바로 향하는 다리가 있지. 온갖 악한과 멍청이와 어리석은 놈이 거기 다 모여 있다네.\"\n\n\"놈들을 처리해 줄 사람이 필요해.\""
  laamp_base_contract_schemes.6031.a: "랜스란 랜스는 모조리 부러뜨려 주지!"
  laamp_base_contract_schemes.6031.b: "며칠은 걸리겠군."

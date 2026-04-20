@@ -311,8 +311,8 @@
 
  accepted_my_invitation: "Accepted My Invitation"
  refused_my_invitation: "Refused My Invitation"
- declined_with_decorum: "Declined With Decorum"
- festival_gazed_at_moon_together: "Shared Moon-Gazing"
+ declined_with_decorum: "Declined with Decorum"
+ festival_gazed_at_moon_together: "Shared Moon-gazing"
  festival_moon_gazed_house_log_title: "By the Light of the Moon"
  festival_moon_gazed_house_log: "[CHARACTER.GetName] gazed at the moon alongside [TARGET_CHARACTER.GetName]"
 

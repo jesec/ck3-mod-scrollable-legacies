@@ -35,7 +35,7 @@
  UNIT_STATE_SIEGING: "Sitiando"
  UNIT_STATE_EMBARKED: "Embarcado"
  UNIT_STATE_GATHERING: "Reuniendo: faltan $VALUE$"
- UNIT_STATE_MOVING: "Marchando"
+ UNIT_STATE_MOVING: "En movimiento: quedan $DAYS_LEFT$ días"
  UNIT_STATE_RAIDING: "Asaltando"
  UNIT_STATE_BARTERING: "Trueque"
  UNIT_STATE_RETREATING: "Retirándose a [PROVINCE.GetName]"

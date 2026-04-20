@@ -63,7 +63,7 @@
  tgp_japan_general.9550.desc.fam: "\n\n我与家人蜷缩在一起。"
  tgp_japan_general.9550.desc.end: "每过一秒，狐狸都在逼近我们这些笼中之鸡。\n\n我们[ROOT.Char.GetHouse.GetNameNoTooltip]族人将如何面对最后的时刻？"
  every_close_family_house_member_in_court: "你和[loser.GetShortUINamePossessive][court|E]的所有[spouse|E]和[close_family|E][house|E]成员"
- every_house_member_in_court: "[loser.GetShortUINamePossessive]的[spouse|E]及其[court|E]内的所有[house|E]成员"
+ every_house_member_in_court: "[loser.GetShortUINamePossessive]的[spouses|E]及其[court|E]内的所有[house|E]成员"
  is_killed_by_you_and_you_kill_self: "@death_icon!将为免遭落入[winner.GetShortUIName]手中的屈辱而自尽"
  tgp_japan_general.9550.a.alone: "我不会不光彩地死去！"
  tgp_japan_general.9550.a.alone.flavor: "我一个人自杀"

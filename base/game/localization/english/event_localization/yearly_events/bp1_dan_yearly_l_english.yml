@@ -68,11 +68,11 @@
  bp1_yearly.7007.a:0 "This is wonderful!"
  bp1_yearly.7007.b:0 "You altered MY [borrowed_artifact.GetNameNoTooltip]?"
  
- didnt_trust_friend_opinion:0 "Didn't trust me."
- trusted_friend_opinion:0 "Trusted me."
- forgave_me_opinion:0 "Forgave me."
- improved_artifact_opinion:0 "Improved my artifact."
- messed_with_artifact_opinion:0 "Messed with my artifact."
+ didnt_trust_friend_opinion:0 "Didn't Trust Me"
+ trusted_friend_opinion:0 "Trusted Me"
+ forgave_me_opinion:0 "Forgave Me"
+ improved_artifact_opinion:0 "Improved My Artifact"
+ messed_with_artifact_opinion:0 "Messed with My Artifact"
  
  bp1_yearly.7010.t:1 "A Test of Loyalty"
  bp1_yearly.7010.desc:2 "I can't stop thinking about where [tested_friend.GetFirstNamePossessive] loyalties lie. Is [tested_friend.GetSheHe] a true friend, or just a sycophant?\n\nPerhaps a little test will put my mind to rest...\n\nOne of my agents, a fake secret, and an anonymous gift. What would make [tested_friend.GetHerHim] betray my trust?"

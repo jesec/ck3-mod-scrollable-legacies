@@ -2596,3 +2596,7 @@
  building_type_mozu_tombs_desc: "$building_mozu_tombs_desc$"
  building_mozu_tombs: "Kofuny w Mozu"
  building_mozu_tombs_desc: "Kopce w kształcie dziurki od klucza w Mozu są podobno miejscem spoczynku dawnych cesarzy. Dla statków w pobliskiej zatoce stanowią charakterystyczny punkt orientacyjny, a także przypomnienie minionych czasów."
+ building_type_trosky_castle_01: "$building_trosky_castle_01$"
+ building_type_trosky_castle_01_desc: "$building_trosky_castle_01_desc$"
+ building_trosky_castle_01: "Zamek Trosky"
+ building_trosky_castle_01_desc: "Zamek Trosky wznosi się pomiędzy dwiema bazaltowymi skałami dawno wygasłego wulkanu. Budowla wzięła swoją nazwę od kształtu skały, przywodzącego na myśl ruiny zawalonej twierdzy."

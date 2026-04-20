@@ -1,8 +1,8 @@
 ﻿l_polish:
  confucianism_religion: "Konfucjanizm"
  confucianism_religion_adj: "Konfucjańska"
- confucianism_religion_adherent: "Konfucjanin"
- confucianism_religion_adherent_plural: "Konfucjanie"
+ confucianism_religion_adherent: "konfucjanin"
+ confucianism_religion_adherent_plural: "konfucjanie"
  confucianism_religion_desc: "Konfucjanie wyznają nauki [Glossary( 'Kǒngzǐ', 'CONFUCIUS_GLOSS' )] – mistrza Konga – i wierzą, że państwem i jego obywatelami właściwie zarządzać będą jedynie ludzie cnotliwi."
  confucianism_high_god_name: "Niebo"
  confucianism_high_god_name_2: "$confucianism_high_god_name$"

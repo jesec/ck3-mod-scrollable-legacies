@@ -15,7 +15,7 @@
  TITLE_APPOINTMENT_SCORE_TT_HEADING: "[candidate_score|E] : [AppointmentCandidateCharacterList.GetAppointmentScoreByIndex( CharacterListItem.GetIndex )|0]"
  TITLE_APPOINTMENT_RANK_SMALL: "[SelectLocalization( IsZero( AdminMeritPool.GetCandidatePosition( Character.Self ) ), 'TITLE_APPOINTMENT_RANK_SMALL_NONE', 'TITLE_APPOINTMENT_RANK_SMALL_NUMBER' )]"
  TITLE_APPOINTMENT_RANK_SMALL_NONE: "Aucun"
- TITLE_APPOINTMENT_RANK_SMALL_NUMBER: "[AdminMeritPool.GetCandidatePosition( Character.Self )|O]"
+ TITLE_APPOINTMENT_RANK_SMALL_NUMBER: "[AdminMeritPool.GetCandidatePosition( Character.Self )]e"
  TITLE_APPOINTMENT_POOL_TOOLTIP_HEADER: "#T [SelectLocalization( AdminMeritPool.IsMilitary, 'celestial_province_military_text_icon', 'celestial_province_standard_text_icon' )] Candidat [AdminMeritPool.GetPoolTypeName] : [title_tier|El] [AdminMeritPool.GetTitleTierName]#!\n"
  TITLE_APPOINTMENT_POOL_TOOLTIP_FOOTER: "#i Cliquez sur voir la liste des candidats#!"
  TITLE_APPOINTMENT_POOL_TOOLTIP_POSITION: "[AdminMeritPool.GetCandidatePosition( Character.Self )|V]e place quand un [title|El] [AdminMeritPool.GetPoolTypeName] de [title_tier|El] [AdminMeritPool.GetTitleTierName] devient disponible.\n\n"

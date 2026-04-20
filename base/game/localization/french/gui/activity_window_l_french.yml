@@ -102,7 +102,7 @@
  activity_window_character_noble_student: "Étudiant[Character.Custom('FR_E')] noble\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_student: "Étudiant[Character.Custom('FR_E')]\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_teacher: "Professeur\n[Character.GetShortUINameNoTooltip|U]"
- ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "Score : [ActivityWindow.GetSpecialProgressValue|^V]"
+ ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "#ts Score : [ActivityWindow.GetSpecialProgressValue|^V]#!"
  ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP: "#T [ActivityPhase.GetName]#!\nDernière action : [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\n[Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V] jour(s) jusqu’à la prochaine occasion d’[activity_phase_action|El].\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE: "Aucun"
  ACTIVITY_TIME_UNTIL_PROGRESS: " ([Activity.GetEstimatedProgressPhaseDate.GetTimeToDate] avant [Select_CString(Activity.IsCurrentPhaseActive, 'la fin', 'le début')])"

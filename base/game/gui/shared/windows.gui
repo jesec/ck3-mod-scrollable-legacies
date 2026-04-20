@@ -707,8 +707,11 @@ types WindowTypes
 
 		header_text = {
 			name = "header_text"
-			parentanchor = top|hcenter
-			position = { 0 8 }
+			block "header_text_placement" {
+				parentanchor = top|hcenter
+				position = { 0 8 }
+			}
+			
 			align = nobaseline
 		}
 	}

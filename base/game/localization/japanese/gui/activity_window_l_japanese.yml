@@ -102,7 +102,7 @@
  activity_window_character_noble_student: "貴族の学生\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_student: "学生\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_teacher: "教師\n[Character.GetShortUINameNoTooltip|U]"
- ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "スコア: [ActivityWindow.GetSpecialProgressValue|^V]"
+ ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "#ts スコア：[ActivityWindow.GetSpecialProgressValue|^V]#!"
  ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP: "#T [ActivityPhase.GetName]#!\n最後の行動: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\n[Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V]日後に次の[activity_phase_action|E]の機会。\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE: "なし"
  ACTIVITY_TIME_UNTIL_PROGRESS: " （[Activity.GetEstimatedProgressPhaseDate.GetTimeToDate]後に[Select_CString(Activity.IsCurrentPhaseActive, '終える', '始める')]）"

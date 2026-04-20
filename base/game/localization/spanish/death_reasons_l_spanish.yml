@@ -1,6 +1,7 @@
 ﻿l_spanish:
  death_natural_causes: "murió mientras dormía"
  death_old_age: "murió a edad avanzada"
+ death_broken_bones: "murió en una caída al romperse varios de sus frágiles huesos"
  death_bubonic_plague: "murió de [GetTrait('bubonic_plague').GetName( CHARACTER.Self )]"
  death_smallpox: "murió de [GetTrait('smallpox').GetName( CHARACTER.Self )]"
  death_measles: "murió de [GetTrait('measles').GetName( CHARACTER.Self )|l]"
@@ -266,7 +267,7 @@
  death_tournament_pas_darmes_defend_killer: "murió por las heridas recibidas al defender su paso de armas contra [TARGET_CHARACTER.LocalPlayerString( 'ti', TARGET_CHARACTER.GetShortUIName )]"
  death_tournament_pas_darmes_challenge: "murió por las heridas recibidas al desafiar un paso de armas"
  death_tournament_pas_darmes_challenge_killer: "murió por las heridas recibidas al desafiar el paso de armas de [TARGET_CHARACTER.LocalPlayerString( 'tu persona', TARGET_CHARACTER.GetShortUIName )]"
- death_wild_animal: "fue mutilad[CHARACTER.Custom('ES_OA')] viv[CHARACTER.Custom('ES_OA')] por una bestia salvaje"
+ death_wild_animal: "fue mutilad[CHARACTER.Custom('ES_OA')] por una bestia salvaje"
  death_tournament_archery_fall: "murió al caer del caballo en una competición de tiro con arco a caballo"
  death_tournament_quintain_hit: "murió cuando un estafermo [CHARACTER.GetHerHim] tiró del caballo en un torneo"
  death_tournament_piledriver: "cayó de cabeza durante una lucha en un torneo"
@@ -334,6 +335,7 @@
  death_poisonous_forage: "comió una planta venenosa por error"
  death_drowning_in_terrain: "su caballo [CHARACTER.Custom('ES_LoLa')] arrastró y se ahogó mientras intentaba salvarlo"
  death_drowning_in_terrain_killer: "el caballo de [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'tu personaje', TARGET_CHARACTER.GetShortUIName)] [TARGET_CHARACTER.Custom('ES_LoLa')] arrastró y se ahogó mientras intentaba salvarlo"
+ death_lost_in_rainstorm: "se perdió en una tormenta torrencial"
  #BP2
  death_hostage_execution: "fue ejecutad[CHARACTER.Custom('ES_OA')] siendo cautiv[CHARACTER.Custom('ES_OA')]"
  death_hostage_execution_killer: "fue ejecutad[CHARACTER.Custom('ES_OA')] siendo cautiv[CHARACTER.Custom('ES_OA')] de [TARGET_CHARACTER.GetUIName]"
@@ -388,5 +390,7 @@
  death_crowd_stampede_killer: "$death_slain_in_riot$ durante la coronación de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu personaje', TARGET_CHARACTER.GetShortUIName)]"
  death_avoid_dishonor: "se suicidó para evitar el deshonor"
  death_avoid_dishonor_killer: "$death_avoid_dishonor$ por mano de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu personaje', TARGET_CHARACTER.GetShortUIName )]"
- death_eradicated: "y toda su casa fue ejecutada"
- death_eradicated_killer: "$death_eradicated$ por [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu personaje', TARGET_CHARACTER.GetShortUIName )]"
+ death_eradicated: "[CHARACTER.Custom('ES_LoLa')] masacraron junto con toda su casa"
+ death_eradicated_killer: "$death_eradicated$ por orden de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu personaje', TARGET_CHARACTER.GetShortUIName )]"
+ #TGP
+ death_ritual_suicide: "cometió un suicidio ritual"

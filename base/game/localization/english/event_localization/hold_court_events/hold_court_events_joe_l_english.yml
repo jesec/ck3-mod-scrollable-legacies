@@ -619,7 +619,7 @@
  hold_court.8210.duel_tt:0 "[defender_vassal.GetNameOrMeNoTooltip|U] will duel [aggressor_vassal.GetTitledFirstName] for [vassal_claim.GetName]"
  # # The King's Peace
  hold_court.8260.t:0 "The [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] Peace"
- hold_court.8260.desc.intro:1 "[vassal_faction_target.GetFullName]approaches sour-faced, impatient to deliver [vassal_faction_target.GetHerHis] appeal. \n\n"[ROOT.Char.GetTitleAsNameNoTooltip], my [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_faction_leader'))], [vassal_faction_leader.GetTitledFirstName], seeks to challenge my rightful position,"
+ hold_court.8260.desc.intro:1 "[vassal_faction_target.GetFullName] approaches sour-faced, impatient to deliver [vassal_faction_target.GetHerHis] appeal. \n\n"[ROOT.Char.GetTitleAsNameNoTooltip], my [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_faction_leader'))], [vassal_faction_leader.GetTitledFirstName], seeks to challenge my rightful position,"
  hold_court.8220.desc.claimant:0 "and install my [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_claimant'))], [vassal_claimant.GetTitledFirstName], as a usurper in [vassal_faction.GetSpecialTitle.GetNameNoTier]!""
  hold_court.8220.desc.claimant_self:1 "and install [vassal_faction.GetSpecialCharacter.GetHerselfHimself] as [vassal_faction.GetSpecialCharacter.GetLadyLord] of [vassal_faction.GetSpecialTitle.GetNameNoTier]!""
  hold_court.8220.desc.liberty:0 "stifling my power and contradicting my lawful rulings as [vassal_faction.GetLeader.GetHerHis] [vassal_faction_target.GetTitleAsNameNoTooltip]!""

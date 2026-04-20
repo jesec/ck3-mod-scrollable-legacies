@@ -34,6 +34,18 @@
  learning_scholarship.3001.c.tt2: "我没能打动[chaplain.GetFirstName]"
  learning_scholarship.3001.c.toast.tt2: "[chaplain.GetFirstName]拒绝了我的理由"
  #Translate a Great Work, by Petter Vilberg
+ #story cycle loc
+ book_translation_story: "翻译一部巨作"
+ book_translation_story_desc: "翻译一部巨作可以使他人同样受益于它的智慧。完成这一雄心勃勃的壮举将向世人展现你的才华，而失败则使你像个蠢蛋。"
+ TRANSLATION_STORY: "你正在翻译[Story.GetOwner.Custom('TranslationBookLong')]"
+ TRANSLATION_QUALITY: "翻译质量"
+ POOR_TRANSLATION: "糟糕"
+ EXCELLENT_TRANSLATION: "杰出"
+ DURATION_LEFT: "剩余时间"
+ PROGRESS_TOWARDS_CYNICISM: "获得愤世嫉俗的进度"
+ CYNICISM: "愤世嫉俗"
+ ZEALOTRY: "狂热"
+ #event loc
  learning_scholarship_special.2001.t: "新译本"
  learning_scholarship_special.2001.desc: "相较起其他事，我成为一位学识渊博[ROOT.Char.GetWomanMan]的求索让我认识到我有多么无知。更有甚者，这么多知识消失在岁月中，书籍散佚或者语言被遗忘……\n\n也许我能做出贡献，为一本经典著作翻译新译本？\n\n虽说如此，我要翻译什么呢……？"
  learning_scholarship_special.2001.regula_pastoralis: "《牧民守则》——一部关于如何过上好生活的书籍。"

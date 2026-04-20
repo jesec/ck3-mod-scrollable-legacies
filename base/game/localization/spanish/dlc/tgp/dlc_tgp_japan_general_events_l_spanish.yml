@@ -63,7 +63,7 @@
  tgp_japan_general.9550.desc.fam: "\n\nMi familia y yo nos apiñamos juntos."
  tgp_japan_general.9550.desc.end: "A cada segundo, los zorros se acercan a las gallinas enjauladas en las que nos hemos convertido.\n\n¿Cómo afrontaremos los [ROOT.Char.GetHouse.GetNameNoTooltip] nuestros últimos momentos?"
  every_close_family_house_member_in_court: "Tú y todo [spouse|lE] y [Concept('close_family', 'familiar cercano')|E] miembro de la [house|lE] en la corte de [Select_CString( loser.IsLocalPlayer, 'tu personaje', loser.GetShortUIName)]"
- every_house_member_in_court: "[spouse|E] de [Select_CString( loser.IsLocalPlayer, 'tu personaje', loser.GetShortUIName)] y todo miembro de la [house|lE] en la [court|lE] de [Select_CString( loser.IsLocalPlayer, 'tu personaje', loser.GetShortUIName)]"
+ every_house_member_in_court: "Los [spouses|El] de [loser.GetShortUIName] y todo miembro de la [house|El] en su [court|El]"
  is_killed_by_you_and_you_kill_self: "se suicidará para evitar el deshonor de manos de [winner.GetShortUIName] @death_icon!"
  tgp_japan_general.9550.a.alone: "¡No tendré una muerte innoble!"
  tgp_japan_general.9550.a.alone.flavor: "Moriré por mi propia mano"

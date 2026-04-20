@@ -213,9 +213,7 @@ c_nf_korean_bak_seungju = {
 
 # BOK - 복
 
-# Myeoncheon Bok - 면천복
-
-c_nf_bok_myeoncheon = { # Myeoncheon Bok
+c_nf_bok_myeoncheon = { # Myeoncheon Bok - 沔川卜 (면천복)
 	867.1.1 = {
 		liege = k_silla
 		holder = korean_bok_myeoncheon_1 # Hak_sa
@@ -267,7 +265,7 @@ c_nf_cheok_goksan = { # Gokju Cheok
 
 # CHOE - 최
 
-c_nf_choe_dongju = { # Dong-ju (Cheorwon) Choe 
+c_nf_choe_dongju = { # Dongju (Cheorwon) Choe 
 	1066.1.1 = {
 		liege = e_goryeo
 		holder = korean_choe_dongju_1 # Seok
@@ -292,7 +290,7 @@ c_nf_choe_dongju = { # Dong-ju (Cheorwon) Choe
 	}
 }
 
-c_nf_choe_gyeongju = { # Gyeong-ju Choe 
+c_nf_choe_gyeongju = { # Gyeongju Choe 
 	867.1.1 = {
 		liege = k_silla
 		holder = korean_choe_gyeongju_1 # Ji_won
@@ -313,12 +311,15 @@ c_nf_choe_gyeongju = { # Gyeong-ju Choe
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
 		}
 	}
-	1067.1.1 = {
-		holder = 0
+	1178.1.1 = { holder = korean_choe_gyeongju_27 } # Baek_yu
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 }
+		}
 	}
 }
 
-c_nf_choe_haeju = { # Hae-ju Choe 
+c_nf_choe_haeju = { # Haeju Choe 
 	1066.1.1 = {
 		liege = e_goryeo
 		holder = korean_choe_haeju_2 # Chung
@@ -338,7 +339,7 @@ c_nf_choe_haeju = { # Hae-ju Choe
 	}
 }
 
-c_nf_choe_jiksan = { # Jik-san Choe 
+c_nf_choe_jiksan = { # Jiksan Choe 
 	1066.1.1 = {
 		liege = e_goryeo
 		holder = korean_choe_jiksan_1 # ?
@@ -377,7 +378,7 @@ c_nf_choe_suwon = { # Suju Choe
 	}
 }
 
-c_nf_choe_ubong = { # U-bong Choe 
+c_nf_choe_ubong = { # Ubong Choe 
 	1178.1.1 = {
 		liege = e_goryeo
 		holder = korean_choe_ubong_4 # Chung-heong
@@ -538,7 +539,12 @@ c_nf_gim_yeonggwang = { # Yeong-gwang Gim
 		}
 	}
 	1178.1.1 = {
-		holder = 0
+		holder = korean_gim_yeonggwang_7 #
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 }
+		}
 	}
 }
 
@@ -671,7 +677,7 @@ c_nf_gyeon_gaeunhyeon = { # Sangju / Gaeunhyeon Gyeon
 
 # GO - 고
 
-c_nf_go_jeju = { # Je-ju Go - 제주고
+c_nf_go_jeju = { # Jeju Go - 제주고
 	1066.1.1 = {
 		liege = e_goryeo
 		holder = korean_go_jeju_1 # Il
@@ -695,7 +701,7 @@ c_nf_go_jeju = { # Je-ju Go - 제주고
 
 # HAN - 한
 
-c_nf_han_daeheung = { # Dae-heung Han 
+c_nf_han_daeheung = { # Daeheung Han 
 	1178.1.1 = {
 		liege = e_goryeo
 		holder = korean_han_daeheung_8 # Mun-jun
@@ -934,7 +940,7 @@ c_nf_sin_pyeongsan = { # Pyeongsan Sin - 평산신
 
 # JO - 조
 
-c_nf_jo_hoengcheon = { # Hoeng-cheon Jo - 횡천조
+c_nf_jo_hoengcheon = { # Hoengcheon Jo - 횡천조
 	1178.1.1 = {
 		liege = e_goryeo
 		holder = korean_jo_wonju_1 # Yeong_in
@@ -950,7 +956,7 @@ c_nf_jo_hoengcheon = { # Hoeng-cheon Jo - 횡천조
 
 # DU - 두
 
-c_nf_du_dureung = { # Du-reung Du - 杜陵杜 (두릉두)
+c_nf_du_dureung = { # Dureung Du - 杜陵杜 (두릉두)
 	1066.1.1 = {
 		liege = e_goryeo
 		holder = korean_du_dureung_4 # Su_chong
@@ -1159,20 +1165,27 @@ c_nf_yu_pyeongsan = { # Pyeongsan Yu - 平山庾 (평산유)
 # SEO - 이
 
 c_nf_seo_icheon = { # Icheon (Yeongchang) Seo - 이천서
+	867.1.1 = {
+		liege = k_silla
+		holder = korean_seo_icheon_17 # Sin_il
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
 	1066.1.1 = {
 		liege = e_goryeo
 		holder = korean_seo_icheon_9 # Jeong
-		government = meritocratic_government
-		succession_laws = { noble_family_succession_law }
 	}
 	1066.9.15 = {
 		effect = {
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
 		}
 	}
-	1178.1.1 = {
-		holder = korean_seo_icheon_12 # Yeong_gwan
-	}
+	1178.1.1 = { holder = korean_seo_icheon_13 } # Gong
 	1178.10.1 = {
 		effect = {
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 }
@@ -1183,12 +1196,13 @@ c_nf_seo_icheon = { # Icheon (Yeongchang) Seo - 이천서
 # TAK - 탁
 
 c_nf_tak = { # 卓 (탁)
-	1178.1.1 = {
+	1066.1.1 = {
 		liege = e_goryeo
-		holder = korean_tak_1 # 
+		holder = korean_tak_3 # Ji_yeop
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1178.1.1 = { holder = korean_tak_2 } # Jong_seong
 	1178.10.1 = {
 		effect = {
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 }
@@ -1214,7 +1228,7 @@ c_nf_song = { # 宋 (송)
 
 # GANG - 강
 
-c_nf_gang_sincheon = { # Sincheon Gang - 신천강
+c_nf_gang_sincheon = { # Sincheon Gang - 信川康 (신천강)
 	867.1.1 = {
 		liege = k_silla
 		holder = korean_gang_sincheon_121 # Man_ru
@@ -1235,7 +1249,7 @@ c_nf_gang_sincheon = { # Sincheon Gang - 신천강
 	}
 }
 
-c_nf_gang_geumcheon = { # Geumcheon Gang - 금천강
+c_nf_gang_geumcheon = { # Geumcheon Gang - 衿川姜 (금천강)
 	1066.1.1 = {
 		liege = e_goryeo
 		holder = korean_gang_geumcheon_4 # Won_gwang
@@ -1252,7 +1266,7 @@ c_nf_gang_geumcheon = { # Geumcheon Gang - 금천강
 	}
 }
 
-c_nf_gang_jinju = { # Jinju Gang - 진주강
+c_nf_gang_jinju = { # Jinju Gang - 晉州姜 (진주강)
 	1066.1.1 = {
 		liege = e_goryeo
 		holder = korean_gang_jinju_3 # Dan
@@ -1270,6 +1284,56 @@ c_nf_gang_jinju = { # Jinju Gang - 진주강
 }
 
 ### BALHAE
+
+# DAE - 대
+
+c_nf_dae = { # Balhae Dae - 渤海大 (발해대)
+	867.1.1 = {
+		liege = k_balhae
+		holder = balhae_dae_12 # King Geon_hwang
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1066.1.1 = {
+		liege = e_goryeo
+		holder = balhae_dae_34 # Hong_yun
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1178.1.1 = { holder = balhae_dae_38 } # Gyeom
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+}
+
+# GEUM - 검
+
+c_nf_geom_nakrang = { # Nakrang Geom
+	867.1.1 = {
+		liege = k_silla
+		holder = korean_geom_nakrang_1 # 
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1066.1.1 = {
+		holder = 0
+	}
+}
 
 c_nf_go_balhae = { # Go - 고
 	867.1.1 = {
@@ -1295,112 +1359,9 @@ c_nf_go_balhae = { # Go - 고
 	1178.1.1 = { holder = 0 }
 }
 
-c_nf_wi_balhae = { # Wi - 위
-	867.1.1 = {
-		liege = k_balhae
-		holder = balhae_wi_1 # 
-		government = meritocratic_government
-		succession_laws = { noble_family_succession_law }
-	}
-	867.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
-		}
-	}
-	1066.1.1 = {
-		holder = 0
-	}
-}
-
-c_nf_yeol_balhae = { # Wi - 위
-	867.1.1 = {
-		liege = k_balhae
-		holder = balhae_yeol_1 # 
-		government = meritocratic_government
-		succession_laws = { noble_family_succession_law }
-	}
-	867.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
-		}
-	}
-	1066.1.1 = {
-		holder = 0
-	}
-}
-
-c_nf_o_balhae = { # O - 오
-	867.1.1 = {
-		liege = k_balhae
-		holder = balhae_o_1 # Heung
-		government = meritocratic_government
-		succession_laws = { noble_family_succession_law }
-	}
-	867.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
-		}
-	}
-	1066.1.1 = {
-		holder = 0
-	}
-}
-
-# GEOM - 검
-
-c_nf_geom_nakrang = { # Nakrang Geom
-	867.1.1 = {
-		liege = k_silla
-		holder = korean_geom_nakrang_1 # 
-		government = meritocratic_government
-		succession_laws = { noble_family_succession_law }
-	}
-	867.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
-		}
-	}
-	1066.1.1 = {
-		holder = 0
-	}
-}
-
-# DAE - 대
-
-c_nf_dae = { # Dae
-	867.1.1 = {
-		liege = k_balhae
-		holder = balhae_dae_12 # King Geon_hwang
-		government = meritocratic_government
-		succession_laws = { noble_family_succession_law }
-	}
-	867.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
-		}
-	}
-	1066.1.1 = {
-		liege = e_goryeo
-		holder = balhae_dae_34 # Hong_yun
-	}
-	1066.9.15 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1066.9.15 }
-		}
-	}
-	1178.1.1 = {
-		holder = balhae_dae_38 # Gyeom
-	}
-	1178.10.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1178.1.1 }
-		}
-	}
-}
-
 # MIN - 민
 
-c_nf_min_hwangryeo = { # Dae
+c_nf_min_hwangryeo = {
 	1178.1.1 = {
 		liege = e_goryeo
 		holder = korean_min_hwangryeo_2 # Yeong_mo
@@ -1488,6 +1449,57 @@ c_nf_balhae_mok = {
 	}
 	867.1.1 = { effect = { destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 } } }
 	868.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_o_balhae = { # O - 오
+	867.1.1 = {
+		liege = k_balhae
+		holder = balhae_o_1 # Heung
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1066.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_wi_balhae = { # Wi - 위
+	867.1.1 = {
+		liege = k_balhae
+		holder = balhae_wi_1 # 
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1066.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_yeol_balhae = {
+	867.1.1 = {
+		liege = k_balhae
+		holder = balhae_yeol_1 # 
+		government = meritocratic_government
+		succession_laws = { noble_family_succession_law }
+	}
+	867.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1066.1.1 = {
 		holder = 0
 	}
 }
@@ -1584,10 +1596,11 @@ c_nf_korean_baek_daeheung = {
 }
 
 c_nf_korean_jo_hanyang = {
-	1178.1.2 = {
+	1178.1.1 = {
 		holder = korean_jo_hanyang_1
 		government = meritocratic_government
 		succession_laws = { noble_family_succession_law }
+		liege = d_donggye
 	}
 	1178.10.1 = {
 		effect = {

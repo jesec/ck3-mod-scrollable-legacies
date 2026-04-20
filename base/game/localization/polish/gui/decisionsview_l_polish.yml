@@ -25,6 +25,7 @@
  LEAVE_COUNCIL_CONFIRMATION: "Nie będziesz już czerpać korzyści z bycia [Select_CString(EqualTo_string(CHARACTER.GetCouncilTitle, '$councillor_steward|q$'), 'zarządcą', Select_CString(EqualTo_string(CHARACTER.GetCouncilTitle, '$councillor_marshal|q$'), 'marszałkiem', Select_CString(EqualTo_string(CHARACTER.GetCouncilTitle, '$councillor_chancellor|q$'), 'kanclerzem', Select_CString(EqualTo_string(CHARACTER.GetCouncilTitle, '$councillor_spymaster|q$'), 'mistrzem szpiegów', CHARACTER.GetCouncilTitle))))] w [Concept('council', 'radzie')|E] seniora [CHARACTER.GetLiege.GetUINameNotMe]."
  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "Wyjdź"
  decision_tab_great_projects: "Projekty"
+ GREAT_PROJECTS_TAB: "Wspaniałe projekty"
  AVAILABLE_DECISIONS_VIEW_PROJECTS: "Dostępne [great_projects|El]"
  DECISIONS_VIEW_EMPTY_PROJECTS: "Brak dostępnych [Concept('great_projects', 'wspaniałych projektów')|E]"
  DECISIONS_VIEW_PLANNED_PROJECTS: "Planowane [great_projects|El]"

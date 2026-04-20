@@ -13,7 +13,7 @@
  MIGRATION_WINDOW_DEJURE_KINGDOM_BLOCKED: "@warning_icon! #X 최소 [GetLaw('nomadic_authority_3').GetName] 필요#!"
  MIGRATION_WINDOW_DEJURE_EMPIRE_BLOCKED: "@warning_icon! #X 최소 [GetLaw('nomadic_authority_4').GetName] 필요#!"
  MIGRATION_COLOR_SELECTOR_REALMS: "[realms|E] 표시"
- MIGRATION_COLOR_SELECTOR_FERTILITY: "[fertility|E] 표시"
+ MIGRATION_COLOR_SELECTOR_FERTILITY: "[county_fertility|E] 표시"
  MIGRATION_WINDOW_NOMAD_INFO: "가장 강력한 영주가 당신의 이주에 대한 수락 여부를 결정할 것입니다."
  MIGRATION_WINDOW_ALL_NOMADS_BUTTON: "모든 영주 보기 #weak ([MigrationWindow.GetInvolvedCharacterList.GetTotalNumber])#!"
  MIGRATION_INVOLVED_CHARACTERS_HEADER: "관련 인물"

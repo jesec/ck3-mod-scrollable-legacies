@@ -48,7 +48,7 @@
  FACTIONS_WINDOW_DISCONTENT_TO_WEAK: "최후통첩을 보내기엔 너무 나약함"
  FACTIONS_WINDOW_CASSALC_CANT_CREATE_JOIN: "파벌에 가입할 수 없는 봉신"
  FACTIONS_WINDOW_CREATE_JOIN_EXPLANATION: "[vassal|E]과 [friend|E], [lover|E]이 되거나 [prisoner|E], [ally|E]으로 만들어 [faction|E] 가담을 막을 수 있습니다. 또 [cowed|E]한 상태이거나 당신이 [strong_hook|E]을 가진 상황이라면 역시 파벌 가담을 저어할 것입니다."
- FACTIONS_WINDOW_FACTION_AT_WAR: "전쟁 중"
+ FACTIONS_WINDOW_FACTION_AT_WAR: "[war|E] 중입니다! 이 파벌이 해산되기 전에 최소 [GetDefine( 'NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION' )|V0] [war_score|E]를 확보해야 전쟁에서 승리합니다."
  FACTION_WINDOW_MEMBER_SINGULAR: "구성원 $NUMBER|V$명"
  FACTION_WINDOW_MEMBER_PLURAL: "구성원 $NUMBER|V$명"
  FACTION_WINDOW_LEAVE: "떠나기"

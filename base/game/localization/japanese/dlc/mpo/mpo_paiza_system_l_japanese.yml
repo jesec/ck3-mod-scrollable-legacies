@@ -62,7 +62,7 @@
  mpo_decisions_events.2137.t: "[paiza_merchant.GetFirstNameNoTooltip]の旅"
  mpo_decisions_events.2137.desc_intro: "[paiza_merchant.GetName]は息を整え、遠くを見つめながら語り始める：\n#weak"
  mpo_decisions_events.2137.desc_interludium: "\n\n#![paiza_merchant.GetSheHe|U]は息を切らし、別の地の話をとりとめもなく語り続ける：\n#weak"
- mpo_decisions_events.2137.a: "なるほど"
+ mpo_decisions_events.2137.a: "なるほど。"
  mpo_decisions_events.2137.b: "もっと教えてくれ！"
  mpo_decisions_events.2137.c: "我がユルトに泊まっていかれよ。"
  mpo_decisions_events.2138.t: "遊牧群取引"

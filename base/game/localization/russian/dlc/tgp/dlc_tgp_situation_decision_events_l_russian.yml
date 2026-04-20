@@ -67,6 +67,7 @@
  tgp_dynastic_cycle.0062.desc.interloper: "Чье-то падение всегда означает чье-то вознесение, ведь даже короли и императоры не в силах противостоять судьбе.\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName] [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale, 'завладела', 'завладел' )] Небесным мандатом, и теперь все должны пасть ниц перед [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale, 'новой государыней', 'новым государем' )]."
  tgp_dynastic_cycle.0062.desc.uninvolved: "Империи возносятся и гибнут. Старое уходит прочь, уступая место для нового. [GetTitleByKey('h_china').GetAdjectiveNoTooltip|U]им троном [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale, 'завладела', 'завладел' )] [GetTitleByKey('h_china').GetHolder.GetTitledFirstName], и теперь каждому придется считаться с [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale, 'новой государыней', 'новым государем' )] — даже тем, кто не является подданным [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale, 'ее', 'его' )] державы. Ветры судьбы переменчивы, и к таким изменениям следует относиться со всей серьезностью."
  tgp_dynastic_cycle.0062.a: "Нужно тщательно оценить, на что [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale, 'она способна', 'он способен' )]."
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
  ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
  tgp_dynastic_cycle.0071.t: "За дождем приходит солнце"
  tgp_dynastic_cycle.0071.desc: "Грозовые облака расступились, над [GetTitleByKey('h_china').GetAdjectiveNoTooltip|l]ой державой снова сияет солнце. Я [Select_CString(ROOT.Char.IsFemale, 'сумела', 'сумел' )] преодолеть все посланные мне испытания, и теперь никто не посмеет усомниться в том, что я [Select_CString(ROOT.Char.IsFemale, 'избранная','избранный' )] [ROOT.Char.Custom('GetDaughterSon')] Небес.\n\nТрудные времена остались позади, пришло время проложить новый курс и объединить моих подданных в стремлении к общей цели."
@@ -80,6 +81,8 @@
  tgp_dynastic_cycle.0072.desc.interloper: "В мирное время отважным людям нечасто выдается шанс проявить себя, зато у них будут другие возможности отличиться."
  tgp_dynastic_cycle.0072.desc.uninvolved: "Похоже, что династия [GetTitleByKey('h_china').GetHolder.GetDynastyName] еще не безнадежна."
  tgp_dynastic_cycle.0072.a: "Подул весенний ветер, и из земли вновь поднимается молодая трава."
+ tgp_dynastic_cycle.0072.b: "Мы должны принять волю Небес."
+ tgp_china_consolidation.remain_independent: "Остаться [Concept('independent_ruler', 'независимым правителем')|E]"
  ### ENTER CONSOLIDATION ###
  tgp_dynastic_cycle.0081.t: "После длительного воссоединения империя разобщается"
  tgp_dynastic_cycle.0081.desc: "Небеса содрогнулись, и мир в одно мгновение стал совершенно неузнаваемым.\n\nПреданные министры бегут из столицы, чтобы найти себе новых покровителей, солдаты дезертируют с постов, и даже крестьяне бегут с моих земель, напуганные мыслью о скорых беспорядках.\n\nВо всех бедах винят мое #EMP порочное#! правление. Повсюду говорят, что я [Select_CString(ROOT.Char.IsFemale, 'утратила','утратил' )] Небесный мандат!"

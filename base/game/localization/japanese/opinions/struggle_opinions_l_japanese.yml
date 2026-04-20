@@ -10,7 +10,7 @@
  let_me_keep_my_job_opinion: "自分の地位を守ってくれた"
  rejected_my_enemy_opinion: "敵へのもてなしを拒否した"
  failed_comfort_opinion: "自分を慰めることができなかった"
- listened_opinion: "自分の話を聞いてくれた"
+ listened_opinion: "私の話を聞いた"
  made_amends_opinion: "償いを行った"
  blames_for_death_of_relative_opinion: "自分の親族の仇"
  avenged_relative_opinion: "自分の親戚を復讐してくれた"
@@ -18,3 +18,4 @@
  ignored_demands_opinion: "自分の要求を無視した"
  happy_opinion: "幸せだ"
  privileges_to_people_opinion: "人々に特権を与えた"
+ opinion_welcomed_with_tea: "お茶でもてなされた"

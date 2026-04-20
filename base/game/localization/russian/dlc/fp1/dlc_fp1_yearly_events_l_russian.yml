@@ -481,7 +481,7 @@
  fp1_yearly.1012.a: "Расскажите подробнее, что это за... [stranger.GetFaith.GetAdjectiveNoTooltip|l]..."
  fp1_yearly.1012.a.recoup_lost_piety.tt: "Всё [Concept( 'piety', 'благочестие' )|E], потраченное на содержание проповедника, возмещено"
  fp1_yearly.1012.b: "#EMP Что#! вы делали? Уходите. Немедленно."
- fp1_yearly.1012.c: "Ты [stranger.Custom2('InsultAdjective', ROOT.Char)] [stranger.Custom2('InsultNoun', ROOT.Char)]! #EMP СТРАЖА!#! Арестовать [stranger.GetHerHis]!"
+ fp1_yearly.1012.c: "Ты [stranger.Custom2('InsultAdjective', ROOT.Char)][Select_CString(stranger.IsFemale, 'ая', 'ый' )] [stranger.Custom2('InsultNoun', ROOT.Char)]! #EMP СТРАЖА!#! Арестовать [stranger.GetHerHis]!"
  fp1_yearly.1012.d: "Я принимаю вас на службу."
  fp1_yearly.1012.e: "Благодарю, но у меня хватает советников и теологов."
  fp1_yearly.1012.possible_converts_specific_list: "$fp1_yearly.1011.possible_converts_specific_list$"
