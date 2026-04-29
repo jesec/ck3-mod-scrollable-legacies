@@ -1,5 +1,11 @@
 # Scrollable Legacies Changelog
 
+## v1.0.3 - 2026-04-29
+
+Compatibility bump for CK3 1.19.0.4 hotfix.
+- Clean merge of base/1.19.0.4. No mod files affected.
+
+
 ## v1.0.2 - 2026-04-20
 
 **Deprecated by vanilla**: Paradox added native scrollbox to

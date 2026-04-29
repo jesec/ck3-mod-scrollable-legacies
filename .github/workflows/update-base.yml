@@ -275,24 +275,28 @@ jobs:
             COMMIT_MSG="Version $VERSION ($VERSION_NAME)"$'\n\n'"Released $RELEASE_DATE"$'\n\n'"See release notes for details."
             git commit -m "$COMMIT_MSG"
 
-            # Exact version tag: create once, never move
+            # Exact version tag: create once, never move. Track whether we
+            # created it so we know whether to push it. Force-update runs
+            # often re-emit a commit for the same version, where the tag
+            # already exists on origin and must NOT be re-pushed.
+            TAG_REFSPECS=()
             if git rev-parse "base/$NORMALIZED_VERSION" >/dev/null 2>&1; then
               echo "   base/$NORMALIZED_VERSION exists, skipping exact tag"
             else
               git tag -a "base/$NORMALIZED_VERSION" -m "CK3 $VERSION ($VERSION_NAME)"
+              TAG_REFSPECS+=("refs/tags/base/$NORMALIZED_VERSION")
             fi
             # Floating series tags: force-update to point to this commit
             git tag -af "base/$MINOR_SERIES"   -m "CK3 $VERSION ($VERSION_NAME) - latest patch in $MINOR_SERIES series"
             git tag -af "base/$MAJOR_SERIES"   -m "CK3 $VERSION ($VERSION_NAME) - latest minor in $MAJOR_SERIES series"
             git tag -af "base/$REFRESH_SERIES" -m "CK3 $VERSION ($VERSION_NAME) - latest major in refresh $REFRESH_SERIES"
+            TAG_REFSPECS+=("+refs/tags/base/$MINOR_SERIES")
+            TAG_REFSPECS+=("+refs/tags/base/$MAJOR_SERIES")
+            TAG_REFSPECS+=("+refs/tags/base/$REFRESH_SERIES")
 
             # Push this iteration immediately — partial failures shouldn't cost re-downloads
             git pull --rebase origin "$CURRENT_BRANCH" || git pull --no-rebase origin "$CURRENT_BRANCH"
-            git push origin "$CURRENT_BRANCH" \
-              "refs/tags/base/$NORMALIZED_VERSION" \
-              "+refs/tags/base/$MINOR_SERIES" \
-              "+refs/tags/base/$MAJOR_SERIES" \
-              "+refs/tags/base/$REFRESH_SERIES"
+            git push origin "$CURRENT_BRANCH" "${TAG_REFSPECS[@]}"
 
             echo "✅ $VERSION ($LABEL) committed and pushed"
             rm -rf "$DOWNLOAD_DIR"

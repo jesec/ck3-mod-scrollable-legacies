@@ -190,18 +190,28 @@ async function checkUpdate(storedFilePath) {
     if (gid) liveDepots[key] = String(gid);
   }
 
-  // Depot-level diff. We only iterate over depots we've previously downloaded
-  // (present in stored). Comparing against live-only depots would cause a
-  // retrigger loop for depots our Steam account doesn't own or that are
-  // excluded by DepotDownloader's -os/-language filters: they'd never make
-  // it into stored, so they'd stay "new" in every PICS check.
+  // Depot-level diff. Three buckets per live depot:
+  //   - in stored with matching manifest  → no-op
+  //   - in stored with different manifest → changed (patch landed)
+  //   - in stored only (live removed it)  → changed (deprecated)
+  //   - live-only AND in known_unowned    → ignored (filtered/unowned, stable)
+  //   - live-only AND NOT in known_unowned → changed (possible ownership gain)
+  //
+  // known_unowned_depots is populated by parse() after each download: any
+  // depot PICS reports for the app but DepotDownloader didn't produce a
+  // manifest for (unowned DLC, filtered by -os/-language, etc.). This breaks
+  // the retrigger loop: depots we can't download get recorded once; only
+  // genuinely new depots (e.g. a DLC you just bought) trigger an update.
   //
   // Exception: on a first run (empty stored), treat every live depot as
-  // "changed" so the repo gets seeded. Subsequent runs learn which depots
-  // we actually own from what DD managed to download.
+  // "changed" so the repo gets seeded. parse() then populates both stored
+  // and known_unowned from the download result.
   const firstRun = Object.keys(storedDepots).length === 0;
+  const knownUnowned = new Set(
+    Array.isArray(stored.known_unowned_depots) ? stored.known_unowned_depots.map(String) : []
+  );
   const changed = [];
-  const liveOnlyDepots = [];
+  const liveOnlyIgnored = [];
 
   for (const id of Object.keys(storedDepots)) {
     const s = storedDepots[id]?.manifest != null ? String(storedDepots[id].manifest) : null;
@@ -212,8 +222,14 @@ async function checkUpdate(storedFilePath) {
     if (id in storedDepots) continue;
     if (firstRun) {
       changed.push({ id, stored: null, live: liveDepots[id] });
+    } else if (knownUnowned.has(id)) {
+      liveOnlyIgnored.push({ id, live: liveDepots[id] });
     } else {
-      liveOnlyDepots.push({ id, live: liveDepots[id] });
+      // New depot, never-before-seen. Could be: (a) DLC we just purchased,
+      // (b) new Paradox content depot, (c) DLC PICS exposed before the
+      // workflow's Steam account gained access. Trigger — parse() will
+      // classify it correctly on the next run.
+      changed.push({ id, stored: null, live: liveDepots[id] });
     }
   }
 
@@ -245,9 +261,9 @@ async function checkUpdate(storedFilePath) {
   for (const { id, stored: s, live: l } of changed) {
     console.log(`     depot ${id}: ${s ?? '(new)'} → ${l ?? '(removed)'}`);
   }
-  if (liveOnlyDepots.length > 0) {
-    const list = liveOnlyDepots.map(d => d.id).join(', ');
-    console.log(`   live-only depots (informational, not triggering): ${list}`);
+  if (liveOnlyIgnored.length > 0) {
+    const list = liveOnlyIgnored.map(d => d.id).join(', ');
+    console.log(`   live-only depots in known_unowned (ignored): ${list}`);
   }
   if (intermediateVersions.length > 0) {
     console.log(`   intermediate branches to backfill: ${intermediateVersions.join(', ')}`);
@@ -679,6 +695,49 @@ ${markdown}
   const date = dateMatch ? dateMatch[1] : new Date().toISOString().split('T')[0];
   const url = urlMatch ? urlMatch[1] : '';
 
+  // Reconcile the downloaded depot set against Steam's PICS public-branch
+  // depot declaration for this app. Two things happen here:
+  //   1. Drop any downloaded depot that PICS doesn't list for the app.
+  //      DepotDownloader pulls shared Steamworks redist depots (e.g. 228981,
+  //      228988) alongside the app's own depots; these aren't CK3 content,
+  //      they're Steam-SDK runtime data, and they don't belong in stored —
+  //      keeping them there causes a persistent "changed (removed)" signal
+  //      every run because PICS never lists them.
+  //   2. Compute known_unowned_depots = PICS live set − downloaded set. These
+  //      are CK3 depots the workflow's Steam account doesn't own, or that
+  //      DepotDownloader's -os/-language filters exclude. Recording them
+  //      prevents the check() loop from re-flagging them as "new" each run.
+  let knownUnowned = [];
+  try {
+    console.log('🔍 Reconciling live depot list against what was downloaded...');
+    const appinfo = await fetchPicsAppInfo(Number(CK3_APP_ID));
+    const liveDepotIds = new Set(Object.keys(appinfo.depots || {}).filter(k => /^\d+$/.test(k)));
+
+    // Filter downloaded depots against PICS
+    const dropped = [];
+    for (const id of Object.keys(depots)) {
+      if (!liveDepotIds.has(id)) {
+        dropped.push(id);
+        delete depots[id];
+      }
+    }
+    if (dropped.length > 0) {
+      console.log(`   Dropped ${dropped.length} downloaded depot(s) not in PICS (shared Steam SDK): ${dropped.join(', ')}`);
+    }
+
+    knownUnowned = Array.from(liveDepotIds)
+      .filter(id => !(id in depots))
+      .sort((a, b) => Number(a) - Number(b));
+    if (knownUnowned.length > 0) {
+      console.log(`   ${knownUnowned.length} live depot(s) recorded as known_unowned: ${knownUnowned.join(', ')}`);
+    } else {
+      console.log('   No live depots outside the downloaded set.');
+    }
+  } catch (err) {
+    console.error(`⚠️  Could not fetch PICS to reconcile depots: ${err.message}`);
+    console.error('   .ck3-version.json will omit known_unowned_depots and keep DD\'s full depot set.');
+  }
+
   const metadata = {
     version: version,
     ...(versionName && { version_name: versionName }),
@@ -689,7 +748,8 @@ ${markdown}
       file: `release-notes/${currentReleaseNotesFile}`,
       url: url
     },
-    depots: depots
+    depots: depots,
+    ...(knownUnowned.length > 0 && { known_unowned_depots: knownUnowned })
   };
 
   const metadataPath = path.join(outputDir, '.ck3-version.json');

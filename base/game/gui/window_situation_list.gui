@@ -1350,7 +1350,8 @@ types SituationList
     }
 
 	type widget_story_character_item = widget {
-		size = { 100 125 }
+		layoutpolicy_horizontal = expanding
+		minimumsize = { 500 125 }
 
 		hbox = {
 			spacing = 5
@@ -1380,6 +1381,7 @@ types SituationList
 						align = nobaseline
 						fontsize_min = 14
 						margin_right = 10
+						
 					}
 
 					#hbox_skills_grid = {}
@@ -1392,7 +1394,7 @@ types SituationList
 
 					hbox = {
 						layoutpolicy_horizontal = expanding
-						spacing = 3
+						spacing = 20
 
 						warning_icon = {
 							visible = "[And( Character.CourtierWantsToLeaveCourt, Not( Character.IsImprisoned))]"
@@ -1410,7 +1412,8 @@ types SituationList
 							name = "relation_to_court_owner"
 							default_format = "#low"
 							align = nobaseline
-							max_width = 370
+							layoutpolicy_horizontal = expanding
+							autoresize = no
 							visible = "[Not(Character.IsHostage)]"
 
 							block "description_relation_text" {
@@ -1430,6 +1433,8 @@ types SituationList
 							default_format = "#medium"
 							align = nobaseline
 							visible = "[Character.IsHostage]"
+							layoutpolicy_horizontal = expanding
+							autoresize = no
 
 							block "description_relation_text" {
 								text = "[Character.GetRelationToString( Story.GetOwner )]"
@@ -1442,15 +1447,15 @@ types SituationList
 								alpha = 0.5
 							}
 						}
-						expand = {}
+						
 
 						text_single = {
 							name = "has_guardian"
 							default_format = "#low"
 							align = nobaseline
-							max_width = 370
 							margin_right = 5
 							visible = "[And( Not(Character.IsAdult), Not(Character.HasGuardian) )]"
+							max_width = 100
 
 							text = "COURT_WINDOW_NO_GUARDIAN"
 							tooltip = "COURT_WINDOW_NO_GUARDIAN_TOOLTIP"

@@ -3,6 +3,7 @@ window = {
 	size = { 670 100% }
 	parentanchor = top|right
 	position = { 30 30 }
+	movable = no
 	visible = "[CourtVisualsWindow.GetRoyalCourtWindow.IsActiveVisualsTab]"
 	layer = middle
 

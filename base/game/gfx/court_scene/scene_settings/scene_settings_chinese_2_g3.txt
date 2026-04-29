@@ -1,6 +1,7 @@
 name="Chinese_2_g3"
 culture=chinese_alt
 visual_culture_level=3
+requires_dlc_flag=all_under_heaven
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment_china_alt.txt"
 audio_culture=6.000000
