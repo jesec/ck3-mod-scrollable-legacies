@@ -1,5 +1,12 @@
 # Scrollable Legacies Changelog
 
+## v1.0.4 - 2026-07-05
+
+Compatibility bump for CK3 1.19.0.6 (through 1.19.0.5).
+- Clean merge of base/1.19.0.6. No mod files affected.
+- Remains a no-op: vanilla scrollbox (since 1.19.0) supersedes this mod.
+
+
 ## v1.0.3 - 2026-04-29
 
 Compatibility bump for CK3 1.19.0.4 hotfix.
